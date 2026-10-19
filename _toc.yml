@@ -15,3 +15,4 @@ parts:
   - caption: Álgebra
     chapters:
       - file: Clases/Algebra/01_Intervalos_en_la_Recta_Real
+      - file: Clases/Algebra/02_Ecuaciones_Lineales_y_Modelamiento
