@@ -131,5 +131,58 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
     3. **Intervalos:** Esquemas de rectas numéricas con regiones de unión, intersección y diferencia.
     4. **Funciones Cuadráticas:** Parábola, vértice, eje de simetría y puntos de corte.
 
+---
 
+### `[ERR-014]` Reemplazo de Mermaid por Figuras Vectoriales LaTeX (TikZ + `tkz-euclide` / `pgfplots`)
+* **Fecha:** 2026-10-19
+* **Problema:** Los bloques `{mermaid}` fallan en la compilación de Sphinx/Jupyter Book o generan diagramas toscos y no aptos para geometría euclidiana rigurosa.
+* **Causa Raíz:** Sphinx requiere dependencias de Node.js externas para compilar Mermaid, y además Mermaid no posee precisión geométrica ni soporte para fuentes tipográficas de LaTeX como Computer Modern.
+* **Invariante / Regla Aprendida:**
+  1. **NUNCA usar `{mermaid}` en los temas.**
+  2. Para figuras geométricas y de funciones, usar exclusivamente **LaTeX nativo** con **TikZ**, **`tkz-euclide`** y **`pgfplots`**.
+  3. Las figuras se compilan a SVG vectorial mediante `pdflatex` + `dvisvgm` usando el helper estandarizado `scratch/tikz_to_svg.py`.
+  4. Los archivos SVG resultantes se guardan en `assets/<materia>/<nombre_figura>.svg` y se integran en el Markdown mediante la directiva:
+     ````markdown
+     ```{figure} ../../assets/<materia>/<nombre_figura>.svg
+     ---
+     width: 90%
+     align: center
+     alt: Descripción técnica
+     ---
+     *Leyenda explicativa con notación matemática.*
+     ```
+     ````
 
+---
+
+### `[ERR-015]` Estructura Jerárquica Obligatoria en `_toc.yml`
+* **Fecha:** 2026-10-19
+* **Problema:** Una lista plana de archivos en `_toc.yml` desordena el menú lateral de Jupyter Book e impide la navegación agrupada por asignaturas.
+* **Causa Raíz:** El usuario requiere una navegación jerárquica con páginas de aterrizaje por curso (landing pages) y secciones anidadas.
+* **Invariante / Regla Aprendida:**
+  * La estructura en `_toc.yml` debe seguir estrictamente el formato:
+    ```yaml
+    format: jb-book
+    root: index
+    chapters:
+      - file: Clases/Aritmetica/index
+        sections:
+          - file: Clases/Aritmetica/01_...
+      - file: Clases/Algebra/index
+        sections:
+          - file: Clases/Algebra/01_...
+      - file: Clases/Geometria/index
+        sections:
+          - file: Clases/Geometria/01_...
+    ```
+  * Cada asignatura debe contar con su archivo `index.md` que resuma el mapa curricular, competencias e indicadores clave de Beca 18 / CNEB.
+
+---
+
+### `[ERR-016]` Sintaxis de `tkz-euclide` Versión 4 y 5
+* **Fecha:** 2026-10-19
+* **Problema:** Error `\tkzDrawCircle needs two points (center,point)` al compilar código antiguo de `tkz-euclide`.
+* **Causa Raíz:** En `tkz-euclide` v4+, `\tkzDrawCircle[in](A,B,C)` ya no se permite directamente; se debe definir primero el círculo y sus puntos con `\tkzDefCircle[in](A,B,C)\tkzGetPoints{I}{P}` y luego graficar con `\tkzDrawCircle(I,P)`.
+* **Invariante / Regla Aprendida:**
+  * Círculo inscrito: `\tkzDefCircle[in](A,B,C)\tkzGetPoints{I}{P}` y luego `\tkzDrawCircle(I,P)`.
+  * Círculo circunscrito: `\tkzDefCircle[circum](A,B,C)\tkzGetPoints{O}{P}` y luego `\tkzDrawCircle(O,P)`.

@@ -47,6 +47,20 @@ Este documento define las normas obligatorias para asegurar que toda fórmula ma
 ---
 
 ## 3. Protocolo de Verificación Pre-Commit
-Antes de finalizar cualquier fascículo:
+Antes de finalizar cualquier tema:
 1. Ejecutar el script de auditoría `check_latex.py`.
 2. Verificar que no haya advertencias de líneas en blanco, dólares impares ni comandos no estándar.
+
+---
+
+## 4. Estándar de Figuras Geométricas y Gráficos (TikZ + tkz-euclide + pgfplots)
+1. **Compilación Nativa a SVG:**
+   * No usar Mermaid ni imágenes estáticas de baja resolución.
+   * Utilizar scripts en Python (`scratch/tikz_to_svg.py`) que compilen fragmentos de LaTeX con paquetes `tkz-euclide`, `tikz` y `pgfplots` a archivos vectoriales SVG mediante `pdflatex` y `dvisvgm`.
+2. **Convenciones de tkz-euclide:**
+   * Utilizar la sintaxis moderna (v4+):
+     - Incírculo: `\tkzDefCircle[in](A,B,C)\tkzGetPoints{I}{P}` $\implies$ `\tkzDrawCircle(I,P)`
+     - Circuncírculo: `\tkzDefCircle[circum](A,B,C)\tkzGetPoints{O}{P}` $\implies$ `\tkzDrawCircle(O,P)`
+3. **Inclusión en el Libro:**
+   * Guardar los archivos vectoriales en `assets/<materia>/<nombre_figura>.svg`.
+   * Referenciarlos usando la directiva `{figure}` de MyST.

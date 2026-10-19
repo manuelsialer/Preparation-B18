@@ -26,3 +26,11 @@ chapters:
       - file: Clases/Algebra/10_Factorizacion_y_Fracciones_Algebraicas
       - file: Clases/Algebra/11_Radicacion_y_Racionalizacion
       - file: Clases/Algebra/12_Logaritmos_y_Ecuaciones_Exponenciales
+  - file: Clases/Geometria/index
+    sections:
+      - file: Clases/Geometria/01_Puntos_y_Lineas_Notables_en_el_Triangulo
+      - file: Clases/Geometria/02_Relaciones_Metricas_en_Triangulos
+      - file: Clases/Geometria/03_Cuadrilateros_y_Propiedades
+      - file: Clases/Geometria/04_Poligonos_Regulares_y_Propiedades
+      - file: Clases/Geometria/05_Circunferencia_y_Circulo
+      - file: Clases/Geometria/06_Cuerpos_de_Revolucion_Cilindro_Esfera_y_Cono
