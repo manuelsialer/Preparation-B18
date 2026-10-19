@@ -1,4 +1,4 @@
-# Módulo de Álgebra
+# Álgebra
 
 Bienvenido al módulo oficial de **Álgebra Preuniversitaria** para la preparación al **Examen Nacional de Preselección (ENP) Beca 18** y admisión a universidades nacionales y particulares de alta exigencia académica.
 
@@ -21,9 +21,9 @@ El módulo cubre los temas angulares del álgebra elemental y superior con teor�
 | **07** | [Función Cuadrática](07_Funcion_Cuadratica.md) | Parábola, coordenadas del vértice, concavidad, eje de simetría y problemas de optimización (máximos y mínimos) |
 | **08** | [Polinomios y Operaciones](08_Polinomios_y_Operaciones.md) | Grados absoluto y relativo, polinomios especiales, valor numérico y productos notables |
 | **09** | [División Algebraica y Teorema del Resto](09_Division_Algebraica_y_Teorema_del_Resto.md) | Método de Horner, regla de Ruffini, Teorema del Resto y divisibilidad algebraica |
-| **10** | Factorización y Fracciones Algebraicas | Criterios de factorización, aspa doble y especial, MCM/MCD de polinomios y simplificación de fracciones |
-| **11** | Radicación y Racionalización | Radicales dobles a simples, factores racionalizantes de diversos órdenes y valor numérico |
-| **12** | Logaritmos y Ecuaciones Exponenciales | Definición formal, propiedades operativas, cambio de base, ecuaciones exponenciales y logarítmicas |
+| **10** | [Factorización y Fracciones Algebraicas](10_Factorizacion_y_Fracciones_Algebraicas.md) | Criterios de factorización, aspa doble y especial, MCM/MCD de polinomios y simplificación de fracciones |
+| **11** | [Radicación y Racionalización](11_Radicacion_y_Racionalizacion.md) | Radicales dobles a simples, factores racionalizantes de diversos órdenes y valor numérico |
+| **12** | [Logaritmos y Ecuaciones Exponenciales](12_Logaritmos_y_Ecuaciones_Exponenciales.md) | Definición formal, propiedades operativas, cambio de base, ecuaciones exponenciales y logarítmicas |
 
 ---
 

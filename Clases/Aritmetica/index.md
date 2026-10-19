@@ -1,4 +1,4 @@
-# Módulo de Aritmética
+# Aritmética
 
 Bienvenido al módulo oficial de **Aritmética Preuniversitaria** para la preparación integral al **Examen Nacional de Preselección (ENP) Beca 18** y admisión a universidades de primer nivel (UNI, UNMSM, PUCP).
 
