@@ -12,3 +12,6 @@ parts:
       - file: Clases/Aritmetica/07_Interes_Simple
       - file: Clases/Aritmetica/08_Magnitudes_Proporcionales_y_Regla_de_Tres
       - file: Clases/Aritmetica/09_Progresiones_Aritmeticas_y_Geometricas
+  - caption: Álgebra
+    chapters:
+      - file: Clases/Algebra/01_Intervalos_en_la_Recta_Real
