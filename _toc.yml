@@ -1,8 +1,8 @@
 format: jb-book
 root: index
-parts:
-  - caption: Aritmética
-    chapters:
+chapters:
+  - file: Clases/Aritmetica/index
+    sections:
       - file: Clases/Aritmetica/01_Fracciones_y_Razones
       - file: Clases/Aritmetica/02_Potenciacion_y_Radicacion_Racionales
       - file: Clases/Aritmetica/03_Redondeo_y_Aproximaciones
@@ -12,8 +12,8 @@ parts:
       - file: Clases/Aritmetica/07_Interes_Simple
       - file: Clases/Aritmetica/08_Magnitudes_Proporcionales_y_Regla_de_Tres
       - file: Clases/Aritmetica/09_Progresiones_Aritmeticas_y_Geometricas
-  - caption: Álgebra
-    chapters:
+  - file: Clases/Algebra/index
+    sections:
       - file: Clases/Algebra/01_Intervalos_en_la_Recta_Real
       - file: Clases/Algebra/02_Ecuaciones_Lineales_y_Modelamiento
       - file: Clases/Algebra/03_Sistemas_de_Ecuaciones_Lineales
