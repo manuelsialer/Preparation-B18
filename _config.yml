@@ -1,0 +1,20 @@
+# Configuración del Libro - Material Preuniversitario Beca 18
+title: Material Preuniversitario Beca 18 – Alto Rendimiento
+author: Equipo Académico SuperAcademy
+copyright: "2026"
+
+execute:
+  execute_notebooks: 'off'
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_navbar: '<p>Preparación Integral Beca 18 / Preuniversitaria</p>'
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - deflist
+    - html_image
+    - colon_fence
