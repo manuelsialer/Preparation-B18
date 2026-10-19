@@ -6,6 +6,11 @@ copyright: "2026"
 execute:
   execute_notebooks: 'off'
 
+repository:
+  url: https://github.com/manuelsialer/Preparation-B18
+  path_to_book: "."
+  branch: main
+
 html:
   use_issues_button: true
   use_repository_button: true
@@ -18,3 +23,11 @@ parse:
     - deflist
     - html_image
     - colon_fence
+
+exclude_patterns:
+  - ".agents/*"
+  - ".agents/**/*"
+  - "temarios/*"
+  - "scratch/*"
+  - "requirements.txt"
+  - "LICENSE"

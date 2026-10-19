@@ -50,3 +50,12 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 * **Fecha:** 2026-10-19
 * **Problema:** Duda sobre si se requería programar HTML para publicar en GitHub Pages.
 * **Invariante / Regla Aprendida:** Utilizar la arquitectura de **Jupyter Book** (`_config.yml`, `_toc.yml`, `requirements.txt` y `.github/workflows/deploy.yml`). Los contenidos se mantienen en `.md` puro y GitHub Actions genera el HTML de forma automática.
+
+### `[ERR-006]` Fallo en Action `deploy-book` por falta de `repository:` y versión de build
+* **Fecha:** 2026-10-19
+* **Problema:** GitHub Actions falló con `ENOENT: no such file or directory, scandir '_build/html'` porque `jupyter-book build .` falló internamente con `ValueError: To use 'repository' buttons, you must specify the repository URL`.
+* **Invariante / Regla Aprendida:**
+  1. En `_config.yml`, si se activan `use_repository_button` o `use_issues_button`, es OBLIGATORIO definir el bloque `repository: url: ...` apuntando al repositorio de GitHub.
+  2. Fijar `jupyter-book~=0.15.1` en `requirements.txt`.
+  3. En GitHub Pages: usar el workflow oficial de GitHub Actions (`actions/configure-pages@v5`, `actions/upload-pages-artifact@v3`, `actions/deploy-pages@v4`) y en la configuración del repositorio (**Settings -> Pages -> Build and deployment -> Source**) seleccionar **GitHub Actions**.
+
