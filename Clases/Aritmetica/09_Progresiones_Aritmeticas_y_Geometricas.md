@@ -483,35 +483,35 @@ $$\frac{1}{2}E = 1 \implies E = 2$$
 
 ### Bloque I: Nivel Básico (Ejercicios 01 al 15)
 
-1. En la progresión aritmética $12, 17, 22, 27, \dots$, calcule el término de lugar $30$.
+1. En la progresión aritmética $12, 17, 22, 27, \dots$, calcule el término de lugar $30$.  
 A) $152$  
 B) $157$  
 C) $162$  
 D) $167$  
 E) $172$  
 
-2. ¿Cuántos términos tiene la siguiente progresión aritmética finita: $15, 19, 23, \dots, 131$?
+2. ¿Cuántos términos tiene la siguiente progresión aritmética finita: $15, 19, 23, \dots, 131$?  
 A) $28$  
 B) $29$  
 C) $30$  
 D) $31$  
 E) $32$  
 
-3. Calcule la suma de los primeros $20$ términos de la progresión aritmética: $5, 8, 11, 14, \dots$
+3. Calcule la suma de los primeros $20$ términos de la progresión aritmética: $5, 8, 11, 14, \dots$  
 A) $650$  
 B) $670$  
 C) $700$  
 D) $730$  
 E) $750$  
 
-4. En una P.G., el primer término es $3$ y la razón es $2$. Determine el octavo término.
+4. En una P.G., el primer término es $3$ y la razón es $2$. Determine el octavo término.  
 A) $192$  
 B) $384$  
 C) $768$  
 D) $1\,536$  
 E) $3\,072$  
 
-5. Calcule la suma de los primeros $6$ términos de la progresión geométrica: $2, 6, 18, 54, \dots$
+5. Calcule la suma de los primeros $6$ términos de la progresión geométrica: $2, 6, 18, 54, \dots$  
 A) $726$  
 B) $728$  
 C) $730$  
@@ -528,35 +528,35 @@ C) $34$
 D) $36$  
 E) $40$  
 
-7. En una P.A., el término de lugar $10$ es $43$ y la razón es $4$. ¿Cuál es el primer término?
+7. En una P.A., el término de lugar $10$ es $43$ y la razón es $4$. ¿Cuál es el primer término?  
 A) $5$  
 B) $6$  
 C) $7$  
 D) $8$  
 E) $9$  
 
-8. Si los números $x - 2$, $x + 4$ y $3x - 2$ forman una progresión aritmética, halle el valor de $x$.
+8. Si los números $x - 2$, $x + 4$ y $3x - 2$ forman una progresión aritmética, halle el valor de $x$.  
 A) $4$  
 B) $5$  
 C) $6$  
 D) $7$  
 E) $8$  
 
-9. Si los números $y - 1$, $y + 2$ y $2y + 4$ forman una progresión geométrica de términos positivos, determine el valor de $y$.
+9. Si los números $y - 1$, $y + 2$ y $2y + 4$ forman una progresión geométrica de términos positivos, determine el valor de $y$.  
 A) $2$  
 B) $3$  
 C) $4$  
 D) $5$  
 E) $6$  
 
-10. Calcule la suma de los primeros $40$ números enteros positivos impares: $1 + 3 + 5 + \dots + 79$.
+10. Calcule la suma de los primeros $40$ números enteros positivos impares: $1 + 3 + 5 + \dots + 79$.  
 A) $1\,500$  
 B) $1\,560$  
 C) $1\,600$  
 D) $1\,640$  
 E) $1\,700$  
 
-11. Interpole $3$ medios aritméticos entre $8$ y $32$. ¿Cuál es el segundo medio aritmético interpolado?
+11. Interpole $3$ medios aritméticos entre $8$ y $32$. ¿Cuál es el segundo medio aritmético interpolado?  
 A) $14$  
 B) $16$  
 C) $18$  
@@ -573,21 +573,21 @@ C) $20{,}25$
 D) $21$  
 E) $22{,}5$  
 
-13. En una P.A. de $15$ términos, el término central es $28$. Calcule la suma de todos los términos de la progresión.
+13. En una P.A. de $15$ términos, el término central es $28$. Calcule la suma de todos los términos de la progresión.  
 A) $390$  
 B) $405$  
 C) $420$  
 D) $435$  
 E) $450$  
 
-14. El producto de tres términos consecutivos de una P.G. es $216$. ¿Cuál es el término medio?
+14. El producto de tres términos consecutivos de una P.G. es $216$. ¿Cuál es el término medio?  
 A) $4$  
 B) $6$  
 C) $8$  
 D) $9$  
 E) $12$  
 
-15. En una P.A., el quinto término es $19$ y el décimo segundo término es $47$. ¿Cuál es la razón de la progresión?
+15. En una P.A., el quinto término es $19$ y el décimo segundo término es $47$. ¿Cuál es la razón de la progresión?  
 A) $3$  
 B) $4$  
 C) $5$  
@@ -598,63 +598,63 @@ E) $7$
 
 ### Bloque II: Nivel Intermedio (Ejercicios 16 al 30)
 
-16. Calcule la suma de todos los números enteros de tres cifras que son múltiplos exactos de $7$.
+16. Calcule la suma de todos los números enteros de tres cifras que son múltiplos exactos de $7$.  
 A) $68\,355$  
 B) $70\,336$  
 C) $72\,140$  
 D) $74\,250$  
 E) $76\,120$  
 
-17. En una P.A., la suma de los $n$ primeros términos está dada por la función cuadrática: $S_n = 3n^2 + 5n$. Calcule el término de lugar $15$.
+17. En una P.A., la suma de los $n$ primeros términos está dada por la función cuadrática: $S_n = 3n^2 + 5n$. Calcule el término de lugar $15$.  
 A) $86$  
 B) $88$  
 C) $90$  
 D) $92$  
 E) $94$  
 
-18. Tres números están en P.A. creciente. La suma de los tres es $27$ y el producto del primero por el tercero es $77$. Calcule el mayor de los números.
+18. Tres números están en P.A. creciente. La suma de los tres es $27$ y el producto del primero por el tercero es $77$. Calcule el mayor de los números.  
 A) $11$  
 B) $12$  
 C) $13$  
 D) $14$  
 E) $15$  
 
-19. Una pelota cae desde $64\text{ metros}$ de altura y en cada rebote se eleva hasta las tres cuartas partes ($\frac{3}{4}$) de la altura precedente. Calcule la distancia total recorrida hasta detenerse teóricamente.
+19. Una pelota cae desde $64\text{ metros}$ de altura y en cada rebote se eleva hasta las tres cuartas partes ($\frac{3}{4}$) de la altura precedente. Calcule la distancia total recorrida hasta detenerse teóricamente.  
 A) $384\text{ m}$  
 B) $412\text{ m}$  
 C) $448\text{ m}$  
 D) $480\text{ m}$  
 E) $512\text{ m}$  
 
-20. En una P.G. de $6$ términos, la suma de los tres primeros términos es $26$ y la suma de los tres últimos es $702$. ¿Cuál es la razón de la progresión?
+20. En una P.G. de $6$ términos, la suma de los tres primeros términos es $26$ y la suma de los tres últimos es $702$. ¿Cuál es la razón de la progresión?  
 A) $2$  
 B) $3$  
 C) $4$  
 D) $5$  
 E) $6$  
 
-21. Se intercalan $4$ medios geométricos entre $5$ y $160$. ¿Cuál es el valor del tercer medio geométrico intercalado?
+21. Se intercalan $4$ medios geométricos entre $5$ y $160$. ¿Cuál es el valor del tercer medio geométrico intercalado?  
 A) $20$  
 B) $40$  
 C) $60$  
 D) $80$  
 E) $100$  
 
-22. La suma de los infinitos términos de una P.G. decreciente es $16$ y la suma de sus cuadrados es $153{,}6$. ¿Cuál es el primer término?
+22. La suma de los infinitos términos de una P.G. decreciente es $16$ y la suma de sus cuadrados es $153{,}6$. ¿Cuál es el primer término?  
 A) $6$  
 B) $8$  
 C) $9{,}6$  
 D) $10$  
 E) $12$  
 
-23. Un atleta decide entrenar durante $30\text{ días}$. El primer día corre $800\text{ metros}$ y cada día posterior corre $150\text{ metros}$ más que el día anterior. ¿Cuántos kilómetros en total corrió al culminar su entrenamiento?
+23. Un atleta decide entrenar durante $30\text{ días}$. El primer día corre $800\text{ metros}$ y cada día posterior corre $150\text{ metros}$ más que el día anterior. ¿Cuántos kilómetros en total corrió al culminar su entrenamiento?  
 A) $84\text{ km}$  
 B) $86{,}5\text{ km}$  
 C) $89{,}25\text{ km}$  
 D) $92\text{ km}$  
 E) $95\text{ km}$  
 
-24. En una P.A., el término que ocupa el lugar $p$ es $q$ y el término que ocupa el lugar $q$ es $p$ (con $p \neq q$). ¿Cuál es el valor del término de lugar $p + q$?
+24. En una P.A., el término que ocupa el lugar $p$ es $q$ y el término que ocupa el lugar $q$ es $p$ (con $p \neq q$). ¿Cuál es el valor del término de lugar $p + q$?  
 A) $0$  
 B) $1$  
 C) $p + q$  
@@ -671,35 +671,35 @@ C) $\frac{4}{3}$
 D) $\frac{5}{3}$  
 E) $2$  
 
-26. Cuatro números enteros forman una P.A. creciente. La suma de los cuatro es $24$ y el producto de los cuatro es $945$. Calcule la razón de la progresión.
+26. Cuatro números enteros forman una P.A. creciente. La suma de los cuatro es $24$ y el producto de los cuatro es $945$. Calcule la razón de la progresión.  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $4$  
 E) $5$  
 
-27. Una colonia de termitas se triplica cada semana. Si al cabo de $5\text{ semanas}$ la colonia cuenta con $486$ individuos, ¿cuántas termitas había al inicio?
+27. Una colonia de termitas se triplica cada semana. Si al cabo de $5\text{ semanas}$ la colonia cuenta con $486$ individuos, ¿cuántas termitas había al inicio?  
 A) $2$  
 B) $3$  
 C) $4$  
 D) $6$  
 E) $9$  
 
-28. En una P.A. se conoce que $a_4 + a_8 = 38$ y $a_6 + a_{12} = 58$. Determine el valor del vigésimo término ($a_{20}$).
+28. En una P.A. se conoce que $a_4 + a_8 = 38$ y $a_6 + a_{12} = 58$. Determine el valor del vigésimo término ($a_{20}$).  
 A) $65$  
 B) $68$  
 C) $71$  
 D) $74$  
 E) $77$  
 
-29. Si se suman $n$ términos de la serie geométrica $1 + 2 + 4 + 8 + \dots$, el resultado es $1\,023$. Calcule el valor de $n$.
+29. Si se suman $n$ términos de la serie geométrica $1 + 2 + 4 + 8 + \dots$, el resultado es $1\,023$. Calcule el valor de $n$.  
 A) $8$  
 B) $9$  
 C) $10$  
 D) $11$  
 E) $12$  
 
-30. Las medidas de los tres ángulos internos de un triángulo están en progresión aritmética. Si el menor de los ángulos mide $20^\circ$, ¿cuánto mide el ángulo mayor?
+30. Las medidas de los tres ángulos internos de un triángulo están en progresión aritmética. Si el menor de los ángulos mide $20^\circ$, ¿cuánto mide el ángulo mayor?  
 A) $80^\circ$  
 B) $90^\circ$  
 C) $100^\circ$  
@@ -710,21 +710,21 @@ E) $120^\circ$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Un tanque de almacenamiento de agua potable de $1\,000\text{ litros}$ se contamina con una sustancia química disuelta a una concentración de $20\text{ g/L}$. Para descontaminarlo, se extrae cada hora el $20\%$ de la mezcla y se reemplaza inmediatamente con agua destilada pura. ¿Cuántos gramos de contaminante quedarán en el tanque al cabo de $5\text{ horas}$?
+31. Un tanque de almacenamiento de agua potable de $1\,000\text{ litros}$ se contamina con una sustancia química disuelta a una concentración de $20\text{ g/L}$. Para descontaminarlo, se extrae cada hora el $20\%$ de la mezcla y se reemplaza inmediatamente con agua destilada pura. ¿Cuántos gramos de contaminante quedarán en el tanque al cabo de $5\text{ horas}$?  
 A) $6\,250\text{ g}$  
 B) $6\,553{,}6\text{ g}$  
 C) $6\,800\text{ g}$  
 D) $7\,120\text{ g}$  
 E) $7\,250\text{ g}$  
 
-32. En un proyecto de reforestación en la selva central, se plantan árboles en filas de modo que la primera fila tiene $15$ plantones, la segunda tiene $19$, la tercera tiene $23$ y así sucesivamente. Si se dispone de un lote de $1\,215$ plantones y se desea utilizar todos ellos en filas completas, ¿cuántas filas se lograrán plantar en total?
+32. En un proyecto de reforestación en la selva central, se plantan árboles en filas de modo que la primera fila tiene $15$ plantones, la segunda tiene $19$, la tercera tiene $23$ y así sucesivamente. Si se dispone de un lote de $1\,215$ plantones y se desea utilizar todos ellos en filas completas, ¿cuántas filas se lograrán plantar en total?  
 A) $20\text{ filas}$  
 B) $21\text{ filas}$  
 C) $22\text{ filas}$  
 D) $23\text{ filas}$  
 E) $24\text{ filas}$  
 
-33. Una maquinaria pesada adquirida para una obra vial en Huánuco cuesta $\$ 160\,000$ nueva. Al final de cada año de operación pierde el $15\%$ del valor que tenía al inicio de ese año por depreciación técnica acelerada. ¿Cuál será su valor residual contable al culminar el cuarto año de uso?
+33. Una maquinaria pesada adquirida para una obra vial en Huánuco cuesta $\$ 160\,000$ nueva. Al final de cada año de operación pierde el $15\%$ del valor que tenía al inicio de ese año por depreciación técnica acelerada. ¿Cuál será su valor residual contable al culminar el cuarto año de uso?  
 A) $\$ 81\,420$  
 B) $\$ 83\,521$  
 C) $\$ 85\,240$  
@@ -741,28 +741,28 @@ C) $\frac{5}{16}$
 D) $\frac{7}{20}$  
 E) $\frac{1}{2}$  
 
-35. Los lados de un triángulo rectángulo están en progresión aritmética. Si el perímetro del triángulo es de $108\text{ metros}$, determine la longitud del cateto mayor y el área del triángulo.
+35. Los lados de un triángulo rectángulo están en progresión aritmética. Si el perímetro del triángulo es de $108\text{ metros}$, determine la longitud del cateto mayor y el área del triángulo.  
 A) $36\text{ m} \;; 486\text{ m}^2$  
 B) $36\text{ m} \;; 540\text{ m}^2$  
 C) $40\text{ m} \;; 486\text{ m}^2$  
 D) $45\text{ m} \;; 540\text{ m}^2$  
 E) $36\text{ m} \;; 432\text{ m}^2$  
 
-36. En un experimento de física ondulatoria, una cuerda vibrante vibra de modo que la amplitud de oscilación de cada ciclo es el $80\%$ de la amplitud del ciclo anterior. Si la amplitud del primer ciclo fue de $25\text{ milímetros}$, ¿cuál es la distancia total vertical recorrida por el punto central de la cuerda al cabo de infinitos ciclos oscilatorios completos (subida y bajada en cada ciclo)?
+36. En un experimento de física ondulatoria, una cuerda vibrante vibra de modo que la amplitud de oscilación de cada ciclo es el $80\%$ de la amplitud del ciclo anterior. Si la amplitud del primer ciclo fue de $25\text{ milímetros}$, ¿cuál es la distancia total vertical recorrida por el punto central de la cuerda al cabo de infinitos ciclos oscilatorios completos (subida y bajada en cada ciclo)?  
 A) $200\text{ mm}$  
 B) $225\text{ mm}$  
 C) $250\text{ mm}$  
 D) $275\text{ mm}$  
 E) $300\text{ mm}$  
 
-37. La suma de los tres términos de una P.G. creciente es $70$. Si los extremos se multiplican por $4$ y el término medio por $5$, los nuevos números forman una progresión aritmética. Halle la razón de la P.G. original.
+37. La suma de los tres términos de una P.G. creciente es $70$. Si los extremos se multiplican por $4$ y el término medio por $5$, los nuevos números forman una progresión aritmética. Halle la razón de la P.G. original.  
 A) $2$  
 B) $2{,}5$  
 C) $3$  
 D) $4$  
 E) $5$  
 
-38. Se colocan $30$ postes telefónicos a lo largo de una carretera rectilínea. El primer poste dista $20\text{ metros}$ de la central de operaciones, y la distancia entre cada par de postes consecutivos es de $15\text{ metros}$. Un camión grúa que transporta un solo poste por viaje sale de la central y regresa a ella tras plantar cada poste. ¿Cuántos kilómetros en total recorre el camión para plantar los $30$ postes si al inicio de la jornada parte de la central y al culminar el último poste regresa a la misma?
+38. Se colocan $30$ postes telefónicos a lo largo de una carretera rectilínea. El primer poste dista $20\text{ metros}$ de la central de operaciones, y la distancia entre cada par de postes consecutivos es de $15\text{ metros}$. Un camión grúa que transporta un solo poste por viaje sale de la central y regresa a ella tras plantar cada poste. ¿Cuántos kilómetros en total recorre el camión para plantar los $30$ postes si al inicio de la jornada parte de la central y al culminar el último poste regresa a la misma?  
 A) $12{,}85\text{ km}$  
 B) $13{,}65\text{ km}$  
 C) $14{,}25\text{ km}$  
@@ -779,28 +779,28 @@ C) $\frac{p(n + 1)}{2}$
 D) $n^2 \cdot p^2$  
 E) $\frac{np(n + p)}{2}$  
 
-40. En una presa hidroeléctrica en el río Mantaro, el caudal de desagüe durante el mantenimiento programado se reduce a razón de una progresión geométrica: el primer día desaloja $81\text{ millones de m}^3$, el segundo día $54\text{ millones}$, el tercer día $36\text{ millones}$ y así sucesivamente. ¿Cuál es el volumen total de agua que se evacúa si el proceso se prolonga indefinidamente?
+40. En una presa hidroeléctrica en el río Mantaro, el caudal de desagüe durante el mantenimiento programado se reduce a razón de una progresión geométrica: el primer día desaloja $81\text{ millones de m}^3$, el segundo día $54\text{ millones}$, el tercer día $36\text{ millones}$ y así sucesivamente. ¿Cuál es el volumen total de agua que se evacúa si el proceso se prolonga indefinidamente?  
 A) $225\text{ millones de m}^3$  
 B) $243\text{ millones de m}^3$  
 C) $256\text{ millones de m}^3$  
 D) $270\text{ millones de m}^3$  
 E) $288\text{ millones de m}^3$  
 
-41. En una P.A. creciente, el producto del primer y cuarto término es $85$, y el producto del segundo y tercer término es $117$. Calcule la suma de los diez primeros términos de la progresión.
+41. En una P.A. creciente, el producto del primer y cuarto término es $85$, y el producto del segundo y tercer término es $117$. Calcule la suma de los diez primeros términos de la progresión.  
 A) $220$  
 B) $230$  
 C) $240$  
 D) $250$  
 E) $260$  
 
-42. Un pozo de exploración minera de $120\text{ metros}$ de profundidad se perfora mediante una cuadrilla que cobra $\text{S/ } 50$ por el primer metro perforado, $\text{S/ } 65$ por el segundo metro, $\text{S/ } 80$ por el tercer metro, y así sucesivamente en P.A. ¿Cuál es el costo total presupuestado para la perforación completa del pozo?
+42. Un pozo de exploración minera de $120\text{ metros}$ de profundidad se perfora mediante una cuadrilla que cobra $\text{S/ } 50$ por el primer metro perforado, $\text{S/ } 65$ por el segundo metro, $\text{S/ } 80$ por el tercer metro, y así sucesivamente en P.A. ¿Cuál es el costo total presupuestado para la perforación completa del pozo?  
 A) $\text{S/ } 108\,500$  
 B) $\text{S/ } 111\,200$  
 C) $\text{S/ } 113\,100$  
 D) $\text{S/ } 115\,400$  
 E) $\text{S/ } 117\,600$  
 
-43. Cuatro números positivos forman una progresión geométrica. La suma de los dos primeros términos es $15$ y la suma de los dos últimos términos es $60$. Determine el valor del cuarto término de la progresión.
+43. Cuatro números positivos forman una progresión geométrica. La suma de los dos primeros términos es $15$ y la suma de los dos últimos términos es $60$. Determine el valor del cuarto término de la progresión.  
 A) $32$  
 B) $36$  
 C) $40$  

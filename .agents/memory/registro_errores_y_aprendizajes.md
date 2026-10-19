@@ -108,5 +108,28 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   * **NUNCA colocar `---` directamente debajo de un encabezado (`#`, `##`, `###`).**
   * La regla `---` se usa exclusivamente para cerrar o delimitar el final de una sección previa, justo antes del siguiente título.
 
+---
+
+### `[ERR-012]` Salto de línea ausente entre enunciado de pregunta y alternativa A
+* **Fecha:** 2026-10-19
+* **Problema:** En las preguntas de opción múltiple, la alternativa `A) ...` aparecía pegada en el mismo renglón que el final del enunciado (ej. `1. Calcule la fracción... A) 44/88`), mientras que B, C, D, E sí saltaban a líneas independientes.
+* **Causa Raíz:** En Markdown, un salto de línea simple se interpreta como un espacio dentro del mismo párrafo. Las alternativas tenían dos espacios al final (`  \n`), pero la línea del enunciado de la pregunta terminaba en un salto simple sin espacios.
+* **Invariante / Regla Aprendida:**
+  * **Toda línea de enunciado que precede inmediatamente a la alternativa `A)` debe terminar obligatoriamente con dos espacios (`  \n`).**
+  * Esto fuerza el salto de línea `<br />` en el HTML generado, manteniendo la opción `A)` en su propio renglón alineada debajo de la pregunta.
+
+---
+
+### `[ERR-013]` Integración Obligatoria de Gráficos y Diagramas Visuales en Álgebra
+* **Fecha:** 2026-10-19
+* **Problema:** Los conceptos algebraicos abstractos (punto de equilibrio, posición relativa de rectas, concavidad y raíces de funciones) requieren soporte visual para maximizar la comprensión preuniversitaria.
+* **Invariante / Regla Aprendida:**
+  * En los temas de Álgebra donde intervenga modelamiento geométrico, económico o funcional, es **obligatorio incluir diagramas visuales** (bloques Mermaid o esquemas SVG/gráficos vectoriales limpios).
+  * Aplicaciones obligatorias:
+    1. **Punto de Equilibrio (Modelos Lineales):** Esquema de Costo Fijo, Costo Total, Ingreso Total, Punto de Equilibrio, Zona de Pérdidas y Zona de Ganancias.
+    2. **Sistemas de Ecuaciones $2 \times 2$:** Interpretación geométrica de rectas secantes (única solución), paralelas (incompatible) y coincidentes (indeterminado).
+    3. **Intervalos:** Esquemas de rectas numéricas con regiones de unión, intersección y diferencia.
+    4. **Funciones Cuadráticas:** Parábola, vértice, eje de simetría y puntos de corte.
+
 
 

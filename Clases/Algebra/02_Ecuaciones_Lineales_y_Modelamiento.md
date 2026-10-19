@@ -121,6 +121,17 @@ $$
 
 La diferencia $(p_v - c_v)$ recibe el nombre de **margen de contribución unitario**.
 
+#### Representación en el Plano Cartesiano del Punto de Equilibrio
+
+```{figure} ../../assets/algebra/punto_equilibrio.svg
+---
+align: center
+alt: Gráfica del Punto de Equilibrio en el Plano Cartesiano
+---
+Gráfica del Modelo Lineal en el plano cartesiano: La recta de Ingreso Total $I(q) = p_v \cdot q$ intersecta a la recta de Costo Total $C_T(q) = C_f + c_v \cdot q$ en el Punto de Equilibrio $(q_e, I_e)$, delimitando claramente la Zona de Pérdidas ($q < q_e$) y la Zona de Ganancias ($q > q_e$).
+```
+
+
 ---
 
 ## 3. 10 Ejercicios Resueltos Paso a Paso
@@ -633,105 +644,105 @@ El único valor que hace incompatible la ecuación es $\lambda = -1$.
 
 ### Bloque I: Nivel Básico (Problemas 01 al 15)
 
-1. Resuelva la ecuación lineal: $7x - 4(2x - 1) = 3(x - 2) + 14$.
+1. Resuelva la ecuación lineal: $7x - 4(2x - 1) = 3(x - 2) + 14$.  
 A) $-1$  
 B) $-2$  
 C) $2$  
 D) $1$  
 E) $0$  
 
-2. Halle el valor de $x$ que satisface: $\frac{2x - 5}{3} - \frac{x + 1}{4} = 1$.
+2. Halle el valor de $x$ que satisface: $\frac{2x - 5}{3} - \frac{x + 1}{4} = 1$.  
 A) $7$  
 B) $8$  
 C) $9$  
 D) $6$  
 E) $5$  
 
-3. Si $3(x - 4) + 5(2 - x) = 2(3x - 1)$, determine el valor de $E = 4x + 1$.
+3. Si $3(x - 4) + 5(2 - x) = 2(3x - 1)$, determine el valor de $E = 4x + 1$.  
 A) $0$  
 B) $-1$  
 C) $1$  
 D) $2$  
 E) $-2$  
 
-4. Resuelva en $\mathbb{R}$: $\frac{x}{2} + \frac{x}{3} + \frac{x}{6} = 15$.
+4. Resuelva en $\mathbb{R}$: $\frac{x}{2} + \frac{x}{3} + \frac{x}{6} = 15$.  
 A) $12$  
 B) $15$  
 C) $18$  
 D) $10$  
 E) $20$  
 
-5. Si la ecuación $(a - 3)x + b - 5 = 0$ tiene infinitas soluciones, determine $a + b$.
+5. Si la ecuación $(a - 3)x + b - 5 = 0$ tiene infinitas soluciones, determine $a + b$.  
 A) $7$  
 B) $8$  
 C) $9$  
 D) $6$  
 E) $5$  
 
-6. Determine el valor de $x$ en: $0{,}4x + 1{,}2 = 0{,}2x + 2{,}6$.
+6. Determine el valor de $x$ en: $0{,}4x + 1{,}2 = 0{,}2x + 2{,}6$.  
 A) $6$  
 B) $7$  
 C) $8$  
 D) $5$  
 E) $9$  
 
-7. La suma de tres números enteros consecutivos es igual a $78$. Halle el número mayor.
+7. La suma de tres números enteros consecutivos es igual a $78$. Halle el número mayor.  
 A) $25$  
 B) $26$  
 C) $27$  
 D) $28$  
 E) $29$  
 
-8. Un estudiante gasta un tercio de su propina en libros y un cuarto en pasajes, quedándole aún $\text{S/ } 50$. ¿De cuánto era su propina inicial?
+8. Un estudiante gasta un tercio de su propina en libros y un cuarto en pasajes, quedándole aún $\text{S/ } 50$. ¿De cuánto era su propina inicial?  
 A) $\text{S/ } 120$  
 B) $\text{S/ } 150$  
 C) $\text{S/ } 100$  
 D) $\text{S/ } 180$  
 E) $\text{S/ } 200$  
 
-9. Halle el conjunto solución de: $\frac{5x - 2}{3} = \frac{3x + 4}{2}$.
+9. Halle el conjunto solución de: $\frac{5x - 2}{3} = \frac{3x + 4}{2}$.  
 A) $\{14\}$  
 B) $\{16\}$  
 C) $\{12\}$  
 D) $\{10\}$  
 E) $\{18\}$  
 
-10. Si $2x - a = b$ y $x = 5$ cuando $a = 3$, halle el valor de $b$.
+10. Si $2x - a = b$ y $x = 5$ cuando $a = 3$, halle el valor de $b$.  
 A) $6$  
 B) $7$  
 C) $8$  
 D) $5$  
 E) $9$  
 
-11. Resuelva la ecuación: $4(x - 1) - (2x + 5) = 2(x - 3) - 3$.
+11. Resuelva la ecuación: $4(x - 1) - (2x + 5) = 2(x - 3) - 3$.  
 A) Compatible determinada  
 B) Incompatible ($\emptyset$)  
 C) Compatible indeterminada ($\mathbb{R}$)  
 D) $x = 0$  
 E) $x = 1$  
 
-12. ¿Qué valor debe tomar $k$ para que la ecuación $(k - 4)x = 9$ no tenga solución?
+12. ¿Qué valor debe tomar $k$ para que la ecuación $(k - 4)x = 9$ no tenga solución?  
 A) $4$  
 B) $-4$  
 C) $9$  
 D) $0$  
 E) $-9$  
 
-13. La edad de Carlos es el doble de la de Ana. Si hace $5$ años la suma de sus edades era $35$ años, ¿cuál es la edad actual de Ana?
+13. La edad de Carlos es el doble de la de Ana. Si hace $5$ años la suma de sus edades era $35$ años, ¿cuál es la edad actual de Ana?  
 A) $12\text{ años}$  
 B) $15\text{ años}$  
 C) $18\text{ años}$  
 D) $20\text{ años}$  
 E) $14\text{ años}$  
 
-14. Resuelva: $\frac{x + 1}{2} - \frac{x - 1}{3} = \frac{x + 3}{4}$.
+14. Resuelva: $\frac{x + 1}{2} - \frac{x - 1}{3} = \frac{x + 3}{4}$.  
 A) $1$  
 B) $-1$  
 C) $2$  
 D) $-2$  
 E) $0$  
 
-15. El perímetro de un rectángulo es de $64\text{ cm}$. Si el largo excede al ancho en $6\text{ cm}$, calcule el área del rectángulo.
+15. El perímetro de un rectángulo es de $64\text{ cm}$. Si el largo excede al ancho en $6\text{ cm}$, calcule el área del rectángulo.  
 A) $236\text{ cm}^2$  
 B) $247\text{ cm}^2$  
 C) $252\text{ cm}^2$  
@@ -742,105 +753,105 @@ E) $260\text{ cm}^2$
 
 ### Bloque II: Nivel Intermedio (Problemas 16 al 30)
 
-16. Resuelva la ecuación fraccionaria: $\frac{x - 3}{x - 2} = \frac{x + 1}{x + 4}$.
+16. Resuelva la ecuación fraccionaria: $\frac{x - 3}{x - 2} = \frac{x + 1}{x + 4}$.  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $-5$  
 E) No tiene solución  
 
-17. Determine el conjunto solución de: $\frac{3}{x - 1} + \frac{2}{x + 1} = \frac{5x - 1}{x^2 - 1}$.
+17. Determine el conjunto solución de: $\frac{3}{x - 1} + \frac{2}{x + 1} = \frac{5x - 1}{x^2 - 1}$.  
 A) $\mathbb{R} - \{-1, 1\}$  
 B) $\mathbb{R}$  
 C) $\emptyset$  
 D) $\{0\}$  
 E) $\{1\}$  
 
-18. Si la ecuación en $x$: $(a^2 - 9)x = a - 3$ es indeterminada, determine el valor de $a$.
+18. Si la ecuación en $x$: $(a^2 - 9)x = a - 3$ es indeterminada, determine el valor de $a$.  
 A) $3$  
 B) $-3$  
 C) $\pm 3$  
 D) $0$  
 E) $9$  
 
-19. Un comerciante en Juliaca adquiere un lote de polos por un total de $\text{S/ } 1\,200$. Si hubiese comprado $10$ polos más por el mismo dinero, cada polo le habría costado $\text{S/ } 4$ menos. ¿Cuántos polos compró originalmente?
+19. Un comerciante en Juliaca adquiere un lote de polos por un total de $\text{S/ } 1\,200$. Si hubiese comprado $10$ polos más por el mismo dinero, cada polo le habría costado $\text{S/ } 4$ menos. ¿Cuántos polos compró originalmente?  
 A) $45$  
 B) $50$  
 C) $55$  
 D) $60$  
 E) $40$  
 
-20. Despeje $x$ en la ecuación: $\frac{x - m}{n} + \frac{x - n}{m} = 2$, donde $m, n \in \mathbb{R}^+$ y $m \neq n$.
+20. Despeje $x$ en la ecuación: $\frac{x - m}{n} + \frac{x - n}{m} = 2$, donde $m, n \in \mathbb{R}^+$ y $m \neq n$.  
 A) $m - n$  
 B) $m + n$  
 C) $m \cdot n$  
 D) $2(m + n)$  
 E) $\frac{m + n}{2}$  
 
-21. Si la ecuación $kx + 3 = 2x + k$ tiene como solución a un número entero negativo, halle la suma de los valores enteros que puede adoptar $k$.
+21. Si la ecuación $kx + 3 = 2x + k$ tiene como solución a un número entero negativo, halle la suma de los valores enteros que puede adoptar $k$.  
 A) $1$  
 B) $0$  
 C) $-1$  
 D) $2$  
 E) $-2$  
 
-22. En un examen de selección de $50$ preguntas, cada respuesta correcta suma $4$ puntos y cada errónea resta $1$ punto. Si un postulante respondió todas las preguntas y obtuvo $130$ puntos, ¿cuántas preguntas respondió correctamente?
+22. En un examen de selección de $50$ preguntas, cada respuesta correcta suma $4$ puntos y cada errónea resta $1$ punto. Si un postulante respondió todas las preguntas y obtuvo $130$ puntos, ¿cuántas preguntas respondió correctamente?  
 A) $34$  
 B) $36$  
 C) $38$  
 D) $35$  
 E) $32$  
 
-23. Resuelva en $\mathbb{R}$: $\frac{2x - 1}{x - 3} = 2 + \frac{5}{x - 3}$.
+23. Resuelva en $\mathbb{R}$: $\frac{2x - 1}{x - 3} = 2 + \frac{5}{x - 3}$.  
 A) $\{3\}$  
 B) $\emptyset$  
 C) $\mathbb{R}$  
 D) $\{0\}$  
 E) $\{5\}$  
 
-24. Un tanque de almacenamiento de combustible en Ilo tiene dos tuberías de llenado. La primera lo llena en $6\text{ horas}$ y la segunda en $8\text{ horas}$. Si se abre primero la tubería lenta durante $1\text{ hora}$ y luego ambas juntas, ¿en cuántas horas adicionales se llenará el tanque?
+24. Un tanque de almacenamiento de combustible en Ilo tiene dos tuberías de llenado. La primera lo llena en $6\text{ horas}$ y la segunda en $8\text{ horas}$. Si se abre primero la tubería lenta durante $1\text{ hora}$ y luego ambas juntas, ¿en cuántas horas adicionales se llenará el tanque?  
 A) $3\text{ h}$  
 B) $3{,}5\text{ h}$  
 C) $4\text{ h}$  
 D) $3{,}2\text{ h}$  
 E) $3{,}75\text{ h}$  
 
-25. Resuelva: $\frac{x + a}{b} + \frac{x + b}{a} + \frac{x + c}{a + b - c} = -3$, sabiendo que $a + b + c \neq 0$.
+25. Resuelva: $\frac{x + a}{b} + \frac{x + b}{a} + \frac{x + c}{a + b - c} = -3$, sabiendo que $a + b + c \neq 0$.  
 A) $-(a + b + c)$  
 B) $a + b + c$  
 C) $0$  
 D) $a + b - c$  
 E) $-(a + b)$  
 
-26. Para qué valor de $m$ la ecuación $m(x - 1) = 2(x + 3) + m$ tiene como raíz al número $x = -2$.
+26. Para qué valor de $m$ la ecuación $m(x - 1) = 2(x + 3) + m$ tiene como raíz al número $x = -2$.  
 A) $-1$  
 B) $-2$  
 C) $1$  
 D) $2$  
 E) $0$  
 
-27. Un productor de palta Hass en Moquegua tiene costos fijos semanales de $\text{S/ } 1\,500$ y un costo variable de empaque y transporte de $\text{S/ } 3{,}50$ por kilogramo. Si el kilogramo de palta se vende a $\text{S/ } 8{,}50$, ¿cuántos kilogramos debe comercializar a la semana para no ganar ni perder?
+27. Un productor de palta Hass en Moquegua tiene costos fijos semanales de $\text{S/ } 1\,500$ y un costo variable de empaque y transporte de $\text{S/ } 3{,}50$ por kilogramo. Si el kilogramo de palta se vende a $\text{S/ } 8{,}50$, ¿cuántos kilogramos debe comercializar a la semana para no ganar ni perder?  
 A) $250\text{ kg}$  
 B) $280\text{ kg}$  
 C) $300\text{ kg}$  
 D) $320\text{ kg}$  
 E) $350\text{ kg}$  
 
-28. Si $x = 3$ es raíz de la ecuación: $\frac{a}{x - 1} + \frac{b}{x + 1} = 2$, halle el valor de $2a + b$.
+28. Si $x = 3$ es raíz de la ecuación: $\frac{a}{x - 1} + \frac{b}{x + 1} = 2$, halle el valor de $2a + b$.  
 A) $4$  
 B) $6$  
 C) $8$  
 D) $10$  
 E) $12$  
 
-29. Resuelva la ecuación: $\frac{x - 1}{2} + \frac{x - 2}{3} + \frac{x - 3}{4} = \frac{x - 4}{5} + \frac{x - 5}{6} + \frac{x - 6}{7} + \frac{x - 7}{8}$.
+29. Resuelva la ecuación: $\frac{x - 1}{2} + \frac{x - 2}{3} + \frac{x - 3}{4} = \frac{x - 4}{5} + \frac{x - 5}{6} + \frac{x - 6}{7} + \frac{x - 7}{8}$.  
 A) $0$  
 B) $1$  
 C) No tiene solución real  
 D) Es compatible indeterminada  
 E) Admite solución única  
 
-30. La suma de las cifras de un número de dos dígitos es $11$. Si se invierte el orden de las cifras, el nuevo número supera al original en $27$ unidades. Halle el producto de las cifras del número original.
+30. La suma de las cifras de un número de dos dígitos es $11$. Si se invierte el orden de las cifras, el nuevo número supera al original en $27$ unidades. Halle el producto de las cifras del número original.  
 A) $24$  
 B) $28$  
 C) $30$  
@@ -857,14 +868,14 @@ $$
 \frac{x - a - b}{c} + \frac{x - b - c}{a} + \frac{x - c - a}{b} = 3
 $$
 
-donde $a, b, c$ son constantes reales estrictamente positivas.
+donde $a, b, c$ son constantes reales estrictamente positivas.  
 A) $a + b + c$  
 B) $ab + bc + ca$  
 C) $a^2 + b^2 + c^2$  
 D) $0$  
 E) $\frac{a + b + c}{3}$  
 
-32. En un centro de salud comunal en Loreto, se cuenta con una solución antiséptica de $80\text{ litros}$ al $25\%$ de concentración de yodopovidona. ¿Cuántos litros de agua destilada (concentración $0\%$) deben agregarse para diluir la solución hasta dejarla al $10\%$ de concentración adecuada para limpieza de heridas?
+32. En un centro de salud comunal en Loreto, se cuenta con una solución antiséptica de $80\text{ litros}$ al $25\%$ de concentración de yodopovidona. ¿Cuántos litros de agua destilada (concentración $0\%$) deben agregarse para diluir la solución hasta dejarla al $10\%$ de concentración adecuada para limpieza de heridas?  
 A) $100\text{ L}$  
 B) $110\text{ L}$  
 C) $120\text{ L}$  
@@ -877,7 +888,7 @@ $$
 (k^2 - 16)x^2 + (k^2 - 3k - 4)x + k^2 - k - 2 = 0
 $$
 
-se reduce a una ecuación de primer grado compatible indeterminada, determine el valor de la constante real $k$.
+se reduce a una ecuación de primer grado compatible indeterminada, determine el valor de la constante real $k$.  
 A) $4$  
 B) $-4$  
 C) $-1$  
@@ -887,7 +898,7 @@ E) No existe tal valor
 34. Una empresa agroexportadora de Ica contrata un servicio de transporte de carga pesada. La empresa logística ofrece dos planes de flete mensual:
 Plan Alpha: Costo fijo de $\text{S/ } 5\,000$ más $\text{S/ } 12$ por tonelada-kilómetro transportada.
 Plan Beta: Costo fijo de $\text{S/ } 2\,000$ más $\text{S/ } 18$ por tonelada-kilómetro transportada.
-¿A partir de qué volumen exacto de transporte (en toneladas-kilómetro) resulta económicamente más conveniente optar por el Plan Alpha?
+¿A partir de qué volumen exacto de transporte (en toneladas-kilómetro) resulta económicamente más conveniente optar por el Plan Alpha?  
 A) $400$  
 B) $500$  
 C) $600$  
@@ -906,7 +917,7 @@ C) $\emptyset$
 D) $\{2, -2\}$  
 E) $\mathbb{R} - \{-2, -1, 1, 2\}$  
 
-36. Un grupo de estudiantes de ingeniería en Piura diseña un sistema de bombeo de energía solar con costo fijo de instalación de $\text{S/ } 18\,000$. El costo de mantenimiento y operación es de $\text{S/ } 0{,}80$ por metro cúbico bombeado. Si el servicio de agua se cobra a las parcelas a $\text{S/ } 2{,}30$ el metro cúbico, ¿cuántos metros cúbicos de agua deben bombearse para recuperar la inversión inicial y obtener además una ganancia neta de $\text{S/ } 12\,000$?
+36. Un grupo de estudiantes de ingeniería en Piura diseña un sistema de bombeo de energía solar con costo fijo de instalación de $\text{S/ } 18\,000$. El costo de mantenimiento y operación es de $\text{S/ } 0{,}80$ por metro cúbico bombeado. Si el servicio de agua se cobra a las parcelas a $\text{S/ } 2{,}30$ el metro cúbico, ¿cuántos metros cúbicos de agua deben bombearse para recuperar la inversión inicial y obtener además una ganancia neta de $\text{S/ } 12\,000$?  
 A) $18\,000\text{ m}^3$  
 B) $20\,000\text{ m}^3$  
 C) $22\,000\text{ m}^3$  
@@ -931,14 +942,14 @@ $$
 (a - 2)x + 3 = bx + a
 $$
 
-es incompatible.
+es incompatible.  
 A) $a = b + 2 \land a \neq 3$  
 B) $a = b \land a \neq 2$  
 C) $a = 3 \land b = 1$  
 D) $a \neq b + 2$  
 E) $b = a - 2 \land a = 3$  
 
-39. Un agricultor de Tarma reparte su cosecha de papas entre tres mayoristas. Al primero le vende la mitad del total más $10\text{ sacos}$; al segundo le entrega la tercera parte del resto más $15\text{ sacos}$; y al tercero le quedan los últimos $45\text{ sacos}$. ¿Cuántos sacos de papa cosechó en total?
+39. Un agricultor de Tarma reparte su cosecha de papas entre tres mayoristas. Al primero le vende la mitad del total más $10\text{ sacos}$; al segundo le entrega la tercera parte del resto más $15\text{ sacos}$; y al tercero le quedan los últimos $45\text{ sacos}$. ¿Cuántos sacos de papa cosechó en total?  
 A) $200\text{ sacos}$  
 B) $210\text{ sacos}$  
 C) $220\text{ sacos}$  
@@ -951,7 +962,7 @@ $$
 \frac{x - a}{x - 2} + \frac{x - b}{x - 3} = 2
 $$
 
-no admite ninguna solución en $\mathbb{R}$, halle una relación necesaria entre los parámetros reales $a$ y $b$.
+no admite ninguna solución en $\mathbb{R}$, halle una relación necesaria entre los parámetros reales $a$ y $b$.  
 A) $a + b = 5$  
 B) $2a + 3b = 13$  
 C) $a = 2 \lor b = 3$  
@@ -970,7 +981,7 @@ C) $-1$
 D) $1$  
 E) $-2025$  
 
-42. En una fábrica de harina de pescado en Chimbote, una faja transportadora $A$ llena una tolva en $x$ horas, y otra faja $B$ lo hace en $x + 5$ horas. Trabajando juntas, llenan la tolva en $6\text{ horas}$. Determine el valor de $x$.
+42. En una fábrica de harina de pescado en Chimbote, una faja transportadora $A$ llena una tolva en $x$ horas, y otra faja $B$ lo hace en $x + 5$ horas. Trabajando juntas, llenan la tolva en $6\text{ horas}$. Determine el valor de $x$.  
 A) $10\text{ h}$  
 B) $12\text{ h}$  
 C) $8\text{ h}$  
@@ -983,14 +994,14 @@ $$
 \frac{x - a^2}{b} + \frac{x - b^2}{a} = a + b \quad (a, b \neq 0, a \neq -b)
 $$
 
-halle el valor de $x$.
+halle el valor de $x$.  
 A) $a^2 + ab + b^2$  
 B) $(a + b)^2$  
 C) $a^2 - ab + b^2$  
 D) $a^2 + b^2$  
 E) $a \cdot b$  
 
-44. Un postulante a Beca 18 planifica leer una obra literaria de $480\text{ páginas}$. Si leyera $8\text{ páginas}$ más por día, tardaría $3\text{ días}$ menos en culminar la lectura. ¿Cuántos días empleó realmente en leer toda la obra?
+44. Un postulante a Beca 18 planifica leer una obra literaria de $480\text{ páginas}$. Si leyera $8\text{ páginas}$ más por día, tardaría $3\text{ días}$ menos en culminar la lectura. ¿Cuántos días empleó realmente en leer toda la obra?  
 A) $12\text{ días}$  
 B) $15\text{ días}$  
 C) $16\text{ días}$  
@@ -1003,7 +1014,7 @@ $$
 \frac{m x - 2}{x + 1} = 3
 $$
 
-admite una solución estrictamente positiva ($x > 0$).
+admite una solución estrictamente positiva ($x > 0$).  
 A) $\langle 3, +\infty\rangle$  
 B) $\langle -\infty, -5\rangle \cup \langle 3, +\infty\rangle$  
 C) $\langle -5, 3\rangle$  

@@ -513,105 +513,105 @@ $$40\text{ s}$$
 
 ### Bloque I: Nivel Básico (Ejercicios 1 al 15)
 
-1. Una regla graduada de laboratorio mide $30\text{ cm}$. ¿A cuántos micrómetros ($\mu\text{m}$) equivale dicha longitud?
+1. Una regla graduada de laboratorio mide $30\text{ cm}$. ¿A cuántos micrómetros ($\mu\text{m}$) equivale dicha longitud?  
 A) $3 \times 10^4\ \mu\text{m}$  
 B) $3 \times 10^5\ \mu\text{m}$  
 C) $3 \times 10^6\ \mu\text{m}$  
 D) $3 \times 10^7\ \mu\text{m}$  
 E) $3 \times 10^3\ \mu\text{m}$  
 
-2. Un atleta corre a una rapidez sostenida de $15\text{ m/s}$. ¿Cuál es su rapidez equivalente en kilómetros por hora ($\text{km/h}$)?
+2. Un atleta corre a una rapidez sostenida de $15\text{ m/s}$. ¿Cuál es su rapidez equivalente en kilómetros por hora ($\text{km/h}$)?  
 A) $45\text{ km/h}$  
 B) $50\text{ km/h}$  
 C) $54\text{ km/h}$  
 D) $60\text{ km/h}$  
 E) $48\text{ km/h}$  
 
-3. Un intervalo de tiempo medido por un cronómetro digital marca $2{,}75\text{ horas}$. Al expresarlo en el sistema sexagesimal de horas y minutos, corresponde a:
+3. Un intervalo de tiempo medido por un cronómetro digital marca $2{,}75\text{ horas}$. Al expresarlo en el sistema sexagesimal de horas y minutos, corresponde a:  
 A) $2\text{ h } 75\text{ min}$  
 B) $2\text{ h } 45\text{ min}$  
 C) $2\text{ h } 30\text{ min}$  
 D) $2\text{ h } 15\text{ min}$  
 E) $2\text{ h } 50\text{ min}$  
 
-4. Una cinta métrica registra una longitud de $4{,}2\text{ hectómetros}$ ($\text{hm}$). ¿Cuántos milímetros ($\text{mm}$) representa dicha medida?
+4. Una cinta métrica registra una longitud de $4{,}2\text{ hectómetros}$ ($\text{hm}$). ¿Cuántos milímetros ($\text{mm}$) representa dicha medida?  
 A) $42\,000\text{ mm}$  
 B) $420\,000\text{ mm}$  
 C) $4\,200\,000\text{ mm}$  
 D) $4\,200\text{ mm}$  
 E) $420\text{ mm}$  
 
-5. ¿Cuántos segundos tiene un día solar completo de 24 horas?
+5. ¿Cuántos segundos tiene un día solar completo de 24 horas?  
 A) $86\,400\text{ s}$  
 B) $84\,600\text{ s}$  
 C) $1\,440\text{ s}$  
 D) $3\,600\text{ s}$  
 E) $43\,200\text{ s}$  
 
-6. Un depósito cúbico de agua tiene $1{,}2\text{ m}$ de arista interior. ¿Cuál es su capacidad en litros?
+6. Un depósito cúbico de agua tiene $1{,}2\text{ m}$ de arista interior. ¿Cuál es su capacidad en litros?  
 A) $1\,200\text{ L}$  
 B) $1\,440\text{ L}$  
 C) $1\,728\text{ L}$  
 D) $17\,280\text{ L}$  
 E) $172{,}8\text{ L}$  
 
-7. Se tienen tres varillas de hierro cuyas longitudes son: $L_1 = 2{,}4\text{ m}$, $L_2 = 180\text{ cm}$ y $L_3 = 650\text{ mm}$. ¿Cuál es la longitud total de las tres varillas unidas en decímetros ($\text{dm}$)?
+7. Se tienen tres varillas de hierro cuyas longitudes son: $L_1 = 2{,}4\text{ m}$, $L_2 = 180\text{ cm}$ y $L_3 = 650\text{ mm}$. ¿Cuál es la longitud total de las tres varillas unidas en decímetros ($\text{dm}$)?  
 A) $48{,}5\text{ dm}$  
 B) $485\text{ dm}$  
 C) $4{,}85\text{ dm}$  
 D) $42\text{ dm}$  
 E) $50\text{ dm}$  
 
-8. Un automóvil recorre una distancia de $120\text{ km}$ en $1\text{ hora y } 36\text{ minutos}$. ¿Cuál fue su velocidad media en $\text{km/h}$?
+8. Un automóvil recorre una distancia de $120\text{ km}$ en $1\text{ hora y } 36\text{ minutos}$. ¿Cuál fue su velocidad media en $\text{km/h}$?  
 A) $70\text{ km/h}$  
 B) $75\text{ km/h}$  
 C) $80\text{ km/h}$  
 D) $85\text{ km/h}$  
 E) $65\text{ km/h}$  
 
-9. Exprese el ángulo horario de $3\text{ horas, } 18\text{ minutos y } 36\text{ segundos}$ en horas decimales exactas:
+9. Exprese el ángulo horario de $3\text{ horas, } 18\text{ minutos y } 36\text{ segundos}$ en horas decimales exactas:  
 A) $3{,}31\text{ h}$  
 B) $3{,}186\text{ h}$  
 C) $3{,}305\text{ h}$  
 D) $3{,}31\text{ h}$  
 E) $3{,}31\text{ h}$  
 
-10. Un terreno rectangular mide $25\text{ m}$ de frente por $40\text{ m}$ de fondo. ¿A cuántas áreas ($\text{a}$) equivale su superficie? ($1\text{ a} = 100\text{ m}^2$).
+10. Un terreno rectangular mide $25\text{ m}$ de frente por $40\text{ m}$ de fondo. ¿A cuántas áreas ($\text{a}$) equivale su superficie? ($1\text{ a} = 100\text{ m}^2$).  
 A) $1\text{ a}$  
 B) $10\text{ a}$  
 C) $100\text{ a}$  
 D) $0{,}1\text{ a}$  
 E) $1\,000\text{ a}$  
 
-11. Un disco duro de computadora transfiere datos a una tasa de $150\text{ megabytes por segundo}$ ($150\text{ MB/s}$). ¿Cuántos gigabytes ($\text{GB}$) transfiere en $1\text{ minuto}$? (Considere $1\text{ GB} = 1\,000\text{ MB}$).
+11. Un disco duro de computadora transfiere datos a una tasa de $150\text{ megabytes por segundo}$ ($150\text{ MB/s}$). ¿Cuántos gigabytes ($\text{GB}$) transfiere en $1\text{ minuto}$? (Considere $1\text{ GB} = 1\,000\text{ MB}$).  
 A) $6\text{ GB}$  
 B) $9\text{ GB}$  
 C) $12\text{ GB}$  
 D) $15\text{ GB}$  
 E) $18\text{ GB}$  
 
-12. ¿A cuántos centímetros cúbicos ($\text{cm}^3$) equivalen $0{,}045\text{ metros cúbicos}$ ($\text{m}^3$)?
+12. ¿A cuántos centímetros cúbicos ($\text{cm}^3$) equivalen $0{,}045\text{ metros cúbicos}$ ($\text{m}^3$)?  
 A) $450\text{ cm}^3$  
 B) $4\,500\text{ cm}^3$  
 C) $45\,000\text{ cm}^3$  
 D) $450\,000\text{ cm}^3$  
 E) $45\text{ cm}^3$  
 
-13. Una bacteria mide aproximadamente $2{,}5\ \mu\text{m}$ de longitud. ¿Cuántas bacterias colocadas una tras otra en línea recta se necesitarían para cubrir una longitud de $1\text{ centímetro}$?
+13. Una bacteria mide aproximadamente $2{,}5\ \mu\text{m}$ de longitud. ¿Cuántas bacterias colocadas una tras otra en línea recta se necesitarían para cubrir una longitud de $1\text{ centímetro}$?  
 A) $4\,000$  
 B) $40\,000$  
 C) $400\,000$  
 D) $400$  
 E) $4 \times 10^6$  
 
-14. Un tanque cilíndrico pierde agua por una fisura a razón de $25\text{ mL por minuto}$. ¿Cuántos litros se habrán perdido al cabo de $2\text{ días}$ continuos?
+14. Un tanque cilíndrico pierde agua por una fisura a razón de $25\text{ mL por minuto}$. ¿Cuántos litros se habrán perdido al cabo de $2\text{ días}$ continuos?  
 A) $36\text{ L}$  
 B) $48\text{ L}$  
 C) $72\text{ L}$  
 D) $60\text{ L}$  
 E) $84\text{ L}$  
 
-15. Si un rayo de luz viaja a $300\,000\text{ km/s}$, ¿cuántos kilómetros recorre en un lapso de $1\text{ nanosegundo}$ ($1\text{ ns} = 10^{-9}\text{ s}$)?
+15. Si un rayo de luz viaja a $300\,000\text{ km/s}$, ¿cuántos kilómetros recorre en un lapso de $1\text{ nanosegundo}$ ($1\text{ ns} = 10^{-9}\text{ s}$)?  
 A) $3 \times 10^{-4}\text{ km}$  
 B) $3 \times 10^{-3}\text{ km}$  
 C) $3 \times 10^{-1}\text{ km}$  
@@ -622,105 +622,105 @@ E) $3 \times 10^{-7}\text{ km}$
 
 ### Bloque II: Nivel Intermedio (Ejercicios 16 al 30)
 
-16. Un túnel ferroviario en la sierra central tiene una longitud de $3{,}8\text{ km}$. Un tren de $200\text{ m}$ de largo ingresa al túnel a una velocidad constante de $72\text{ km/h}$. ¿Cuántos minutos tarda el tren desde que la locomotora entra al túnel hasta que el último vagón sale completamente de él?
+16. Un túnel ferroviario en la sierra central tiene una longitud de $3{,}8\text{ km}$. Un tren de $200\text{ m}$ de largo ingresa al túnel a una velocidad constante de $72\text{ km/h}$. ¿Cuántos minutos tarda el tren desde que la locomotora entra al túnel hasta que el último vagón sale completamente de él?  
 A) $3\text{ min } 15\text{ s}$  
 B) $3\text{ min } 20\text{ s}$  
 C) $3\text{ min } 30\text{ s}$  
 D) $3\text{ min } 45\text{ s}$  
 E) $4\text{ min } 00\text{ s}$  
 
-17. Un agricultor divide una parcela de $4{,}5\text{ hectáreas}$ en lotes iguales de $250\text{ m}^2$ para construir módulos hidropónicos. Si destina el $20\%$ del área total a caminos de acceso y canales, ¿cuántos lotes útiles se obtienen?
+17. Un agricultor divide una parcela de $4{,}5\text{ hectáreas}$ en lotes iguales de $250\text{ m}^2$ para construir módulos hidropónicos. Si destina el $20\%$ del área total a caminos de acceso y canales, ¿cuántos lotes útiles se obtienen?  
 A) $120$  
 B) $135$  
 C) $144$  
 D) $150$  
 E) $160$  
 
-18. Un ciclista recorre tres etapas en una competencia: la primera etapa de $45\text{ km}$ a $30\text{ km/h}$; la segunda de $36\text{ km}$ a $24\text{ km/h}$; y la tercera de $18\text{ km}$ a $18\text{ km/h}$. ¿Cuál fue su velocidad media para todo el recorrido?
+18. Un ciclista recorre tres etapas en una competencia: la primera etapa de $45\text{ km}$ a $30\text{ km/h}$; la segunda de $36\text{ km}$ a $24\text{ km/h}$; y la tercera de $18\text{ km}$ a $18\text{ km/h}$. ¿Cuál fue su velocidad media para todo el recorrido?  
 A) $23{,}5\text{ km/h}$  
 B) $24{,}75\text{ km/h}$  
 C) $25{,}0\text{ km/h}$  
 D) $24{,}0\text{ km/h}$  
 E) $26{,}2\text{ km/h}$  
 
-19. Una piscina municipal de $25\text{ m}$ de largo, $12\text{ m}$ de ancho y $1{,}8\text{ m}$ de profundidad media se vacía mediante un sistema de motobombas que extrae un caudal constante de $45\text{ m}^3\text{/h}$. ¿Cuánto tiempo (en horas y minutos) tarda en vaciarse totalmente?
+19. Una piscina municipal de $25\text{ m}$ de largo, $12\text{ m}$ de ancho y $1{,}8\text{ m}$ de profundidad media se vacía mediante un sistema de motobombas que extrae un caudal constante de $45\text{ m}^3\text{/h}$. ¿Cuánto tiempo (en horas y minutos) tarda en vaciarse totalmente?  
 A) $10\text{ h } 48\text{ min}$  
 B) $11\text{ h } 15\text{ min}$  
 C) $12\text{ h } 00\text{ min}$  
 D) $12\text{ h } 30\text{ min}$  
 E) $11\text{ h } 40\text{ min}$  
 
-20. En un plano catastral elaborado a escala $1:5\,000$, un bosque comunal está representado por un trapecio de bases $6\text{ cm}$ y $10\text{ cm}$, con una altura de $4\text{ cm}$. ¿Cuál es el área real del bosque expresada en hectáreas ($\text{ha}$)?
+20. En un plano catastral elaborado a escala $1:5\,000$, un bosque comunal está representado por un trapecio de bases $6\text{ cm}$ y $10\text{ cm}$, con una altura de $4\text{ cm}$. ¿Cuál es el área real del bosque expresada en hectáreas ($\text{ha}$)?  
 A) $4\text{ ha}$  
 B) $8\text{ ha}$  
 C) $10\text{ ha}$  
 D) $12\text{ ha}$  
 E) $16\text{ ha}$  
 
-21. Una impresora 3D industrial utiliza un filamento cilíndrico de $1{,}75\text{ mm}$ de diámetro. Si en una jornada continua consume $80\text{ metros}$ de dicho filamento, ¿cuál es el volumen aproximado de plástico utilizado en centímetros cúbicos ($\text{cm}^3$)? (Considere $\pi \approx 3{,}1416$).
+21. Una impresora 3D industrial utiliza un filamento cilíndrico de $1{,}75\text{ mm}$ de diámetro. Si en una jornada continua consume $80\text{ metros}$ de dicho filamento, ¿cuál es el volumen aproximado de plástico utilizado en centímetros cúbicos ($\text{cm}^3$)? (Considere $\pi \approx 3{,}1416$).  
 A) $185{,}2\text{ cm}^3$  
 B) $192{,}4\text{ cm}^3$  
 C) $201{,}8\text{ cm}^3$  
 D) $210{,}5\text{ cm}^3$  
 E) $198{,}6\text{ cm}^3$  
 
-22. Un satélite meteorológico toma una fotografía de alta resolución cada $18\text{ milisegundos}$ ($\text{ms}$). Si cada imagen tiene un peso digital comprimido de $4{,}5\text{ megabytes}$ ($\text{MB}$), ¿cuántos gigabytes ($\text{GB}$) de almacenamiento ocupa la información recabada en $3\text{ minutos}$ continuos de escaneo? ($1\text{ GB} = 1\,000\text{ MB}$).
+22. Un satélite meteorológico toma una fotografía de alta resolución cada $18\text{ milisegundos}$ ($\text{ms}$). Si cada imagen tiene un peso digital comprimido de $4{,}5\text{ megabytes}$ ($\text{MB}$), ¿cuántos gigabytes ($\text{GB}$) de almacenamiento ocupa la información recabada en $3\text{ minutos}$ continuos de escaneo? ($1\text{ GB} = 1\,000\text{ MB}$).  
 A) $35\text{ GB}$  
 B) $45\text{ GB}$  
 C) $50\text{ GB}$  
 D) $40\text{ GB}$  
 E) $60\text{ GB}$  
 
-23. Dos trenes $A$ y $B$ parten simultáneamente al encuentro desde dos ciudades distantes $360\text{ km}$ a través de una vía rectilínea. El tren $A$ viaja a $75\text{ km/h}$ y el tren $B$ a $25\text{ m/s}$. ¿Al cabo de cuánto tiempo (en horas y minutos) se produce el cruce?
+23. Dos trenes $A$ y $B$ parten simultáneamente al encuentro desde dos ciudades distantes $360\text{ km}$ a través de una vía rectilínea. El tren $A$ viaja a $75\text{ km/h}$ y el tren $B$ a $25\text{ m/s}$. ¿Al cabo de cuánto tiempo (en horas y minutos) se produce el cruce?  
 A) $2\text{ h } 00\text{ min}$  
 B) $2\text{ h } 10\text{ min}$  
 C) $2\text{ h } 15\text{ min}$  
 D) $2\text{ h } 24\text{ min}$  
 E) $2\text{ h } 30\text{ min}$  
 
-24. Un automóvil tiene un consumo de combustible de $8{,}5\text{ litros por cada } 100\text{ kilómetros}$. Si el galón peruano equivale a $3{,}785\text{ litros}$, ¿cuántos kilómetros por galón ($\text{km/gal}$) rinde el vehículo?
+24. Un automóvil tiene un consumo de combustible de $8{,}5\text{ litros por cada } 100\text{ kilómetros}$. Si el galón peruano equivale a $3{,}785\text{ litros}$, ¿cuántos kilómetros por galón ($\text{km/gal}$) rinde el vehículo?  
 A) $42{,}3\text{ km/gal}$  
 B) $44{,}5\text{ km/gal}$  
 C) $46{,}2\text{ km/gal}$  
 D) $48{,}1\text{ km/gal}$  
 E) $40{,}8\text{ km/gal}$  
 
-25. Un grifo de jardín vierte $0{,}25\text{ litros por segundo}$ en un tanque cúbico abierto de $80\text{ cm}$ de arista interior. Si el fondo del tanque presenta un orificio de drenaje que desaloja $3\text{ litros por minuto}$, ¿cuánto tiempo tardará el tanque en llenarse desde su estado vacío?
+25. Un grifo de jardín vierte $0{,}25\text{ litros por segundo}$ en un tanque cúbico abierto de $80\text{ cm}$ de arista interior. Si el fondo del tanque presenta un orificio de drenaje que desaloja $3\text{ litros por minuto}$, ¿cuánto tiempo tardará el tanque en llenarse desde su estado vacío?  
 A) $32\text{ min } 40\text{ s}$  
 B) $38\text{ min } 24\text{ s}$  
 C) $42\text{ min } 40\text{ s}$  
 D) $45\text{ min } 00\text{ s}$  
 E) $35\text{ min } 30\text{ s}$  
 
-26. Se mide el espesor de una pila de $500$ hojas de papel bond idénticas con un micrómetro digital, obteniéndose $4{,}75\text{ cm}$. ¿Cuál es el espesor de una sola hoja expresado en micrómetros ($\mu\text{m}$)?
+26. Se mide el espesor de una pila de $500$ hojas de papel bond idénticas con un micrómetro digital, obteniéndose $4{,}75\text{ cm}$. ¿Cuál es el espesor de una sola hoja expresado en micrómetros ($\mu\text{m}$)?  
 A) $95\ \mu\text{m}$  
 B) $85\ \mu\text{m}$  
 C) $90\ \mu\text{m}$  
 D) $105\ \mu\text{m}$  
 E) $75\ \mu\text{m}$  
 
-27. Un camión cisterna con capacidad de $15\text{ m}^3$ de agua potable abastece bidones familiares de $60\text{ litros}$. Si el tiempo promedio para llenar cada bidón y cambiar de posición al siguiente usuario es de $1\text{ minuto y } 36\text{ segundos}$, ¿cuántas horas continuas de labor ininterrumpida requiere la distribución de toda la carga?
+27. Un camión cisterna con capacidad de $15\text{ m}^3$ de agua potable abastece bidones familiares de $60\text{ litros}$. Si el tiempo promedio para llenar cada bidón y cambiar de posición al siguiente usuario es de $1\text{ minuto y } 36\text{ segundos}$, ¿cuántas horas continuas de labor ininterrumpida requiere la distribución de toda la carga?  
 A) $6\text{ h } 15\text{ min}$  
 B) $6\text{ h } 40\text{ min}$  
 C) $7\text{ h } 00\text{ min}$  
 D) $7\text{ h } 20\text{ min}$  
 E) $6\text{ h } 00\text{ min}$  
 
-28. Un reloj analógico adelanta $3\text{ minutos cada } 8\text{ horas}$. Si se sincroniza con la hora oficial a las 6:00 a.m. del día lunes, ¿qué hora marcará este reloj a las 6:00 p.m. del día jueves de esa misma semana?
+28. Un reloj analógico adelanta $3\text{ minutos cada } 8\text{ horas}$. Si se sincroniza con la hora oficial a las 6:00 a.m. del día lunes, ¿qué hora marcará este reloj a las 6:00 p.m. del día jueves de esa misma semana?  
 A) 6:27 p.m.  
 B) 6:31 p.m.  
 C) 6:31 p.m. y $30\text{ s}$  
 D) 6:33 p.m.  
 E) 6:35 p.m.  
 
-29. Una tubería de desagüe de sección circular tiene un radio interior de $10\text{ cm}$. Si el agua residual fluye a una velocidad de $1{,}5\text{ m/s}$ ocupando la mitad de la sección de la tubería, ¿cuál es el caudal desalojado en litros por segundo ($\text{L/s}$)? (Considere $\pi \approx 3{,}1416$).
+29. Una tubería de desagüe de sección circular tiene un radio interior de $10\text{ cm}$. Si el agua residual fluye a una velocidad de $1{,}5\text{ m/s}$ ocupando la mitad de la sección de la tubería, ¿cuál es el caudal desalojado en litros por segundo ($\text{L/s}$)? (Considere $\pi \approx 3{,}1416$).  
 A) $21{,}8\text{ L/s}$  
 B) $23{,}56\text{ L/s}$  
 C) $25{,}12\text{ L/s}$  
 D) $27{,}4\text{ L/s}$  
 E) $18{,}9\text{ L/s}$  
 
-30. Se vierte mercurio líquido (densidad $\rho = 13{,}6\text{ g/cm}^3$) en un recipiente cilíndrico graduado hasta alcanzar una altura de $15\text{ cm}$. Si el radio de la base interior es de $4\text{ cm}$, determine la masa total de mercurio en kilogramos ($\text{kg}$). (Considere $\pi \approx 3{,}1416$).
+30. Se vierte mercurio líquido (densidad $\rho = 13{,}6\text{ g/cm}^3$) en un recipiente cilíndrico graduado hasta alcanzar una altura de $15\text{ cm}$. Si el radio de la base interior es de $4\text{ cm}$, determine la masa total de mercurio en kilogramos ($\text{kg}$). (Considere $\pi \approx 3{,}1416$).  
 A) $9{,}85\text{ kg}$  
 B) $10{,}26\text{ kg}$  
 C) $10{,}50\text{ kg}$  
@@ -731,105 +731,105 @@ E) $8{,}95\text{ kg}$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Un canal de regadío trapezoidal en Lambayeque tiene un ancho basal de $1{,}8\text{ m}$, taludes laterales a $45^\circ$ y una profundidad de lámina de agua de $1{,}2\text{ m}$. Si el agua avanza a una velocidad de $0{,}85\text{ m/s}$, ¿cuántos metros cúbicos por hora ($\text{m}^3\text{/h}$) de caudal transporta dicho canal?
+31. Un canal de regadío trapezoidal en Lambayeque tiene un ancho basal de $1{,}8\text{ m}$, taludes laterales a $45^\circ$ y una profundidad de lámina de agua de $1{,}2\text{ m}$. Si el agua avanza a una velocidad de $0{,}85\text{ m/s}$, ¿cuántos metros cúbicos por hora ($\text{m}^3\text{/h}$) de caudal transporta dicho canal?  
 A) $10\,450\text{ m}^3\text{/h}$  
 B) $11\,016\text{ m}^3\text{/h}$  
 C) $11\,250\text{ m}^3\text{/h}$  
 D) $12\,100\text{ m}^3\text{/h}$  
 E) $9\,860\text{ m}^3\text{/h}$  
 
-32. En un experimento de física nuclear en el reactor RP-10 de Huarangal (Lima), se detecta un flujo de neutrones térmicos que viajan a una velocidad media de $2\,200\text{ m/s}$. ¿Cuántos picosegundos ($\text{ps}$) tarda un neutrón térmico en atravesar una lámina de blindaje de cadmio de $0{,}44\text{ mm}$ de espesor?
+32. En un experimento de física nuclear en el reactor RP-10 de Huarangal (Lima), se detecta un flujo de neutrones térmicos que viajan a una velocidad media de $2\,200\text{ m/s}$. ¿Cuántos picosegundos ($\text{ps}$) tarda un neutrón térmico en atravesar una lámina de blindaje de cadmio de $0{,}44\text{ mm}$ de espesor?  
 A) $2 \times 10^5\text{ ps}$  
 B) $2 \times 10^6\text{ ps}$  
 C) $2 \times 10^8\text{ ps}$  
 D) $2 \times 10^7\text{ ps}$  
 E) $2 \times 10^9\text{ ps}$  
 
-33. Un convoy humanitario con ayuda para comunidades afectadas por heladas en Puno debe trasladar $180\text{ toneladas}$ de víveres a través de una ruta de $240\text{ km}$. La ruta comprende un primer tramo de trocha afirmada ($40\%$ del trayecto) donde la velocidad máxima es de $24\text{ km/h}$, y un segundo tramo asfaltado donde la velocidad es de $60\text{ km/h}$. Si el convoy consume combustible a razón de $1{,}2\text{ L/km}$ en trocha y $0{,}75\text{ L/km}$ en asfalto, y realiza una parada técnica de $45\text{ minutos}$ en el empalme, calcule el tiempo total de traslado (en horas y minutos) y el volumen total de combustible consumido en galones ($1\text{ gal} = 3{,}785\text{ L}$).
+33. Un convoy humanitario con ayuda para comunidades afectadas por heladas en Puno debe trasladar $180\text{ toneladas}$ de víveres a través de una ruta de $240\text{ km}$. La ruta comprende un primer tramo de trocha afirmada ($40\%$ del trayecto) donde la velocidad máxima es de $24\text{ km/h}$, y un segundo tramo asfaltado donde la velocidad es de $60\text{ km/h}$. Si el convoy consume combustible a razón de $1{,}2\text{ L/km}$ en trocha y $0{,}75\text{ L/km}$ en asfalto, y realiza una parada técnica de $45\text{ minutos}$ en el empalme, calcule el tiempo total de traslado (en horas y minutos) y el volumen total de combustible consumido en galones ($1\text{ gal} = 3{,}785\text{ L}$).  
 A) $6\text{ h } 45\text{ min} \;;\; 58{,}9\text{ gal}$  
 B) $7\text{ h } 09\text{ min} \;;\; 58{,}9\text{ gal}$  
 C) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
 D) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
 E) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
 
-34. Una represa hidroeléctrica en la cuenca del Mantaro tiene un espejo de agua de $4{,}2\text{ km}^2$. Durante el estiaje, la evaporación superficial reduce la cota a razón de $3{,}5\text{ mm}$ diarios, mientras que las compuertas de fondo evacúan un caudal ecológico constante de $150\text{ L/s}$. Si las precipitaciones y afluentes aportan un caudal promedio de solo $50\text{ L/s}$, ¿cuántos metros cúbicos de agua pierde la represa en un lapso de $30\text{ días}$ comerciales?
+34. Una represa hidroeléctrica en la cuenca del Mantaro tiene un espejo de agua de $4{,}2\text{ km}^2$. Durante el estiaje, la evaporación superficial reduce la cota a razón de $3{,}5\text{ mm}$ diarios, mientras que las compuertas de fondo evacúan un caudal ecológico constante de $150\text{ L/s}$. Si las precipitaciones y afluentes aportan un caudal promedio de solo $50\text{ L/s}$, ¿cuántos metros cúbicos de agua pierde la represa en un lapso de $30\text{ días}$ comerciales?  
 A) $699\,600\text{ m}^3$  
 B) $700\,200\text{ m}^3$  
 C) $712\,800\text{ m}^3$  
 D) $725\,400\text{ m}^3$  
 E) $685\,000\text{ m}^3$  
 
-35. Un microcontrolador en un sistema de aviónica aeroespacial opera con un ciclo de reloj de $16\text{ nanosegundos}$ ($16\text{ ns}$). Si una rutina de control de navegación requiere procesar $12{,}5 \times 10^6$ ciclos continuos de reloj, ¿cuántos milisegundos ($\text{ms}$) tarda dicha rutina en ejecutarse?
+35. Un microcontrolador en un sistema de aviónica aeroespacial opera con un ciclo de reloj de $16\text{ nanosegundos}$ ($16\text{ ns}$). Si una rutina de control de navegación requiere procesar $12{,}5 \times 10^6$ ciclos continuos de reloj, ¿cuántos milisegundos ($\text{ms}$) tarda dicha rutina en ejecutarse?  
 A) $100\text{ ms}$  
 B) $150\text{ ms}$  
 C) $200\text{ ms}$  
 D) $250\text{ ms}$  
 E) $300\text{ ms}$  
 
-36. En una planta de tratamiento de aguas residuales en Iquitos, se desinfecta un flujo continuo de agua residual que ingresa a razón de $180\text{ m}^3\text{/h}$ mediante la inyección automatizada de hipoclorito de sodio a una concentración de $4{,}5\text{ mg por cada litro}$. Si la solución comercial concentrada tiene una densidad de $1{,}2\text{ g/cm}^3$ y contiene un $12\%$ de cloro activo en masa, ¿cuántos litros de solución concentrada se consumen al cabo de una semana continua de operación ($7\text{ días}$)?
+36. En una planta de tratamiento de aguas residuales en Iquitos, se desinfecta un flujo continuo de agua residual que ingresa a razón de $180\text{ m}^3\text{/h}$ mediante la inyección automatizada de hipoclorito de sodio a una concentración de $4{,}5\text{ mg por cada litro}$. Si la solución comercial concentrada tiene una densidad de $1{,}2\text{ g/cm}^3$ y contiene un $12\%$ de cloro activo en masa, ¿cuántos litros de solución concentrada se consumen al cabo de una semana continua de operación ($7\text{ días}$)?  
 A) $787{,}5\text{ L}$  
 B) $945\text{ L}$  
 C) $1\,050\text{ L}$  
 D) $1\,125\text{ L}$  
 E) $850\text{ L}$  
 
-37. La sonda espacial New Horizons se encuentra a una distancia de la Tierra de $54\text{ Unidades Astronómicas}$ ($\text{UA}$). Si $1\text{ UA} \approx 1{,}496 \times 10^8\text{ km}$ y las ondas de radio viajan a la velocidad de la luz en el vacío ($c \approx 3 \times 10^5\text{ km/s}$), ¿cuánto tiempo tarda una señal de telemetría en llegar a la estación terrena? Exprese el resultado en horas, minutos y segundos exactos.
+37. La sonda espacial New Horizons se encuentra a una distancia de la Tierra de $54\text{ Unidades Astronómicas}$ ($\text{UA}$). Si $1\text{ UA} \approx 1{,}496 \times 10^8\text{ km}$ y las ondas de radio viajan a la velocidad de la luz en el vacío ($c \approx 3 \times 10^5\text{ km/s}$), ¿cuánto tiempo tarda una señal de telemetría en llegar a la estación terrena? Exprese el resultado en horas, minutos y segundos exactos.  
 A) $7\text{ h } 15\text{ min } 34\text{ s}$  
 B) $7\text{ h } 28\text{ min } 53\text{ s}$  
 C) $7\text{ h } 42\text{ min } 12\text{ s}$  
 D) $8\text{ h } 01\text{ min } 25\text{ s}$  
 E) $6\text{ h } 58\text{ min } 40\text{ s}$  
 
-38. Una máquina tuneladora en la Línea 2 del Metro de Lima perfora a un ritmo sostenido de $12\text{ milímetros por minuto}$. Si la máquina trabaja en turnos ininterrumpidos durante $25\text{ días}$, ¿cuántos metros lineales de túnel habrá perforado al culminar dicho periodo?
+38. Una máquina tuneladora en la Línea 2 del Metro de Lima perfora a un ritmo sostenido de $12\text{ milímetros por minuto}$. Si la máquina trabaja en turnos ininterrumpidos durante $25\text{ días}$, ¿cuántos metros lineales de túnel habrá perforado al culminar dicho periodo?  
 A) $360\text{ m}$  
 B) $432\text{ m}$  
 C) $504\text{ m}$  
 D) $520\text{ m}$  
 E) $480\text{ m}$  
 
-39. Un terreno de forma poligonal irregular en Cajamarca tiene un perímetro de $1{,}75\text{ km}$. Se desea cercar con $4$ líneas de alambre de púas sostenidas por postes de eucalipto colocados cada $2{,}5\text{ metros}$. Si cada rollo de alambre de púas tiene una longitud de $400\text{ metros}$ y se desperdicia un $5\%$ en amarres y empalmes, ¿cuántos rollos de alambre y cuántos postes como mínimo se deben comprar?
+39. Un terreno de forma poligonal irregular en Cajamarca tiene un perímetro de $1{,}75\text{ km}$. Se desea cercar con $4$ líneas de alambre de púas sostenidas por postes de eucalipto colocados cada $2{,}5\text{ metros}$. Si cada rollo de alambre de púas tiene una longitud de $400\text{ metros}$ y se desperdicia un $5\%$ en amarres y empalmes, ¿cuántos rollos de alambre y cuántos postes como mínimo se deben comprar?  
 A) $18\text{ rollos y } 700\text{ postes}$  
 B) $19\text{ rollos y } 701\text{ postes}$  
 C) $19\text{ rollos y } 700\text{ postes}$  
 D) $20\text{ rollos y } 701\text{ postes}$  
 E) $18\text{ rollos y } 701\text{ postes}$  
 
-40. Un proyectil balístico experimental lanzado verticalmente hacia arriba alcanza una altitud de apogeo de $45\text{ km}$. Durante los primeros $15\text{ segundos}$ de vuelo asciende con aceleración constante de $40\text{ m/s}^2$ a partir del reposo, momento en el cual se apaga el motor y continúa en ascenso libre frenado por la gravedad ($g = 9{,}8\text{ m/s}^2$). ¿Cuál es la velocidad del proyectil (en $\text{km/h}$) al momento exacto en que se apagan sus motores?
+40. Un proyectil balístico experimental lanzado verticalmente hacia arriba alcanza una altitud de apogeo de $45\text{ km}$. Durante los primeros $15\text{ segundos}$ de vuelo asciende con aceleración constante de $40\text{ m/s}^2$ a partir del reposo, momento en el cual se apaga el motor y continúa en ascenso libre frenado por la gravedad ($g = 9{,}8\text{ m/s}^2$). ¿Cuál es la velocidad del proyectil (en $\text{km/h}$) al momento exacto en que se apagan sus motores?  
 A) $1\,800\text{ km/h}$  
 B) $2\,160\text{ km/h}$  
 C) $2\,400\text{ km/h}$  
 D) $2\,520\text{ km/h}$  
 E) $1\,980\text{ km/h}$  
 
-41. Un sistema de purificación por ósmosis inversa procesa agua de mar desalinizada produciendo $250\text{ mililitros por segundo}$ de agua apta para consumo humano. ¿Cuántos metros cúbicos ($\text{m}^3$) de agua pura producirá la planta durante el mes de febrero en un año bisiesto si opera $20\text{ horas}$ diarias?
+41. Un sistema de purificación por ósmosis inversa procesa agua de mar desalinizada produciendo $250\text{ mililitros por segundo}$ de agua apta para consumo humano. ¿Cuántos metros cúbicos ($\text{m}^3$) de agua pura producirá la planta durante el mes de febrero en un año bisiesto si opera $20\text{ horas}$ diarias?  
 A) $522\text{ m}^3$  
 B) $540\text{ m}^3$  
 C) $604{,}8\text{ m}^3$  
 D) $580\text{ m}^3$  
 E) $626{,}4\text{ m}^3$  
 
-42. Un transformador eléctrico trifásico en una subestación de alta tensión en Huancayo pierde energía en forma de calor a razón de $15\text{ kilovatios}$ ($15\text{ kW} = 15\,000\text{ J/s}$). Para refrigerarlo, se hace circular aceite dieléctrico (calor específico $c_e = 2\,000\text{ J/(kg}\cdot^\circ\text{C)}$ y densidad $\rho = 850\text{ kg/m}^3$). Si el aceite no debe elevar su temperatura en más de $10^\circ\text{C}$, ¿cuál debe ser el caudal mínimo de circulación en litros por minuto ($\text{L/min}$)?
+42. Un transformador eléctrico trifásico en una subestación de alta tensión en Huancayo pierde energía en forma de calor a razón de $15\text{ kilovatios}$ ($15\text{ kW} = 15\,000\text{ J/s}$). Para refrigerarlo, se hace circular aceite dieléctrico (calor específico $c_e = 2\,000\text{ J/(kg}\cdot^\circ\text{C)}$ y densidad $\rho = 850\text{ kg/m}^3$). Si el aceite no debe elevar su temperatura en más de $10^\circ\text{C}$, ¿cuál debe ser el caudal mínimo de circulación en litros por minuto ($\text{L/min}$)?  
 A) $45\text{ L/min}$  
 B) $52{,}94\text{ L/min}$  
 C) $60\text{ L/min}$  
 D) $65{,}5\text{ L/min}$  
 E) $48{,}2\text{ L/min}$  
 
-43. Dos satélites geoestacionarios $S_1$ y $S_2$ orbitan sobre el ecuador terrestre separados por una distancia en línea recta de $12\,600\text{ km}$. Una estación terrena ubicada exactamente en el punto medio geodésico recibe señales emitidas por ambos satélites. Si el reloj atómico de $S_1$ presenta un adelanto temporal acumulado de $45\text{ microsegundos}$ respecto a $S_2$, ¿qué distancia espacial habrá recorrido la onda electromagnética de $S_1$ adicional a la de $S_2$ durante ese desfase? ($c = 3 \times 10^8\text{ m/s}$).
+43. Dos satélites geoestacionarios $S_1$ y $S_2$ orbitan sobre el ecuador terrestre separados por una distancia en línea recta de $12\,600\text{ km}$. Una estación terrena ubicada exactamente en el punto medio geodésico recibe señales emitidas por ambos satélites. Si el reloj atómico de $S_1$ presenta un adelanto temporal acumulado de $45\text{ microsegundos}$ respecto a $S_2$, ¿qué distancia espacial habrá recorrido la onda electromagnética de $S_1$ adicional a la de $S_2$ durante ese desfase? ($c = 3 \times 10^8\text{ m/s}$).  
 A) $13{,}5\text{ km}$  
 B) $15\text{ km}$  
 C) $12\text{ km}$  
 D) $18\text{ km}$  
 E) $10{,}5\text{ km}$  
 
-44. Una viga de acero estructural para un puente en la selva central de $18\text{ metros}$ de longitud a $10^\circ\text{C}$ experimenta una dilatación térmica lineal de $\Delta L = \alpha \cdot L_0 \cdot \Delta T$. Si el coeficiente de dilatación del acero es $\alpha = 1{,}2 \times 10^{-5}\ ^\circ\text{C}^{-1}$ y la temperatura máxima al mediodía alcanza los $38^\circ\text{C}$, ¿cuántos milímetros ($\text{mm}$) se expande la viga?
+44. Una viga de acero estructural para un puente en la selva central de $18\text{ metros}$ de longitud a $10^\circ\text{C}$ experimenta una dilatación térmica lineal de $\Delta L = \alpha \cdot L_0 \cdot \Delta T$. Si el coeficiente de dilatación del acero es $\alpha = 1{,}2 \times 10^{-5}\ ^\circ\text{C}^{-1}$ y la temperatura máxima al mediodía alcanza los $38^\circ\text{C}$, ¿cuántos milímetros ($\text{mm}$) se expande la viga?  
 A) $5{,}04\text{ mm}$  
 B) $6{,}05\text{ mm}$  
 C) $4{,}85\text{ mm}$  
 D) $7{,}12\text{ mm}$  
 E) $6{,}48\text{ mm}$  
 
-45. En un ensayo geomecánico de permeabilidad hidráulica de suelos en el valle de Urubamba, se hace pasar agua a través de una probeta cilíndrica de suelo de $10\text{ cm}$ de diámetro y $15\text{ cm}$ de longitud bajo una carga hidráulica constante. Si se recolectan $785\text{ cm}^3$ de agua en un tiempo de $1\text{ hora y } 40\text{ minutos}$, ¿cuál es la velocidad de descarga aparente del agua a través del suelo expresada en micrómetros por segundo ($\mu\text{m/s}$)? (Considere $\pi \approx 3{,}1416$).
+45. En un ensayo geomecánico de permeabilidad hidráulica de suelos en el valle de Urubamba, se hace pasar agua a través de una probeta cilíndrica de suelo de $10\text{ cm}$ de diámetro y $15\text{ cm}$ de longitud bajo una carga hidráulica constante. Si se recolectan $785\text{ cm}^3$ de agua en un tiempo de $1\text{ hora y } 40\text{ minutos}$, ¿cuál es la velocidad de descarga aparente del agua a través del suelo expresada en micrómetros por segundo ($\mu\text{m/s}$)? (Considere $\pi \approx 3{,}1416$).  
 A) $16{,}67\ \mu\text{m/s}$  
 B) $18{,}25\ \mu\text{m/s}$  
 C) $20{,}0\ \mu\text{m/s}$  

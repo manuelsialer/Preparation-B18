@@ -470,105 +470,105 @@ $$2x = 70 \implies x = 35\text{ litros}$$
 
 ### Bloque I: Nivel Básico (Ejercicios 01 al 15)
 
-1. ¿Cuál es el $15\%$ del $20\%$ de $4\,000$?
+1. ¿Cuál es el $15\%$ del $20\%$ de $4\,000$?  
 A) $100$  
 B) $120$  
 C) $140$  
 D) $150$  
 E) $180$  
 
-2. ¿Qué porcentaje de $850$ representa el número $153$?
+2. ¿Qué porcentaje de $850$ representa el número $153$?  
 A) $16\%$  
 B) $17\%$  
 C) $18\%$  
 D) $19\%$  
 E) $20\%$  
 
-3. Si el $40\%$ de un número $N$ es igual a $180$, ¿cuál es el $75\%$ de dicho número?
+3. Si el $40\%$ de un número $N$ es igual a $180$, ¿cuál es el $75\%$ de dicho número?  
 A) $315$  
 B) $330$  
 C) $337{,}5$  
 D) $345$  
 E) $350$  
 
-4. En un almacén de alimentos hay $1\,800$ sacos de arroz. Si se venden $540$ sacos, ¿qué porcentaje de los sacos queda en el almacén?
+4. En un almacén de alimentos hay $1\,800$ sacos de arroz. Si se venden $540$ sacos, ¿qué porcentaje de los sacos queda en el almacén?  
 A) $65\%$  
 B) $70\%$  
 C) $72\%$  
 D) $75\%$  
 E) $80\%$  
 
-5. Dos aumentos sucesivos del $10\%$ y del $30\%$ equivalen a un aumento único de:
+5. Dos aumentos sucesivos del $10\%$ y del $30\%$ equivalen a un aumento único de:  
 A) $40\%$  
 B) $41\%$  
 C) $42\%$  
 D) $43\%$  
 E) $44\%$  
 
-6. Dos descuentos sucesivos del $20\%$ y del $20\%$ equivalen a un descuento único de:
+6. Dos descuentos sucesivos del $20\%$ y del $20\%$ equivalen a un descuento único de:  
 A) $36\%$  
 B) $40\%$  
 C) $38\%$  
 D) $32\%$  
 E) $34\%$  
 
-7. Un comerciante vende una casaca a $\text{S/ } 180$, ganando el $20\%$ del precio de costo. ¿Cuánto le costó la casaca?
+7. Un comerciante vende una casaca a $\text{S/ } 180$, ganando el $20\%$ del precio de costo. ¿Cuánto le costó la casaca?  
 A) $\text{S/ } 140$  
 B) $\text{S/ } 144$  
 C) $\text{S/ } 150$  
 D) $\text{S/ } 155$  
 E) $\text{S/ } 160$  
 
-8. Un artículo que costó $\text{S/ } 240$ se vendió con una pérdida del $15\%$ sobre el precio de costo. ¿En cuánto se vendió?
+8. Un artículo que costó $\text{S/ } 240$ se vendió con una pérdida del $15\%$ sobre el precio de costo. ¿En cuánto se vendió?  
 A) $\text{S/ } 200$  
 B) $\text{S/ } 204$  
 C) $\text{S/ } 210$  
 D) $\text{S/ } 216$  
 E) $\text{S/ } 220$  
 
-9. En una reunión social el $60\%$ de los asistentes son mujeres. Si hay $48$ varones, ¿cuántas personas hay en total en la reunión?
+9. En una reunión social el $60\%$ de los asistentes son mujeres. Si hay $48$ varones, ¿cuántas personas hay en total en la reunión?  
 A) $100$  
 B) $110$  
 C) $120$  
 D) $130$  
 E) $140$  
 
-10. Si el lado de un cuadrado aumenta en un $30\%$, ¿en qué porcentaje aumenta su área?
+10. Si el lado de un cuadrado aumenta en un $30\%$, ¿en qué porcentaje aumenta su área?  
 A) $60\%$  
 B) $69\%$  
 C) $70\%$  
 D) $72\%$  
 E) $65\%$  
 
-11. Si el precio de un galón de gasolina era de $\text{S/ } 16{,}00$ y sube a $\text{S/ } 18{,}40$, ¿cuál fue el porcentaje de incremento?
+11. Si el precio de un galón de gasolina era de $\text{S/ } 16{,}00$ y sube a $\text{S/ } 18{,}40$, ¿cuál fue el porcentaje de incremento?  
 A) $12\%$  
 B) $13{,}5\%$  
 C) $15\%$  
 D) $16\%$  
 E) $18\%$  
 
-12. ¿Qué porcentaje del $80\%$ del $50\%$ de un número representa el $20\%$ del $60\%$ de la misma cantidad?
+12. ¿Qué porcentaje del $80\%$ del $50\%$ de un número representa el $20\%$ del $60\%$ de la misma cantidad?  
 A) $25\%$  
 B) $30\%$  
 C) $35\%$  
 D) $40\%$  
 E) $50\%$  
 
-13. Un televisor tiene un precio fijado de $\text{S/ } 1\,500$. Si al momento de pagar en caja se realiza un descuento del $12\%$, ¿cuánto se paga finalmente por el televisor?
+13. Un televisor tiene un precio fijado de $\text{S/ } 1\,500$. Si al momento de pagar en caja se realiza un descuento del $12\%$, ¿cuánto se paga finalmente por el televisor?  
 A) $\text{S/ } 1\,300$  
 B) $\text{S/ } 1\,320$  
 C) $\text{S/ } 1\,350$  
 D) $\text{S/ } 1\,380$  
 E) $\text{S/ } 1\,280$  
 
-14. Si al vender un teléfono en $\text{S/ } 840$ se pierde el $30\%$ de su costo, ¿cuál fue el precio de costo?
+14. Si al vender un teléfono en $\text{S/ } 840$ se pierde el $30\%$ de su costo, ¿cuál fue el precio de costo?  
 A) $\text{S/ } 1\,100$  
 B) $\text{S/ } 1\,150$  
 C) $\text{S/ } 1\,200$  
 D) $\text{S/ } 1\,250$  
 E) $\text{S/ } 1\,300$  
 
-15. En un examen de selección de $80$ preguntas, un postulante responde correctamente $68$. ¿Qué porcentaje de preguntas no respondió correctamente?
+15. En un examen de selección de $80$ preguntas, un postulante responde correctamente $68$. ¿Qué porcentaje de preguntas no respondió correctamente?  
 A) $12\%$  
 B) $15\%$  
 C) $16\%$  
@@ -579,105 +579,105 @@ E) $20\%$
 
 ### Bloque II: Nivel Intermedio (Ejercicios 16 al 30)
 
-16. Un comerciante fija el precio de venta de una refrigeradora en $\text{S/ } 2\,800$. Al momento de venderla hace un descuento del $15\%$ sobre el precio fijado y aun así obtiene una ganancia de $\text{S/ } 380$. ¿Cuánto le costó la refrigeradora al comerciante?
+16. Un comerciante fija el precio de venta de una refrigeradora en $\text{S/ } 2\,800$. Al momento de venderla hace un descuento del $15\%$ sobre el precio fijado y aun así obtiene una ganancia de $\text{S/ } 380$. ¿Cuánto le costó la refrigeradora al comerciante?  
 A) $\text{S/ } 1\,900$  
 B) $\text{S/ } 1\,950$  
 C) $\text{S/ } 2\,000$  
 D) $\text{S/ } 2\,050$  
 E) $\text{S/ } 2\,100$  
 
-17. Tres descuentos sucesivos del $10\%$, $20\%$ y $25\%$ equivalen exactamente a un único descuento de:
+17. Tres descuentos sucesivos del $10\%$, $20\%$ y $25\%$ equivalen exactamente a un único descuento de:  
 A) $45\%$  
 B) $46\%$  
 C) $48\%$  
 D) $50\%$  
 E) $52\%$  
 
-18. Si la base de un triángulo aumenta en un $20\%$ y su altura disminuye en un $30\%$, ¿en qué porcentaje varía su área?
+18. Si la base de un triángulo aumenta en un $20\%$ y su altura disminuye en un $30\%$, ¿en qué porcentaje varía su área?  
 A) Aumenta en $10\%$  
 B) Disminuye en $10\%$  
 C) Disminuye en $16\%$  
 D) Aumenta en $14\%$  
 E) Disminuye en $14\%$  
 
-19. Un estudiante gasta en una librería el $20\%$ de su propina y luego pierde el $30\%$ de lo que le quedaba en el pasaje. Si finalmente le sobran $\text{S/ } 112$, ¿cuál era el monto inicial de su propina?
+19. Un estudiante gasta en una librería el $20\%$ de su propina y luego pierde el $30\%$ de lo que le quedaba en el pasaje. Si finalmente le sobran $\text{S/ } 112$, ¿cuál era el monto inicial de su propina?  
 A) $\text{S/ } 180$  
 B) $\text{S/ } 200$  
 C) $\text{S/ } 220$  
 D) $\text{S/ } 240$  
 E) $\text{S/ } 250$  
 
-20. Si el precio de un bien disminuye en un $20\%$, ¿en qué porcentaje debe incrementarse el nuevo precio para volver exactamente al precio original?
+20. Si el precio de un bien disminuye en un $20\%$, ¿en qué porcentaje debe incrementarse el nuevo precio para volver exactamente al precio original?  
 A) $20\%$  
 B) $22{,}5\%$  
 C) $25\%$  
 D) $27{,}5\%$  
 E) $30\%$  
 
-21. Un lote de mercadería se vende con una ganancia del $25\%$ sobre el precio de venta. ¿Qué porcentaje del precio de costo representa dicha ganancia?
+21. Un lote de mercadería se vende con una ganancia del $25\%$ sobre el precio de venta. ¿Qué porcentaje del precio de costo representa dicha ganancia?  
 A) $20\%$  
 B) $30\%$  
 C) $33{,}\widehat{3}\%$  
 D) $35\%$  
 E) $40\%$  
 
-22. En una empresa de confecciones, el $45\%$ de los trabajadores son varones y el resto mujeres. Si el $20\%$ de los varones y el $30\%$ de las mujeres asisten a una capacitación de seguridad industrial, ¿qué porcentaje de los trabajadores de la empresa no asiste a la capacitación?
+22. En una empresa de confecciones, el $45\%$ de los trabajadores son varones y el resto mujeres. Si el $20\%$ de los varones y el $30\%$ de las mujeres asisten a una capacitación de seguridad industrial, ¿qué porcentaje de los trabajadores de la empresa no asiste a la capacitación?  
 A) $72{,}5\%$  
 B) $73{,}5\%$  
 C) $74{,}5\%$  
 D) $75{,}5\%$  
 E) $76{,}5\%$  
 
-23. Si el radio de una esfera aumenta en un $10\%$, ¿en qué porcentaje se incrementa su volumen?
+23. Si el radio de una esfera aumenta en un $10\%$, ¿en qué porcentaje se incrementa su volumen?  
 A) $30\%$  
 B) $31\%$  
 C) $33{,}1\%$  
 D) $35{,}2\%$  
 E) $36\%$  
 
-24. Se mezclan $30\text{ litros}$ de alcohol al $80\%$ con $50\text{ litros}$ de alcohol al $60\%$ y $20\text{ litros}$ de agua pura. ¿Cuál es la concentración alcohólica porcentual de la mezcla resultante?
+24. Se mezclan $30\text{ litros}$ de alcohol al $80\%$ con $50\text{ litros}$ de alcohol al $60\%$ y $20\text{ litros}$ de agua pura. ¿Cuál es la concentración alcohólica porcentual de la mezcla resultante?  
 A) $50\%$  
 B) $52\%$  
 C) $54\%$  
 D) $56\%$  
 E) $58\%$  
 
-25. Un minorista vendió dos cocinas de inducción a $\text{S/ } 1\,440$ cada una. En la primera ganó el $20\%$ de su costo y en la segunda perdió el $20\%$ de su costo. ¿Cuál fue el resultado económico de la operación?
+25. Un minorista vendió dos cocinas de inducción a $\text{S/ } 1\,440$ cada una. En la primera ganó el $20\%$ de su costo y en la segunda perdió el $20\%$ de su costo. ¿Cuál fue el resultado económico de la operación?  
 A) Ganó $\text{S/ } 60$  
 B) Perdió $\text{S/ } 60$  
 C) No ganó ni perdió  
 D) Ganó $\text{S/ } 80$  
 E) Perdió $\text{S/ } 120$  
 
-26. En una granja avícola en Huaral, el $40\%$ del total de aves son patos y el resto son pollos. Si se venden el $25\%$ de los patos y el $50\%$ de los pollos, ¿qué porcentaje del número original de aves queda en la granja?
+26. En una granja avícola en Huaral, el $40\%$ del total de aves son patos y el resto son pollos. Si se venden el $25\%$ de los patos y el $50\%$ de los pollos, ¿qué porcentaje del número original de aves queda en la granja?  
 A) $55\%$  
 B) $58\%$  
 C) $60\%$  
 D) $62\%$  
 E) $65\%$  
 
-27. Un terreno rectangular sufre una expropiación que reduce su largo en un $15\%$. ¿En qué porcentaje debe ampliarse su ancho para que su área total aumente en un $19\%$?
+27. Un terreno rectangular sufre una expropiación que reduce su largo en un $15\%$. ¿En qué porcentaje debe ampliarse su ancho para que su área total aumente en un $19\%$?  
 A) $35\%$  
 B) $38\%$  
 C) $40\%$  
 D) $42\%$  
 E) $45\%$  
 
-28. Si el valor de las acciones de una empresa sube el lunes un $20\%$, baja el martes un $15\%$ y sube el miércoles un $10\%$, ¿cuál fue la variación porcentual acumulada en los tres días respecto a su valor inicial?
+28. Si el valor de las acciones de una empresa sube el lunes un $20\%$, baja el martes un $15\%$ y sube el miércoles un $10\%$, ¿cuál fue la variación porcentual acumulada en los tres días respecto a su valor inicial?  
 A) $+12{,}2\%$  
 B) $+13{,}5\%$  
 C) $+14\%$  
 D) $+15\%$  
 E) $+10{,}8\%$  
 
-29. Para fijar el precio de venta de una laptop que costó $\text{S/ } 3\,000$, un comerciante aumenta el costo en un $40\%$. Si luego ofrece una rebaja del $20\%$ sobre dicho precio fijado, ¿cuál fue su ganancia real en soles?
+29. Para fijar el precio de venta de una laptop que costó $\text{S/ } 3\,000$, un comerciante aumenta el costo en un $40\%$. Si luego ofrece una rebaja del $20\%$ sobre dicho precio fijado, ¿cuál fue su ganancia real en soles?  
 A) $\text{S/ } 320$  
 B) $\text{S/ } 340$  
 C) $\text{S/ } 360$  
 D) $\text{S/ } 380$  
 E) $\text{S/ } 400$  
 
-30. ¿En qué porcentaje varía el volumen de un cilindro circular recto si su radio se reduce a la mitad y su altura se cuadruplica?
+30. ¿En qué porcentaje varía el volumen de un cilindro circular recto si su radio se reduce a la mitad y su altura se cuadruplica?  
 A) Aumenta en $50\%$  
 B) Disminuye en $50\%$  
 C) No varía ($0\%$)  
@@ -688,105 +688,105 @@ E) Disminuye en $25\%$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Una distribuidora de medicamentos en Lima importa un lote de vacunas con un costo de $\$ 80\,000$. Fija el precio de catálogo de modo que, ofreciendo un descuento comercial del $20\%$ a los hospitales del Estado y pagando un $4\%$ de flete logístico sobre el precio de venta facturado, obtenga una ganancia neta equivalente al $20\%$ del costo total. ¿A cuánto asciende el precio de catálogo fijado?
+31. Una distribuidora de medicamentos en Lima importa un lote de vacunas con un costo de $\$ 80\,000$. Fija el precio de catálogo de modo que, ofreciendo un descuento comercial del $20\%$ a los hospitales del Estado y pagando un $4\%$ de flete logístico sobre el precio de venta facturado, obtenga una ganancia neta equivalente al $20\%$ del costo total. ¿A cuánto asciende el precio de catálogo fijado?  
 A) $\$ 118\,000$  
 B) $\$ 120\,000$  
 C) $\$ 125\,000$  
 D) $\$ 130\,000$  
 E) $\$ 135\,000$  
 
-32. Si el precio unitario del cobre en la Bolsa de Metales de Londres sube en un $25\%$, ¿en qué porcentaje debe reducir una empresa minera sus costos operativos para que, manteniendo su margen de ganancia absoluto por tonelada, el precio de venta aumente únicamente en un $10\%$? Asuma que el costo operativo original representaba el $60\%$ del precio de venta original.
+32. Si el precio unitario del cobre en la Bolsa de Metales de Londres sube en un $25\%$, ¿en qué porcentaje debe reducir una empresa minera sus costos operativos para que, manteniendo su margen de ganancia absoluto por tonelada, el precio de venta aumente únicamente en un $10\%$? Asuma que el costo operativo original representaba el $60\%$ del precio de venta original.  
 A) $15\%$  
 B) $16{,}\widehat{6}\%$  
 C) $18\%$  
 D) $20\%$  
 E) $22{,}5\%$  
 
-33. Una cooperativa de agricultores de quinua en Ayacucho vende el $35\%$ de su cosecha con una ganancia del $20\%$, el $45\%$ del total con una ganancia del $30\%$, y el resto de la cosecha con una pérdida del $10\%$ debido a problemas de humedad en el transporte. ¿Cuál fue el porcentaje de ganancia promedio que obtuvo la cooperativa sobre el costo de toda la cosecha?
+33. Una cooperativa de agricultores de quinua en Ayacucho vende el $35\%$ de su cosecha con una ganancia del $20\%$, el $45\%$ del total con una ganancia del $30\%$, y el resto de la cosecha con una pérdida del $10\%$ debido a problemas de humedad en el transporte. ¿Cuál fue el porcentaje de ganancia promedio que obtuvo la cooperativa sobre el costo de toda la cosecha?  
 A) $17{,}5\%$  
 B) $18{,}5\%$  
 C) $19\%$  
 D) $19{,}5\%$  
 E) $20\%$  
 
-34. En una prueba hidrostática de tanques de combustible esféricos en Talara, el radio interior de un tanque se deforma elásticamente aumentando en un $2\%$. ¿Cuál es la variación porcentual aproximada que experimenta la superficie externa del tanque y su capacidad volumétrica máxima?
+34. En una prueba hidrostática de tanques de combustible esféricos en Talara, el radio interior de un tanque se deforma elásticamente aumentando en un $2\%$. ¿Cuál es la variación porcentual aproximada que experimenta la superficie externa del tanque y su capacidad volumétrica máxima?  
 A) Área $+4\%$ y Volumen $+6\%$  
 B) Área $+4{,}04\%$ y Volumen $+6{,}12\%$  
 C) Área $+2{,}04\%$ y Volumen $+4{,}08\%$  
 D) Área $+4{,}04\%$ y Volumen $+8\%$  
 E) Área $+2\%$ y Volumen $+6\%$  
 
-35. Un comerciante compró $800$ cuadernos a $\text{S/ } 5$ cada uno. Decide vender una parte ganando el $30\%$ y el resto ganando el $15\%$. Si la ganancia total obtenida fue de $\text{S/ } 980$, ¿cuántos cuadernos vendió con la mayor ganancia?
+35. Un comerciante compró $800$ cuadernos a $\text{S/ } 5$ cada uno. Decide vender una parte ganando el $30\%$ y el resto ganando el $15\%$. Si la ganancia total obtenida fue de $\text{S/ } 980$, ¿cuántos cuadernos vendió con la mayor ganancia?  
 A) $480$  
 B) $500$  
 C) $520$  
 D) $540$  
 E) $560$  
 
-36. En una planta de desalinización de agua por ósmosis en Moquegua, el agua marina ingresa con una salinidad del $3{,}5\%$ en masa. Tras el primer ciclo de filtración se descarta una salmuera que contiene el $70\%$ de la sal original en una solución al $7\%$ de salinidad. ¿Qué porcentaje del volumen de agua total ingresado se recuperó como agua desalinizada de alta pureza en este ciclo?
+36. En una planta de desalinización de agua por ósmosis en Moquegua, el agua marina ingresa con una salinidad del $3{,}5\%$ en masa. Tras el primer ciclo de filtración se descarta una salmuera que contiene el $70\%$ de la sal original en una solución al $7\%$ de salinidad. ¿Qué porcentaje del volumen de agua total ingresado se recuperó como agua desalinizada de alta pureza en este ciclo?  
 A) $60\%$  
 B) $65\%$  
 C) $70\%$  
 D) $72\%$  
 E) $75\%$  
 
-37. Dos recipientes contienen mezclas de alcohol y agua. En el primer recipiente la razón de alcohol a agua es de $3$ a $2$, mientras que en el segundo es de $1$ a $3$. Si se extraen $20\text{ litros}$ del primero y $40\text{ litros}$ del segundo para formar una nueva mezcla en un tercer recipiente, ¿cuál es la concentración alcohólica porcentual de la mezcla resultante?
+37. Dos recipientes contienen mezclas de alcohol y agua. En el primer recipiente la razón de alcohol a agua es de $3$ a $2$, mientras que en el segundo es de $1$ a $3$. Si se extraen $20\text{ litros}$ del primero y $40\text{ litros}$ del segundo para formar una nueva mezcla en un tercer recipiente, ¿cuál es la concentración alcohólica porcentual de la mezcla resultante?  
 A) $33{,}\widehat{3}\%$  
 B) $35\%$  
 C) $36{,}\widehat{6}\%$  
 D) $38\%$  
 E) $40\%$  
 
-38. Para incentivar la adquisición de viviendas de interés social mediante el programa Techo Propio, una entidad financiera ofrece un crédito con una tasa de descuento del $10\%$ sobre el saldo de capital si el beneficiario aporta un bono inicial del $20\%$. Si el costo de la vivienda es de $\text{S/ } 120\,000$ y sobre el monto financiado se aplican gastos administrativos del $3\%$, ¿a cuánto asciende el monto final del préstamo financiado?
+38. Para incentivar la adquisición de viviendas de interés social mediante el programa Techo Propio, una entidad financiera ofrece un crédito con una tasa de descuento del $10\%$ sobre el saldo de capital si el beneficiario aporta un bono inicial del $20\%$. Si el costo de la vivienda es de $\text{S/ } 120\,000$ y sobre el monto financiado se aplican gastos administrativos del $3\%$, ¿a cuánto asciende el monto final del préstamo financiado?  
 A) $\text{S/ } 86\,400$  
 B) $\text{S/ } 88\,992$  
 C) $\text{S/ } 89\,200$  
 D) $\text{S/ } 90\,150$  
 E) $\text{S/ } 92\,000$  
 
-39. En un proceso siderúrgico en Chimbote, se mezclan dos lingotes de bronce (aleación de cobre y estaño). El primer lingote pesa $18\text{ kg}$ y contiene un $80\%$ de cobre; el segundo lingote pesa $32\text{ kg}$ y tiene una pureza de cobre del $65\%$. ¿Cuántos kilogramos de estaño puro deben fundirse con esta masa para que la nueva aleación contenga exactamente un $60\%$ de cobre?
+39. En un proceso siderúrgico en Chimbote, se mezclan dos lingotes de bronce (aleación de cobre y estaño). El primer lingote pesa $18\text{ kg}$ y contiene un $80\%$ de cobre; el segundo lingote pesa $32\text{ kg}$ y tiene una pureza de cobre del $65\%$. ¿Cuántos kilogramos de estaño puro deben fundirse con esta masa para que la nueva aleación contenga exactamente un $60\%$ de cobre?  
 A) $4\text{ kg}$  
 B) $6\text{ kg}$  
 C) $8\text{ kg}$  
 D) $9\text{ kg}$  
 E) $10\text{ kg}$  
 
-40. Si el precio fijado de un producto supera en un $60\%$ a su costo de producción, pero al venderse se otorga dos descuentos sucesivos del $10\%$ y del $20\%$, ¿qué porcentaje del precio de costo se gana o pierde en la transacción?
+40. Si el precio fijado de un producto supera en un $60\%$ a su costo de producción, pero al venderse se otorga dos descuentos sucesivos del $10\%$ y del $20\%$, ¿qué porcentaje del precio de costo se gana o pierde en la transacción?  
 A) Se gana el $15{,}2\%$  
 B) Se gana el $12\%$  
 C) Se pierde el $5\%$  
 D) Se gana el $18\%$  
 E) Ni se gana ni se pierde  
 
-41. En una campaña médica en la selva central, se detecta que el $12\%$ de la población de una comunidad indígena tiene anemia leve y el $8\%$ tiene anemia moderada o severa. Si tras un programa de suplementación nutricional el $75\%$ de los niños con anemia leve y el $50\%$ de los niños con anemia severa superan la condición, ¿qué porcentaje de la población total de la comunidad continúa presentando algún grado de anemia?
+41. En una campaña médica en la selva central, se detecta que el $12\%$ de la población de una comunidad indígena tiene anemia leve y el $8\%$ tiene anemia moderada o severa. Si tras un programa de suplementación nutricional el $75\%$ de los niños con anemia leve y el $50\%$ de los niños con anemia severa superan la condición, ¿qué porcentaje de la población total de la comunidad continúa presentando algún grado de anemia?  
 A) $5\%$  
 B) $6\%$  
 C) $7\%$  
 D) $8\%$  
 E) $9\%$  
 
-42. Si el volumen de un cono circular recto disminuye en un $28\%$ debido a que su altura se redujo en un $50\%$, ¿en qué porcentaje aumentó el radio de su base?
+42. Si el volumen de un cono circular recto disminuye en un $28\%$ debido a que su altura se redujo en un $50\%$, ¿en qué porcentaje aumentó el radio de su base?  
 A) $15\%$  
 B) $18\%$  
 C) $20\%$  
 D) $22\%$  
 E) $25\%$  
 
-43. Una empresa agroindustrial en Piura proyecta una cosecha de mangos para exportación. Por efectos del Fenómeno de El Niño, la producción recolectada cae en un $20\%$, pero debido a la escasez en los mercados internacionales el precio de venta por kilogramo aumenta en un $35\%$. ¿En qué porcentaje variaron los ingresos brutos totales de la empresa respecto a lo proyectado?
+43. Una empresa agroindustrial en Piura proyecta una cosecha de mangos para exportación. Por efectos del Fenómeno de El Niño, la producción recolectada cae en un $20\%$, pero debido a la escasez en los mercados internacionales el precio de venta por kilogramo aumenta en un $35\%$. ¿En qué porcentaje variaron los ingresos brutos totales de la empresa respecto a lo proyectado?  
 A) Aumentaron en $8\%$  
 B) Aumentaron en $10\%$  
 C) Disminuyeron en $5\%$  
 D) Aumentaron en $15\%$  
 E) No variaron ($0\%$)  
 
-44. Un comerciante tiene un capital de $\text{S/ } 50\,000$. Invierte el $60\%$ en la compra de acciones y el resto en fondos mutuos. Al cabo de un año, las acciones sufrieron una pérdida del $12\%$, mientras que los fondos mutuos generaron una ganancia del $18\%$. ¿Cuál fue la tasa de rentabilidad porcentual global que obtuvo sobre su capital total invertido?
+44. Un comerciante tiene un capital de $\text{S/ } 50\,000$. Invierte el $60\%$ en la compra de acciones y el resto en fondos mutuos. Al cabo de un año, las acciones sufrieron una pérdida del $12\%$, mientras que los fondos mutuos generaron una ganancia del $18\%$. ¿Cuál fue la tasa de rentabilidad porcentual global que obtuvo sobre su capital total invertido?  
 A) Pérdida del $2\%$  
 B) Ganancia del $0\%$ (equilibrio)  
 C) Ganancia del $1\%$  
 D) Ganancia del $2\%$  
 E) Pérdida del $1{,}5\%$  
 
-45. En una licitación pública para la pavimentación de una vía rural, una constructora calcula su propuesta económica: Costo de obra $= C$. Para asegurar contingencias y tributos, fija el valor de la oferta de modo que tras otorgar un descuento del $10\%$ a la entidad convocante, aún obtenga una utilidad bruta del $26\%$ sobre el costo de obra. ¿Qué porcentaje del costo de obra representa la diferencia entre el valor fijado en la oferta y el costo original de la obra?
+45. En una licitación pública para la pavimentación de una vía rural, una constructora calcula su propuesta económica: Costo de obra $= C$. Para asegurar contingencias y tributos, fija el valor de la oferta de modo que tras otorgar un descuento del $10\%$ a la entidad convocante, aún obtenga una utilidad bruta del $26\%$ sobre el costo de obra. ¿Qué porcentaje del costo de obra representa la diferencia entre el valor fijado en la oferta y el costo original de la obra?  
 A) $36\%$  
 B) $40\%$  
 C) $42\%$  

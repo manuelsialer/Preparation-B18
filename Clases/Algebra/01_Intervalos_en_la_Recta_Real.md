@@ -557,105 +557,105 @@ $$
 
 ### Bloque I: Nivel Básico (Problemas 01 al 15)
 
-1. Si $A = \langle -5, 4]$ y $B = [-2, 8\rangle$, determine el intervalo resultante de $A \cap B$.
+1. Si $A = \langle -5, 4]$ y $B = [-2, 8\rangle$, determine el intervalo resultante de $A \cap B$.  
 A) $\langle -2, 4]$  
 B) $[-2, 4]$  
 C) $[-2, 4\rangle$  
 D) $\langle -5, 8\rangle$  
 E) $[-5, 8]$  
 
-2. Dados los conjuntos $M = [1, 7\rangle$ y $N = \langle 3, 10]$, halle la cantidad de números enteros en $M \cup N$.
+2. Dados los conjuntos $M = [1, 7\rangle$ y $N = \langle 3, 10]$, halle la cantidad de números enteros en $M \cup N$.  
 A) $8$  
 B) $9$  
 C) $10$  
 D) $11$  
 E) $7$  
 
-3. Si $P = [-3, 6]$ y $Q = \langle 1, 9\rangle$, ¿cuál es el intervalo equivalente a $P - Q$?
+3. Si $P = [-3, 6]$ y $Q = \langle 1, 9\rangle$, ¿cuál es el intervalo equivalente a $P - Q$?  
 A) $[-3, 1]$  
 B) $[-3, 1\rangle$  
 C) $\langle -3, 1]$  
 D) $[1, 6]$  
 E) $\langle 1, 6]$  
 
-4. Sean los intervalos $E = \langle -\infty, 5]$ y $F = \langle -2, +\infty\rangle$. Determine $E \cap F$.
+4. Sean los intervalos $E = \langle -\infty, 5]$ y $F = \langle -2, +\infty\rangle$. Determine $E \cap F$.  
 A) $[-2, 5]$  
 B) $\langle -2, 5\rangle$  
 C) $\langle -2, 5]$  
 D) $[-2, 5\rangle$  
 E) $\mathbb{R}$  
 
-5. Dado el intervalo $A = \langle -7, 2]$, halle su complemento con respecto a los números reales ($A^c$).
+5. Dado el intervalo $A = \langle -7, 2]$, halle su complemento con respecto a los números reales ($A^c$).  
 A) $\langle -\infty, -7] \cup \langle 2, +\infty\rangle$  
 B) $\langle -\infty, -7\rangle \cup [2, +\infty\rangle$  
 C) $\langle -\infty, -7] \cup [2, +\infty\rangle$  
 D) $[-7, 2\rangle$  
 E) $\langle -\infty, 2\rangle$  
 
-6. Si $x \in [-1, 4]$, ¿a qué intervalo pertenece la expresión $y = 3x + 5$?
+6. Si $x \in [-1, 4]$, ¿a qué intervalo pertenece la expresión $y = 3x + 5$?  
 A) $[2, 17]$  
 B) $\langle 2, 17\rangle$  
 C) $[2, 12]$  
 D) $[-3, 17]$  
 E) $[5, 17]$  
 
-7. Si $x \in \langle -2, 3\rangle$, determine el intervalo en el cual varía $z = 4 - 2x$.
+7. Si $x \in \langle -2, 3\rangle$, determine el intervalo en el cual varía $z = 4 - 2x$.  
 A) $\langle -2, 8\rangle$  
 B) $\langle -8, 2\rangle$  
 C) $[-2, 8]$  
 D) $\langle -2, 6\rangle$  
 E) $\langle 0, 8\rangle$  
 
-8. Dados $A = \langle -6, 1]$ y $B = [-4, 5\rangle$, halle el número de elementos enteros que pertenecen a $B - A$.
+8. Dados $A = \langle -6, 1]$ y $B = [-4, 5\rangle$, halle el número de elementos enteros que pertenecen a $B - A$.  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $6$  
 E) $2$  
 
-9. Sean los intervalos $I = [-8, -1]$ y $J = \langle -3, 4\rangle$. Determine $I \ \Delta \ J$.
+9. Sean los intervalos $I = [-8, -1]$ y $J = \langle -3, 4\rangle$. Determine $I \ \Delta \ J$.  
 A) $[-8, -3] \cup [-1, 4\rangle$  
 B) $[-8, -3\rangle \cup \langle -1, 4\rangle$  
 C) $\langle -8, -3\rangle \cup [-1, 4]$  
 D) $[-8, 4\rangle$  
 E) $[-3, -1]$  
 
-10. Si $A = \langle -\infty, 4\rangle$ y $B = [-1, +\infty\rangle$, determine $(A \cup B)^c$.
+10. Si $A = \langle -\infty, 4\rangle$ y $B = [-1, +\infty\rangle$, determine $(A \cup B)^c$.  
 A) $\emptyset$  
 B) $\mathbb{R}$  
 C) $[-1, 4\rangle$  
 D) $\langle -\infty, -1\rangle$  
 E) $\langle 4, +\infty\rangle$  
 
-11. Si la longitud del intervalo $I = [2a - 3, 5a + 1]$ es igual a $16$, halle el valor real de $a$.
+11. Si la longitud del intervalo $I = [2a - 3, 5a + 1]$ es igual a $16$, halle el valor real de $a$.  
 A) $4$  
 B) $5$  
 C) $6$  
 D) $3$  
 E) $7$  
 
-12. ¿Cuántos números enteros no negativos pertenecen al intervalo $K = \langle -4{,}8; \ 6{,}2]$?
+12. ¿Cuántos números enteros no negativos pertenecen al intervalo $K = \langle -4{,}8; \ 6{,}2]$?  
 A) $6$  
 B) $7$  
 C) $8$  
 D) $5$  
 E) $11$  
 
-13. Si $x \in [3, 8\rangle$, determine el menor valor que puede tomar la expresión $E = 2x - 7$.
+13. Si $x \in [3, 8\rangle$, determine el menor valor que puede tomar la expresión $E = 2x - 7$.  
 A) $-1$  
 B) $0$  
 C) $1$  
 D) $-7$  
 E) $9$  
 
-14. Si $A = [-2, 5]$ y $B = \langle 0, 7]$, determine la suma del menor y mayor entero que pertenecen a $A \cap B$.
+14. Si $A = [-2, 5]$ y $B = \langle 0, 7]$, determine la suma del menor y mayor entero que pertenecen a $A \cap B$.  
 A) $5$  
 B) $6$  
 C) $7$  
 D) $4$  
 E) $8$  
 
-15. Halle el intervalo correspondiente a los números reales que son mayores que $-3$ pero como máximo iguales a $11$.
+15. Halle el intervalo correspondiente a los números reales que son mayores que $-3$ pero como máximo iguales a $11$.  
 A) $\langle -3, 11]$  
 B) $[-3, 11\rangle$  
 C) $\langle -3, 11\rangle$  
@@ -666,105 +666,105 @@ E) $\langle -\infty, 11]$
 
 ### Bloque II: Nivel Intermedio (Problemas 16 al 30)
 
-16. Si $x \in \langle 1, 4]$, determine el intervalo exacto de variación de $f(x) = \frac{12}{x + 2}$.
+16. Si $x \in \langle 1, 4]$, determine el intervalo exacto de variación de $f(x) = \frac{12}{x + 2}$.  
 A) $[2, 4\rangle$  
 B) $\langle 2, 4]$  
 C) $[2, 4]$  
 D) $\langle 2, 6\rangle$  
 E) $[3, 4\rangle$  
 
-17. Dados los intervalos $A = [3k - 2, 14]$ y $B = [4, 2k + 8\rangle$, halle la suma de los valores enteros de $k$ para los cuales $A \subset B$.
+17. Dados los intervalos $A = [3k - 2, 14]$ y $B = [4, 2k + 8\rangle$, halle la suma de los valores enteros de $k$ para los cuales $A \subset B$.  
 A) $6$  
 B) $7$  
 C) $9$  
 D) $11$  
 E) $5$  
 
-18. Sean $P = \{ x \in \mathbb{R} \mid -5 < 2x - 1 \le 7 \}$ y $Q = \{ x \in \mathbb{R} \mid x^2 \le 16 \}$. Determine el intervalo $P \cap Q$.
+18. Sean $P = \{ x \in \mathbb{R} \mid -5 < 2x - 1 \le 7 \}$ y $Q = \{ x \in \mathbb{R} \mid x^2 \le 16 \}$. Determine el intervalo $P \cap Q$.  
 A) $\langle -2, 4]$  
 B) $[-4, 4]$  
 C) $\langle -2, 4\rangle$  
 D) $[-4, -2\rangle$  
 E) $[0, 4]$  
 
-19. Si $x \in [-3, 2\rangle$, ¿en qué intervalo varía la expresión $g(x) = x^2 - 4x + 7$?
+19. Si $x \in [-3, 2\rangle$, ¿en qué intervalo varía la expresión $g(x) = x^2 - 4x + 7$?  
 A) $[3, 28]$  
 B) $\langle 3, 28]$  
 C) $[3, 28\rangle$  
 D) $[7, 28]$  
 E) $\langle -3, 7]$  
 
-20. Dados los conjuntos de números reales $A = \langle -\infty, 2] \cup [6, +\infty\rangle$ y $B = \langle -1, 8\rangle$, halle el número de soluciones enteras del conjunto $(A \cap B)^c \cap \mathbb{Z}$ comprendidas en el intervalo cerrado $[-5, 10]$.
+20. Dados los conjuntos de números reales $A = \langle -\infty, 2] \cup [6, +\infty\rangle$ y $B = \langle -1, 8\rangle$, halle el número de soluciones enteras del conjunto $(A \cap B)^c \cap \mathbb{Z}$ comprendidas en el intervalo cerrado $[-5, 10]$.  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $6$  
 E) $7$  
 
-21. Si $A = \left\langle \frac{m - 1}{2}, 5 \right]$ y $B = [2, 2m + 1\rangle$, ¿para qué valores de $m$ se verifica que $A \cap B = \emptyset$?
+21. Si $A = \left\langle \frac{m - 1}{2}, 5 \right]$ y $B = [2, 2m + 1\rangle$, ¿para qué valores de $m$ se verifica que $A \cap B = \emptyset$?  
 A) $m \ge 5 \lor m \le \frac{1}{2}$  
 B) $m \ge 5 \lor m < \frac{1}{2}$  
 C) $m > 5 \lor m \le 0$  
 D) $m \ge 5$  
 E) $m < \frac{1}{2}$  
 
-22. Sean los intervalos $I = [-4, 6]$ y $J = \langle 1, 9\rangle$. Si $K = (I - J) \cup (J - I)$, determine el producto de los números enteros que pertenecen a $K$ y están en el intervalo $[-2, 3]$.
+22. Sean los intervalos $I = [-4, 6]$ y $J = \langle 1, 9\rangle$. Si $K = (I - J) \cup (J - I)$, determine el producto de los números enteros que pertenecen a $K$ y están en el intervalo $[-2, 3]$.  
 A) $0$  
 B) $-2$  
 C) $2$  
 D) $-1$  
 E) No existen enteros  
 
-23. Si $x \in \langle 2, 6]$, determine el mayor valor que puede asumir la expresión racional $R(x) = \frac{2x + 5}{x - 1}$.
+23. Si $x \in \langle 2, 6]$, determine el mayor valor que puede asumir la expresión racional $R(x) = \frac{2x + 5}{x - 1}$.  
 A) $9$  
 B) $\frac{17}{5}$  
 C) $8$  
 D) $7$  
 E) No tiene máximo  
 
-24. Para qué valores reales de $p$ se cumple que el intervalo $J = [p^2 - 4, 3p + 6]$ no es vacío y su longitud máxima es $16$.
+24. Para qué valores reales de $p$ se cumple que el intervalo $J = [p^2 - 4, 3p + 6]$ no es vacío y su longitud máxima es $16$.  
 A) $[-1, 5]$  
 B) $[0, 5]$  
 C) $[-2, 5]$  
 D) $[1, 4]$  
 E) $[-2, 4]$  
 
-25. Se tienen los intervalos $A_k = \left[ \frac{1}{k}, 2 - \frac{1}{k} \right]$ para $k \in \{2, 3, 4\}$. Determine la longitud del intervalo resultante de $A_2 \cup A_3 \cup A_4$.
+25. Se tienen los intervalos $A_k = \left[ \frac{1}{k}, 2 - \frac{1}{k} \right]$ para $k \in \{2, 3, 4\}$. Determine la longitud del intervalo resultante de $A_2 \cup A_3 \cup A_4$.  
 A) $\frac{3}{2}$  
 B) $\frac{5}{4}$  
 C) $\frac{7}{4}$  
 D) $1$  
 E) $2$  
 
-26. Si $x \in [-2, 3]$, halle el intervalo de variación de $H(x) = 5 - \sqrt{x + 3}$.
+26. Si $x \in [-2, 3]$, halle el intervalo de variación de $H(x) = 5 - \sqrt{x + 3}$.  
 A) $[5 - \sqrt{6}, 4]$  
 B) $[5 - \sqrt{6}, 5]$  
 C) $[4, 5]$  
 D) $[0, 5]$  
 E) $\langle 4, 5 - \sqrt{6}\rangle$  
 
-27. Dados los intervalos $A = \langle -6, 2]$ y $B = [-2, 8\rangle$. Se define el conjunto $C = (A^c \cap B^c)^c$. Halle la suma de los valores enteros positivos que no pertenecen a $C$.
+27. Dados los intervalos $A = \langle -6, 2]$ y $B = [-2, 8\rangle$. Se define el conjunto $C = (A^c \cap B^c)^c$. Halle la suma de los valores enteros positivos que no pertenecen a $C$.  
 A) $0$  
 B) $8$  
 C) $15$  
 D) $9$  
 E) $12$  
 
-28. Si el conjunto $S = \{ x \in \mathbb{R} \mid |x - 3| \le 5 \}$ y el conjunto $T = \langle 1, 10]$, determine la longitud de $S \cap T$.
+28. Si el conjunto $S = \{ x \in \mathbb{R} \mid |x - 3| \le 5 \}$ y el conjunto $T = \langle 1, 10]$, determine la longitud de $S \cap T$.  
 A) $7$  
 B) $8$  
 C) $9$  
 D) $6$  
 E) $5$  
 
-29. Si $x \in \langle -4, 1]$, determine el intervalo de variación de $E = x^2 + 6x - 2$.
+29. Si $x \in \langle -4, 1]$, determine el intervalo de variación de $E = x^2 + 6x - 2$.  
 A) $[-11, 5]$  
 B) $[-11, 7]$  
 C) $\langle -10, 5]$  
 D) $[-2, 5]$  
 E) $\langle -11, 5]$  
 
-30. Si $A = \langle -\infty, a]$ y $B = [b, +\infty\rangle$ son tales que $A \cup B = \mathbb{R}$ y $A \cap B = [-1, 4]$, halle el valor de $E = a^2 + b^2$.
+30. Si $A = \langle -\infty, a]$ y $B = [b, +\infty\rangle$ son tales que $A \cup B = \mathbb{R}$ y $A \cap B = [-1, 4]$, halle el valor de $E = a^2 + b^2$.  
 A) $17$  
 B) $25$  
 C) $16$  
@@ -775,7 +775,7 @@ E) $20$
 
 ### Bloque III: Nivel Avanzado y Retos Beca 18 (Problemas 31 al 45)
 
-31. En un laboratorio de biotecnología en Arequipa, se monitorea la temperatura $T$ (en ${}^\circ\text{C}$) de una cámara de cultivo bacteriano. El sistema activa ventilación si $T \in A = [24{,}5; 38{,}0\rangle$, activa calefacción si $T \in B = \langle 15{,}0; 26{,}2]$ y activa desinfección ultravioleta si $T \in C = [22{,}0; 30{,}5]$. Determine el intervalo de temperatura donde la ventilación y la desinfección operan simultáneamente pero la calefacción está apagada.
+31. En un laboratorio de biotecnología en Arequipa, se monitorea la temperatura $T$ (en ${}^\circ\text{C}$) de una cámara de cultivo bacteriano. El sistema activa ventilación si $T \in A = [24{,}5; 38{,}0\rangle$, activa calefacción si $T \in B = \langle 15{,}0; 26{,}2]$ y activa desinfección ultravioleta si $T \in C = [22{,}0; 30{,}5]$. Determine el intervalo de temperatura donde la ventilación y la desinfección operan simultáneamente pero la calefacción está apagada.  
 A) $\langle 26{,}2; 30{,}5]$  
 B) $[26{,}2; 30{,}5]$  
 C) $[24{,}5; 26{,}2]$  
@@ -806,7 +806,7 @@ C) $[-1, 3]$
 D) $\langle 0, 2]$  
 E) $\langle -1, 2]$  
 
-34. En la construcción del puente Huánuco-Tingo María, la viga principal de concreto soporta un esfuerzo de deformación admisible $\sigma$ comprendido en el intervalo $D = [12{,}4; 28{,}6]\text{ MPa}$. Si la carga viva induce una solicitación $S_1 = [8{,}0; 20{,}5]$ y el viento lateral induce $S_2 = [16{,}0; 32{,}0]$, determine la longitud del intervalo de esfuerzos en los cuales la estructura está sometida a viento lateral sin presencia de carga viva, pero manteniéndose en zona segura admisible.
+34. En la construcción del puente Huánuco-Tingo María, la viga principal de concreto soporta un esfuerzo de deformación admisible $\sigma$ comprendido en el intervalo $D = [12{,}4; 28{,}6]\text{ MPa}$. Si la carga viva induce una solicitación $S_1 = [8{,}0; 20{,}5]$ y el viento lateral induce $S_2 = [16{,}0; 32{,}0]$, determine la longitud del intervalo de esfuerzos en los cuales la estructura está sometida a viento lateral sin presencia de carga viva, pero manteniéndose en zona segura admisible.  
 A) $8{,}1\text{ MPa}$  
 B) $6{,}5\text{ MPa}$  
 C) $7{,}2\text{ MPa}$  
@@ -825,28 +825,28 @@ C) $[5, 8]$
 D) $\left[ \frac{16}{3}, 7 \right]$  
 E) $[4, 8]$  
 
-36. Sean los conjuntos $A = \{ x \in \mathbb{R} \mid |2x - 3| < 7 \}$ y $B = \{ x \in \mathbb{R} \mid x^2 - 5x - 6 \le 0 \}$. Determine la suma de todos los enteros que pertenecen a la diferencia simétrica $A \ \Delta \ B$.
+36. Sean los conjuntos $A = \{ x \in \mathbb{R} \mid |2x - 3| < 7 \}$ y $B = \{ x \in \mathbb{R} \mid x^2 - 5x - 6 \le 0 \}$. Determine la suma de todos los enteros que pertenecen a la diferencia simétrica $A \ \Delta \ B$.  
 A) $10$  
 B) $11$  
 C) $5$  
 D) $6$  
 E) $9$  
 
-37. Para cada $k \in \mathbb{Z}^+$, se define el intervalo $J_k = \left[ \frac{k}{k+1}, \frac{k+2}{k+1} \right\rangle$. Determine la intersección infinita $\bigcap_{k=1}^\infty J_k$.
+37. Para cada $k \in \mathbb{Z}^+$, se define el intervalo $J_k = \left[ \frac{k}{k+1}, \frac{k+2}{k+1} \right\rangle$. Determine la intersección infinita $\bigcap_{k=1}^\infty J_k$.  
 A) $\{1\}$  
 B) $[1, 2\rangle$  
 C) $\emptyset$  
 D) $\left[ \frac{1}{2}, 1 \right]$  
 E) $\langle 1, 2\rangle$  
 
-38. Se tiene un tanque reservorio en Moquegua. El caudal de entrada permite operar con volúmenes de agua $V$ (en $\text{m}^3$) pertenecientes al intervalo $E = [120, 480]$, y el caudal de salida opera en $S = [200, 600]$. Si una válvula de seguridad restringe el volumen a $R = [150, 350]$, determine el intervalo de volúmenes en los cuales ambos caudales pueden operar conjuntamente dentro del rango permitido por la válvula de seguridad.
+38. Se tiene un tanque reservorio en Moquegua. El caudal de entrada permite operar con volúmenes de agua $V$ (en $\text{m}^3$) pertenecientes al intervalo $E = [120, 480]$, y el caudal de salida opera en $S = [200, 600]$. Si una válvula de seguridad restringe el volumen a $R = [150, 350]$, determine el intervalo de volúmenes en los cuales ambos caudales pueden operar conjuntamente dentro del rango permitido por la válvula de seguridad.  
 A) $[200, 350]$  
 B) $[150, 480]$  
 C) $[200, 480]$  
 D) $[120, 350]$  
 E) $[150, 200]$  
 
-39. Si $x \in \langle -2, 4\rangle$ e $y \in [-3, 5]$, determine el intervalo de variación del producto $P = x \cdot y$.
+39. Si $x \in \langle -2, 4\rangle$ e $y \in [-3, 5]$, determine el intervalo de variación del producto $P = x \cdot y$.  
 A) $\langle -10, 20\rangle$  
 B) $[-12, 20\rangle$  
 C) $\langle -12, 20\rangle$  
@@ -865,7 +865,7 @@ C) $[2, 5]$
 D) $[0, 4]$  
 E) $[1, 4]$  
 
-41. Considere los intervalos $A = [m, m + 4]$ y $B = [2m - 3, 2m + 5]$. Si se sabe que la longitud del intervalo intersección $A \cap B$ es exactamente $3$, halle la suma de los posibles valores reales de $m$.
+41. Considere los intervalos $A = [m, m + 4]$ y $B = [2m - 3, 2m + 5]$. Si se sabe que la longitud del intervalo intersección $A \cap B$ es exactamente $3$, halle la suma de los posibles valores reales de $m$.  
 A) $6$  
 B) $4$  
 C) $5$  
@@ -884,14 +884,14 @@ C) $\left[ \frac{2}{5}, 1 \right]$
 D) $\left[ \frac{7}{15}, 1 \right]$  
 E) $\left[ \frac{1}{3}, \frac{3}{2} \right]$  
 
-43. Sean $A = \langle -5, 2]$ y $B = [-1, 6\rangle$. Si el conjunto $X$ satisface $(A \cup X) \subset B$ y $(B \cap X) = A \cap B$, determine el número de intervalos cerrados no triviales de longitud entera que pueden ser solución para $X$.
+43. Sean $A = \langle -5, 2]$ y $B = [-1, 6\rangle$. Si el conjunto $X$ satisface $(A \cup X) \subset B$ y $(B \cap X) = A \cap B$, determine el número de intervalos cerrados no triviales de longitud entera que pueden ser solución para $X$.  
 A) Infinitos  
 B) $0$  
 C) $1$  
 D) $3$  
 E) $5$  
 
-44. En el análisis de un microchip de telecomunicaciones en la UNI, tres señales de voltaje $V_1, V_2, V_3$ (en voltios) deben satisfacer que sus rangos operativos son $R_1 = [-1{,}5; 3{,}5]$, $R_2 = [0{,}5; 4{,}8\rangle$ y $R_3 = \langle -0{,}8; 2{,}4]$. Determine la longitud del intervalo donde la señal $1$ o la señal $2$ están activas, pero la señal $3$ se encuentra inactiva.
+44. En el análisis de un microchip de telecomunicaciones en la UNI, tres señales de voltaje $V_1, V_2, V_3$ (en voltios) deben satisfacer que sus rangos operativos son $R_1 = [-1{,}5; 3{,}5]$, $R_2 = [0{,}5; 4{,}8\rangle$ y $R_3 = \langle -0{,}8; 2{,}4]$. Determine la longitud del intervalo donde la señal $1$ o la señal $2$ están activas, pero la señal $3$ se encuentra inactiva.  
 A) $3{,}7\text{ V}$  
 B) $3{,}1\text{ V}$  
 C) $2{,}8\text{ V}$  

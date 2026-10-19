@@ -174,7 +174,7 @@ $$
 M = 0.\widehat{6} + 0.1\widehat{3} - 0.25
 $$
 
-Dé como respuesta la suma del numerador y el denominador.
+Dé como respuesta la suma del numerador y el denominador.  
 A) $17$  
 B) $19$  
 C) $23$  
@@ -211,7 +211,7 @@ Con los datos dados: $\frac{11}{20} \implies$ la fracción irreductible es $\fra
 ---
 
 #### Ejercicio 02
-**Enunciado:** Si se aproxima el número irracional $\sqrt{5} \approx 2.2360679\dots$ por defecto y por redondeo estándar al centésimo, ¿cuál es la diferencia positiva entre ambas aproximaciones?
+**Enunciado:** Si se aproxima el número irracional $\sqrt{5} \approx 2.2360679\dots$ por defecto y por redondeo estándar al centésimo, ¿cuál es la diferencia positiva entre ambas aproximaciones?  
 A) $0$  
 B) $0.001$  
 C) $0.006$  
@@ -242,7 +242,7 @@ $$\text{Diferencia} = 2.24 - 2.23 = 0.01$$
 ---
 
 #### Ejercicio 03
-**Enunciado:** Un agrónomo estima la longitud del cerco perimétrico de un biohuerto en $12.5\text{ metros}$. Posteriormente, al realizar una medición de precisión con cinta de acero milimetrada, se comprueba que la medida exacta es de $12.8\text{ metros}$. Calcule el error porcentual cometido en la estimación inicial, redondeado al décimo de porcentaje.
+**Enunciado:** Un agrónomo estima la longitud del cerco perimétrico de un biohuerto en $12.5\text{ metros}$. Posteriormente, al realizar una medición de precisión con cinta de acero milimetrada, se comprueba que la medida exacta es de $12.8\text{ metros}$. Calcule el error porcentual cometido en la estimación inicial, redondeado al décimo de porcentaje.  
 A) $2.1\%$  
 B) $2.3\%$  
 C) $2.5\%$  
@@ -286,7 +286,7 @@ $$
 K = \frac{\pi + \sqrt{2}}{\sqrt{3}}
 $$
 
-utilizando las aproximaciones redondeadas a milésimos: $\pi \approx 3.142$, $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$.
+utilizando las aproximaciones redondeadas a milésimos: $\pi \approx 3.142$, $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$.  
 A) $2.58$  
 B) $2.61$  
 C) $2.63$  
@@ -316,7 +316,7 @@ $$K \approx 2.63$$
 ---
 
 #### Ejercicio 05
-**Enunciado:** Un comerciante mayorista compra $10\,000$ kilogramos de quinua perlada a $\text{S/ } 7.846$ por kilo. Al emitir la liquidación contable de pago, el sistema de tesorería de la empresa ofrece dos opciones: la Opción $A$ trunca el precio por kilo a centésimos antes de multiplicar por la cantidad total, mientras que la Opción $B$ redondea el precio por kilo a centésimos antes de multiplicar. ¿Cuál es la diferencia en dinero entre ambas formas de liquidar la compra?
+**Enunciado:** Un comerciante mayorista compra $10\,000$ kilogramos de quinua perlada a $\text{S/ } 7.846$ por kilo. Al emitir la liquidación contable de pago, el sistema de tesorería de la empresa ofrece dos opciones: la Opción $A$ trunca el precio por kilo a centésimos antes de multiplicar por la cantidad total, mientras que la Opción $B$ redondea el precio por kilo a centésimos antes de multiplicar. ¿Cuál es la diferencia en dinero entre ambas formas de liquidar la compra?  
 A) $\text{S/ } 60$  
 B) $\text{S/ } 80$  
 C) $\text{S/ } 100$  
@@ -385,7 +385,7 @@ Para $\frac{15}{37}$, las cifras son $4, 0, 5 \implies$ suma $= 9$.
 ---
 
 #### Ejercicio 07
-**Enunciado:** Al calcular el área de un círculo de radio $R = 10\text{ metros}$ mediante la fórmula $A = \pi R^2$, un ingeniero utiliza la aproximación clásica de Arquímedes $\pi \approx \frac{22}{7}$ en lugar del valor estándar $\pi \approx 3.1416$. Calcule el error absoluto cometido en el área calculada expresado en metros cuadrados y redondeado a centésimos.
+**Enunciado:** Al calcular el área de un círculo de radio $R = 10\text{ metros}$ mediante la fórmula $A = \pi R^2$, un ingeniero utiliza la aproximación clásica de Arquímedes $\pi \approx \frac{22}{7}$ en lugar del valor estándar $\pi \approx 3.1416$. Calcule el error absoluto cometido en el área calculada expresado en metros cuadrados y redondeado a centésimos.  
 A) $0.13\text{ m}^2$  
 B) $0.18\text{ m}^2$  
 C) $0.24\text{ m}^2$  
@@ -423,7 +423,7 @@ $$E_a \approx 0.13\text{ m}^2$$
 ### NIVEL AVANZADO / CONTEXTO BECA 18 (Modelamiento Real)
 
 #### Ejercicio 08 (Contexto de Obra Civil y Presupuesto de Concreto)
-**Enunciado:** En la construcción de las columnas de soporte para un puente peatonal en Chosica, se deben vaciar $12$ columnas cilíndricas macizas de concreto armado. Cada columna tiene un radio de $0.5\text{ metros}$ y una altura de $4\text{ metros}$. La empresa constructora calcula el volumen total de concreto utilizando la aproximación $\pi \approx 3.14$. Sabiendo que el metro cúbico de concreto premezclado puesto en obra cuesta $\text{S/ } 350$ y que se debe añadir un $5\%$ de concreto adicional por concepto de merma y desperdicios técnicos de bombeo (redondeando el volumen final a comprar al entero superior en $\text{m}^3$), ¿cuánto dinero en soles presupuestará la empresa para la compra total del concreto?
+**Enunciado:** En la construcción de las columnas de soporte para un puente peatonal en Chosica, se deben vaciar $12$ columnas cilíndricas macizas de concreto armado. Cada columna tiene un radio de $0.5\text{ metros}$ y una altura de $4\text{ metros}$. La empresa constructora calcula el volumen total de concreto utilizando la aproximación $\pi \approx 3.14$. Sabiendo que el metro cúbico de concreto premezclado puesto en obra cuesta $\text{S/ } 350$ y que se debe añadir un $5\%$ de concreto adicional por concepto de merma y desperdicios técnicos de bombeo (redondeando el volumen final a comprar al entero superior en $\text{m}^3$), ¿cuánto dinero en soles presupuestará la empresa para la compra total del concreto?  
 A) $\text{S/ } 13\,650$  
 B) $\text{S/ } 14\,000$  
 C) $\text{S/ } 14\,350$  
@@ -459,7 +459,7 @@ $$\text{Costo} = 40 \times \text{S/ } 350 = \text{S/ } 14\,000$$
 ---
 
 #### Ejercicio 09 (Contexto de Topografía y Cerco Perimétrico)
-**Enunciado:** Un lote de terreno destinado a un centro comunal en Huancayo tiene forma de triángulo rectángulo cuyos catetos miden exactamente $20\text{ metros}$ y $40\text{ metros}$. Para colocar una malla metálica perimétrica reforzada, un técnico calcula la hipotenusa mediante $H = \sqrt{20^2 + 40^2} = 20\sqrt{5}\text{ metros}$. Si el técnico utiliza la aproximación redondeada a centésimos $\sqrt{5} \approx 2.24$, determine la longitud aproximada del perímetro total del lote y el error absoluto cometido respecto al valor obtenido con $\sqrt{5} \approx 2.2361$.
+**Enunciado:** Un lote de terreno destinado a un centro comunal en Huancayo tiene forma de triángulo rectángulo cuyos catetos miden exactamente $20\text{ metros}$ y $40\text{ metros}$. Para colocar una malla metálica perimétrica reforzada, un técnico calcula la hipotenusa mediante $H = \sqrt{20^2 + 40^2} = 20\sqrt{5}\text{ metros}$. Si el técnico utiliza la aproximación redondeada a centésimos $\sqrt{5} \approx 2.24$, determine la longitud aproximada del perímetro total del lote y el error absoluto cometido respecto al valor obtenido con $\sqrt{5} \approx 2.2361$.  
 A) Perímetro $= 104.8\text{ m}$; Error absoluto $\approx 0.078\text{ m}$  
 B) Perímetro $= 104.8\text{ m}$; Error absoluto $\approx 0.125\text{ m}$  
 C) Perímetro $= 105.2\text{ m}$; Error absoluto $\approx 0.082\text{ m}$  
@@ -495,7 +495,7 @@ $$E_a = |P_a - P_r| = |104.8 - 104.722| = 0.078\text{ metros}$$
 ---
 
 #### Ejercicio 10 (Contexto Financiero y Operaciones Cambiarias)
-**Enunciado:** Una empresa exportadora de arándanos en La Libertad recibe una transferencia del exterior por $\text{US\$\;}85\,420\text{ dólares americanos}$. La entidad financiera liquida el cambio a moneda nacional fijando una tasa de cambio interbancaria de $\text{S/ } 3.7548$ por dólar. La normativa interna del banco estipula que en el momento del pago se aplica un redondeo comercial al centésimo de sol sobre el monto total en soles. ¿Cuántos céntimos de sol representó la diferencia entre el monto exacto antes del redondeo y el monto finalmente acreditado en la cuenta de la empresa?
+**Enunciado:** Una empresa exportadora de arándanos en La Libertad recibe una transferencia del exterior por $\text{US\$\;}85\,420\text{ dólares americanos}$. La entidad financiera liquida el cambio a moneda nacional fijando una tasa de cambio interbancaria de $\text{S/ } 3.7548$ por dólar. La normativa interna del banco estipula que en el momento del pago se aplica un redondeo comercial al centésimo de sol sobre el monto total en soles. ¿Cuántos céntimos de sol representó la diferencia entre el monto exacto antes del redondeo y el monto finalmente acreditado en la cuenta de la empresa?  
 A) $0.84\text{ céntimos}$  
 B) $0.62\text{ céntimos}$  
 C) $0.48\text{ céntimos}$  
@@ -536,105 +536,105 @@ $$\text{Diferencia en céntimos} = 0.004 \times 100 = 0.4\text{ céntimos} \quad
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 
-1. Calcule la fracción generatriz irreductible del número decimal periódico mixto $0.2\widehat{6}$.
+1. Calcule la fracción generatriz irreductible del número decimal periódico mixto $0.2\widehat{6}$.  
 A) $\frac{2}{9}$  
 B) $\frac{4}{15}$  
 C) $\frac{7}{30}$  
 D) $\frac{13}{45}$  
 E) $\frac{3}{11}$  
 
-2. Al redondear el número $4.7836$ al orden de los milésimos, se obtiene:
+2. Al redondear el número $4.7836$ al orden de los milésimos, se obtiene:  
 A) $4.783$  
 B) $4.784$  
 C) $4.780$  
 D) $4.790$  
 E) $4.785$  
 
-3. ¿Cuál de los siguientes números es un irracional trascendente?
+3. ¿Cuál de los siguientes números es un irracional trascendente?  
 A) $\sqrt{7}$  
 B) $\sqrt[3]{11}$  
 C) $\frac{22}{7}$  
 D) $\pi$  
 E) $0.\widehat{71}$  
 
-4. Al truncar el número $18.9482$ a los centésimos, el resultado es:
+4. Al truncar el número $18.9482$ a los centésimos, el resultado es:  
 A) $18.95$  
 B) $18.94$  
 C) $18.90$  
 D) $19.00$  
 E) $18.948$  
 
-5. Si se aproxima el valor de $\frac{1}{3}$ por el número decimal $0.33$, ¿cuál es el error absoluto de dicha aproximación?
+5. Si se aproxima el valor de $\frac{1}{3}$ por el número decimal $0.33$, ¿cuál es el error absoluto de dicha aproximación?  
 A) $\frac{1}{30}$  
 B) $\frac{1}{300}$  
 C) $\frac{1}{3000}$  
 D) $\frac{3}{100}$  
 E) $\frac{1}{100}$  
 
-6. Determine cuál de las siguientes fracciones genera un número decimal periódico puro:
+6. Determine cuál de las siguientes fracciones genera un número decimal periódico puro:  
 A) $\frac{7}{20}$  
 B) $\frac{11}{40}$  
 C) $\frac{5}{24}$  
 D) $\frac{8}{33}$  
 E) $\frac{9}{50}$  
 
-7. Al redondear $\sqrt{10} \approx 3.162277\dots$ a los centésimos, se obtiene:
+7. Al redondear $\sqrt{10} \approx 3.162277\dots$ a los centésimos, se obtiene:  
 A) $3.16$  
 B) $3.17$  
 C) $3.20$  
 D) $3.162$  
 E) $3.15$  
 
-8. La fracción irreductible equivalente a $1.\widehat{45}$ tiene como denominador a:
+8. La fracción irreductible equivalente a $1.\widehat{45}$ tiene como denominador a:  
 A) $9$  
 B) $11$  
 C) $33$  
 D) $99$  
 E) $15$  
 
-9. Si la medida real de una masa es $50\text{ gramos}$ y la balanza registra $49\text{ gramos}$, el error relativo porcentual es:
+9. Si la medida real de una masa es $50\text{ gramos}$ y la balanza registra $49\text{ gramos}$, el error relativo porcentual es:  
 A) $1\%$  
 B) $2\%$  
 C) $3\%$  
 D) $4\%$  
 E) $5\%$  
 
-10. Calcule el valor exacto de la suma: $S = 0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3} + \cdots + 0.\widehat{8}$.
+10. Calcule el valor exacto de la suma: $S = 0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3} + \cdots + 0.\widehat{8}$.  
 A) $3$  
 B) $4$  
 C) $\frac{36}{9}$  
 D) $4.5$  
 E) $5$  
 
-11. ¿Cuántas cifras decimales periódicas tiene el número generado por $\frac{1}{7}$?
+11. ¿Cuántas cifras decimales periódicas tiene el número generado por $\frac{1}{7}$?  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $6$  
 E) $7$  
 
-12. Al redondear el precio $\text{S/ } 19.995$ al centésimo más próximo, el valor resultante es:
+12. Al redondear el precio $\text{S/ } 19.995$ al centésimo más próximo, el valor resultante es:  
 A) $\text{S/ } 19.99$  
 B) $\text{S/ } 20.00$  
 C) $\text{S/ } 20.01$  
 D) $\text{S/ } 19.90$  
 E) $\text{S/ } 20.10$  
 
-13. Si se aproxima $e \approx 2.71828\dots$ por exceso al centésimo, se obtiene:
+13. Si se aproxima $e \approx 2.71828\dots$ por exceso al centésimo, se obtiene:  
 A) $2.71$  
 B) $2.72$  
 C) $2.73$  
 D) $2.718$  
 E) $2.70$  
 
-14. Determine la cota de error absoluto al redondear cualquier número real al orden de los milésimos ($10^{-3}$):
+14. Determine la cota de error absoluto al redondear cualquier número real al orden de los milésimos ($10^{-3}$):  
 A) $0.001$  
 B) $0.0005$  
 C) $0.005$  
 D) $0.0001$  
 E) $0.00025$  
 
-15. ¿Cuál es la fracción generatriz de $0.0\widehat{4}$?
+15. ¿Cuál es la fracción generatriz de $0.0\widehat{4}$?  
 A) $\frac{1}{20}$  
 B) $\frac{2}{45}$  
 C) $\frac{4}{99}$  
@@ -655,35 +655,35 @@ C) $\frac{4}{5}$
 D) $\frac{7}{5}$  
 E) $\frac{6}{5}$  
 
-17. Se conoce que $\sqrt{3} \approx 1.732$ y $\sqrt{2} \approx 1.414$. Si se aproxima el valor de $\frac{1}{\sqrt{3} - \sqrt{2}}$ calculando primero la resta en el denominador redondeada a milésimos, ¿cuál es el resultado obtenido redondeado a centésimos?
+17. Se conoce que $\sqrt{3} \approx 1.732$ y $\sqrt{2} \approx 1.414$. Si se aproxima el valor de $\frac{1}{\sqrt{3} - \sqrt{2}}$ calculando primero la resta en el denominador redondeada a milésimos, ¿cuál es el resultado obtenido redondeado a centésimos?  
 A) $3.14$  
 B) $3.15$  
 C) $3.16$  
 D) $3.18$  
 E) $3.20$  
 
-18. Calcule el valor de $a + b$ si la fracción irreductible $\frac{a}{b}$ genera el número decimal $0.a\widehat{b}$.
+18. Calcule el valor de $a + b$ si la fracción irreductible $\frac{a}{b}$ genera el número decimal $0.a\widehat{b}$.  
 A) $7$  
 B) $8$  
 C) $9$  
 D) $11$  
 E) $13$  
 
-19. Un odómetro digital registra una distancia de $145.6\text{ km}$. Si el fabricante garantiza que el error relativo del instrumento no supera el $0.5\%$, ¿cuál es el margen de variación máxima (en kilómetros) de la distancia real recorrida?
+19. Un odómetro digital registra una distancia de $145.6\text{ km}$. Si el fabricante garantiza que el error relativo del instrumento no supera el $0.5\%$, ¿cuál es el margen de variación máxima (en kilómetros) de la distancia real recorrida?  
 A) $\pm 0.728\text{ km}$  
 B) $\pm 0.500\text{ km}$  
 C) $\pm 1.456\text{ km}$  
 D) $\pm 0.291\text{ km}$  
 E) $\pm 0.364\text{ km}$  
 
-20. Si la fracción irreductible $\frac{N}{37}$ genera el decimal $0.\widehat{abc}$, donde $a + b + c = 18$, determine el valor del numerador $N$.
+20. Si la fracción irreductible $\frac{N}{37}$ genera el decimal $0.\widehat{abc}$, donde $a + b + c = 18$, determine el valor del numerador $N$.  
 A) $19$  
 B) $21$  
 C) $23$  
 D) $24$  
 E) $26$  
 
-21. Al multiplicar dos números aproximados por redondeo a centésimos: $x \approx 2.45$ e $y \approx 3.12$, determine el producto aproximado redondeado al décimo más cercano.
+21. Al multiplicar dos números aproximados por redondeo a centésimos: $x \approx 2.45$ e $y \approx 3.12$, determine el producto aproximado redondeado al décimo más cercano.  
 A) $7.6$  
 B) $7.7$  
 C) $7.8$  
@@ -700,14 +700,14 @@ C) $9$
 D) $11$  
 E) $15$  
 
-23. Si se utiliza la aproximación $\pi \approx 3.14$, ¿cuál es el error porcentual cometido respecto al valor más exacto $\pi \approx 3.14159$, redondeado al centésimo de porcentaje?
+23. Si se utiliza la aproximación $\pi \approx 3.14$, ¿cuál es el error porcentual cometido respecto al valor más exacto $\pi \approx 3.14159$, redondeado al centésimo de porcentaje?  
 A) $0.03\%$  
 B) $0.05\%$  
 C) $0.08\%$  
 D) $0.12\%$  
 E) $0.15\%$  
 
-24. Un terreno cuadrado tiene un área de $50\text{ m}^2$. Si un perito calcula el lado aproximando $\sqrt{50} = 5\sqrt{2}$ con $\sqrt{2} \approx 1.41$, ¿cuántos centímetros de diferencia existen entre esta aproximación y el valor con $\sqrt{2} \approx 1.4142$?
+24. Un terreno cuadrado tiene un área de $50\text{ m}^2$. Si un perito calcula el lado aproximando $\sqrt{50} = 5\sqrt{2}$ con $\sqrt{2} \approx 1.41$, ¿cuántos centímetros de diferencia existen entre esta aproximación y el valor con $\sqrt{2} \approx 1.4142$?  
 A) $1.8\text{ cm}$  
 B) $2.1\text{ cm}$  
 C) $2.5\text{ cm}$  
@@ -724,35 +724,35 @@ C) $4$
 D) $5$  
 E) $6$  
 
-26. La diagonal de un paralelepípedo de aristas $1$, $2$ y $3$ metros es $D = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14}\text{ m}$. Si se redondea al centésimo utilizando $\sqrt{14} \approx 3.741657\dots$, se obtiene:
+26. La diagonal de un paralelepípedo de aristas $1$, $2$ y $3$ metros es $D = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14}\text{ m}$. Si se redondea al centésimo utilizando $\sqrt{14} \approx 3.741657\dots$, se obtiene:  
 A) $3.74\text{ m}$  
 B) $3.75\text{ m}$  
 C) $3.70\text{ m}$  
 D) $3.80\text{ m}$  
 E) $3.742\text{ m}$  
 
-27. ¿Cuántas fracciones irreductibles de la forma $\frac{a}{12}$ tienen un desarrollo decimal que genera un número mayor que $0.5$ y menor que $0.83$?
+27. ¿Cuántas fracciones irreductibles de la forma $\frac{a}{12}$ tienen un desarrollo decimal que genera un número mayor que $0.5$ y menor que $0.83$?  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $4$  
 E) $5$  
 
-28. Se divide una herencia de $\text{S/ } 100\,000$ entre tres hermanos en partes iguales. La entidad bancaria deposita a cada uno el monto redondeado a centésimos. ¿Qué ocurre con la suma de los tres abonos bancarios?
+28. Se divide una herencia de $\text{S/ } 100\,000$ entre tres hermanos en partes iguales. La entidad bancaria deposita a cada uno el monto redondeado a centésimos. ¿Qué ocurre con la suma de los tres abonos bancarios?  
 A) Falta $\text{S/ } 0.01$  
 B) Sobra $\text{S/ } 0.01$  
 C) Coincide exactamente  
 D) Falta $\text{S/ } 0.03$  
 E) Sobra $\text{S/ } 0.03$  
 
-29. Al aproximar la fracción $\frac{13}{11}$ a tres cifras decimales por redondeo, se obtiene:
+29. Al aproximar la fracción $\frac{13}{11}$ a tres cifras decimales por redondeo, se obtiene:  
 A) $1.181$  
 B) $1.182$  
 C) $1.180$  
 D) $1.190$  
 E) $1.188$  
 
-30. Calcule el valor de la raíz cuadrada: $\sqrt{0.\widehat{4}}$.
+30. Calcule el valor de la raíz cuadrada: $\sqrt{0.\widehat{4}}$.  
 A) $0.\widehat{2}$  
 B) $0.\widehat{6}$  
 C) $0.2$  
@@ -763,105 +763,105 @@ E) $0.\widehat{4}$
 
 ### BLOQUE III: NIVEL AVANZADO / TIPO BECA 18 (Problemas 31 al 45)
 
-31. **(Contexto de Obras Viales y Pavimentación):** Para el asfaltado de una pista circular alrededor de una plaza en Arequipa, se debe calcular el área de la corona circular comprendida entre un radio exterior $R = 25\text{ m}$ y un radio interior $r = 20\text{ m}$. El área teórica es $A = \pi(R^2 - r^2) = 225\pi\text{ m}^2$. Si el supervisor de obra utiliza la aproximación $\pi \approx 3.14$ y el contratista utiliza $\pi \approx \frac{22}{7}$, ¿cuál es la diferencia en metros cuadrados entre ambas valorizaciones técnicas (redondeada a décimos)?
+31. **(Contexto de Obras Viales y Pavimentación):** Para el asfaltado de una pista circular alrededor de una plaza en Arequipa, se debe calcular el área de la corona circular comprendida entre un radio exterior $R = 25\text{ m}$ y un radio interior $r = 20\text{ m}$. El área teórica es $A = \pi(R^2 - r^2) = 225\pi\text{ m}^2$. Si el supervisor de obra utiliza la aproximación $\pi \approx 3.14$ y el contratista utiliza $\pi \approx \frac{22}{7}$, ¿cuál es la diferencia en metros cuadrados entre ambas valorizaciones técnicas (redondeada a décimos)?  
 A) $1.2\text{ m}^2$  
 B) $1.8\text{ m}^2$  
 C) $2.1\text{ m}^2$  
 D) $2.5\text{ m}^2$  
 E) $3.2\text{ m}^2$  
 
-32. **(Contexto Farmacéutico y Control de Calidad):** Una máquina envasadora dosifica un jarabe pediátrico con un volumen nominal de $120\text{ ml}$. El protocolo de calidad de la Dirección General de Medicamentos (DIGEMID) establece que el lote es aprobado si el error porcentual de la dosis promedio no excede el $1.5\%$. Si en un muestreo aleatorio de control se obtiene un volumen promedio de $121.6\text{ ml}$, determine el error porcentual cometido y si el lote es aceptado o rechazado.
+32. **(Contexto Farmacéutico y Control de Calidad):** Una máquina envasadora dosifica un jarabe pediátrico con un volumen nominal de $120\text{ ml}$. El protocolo de calidad de la Dirección General de Medicamentos (DIGEMID) establece que el lote es aprobado si el error porcentual de la dosis promedio no excede el $1.5\%$. Si en un muestreo aleatorio de control se obtiene un volumen promedio de $121.6\text{ ml}$, determine el error porcentual cometido y si el lote es aceptado o rechazado.  
 A) Error $= 1.25\%$; Aceptado  
 B) Error $= 1.33\%$; Aceptado  
 C) Error $= 1.55\%$; Rechazado  
 D) Error $= 1.62\%$; Rechazado  
 E) Error $= 1.70\%$; Rechazado  
 
-33. **(Contexto de Arquitectura Bioclimática):** Un ventanal semicircular para una escuela en Puno tiene un diámetro de $2.8\text{ metros}$. Se requiere colocar un marco protector de aluminio en todo su contorno perimétrico ($P = \text{diámetro} + \pi \cdot \text{radio}$). Si se calcula el perímetro utilizando la aproximación de $\pi \approx 3.1416$ redondeando al centésimo de metro, ¿cuántos metros de perfil de aluminio se deben comprar como mínimo?
+33. **(Contexto de Arquitectura Bioclimática):** Un ventanal semicircular para una escuela en Puno tiene un diámetro de $2.8\text{ metros}$. Se requiere colocar un marco protector de aluminio en todo su contorno perimétrico ($P = \text{diámetro} + \pi \cdot \text{radio}$). Si se calcula el perímetro utilizando la aproximación de $\pi \approx 3.1416$ redondeando al centésimo de metro, ¿cuántos metros de perfil de aluminio se deben comprar como mínimo?  
 A) $7.15\text{ m}$  
 B) $7.20\text{ m}$  
 C) $7.25\text{ m}$  
 D) $7.30\text{ m}$  
 E) $7.40\text{ m}$  
 
-34. **(Contexto de Minería y Pesaje de Concentrados):** En una balanza electrónica de tolva en un puerto de embarque minero en Matarani, se pesan vagones de concentrado de cobre con una tara de $15\,000\text{ kg}$. Si el sensor digital trunca las toneladas métricas al centésimo (ejemplo: $48.768\text{ t} \rightarrow 48.76\text{ t}$), ¿cuál es la máxima pérdida económica que puede generarse para la comunidad productora en un cargamento masivo de $500$ vagones si la tonelada de mineral se cotiza a $\text{US\$\;}3200$?
+34. **(Contexto de Minería y Pesaje de Concentrados):** En una balanza electrónica de tolva en un puerto de embarque minero en Matarani, se pesan vagones de concentrado de cobre con una tara de $15\,000\text{ kg}$. Si el sensor digital trunca las toneladas métricas al centésimo (ejemplo: $48.768\text{ t} \rightarrow 48.76\text{ t}$), ¿cuál es la máxima pérdida económica que puede generarse para la comunidad productora en un cargamento masivo de $500$ vagones si la tonelada de mineral se cotiza a $\text{US\$\;}3200$?  
 A) $\text{US\$\;}14\,400$  
 B) $\text{US\$\;}15\,840$  
 C) $\text{US\$\;}16\,000$  
 D) $\text{US\$\;}18\,200$  
 E) $\text{US\$\;}20\,000$  
 
-35. **(Contexto de Energía Solar e Irradiación):** Un panel solar fotovoltaico de dimensiones $1.65\text{ m} \times 0.99\text{ m}$ genera una potencia calculada a partir de su superficie. Si el técnico de campo redondea las dimensiones a un decimal ($1.7\text{ m} \times 1.0\text{ m}$) para estimar el área rápidamente, ¿cuál es el error relativo de esta estimación superficial respecto al área real, expresado como porcentaje con un decimal?
+35. **(Contexto de Energía Solar e Irradiación):** Un panel solar fotovoltaico de dimensiones $1.65\text{ m} \times 0.99\text{ m}$ genera una potencia calculada a partir de su superficie. Si el técnico de campo redondea las dimensiones a un decimal ($1.7\text{ m} \times 1.0\text{ m}$) para estimar el área rápidamente, ¿cuál es el error relativo de esta estimación superficial respecto al área real, expresado como porcentaje con un decimal?  
 A) $3.2\%$  
 B) $3.8\%$  
 C) $4.1\%$  
 D) $4.5\%$  
 E) $5.2\%$  
 
-36. **(Contexto Agrícola y Riego Tecnificado por Goteo):** Un reservorio de agua de sección trapezoidal tiene una capacidad de almacenamiento de $450\sqrt{3}\text{ m}^3$. Para programar las válvulas de riego por goteo, se utiliza la aproximación redondeada a décimos $\sqrt{3} \approx 1.7$. ¿Cuántos metros cúbicos de agua de diferencia existen entre esta programación y la calculada con $\sqrt{3} \approx 1.732$?
+36. **(Contexto Agrícola y Riego Tecnificado por Goteo):** Un reservorio de agua de sección trapezoidal tiene una capacidad de almacenamiento de $450\sqrt{3}\text{ m}^3$. Para programar las válvulas de riego por goteo, se utiliza la aproximación redondeada a décimos $\sqrt{3} \approx 1.7$. ¿Cuántos metros cúbicos de agua de diferencia existen entre esta programación y la calculada con $\sqrt{3} \approx 1.732$?  
 A) $12.4\text{ m}^3$  
 B) $14.4\text{ m}^3$  
 C) $16.8\text{ m}^3$  
 D) $18.2\text{ m}^3$  
 E) $20.5\text{ m}^3$  
 
-37. **(Contexto Financiero de Tarjetas de Crédito):** Una entidad bancaria cobra una tasa de interés efectiva diaria calculada como $i = \frac{0.36}{360} = 0.001$. Sin embargo, en transacciones en dólares aplica un factor de comisión de $0.001\widehat{6}$ por mantenimiento. Exprese dicho factor de comisión como una fracción ordinaria irreductible en su mínima expresión.
+37. **(Contexto Financiero de Tarjetas de Crédito):** Una entidad bancaria cobra una tasa de interés efectiva diaria calculada como $i = \frac{0.36}{360} = 0.001$. Sin embargo, en transacciones en dólares aplica un factor de comisión de $0.001\widehat{6}$ por mantenimiento. Exprese dicho factor de comisión como una fracción ordinaria irreductible en su mínima expresión.  
 A) $\frac{1}{600}$  
 B) $\frac{1}{540}$  
 C) $\frac{1}{625}$  
 D) $\frac{3}{2000}$  
 E) $\frac{1}{750}$  
 
-38. **(Contexto de Análisis Ambiental y Calidad del Aire):** En el monitoreo de material particulado $PM_{2.5}$ en el aire de Lima Norte, se registra una concentración promedio de $42.875\text{ }\mu\text{g/m}^3$. Si el estándar ambiental de la OMS exige reportar el dato redondeado a números enteros, ¿cuál es el error absoluto introducido por dicho reporte oficial?
+38. **(Contexto de Análisis Ambiental y Calidad del Aire):** En el monitoreo de material particulado $PM_{2.5}$ en el aire de Lima Norte, se registra una concentración promedio de $42.875\text{ }\mu\text{g/m}^3$. Si el estándar ambiental de la OMS exige reportar el dato redondeado a números enteros, ¿cuál es el error absoluto introducido por dicho reporte oficial?  
 A) $0.125\text{ }\mu\text{g/m}^3$  
 B) $0.875\text{ }\mu\text{g/m}^3$  
 C) $0.500\text{ }\mu\text{g/m}^3$  
 D) $0.375\text{ }\mu\text{g/m}^3$  
 E) $0.250\text{ }\mu\text{g/m}^3$  
 
-39. **(Contexto de Almacenamiento Hidráulico en Tanques Cónicos):** Un tanque cisterna cónico tiene un volumen $V = \frac{1}{3}\pi R^2 H$. Si se tiene $R = 3\text{ m}$ y $H = 5\text{ m}$, el volumen resulta $15\pi\text{ m}^3$. Si se toman tres aproximaciones de $\pi$: $\pi_1 = 3.14$, $\pi_2 = 3.1416$ y $\pi_3 = \frac{22}{7}$, determine cuál de ellas arroja la menor discrepancia absoluta con el valor de alta precisión $\pi \approx 3.14159265$.
+39. **(Contexto de Almacenamiento Hidráulico en Tanques Cónicos):** Un tanque cisterna cónico tiene un volumen $V = \frac{1}{3}\pi R^2 H$. Si se tiene $R = 3\text{ m}$ y $H = 5\text{ m}$, el volumen resulta $15\pi\text{ m}^3$. Si se toman tres aproximaciones de $\pi$: $\pi_1 = 3.14$, $\pi_2 = 3.1416$ y $\pi_3 = \frac{22}{7}$, determine cuál de ellas arroja la menor discrepancia absoluta con el valor de alta precisión $\pi \approx 3.14159265$.  
 A) $\pi_1$  
 B) $\pi_2$  
 C) $\pi_3$  
 D) $\pi_1$ y $\pi_2$ empatan  
 E) $\pi_2$ y $\pi_3$ empatan  
 
-40. **(Contexto de Redondeo en Planillas Salariales):** En una empresa agroexportadora en Virú con $850$ trabajadores en campo, el salario diario bruto por jornada es de $\text{S/ } 52.437$. Si el sistema de pago de planillas redondea el salario diario al décimo de sol (a favor del trabajador) antes de multiplicar por los $30$ días del mes, ¿cuántos soles adicionales gasta la empresa en total al mes en comparación con el cálculo exacto?
+40. **(Contexto de Redondeo en Planillas Salariales):** En una empresa agroexportadora en Virú con $850$ trabajadores en campo, el salario diario bruto por jornada es de $\text{S/ } 52.437$. Si el sistema de pago de planillas redondea el salario diario al décimo de sol (a favor del trabajador) antes de multiplicar por los $30$ días del mes, ¿cuántos soles adicionales gasta la empresa en total al mes en comparación con el cálculo exacto?  
 A) $\text{S/ } 1606.50$  
 B) $\text{S/ } 1750.20$  
 C) $\text{S/ } 1820.00$  
 D) $\text{S/ } 1940.50$  
 E) $\text{S/ } 2125.00$  
 
-41. **(Contexto de Geodesia y Triangulación):** En una triangulación geodésica, se requiere calcular la distancia entre dos hitos fronterizos separadas por una quebrada: $d = \sqrt{a^2 + b^2 - 2ab \cos(60^\circ)}$. Si $a = 60\text{ m}$ y $b = 40\text{ m}$, la distancia resulta $d = \sqrt{2800} = 20\sqrt{7}\text{ m}$. Si se utiliza la aproximación redondeada a centésimos $\sqrt{7} \approx 2.65$, calcule la distancia aproximada obtenida.
+41. **(Contexto de Geodesia y Triangulación):** En una triangulación geodésica, se requiere calcular la distancia entre dos hitos fronterizos separadas por una quebrada: $d = \sqrt{a^2 + b^2 - 2ab \cos(60^\circ)}$. Si $a = 60\text{ m}$ y $b = 40\text{ m}$, la distancia resulta $d = \sqrt{2800} = 20\sqrt{7}\text{ m}$. Si se utiliza la aproximación redondeada a centésimos $\sqrt{7} \approx 2.65$, calcule la distancia aproximada obtenida.  
 A) $52.8\text{ m}$  
 B) $53.0\text{ m}$  
 C) $53.2\text{ m}$  
 D) $53.5\text{ m}$  
 E) $54.0\text{ m}$  
 
-42. **(Contexto de Telecomunicaciones y Frecuencia de Antenas):** La longitud de onda $\lambda$ de una señal de telefonía celular 4G viene dada por $\lambda = \frac{c}{f}$, donde $c = 3 \times 10^8\text{ m/s}$ y $f = 700\text{ MHz} = 7 \times 10^8\text{ Hz}$. La longitud de onda es $\lambda = \frac{3}{7}\text{ metros}$. Si un técnico instala un cable coaxial cuya longitud debe ser exactamente un múltiplo de $\lambda$, y utiliza el valor truncado a milésimos $0.428\text{ m}$ en vez del valor redondeado a milésimos $0.429\text{ m}$, ¿cuál es el error en milímetros por cada onda?
+42. **(Contexto de Telecomunicaciones y Frecuencia de Antenas):** La longitud de onda $\lambda$ de una señal de telefonía celular 4G viene dada por $\lambda = \frac{c}{f}$, donde $c = 3 \times 10^8\text{ m/s}$ y $f = 700\text{ MHz} = 7 \times 10^8\text{ Hz}$. La longitud de onda es $\lambda = \frac{3}{7}\text{ metros}$. Si un técnico instala un cable coaxial cuya longitud debe ser exactamente un múltiplo de $\lambda$, y utiliza el valor truncado a milésimos $0.428\text{ m}$ en vez del valor redondeado a milésimos $0.429\text{ m}$, ¿cuál es el error en milímetros por cada onda?  
 A) $0.5\text{ mm}$  
 B) $1.0\text{ mm}$  
 C) $1.5\text{ mm}$  
 D) $2.0\text{ mm}$  
 E) $2.5\text{ mm}$  
 
-43. **(Contexto de Presupuestos de Pintura en Viviendas Sociales):** Para pintar la fachada de un módulo de vivienda de interés social de $84\text{ m}^2$, un galón de pintura de látex rinde exactamente $25\text{ m}^2$. El cálculo arroja $\frac{84}{25} = 3.36\text{ galones}$. Como la ferretería comunitaria solo vende cuartos de galón ($0.25\text{ gal}$), ¿cuántos galones completos y cuartos de galón se deben adquirir redondeando por exceso al cuarto más próximo?
+43. **(Contexto de Presupuestos de Pintura en Viviendas Sociales):** Para pintar la fachada de un módulo de vivienda de interés social de $84\text{ m}^2$, un galón de pintura de látex rinde exactamente $25\text{ m}^2$. El cálculo arroja $\frac{84}{25} = 3.36\text{ galones}$. Como la ferretería comunitaria solo vende cuartos de galón ($0.25\text{ gal}$), ¿cuántos galones completos y cuartos de galón se deben adquirir redondeando por exceso al cuarto más próximo?  
 A) $3.25\text{ galones}$  
 B) $3.50\text{ galones}$  
 C) $3.75\text{ galones}$  
 D) $4.00\text{ galones}$  
 E) $3.35\text{ galones}$  
 
-44. **(Contexto de Economía Circular y Huella de Carbono):** Una planta de reciclaje de plástico PET en Lurín procesa $18.47\text{ toneladas}$ de botellas al día. Por cada tonelada procesada, se evita la emisión de $\sqrt{5}\text{ toneladas}$ de $\text{CO}_2$ equivalente. Si se utiliza la aproximación redondeada a centésimos $\sqrt{5} \approx 2.24$, determine la cantidad total estimada de $\text{CO}_2$ evitado en un mes de $30\text{ días}$, redondeada al entero en toneladas.
+44. **(Contexto de Economía Circular y Huella de Carbono):** Una planta de reciclaje de plástico PET en Lurín procesa $18.47\text{ toneladas}$ de botellas al día. Por cada tonelada procesada, se evita la emisión de $\sqrt{5}\text{ toneladas}$ de $\text{CO}_2$ equivalente. Si se utiliza la aproximación redondeada a centésimos $\sqrt{5} \approx 2.24$, determine la cantidad total estimada de $\text{CO}_2$ evitado en un mes de $30\text{ días}$, redondeada al entero en toneladas.  
 A) $1241\text{ t}$  
 B) $1243\text{ t}$  
 C) $1247\text{ t}$  
 D) $1250\text{ t}$  
 E) $1255\text{ t}$  
 
-45. **(Contexto de Teoría de Números y Cifras Terminales del Período):** Sea la fracción irreductible $f = \frac{1}{2^4 \cdot 5^2 \cdot 7}$. Se sabe que su desarrollo decimal tiene $m$ cifras en la parte no periódica y $n$ cifras en el período periódico puro. Calcule el valor del producto $m \cdot n$.
+45. **(Contexto de Teoría de Números y Cifras Terminales del Período):** Sea la fracción irreductible $f = \frac{1}{2^4 \cdot 5^2 \cdot 7}$. Se sabe que su desarrollo decimal tiene $m$ cifras en la parte no periódica y $n$ cifras en el período periódico puro. Calcule el valor del producto $m \cdot n$.  
 A) $12$  
 B) $18$  
 C) $24$  

@@ -27,6 +27,8 @@ Esta habilidad guía la creación de temas teóricos y prácticos según el tema
 - **LaTeX Estricto:** Sin espacios en delimitadores `$ $`, sin líneas vacías internas en `$$ $$`, sin `\dot{b}` (usar `$k \cdot b$`).
 - **Ejercicios Resueltos:** Exactamente **10 problemas resueltos paso a paso** (3 básicos, 4 intermedios, 3 contextualizados Beca 18).
 - **Ejercicios Propuestos:** Exactamente **45 problemas propuestos** clasificados en 3 bloques de 15 con 5 alternativas (A, B, C, D, E) y tabla de claves completa (1 al 45).
+- **Salto de Línea en Preguntas:** Toda línea de enunciado que precede inmediatamente a la alternativa `A)` debe terminar obligatoriamente con dos espacios (`  \n`) para forzar un salto de línea `<br />`, evitando que la alternativa `A)` quede en el mismo renglón que la pregunta.
+- **Gráficos y Diagramas Visuales Obligatorios:** En Álgebra y cursos afines, es obligatorio incluir diagramas visuales (bloques Mermaid o representaciones gráficas SVG/vectoriales) en temas clave como Punto de Equilibrio (costos e ingresos), posición relativa de rectas en sistemas lineales, operaciones con intervalos en la recta numérica y funciones lineales/cuadráticas.
 
 ### 3. Validación Automatizada (Quality Gate)
 - Ejecutar `python scratch/strip_all_accidental_spaces.py` para verificar sangrías.

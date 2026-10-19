@@ -478,7 +478,7 @@ $$
 M(t) = M_0 \cdot \left(\frac{1}{2}\right)^{\frac{t}{6}}
 $$
 
-Si a un paciente se le inyecta una dosis inicial de $64\text{ miligramos}$ a las $08:00\text{ a.m.}$, determine qué masa exacta de radioisótopo permanecerá activa en su organismo a las $02:00\text{ a.m.}$ del día siguiente ($18\text{ horas}$ después).
+Si a un paciente se le inyecta una dosis inicial de $64\text{ miligramos}$ a las $08:00\text{ a.m.}$, determine qué masa exacta de radioisótopo permanecerá activa en su organismo a las $02:00\text{ a.m.}$ del día siguiente ($18\text{ horas}$ después).  
 A) $2\text{ mg}$  
 B) $4\text{ mg}$  
 C) $8\text{ mg}$  
@@ -506,7 +506,7 @@ $$M(18) = 64 \cdot \left(\frac{1}{2}\right)^3 = 64 \cdot \frac{1}{8} = 8\text{ m
 ---
 
 #### Ejercicio 09 (Contexto de Acústica y Pérdida de Potencia)
-**Enunciado:** Un panel aislante acústico instalado en una sala de grabación atenúa la intensidad del sonido de modo que cada capa de panel reduce la intensidad sonora a los $\frac{4}{9}$ de la intensidad que le precede. Si la intensidad final tras atravesar $k$ capas de aislamiento idénticas es equivalente a los $\frac{64}{729}$ de la intensidad inicial, ¿cuántas capas de aislamiento se instalaron en total?
+**Enunciado:** Un panel aislante acústico instalado en una sala de grabación atenúa la intensidad del sonido de modo que cada capa de panel reduce la intensidad sonora a los $\frac{4}{9}$ de la intensidad que le precede. Si la intensidad final tras atravesar $k$ capas de aislamiento idénticas es equivalente a los $\frac{64}{729}$ de la intensidad inicial, ¿cuántas capas de aislamiento se instalaron en total?  
 A) $2\text{ capas}$  
 B) $3\text{ capas}$  
 C) $4\text{ capas}$  
@@ -536,7 +536,7 @@ $$k = 3\text{ capas}$$
 ---
 
 #### Ejercicio 10 (Contexto Geométrico y Escalamiento Volumétrico)
-**Enunciado:** En un laboratorio de fundición de metales para prótesis biomecánicas, se tiene un bloque metálico esférico cuya masa inicial es $M_1$. Se somete a un proceso de tallado de precisión donde su radio se reduce a los $\frac{2}{3}$ de su radio original. Posteriormente, la esfera resultante se talla nuevamente reduciendo su radio a los $\frac{3}{4}$ del radio previo. Si la densidad del metal se mantiene estrictamente constante, ¿qué fracción de la masa original $M_1$ representa la masa final de la esfera obtenida?
+**Enunciado:** En un laboratorio de fundición de metales para prótesis biomecánicas, se tiene un bloque metálico esférico cuya masa inicial es $M_1$. Se somete a un proceso de tallado de precisión donde su radio se reduce a los $\frac{2}{3}$ de su radio original. Posteriormente, la esfera resultante se talla nuevamente reduciendo su radio a los $\frac{3}{4}$ del radio previo. Si la densidad del metal se mantiene estrictamente constante, ¿qué fracción de la masa original $M_1$ representa la masa final de la esfera obtenida?  
 A) $\frac{1}{4}$  
 B) $\frac{1}{8}$  
 C) $\frac{1}{16}$  
@@ -605,7 +605,7 @@ C) $\frac{1}{3}$
 D) $\frac{1}{2}$  
 E) $1$  
 
-5. ¿Cuál es el valor de $\left(\frac{81}{16}\right)^{-3/4}$?
+5. ¿Cuál es el valor de $\left(\frac{81}{16}\right)^{-3/4}$?  
 A) $\frac{8}{27}$  
 B) $\frac{27}{8}$  
 C) $\frac{16}{81}$  
@@ -622,7 +622,7 @@ C) $\frac{3}{5}$
 D) $\frac{4}{5}$  
 E) $1$  
 
-7. Si $\left(\frac{1}{3}\right)^{-x} = 81$, ¿cuál es el valor de $\left(\frac{x}{2}\right)^{-3}$?
+7. Si $\left(\frac{1}{3}\right)^{-x} = 81$, ¿cuál es el valor de $\left(\frac{x}{2}\right)^{-3}$?  
 A) $\frac{1}{8}$  
 B) $\frac{1}{4}$  
 C) $\frac{1}{2}$  
@@ -649,28 +649,28 @@ C) $\frac{1}{8}$
 D) $\frac{3}{8}$  
 E) $\frac{5}{16}$  
 
-10. Racionalice el denominador de $\frac{6}{\sqrt{3}}$:
+10. Racionalice el denominador de $\frac{6}{\sqrt{3}}$:  
 A) $2\sqrt{3}$  
 B) $3\sqrt{3}$  
 C) $\sqrt{3}$  
 D) $6\sqrt{3}$  
 E) $\frac{\sqrt{3}}{2}$  
 
-11. Calcule el valor de $x$ en la ecuación: $\sqrt[3]{\frac{x}{27}} = \frac{2}{3}$.
+11. Calcule el valor de $x$ en la ecuación: $\sqrt[3]{\frac{x}{27}} = \frac{2}{3}$.  
 A) $4$  
 B) $6$  
 C) $8$  
 D) $9$  
 E) $12$  
 
-12. Al simplificar $\frac{\sqrt{50} - \sqrt{18}}{\sqrt{2}}$, se obtiene:
+12. Al simplificar $\frac{\sqrt{50} - \sqrt{18}}{\sqrt{2}}$, se obtiene:  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $4$  
 E) $2\sqrt{2}$  
 
-13. ¿Cuál es el inverso multiplicativo de $\left(\frac{3}{4}\right)^{-2}$?
+13. ¿Cuál es el inverso multiplicativo de $\left(\frac{3}{4}\right)^{-2}$?  
 A) $\frac{9}{16}$  
 B) $\frac{16}{9}$  
 C) $-\frac{9}{16}$  
@@ -690,7 +690,7 @@ E) $\frac{13}{36}$
 15. Indique verdadero (V) o falso (F) según corresponda:
 * I. $\left(-\frac{1}{2}\right)^4 = -\frac{1}{16}$
 * II. $\sqrt{\frac{a^2}{b^2}} = \frac{a}{b}$ para todo $a, b \in \mathbb{R}$ ($b \neq 0$)
-* III. $\left(\frac{a}{b}\right)^{-1} = \frac{b}{a}$ para todo $a \cdot b \neq 0$
+* III. $\left(\frac{a}{b}\right)^{-1} = \frac{b}{a}$ para todo $a \cdot b \neq 0$  
 A) V - V - V  
 B) F - F - V  
 C) F - V - V  
@@ -761,7 +761,7 @@ C) $7$
 D) $2\sqrt{2}$  
 E) $3$  
 
-22. Si $x^x = \frac{1}{4}$, determine el valor que adopta $x$.
+22. Si $x^x = \frac{1}{4}$, determine el valor que adopta $x$.  
 A) $\frac{1}{2}$  
 B) $\frac{1}{4}$  
 C) $\frac{1}{16}$  
@@ -808,14 +808,14 @@ C) $\frac{7}{8}$
 D) $\frac{\sqrt{14}}{4}$  
 E) $\frac{3}{4}$  
 
-27. Si $\sqrt{x} + \frac{1}{\sqrt{x}} = 3$, calcule el valor numérico de $x^2 + \frac{1}{x^2}$.
+27. Si $\sqrt{x} + \frac{1}{\sqrt{x}} = 3$, calcule el valor numérico de $x^2 + \frac{1}{x^2}$.  
 A) $47$  
 B) $49$  
 C) $51$  
 D) $45$  
 E) $43$  
 
-28. Descomponga el radical doble en radicales simples: $\sqrt{7 + 2\sqrt{10}}$.
+28. Descomponga el radical doble en radicales simples: $\sqrt{7 + 2\sqrt{10}}$.  
 A) $\sqrt{5} + \sqrt{2}$  
 B) $\sqrt{6} + 1$  
 C) $\sqrt{5} - \sqrt{2}$  
@@ -850,21 +850,21 @@ E) $\frac{\sqrt{5} - 1}{2}$
 
 $$B(t) = B_0 \cdot 8^{\frac{t}{9}}$$
 
-donde $t$ es el tiempo en días. Si se inicia con una biomasa $B_0 = 125\text{ gramos}$, ¿cuál será la biomasa obtenida exactamente a los $6\text{ días}$ de cultivo continuo?
+donde $t$ es el tiempo en días. Si se inicia con una biomasa $B_0 = 125\text{ gramos}$, ¿cuál será la biomasa obtenida exactamente a los $6\text{ días}$ de cultivo continuo?  
 A) $250\text{ g}$  
 B) $375\text{ g}$  
 C) $500\text{ g}$  
 D) $625\text{ g}$  
 E) $1000\text{ g}$  
 
-32. **(Contexto de Hidráulica e Irrigación Agrícola):** La velocidad de descarga $V$ (en $\text{m/s}$) de agua a través del orificio de fondo de una represa en Piura depende de la altura de la columna de agua $H$ según la ley de Torricelli: $V = \sqrt{2gH}$. Si la altura de agua $H$ se reduce a los $\frac{9}{16}$ de su nivel original durante la época de estiaje, ¿en qué fracción se reduce la velocidad de salida del agua respecto a su velocidad inicial?
+32. **(Contexto de Hidráulica e Irrigación Agrícola):** La velocidad de descarga $V$ (en $\text{m/s}$) de agua a través del orificio de fondo de una represa en Piura depende de la altura de la columna de agua $H$ según la ley de Torricelli: $V = \sqrt{2gH}$. Si la altura de agua $H$ se reduce a los $\frac{9}{16}$ de su nivel original durante la época de estiaje, ¿en qué fracción se reduce la velocidad de salida del agua respecto a su velocidad inicial?  
 A) Se reduce en $\frac{3}{4}$  
 B) Se reduce en $\frac{7}{16}$  
 C) Se reduce en $\frac{1}{4}$  
 D) Se reduce en $\frac{9}{16}$  
 E) Se reduce en $\frac{1}{2}$  
 
-33. **(Contexto de Análisis de Señales Sísmicas):** La amplitud $A$ de una onda sísmica registrada por un acelerómetro se atenúa con la distancia $d$ (en kilómetros) según la relación $A(d) = A_0 \cdot d^{-3/2}$. Si un sismógrafo ubicado a $4\text{ km}$ del epicentro registra una amplitud $A_1$, y otro sismógrafo ubicado a $16\text{ km}$ registra una amplitud $A_2$, determine la razón $\frac{A_1}{A_2}$.
+33. **(Contexto de Análisis de Señales Sísmicas):** La amplitud $A$ de una onda sísmica registrada por un acelerómetro se atenúa con la distancia $d$ (en kilómetros) según la relación $A(d) = A_0 \cdot d^{-3/2}$. Si un sismógrafo ubicado a $4\text{ km}$ del epicentro registra una amplitud $A_1$, y otro sismógrafo ubicado a $16\text{ km}$ registra una amplitud $A_2$, determine la razón $\frac{A_1}{A_2}$.  
 A) $2$  
 B) $4$  
 C) $8$  
@@ -875,28 +875,28 @@ E) $64$
 
 $$V_F = C_0 \cdot \left(1 + \frac{r}{n}\right)^{n \cdot t}$$
 
-Si una cooperativa invierte un capital $C_0$ a una tasa tal que el factor de crecimiento trimestral ($n=4$) es $\left(\frac{21}{20}\right)^{4t}$, ¿cuántos años ($t$) deben transcurrir para que el factor multiplicativo del capital alcance exactamente $\left(\frac{441}{400}\right)^6$?
+Si una cooperativa invierte un capital $C_0$ a una tasa tal que el factor de crecimiento trimestral ($n=4$) es $\left(\frac{21}{20}\right)^{4t}$, ¿cuántos años ($t$) deben transcurrir para que el factor multiplicativo del capital alcance exactamente $\left(\frac{441}{400}\right)^6$?  
 A) $2\text{ años}$  
 B) $3\text{ años}$  
 C) $4\text{ años}$  
 D) $5\text{ años}$  
 E) $6\text{ años}$  
 
-35. **(Contexto de Física y Escalamiento Fractal):** En la síntesis de nanopartículas de plata para filtros antibacteriales, una partícula cúbica original de arista $L_0$ se fragmenta en partículas cúbicas menores cuya arista es $L_f = \frac{1}{10}L_0$. ¿Por qué factor se multiplica el área superficial total de la sustancia tras esta fragmentación completa?
+35. **(Contexto de Física y Escalamiento Fractal):** En la síntesis de nanopartículas de plata para filtros antibacteriales, una partícula cúbica original de arista $L_0$ se fragmenta en partículas cúbicas menores cuya arista es $L_f = \frac{1}{10}L_0$. ¿Por qué factor se multiplica el área superficial total de la sustancia tras esta fragmentación completa?  
 A) Se multiplica por $10$  
 B) Se multiplica por $100$  
 C) Se multiplica por $\sqrt{10}$  
 D) Se multiplica por $1000$  
 E) Permanece constante  
 
-36. **(Contexto Ambiental y Filtración de Partículas):** Una mascarilla con filtro de alta eficiencia retiene el $60\%$ de las micropartículas nocivas en cada capa filtrante que el aire atraviesa (es decir, solo deja pasar los $\frac{2}{5}$ de las partículas que ingresan a dicha capa). ¿Cuál es el número mínimo de capas que debe poseer la mascarilla para asegurar que pase menos del $3\%$ de las partículas contaminantes del ambiente?
+36. **(Contexto Ambiental y Filtración de Partículas):** Una mascarilla con filtro de alta eficiencia retiene el $60\%$ de las micropartículas nocivas en cada capa filtrante que el aire atraviesa (es decir, solo deja pasar los $\frac{2}{5}$ de las partículas que ingresan a dicha capa). ¿Cuál es el número mínimo de capas que debe poseer la mascarilla para asegurar que pase menos del $3\%$ de las partículas contaminantes del ambiente?  
 A) $3\text{ capas}$  
 B) $4\text{ capas}$  
 C) $5\text{ capas}$  
 D) $6\text{ capas}$  
 E) $7\text{ capas}$  
 
-37. **(Contexto de Resistencia de Materiales):** La resistencia a la flexión $R$ de una viga rectangular de madera de balsa depende del ancho $b$ y la altura $h$ según la fórmula $R = k \cdot b \cdot h^2$. Si en un rediseño estructural el ancho $b$ se triplica ($b' = 3b$) pero la altura $h$ se reduce a la tercera parte ($h' = \frac{1}{3}h$), ¿qué fracción de la resistencia original mantiene la nueva viga?
+37. **(Contexto de Resistencia de Materiales):** La resistencia a la flexión $R$ de una viga rectangular de madera de balsa depende del ancho $b$ y la altura $h$ según la fórmula $R = k \cdot b \cdot h^2$. Si en un rediseño estructural el ancho $b$ se triplica ($b' = 3b$) pero la altura $h$ se reduce a la tercera parte ($h' = \frac{1}{3}h$), ¿qué fracción de la resistencia original mantiene la nueva viga?  
 A) $\frac{1}{9}$  
 B) $\frac{1}{6}$  
 C) $\frac{1}{3}$  
@@ -907,7 +907,7 @@ E) $1$ (no varía)
 
 $$T(t) = T_0 \cdot 4^{-t/10}$$
 
-donde $t$ se mide en minutos. Si tras $5\text{ minutos}$ la temperatura sobre el ambiente es $T_1$, ¿qué fracción de $T_0$ representará la temperatura remanente cuando hayan transcurrido $25\text{ minutos}$ en total?
+donde $t$ se mide en minutos. Si tras $5\text{ minutos}$ la temperatura sobre el ambiente es $T_1$, ¿qué fracción de $T_0$ representará la temperatura remanente cuando hayan transcurrido $25\text{ minutos}$ en total?  
 A) $\frac{1}{16}$  
 B) $\frac{1}{32}$  
 C) $\frac{1}{64}$  
@@ -918,7 +918,7 @@ E) $\frac{1}{256}$
 
 $$E = C \cdot \left(\frac{1}{\sqrt{D_2}} - \frac{1}{\sqrt{D_1}}\right)$$
 
-Si para un mineral se requiere triturar desde $D_1 = 100\text{ mm}$ hasta $D_2 = 4\text{ mm}$, calcule el valor exacto del factor de reducción entre paréntesis.
+Si para un mineral se requiere triturar desde $D_1 = 100\text{ mm}$ hasta $D_2 = 4\text{ mm}$, calcule el valor exacto del factor de reducción entre paréntesis.  
 A) $\frac{1}{5}$  
 B) $\frac{2}{5}$  
 C) $\frac{3}{10}$  
@@ -929,14 +929,14 @@ E) $\frac{7}{20}$
 
 $$\frac{T^2}{R^3} = 1 \implies T = R^{3/2}$$
 
-Si se detecta un planeta con una distancia orbital de $R = \frac{9}{4}\text{ UA}$, determine su período orbital exacto expresado como número mixto de años.
+Si se detecta un planeta con una distancia orbital de $R = \frac{9}{4}\text{ UA}$, determine su período orbital exacto expresado como número mixto de años.  
 A) $2\frac{1}{4}\text{ años}$  
 B) $3\frac{1}{8}\text{ años}$  
 C) $3\frac{3}{8}\text{ años}$  
 D) $4\frac{1}{2}\text{ años}$  
 E) $5\frac{1}{16}\text{ años}$  
 
-41. **(Contexto de Óptica y Ley de Snell con Fracciones):** Un haz de luz láser pasa desde un medio vítreo hacia una solución salina. El índice de refracción relativo es $n = \sqrt{\frac{9}{8}} \div \sqrt{\frac{2}{3}}$. Calcule el valor simplificado e irreductible de $n$.
+41. **(Contexto de Óptica y Ley de Snell con Fracciones):** Un haz de luz láser pasa desde un medio vítreo hacia una solución salina. El índice de refracción relativo es $n = \sqrt{\frac{9}{8}} \div \sqrt{\frac{2}{3}}$. Calcule el valor simplificado e irreductible de $n$.  
 A) $\frac{3}{4}$  
 B) $\frac{3\sqrt{3}}{4}$  
 C) $\frac{4}{3}$  
@@ -947,21 +947,21 @@ E) $\frac{3}{2}$
 
 $$\left(\sqrt[5]{\frac{32}{243}}\right)^{-3} = K \cdot \left(\frac{2}{3}\right)^0$$
 
-Determine el valor de $K$ expresado como fracción ordinaria irreductible.
+Determine el valor de $K$ expresado como fracción ordinaria irreductible.  
 A) $\frac{8}{27}$  
 B) $\frac{27}{8}$  
 C) $\frac{81}{16}$  
 D) $\frac{243}{32}$  
 E) $\frac{9}{4}$  
 
-43. **(Contexto de Topografía y Error Medio Cuadrático):** El error medio cuadrático en una nivelación geodésica de longitud $L$ está dado por $\sigma = \pm k \sqrt{L}$. Si una cuadrilla de ingenieros mide un tramo de longitud $L_1 = \frac{25}{16}\text{ km}$ y otro tramo de $L_2 = \frac{9}{4}\text{ km}$, ¿cuál es la razón entre los errores $\frac{\sigma_1}{\sigma_2}$?
+43. **(Contexto de Topografía y Error Medio Cuadrático):** El error medio cuadrático en una nivelación geodésica de longitud $L$ está dado por $\sigma = \pm k \sqrt{L}$. Si una cuadrilla de ingenieros mide un tramo de longitud $L_1 = \frac{25}{16}\text{ km}$ y otro tramo de $L_2 = \frac{9}{4}\text{ km}$, ¿cuál es la razón entre los errores $\frac{\sigma_1}{\sigma_2}$?  
 A) $\frac{5}{6}$  
 B) $\frac{25}{36}$  
 C) $\frac{6}{5}$  
 D) $\frac{125}{64}$  
 E) $\frac{4}{3}$  
 
-44. **(Contexto de Geometría Molecular y Enlaces Químicos):** La energía de enlace intermolecular de Van der Waals entre dos moléculas neutras varía en función de la distancia $r$ según la potencia $V(r) = -C \cdot r^{-6}$. Si la distancia intermolecular se incrementa en una proporción equivalente a $r' = \frac{3}{2}r$, ¿por qué factor fraccionario queda multiplicada la energía atractiva original?
+44. **(Contexto de Geometría Molecular y Enlaces Químicos):** La energía de enlace intermolecular de Van der Waals entre dos moléculas neutras varía en función de la distancia $r$ según la potencia $V(r) = -C \cdot r^{-6}$. Si la distancia intermolecular se incrementa en una proporción equivalente a $r' = \frac{3}{2}r$, ¿por qué factor fraccionario queda multiplicada la energía atractiva original?  
 A) $\frac{64}{729}$  
 B) $\frac{729}{64}$  
 C) $\frac{16}{81}$  
@@ -972,7 +972,7 @@ E) $\frac{32}{243}$
 
 $$x = \sqrt{\frac{2}{3} \sqrt{\frac{2}{3} \sqrt{\frac{2}{3} \cdots}}} \quad \text{e} \quad y = \sqrt[3]{\frac{16}{81} \div \sqrt[3]{\frac{16}{81} \div \sqrt[3]{\frac{16}{81} \div \cdots}}}$$
 
-Calcule el producto $x \cdot y$ en su forma irreductible.
+Calcule el producto $x \cdot y$ en su forma irreductible.  
 A) $\frac{4}{9}$  
 B) $\frac{2}{3}$  
 C) $\frac{8}{27}$  

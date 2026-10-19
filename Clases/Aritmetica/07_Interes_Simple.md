@@ -485,105 +485,105 @@ $$\text{Excedente mensual} = 4\,200 - \frac{30\,800}{9} = \frac{37\,800 - 30\,80
 
 ### Bloque I: Nivel Básico (Ejercicios 01 al 15)
 
-1. ¿Qué interés simple produce un capital de $\text{S/ } 5\,000$ colocado al $6\%$ anual durante $3\text{ años}$?
+1. ¿Qué interés simple produce un capital de $\text{S/ } 5\,000$ colocado al $6\%$ anual durante $3\text{ años}$?  
 A) $\text{S/ } 800$  
 B) $\text{S/ } 850$  
 C) $\text{S/ } 900$  
 D) $\text{S/ } 950$  
 E) $\text{S/ } 1\,000$  
 
-2. Calcule el interés simple generado por un depósito de $\text{S/ } 7\,200$ al $10\%$ anual durante $5\text{ meses}$.
+2. Calcule el interés simple generado por un depósito de $\text{S/ } 7\,200$ al $10\%$ anual durante $5\text{ meses}$.  
 A) $\text{S/ } 250$  
 B) $\text{S/ } 300$  
 C) $\text{S/ } 320$  
 D) $\text{S/ } 350$  
 E) $\text{S/ } 360$  
 
-3. ¿A qué tasa de interés anual estuvo impuesto un capital de $\text{S/ } 4\,000$ si en $2\text{ años}$ produjo $\text{S/ } 640$ de ganancia?
+3. ¿A qué tasa de interés anual estuvo impuesto un capital de $\text{S/ } 4\,000$ si en $2\text{ años}$ produjo $\text{S/ } 640$ de ganancia?  
 A) $6\%$  
 B) $7\%$  
 C) $8\%$  
 D) $9\%$  
 E) $10\%$  
 
-4. Una tasa de interés del $1{,}5\%$ mensual equivale en el régimen simple a una tasa anual de:
+4. Una tasa de interés del $1{,}5\%$ mensual equivale en el régimen simple a una tasa anual de:  
 A) $15\%$  
 B) $16\%$  
 C) $18\%$  
 D) $20\%$  
 E) $24\%$  
 
-5. ¿Qué capital colocado al $12\%$ anual produce $\text{S/ } 720$ de interés simple en $18\text{ meses}$?
+5. ¿Qué capital colocado al $12\%$ anual produce $\text{S/ } 720$ de interés simple en $18\text{ meses}$?  
 A) $\text{S/ } 3\,600$  
 B) $\text{S/ } 4\,000$  
 C) $\text{S/ } 4\,200$  
 D) $\text{S/ } 4\,500$  
 E) $\text{S/ } 5\,000$  
 
-6. Determine el monto acumulado al imponer $\text{S/ } 8\,000$ al $5\%$ semestral durante $1\text{ año y } 6\text{ meses}$.
+6. Determine el monto acumulado al imponer $\text{S/ } 8\,000$ al $5\%$ semestral durante $1\text{ año y } 6\text{ meses}$.  
 A) $\text{S/ } 9\,000$  
 B) $\text{S/ } 9\,200$  
 C) $\text{S/ } 9\,400$  
 D) $\text{S/ } 9\,600$  
 E) $\text{S/ } 9\,800$  
 
-7. ¿Cuántos días comerciales deben transcurrir para que un capital de $\text{S/ } 10\,000$ al $18\%$ anual genere $\text{S/ } 150$ de interés?
+7. ¿Cuántos días comerciales deben transcurrir para que un capital de $\text{S/ } 10\,000$ al $18\%$ anual genere $\text{S/ } 150$ de interés?  
 A) $25\text{ días}$  
 B) $30\text{ días}$  
 C) $35\text{ días}$  
 D) $40\text{ días}$  
 E) $45\text{ días}$  
 
-8. Si un capital de $\text{S/ } 3\,500$ se convierte en un monto de $\text{S/ } 4\,200$ en $2\text{ años}$, ¿cuál fue la tasa de interés anual aplicada?
+8. Si un capital de $\text{S/ } 3\,500$ se convierte en un monto de $\text{S/ } 4\,200$ en $2\text{ años}$, ¿cuál fue la tasa de interés anual aplicada?  
 A) $8\%$  
 B) $9\%$  
 C) $10\%$  
 D) $12\%$  
 E) $14\%$  
 
-9. Una tasa del $4\%$ trimestral equivale anualmente a:
+9. Una tasa del $4\%$ trimestral equivale anualmente a:  
 A) $12\%$  
 B) $14\%$  
 C) $16\%$  
 D) $18\%$  
 E) $20\%$  
 
-10. ¿En cuántos años un capital colocado al $5\%$ anual de interés simple triplica su valor?
+10. ¿En cuántos años un capital colocado al $5\%$ anual de interés simple triplica su valor?  
 A) $30\text{ años}$  
 B) $35\text{ años}$  
 C) $40\text{ años}$  
 D) $45\text{ años}$  
 E) $50\text{ años}$  
 
-11. El interés generado por un capital en $8\text{ meses}$ es la cuarta parte del capital. ¿Cuál es la tasa de interés anual?
+11. El interés generado por un capital en $8\text{ meses}$ es la cuarta parte del capital. ¿Cuál es la tasa de interés anual?  
 A) $30\%$  
 B) $32{,}5\%$  
 C) $35\%$  
 D) $37{,}5\%$  
 E) $40\%$  
 
-12. Calcule el interés simple comercial de $\text{S/ } 15\,000$ al $24\%$ anual durante $48\text{ días}$.
+12. Calcule el interés simple comercial de $\text{S/ } 15\,000$ al $24\%$ anual durante $48\text{ días}$.  
 A) $\text{S/ } 450$  
 B) $\text{S/ } 480$  
 C) $\text{S/ } 500$  
 D) $\text{S/ } 520$  
 E) $\text{S/ } 540$  
 
-13. Un préstamo de $\text{S/ } 2\,400$ se devuelve al cabo de $9\text{ meses}$ pagando un monto de $\text{S/ } 2\,760$. ¿Cuál fue la tasa mensual de interés simple aplicada?
+13. Un préstamo de $\text{S/ } 2\,400$ se devuelve al cabo de $9\text{ meses}$ pagando un monto de $\text{S/ } 2\,760$. ¿Cuál fue la tasa mensual de interés simple aplicada?  
 A) $1{,}25\%$  
 B) $1{,}5\%$  
 C) $1{,}67\%$  
 D) $1{,}75\%$  
 E) $2\%$  
 
-14. ¿Qué porcentaje del monto representa el capital si este se coloca al $20\%$ anual durante $2\text{ años}$?
+14. ¿Qué porcentaje del monto representa el capital si este se coloca al $20\%$ anual durante $2\text{ años}$?  
 A) $65\%$  
 B) $68{,}\widehat{3}\%$  
 C) $70\%$  
 D) $71{,}43\%$  
 E) $75\%$  
 
-15. Si se prestan $\text{S/ } 6\,000$ al $0{,}05\%$ diario durante $60\text{ días}$ comerciales, ¿cuál es el interés obtenido?
+15. Si se prestan $\text{S/ } 6\,000$ al $0{,}05\%$ diario durante $60\text{ días}$ comerciales, ¿cuál es el interés obtenido?  
 A) $\text{S/ } 150$  
 B) $\text{S/ } 180$  
 C) $\text{S/ } 200$  
@@ -594,105 +594,105 @@ E) $\text{S/ } 240$
 
 ### Bloque II: Nivel Intermedio (Ejercicios 16 al 30)
 
-16. Un capital de $\text{S/ } 16\,000$ se divide en dos partes: la primera al $10\%$ y la segunda al $14\%$ anual. Si en $1\text{ año}$ ambas partes producen el mismo interés, ¿cuánto mide la menor de las partes?
+16. Un capital de $\text{S/ } 16\,000$ se divide en dos partes: la primera al $10\%$ y la segunda al $14\%$ anual. Si en $1\text{ año}$ ambas partes producen el mismo interés, ¿cuánto mide la menor de las partes?  
 A) $\text{S/ } 6\,000$  
 B) $\text{S/ } 6\,400$  
 C) $\text{S/ } 6\,666{,}67$  
 D) $\text{S/ } 7\,000$  
 E) $\text{S/ } 7\,200$  
 
-17. Un capital impuesto durante $4\text{ años}$ produce un monto de $\text{S/ } 8\,400$. Si el mismo capital se impone por $6\text{ años}$ a la misma tasa, el monto asciende a $\text{S/ } 9\,600$. Halle el valor del capital inicial.
+17. Un capital impuesto durante $4\text{ años}$ produce un monto de $\text{S/ } 8\,400$. Si el mismo capital se impone por $6\text{ años}$ a la misma tasa, el monto asciende a $\text{S/ } 9\,600$. Halle el valor del capital inicial.  
 A) $\text{S/ } 5\,500$  
 B) $\text{S/ } 5\,800$  
 C) $\text{S/ } 6\,000$  
 D) $\text{S/ } 6\,200$  
 E) $\text{S/ } 6\,400$  
 
-18. Se prestó un capital al $18\%$ anual. Al cabo de $16\text{ meses}$ se cancela el préstamo, pagando un monto que excede al capital en $\text{S/ } 1\,440$. ¿Cuál fue el capital prestado?
+18. Se prestó un capital al $18\%$ anual. Al cabo de $16\text{ meses}$ se cancela el préstamo, pagando un monto que excede al capital en $\text{S/ } 1\,440$. ¿Cuál fue el capital prestado?  
 A) $\text{S/ } 5\,000$  
 B) $\text{S/ } 5\,500$  
 C) $\text{S/ } 6\,000$  
 D) $\text{S/ } 6\,500$  
 E) $\text{S/ } 7\,000$  
 
-19. Se colocan tres capitales: $\text{S/ } 4\,000$ al $12\%$, $\text{S/ } 6\,000$ al $15\%$ y $\text{S/ } 10\,000$ al $20\%$ anual durante un mismo período. ¿Cuál es la tasa de interés media resultante?
+19. Se colocan tres capitales: $\text{S/ } 4\,000$ al $12\%$, $\text{S/ } 6\,000$ al $15\%$ y $\text{S/ } 10\,000$ al $20\%$ anual durante un mismo período. ¿Cuál es la tasa de interés media resultante?  
 A) $16\%$  
 B) $16{,}5\%$  
 C) $16{,}9\%$  
 D) $17\%$  
 E) $17{,}2\%$  
 
-20. La tercera parte de un capital se impone al $18\%$ anual y el resto al $24\%$ anual. Si en $1\text{ año}$ el interés total generado fue de $\text{S/ } 2\,640$, ¿a cuánto ascendía el capital total?
+20. La tercera parte de un capital se impone al $18\%$ anual y el resto al $24\%$ anual. Si en $1\text{ año}$ el interés total generado fue de $\text{S/ } 2\,640$, ¿a cuánto ascendía el capital total?  
 A) $\text{S/ } 10\,000$  
 B) $\text{S/ } 11\,000$  
 C) $\text{S/ } 12\,000$  
 D) $\text{S/ } 13\,000$  
 E) $\text{S/ } 14\,000$  
 
-21. ¿En cuánto tiempo un capital impuesto al $12\%$ semestral produce un interés que es igual al $60\%$ del monto acumulado?
+21. ¿En cuánto tiempo un capital impuesto al $12\%$ semestral produce un interés que es igual al $60\%$ del monto acumulado?  
 A) $3\text{ años}$  
 B) $3\text{ años y } 1\text{ mes}$  
 C) $3\text{ años y } 1{,}5\text{ meses}$  
 D) $3\text{ años y } 4\text{ meses}$  
 E) $3\text{ años y } 6\text{ meses}$  
 
-22. Dos capitales cuya suma es de $\text{S/ } 18\,000$ se imponen a tasas que están en relación de $3$ a $4$. Si al cabo de $2\text{ años}$ producen el mismo interés y el primero estuvo colocado durante $8\text{ meses}$ más que el segundo, halle el menor capital.
+22. Dos capitales cuya suma es de $\text{S/ } 18\,000$ se imponen a tasas que están en relación de $3$ a $4$. Si al cabo de $2\text{ años}$ producen el mismo interés y el primero estuvo colocado durante $8\text{ meses}$ más que el segundo, halle el menor capital.  
 A) $\text{S/ } 7\,200$  
 B) $\text{S/ } 7\,500$  
 C) $\text{S/ } 8\,000$  
 D) $\text{S/ } 8\,400$  
 E) $\text{S/ } 8\,600$  
 
-23. Un comerciante deposita los $\frac{2}{5}$ de su capital al $15\%$ anual y el resto al $20\%$ anual. Si al cabo de $2\text{ años}$ el monto total acumulado es de $\text{S/ } 40\,800$, ¿cuál era su capital original?
+23. Un comerciante deposita los $\frac{2}{5}$ de su capital al $15\%$ anual y el resto al $20\%$ anual. Si al cabo de $2\text{ años}$ el monto total acumulado es de $\text{S/ } 40\,800$, ¿cuál era su capital original?  
 A) $\text{S/ } 28\,000$  
 B) $\text{S/ } 30\,000$  
 C) $\text{S/ } 32\,000$  
 D) $\text{S/ } 34\,000$  
 E) $\text{S/ } 35\,000$  
 
-24. Un capital produce en $10\text{ meses}$ un interés equivalente al $20\%$ del monto final. ¿Cuál es la tasa de interés anual simple?
+24. Un capital produce en $10\text{ meses}$ un interés equivalente al $20\%$ del monto final. ¿Cuál es la tasa de interés anual simple?  
 A) $25\%$  
 B) $28\%$  
 C) $30\%$  
 D) $32\%$  
 E) $35\%$  
 
-25. Se colocan $\text{S/ } 8\,400$ al $3\%$ bimestral durante un plazo $t$. Si el monto final retirado es de $\text{S/ } 10\,920$, ¿cuántos meses duró la operación?
+25. Se colocan $\text{S/ } 8\,400$ al $3\%$ bimestral durante un plazo $t$. Si el monto final retirado es de $\text{S/ } 10\,920$, ¿cuántos meses duró la operación?  
 A) $16\text{ meses}$  
 B) $18\text{ meses}$  
 C) $20\text{ meses}$  
 D) $22\text{ meses}$  
 E) $24\text{ meses}$  
 
-26. Dos capitales están en la relación de $4$ a $5$. El primero se impone al $15\%$ anual y el segundo al $12\%$ anual. ¿Al cabo de cuánto tiempo los intereses generados por ambos capitales serán iguales?
+26. Dos capitales están en la relación de $4$ a $5$. El primero se impone al $15\%$ anual y el segundo al $12\%$ anual. ¿Al cabo de cuánto tiempo los intereses generados por ambos capitales serán iguales?  
 A) $1\text{ año}$  
 B) $2\text{ años}$  
 C) Siempre serán iguales en cualquier instante $t$  
 D) Nunca serán iguales  
 E) $5\text{ años}$  
 
-27. Un prestamista aplica una tasa del $5\%$ mensual simple. Si un cliente solicita un crédito de $\text{S/ } 3\,000$ para pagar en $6$ cuotas mensuales iguales calculadas sobre el monto total, ¿cuál es el valor de cada cuota?
+27. Un prestamista aplica una tasa del $5\%$ mensual simple. Si un cliente solicita un crédito de $\text{S/ } 3\,000$ para pagar en $6$ cuotas mensuales iguales calculadas sobre el monto total, ¿cuál es el valor de cada cuota?  
 A) $\text{S/ } 620$  
 B) $\text{S/ } 640$  
 C) $\text{S/ } 650$  
 D) $\text{S/ } 660$  
 E) $\text{S/ } 680$  
 
-28. ¿A qué tasa de interés trimestral debe prestarse un capital para que en $2\text{ años y } 6\text{ meses}$ produzca un interés que sea los $\frac{3}{5}$ del capital inicial?
+28. ¿A qué tasa de interés trimestral debe prestarse un capital para que en $2\text{ años y } 6\text{ meses}$ produzca un interés que sea los $\frac{3}{5}$ del capital inicial?  
 A) $5\%$  
 B) $6\%$  
 C) $7\%$  
 D) $7{,}5\%$  
 E) $8\%$  
 
-29. Si a un capital se le suma el interés producido en $3\text{ años}$ al $10\%$ anual, se obtiene $\text{S/ } 6\,500$. ¿Cuánto produciría dicho capital en $5\text{ años}$ al $12\%$ anual?
+29. Si a un capital se le suma el interés producido en $3\text{ años}$ al $10\%$ anual, se obtiene $\text{S/ } 6\,500$. ¿Cuánto produciría dicho capital en $5\text{ años}$ al $12\%$ anual?  
 A) $\text{S/ } 2\,800$  
 B) $\text{S/ } 3\,000$  
 C) $\text{S/ } 3\,200$  
 D) $\text{S/ } 3\,400$  
 E) $\text{S/ } 3\,500$  
 
-30. Se impone un capital de $\text{S/ } 9\,000$ al $14\%$ anual desde el 12 de marzo hasta el 24 de junio del mismo año comercial. Calcule el interés obtenido.
+30. Se impone un capital de $\text{S/ } 9\,000$ al $14\%$ anual desde el 12 de marzo hasta el 24 de junio del mismo año comercial. Calcule el interés obtenido.  
 A) $\text{S/ } 340$  
 B) $\text{S/ } 357$  
 C) $\text{S/ } 364$  
@@ -703,105 +703,105 @@ E) $\text{S/ } 382$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Una cooperativa agraria en Chanchamayo recibe un fondo de inversión social de $\text{S/ } 120\,000$. Destina una parte $C_1$ a la construcción de secadores solares al $8\%$ anual, y el resto $C_2$ a la renovación de cafetales al $12\%$ anual. Si al término de $3\text{ años}$ el monto total producido por $C_1$ excede al monto producido por $C_2$ en $\text{S/ } 28\,560$, determine el valor del capital $C_1$.
+31. Una cooperativa agraria en Chanchamayo recibe un fondo de inversión social de $\text{S/ } 120\,000$. Destina una parte $C_1$ a la construcción de secadores solares al $8\%$ anual, y el resto $C_2$ a la renovación de cafetales al $12\%$ anual. Si al término de $3\text{ años}$ el monto total producido por $C_1$ excede al monto producido por $C_2$ en $\text{S/ } 28\,560$, determine el valor del capital $C_1$.  
 A) $\text{S/ } 72\,000$  
 B) $\text{S/ } 75\,000$  
 C) $\text{S/ } 80\,000$  
 D) $\text{S/ } 84\,000$  
 E) $\text{S/ } 85\,000$  
 
-32. Dos capitales que se diferencian en $\text{S/ } 6\,000$ se imponen a tasas de interés simple que suman $35\%$ anual. El capital mayor se coloca a la menor tasa durante $18\text{ meses}$ y el capital menor se coloca a la mayor tasa durante $2\text{ años}$. Si los intereses producidos por ambos capitales son numéricamente iguales y la tasa menor es el $75\%$ de la tasa mayor, ¿cuál es el valor del capital mayor?
+32. Dos capitales que se diferencian en $\text{S/ } 6\,000$ se imponen a tasas de interés simple que suman $35\%$ anual. El capital mayor se coloca a la menor tasa durante $18\text{ meses}$ y el capital menor se coloca a la mayor tasa durante $2\text{ años}$. Si los intereses producidos por ambos capitales son numéricamente iguales y la tasa menor es el $75\%$ de la tasa mayor, ¿cuál es el valor del capital mayor?  
 A) $\text{S/ } 14\,000$  
 B) $\text{S/ } 15\,000$  
 C) $\text{S/ } 16\,000$  
 D) $\text{S/ } 18\,000$  
 E) $\text{S/ } 20\,000$  
 
-33. Un padre de familia deposita en un fideicomiso bancario una suma $C$ a favor de sus dos hijos de $10$ y $13$ años de edad respectivamente, a una tasa del $9\%$ anual de interés simple. El dinero se distribuirá en dos partes de modo que cada hijo, al cumplir la mayoría de edad ($18\text{ años}$), reciba exactamente el mismo monto acumulado. ¿En qué relación matemática se encuentran los capitales iniciales asignados a cada hijo?
+33. Un padre de familia deposita en un fideicomiso bancario una suma $C$ a favor de sus dos hijos de $10$ y $13$ años de edad respectivamente, a una tasa del $9\%$ anual de interés simple. El dinero se distribuirá en dos partes de modo que cada hijo, al cumplir la mayoría de edad ($18\text{ años}$), reciba exactamente el mismo monto acumulado. ¿En qué relación matemática se encuentran los capitales iniciales asignados a cada hijo?  
 A) $\frac{29}{31}$  
 B) $\frac{29}{34}$  
 C) $\frac{45}{49}$  
 D) $\frac{49}{45}$  
 E) $\frac{31}{29}$  
 
-34. Una empresa agroindustrial en Piura solicita un crédito a una caja municipal de $\text{S/ } 150\,000$ a una tasa del $16\%$ anual simple a $4\text{ años}$ de plazo. Al culminar el segundo año, la empresa realiza una amortización extraordinaria de $\text{S/ } 50\,000$ al capital y cancela todos los intereses generados hasta esa fecha. Si para los $2$ años restantes la caja reduce la tasa al $14\%$ anual, ¿cuál es el interés total que la empresa terminó pagando por todo el financiamiento?
+34. Una empresa agroindustrial en Piura solicita un crédito a una caja municipal de $\text{S/ } 150\,000$ a una tasa del $16\%$ anual simple a $4\text{ años}$ de plazo. Al culminar el segundo año, la empresa realiza una amortización extraordinaria de $\text{S/ } 50\,000$ al capital y cancela todos los intereses generados hasta esa fecha. Si para los $2$ años restantes la caja reduce la tasa al $14\%$ anual, ¿cuál es el interés total que la empresa terminó pagando por todo el financiamiento?  
 A) $\text{S/ } 72\,000$  
 B) $\text{S/ } 74\,000$  
 C) $\text{S/ } 76\,000$  
 D) $\text{S/ } 78\,000$  
 E) $\text{S/ } 80\,000$  
 
-35. Un capital $C$ colocado al $r\%$ anual durante $t$ años produce un interés $I$. Si el capital aumentara en un $25\%$, la tasa aumentara en un $20\%$ de su valor y el tiempo disminuyera en un $40\%$, ¿en qué porcentaje variaría el interés generado respecto a $I$?
+35. Un capital $C$ colocado al $r\%$ anual durante $t$ años produce un interés $I$. Si el capital aumentara en un $25\%$, la tasa aumentara en un $20\%$ de su valor y el tiempo disminuyera en un $40\%$, ¿en qué porcentaje variaría el interés generado respecto a $I$?  
 A) Aumenta en $5\%$  
 B) Disminuye en $10\%$  
 C) Disminuye en $8\%$  
 D) Aumenta en $10\%$  
 E) No varía ($0\%$)  
 
-36. Un inversionista impone un capital de $\text{S/ } 45\,000$ en dos bancos: el $60\%$ en el Banco $A$ y el resto en el Banco $B$. La tasa del Banco $B$ supera en $4$ puntos porcentuales anuales a la del Banco $A$. Si al cabo de $2\text{ años}$ el interés total obtenido es de $\text{S/ } 12\,240$, ¿cuál es la tasa anual del Banco $B$?
+36. Un inversionista impone un capital de $\text{S/ } 45\,000$ en dos bancos: el $60\%$ en el Banco $A$ y el resto en el Banco $B$. La tasa del Banco $B$ supera en $4$ puntos porcentuales anuales a la del Banco $A$. Si al cabo de $2\text{ años}$ el interés total obtenido es de $\text{S/ } 12\,240$, ¿cuál es la tasa anual del Banco $B$?  
 A) $12\%$  
 B) $14\%$  
 C) $15\%$  
 D) $16\%$  
 E) $18\%$  
 
-37. Dos personas disponen de capitales que suman $\text{S/ } 40\,000$. Ambas imponen sus dineros a una misma tasa simple anual. La primera lo deja colocado durante $1\text{ año y } 4\text{ meses}$ y la segunda durante $2\text{ años}$. Si la primera persona retira un monto de $\text{S/ } 28\,800$ y la segunda un monto de $\text{S/ } 22\,400$, ¿cuál fue la tasa anual de imposición?
+37. Dos personas disponen de capitales que suman $\text{S/ } 40\,000$. Ambas imponen sus dineros a una misma tasa simple anual. La primera lo deja colocado durante $1\text{ año y } 4\text{ meses}$ y la segunda durante $2\text{ años}$. Si la primera persona retira un monto de $\text{S/ } 28\,800$ y la segunda un monto de $\text{S/ } 22\,400$, ¿cuál fue la tasa anual de imposición?  
 A) $15\%$  
 B) $18\%$  
 C) $20\%$  
 D) $22\%$  
 E) $24\%$  
 
-38. Para la compra de un camión frigorífico para traslado de leche en Cajamarca valuado en $\text{S/ } 240\,000$, una asociación lechera entrega una cuota inicial del $25\%$ y financia el saldo a $3\text{ años}$ mediante pagarés a una tasa de interés simple del $15\%$ anual. Si los gastos de constitución de hipoteca y seguro vehicular suman $\text{S/ } 7\,200$ y se incorporan al financiamiento, ¿a cuánto asciende la cuota mensual si el total se cancela en $36$ meses uniformes?
+38. Para la compra de un camión frigorífico para traslado de leche en Cajamarca valuado en $\text{S/ } 240\,000$, una asociación lechera entrega una cuota inicial del $25\%$ y financia el saldo a $3\text{ años}$ mediante pagarés a una tasa de interés simple del $15\%$ anual. Si los gastos de constitución de hipoteca y seguro vehicular suman $\text{S/ } 7\,200$ y se incorporan al financiamiento, ¿a cuánto asciende la cuota mensual si el total se cancela en $36$ meses uniformes?  
 A) $\text{S/ } 7\,240$  
 B) $\text{S/ } 7\,400$  
 C) $\text{S/ } 7\,550$  
 D) $\text{S/ } 7\,680$  
 E) $\text{S/ } 7\,820$  
 
-39. Si un capital se impone al $20\%$ anual durante $n$ años, el monto obtenido es $\text{S/ } 12\,000$. Pero si se hubiera impuesto al $25\%$ anual durante un año menos ($n - 1$), el monto habría sido de $\text{S/ } 11\,250$. Calcule el capital inicial y el número de años $n$.
+39. Si un capital se impone al $20\%$ anual durante $n$ años, el monto obtenido es $\text{S/ } 12\,000$. Pero si se hubiera impuesto al $25\%$ anual durante un año menos ($n - 1$), el monto habría sido de $\text{S/ } 11\,250$. Calcule el capital inicial y el número de años $n$.  
 A) $\text{S/ } 7\,500 \;; 3\text{ años}$  
 B) $\text{S/ } 8\,000 \;; 3\text{ años}$  
 C) $\text{S/ } 7\,500 \;; 4\text{ años}$  
 D) $\text{S/ } 7\,200 \;; 4\text{ años}$  
 E) $\text{S/ } 8\,000 \;; 2{,}5\text{ años}$  
 
-40. Una comunidad campesina en el Cusco deposita un fondo de compensación minera de $\text{S/ } 200\,000$ en tres fondos comunales con plazos de $6$, $10$ y $15$ meses a tasas simples anuales del $12\%$, $15\%$ y $18\%$ respectivamente. Si los intereses producidos por los tres fondos son numéricamente iguales, determine el capital colocado al mayor plazo.
+40. Una comunidad campesina en el Cusco deposita un fondo de compensación minera de $\text{S/ } 200\,000$ en tres fondos comunales con plazos de $6$, $10$ y $15$ meses a tasas simples anuales del $12\%$, $15\%$ y $18\%$ respectivamente. Si los intereses producidos por los tres fondos son numéricamente iguales, determine el capital colocado al mayor plazo.  
 A) $\text{S/ } 35\,000$  
 B) $\text{S/ } 40\,000$  
 C) $\text{S/ } 44\,444{,}44$  
 D) $\text{S/ } 48\,000$  
 E) $\text{S/ } 50\,000$  
 
-41. En un contrato de mutuo dinerario con garantía inmobiliaria, se estipula que si el prestatario incurre en mora, la tasa de interés simple anual salta del $12\%$ (tasa ordinaria) al $20\%$ (tasa moratoria compensatoria) aplicable sobre el saldo deudor durante los días de retraso. Si sobre un capital de $\text{S/ } 90\,000$ a $6\text{ meses}$ se cancelan los intereses ordinarios a tiempo pero el capital se devuelve con $45\text{ días}$ de mora, ¿cuál es el total de intereses que pagó el prestatario?
+41. En un contrato de mutuo dinerario con garantía inmobiliaria, se estipula que si el prestatario incurre en mora, la tasa de interés simple anual salta del $12\%$ (tasa ordinaria) al $20\%$ (tasa moratoria compensatoria) aplicable sobre el saldo deudor durante los días de retraso. Si sobre un capital de $\text{S/ } 90\,000$ a $6\text{ meses}$ se cancelan los intereses ordinarios a tiempo pero el capital se devuelve con $45\text{ días}$ de mora, ¿cuál es el total de intereses que pagó el prestatario?  
 A) $\text{S/ } 7\,450$  
 B) $\text{S/ } 7\,650$  
 C) $\text{S/ } 7\,850$  
 D) $\text{S/ } 8\,150$  
 E) $\text{S/ } 8\,450$  
 
-42. Un comerciante vende mercaderías a crédito firmando tres letras de cambio por montos de $\text{S/ } 3\,000$, $\text{S/ } 4\,500$ y $\text{S/ } 6\,000$ pagaderas a los $30$, $60$ y $90$ días comerciales respectivamente. Si el comerciante descuenta las tres letras en un banco a una tasa de descuento comercial simple del $24\%$ anual, ¿cuánto dinero en efectivo recibe inmediatamente del banco?
+42. Un comerciante vende mercaderías a crédito firmando tres letras de cambio por montos de $\text{S/ } 3\,000$, $\text{S/ } 4\,500$ y $\text{S/ } 6\,000$ pagaderas a los $30$, $60$ y $90$ días comerciales respectivamente. Si el comerciante descuenta las tres letras en un banco a una tasa de descuento comercial simple del $24\%$ anual, ¿cuánto dinero en efectivo recibe inmediatamente del banco?  
 A) $\text{S/ } 12\,900$  
 B) $\text{S/ } 12\,960$  
 C) $\text{S/ } 13\,020$  
 D) $\text{S/ } 13\,100$  
 E) $\text{S/ } 13\,140$  
 
-43. Se tiene un capital de $\text{S/ } 54\,000$. Una parte se presta al $4\%$ mensual y el resto al $5\%$ trimestral. Si al cabo de $8\text{ meses}$ los montos producidos son iguales, determine la diferencia entre los capitales.
+43. Se tiene un capital de $\text{S/ } 54\,000$. Una parte se presta al $4\%$ mensual y el resto al $5\%$ trimestral. Si al cabo de $8\text{ meses}$ los montos producidos son iguales, determine la diferencia entre los capitales.  
 A) $\text{S/ } 3\,600$  
 B) $\text{S/ } 4\,200$  
 C) $\text{S/ } 4\,800$  
 D) $\text{S/ } 5\,400$  
 E) $\text{S/ } 6\,000$  
 
-44. Un capital $C$ colocado a interés simple se convierte en $M_1$ en un tiempo $t$. Si en un tiempo adicional $2t$ a la misma tasa el monto se convierte en $M_2$, demuestre y calcule la relación matemática entre el capital original $C$ y los montos $M_1$ y $M_2$.
+44. Un capital $C$ colocado a interés simple se convierte en $M_1$ en un tiempo $t$. Si en un tiempo adicional $2t$ a la misma tasa el monto se convierte en $M_2$, demuestre y calcule la relación matemática entre el capital original $C$ y los montos $M_1$ y $M_2$.  
 A) $C = \frac{3M_1 - M_2}{2}$  
 B) $C = \frac{2M_1 - M_2}{3}$  
 C) $C = 2M_1 - M_2$  
 D) $C = \frac{M_1 + M_2}{3}$  
 E) $C = \frac{3M_2 - M_1}{4}$  
 
-45. Una persona coloca el $25\%$ de su fortuna al $12\%$ anual, el $35\%$ al $16\%$ anual y el resto al $20\%$ anual. Si la renta anual total que percibe es de $\text{S/ } 33\,200$, ¿cuál es el monto total de su fortuna?
+45. Una persona coloca el $25\%$ de su fortuna al $12\%$ anual, el $35\%$ al $16\%$ anual y el resto al $20\%$ anual. Si la renta anual total que percibe es de $\text{S/ } 33\,200$, ¿cuál es el monto total de su fortuna?  
 A) $\text{S/ } 180\,000$  
 B) $\text{S/ } 190\,000$  
 C) $\text{S/ } 200\,000$  

@@ -234,7 +234,7 @@ $$M = \frac{\frac{5}{4}}{\frac{2}{3}} = \frac{5 \cdot 3}{4 \cdot 2} = \frac{15}{
 ---
 
 #### Ejercicio 02
-**Enunciado:** Determine una fracción propia e irreductible $\frac{a}{b}$ tal que al sumarle su inversa $\frac{b}{a}$ se obtenga $\frac{74}{35}$. Dé como respuesta la suma de los términos $(a + b)$.
+**Enunciado:** Determine una fracción propia e irreductible $\frac{a}{b}$ tal que al sumarle su inversa $\frac{b}{a}$ se obtenga $\frac{74}{35}$. Dé como respuesta la suma de los términos $(a + b)$.  
 A) $10$  
 B) $12$  
 C) $14$  
@@ -264,7 +264,7 @@ $$a + b = 5 + 7 = 12$$
 ---
 
 #### Ejercicio 03
-**Enunciado:** Un estudiante gasta en útiles escolares los $\frac{2}{5}$ de su propina mensual y luego gasta los $\frac{3}{4}$ del resto en pasajes de transporte. Si al final aún le quedan $\text{S/ } 45$, ¿cuál era el monto inicial de su propina?
+**Enunciado:** Un estudiante gasta en útiles escolares los $\frac{2}{5}$ de su propina mensual y luego gasta los $\frac{3}{4}$ del resto en pasajes de transporte. Si al final aún le quedan $\text{S/ } 45$, ¿cuál era el monto inicial de su propina?  
 A) $\text{S/ } 240$  
 B) $\text{S/ } 300$  
 C) $\text{S/ } 320$  
@@ -294,7 +294,7 @@ $$\frac{3}{20}P = 45 \implies 3P = 45 \cdot 20 \implies 3P = 900 \implies P = 30
 ### NIVEL INTERMEDIO (Operatividad y Raciocinio)
 
 #### Ejercicio 04
-**Enunciado:** Dos grifos $A$ y $B$ pueden llenar un reservorio de agua potable. El grifo $A$ funcionando solo lo llena en $6\text{ horas}$, mientras que el grifo $B$ lo llena en $12\text{ horas}$. Adicionalmente, posee un desagüe $C$ en la base que puede vaciarlo completamente en $8\text{ horas}$. Si estando el reservorio vacío se abren simultáneamente los tres conductos, ¿en cuántas horas se llenará el reservorio por completo?
+**Enunciado:** Dos grifos $A$ y $B$ pueden llenar un reservorio de agua potable. El grifo $A$ funcionando solo lo llena en $6\text{ horas}$, mientras que el grifo $B$ lo llena en $12\text{ horas}$. Adicionalmente, posee un desagüe $C$ en la base que puede vaciarlo completamente en $8\text{ horas}$. Si estando el reservorio vacío se abren simultáneamente los tres conductos, ¿en cuántas horas se llenará el reservorio por completo?  
 A) $7\text{ h}$  
 B) $8\text{ h}$  
 C) $9\text{ h}$  
@@ -326,7 +326,7 @@ $$T = \frac{1}{R_{\text{neto}}} = \frac{1}{\frac{1}{8}} = 8\text{ horas}$$
 ---
 
 #### Ejercicio 05
-**Enunciado:** Un tanque de combustible contiene $120\text{ litros}$ de una mezcla de gasolina y alcohol carburante en la relación de $5$ a $3$ respectivamente. Se extraen $40\text{ litros}$ de la mezcla y se reemplazan por agua pura. ¿Cuál es la cantidad final de gasolina pura que permanece en el tanque?
+**Enunciado:** Un tanque de combustible contiene $120\text{ litros}$ de una mezcla de gasolina y alcohol carburante en la relación de $5$ a $3$ respectivamente. Se extraen $40\text{ litros}$ de la mezcla y se reemplazan por agua pura. ¿Cuál es la cantidad final de gasolina pura que permanece en el tanque?  
 A) $45\text{ L}$  
 B) $50\text{ L}$  
 C) $55\text{ L}$  
@@ -360,7 +360,7 @@ $$\text{Gasolina final} = \frac{2}{3} \times (\text{Gasolina inicial}) = \frac{2
 ---
 
 #### Ejercicio 06
-**Enunciado:** Una pelota se deja caer desde una determinada altura. Cada vez que rebota contra el suelo, se eleva a una altura equivalente a los $\frac{2}{3}$ de la altura desde la cual cayó inmediatamente antes. Si luego del tercer rebote alcanza una altura de $32\text{ cm}$, ¿desde qué altura inicial fue soltada la pelota?
+**Enunciado:** Una pelota se deja caer desde una determinada altura. Cada vez que rebota contra el suelo, se eleva a una altura equivalente a los $\frac{2}{3}$ de la altura desde la cual cayó inmediatamente antes. Si luego del tercer rebote alcanza una altura de $32\text{ cm}$, ¿desde qué altura inicial fue soltada la pelota?  
 A) $72\text{ cm}$  
 B) $96\text{ cm}$  
 C) $108\text{ cm}$  
@@ -387,7 +387,7 @@ $$H_0 = \frac{32 \cdot 27}{8} = 4 \cdot 27 = 108\text{ cm}$$
 ---
 
 #### Ejercicio 07
-**Enunciado:** ¿Cuántas fracciones irreductibles de denominador $72$ están comprendidas estrictamente entre $\frac{1}{6}$ y $\frac{5}{8}$?
+**Enunciado:** ¿Cuántas fracciones irreductibles de denominador $72$ están comprendidas estrictamente entre $\frac{1}{6}$ y $\frac{5}{8}$?  
 A) $8$  
 B) $10$  
 C) $11$  
@@ -430,7 +430,7 @@ $$16 - 5 = 11\text{ valores válidos}$$
 ### NIVEL AVANZADO / CONTEXTO BECA 18 (Modelamiento Real)
 
 #### Ejercicio 08 (Contexto Productivo y Agrícola)
-**Enunciado:** Una cooperativa agraria en el valle de Ica recolecta paltas Hass para exportación. En la primera jornada se empaca $\frac{1}{3}$ de la cosecha total. En la segunda jornada se empaca $\frac{2}{5}$ de lo que quedaba en el centro de acopio. En la tercera jornada se empacan los $\frac{3}{4}$ del nuevo resto. Si aún quedan $1200\text{ kg}$ de palta sin procesar debido a fallas mecánicas en la calibradora, ¿cuántos kilogramos de palta se empacaron en la segunda jornada?
+**Enunciado:** Una cooperativa agraria en el valle de Ica recolecta paltas Hass para exportación. En la primera jornada se empaca $\frac{1}{3}$ de la cosecha total. En la segunda jornada se empaca $\frac{2}{5}$ de lo que quedaba en el centro de acopio. En la tercera jornada se empacan los $\frac{3}{4}$ del nuevo resto. Si aún quedan $1200\text{ kg}$ de palta sin procesar debido a fallas mecánicas en la calibradora, ¿cuántos kilogramos de palta se empacaron en la segunda jornada?  
 A) $3200\text{ kg}$  
 B) $4800\text{ kg}$  
 C) $12\,000\text{ kg}$  
@@ -459,7 +459,7 @@ $$\text{Empaque Jornada 2} = \frac{4}{15}(12\,000) = 4 \times 800 = 3200\text{ k
 ---
 
 #### Ejercicio 09 (Contexto Comunitario y Abastecimiento de Agua)
-**Enunciado:** Una comunidad en la sierra de Huancavelica abastece su posta médica mediante un reservorio comunal alimentado por dos manantiales $M_1$ y $M_2$. El manantial $M_1$ llena el reservorio por sí solo en $10\text{ horas}$, mientras que $M_2$ lo llena en $15\text{ horas}$. Debido a la alta demanda diurna, la posta consume agua a un ritmo constante equivalente a vaciar el reservorio en $20\text{ horas}$. Estando el reservorio vacío, a las $06:00\text{ a.m.}$ se conecta el manantial $M_1$. Dos horas más tarde ($08:00\text{ a.m.}$) se conecta el manantial $M_2$, y exactamente a las $09:00\text{ a.m.}$ se inicia el consumo continuo de la posta médica. ¿A qué hora quedará completamente lleno el reservorio comunal?
+**Enunciado:** Una comunidad en la sierra de Huancavelica abastece su posta médica mediante un reservorio comunal alimentado por dos manantiales $M_1$ y $M_2$. El manantial $M_1$ llena el reservorio por sí solo en $10\text{ horas}$, mientras que $M_2$ lo llena en $15\text{ horas}$. Debido a la alta demanda diurna, la posta consume agua a un ritmo constante equivalente a vaciar el reservorio en $20\text{ horas}$. Estando el reservorio vacío, a las $06:00\text{ a.m.}$ se conecta el manantial $M_1$. Dos horas más tarde ($08:00\text{ a.m.}$) se conecta el manantial $M_2$, y exactamente a las $09:00\text{ a.m.}$ se inicia el consumo continuo de la posta médica. ¿A qué hora quedará completamente lleno el reservorio comunal?  
 A) $10:45\text{ a.m.}$  
 B) $11:30\text{ a.m.}$  
 C) $12:00\text{ m.}$  
@@ -517,7 +517,7 @@ En efecto, calculando con consumo de $\frac{1}{30}$ del reservorio por hora, el 
 ---
 
 #### Ejercicio 10 (Contexto Financiero y Distribución de Capital)
-**Enunciado:** Tres emprendedoras asociadas deciden constituir una empresa textil. Carmen aporta inicialmente los $\frac{3}{8}$ del capital total requerido. Lucía aporta $\frac{4}{7}$ de lo que restaba por aportar. Finalmente, Rosa aporta los $\text{S/ } 18\,000$ restantes más una bonificación de $\text{S/ } 2\,000$ para gastos notariales. Si al término del primer año las utilidades netas generadas ascienden a $\text{S/ } 56\,000$ y se distribuyen en forma estrictamente proporcional a los aportes de capital constitutivos (sin contar los gastos notariales), ¿cuántos soles de utilidad le corresponden a Lucía?
+**Enunciado:** Tres emprendedoras asociadas deciden constituir una empresa textil. Carmen aporta inicialmente los $\frac{3}{8}$ del capital total requerido. Lucía aporta $\frac{4}{7}$ de lo que restaba por aportar. Finalmente, Rosa aporta los $\text{S/ } 18\,000$ restantes más una bonificación de $\text{S/ } 2\,000$ para gastos notariales. Si al término del primer año las utilidades netas generadas ascienden a $\text{S/ } 56\,000$ y se distribuyen en forma estrictamente proporcional a los aportes de capital constitutivos (sin contar los gastos notariales), ¿cuántos soles de utilidad le corresponden a Lucía?  
 A) $\text{S/ } 16\,000$  
 B) $\text{S/ } 20\,000$  
 C) $\text{S/ } 21\,000$  
@@ -560,7 +560,7 @@ $$\text{Utilidad de Lucía} = \frac{20}{56} \times 56\,000 = 20 \times 1000 = \t
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 
-1. Calcule la fracción equivalente a $\frac{4}{7}$ tal que la suma de sus términos sea igual a $132$.
+1. Calcule la fracción equivalente a $\frac{4}{7}$ tal que la suma de sus términos sea igual a $132$.  
 A) $\frac{44}{88}$  
 B) $\frac{48}{84}$  
 C) $\frac{40}{92}$  
@@ -577,42 +577,42 @@ C) $\frac{66}{65}$
 D) $\frac{13}{12}$  
 E) $\frac{11}{10}$  
 
-3. ¿Cuántas fracciones propias e irreductibles con denominador $24$ existen?
+3. ¿Cuántas fracciones propias e irreductibles con denominador $24$ existen?  
 A) $6$  
 B) $7$  
 C) $8$  
 D) $9$  
 E) $10$  
 
-4. Halle una fracción propia cuya distancia a $\frac{1}{3}$ sea la misma que su distancia a $\frac{1}{2}$.
+4. Halle una fracción propia cuya distancia a $\frac{1}{3}$ sea la misma que su distancia a $\frac{1}{2}$.  
 A) $\frac{5}{12}$  
 B) $\frac{7}{18}$  
 C) $\frac{5}{24}$  
 D) $\frac{11}{24}$  
 E) $\frac{3}{8}$  
 
-5. Si a los dos términos de una fracción propia $\frac{a}{b}$ se les suma el mismo número entero positivo $k$, la fracción resultante:
+5. Si a los dos términos de una fracción propia $\frac{a}{b}$ se les suma el mismo número entero positivo $k$, la fracción resultante:  
 A) Disminuye de valor  
 B) Aumenta de valor  
 C) Permanece constante  
 D) Se hace igual a 1  
 E) Se hace negativa  
 
-6. Una cinta métrica de $96\text{ cm}$ se divide en dos partes de modo que una es los $\frac{3}{5}$ de la otra. ¿Cuánto mide el segmento menor?
+6. Una cinta métrica de $96\text{ cm}$ se divide en dos partes de modo que una es los $\frac{3}{5}$ de la otra. ¿Cuánto mide el segmento menor?  
 A) $32\text{ cm}$  
 B) $36\text{ cm}$  
 C) $40\text{ cm}$  
 D) $42\text{ cm}$  
 E) $45\text{ cm}$  
 
-7. Si a una fracción irreductible se le resta su inversa multiplicativa, se obtiene $\frac{55}{24}$. Calcule la suma de los términos de dicha fracción.
+7. Si a una fracción irreductible se le resta su inversa multiplicativa, se obtiene $\frac{55}{24}$. Calcule la suma de los términos de dicha fracción.  
 A) $11$  
 B) $13$  
 C) $14$  
 D) $15$  
 E) $17$  
 
-8. Un estudiante resolvió los $\frac{4}{9}$ de un cuestionario de matemáticas. Si aún le faltan resolver $35$ preguntas, ¿cuántas preguntas tenía el cuestionario en total?
+8. Un estudiante resolvió los $\frac{4}{9}$ de un cuestionario de matemáticas. Si aún le faltan resolver $35$ preguntas, ¿cuántas preguntas tenía el cuestionario en total?  
 A) $54$  
 B) $63$  
 C) $72$  
@@ -629,35 +629,35 @@ C) $\frac{5}{11}$
 D) $\frac{4}{9}$  
 E) $\frac{2}{5}$  
 
-10. Si el producto de dos números racionales es $\frac{8}{15}$ y uno de ellos es $\frac{4}{5}$, ¿cuál es el doble del otro número?
+10. Si el producto de dos números racionales es $\frac{8}{15}$ y uno de ellos es $\frac{4}{5}$, ¿cuál es el doble del otro número?  
 A) $\frac{2}{3}$  
 B) $\frac{4}{3}$  
 C) $\frac{1}{3}$  
 D) $\frac{8}{9}$  
 E) $\frac{5}{6}$  
 
-11. ¿Qué fracción del día ha transcurrido cuando un reloj marca las $08:00\text{ a.m.}$?
+11. ¿Qué fracción del día ha transcurrido cuando un reloj marca las $08:00\text{ a.m.}$?  
 A) $\frac{1}{4}$  
 B) $\frac{1}{3}$  
 C) $\frac{3}{8}$  
 D) $\frac{5}{12}$  
 E) $\frac{2}{5}$  
 
-12. Calcule el valor de $x$ si se sabe que $\frac{x+2}{x+7}$ es una fracción equivalente a $\frac{3}{4}$.
+12. Calcule el valor de $x$ si se sabe que $\frac{x+2}{x+7}$ es una fracción equivalente a $\frac{3}{4}$.  
 A) $11$  
 B) $12$  
 C) $13$  
 D) $14$  
 E) $15$  
 
-13. ¿Cuál es el número cuyos $\frac{2}{3}$ de sus $\frac{3}{4}$ equivalen a $28$?
+13. ¿Cuál es el número cuyos $\frac{2}{3}$ de sus $\frac{3}{4}$ equivalen a $28$?  
 A) $48$  
 B) $52$  
 C) $56$  
 D) $60$  
 E) $64$  
 
-14. Ordene de menor a mayor las siguientes fracciones: $A = \frac{3}{7}$, $B = \frac{5}{11}$, $C = \frac{2}{5}$.
+14. Ordene de menor a mayor las siguientes fracciones: $A = \frac{3}{7}$, $B = \frac{5}{11}$, $C = \frac{2}{5}$.  
 A) $C < A < B$  
 B) $A < C < B$  
 C) $C < B < A$  
@@ -678,105 +678,105 @@ E) $\frac{17}{20}$
 
 ### BLOQUE II: NIVEL INTERMEDIO (Problemas 16 al 30)
 
-16. Un caño llena un tanque en $4\text{ horas}$ y un desagüe lo vacía en $6\text{ horas}$. Si se abren ambos a la vez estando el tanque vacío hasta su tercera parte, ¿cuánto tiempo demorará en llenarse totalmente?
+16. Un caño llena un tanque en $4\text{ horas}$ y un desagüe lo vacía en $6\text{ horas}$. Si se abren ambos a la vez estando el tanque vacío hasta su tercera parte, ¿cuánto tiempo demorará en llenarse totalmente?  
 A) $6\text{ h}$  
 B) $8\text{ h}$  
 C) $9\text{ h}$  
 D) $10\text{ h}$  
 E) $12\text{ h}$  
 
-17. Se tienen dos recipientes: el primero con $30\text{ L}$ de vino y $10\text{ L}$ de agua; el segundo con $20\text{ L}$ de vino y $30\text{ L}$ de agua. Si se intercambian $10\text{ L}$ de cada recipiente simultáneamente, ¿cuántos litros de vino quedan en el primer recipiente?
+17. Se tienen dos recipientes: el primero con $30\text{ L}$ de vino y $10\text{ L}$ de agua; el segundo con $20\text{ L}$ de vino y $30\text{ L}$ de agua. Si se intercambian $10\text{ L}$ de cada recipiente simultáneamente, ¿cuántos litros de vino quedan en el primer recipiente?  
 A) $22.5\text{ L}$  
 B) $24.5\text{ L}$  
 C) $26.5\text{ L}$  
 D) $27.0\text{ L}$  
 E) $28.5\text{ L}$  
 
-18. Un comerciante compró cierta cantidad de sacos de arroz. El primer día vende $\frac{1}{4}$ del total más $10$ sacos; el segundo día vende $\frac{1}{3}$ de lo que quedaba más $5$ sacos; y el tercer día vende los últimos $25$ sacos. ¿Cuántos sacos compró en total?
+18. Un comerciante compró cierta cantidad de sacos de arroz. El primer día vende $\frac{1}{4}$ del total más $10$ sacos; el segundo día vende $\frac{1}{3}$ de lo que quedaba más $5$ sacos; y el tercer día vende los últimos $25$ sacos. ¿Cuántos sacos compró en total?  
 A) $60$  
 B) $70$  
 C) $80$  
 D) $90$  
 E) $100$  
 
-19. Una piscina puede ser llenada por un grifo $A$ en $10\text{ horas}$ y por un grifo $B$ en $15\text{ horas}$. Si se abre $A$ durante $2\text{ horas}$ y luego se abre también $B$ hasta completar el llenado, ¿cuál fue el tiempo total de llenado de la piscina?
+19. Una piscina puede ser llenada por un grifo $A$ en $10\text{ horas}$ y por un grifo $B$ en $15\text{ horas}$. Si se abre $A$ durante $2\text{ horas}$ y luego se abre también $B$ hasta completar el llenado, ¿cuál fue el tiempo total de llenado de la piscina?  
 A) $5.8\text{ h}$  
 B) $6.4\text{ h}$  
 C) $6.8\text{ h}$  
 D) $7.2\text{ h}$  
 E) $7.5\text{ h}$  
 
-20. Si la fracción $\frac{N}{360}$ es propia, irreductible y mayor que $\frac{7}{12}$, ¿cuál es el menor valor entero que puede adoptar el numerador $N$?
+20. Si la fracción $\frac{N}{360}$ es propia, irreductible y mayor que $\frac{7}{12}$, ¿cuál es el menor valor entero que puede adoptar el numerador $N$?  
 A) $211$  
 B) $217$  
 C) $221$  
 D) $223$  
 E) $227$  
 
-21. Tres obreros $P$, $Q$ y $R$ pueden hacer una zanja trabajando juntos en $4\text{ días}$. Si $P$ solo demora $12\text{ días}$ y $Q$ solo demora $10\text{ días}$, ¿cuántos días tardará el obrero $R$ en cavar la zanja trabajando individualmente?
+21. Tres obreros $P$, $Q$ y $R$ pueden hacer una zanja trabajando juntos en $4\text{ días}$. Si $P$ solo demora $12\text{ días}$ y $Q$ solo demora $10\text{ días}$, ¿cuántos días tardará el obrero $R$ en cavar la zanja trabajando individualmente?  
 A) $12\text{ días}$  
 B) $15\text{ días}$  
 C) $18\text{ días}$  
 D) $20\text{ días}$  
 E) $24\text{ días}$  
 
-22. De un tonel lleno de pisco puro se extrae $\frac{1}{4}$ de su contenido y se reemplaza con agua; luego se extrae $\frac{1}{5}$ de la mezcla resultante y se vuelve a llenar con agua; finalmente se extrae $\frac{1}{3}$ de la nueva mezcla y se completa con agua. ¿Qué fracción del volumen total queda como pisco puro?
+22. De un tonel lleno de pisco puro se extrae $\frac{1}{4}$ de su contenido y se reemplaza con agua; luego se extrae $\frac{1}{5}$ de la mezcla resultante y se vuelve a llenar con agua; finalmente se extrae $\frac{1}{3}$ de la nueva mezcla y se completa con agua. ¿Qué fracción del volumen total queda como pisco puro?  
 A) $\frac{1}{3}$  
 B) $\frac{2}{5}$  
 C) $\frac{1}{2}$  
 D) $\frac{3}{8}$  
 E) $\frac{4}{9}$  
 
-23. Una fracción irreductible tiene la propiedad de que al sumar $3$ a su numerador y $5$ a su denominador, su valor no se altera. ¿Cuál es el producto de los términos de dicha fracción?
+23. Una fracción irreductible tiene la propiedad de que al sumar $3$ a su numerador y $5$ a su denominador, su valor no se altera. ¿Cuál es el producto de los términos de dicha fracción?  
 A) $12$  
 B) $15$  
 C) $24$  
 D) $30$  
 E) $45$  
 
-24. Un empleado gasta cada mes $\frac{2}{7}$ de su sueldo en alimentación, $\frac{1}{5}$ del resto en vivienda y los $\frac{3}{8}$ del nuevo resto en educación de sus hijos. Si aún logra ahorrar $\text{S/ } 1250$ mensuales, ¿cuál es su sueldo mensual bruto?
+24. Un empleado gasta cada mes $\frac{2}{7}$ de su sueldo en alimentación, $\frac{1}{5}$ del resto en vivienda y los $\frac{3}{8}$ del nuevo resto en educación de sus hijos. Si aún logra ahorrar $\text{S/ } 1250$ mensuales, ¿cuál es su sueldo mensual bruto?  
 A) $\text{S/ } 3000$  
 B) $\text{S/ } 3200$  
 C) $\text{S/ } 3500$  
 D) $\text{S/ } 3850$  
 E) $\text{S/ } 4200$  
 
-25. Se tienen dos velas de igual longitud pero de diferente grosor. La primera se consume totalmente en $4\text{ horas}$ y la segunda en $3\text{ horas}$ a ritmo uniforme. Si se encienden simultáneamente, ¿después de cuánto tiempo la longitud de la primera será el doble de la longitud de la segunda?
+25. Se tienen dos velas de igual longitud pero de diferente grosor. La primera se consume totalmente en $4\text{ horas}$ y la segunda en $3\text{ horas}$ a ritmo uniforme. Si se encienden simultáneamente, ¿después de cuánto tiempo la longitud de la primera será el doble de la longitud de la segunda?  
 A) $2\text{ h } 12\text{ min}$  
 B) $2\text{ h } 24\text{ min}$  
 C) $2\text{ h } 30\text{ min}$  
 D) $2\text{ h } 40\text{ min}$  
 E) $2\text{ h } 48\text{ min}$  
 
-26. La suma de los numeradores de dos fracciones homogéneas irreductibles es $18$ y la diferencia de las mismas es $\frac{1}{2}$. Calcule el valor del denominador común.
+26. La suma de los numeradores de dos fracciones homogéneas irreductibles es $18$ y la diferencia de las mismas es $\frac{1}{2}$. Calcule el valor del denominador común.  
 A) $8$  
 B) $12$  
 C) $14$  
 D) $16$  
 E) $20$  
 
-27. ¿Cuántas fracciones propias de términos enteros positivos existen tales que sumadas con su inversa den como resultado un número entero?
+27. ¿Cuántas fracciones propias de términos enteros positivos existen tales que sumadas con su inversa den como resultado un número entero?  
 A) Ninguna  
 B) 1  
 C) 2  
 D) Infinitas  
 E) Depende del signo  
 
-28. En una fiesta patronal, los $\frac{3}{8}$ de los asistentes son varones, y de las mujeres presentes, los $\frac{2}{5}$ son solteras. Si hay $75$ mujeres casadas, ¿cuántos varones asistieron a la fiesta?
+28. En una fiesta patronal, los $\frac{3}{8}$ de los asistentes son varones, y de las mujeres presentes, los $\frac{2}{5}$ son solteras. Si hay $75$ mujeres casadas, ¿cuántos varones asistieron a la fiesta?  
 A) $60$  
 B) $75$  
 C) $80$  
 D) $90$  
 E) $100$  
 
-29. Si a los dos términos de una fracción irreductible se le resta $1$, la fracción resultante es equivalente a $\frac{1}{3}$; pero si se le suma $3$ a ambos términos, resulta equivalente a $\frac{1}{2}$. Calcule la suma de los términos de la fracción original.
+29. Si a los dos términos de una fracción irreductible se le resta $1$, la fracción resultante es equivalente a $\frac{1}{3}$; pero si se le suma $3$ a ambos términos, resulta equivalente a $\frac{1}{2}$. Calcule la suma de los términos de la fracción original.  
 A) $12$  
 B) $14$  
 C) $16$  
 D) $18$  
 E) $20$  
 
-30. Un tanque de agua se vacía mediante una válvula a razón constante. Cada hora que pasa se vacía la mitad de lo que había al inicio de esa hora más $2\text{ litros}$. Si al cabo de $3\text{ horas}$ el tanque quedó totalmente seco, ¿cuál era la capacidad original del tanque?
+30. Un tanque de agua se vacía mediante una válvula a razón constante. Cada hora que pasa se vacía la mitad de lo que había al inicio de esa hora más $2\text{ litros}$. Si al cabo de $3\text{ horas}$ el tanque quedó totalmente seco, ¿cuál era la capacidad original del tanque?  
 A) $24\text{ L}$  
 B) $28\text{ L}$  
 C) $30\text{ L}$  
@@ -787,105 +787,105 @@ E) $36\text{ L}$
 
 ### BLOQUE III: NIVEL AVANZADO / TIPO BECA 18 (Problemas 31 al 45)
 
-31. **(Contexto de Obras Públicas):** Para la pavimentación de una carretera rural en Áncash, el consorcio $A$ puede culminar la obra en $30\text{ días}$, mientras que el consorcio $B$ requeriría $45\text{ días}$. El consorcio $A$ inicia la obra y trabaja en solitario durante $10\text{ días}$. En ese momento se incorpora el consorcio $B$, trabajando juntos hasta completar el proyecto. ¿Cuántos días duró en total la ejecución de la obra vial?
+31. **(Contexto de Obras Públicas):** Para la pavimentación de una carretera rural en Áncash, el consorcio $A$ puede culminar la obra en $30\text{ días}$, mientras que el consorcio $B$ requeriría $45\text{ días}$. El consorcio $A$ inicia la obra y trabaja en solitario durante $10\text{ días}$. En ese momento se incorpora el consorcio $B$, trabajando juntos hasta completar el proyecto. ¿Cuántos días duró en total la ejecución de la obra vial?  
 A) $18\text{ días}$  
 B) $20\text{ días}$  
 C) $22\text{ días}$  
 D) $24\text{ días}$  
 E) $25\text{ días}$  
 
-32. **(Contexto Agroindustrial):** Una planta procesadora de aceite de oliva en Tacna almacena su producción en una cisterna de $6000\text{ litros}$. Durante la primera semana se comercializa el $25\%$ del total. En la segunda semana se vende $\frac{2}{5}$ del volumen remanente. En la tercera semana, por requerimiento de exportación, se embotella $\frac{5}{9}$ del nuevo saldo. Si el litro de aceite restante se liquida en el mercado local a $\text{S/ } 28$, ¿cuánto dinero en soles se recaudará por la venta del remanente final?
+32. **(Contexto Agroindustrial):** Una planta procesadora de aceite de oliva en Tacna almacena su producción en una cisterna de $6000\text{ litros}$. Durante la primera semana se comercializa el $25\%$ del total. En la segunda semana se vende $\frac{2}{5}$ del volumen remanente. En la tercera semana, por requerimiento de exportación, se embotella $\frac{5}{9}$ del nuevo saldo. Si el litro de aceite restante se liquida en el mercado local a $\text{S/ } 28$, ¿cuánto dinero en soles se recaudará por la venta del remanente final?  
 A) $\text{S/ } 24\,800$  
 B) $\text{S/ } 28\,000$  
 C) $\text{S/ } 33\,600$  
 D) $\text{S/ } 37\,800$  
 E) $\text{S/ } 42\,000$  
 
-33. **(Contexto de Sanidad y Dosificación):** En un laboratorio farmacéutico se prepara una solución desinfectante de amonio cuaternario al $12\%$. Un operario retira accidentalmente $\frac{1}{4}$ del volumen total y lo rellena con agua destilada; al percatarse, extrae $\frac{1}{3}$ de la nueva mezcla y vuelve a completar con agua pura. ¿Cuál es el porcentaje final de concentración de amonio cuaternario en la solución resultante?
+33. **(Contexto de Sanidad y Dosificación):** En un laboratorio farmacéutico se prepara una solución desinfectante de amonio cuaternario al $12\%$. Un operario retira accidentalmente $\frac{1}{4}$ del volumen total y lo rellena con agua destilada; al percatarse, extrae $\frac{1}{3}$ de la nueva mezcla y vuelve a completar con agua pura. ¿Cuál es el porcentaje final de concentración de amonio cuaternario en la solución resultante?  
 A) $4\%$  
 B) $5\%$  
 C) $6\%$  
 D) $7\%$  
 E) $8\%$  
 
-34. **(Contexto Minero-Metalúrgico):** Dos bombas de achique $M$ y $N$ operan en un socavón inundado. La bomba $M$ puede evacuar toda el agua en $16\text{ horas}$, y la bomba $N$ lo haría en $24\text{ horas}$. Se enciende la bomba $M$ a las $07:00\text{ a.m.}$ y la bomba $N$ a las $09:00\text{ a.m.}$. Si a las $12:00\text{ m.}$ la bomba $M$ sufre una falla eléctrica irreparable, ¿a qué hora terminará la bomba $N$ de extraer el agua restante del socavón?
+34. **(Contexto Minero-Metalúrgico):** Dos bombas de achique $M$ y $N$ operan en un socavón inundado. La bomba $M$ puede evacuar toda el agua en $16\text{ horas}$, y la bomba $N$ lo haría en $24\text{ horas}$. Se enciende la bomba $M$ a las $07:00\text{ a.m.}$ y la bomba $N$ a las $09:00\text{ a.m.}$. Si a las $12:00\text{ m.}$ la bomba $M$ sufre una falla eléctrica irreparable, ¿a qué hora terminará la bomba $N$ de extraer el agua restante del socavón?  
 A) $04:30\text{ p.m.}$  
 B) $05:00\text{ p.m.}$  
 C) $06:30\text{ p.m.}$  
 D) $08:30\text{ p.m.}$  
 E) $10:00\text{ p.m.}$  
 
-35. **(Contexto de Presupuesto Familiar):** Una familia destina $\frac{1}{3}$ de sus ingresos mensuales al pago de la hipoteca de su vivienda; $\frac{3}{8}$ del remanente en alimentación y servicios básicos; y las $\frac{3}{5}$ partes del nuevo saldo en educación y salud. Si el monto que les queda disponible para imprevistos y recreación es de $\text{S/ } 900$, ¿cuál es el ingreso mensual total de dicha familia?
+35. **(Contexto de Presupuesto Familiar):** Una familia destina $\frac{1}{3}$ de sus ingresos mensuales al pago de la hipoteca de su vivienda; $\frac{3}{8}$ del remanente en alimentación y servicios básicos; y las $\frac{3}{5}$ partes del nuevo saldo en educación y salud. Si el monto que les queda disponible para imprevistos y recreación es de $\text{S/ } 900$, ¿cuál es el ingreso mensual total de dicha familia?  
 A) $\text{S/ } 4800$  
 B) $\text{S/ } 5400$  
 C) $\text{S/ } 5600$  
 D) $\text{S/ } 6000$  
 E) $\text{S/ } 7200$  
 
-36. **(Contexto de Eficiencia en Transporte):** Un bus interprovincial parte de Lima hacia Huancayo con el tanque lleno de diésel. En el primer tramo (Lima - La Oroya) consume los $\frac{4}{9}$ del combustible. En La Oroya recarga una cantidad equivalente a los $\frac{2}{5}$ de lo que quedaba en el tanque. En el segundo tramo (La Oroya - Huancayo) consume $\frac{3}{7}$ del combustible acumulado hasta ese punto. Si al llegar a Huancayo el tanque tiene aún $32\text{ galones}$, ¿cuál es la capacidad volumétrica total del tanque?
+36. **(Contexto de Eficiencia en Transporte):** Un bus interprovincial parte de Lima hacia Huancayo con el tanque lleno de diésel. En el primer tramo (Lima - La Oroya) consume los $\frac{4}{9}$ del combustible. En La Oroya recarga una cantidad equivalente a los $\frac{2}{5}$ de lo que quedaba en el tanque. En el segundo tramo (La Oroya - Huancayo) consume $\frac{3}{7}$ del combustible acumulado hasta ese punto. Si al llegar a Huancayo el tanque tiene aún $32\text{ galones}$, ¿cuál es la capacidad volumétrica total del tanque?  
 A) $63\text{ galones}$  
 B) $70\text{ galones}$  
 C) $72\text{ galones}$  
 D) $81\text{ galones}$  
 E) $90\text{ galones}$  
 
-37. **(Contexto de Rebote Físico):** Un sensor industrial mide la elasticidad de un material elástico soltando una esfera desde una altura de $6.25\text{ metros}$. Se observa que tras el primer rebote alcanza $4\text{ metros}$. Si la razón de pérdida de altura se mantiene constante en cada choque contra el piso, ¿cuál será la altura alcanzada tras el cuarto rebote expresada en centímetros?
+37. **(Contexto de Rebote Físico):** Un sensor industrial mide la elasticidad de un material elástico soltando una esfera desde una altura de $6.25\text{ metros}$. Se observa que tras el primer rebote alcanza $4\text{ metros}$. Si la razón de pérdida de altura se mantiene constante en cada choque contra el piso, ¿cuál será la altura alcanzada tras el cuarto rebote expresada en centímetros?  
 A) $102.4\text{ cm}$  
 B) $108.6\text{ cm}$  
 C) $128.0\text{ cm}$  
 D) $144.2\text{ cm}$  
 E) $163.8\text{ cm}$  
 
-38. **(Contexto de Producción Textil):** Tres confeccionistas deben entregar un lote de $1200$ uniformes escolares. El confeccionista $A$ puede coser el lote en $20\text{ días}$, el confeccionista $B$ en $30\text{ días}$, y el confeccionista $C$ en $60\text{ días}$. Empiezan a coser los tres juntos durante $6\text{ días}$; luego $A$ se retira por descanso médico y los otros dos continúan hasta culminar el pedido. ¿Cuántos uniformes cosió en total el confeccionista $B$ a lo largo de todo el contrato?
+38. **(Contexto de Producción Textil):** Tres confeccionistas deben entregar un lote de $1200$ uniformes escolares. El confeccionista $A$ puede coser el lote en $20\text{ días}$, el confeccionista $B$ en $30\text{ días}$, y el confeccionista $C$ en $60\text{ días}$. Empiezan a coser los tres juntos durante $6\text{ días}$; luego $A$ se retira por descanso médico y los otros dos continúan hasta culminar el pedido. ¿Cuántos uniformes cosió en total el confeccionista $B$ a lo largo de todo el contrato?  
 A) $400$ uniformes  
 B) $480$ uniformes  
 C) $520$ uniformes  
 D) $560$ uniformes  
 E) $600$ uniformes  
 
-39. **(Contexto de Rendimiento de Batería):** Una tableta electrónica de uso escolar consume $\frac{1}{6}$ de su batería tras $1\text{ hora}$ de videollamada, y consume $\frac{1}{10}$ de batería por cada hora de lectura de libros en PDF. Un estudiante con la batería al $100\%$ asiste a clases virtuales por videollamada durante $2\text{ horas y media}$. ¿Cuántas horas completas de lectura en PDF podrá realizar como máximo con la carga restante antes de que la tableta se apague por completo?
+39. **(Contexto de Rendimiento de Batería):** Una tableta electrónica de uso escolar consume $\frac{1}{6}$ de su batería tras $1\text{ hora}$ de videollamada, y consume $\frac{1}{10}$ de batería por cada hora de lectura de libros en PDF. Un estudiante con la batería al $100\%$ asiste a clases virtuales por videollamada durante $2\text{ horas y media}$. ¿Cuántas horas completas de lectura en PDF podrá realizar como máximo con la carga restante antes de que la tableta se apague por completo?  
 A) $4\text{ horas}$  
 B) $5\text{ horas}$  
 C) $6\text{ horas}$  
 D) $7\text{ horas}$  
 E) $8\text{ horas}$  
 
-40. **(Contexto Financiero y Distribución Solidaria):** Se crea un fondo de becas universitarias con un capital donado. La primera universidad beneficiaria recibe $\frac{1}{4}$ del fondo más $\text{S/ } 50\,000$; la segunda recibe $\frac{1}{3}$ de lo que quedaba más $\text{S/ } 40\,000$; y la tercera universidad recibe los $\text{S/ } 160\,000$ restantes. ¿De cuánto dinero disponía el fondo de becas al inicio?
+40. **(Contexto Financiero y Distribución Solidaria):** Se crea un fondo de becas universitarias con un capital donado. La primera universidad beneficiaria recibe $\frac{1}{4}$ del fondo más $\text{S/ } 50\,000$; la segunda recibe $\frac{1}{3}$ de lo que quedaba más $\text{S/ } 40\,000$; y la tercera universidad recibe los $\text{S/ } 160\,000$ restantes. ¿De cuánto dinero disponía el fondo de becas al inicio?  
 A) $\text{S/ } 360\,000$  
 B) $\text{S/ } 420\,000$  
 C) $\text{S/ } 450\,000$  
 D) $\text{S/ } 480\,000$  
 E) $\text{S/ } 500\,000$  
 
-41. **(Contexto de Análisis Químico):** Se tienen $80\text{ litros}$ de una mezcla alcohólica al $75\%$. ¿Cuántos litros de agua destilada se deben añadir a dicha solución para rebajar su concentración hasta una graduación exacta del $60\%$?
+41. **(Contexto de Análisis Químico):** Se tienen $80\text{ litros}$ de una mezcla alcohólica al $75\%$. ¿Cuántos litros de agua destilada se deben añadir a dicha solución para rebajar su concentración hasta una graduación exacta del $60\%$?  
 A) $15\text{ L}$  
 B) $20\text{ L}$  
 C) $24\text{ L}$  
 D) $25\text{ L}$  
 E) $30\text{ L}$  
 
-42. **(Contexto de Llenado con Caudal Variable):** Un reservorio cónico posee dos tuberías de ingreso: la tubería 1 vierte $15\text{ litros/minuto}$ y la tubería 2 vierte $25\text{ litros/minuto}$. Si funcionando ambas a la vez llenan el reservorio en $2\text{ horas y media}$, ¿cuánto tiempo demoraría la tubería 1 funcionando en solitario con un desagüe abierto que desaloja $5\text{ litros/minuto}$?
+42. **(Contexto de Llenado con Caudal Variable):** Un reservorio cónico posee dos tuberías de ingreso: la tubería 1 vierte $15\text{ litros/minuto}$ y la tubería 2 vierte $25\text{ litros/minuto}$. Si funcionando ambas a la vez llenan el reservorio en $2\text{ horas y media}$, ¿cuánto tiempo demoraría la tubería 1 funcionando en solitario con un desagüe abierto que desaloja $5\text{ litros/minuto}$?  
 A) $6\text{ h}$  
 B) $8\text{ h}$  
 C) $10\text{ h}$  
 D) $12\text{ h}$  
 E) $15\text{ h}$  
 
-43. **(Contexto de Pérdida en Cadena de Suministro):** Un cargamento de mandarinas sale de Chanchamayo rumbo a los mercados de Lima. En el transporte por carretera se malogra por vibración $\frac{1}{20}$ de la fruta; en el proceso de descarga en el mercado mayorista se descarta $\frac{1}{19}$ de lo que llegó útil; y en la venta final al menudeo se desecha $\frac{1}{18}$ del saldo por sobremaduración. ¿Qué fracción de la carga original cosechada logró comercializarse con éxito para consumo final?
+43. **(Contexto de Pérdida en Cadena de Suministro):** Un cargamento de mandarinas sale de Chanchamayo rumbo a los mercados de Lima. En el transporte por carretera se malogra por vibración $\frac{1}{20}$ de la fruta; en el proceso de descarga en el mercado mayorista se descarta $\frac{1}{19}$ de lo que llegó útil; y en la venta final al menudeo se desecha $\frac{1}{18}$ del saldo por sobremaduración. ¿Qué fracción de la carga original cosechada logró comercializarse con éxito para consumo final?  
 A) $\frac{15}{20}$  
 B) $\frac{16}{19}$  
 C) $\frac{17}{20}$  
 D) $\frac{17}{19}$  
 E) $\frac{9}{10}$  
 
-44. **(Contexto Agrícola de Eficiencia Combinada):** Cuatro campesinos de una comunidad campesina en Cusco aran una parcela comunal. Los dos primeros aran juntos la mitad de la parcela en $6\text{ días}$. El tercero ara a un ritmo tal que solo demoraría $24\text{ días}$ en arar toda la parcela, y el cuarto demoraría $36\text{ días}$ en solitario. Si empiezan a arar la segunda mitad de la parcela los cuatro campesinos trabajando al unísono, ¿cuántos días tardarán en culminarla?
+44. **(Contexto Agrícola de Eficiencia Combinada):** Cuatro campesinos de una comunidad campesina en Cusco aran una parcela comunal. Los dos primeros aran juntos la mitad de la parcela en $6\text{ días}$. El tercero ara a un ritmo tal que solo demoraría $24\text{ días}$ en arar toda la parcela, y el cuarto demoraría $36\text{ días}$ en solitario. Si empiezan a arar la segunda mitad de la parcela los cuatro campesinos trabajando al unísono, ¿cuántos días tardarán en culminarla?  
 A) $2\text{ días}$  
 B) $2.4\text{ días}$  
 C) $3\text{ días}$  
 D) $3.2\text{ días}$  
 E) $4\text{ días}$  
 
-45. **(Contexto de Rendimiento Financiero y Fracciones Continuas):** Se define la rentabilidad de un fondo mutuo mediante una fracción irreductible $\frac{P}{Q}$. Se sabe que al desarrollar dicha fracción por el algoritmo de divisiones sucesivas de Euclides para hallar el $\text{MCD}$, se obtuvieron como cocientes sucesivos los números $2$, $1$, $3$ y $4$. Si el $\text{MCD}(P, Q) = 5$, determine la suma de las cifras del numerador $P$.
+45. **(Contexto de Rendimiento Financiero y Fracciones Continuas):** Se define la rentabilidad de un fondo mutuo mediante una fracción irreductible $\frac{P}{Q}$. Se sabe que al desarrollar dicha fracción por el algoritmo de divisiones sucesivas de Euclides para hallar el $\text{MCD}$, se obtuvieron como cocientes sucesivos los números $2$, $1$, $3$ y $4$. Si el $\text{MCD}(P, Q) = 5$, determine la suma de las cifras del numerador $P$.  
 A) $8$  
 B) $11$  
 C) $13$  

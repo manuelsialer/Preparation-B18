@@ -243,7 +243,7 @@ $$S = 6.195 \times 10^7$$
 ---
 
 #### Ejercicio 03
-**Enunciado:** La masa de una molécula de agua ($H_2O$) es de aproximadamente $2.99 \times 10^{-23}\text{ gramos}$. Determine el orden de magnitud de dicha masa.
+**Enunciado:** La masa de una molécula de agua ($H_2O$) es de aproximadamente $2.99 \times 10^{-23}\text{ gramos}$. Determine el orden de magnitud de dicha masa.  
 A) $10^{-24}\text{ g}$  
 B) $10^{-23}\text{ g}$  
 C) $10^{-22}\text{ g}$  
@@ -318,7 +318,7 @@ $$\sqrt{9 \times 10^6} = \sqrt{9} \times 10^3 = 3.0 \times 10^3$$
 ---
 
 #### Ejercicio 05
-**Enunciado:** La capacidad de almacenamiento de un disco de estado sólido (SSD) es de $2\text{ Terabytes}$. Si un archivo comprimido de fotografía digital de alta resolución pesa en promedio $8\text{ Megabytes}$, ¿cuántos archivos de este tipo pueden guardarse como máximo en dicho disco? Exprese la respuesta en notación científica.
+**Enunciado:** La capacidad de almacenamiento de un disco de estado sólido (SSD) es de $2\text{ Terabytes}$. Si un archivo comprimido de fotografía digital de alta resolución pesa en promedio $8\text{ Megabytes}$, ¿cuántos archivos de este tipo pueden guardarse como máximo en dicho disco? Exprese la respuesta en notación científica.  
 A) $2.5 \times 10^5\text{ archivos}$  
 B) $2.5 \times 10^6\text{ archivos}$  
 C) $4.0 \times 10^5\text{ archivos}$  
@@ -389,7 +389,7 @@ Para que $k$ sea $1.2$, la expresión es $k \times 10^9$.
 ---
 
 #### Ejercicio 07
-**Enunciado:** La velocidad de la luz en el vacío es de aproximadamente $3.0 \times 10^8\text{ m/s}$. ¿Cuántos kilómetros recorre un fotón de luz en un año solar medio ($365\text{ días}$)? Exprese el resultado en notación científica normalizada con dos cifras decimales.
+**Enunciado:** La velocidad de la luz en el vacío es de aproximadamente $3.0 \times 10^8\text{ m/s}$. ¿Cuántos kilómetros recorre un fotón de luz en un año solar medio ($365\text{ días}$)? Exprese el resultado en notación científica normalizada con dos cifras decimales.  
 A) $9.46 \times 10^{12}\text{ km}$  
 B) $9.46 \times 10^{15}\text{ km}$  
 C) $8.64 \times 10^{12}\text{ km}$  
@@ -422,7 +422,7 @@ $$d \approx 9.46 \times 10^{12}\text{ km}$$
 ### NIVEL AVANZADO / CONTEXTO BECA 18 (Modelamiento Real)
 
 #### Ejercicio 08 (Contexto de Telecomunicaciones y Enlaces Satelitales)
-**Enunciado:** La sonda espacial *Perseverance* transmite señales de telemetría desde la superficie de Marte hacia la estación terrena de la NASA en Robledo de Chavela. En un instante determinado, la distancia entre Marte y la Tierra es de $2.25 \times 10^8\text{ kilómetros}$. Si las ondas electromagnéticas viajan a la velocidad de la luz en el vacío ($c = 3.0 \times 10^5\text{ km/s}$) y la antena de transmisión emite un paquete de datos a una tasa de transferencia de $2.0 \times 10^6\text{ bits/segundo}$, determine cuántos minutos tarda la señal en viajar de Marte a la Tierra y cuántos Megabits ($1\text{ Mb} = 10^6\text{ bits}$) logra transmitir la sonda en ese lapso de viaje.
+**Enunciado:** La sonda espacial *Perseverance* transmite señales de telemetría desde la superficie de Marte hacia la estación terrena de la NASA en Robledo de Chavela. En un instante determinado, la distancia entre Marte y la Tierra es de $2.25 \times 10^8\text{ kilómetros}$. Si las ondas electromagnéticas viajan a la velocidad de la luz en el vacío ($c = 3.0 \times 10^5\text{ km/s}$) y la antena de transmisión emite un paquete de datos a una tasa de transferencia de $2.0 \times 10^6\text{ bits/segundo}$, determine cuántos minutos tarda la señal en viajar de Marte a la Tierra y cuántos Megabits ($1\text{ Mb} = 10^6\text{ bits}$) logra transmitir la sonda en ese lapso de viaje.  
 A) $12.5\text{ min}$ y $1500\text{ Mb}$  
 B) $12.5\text{ min}$ y $750\text{ Mb}$  
 C) $15.0\text{ min}$ y $1800\text{ Mb}$  
@@ -453,7 +453,7 @@ $$\text{Datos} = \frac{1500 \times 10^6}{10^6} = 1500\text{ Mb}$$
 ---
 
 #### Ejercicio 09 (Contexto de Virología y Nanotecnología)
-**Enunciado:** En un estudio epidemiológico en Lima, se analiza el volumen esférico de una partícula viral de SARS-CoV-2 cuyo diámetro es de $120\text{ nanómetros}$ ($120\text{ nm}$). Se sabe que el volumen de una esfera es $V = \frac{4}{3}\pi R^3$. Si una microgota de saliva expulsada al hablar tiene un volumen de $4.5 \times 10^{-12}\text{ metros cúbicos}$, y asumiendo $\pi \approx 3.14$ con un radio viral $R = 60\text{ nm} = 6.0 \times 10^{-8}\text{ metros}$, determine el orden de magnitud del volumen del virus en $\text{m}^3$ y cuántas veces más grande en volumen es la microgota de saliva que la partícula viral.
+**Enunciado:** En un estudio epidemiológico en Lima, se analiza el volumen esférico de una partícula viral de SARS-CoV-2 cuyo diámetro es de $120\text{ nanómetros}$ ($120\text{ nm}$). Se sabe que el volumen de una esfera es $V = \frac{4}{3}\pi R^3$. Si una microgota de saliva expulsada al hablar tiene un volumen de $4.5 \times 10^{-12}\text{ metros cúbicos}$, y asumiendo $\pi \approx 3.14$ con un radio viral $R = 60\text{ nm} = 6.0 \times 10^{-8}\text{ metros}$, determine el orden de magnitud del volumen del virus en $\text{m}^3$ y cuántas veces más grande en volumen es la microgota de saliva que la partícula viral.  
 A) Orden de magnitud: $10^{-22}\text{ m}^3$; Razón: $5.0 \times 10^9$ veces  
 B) Orden de magnitud: $10^{-21}\text{ m}^3$; Razón: $5.0 \times 10^9$ veces  
 C) Orden de magnitud: $10^{-21}\text{ m}^3$; Razón: $4.5 \times 10^8$ veces  
@@ -490,7 +490,7 @@ $$\text{Razón} = \frac{V_{\text{gota}}}{V_v} = \frac{4.5 \times 10^{-12}\text{ 
 ---
 
 #### Ejercicio 10 (Contexto Energético e Hidroeléctrico)
-**Enunciado:** La central hidroeléctrica del Mantaro genera una potencia media de $1.02 \times 10^9\text{ Watts}$ ($1.02\text{ GW}$). Si la energía generada en un período de tiempo $t$ (en segundos) es $E = P \cdot t$ (en Joules), ¿cuántos Joules de energía eléctrica produce dicha central durante un mes de $30\text{ días}$ continuos de operación ininterrumpida? Exprese el resultado en notación científica normalizada con dos cifras decimales.
+**Enunciado:** La central hidroeléctrica del Mantaro genera una potencia media de $1.02 \times 10^9\text{ Watts}$ ($1.02\text{ GW}$). Si la energía generada en un período de tiempo $t$ (en segundos) es $E = P \cdot t$ (en Joules), ¿cuántos Joules de energía eléctrica produce dicha central durante un mes de $30\text{ días}$ continuos de operación ininterrumpida? Exprese el resultado en notación científica normalizada con dos cifras decimales.  
 A) $2.64 \times 10^{15}\text{ Joules}$  
 B) $2.45 \times 10^{15}\text{ Joules}$  
 C) $3.06 \times 10^{14}\text{ Joules}$  
@@ -530,105 +530,105 @@ $$E \approx 2.64 \times 10^{15}\text{ Joules}$$
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 
-1. ¿Cuál de las siguientes expresiones representa correctamente el número $0.000\,007\,85$ en notación científica normalizada?
+1. ¿Cuál de las siguientes expresiones representa correctamente el número $0.000\,007\,85$ en notación científica normalizada?  
 A) $78.5 \times 10^{-7}$  
 B) $7.85 \times 10^{-6}$  
 C) $7.85 \times 10^{-5}$  
 D) $0.785 \times 10^{-5}$  
 E) $785 \times 10^{-8}$  
 
-2. El número $3.4 \times 10^5$ equivale en notación decimal estándar a:
+2. El número $3.4 \times 10^5$ equivale en notación decimal estándar a:  
 A) $34\,000$  
 B) $340\,000$  
 C) $3\,400\,000$  
 D) $34\,000\,000$  
 E) $340$  
 
-3. Calcule el producto de $(2.5 \times 10^4) \times (4.0 \times 10^3)$ expresado en notación científica:
+3. Calcule el producto de $(2.5 \times 10^4) \times (4.0 \times 10^3)$ expresado en notación científica:  
 A) $1.0 \times 10^7$  
 B) $1.0 \times 10^8$  
 C) $10 \times 10^7$  
 D) $1.0 \times 10^6$  
 E) $1.0 \times 10^9$  
 
-4. Efectúe la división: $\frac{8.4 \times 10^{-3}}{2.1 \times 10^{-7}}$.
+4. Efectúe la división: $\frac{8.4 \times 10^{-3}}{2.1 \times 10^{-7}}$.  
 A) $4.0 \times 10^4$  
 B) $4.0 \times 10^{-4}$  
 C) $4.0 \times 10^{10}$  
 D) $4.0 \times 10^{-10}$  
 E) $4.0 \times 10^5$  
 
-5. ¿Cuál es el orden de magnitud del número $8.9 \times 10^4$?
+5. ¿Cuál es el orden de magnitud del número $8.9 \times 10^4$?  
 A) $10^3$  
 B) $10^4$  
 C) $10^5$  
 D) $10^6$  
 E) $10^7$  
 
-6. Exprese la suma $3.1 \times 10^4 + 2.4 \times 10^4$ en notación científica:
+6. Exprese la suma $3.1 \times 10^4 + 2.4 \times 10^4$ en notación científica:  
 A) $5.5 \times 10^4$  
 B) $5.5 \times 10^8$  
 C) $5.5 \times 10^5$  
 D) $0.55 \times 10^5$  
 E) $55 \times 10^3$  
 
-7. Un nanómetro ($1\text{ nm}$) equivale a:
+7. Un nanómetro ($1\text{ nm}$) equivale a:  
 A) $10^{-6}\text{ metros}$  
 B) $10^{-9}\text{ metros}$  
 C) $10^{-12}\text{ metros}$  
 D) $10^{-3}\text{ metros}$  
 E) $10^{-15}\text{ metros}$  
 
-8. Calcule el valor de $(3.0 \times 10^{-3})^2$:
+8. Calcule el valor de $(3.0 \times 10^{-3})^2$:  
 A) $9.0 \times 10^{-6}$  
 B) $9.0 \times 10^{-5}$  
 C) $6.0 \times 10^{-6}$  
 D) $9.0 \times 10^{-9}$  
 E) $3.0 \times 10^{-6}$  
 
-9. Al resolver $\sqrt{1.6 \times 10^5}$ ajustando a potencia par, se obtiene:
+9. Al resolver $\sqrt{1.6 \times 10^5}$ ajustando a potencia par, se obtiene:  
 A) $4.0 \times 10^2$  
 B) $4.0 \times 10^{2.5}$  
 C) $4.0 \times 10^3$  
 D) $1.6 \times 10^2$  
 E) $4.0 \times 10^1$  
 
-10. El prefijo del Sistema Internacional correspondiente al factor $10^6$ es:
+10. El prefijo del Sistema Internacional correspondiente al factor $10^6$ es:  
 A) Giga  
 B) Mega  
 C) Kilo  
 D) Tera  
 E) Micro  
 
-11. ¿Cuál es el orden de magnitud del número $1.75 \times 10^{-8}$?
+11. ¿Cuál es el orden de magnitud del número $1.75 \times 10^{-8}$?  
 A) $10^{-9}$  
 B) $10^{-8}$  
 C) $10^{-7}$  
 D) $10^{-6}$  
 E) $10^{-10}$  
 
-12. Calcule el valor de $4.8 \times 10^6 - 1.2 \times 10^6$:
+12. Calcule el valor de $4.8 \times 10^6 - 1.2 \times 10^6$:  
 A) $3.6 \times 10^6$  
 B) $3.6 \times 10^0$  
 C) $3.6 \times 10^{12}$  
 D) $3.6 \times 10^5$  
 E) $36 \times 10^5$  
 
-13. El espesor de una hoja de papel es de $0.08\text{ mm}$. Expresado en metros en notación científica es:
+13. El espesor de una hoja de papel es de $0.08\text{ mm}$. Expresado en metros en notación científica es:  
 A) $8.0 \times 10^{-2}\text{ m}$  
 B) $8.0 \times 10^{-4}\text{ m}$  
 C) $8.0 \times 10^{-5}\text{ m}$  
 D) $8.0 \times 10^{-6}\text{ m}$  
 E) $8.0 \times 10^{-3}\text{ m}$  
 
-14. Si $x = 2 \times 10^3$ e $y = 5 \times 10^{-4}$, el producto $x \cdot y$ es:
+14. Si $x = 2 \times 10^3$ e $y = 5 \times 10^{-4}$, el producto $x \cdot y$ es:  
 A) $1.0 \times 10^0$  
 B) $1.0 \times 10^1$  
 C) $1.0 \times 10^{-1}$  
 D) $10 \times 10^{-1}$  
 E) $1.0 \times 10^2$  
 
-15. Indique cuál de los siguientes números está escrito correctamente en notación científica normalizada:
+15. Indique cuál de los siguientes números está escrito correctamente en notación científica normalizada:  
 A) $0.85 \times 10^4$  
 B) $10.2 \times 10^{-3}$  
 C) $7.05 \times 10^{-11}$  
@@ -659,7 +659,7 @@ C) $2.67 \times 10^{-2}$
 D) $8.0 \times 10^{-3}$  
 E) $8.0 \times 10^{-4}$  
 
-18. Se define el diámetro aproximado del átomo de hidrógeno como $1.06 \times 10^{-10}\text{ metros}$ y el de su núcleo (protón) como $1.6 \times 10^{-15}\text{ metros}$. ¿Cuántas veces más grande es el diámetro del átomo respecto al de su núcleo?
+18. Se define el diámetro aproximado del átomo de hidrógeno como $1.06 \times 10^{-10}\text{ metros}$ y el de su núcleo (protón) como $1.6 \times 10^{-15}\text{ metros}$. ¿Cuántas veces más grande es el diámetro del átomo respecto al de su núcleo?  
 A) $6.625 \times 10^4\text{ veces}$  
 B) $6.625 \times 10^5\text{ veces}$  
 C) $1.51 \times 10^5\text{ veces}$  
@@ -676,28 +676,28 @@ C) $2.16 \times 10^{-4}$
 D) $2.16 \times 10^{-5}$  
 E) $6.0 \times 10^{-3}$  
 
-20. La masa de la Luna es aproximadamente $7.35 \times 10^{22}\text{ kg}$ y la de la Tierra es $5.97 \times 10^{24}\text{ kg}$. ¿Cuál es la masa combinada de ambos cuerpos celestes expresada en notación científica normalizada?
+20. La masa de la Luna es aproximadamente $7.35 \times 10^{22}\text{ kg}$ y la de la Tierra es $5.97 \times 10^{24}\text{ kg}$. ¿Cuál es la masa combinada de ambos cuerpos celestes expresada en notación científica normalizada?  
 A) $6.705 \times 10^{24}\text{ kg}$  
 B) $6.0435 \times 10^{24}\text{ kg}$  
 C) $1.332 \times 10^{25}\text{ kg}$  
 D) $6.0435 \times 10^{23}\text{ kg}$  
 E) $5.977 \times 10^{24}\text{ kg}$  
 
-21. Si una memoria USB de $64\text{ Gigabytes}$ almacena canciones en formato MP3 que pesan en promedio $4.0 \times 10^6\text{ Bytes}$ cada una, ¿cuántas canciones caben como máximo en la memoria?
+21. Si una memoria USB de $64\text{ Gigabytes}$ almacena canciones en formato MP3 que pesan en promedio $4.0 \times 10^6\text{ Bytes}$ cada una, ¿cuántas canciones caben como máximo en la memoria?  
 A) $1.6 \times 10^4\text{ canciones}$  
 B) $1.6 \times 10^5\text{ canciones}$  
 C) $2.56 \times 10^4\text{ canciones}$  
 D) $1.6 \times 10^3\text{ canciones}$  
 E) $2.56 \times 10^5\text{ canciones}$  
 
-22. Calcule el valor de la resta: $4.5 \times 10^8 - 3.8 \times 10^7$.
+22. Calcule el valor de la resta: $4.5 \times 10^8 - 3.8 \times 10^7$.  
 A) $7.0 \times 10^7$  
 B) $4.12 \times 10^8$  
 C) $4.12 \times 10^7$  
 D) $0.7 \times 10^8$  
 E) $4.462 \times 10^8$  
 
-23. Un microprocesador de última generación realiza una operación básica en un tiempo de $0.25\text{ nanosegundos}$. ¿Cuántas operaciones de este tipo ejecuta por segundo?
+23. Un microprocesador de última generación realiza una operación básica en un tiempo de $0.25\text{ nanosegundos}$. ¿Cuántas operaciones de este tipo ejecuta por segundo?  
 A) $2.5 \times 10^8$  
 B) $4.0 \times 10^9$  
 C) $4.0 \times 10^8$  
@@ -724,7 +724,7 @@ C) $3.5 \times 10^2$
 D) $8.0 \times 10^0$  
 E) $8.0 \times 10^1$  
 
-26. La concentración de una sustancia tóxica en un efluente minero es de $4.8\text{ ppm}$ ($4.8\text{ miligramos por litro}$). ¿Cuántos kilogramos de sustancia tóxica hay disueltos en un reservorio que contiene $5.0 \times 10^7\text{ litros}$ de agua?
+26. La concentración de una sustancia tóxica en un efluente minero es de $4.8\text{ ppm}$ ($4.8\text{ miligramos por litro}$). ¿Cuántos kilogramos de sustancia tóxica hay disueltos en un reservorio que contiene $5.0 \times 10^7\text{ litros}$ de agua?  
 A) $2.4 \times 10^1\text{ kg}$  
 B) $2.4 \times 10^2\text{ kg}$  
 C) $2.4 \times 10^3\text{ kg}$  
@@ -741,7 +741,7 @@ C) $7$
 D) $8$  
 E) $9$  
 
-28. Si la masa de un protón es $1.67 \times 10^{-27}\text{ kg}$ y la de un electrón es $9.11 \times 10^{-31}\text{ kg}$, ¿cuál es la razón aproximada $\frac{\text{masa del protón}}{\text{masa del electrón}}$ redondeada a un entero?
+28. Si la masa de un protón es $1.67 \times 10^{-27}\text{ kg}$ y la de un electrón es $9.11 \times 10^{-31}\text{ kg}$, ¿cuál es la razón aproximada $\frac{\text{masa del protón}}{\text{masa del electrón}}$ redondeada a un entero?  
 A) $1833$  
 B) $1837$  
 C) $1845$  
@@ -758,7 +758,7 @@ C) $2.5 \times 10^5$
 D) $4.0 \times 10^{-7}$  
 E) $2.5 \times 10^{-6}$  
 
-30. Calcule el área de un rectángulo microscópico cuyas dimensiones son $4.2 \times 10^{-4}\text{ m}$ de largo y $1.5 \times 10^{-5}\text{ m}$ de ancho:
+30. Calcule el área de un rectángulo microscópico cuyas dimensiones son $4.2 \times 10^{-4}\text{ m}$ de largo y $1.5 \times 10^{-5}\text{ m}$ de ancho:  
 A) $6.3 \times 10^{-9}\text{ m}^2$  
 B) $6.3 \times 10^{-8}\text{ m}^2$  
 C) $6.3 \times 10^{-10}\text{ m}^2$  
@@ -769,70 +769,70 @@ E) $5.7 \times 10^{-8}\text{ m}^2$
 
 ### BLOQUE III: NIVEL AVANZADO / TIPO BECA 18 (Problemas 31 al 45)
 
-31. **(Contexto de Astronomía y Cosmología):** La Vía Láctea tiene un diámetro aproximado de $1.0 \times 10^5\text{ años luz}$. Si un año luz equivale a $9.46 \times 10^{12}\text{ kilómetros}$, ¿cuántos metros de diámetro tiene nuestra galaxia expresado en notación científica normalizada?
+31. **(Contexto de Astronomía y Cosmología):** La Vía Láctea tiene un diámetro aproximado de $1.0 \times 10^5\text{ años luz}$. Si un año luz equivale a $9.46 \times 10^{12}\text{ kilómetros}$, ¿cuántos metros de diámetro tiene nuestra galaxia expresado en notación científica normalizada?  
 A) $9.46 \times 10^{20}\text{ m}$  
 B) $9.46 \times 10^{17}\text{ m}$  
 C) $9.46 \times 10^{19}\text{ m}$  
 D) $9.46 \times 10^{21}\text{ m}$  
 E) $9.46 \times 10^{22}\text{ m}$  
 
-32. **(Contexto de Nanomedicina y Glóbulos Rojos):** Un adulto promedio posee aproximadamente $5.0\text{ litros}$ de sangre ($5.0 \times 10^{-3}\text{ m}^3$). Si cada microlitro ($10^{-6}\text{ L}$) contiene cerca de $5.0 \times 10^6$ glóbulos rojos (eritrocitos), determine el número total de eritrocitos en el cuerpo del adulto y su orden de magnitud.
+32. **(Contexto de Nanomedicina y Glóbulos Rojos):** Un adulto promedio posee aproximadamente $5.0\text{ litros}$ de sangre ($5.0 \times 10^{-3}\text{ m}^3$). Si cada microlitro ($10^{-6}\text{ L}$) contiene cerca de $5.0 \times 10^6$ glóbulos rojos (eritrocitos), determine el número total de eritrocitos en el cuerpo del adulto y su orden de magnitud.  
 A) $2.5 \times 10^{13}\text{ eritrocitos}$; Orden: $10^{13}$  
 B) $2.5 \times 10^{13}\text{ eritrocitos}$; Orden: $10^{14}$  
 C) $2.5 \times 10^{12}\text{ eritrocitos}$; Orden: $10^{12}$  
 D) $5.0 \times 10^{13}\text{ eritrocitos}$; Orden: $10^{14}$  
 E) $1.0 \times 10^{14}\text{ eritrocitos}$; Orden: $10^{14}$  
 
-33. **(Contexto de Química Cuántica y Número de Avogadro):** En una reacción metalúrgica en La Oroya, se disuelven $64\text{ gramos}$ de cobre puro ($Cu$). Sabiendo que la masa molar del cobre es $64\text{ g/mol}$ y que un mol contiene la constante de Avogadro ($N_A \approx 6.02 \times 10^{23}\text{ átomos}$), si cada átomo de cobre libera $2$ electrones libres de conducción, ¿cuántos electrones libres aporta dicha masa a la corriente eléctrica?
+33. **(Contexto de Química Cuántica y Número de Avogadro):** En una reacción metalúrgica en La Oroya, se disuelven $64\text{ gramos}$ de cobre puro ($Cu$). Sabiendo que la masa molar del cobre es $64\text{ g/mol}$ y que un mol contiene la constante de Avogadro ($N_A \approx 6.02 \times 10^{23}\text{ átomos}$), si cada átomo de cobre libera $2$ electrones libres de conducción, ¿cuántos electrones libres aporta dicha masa a la corriente eléctrica?  
 A) $1.204 \times 10^{24}\text{ electrones}$  
 B) $6.02 \times 10^{23}\text{ electrones}$  
 C) $3.01 \times 10^{23}\text{ electrones}$  
 D) $1.204 \times 10^{23}\text{ electrones}$  
 E) $2.408 \times 10^{24}\text{ electrones}$  
 
-34. **(Contexto de Telecomunicaciones y Cable Submarino de Fibra Óptica):** El cable submarino transpacífico que conecta el puerto de Lurín con California transmite datos a una tasa de $1.44 \times 10^{14}\text{ bits por segundo}$ ($144\text{ Tbps}$). Si un servidor bancario internacional respalda una base de datos de $1.8 \times 10^{16}\text{ Bytes}$, ¿cuántos segundos demora la transferencia completa a través del cable? ($1\text{ Byte} = 8\text{ bits}$).
+34. **(Contexto de Telecomunicaciones y Cable Submarino de Fibra Óptica):** El cable submarino transpacífico que conecta el puerto de Lurín con California transmite datos a una tasa de $1.44 \times 10^{14}\text{ bits por segundo}$ ($144\text{ Tbps}$). Si un servidor bancario internacional respalda una base de datos de $1.8 \times 10^{16}\text{ Bytes}$, ¿cuántos segundos demora la transferencia completa a través del cable? ($1\text{ Byte} = 8\text{ bits}$).  
 A) $1000\text{ s}$  
 B) $1250\text{ s}$  
 C) $1500\text{ s}$  
 D) $1800\text{ s}$  
 E) $2000\text{ s}$  
 
-35. **(Contexto de Física Solar y Fusión Nuclear):** El Sol irradia energía al espacio a razón de una potencia luminosa constante de $3.84 \times 10^{26}\text{ Watts}$. Según la ecuación de equivalencia masa-energía de Einstein ($E = \Delta m \cdot c^2$), donde $c \approx 3.0 \times 10^8\text{ m/s}$, ¿cuántos kilogramos de masa solar se transforman en energía radiante cada segundo?
+35. **(Contexto de Física Solar y Fusión Nuclear):** El Sol irradia energía al espacio a razón de una potencia luminosa constante de $3.84 \times 10^{26}\text{ Watts}$. Según la ecuación de equivalencia masa-energía de Einstein ($E = \Delta m \cdot c^2$), donde $c \approx 3.0 \times 10^8\text{ m/s}$, ¿cuántos kilogramos de masa solar se transforman en energía radiante cada segundo?  
 A) $4.27 \times 10^9\text{ kg}$  
 B) $4.27 \times 10^8\text{ kg}$  
 C) $1.28 \times 10^9\text{ kg}$  
 D) $1.28 \times 10^{18}\text{ kg}$  
 E) $3.84 \times 10^{10}\text{ kg}$  
 
-36. **(Contexto Ambiental y Plástico en los Océanos):** Se calcula que anualmente ingresan a los océanos del planeta cerca de $8.0 \times 10^6\text{ toneladas métricas}$ de residuos plásticos. Si cada microfragmento degradado de plástico pesa en promedio $2.5 \times 10^{-7}\text{ gramos}$, ¿cuántos microfragmentos de plástico se incorporan al ecosistema marino cada año? ($1\text{ tonelada} = 10^6\text{ gramos}$).
+36. **(Contexto Ambiental y Plástico en los Océanos):** Se calcula que anualmente ingresan a los océanos del planeta cerca de $8.0 \times 10^6\text{ toneladas métricas}$ de residuos plásticos. Si cada microfragmento degradado de plástico pesa en promedio $2.5 \times 10^{-7}\text{ gramos}$, ¿cuántos microfragmentos de plástico se incorporan al ecosistema marino cada año? ($1\text{ tonelada} = 10^6\text{ gramos}$).  
 A) $3.2 \times 10^{19}\text{ fragmentos}$  
 B) $3.2 \times 10^{20}\text{ fragmentos}$  
 C) $2.0 \times 10^{19}\text{ fragmentos}$  
 D) $2.0 \times 10^{20}\text{ fragmentos}$  
 E) $3.2 \times 10^{18}\text{ fragmentos}$  
 
-37. **(Contexto de Microbiología y Purificación de Agua):** Una planta de tratamiento de agua potable en Huachipa reduce la carga bacteriana de coliformes fecales desde una concentración inicial de $4.8 \times 10^7\text{ bacterias/L}$ hasta un nivel residual de $1.2 \times 10^2\text{ bacterias/L}$ mediante radiación ultravioleta. ¿En qué factor se redujo la población bacteriana? Exprese dicho factor de descontaminación en notación científica.
+37. **(Contexto de Microbiología y Purificación de Agua):** Una planta de tratamiento de agua potable en Huachipa reduce la carga bacteriana de coliformes fecales desde una concentración inicial de $4.8 \times 10^7\text{ bacterias/L}$ hasta un nivel residual de $1.2 \times 10^2\text{ bacterias/L}$ mediante radiación ultravioleta. ¿En qué factor se redujo la población bacteriana? Exprese dicho factor de descontaminación en notación científica.  
 A) $4.0 \times 10^5$  
 B) $4.0 \times 10^4$  
 C) $2.5 \times 10^{-6}$  
 D) $4.0 \times 10^6$  
 E) $2.5 \times 10^5$  
 
-38. **(Contexto de Supercomputación y Predicción Climática):** Una supercomputadora del SENAMHI procesa simulaciones meteorológicas del fenómeno de El Niño realizando $2.4 \times 10^{15}\text{ operaciones en punto flotante por segundo}$ ($2.4\text{ PFLOPS}$). Si la ejecución completa del modelo oceánico requiere $1.0368 \times 10^{20}\text{ operaciones}$, ¿cuántas horas continuas de cómputo tardará en completarse la simulación?
+38. **(Contexto de Supercomputación y Predicción Climática):** Una supercomputadora del SENAMHI procesa simulaciones meteorológicas del fenómeno de El Niño realizando $2.4 \times 10^{15}\text{ operaciones en punto flotante por segundo}$ ($2.4\text{ PFLOPS}$). Si la ejecución completa del modelo oceánico requiere $1.0368 \times 10^{20}\text{ operaciones}$, ¿cuántas horas continuas de cómputo tardará en completarse la simulación?  
 A) $10\text{ horas}$  
 B) $12\text{ horas}$  
 C) $15\text{ horas}$  
 D) $18\text{ horas}$  
 E) $24\text{ horas}$  
 
-39. **(Contexto de Física Nuclear y Desintegración alfa):** El tiempo de vida media del Uranio-238 es de aproximadamente $4.47 \times 10^9\text{ años}$. Sabiendo que la edad estimada de la Tierra es de $4.54 \times 10^9\text{ años}$, determine la razón entre la edad de la Tierra y la vida media del Uranio-238 expresada en notación decimal con dos decimales.
+39. **(Contexto de Física Nuclear y Desintegración alfa):** El tiempo de vida media del Uranio-238 es de aproximadamente $4.47 \times 10^9\text{ años}$. Sabiendo que la edad estimada de la Tierra es de $4.54 \times 10^9\text{ años}$, determine la razón entre la edad de la Tierra y la vida media del Uranio-238 expresada en notación decimal con dos decimales.  
 A) $0.98$  
 B) $1.02$  
 C) $1.05$  
 D) $1.10$  
 E) $1.15$  
 
-40. **(Contexto de Nanotecnología y Grafeno):** Una monocapa de grafeno tiene un espesor de un solo átomo de carbono, equivalente a $3.35 \times 10^{-10}\text{ metros}$. ¿Cuántas capas atómicas de grafeno superpuestas se necesitarían para formar una lámina de $1.0\text{ milímetro}$ de grosor?
+40. **(Contexto de Nanotecnología y Grafeno):** Una monocapa de grafeno tiene un espesor de un solo átomo de carbono, equivalente a $3.35 \times 10^{-10}\text{ metros}$. ¿Cuántas capas atómicas de grafeno superpuestas se necesitarían para formar una lámina de $1.0\text{ milímetro}$ de grosor?  
 A) $2.99 \times 10^6\text{ capas}$  
 B) $2.99 \times 10^5\text{ capas}$  
 C) $3.35 \times 10^6\text{ capas}$  
@@ -843,28 +843,28 @@ E) $1.0 \times 10^7\text{ capas}$
 
 $$F = G \frac{M_1 M_2}{d^2}$$
 
-Utilizando $G = 6.67 \times 10^{-11}\text{ N}\cdot\text{m}^2/\text{kg}^2$, calcule el valor de dicha fuerza gravitatoria expresado en notación científica con dos cifras decimales.
+Utilizando $G = 6.67 \times 10^{-11}\text{ N}\cdot\text{m}^2/\text{kg}^2$, calcule el valor de dicha fuerza gravitatoria expresado en notación científica con dos cifras decimales.  
 A) $1.98 \times 10^{20}\text{ N}$  
 B) $2.03 \times 10^{20}\text{ N}$  
 C) $1.98 \times 10^{22}\text{ N}$  
 D) $2.03 \times 10^{22}\text{ N}$  
 E) $2.45 \times 10^{19}\text{ N}$  
 
-42. **(Contexto de Bioquímica y Síntesis de Proteínas):** En una célula eucariota, un ribosoma ensambla aminoácidos para formar una cadena polipeptídica a un ritmo de $2.0 \times 10^1\text{ enlaces peptídicos por segundo}$. Si una proteína compleja como la titina muscular contiene aproximadamente $3.4 \times 10^4$ aminoácidos, ¿cuántos minutos de traducción ininterrumpida requiere un solo ribosoma para sintetizarla por completo?
+42. **(Contexto de Bioquímica y Síntesis de Proteínas):** En una célula eucariota, un ribosoma ensambla aminoácidos para formar una cadena polipeptídica a un ritmo de $2.0 \times 10^1\text{ enlaces peptídicos por segundo}$. Si una proteína compleja como la titina muscular contiene aproximadamente $3.4 \times 10^4$ aminoácidos, ¿cuántos minutos de traducción ininterrumpida requiere un solo ribosoma para sintetizarla por completo?  
 A) $18.3\text{ min}$  
 B) $28.3\text{ min}$  
 C) $34.0\text{ min}$  
 D) $17.0\text{ min}$  
 E) $25.5\text{ min}$  
 
-43. **(Contexto de Sensores Digitales y Cámaras de Satélite):** El sensor de un satélite peruano de observación terrestre PerúSAT-1 capta imágenes con una resolución de $1.2 \times 10^8\text{ píxeles}$ por fotografía. Si cada píxel almacena información cromática de $2.4 \times 10^1\text{ bits}$, y el satélite toma $4.5 \times 10^2$ fotografías por órbita, ¿cuántos Gigabits ($1\text{ Gb} = 10^9\text{ bits}$) de datos crudos se generan en cada órbita?
+43. **(Contexto de Sensores Digitales y Cámaras de Satélite):** El sensor de un satélite peruano de observación terrestre PerúSAT-1 capta imágenes con una resolución de $1.2 \times 10^8\text{ píxeles}$ por fotografía. Si cada píxel almacena información cromática de $2.4 \times 10^1\text{ bits}$, y el satélite toma $4.5 \times 10^2$ fotografías por órbita, ¿cuántos Gigabits ($1\text{ Gb} = 10^9\text{ bits}$) de datos crudos se generan en cada órbita?  
 A) $1.296 \times 10^3\text{ Gb}$  
 B) $1.296 \times 10^2\text{ Gb}$  
 C) $2.592 \times 10^3\text{ Gb}$  
 D) $2.592 \times 10^2\text{ Gb}$  
 E) $1.296 \times 10^4\text{ Gb}$  
 
-44. **(Contexto de Almacenamiento Criogénico y Temperatura Absoluta):** En un experimento de superconductividad a baja temperatura, se enfría una muestra hasta $1.5 \times 10^{-4}\text{ Kelvin}$. Si el cero absoluto teórico es $0\text{ K}$ y la temperatura media ambiental es $3.0 \times 10^2\text{ K}$, ¿cuántas veces menor que la temperatura ambiente es la temperatura alcanzada por la muestra?
+44. **(Contexto de Almacenamiento Criogénico y Temperatura Absoluta):** En un experimento de superconductividad a baja temperatura, se enfría una muestra hasta $1.5 \times 10^{-4}\text{ Kelvin}$. Si el cero absoluto teórico es $0\text{ K}$ y la temperatura media ambiental es $3.0 \times 10^2\text{ K}$, ¿cuántas veces menor que la temperatura ambiente es la temperatura alcanzada por la muestra?  
 A) $2.0 \times 10^5\text{ veces}$  
 B) $2.0 \times 10^6\text{ veces}$  
 C) $4.5 \times 10^5\text{ veces}$  

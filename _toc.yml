@@ -16,3 +16,5 @@ parts:
     chapters:
       - file: Clases/Algebra/01_Intervalos_en_la_Recta_Real
       - file: Clases/Algebra/02_Ecuaciones_Lineales_y_Modelamiento
+      - file: Clases/Algebra/03_Sistemas_de_Ecuaciones_Lineales
+      - file: Clases/Algebra/04_Inecuaciones_de_Primer_Grado

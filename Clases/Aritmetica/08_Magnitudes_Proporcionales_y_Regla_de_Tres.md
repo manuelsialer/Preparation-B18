@@ -452,105 +452,105 @@ $$6 = \frac{x}{3\,000} \implies x = 6 \times 3\,000 = 18\,000\text{ kg}$$
 
 ### Bloque I: Nivel Básico (Ejercicios 01 al 15)
 
-1. Si $A$ es D.P. a $B$ y cuando $A = 35$, $B = 14$, determine el valor de $A$ cuando $B = 26$.
+1. Si $A$ es D.P. a $B$ y cuando $A = 35$, $B = 14$, determine el valor de $A$ cuando $B = 26$.  
 A) $60$  
 B) $65$  
 C) $70$  
 D) $75$  
 E) $80$  
 
-2. Si $M$ es I.P. a $N$ y cuando $M = 24$, $N = 15$, halle el valor de $M$ cuando $N = 40$.
+2. Si $M$ es I.P. a $N$ y cuando $M = 24$, $N = 15$, halle el valor de $M$ cuando $N = 40$.  
 A) $8$  
 B) $9$  
 C) $10$  
 D) $12$  
 E) $14$  
 
-3. Doce obreros construyen una pirca de piedra en $15\text{ días}$. ¿Cuántos obreros con el mismo rendimiento se necesitarán para terminar la misma obra en solo $10\text{ días}$?
+3. Doce obreros construyen una pirca de piedra en $15\text{ días}$. ¿Cuántos obreros con el mismo rendimiento se necesitarán para terminar la misma obra en solo $10\text{ días}$?  
 A) $16$  
 B) $18$  
 C) $20$  
 D) $22$  
 E) $24$  
 
-4. Para pintar una pared rectangular de $40\text{ m}^2$ se emplearon $5\text{ galones}$ de pintura. ¿Cuántos galones se necesitarán para pintar otra pared similar de $72\text{ m}^2$?
+4. Para pintar una pared rectangular de $40\text{ m}^2$ se emplearon $5\text{ galones}$ de pintura. ¿Cuántos galones se necesitarán para pintar otra pared similar de $72\text{ m}^2$?  
 A) $8$  
 B) $8{,}5$  
 C) $9$  
 D) $9{,}5$  
 E) $10$  
 
-5. Un vehículo que se desplaza a una rapidez constante de $60\text{ km/h}$ recorre cierta distancia en $4\text{ horas}$. ¿Cuánto tiempo tardará en recorrer la misma distancia si aumenta su rapidez a $80\text{ km/h}$?
+5. Un vehículo que se desplaza a una rapidez constante de $60\text{ km/h}$ recorre cierta distancia en $4\text{ horas}$. ¿Cuánto tiempo tardará en recorrer la misma distancia si aumenta su rapidez a $80\text{ km/h}$?  
 A) $2\text{ h } 30\text{ min}$  
 B) $2\text{ h } 45\text{ min}$  
 C) $3\text{ h } 00\text{ min}$  
 D) $3\text{ h } 15\text{ min}$  
 E) $3\text{ h } 30\text{ min}$  
 
-6. Se reparte una gratificación de $\text{S/ } 2\,400$ entre dos trabajadores de forma D.P. a sus años de servicio: $3$ y $5$ años. ¿Cuánto recibe el trabajador más antiguo?
+6. Se reparte una gratificación de $\text{S/ } 2\,400$ entre dos trabajadores de forma D.P. a sus años de servicio: $3$ y $5$ años. ¿Cuánto recibe el trabajador más antiguo?  
 A) $\text{S/ } 1\,200$  
 B) $\text{S/ } 1\,400$  
 C) $\text{S/ } 1\,500$  
 D) $\text{S/ } 1\,600$  
 E) $\text{S/ } 1\,800$  
 
-7. Se reparten $\text{S/ } 1\,800$ de forma I.P. a las edades de dos hermanos: $12$ y $18$ años. ¿Cuánto recibe el menor de los hermanos?
+7. Se reparten $\text{S/ } 1\,800$ de forma I.P. a las edades de dos hermanos: $12$ y $18$ años. ¿Cuánto recibe el menor de los hermanos?  
 A) $\text{S/ } 900$  
 B) $\text{S/ } 1\,000$  
 C) $\text{S/ } 1\,080$  
 D) $\text{S/ } 1\,120$  
 E) $\text{S/ } 1\,200$  
 
-8. Si $A$ es D.P. a $\sqrt{B}$ y cuando $A = 12$, $B = 16$, determine el valor de $B$ cuando $A = 21$.
+8. Si $A$ es D.P. a $\sqrt{B}$ y cuando $A = 12$, $B = 16$, determine el valor de $B$ cuando $A = 21$.  
 A) $36$  
 B) $45$  
 C) $49$  
 D) $64$  
 E) $81$  
 
-9. Nueve grifos abiertos vierten agua de manera constante llenando un reservorio en $8\text{ horas}$. ¿Cuántos grifos iguales se deben abrir para llenar el mismo reservorio en $6\text{ horas}$?
+9. Nueve grifos abiertos vierten agua de manera constante llenando un reservorio en $8\text{ horas}$. ¿Cuántos grifos iguales se deben abrir para llenar el mismo reservorio en $6\text{ horas}$?  
 A) $10$  
 B) $11$  
 C) $12$  
 D) $14$  
 E) $15$  
 
-10. Un ciclista recorre $45\text{ km}$ en $1\text{ hora y } 30\text{ minutos}$. Si mantiene el mismo ritmo, ¿cuántos kilómetros recorrerá en $2\text{ horas y } 40\text{ minutos}$?
+10. Un ciclista recorre $45\text{ km}$ en $1\text{ hora y } 30\text{ minutos}$. Si mantiene el mismo ritmo, ¿cuántos kilómetros recorrerá en $2\text{ horas y } 40\text{ minutos}$?  
 A) $70\text{ km}$  
 B) $75\text{ km}$  
 C) $80\text{ km}$  
 D) $85\text{ km}$  
 E) $90\text{ km}$  
 
-11. Si una cuadrilla de $10$ artesanos elabora $50$ mantos típicos en $20\text{ días}$, ¿cuántos artesanos iguales se requerirán para elaborar $80$ mantos en $16\text{ días}$?
+11. Si una cuadrilla de $10$ artesanos elabora $50$ mantos típicos en $20\text{ días}$, ¿cuántos artesanos iguales se requerirán para elaborar $80$ mantos en $16\text{ días}$?  
 A) $16$  
 B) $18$  
 C) $20$  
 D) $22$  
 E) $24$  
 
-12. Se sabe que $X$ es I.P. a $Y^2$. Si cuando $X = 50$, $Y = 2$, calcule el valor de $X$ cuando $Y = 5$.
+12. Se sabe que $X$ es I.P. a $Y^2$. Si cuando $X = 50$, $Y = 2$, calcule el valor de $X$ cuando $Y = 5$.  
 A) $4$  
 B) $6$  
 C) $8$  
 D) $10$  
 E) $12$  
 
-13. Tres socios forman una empresa aportando capitales de $\text{S/ } 4\,000$, $\text{S/ } 6\,000$ y $\text{S/ } 10\,000$ durante el mismo tiempo. Si la empresa obtuvo una ganancia total de $\text{S/ } 8\,000$, ¿cuál fue la ganancia del socio que aportó el capital intermedio?
+13. Tres socios forman una empresa aportando capitales de $\text{S/ } 4\,000$, $\text{S/ } 6\,000$ y $\text{S/ } 10\,000$ durante el mismo tiempo. Si la empresa obtuvo una ganancia total de $\text{S/ } 8\,000$, ¿cuál fue la ganancia del socio que aportó el capital intermedio?  
 A) $\text{S/ } 2\,000$  
 B) $\text{S/ } 2\,400$  
 C) $\text{S/ } 2\,500$  
 D) $\text{S/ } 2\,800$  
 E) $\text{S/ } 3\,000$  
 
-14. Un engranaje de $40$ dientes está conectado a otro de $25$ dientes. Si el engranaje mayor da $50$ vueltas por minuto, ¿cuántas vueltas dará el menor en el mismo tiempo?
+14. Un engranaje de $40$ dientes está conectado a otro de $25$ dientes. Si el engranaje mayor da $50$ vueltas por minuto, ¿cuántas vueltas dará el menor en el mismo tiempo?  
 A) $70$  
 B) $75$  
 C) $80$  
 D) $85$  
 E) $90$  
 
-15. Con $15\text{ kg}$ de harina se elaboran $180$ panes. ¿Cuántos kilogramos de harina se necesitarán para elaborar $420$ panes idénticos?
+15. Con $15\text{ kg}$ de harina se elaboran $180$ panes. ¿Cuántos kilogramos de harina se necesitarán para elaborar $420$ panes idénticos?  
 A) $30\text{ kg}$  
 B) $32{,}5\text{ kg}$  
 C) $35\text{ kg}$  
@@ -561,105 +561,105 @@ E) $40\text{ kg}$
 
 ### Bloque II: Nivel Intermedio (Ejercicios 16 al 30)
 
-16. Dieciocho obreros se comprometieron a construir una obra en $25\text{ días}$ trabajando $8\text{ horas diarias}$. Si se desea culminar la misma obra en $20\text{ días}$ trabajando $9\text{ horas diarias}$, ¿cuántos obreros adicionales con la misma eficiencia se deben contratar?
+16. Dieciocho obreros se comprometieron a construir una obra en $25\text{ días}$ trabajando $8\text{ horas diarias}$. Si se desea culminar la misma obra en $20\text{ días}$ trabajando $9\text{ horas diarias}$, ¿cuántos obreros adicionales con la misma eficiencia se deben contratar?  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $4$  
 E) $5$  
 
-17. Se reparte una herencia de $\text{S/ } 93\,000$ entre tres personas en forma D.P. a los números $2$, $3$ y $5$, e I.P. a los números $3$, $4$ y $6$ respectivamente. ¿Cuánto dinero recibe la persona más favorecida?
+17. Se reparte una herencia de $\text{S/ } 93\,000$ entre tres personas en forma D.P. a los números $2$, $3$ y $5$, e I.P. a los números $3$, $4$ y $6$ respectivamente. ¿Cuánto dinero recibe la persona más favorecida?  
 A) $\text{S/ } 32\,000$  
 B) $\text{S/ } 35\,000$  
 C) $\text{S/ } 36\,000$  
 D) $\text{S/ } 40\,000$  
 E) $\text{S/ } 42\,000$  
 
-18. Diez agricultores pueden sembrar un terreno cuadrado de $20\text{ metros}$ de lado en $6\text{ días}$. ¿Cuántos agricultores con el mismo rendimiento podrán sembrar otro terreno cuadrado de $40\text{ metros}$ de lado en $12\text{ días}$?
+18. Diez agricultores pueden sembrar un terreno cuadrado de $20\text{ metros}$ de lado en $6\text{ días}$. ¿Cuántos agricultores con el mismo rendimiento podrán sembrar otro terreno cuadrado de $40\text{ metros}$ de lado en $12\text{ días}$?  
 A) $15$  
 B) $18$  
 C) $20$  
 D) $24$  
 E) $25$  
 
-19. Un pozo cilíndrico de $4\text{ metros}$ de diámetro y $15\text{ metros}$ de profundidad fue cavado por $12$ obreros en $20\text{ días}$. ¿Cuántos días tardarán $16$ obreros en cavar otro pozo similar de $6\text{ metros}$ de diámetro y $10\text{ metros}$ de profundidad en un terreno de igual dificultad?
+19. Un pozo cilíndrico de $4\text{ metros}$ de diámetro y $15\text{ metros}$ de profundidad fue cavado por $12$ obreros en $20\text{ días}$. ¿Cuántos días tardarán $16$ obreros en cavar otro pozo similar de $6\text{ metros}$ de diámetro y $10\text{ metros}$ de profundidad en un terreno de igual dificultad?  
 A) $18\text{ días}$  
 B) $20\text{ días}$  
 C) $22{,}5\text{ días}$  
 D) $24\text{ días}$  
 E) $25\text{ días}$  
 
-20. La magnitud $A$ es D.P. a $B$ e I.P. a $C^2$. Cuando $A = 10$, $B = 5$ y $C = 4$. Determine el valor de $B$ cuando $A = 16$ y $C = 5$.
+20. La magnitud $A$ es D.P. a $B$ e I.P. a $C^2$. Cuando $A = 10$, $B = 5$ y $C = 4$. Determine el valor de $B$ cuando $A = 16$ y $C = 5$.  
 A) $8$  
 B) $10$  
 C) $12{,}5$  
 D) $15$  
 E) $16$  
 
-21. Una cuadrilla de $24$ obreros puede terminar una obra en $18\text{ días}$. Si luego de trabajar juntos durante $6\text{ días}$ se retiran $6$ obreros, ¿con cuántos días de retraso se entregará la obra?
+21. Una cuadrilla de $24$ obreros puede terminar una obra en $18\text{ días}$. Si luego de trabajar juntos durante $6\text{ días}$ se retiran $6$ obreros, ¿con cuántos días de retraso se entregará la obra?  
 A) $2\text{ días}$  
 B) $3\text{ días}$  
 C) $4\text{ días}$  
 D) $5\text{ días}$  
 E) $6\text{ días}$  
 
-22. Dos socios inician un negocio: el primero aporta $\text{S/ } 12\,000$ durante $10\text{ meses}$ y el segundo aporta $\text{S/ } 18\,000$ durante $8\text{ meses}$. Si la ganancia del segundo socio superó a la del primero en $\text{S/ } 1\,200$, ¿cuál fue la ganancia total del negocio?
+22. Dos socios inician un negocio: el primero aporta $\text{S/ } 12\,000$ durante $10\text{ meses}$ y el segundo aporta $\text{S/ } 18\,000$ durante $8\text{ meses}$. Si la ganancia del segundo socio superó a la del primero en $\text{S/ } 1\,200$, ¿cuál fue la ganancia total del negocio?  
 A) $\text{S/ } 11\,800$  
 B) $\text{S/ } 12\,400$  
 C) $\text{S/ } 13\,200$  
 D) $\text{S/ } 13\,600$  
 E) $\text{S/ } 14\,000$  
 
-23. Un tanque puede ser llenado por $4$ bombas en $9\text{ horas}$. Si se agregan $2$ bombas más cuya capacidad de bombeo es un $50\%$ superior a las iniciales, ¿cuánto tiempo tardarán todas las bombas juntas en llenar el tanque?
+23. Un tanque puede ser llenado por $4$ bombas en $9\text{ horas}$. Si se agregan $2$ bombas más cuya capacidad de bombeo es un $50\%$ superior a las iniciales, ¿cuánto tiempo tardarán todas las bombas juntas en llenar el tanque?  
 A) $4\text{ h } 30\text{ min}$  
 B) $5\text{ h } 00\text{ min}$  
 C) $5\text{ h } 08\text{ min}$  
 D) $5\text{ h } 15\text{ min}$  
 E) $5\text{ h } 24\text{ min}$  
 
-24. Quince obreros se comprometen a realizar una obra en $14\text{ días}$ trabajando $8\text{ horas diarias}$. Al cabo del noveno día han realizado solo los $\frac{3}{7}$ de la obra. ¿Cuántos obreros con el doble de eficiencia deben incorporarse para terminar la obra en el plazo fijado trabajando $9\text{ horas diarias}$?
+24. Quince obreros se comprometen a realizar una obra en $14\text{ días}$ trabajando $8\text{ horas diarias}$. Al cabo del noveno día han realizado solo los $\frac{3}{7}$ de la obra. ¿Cuántos obreros con el doble de eficiencia deben incorporarse para terminar la obra en el plazo fijado trabajando $9\text{ horas diarias}$?  
 A) $6$  
 B) $7$  
 C) $8$  
 D) $9$  
 E) $10$  
 
-25. Se reparte una cantidad $N$ en forma D.P. a los números $3$, $5$ y $8$. Si la diferencia entre la mayor y la menor de las partes es $\text{S/ } 600$, ¿cuál es el valor de la cantidad total $N$?
+25. Se reparte una cantidad $N$ en forma D.P. a los números $3$, $5$ y $8$. Si la diferencia entre la mayor y la menor de las partes es $\text{S/ } 600$, ¿cuál es el valor de la cantidad total $N$?  
 A) $\text{S/ } 1\,800$  
 B) $\text{S/ } 1\,920$  
 C) $\text{S/ } 2\,040$  
 D) $\text{S/ } 2\,160$  
 E) $\text{S/ } 2\,240$  
 
-26. La presión de un gas ideal es directamente proporcional a su temperatura absoluta e inversamente proporcional al volumen que ocupa. Si la temperatura aumenta en un $20\%$ y el volumen disminuye en un $20\%$, ¿en qué porcentaje varía la presión del gas?
+26. La presión de un gas ideal es directamente proporcional a su temperatura absoluta e inversamente proporcional al volumen que ocupa. Si la temperatura aumenta en un $20\%$ y el volumen disminuye en un $20\%$, ¿en qué porcentaje varía la presión del gas?  
 A) Aumenta en $40\%$  
 B) Aumenta en $44\%$  
 C) Aumenta en $50\%$  
 D) Disminuye en $10\%$  
 E) No varía  
 
-27. Un grupo de $20$ obreros puede terminar una obra en $30\text{ días}$. Si al iniciar el décimo primer día se contratan $5$ obreros más cuya eficiencia es el $80\%$ de los primeros, ¿en cuántos días en total se ejecutó toda la obra?
+27. Un grupo de $20$ obreros puede terminar una obra en $30\text{ días}$. Si al iniciar el décimo primer día se contratan $5$ obreros más cuya eficiencia es el $80\%$ de los primeros, ¿en cuántos días en total se ejecutó toda la obra?  
 A) $25\text{ días}$  
 B) $26\text{ días}$  
 C) $26{,}\widehat{6}\text{ días}$  
 D) $27\text{ días}$  
 E) $28\text{ días}$  
 
-28. Se reparte un bono de productividad de $\text{S/ } 4\,300$ entre tres ingenieros de forma I.P. a los días que faltaron a obra ($2$, $3$ y $5$) y D.P. a los proyectos concluidos ($4$, $6$ y $10$). ¿Cuánto recibe el ingeniero más eficiente?
+28. Se reparte un bono de productividad de $\text{S/ } 4\,300$ entre tres ingenieros de forma I.P. a los días que faltaron a obra ($2$, $3$ y $5$) y D.P. a los proyectos concluidos ($4$, $6$ y $10$). ¿Cuánto recibe el ingeniero más eficiente?  
 A) $\text{S/ } 1\,800$  
 B) $\text{S/ } 1\,900$  
 C) $\text{S/ } 2\,000$  
 D) $\text{S/ } 2\,100$  
 E) $\text{S/ } 2\,200$  
 
-29. Si $20$ obreros pueden cavar una zanja de $30\text{ metros}$ en $15\text{ días}$, ¿cuántos días requerirán $25$ obreros con un $20\%$ más de eficiencia para cavar una zanja de $45\text{ metros}$ en un terreno cuya dificultad es el doble del anterior?
+29. Si $20$ obreros pueden cavar una zanja de $30\text{ metros}$ en $15\text{ días}$, ¿cuántos días requerirán $25$ obreros con un $20\%$ más de eficiencia para cavar una zanja de $45\text{ metros}$ en un terreno cuya dificultad es el doble del anterior?  
 A) $20\text{ días}$  
 B) $22\text{ días}$  
 C) $25\text{ días}$  
 D) $27\text{ días}$  
 E) $30\text{ días}$  
 
-30. Un reloj de péndulo tiene un período de oscilación que es D.P. a la raíz cuadrada de la longitud de su cuerda. Si la longitud de la cuerda aumenta en un $44\%$, ¿en qué porcentaje aumenta el período de oscilación?
+30. Un reloj de péndulo tiene un período de oscilación que es D.P. a la raíz cuadrada de la longitud de su cuerda. Si la longitud de la cuerda aumenta en un $44\%$, ¿en qué porcentaje aumenta el período de oscilación?  
 A) $20\%$  
 B) $22\%$  
 C) $24\%$  
@@ -670,105 +670,105 @@ E) $28\%$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Para la construcción de un canal de derivación en Chavimochic, $30$ obreros de rendimiento estándar debían terminar la obra en $45\text{ días}$ laborando $8\text{ horas diarias}$. Tras $15\text{ días}$ de trabajo se les exige entregar el canal $10\text{ días}$ antes del plazo previsto. Si se contratan nuevos obreros con un $25\%$ mayor de eficiencia que los primeros y se aumenta la jornada a $9\text{ horas diarias}$, ¿cuántos obreros adicionales de este nuevo tipo deben incorporarse?
+31. Para la construcción de un canal de derivación en Chavimochic, $30$ obreros de rendimiento estándar debían terminar la obra en $45\text{ días}$ laborando $8\text{ horas diarias}$. Tras $15\text{ días}$ de trabajo se les exige entregar el canal $10\text{ días}$ antes del plazo previsto. Si se contratan nuevos obreros con un $25\%$ mayor de eficiencia que los primeros y se aumenta la jornada a $9\text{ horas diarias}$, ¿cuántos obreros adicionales de este nuevo tipo deben incorporarse?  
 A) $8$  
 B) $10$  
 C) $12$  
 D) $14$  
 E) $16$  
 
-32. Tres comunidades campesinas de Huancavelica forman una empresa comunal lechera. La comunidad $A$ aporta $\text{S/ } 40\,000$ durante $12\text{ meses}$; la comunidad $B$ aporta $\text{S/ } 60\,000$ durante $8\text{ meses}$; y la comunidad $C$ aporta $\text{S/ } 80\,000$ durante $6\text{ meses}$. Al término del año se obtiene una ganancia neta de $\text{S/ } 86\,400$. Si la asamblea comunal acuerda retener el $10\%$ de la ganancia total para un fondo de reserva de contingencias y repartir el saldo restante, ¿cuál es la ganancia líquida que recibe la comunidad $A$?
+32. Tres comunidades campesinas de Huancavelica forman una empresa comunal lechera. La comunidad $A$ aporta $\text{S/ } 40\,000$ durante $12\text{ meses}$; la comunidad $B$ aporta $\text{S/ } 60\,000$ durante $8\text{ meses}$; y la comunidad $C$ aporta $\text{S/ } 80\,000$ durante $6\text{ meses}$. Al término del año se obtiene una ganancia neta de $\text{S/ } 86\,400$. Si la asamblea comunal acuerda retener el $10\%$ de la ganancia total para un fondo de reserva de contingencias y repartir el saldo restante, ¿cuál es la ganancia líquida que recibe la comunidad $A$?  
 A) $\text{S/ } 24\,000$  
 B) $\text{S/ } 25\,920$  
 C) $\text{S/ } 26\,400$  
 D) $\text{S/ } 27\,000$  
 E) $\text{S/ } 28\,800$  
 
-33. Una cuadrilla de $20$ obreros puede construir un muro de contención en $18\text{ días}$ a razón de $6\text{ horas diarias}$. Si luego de $6\text{ días}$ de labor se retiran $5$ obreros y los restantes reducen su eficiencia en un $20\%$ debido a la altura del muro, ¿cuántas horas diarias deberán trabajar los obreros restantes para terminar el muro en el plazo acordado originalmente?
+33. Una cuadrilla de $20$ obreros puede construir un muro de contención en $18\text{ días}$ a razón de $6\text{ horas diarias}$. Si luego de $6\text{ días}$ de labor se retiran $5$ obreros y los restantes reducen su eficiencia en un $20\%$ debido a la altura del muro, ¿cuántas horas diarias deberán trabajar los obreros restantes para terminar el muro en el plazo acordado originalmente?  
 A) $8\text{ h/d}$  
 B) $9\text{ h/d}$  
 C) $9{,}5\text{ h/d}$  
 D) $10\text{ h/d}$  
 E) $10{,}5\text{ h/d}$  
 
-34. El costo de pavimentación de una trocha carrozable es directamente proporcional a la longitud de la vía y al cuadrado del ancho de calzada, e inversamente proporcional al número de máquinas motoniveladoras empleadas. Si pavimentar $12\text{ km}$ de trocha de $6\text{ metros}$ de ancho con $4$ motoniveladoras costó $\text{S/ } 360\,000$, ¿cuánto costará pavimentar $18\text{ km}$ de trocha de $8\text{ metros}$ de ancho empleando $6$ motoniveladoras similares?
+34. El costo de pavimentación de una trocha carrozable es directamente proporcional a la longitud de la vía y al cuadrado del ancho de calzada, e inversamente proporcional al número de máquinas motoniveladoras empleadas. Si pavimentar $12\text{ km}$ de trocha de $6\text{ metros}$ de ancho con $4$ motoniveladoras costó $\text{S/ } 360\,000$, ¿cuánto costará pavimentar $18\text{ km}$ de trocha de $8\text{ metros}$ de ancho empleando $6$ motoniveladoras similares?  
 A) $\text{S/ } 480\,000$  
 B) $\text{S/ } 540\,000$  
 C) $\text{S/ } 640\,000$  
 D) $\text{S/ } 720\,000$  
 E) $\text{S/ } 800\,000$  
 
-35. Cuarenta obreros trabajando $8\text{ h/d}$ pueden abrir un túnel de $120\text{ metros}$ en roca caliza en $30\text{ días}$. Si se desea perforar otro túnel de $180\text{ metros}$ en roca granítica (dificultad un $50\%$ mayor) en $25\text{ días}$ con operarios que trabajan $9\text{ h/d}$ y cuya habilidad es un $20\%$ superior a los anteriores, ¿cuántos obreros se requerirán?
+35. Cuarenta obreros trabajando $8\text{ h/d}$ pueden abrir un túnel de $120\text{ metros}$ en roca caliza en $30\text{ días}$. Si se desea perforar otro túnel de $180\text{ metros}$ en roca granítica (dificultad un $50\%$ mayor) en $25\text{ días}$ con operarios que trabajan $9\text{ h/d}$ y cuya habilidad es un $20\%$ superior a los anteriores, ¿cuántos obreros se requerirán?  
 A) $72$  
 B) $75$  
 C) $80$  
 D) $85$  
 E) $90$  
 
-36. Se reparte una subvención universitaria de $\text{S/ } 59\,400$ entre tres grupos de investigación de forma directamente proporcional a los artículos publicados en revistas indexadas ($6$, $9$ y $15$) e inversamente proporcional al número de observaciones éticas recibidas ($2$, $4$ y $5$). ¿Cuánto recibe el grupo de investigación con mayor cociente de mérito?
+36. Se reparte una subvención universitaria de $\text{S/ } 59\,400$ entre tres grupos de investigación de forma directamente proporcional a los artículos publicados en revistas indexadas ($6$, $9$ y $15$) e inversamente proporcional al número de observaciones éticas recibidas ($2$, $4$ y $5$). ¿Cuánto recibe el grupo de investigación con mayor cociente de mérito?  
 A) $\text{S/ } 21\,600$  
 B) $\text{S/ } 24\,300$  
 C) $\text{S/ } 26\,400$  
 D) $\text{S/ } 27\,000$  
 E) $\text{S/ } 28\,800$  
 
-37. Dos brigadas de brigadistas forestales combaten un incendio en el Cusco. La brigada $A$ tiene $15$ bomberos y puede controlar un frente de fuego de $600\text{ metros}$ en $4\text{ horas}$. La brigada $B$ tiene $20$ bomberos cuya eficiencia individual es un $25\%$ superior a los de la brigada $A$. ¿Cuánto tiempo tardarán ambas brigadas trabajando juntas en controlar un nuevo frente de fuego de $1\,500\text{ metros}$ en una ladera con el triple de viento (dificultad $1{,}5$)?
+37. Dos brigadas de brigadistas forestales combaten un incendio en el Cusco. La brigada $A$ tiene $15$ bomberos y puede controlar un frente de fuego de $600\text{ metros}$ en $4\text{ horas}$. La brigada $B$ tiene $20$ bomberos cuya eficiencia individual es un $25\%$ superior a los de la brigada $A$. ¿Cuánto tiempo tardarán ambas brigadas trabajando juntas en controlar un nuevo frente de fuego de $1\,500\text{ metros}$ en una ladera con el triple de viento (dificultad $1{,}5$)?  
 A) $5\text{ horas}$  
 B) $5\text{ h } 30\text{ min}$  
 C) $6\text{ horas}$  
 D) $6\text{ h } 15\text{ min}$  
 E) $6\text{ h } 40\text{ min}$  
 
-38. Una empresa minera contrata a $36$ obreros para construir un campamento en $40\text{ días}$ laborando $8\text{ h/d}$. Al terminar el vigésimo día, han avanzado solo el $40\%$ de la obra. Si en ese momento la empresa despide a $6$ obreros por faltas disciplinarias y aumenta la jornada de los restantes a $10\text{ h/d}$, ¿cuál debe ser el porcentaje de incremento en la eficiencia de los obreros que quedan para terminar la obra exactamente en el plazo original de $40\text{ días}$?
+38. Una empresa minera contrata a $36$ obreros para construir un campamento en $40\text{ días}$ laborando $8\text{ h/d}$. Al terminar el vigésimo día, han avanzado solo el $40\%$ de la obra. Si en ese momento la empresa despide a $6$ obreros por faltas disciplinarias y aumenta la jornada de los restantes a $10\text{ h/d}$, ¿cuál debe ser el porcentaje de incremento en la eficiencia de los obreros que quedan para terminar la obra exactamente en el plazo original de $40\text{ días}$?  
 A) $15\%$  
 B) $18\%$  
 C) $20\%$  
 D) $25\%$  
 E) $30\%$  
 
-39. El caudal de agua de un manantial en los Andes peruanos es inversamente proporcional a la raíz cuadrada del tiempo en meses transcurrido desde la última época de lluvias. Si a los $4\text{ meses}$ del estiaje el manantial afora un caudal de $18\text{ L/s}$, ¿cuántos litros por segundo aforará al cabo de $9\text{ meses}$ de estiaje?
+39. El caudal de agua de un manantial en los Andes peruanos es inversamente proporcional a la raíz cuadrada del tiempo en meses transcurrido desde la última época de lluvias. Si a los $4\text{ meses}$ del estiaje el manantial afora un caudal de $18\text{ L/s}$, ¿cuántos litros por segundo aforará al cabo de $9\text{ meses}$ de estiaje?  
 A) $8\text{ L/s}$  
 B) $10\text{ L/s}$  
 C) $12\text{ L/s}$  
 D) $14\text{ L/s}$  
 E) $15\text{ L/s}$  
 
-40. Un contratista calcula que $25$ operarios pueden pavimentar una pista en $36\text{ días}$ trabajando $8\text{ h/d}$. Si tras $12\text{ días}$ de labor se produce un huaico que destruye la tercera parte de lo que ya habían avanzado y además paraliza la obra durante $4\text{ días}$, ¿cuántos operarios adicionales con un $50\%$ más de eficiencia deberán contratarse para terminar la pista en el plazo estipulado inicialmente si todos pasan a trabajar $9\text{ h/d}$?
+40. Un contratista calcula que $25$ operarios pueden pavimentar una pista en $36\text{ días}$ trabajando $8\text{ h/d}$. Si tras $12\text{ días}$ de labor se produce un huaico que destruye la tercera parte de lo que ya habían avanzado y además paraliza la obra durante $4\text{ días}$, ¿cuántos operarios adicionales con un $50\%$ más de eficiencia deberán contratarse para terminar la pista en el plazo estipulado inicialmente si todos pasan a trabajar $9\text{ h/d}$?  
 A) $10$  
 B) $12$  
 C) $14$  
 D) $16$  
 E) $18$  
 
-41. Tres socios fundan una planta de procesamiento de trucha congelada en Puno. El primer socio aportó $\text{S/ } 50\,000$ durante $2\text{ años}$; el segundo socio aportó $\text{S/ } 40\,000$ durante $18\text{ meses}$; y el tercer socio aportó $\text{S/ } 30\,000$ durante $1\text{ año}$. Si la empresa sufrió una pérdida total acumulada de $\text{S/ } 38\,000$, ¿cuál fue la pérdida asumida por el socio mayoritario?
+41. Tres socios fundan una planta de procesamiento de trucha congelada en Puno. El primer socio aportó $\text{S/ } 50\,000$ durante $2\text{ años}$; el segundo socio aportó $\text{S/ } 40\,000$ durante $18\text{ meses}$; y el tercer socio aportó $\text{S/ } 30\,000$ durante $1\text{ año}$. Si la empresa sufrió una pérdida total acumulada de $\text{S/ } 38\,000$, ¿cuál fue la pérdida asumida por el socio mayoritario?  
 A) $\text{S/ } 18\,000$  
 B) $\text{S/ } 19\,000$  
 C) $\text{S/ } 20\,000$  
 D) $\text{S/ } 21\,000$  
 E) $\text{S/ } 22\,000$  
 
-42. La resistencia eléctrica $R$ de un alambre conductor cilíndrico de cobre es directamente proporcional a su longitud $L$ e inversamente proporcional al cuadrado de su diámetro $D$. Si un alambre se estira mediante un proceso de trefilado mecánico de modo que su longitud se duplica conservando su volumen total constante, ¿en qué relación matemática se encuentra la nueva resistencia respecto a la original?
+42. La resistencia eléctrica $R$ de un alambre conductor cilíndrico de cobre es directamente proporcional a su longitud $L$ e inversamente proporcional al cuadrado de su diámetro $D$. Si un alambre se estira mediante un proceso de trefilado mecánico de modo que su longitud se duplica conservando su volumen total constante, ¿en qué relación matemática se encuentra la nueva resistencia respecto a la original?  
 A) Se duplica ($2R$)  
 B) Se triplica ($3R$)  
 C) Se cuadruplica ($4R$)  
 D) Se octuplica ($8R$)  
 E) Se multiplica por $16$ ($16R$)  
 
-43. Una cuadrilla de $12$ obreros trabajando $7\text{ h/d}$ pueden cavar una zanja de $140\text{ m}$ de largo, $1\text{ m}$ de ancho y $1{,}2\text{ m}$ de profundidad en $16\text{ días}$. ¿Cuántos obreros con la mitad de rendimiento se necesitarán para cavar otra zanja de $210\text{ m}$ de largo, $1{,}5\text{ m}$ de ancho y $1\text{ m}$ de profundidad en un terreno que ofrece el triple de resistencia en $24\text{ días}$ laborando $8\text{ h/d}$?
+43. Una cuadrilla de $12$ obreros trabajando $7\text{ h/d}$ pueden cavar una zanja de $140\text{ m}$ de largo, $1\text{ m}$ de ancho y $1{,}2\text{ m}$ de profundidad en $16\text{ días}$. ¿Cuántos obreros con la mitad de rendimiento se necesitarán para cavar otra zanja de $210\text{ m}$ de largo, $1{,}5\text{ m}$ de ancho y $1\text{ m}$ de profundidad en un terreno que ofrece el triple de resistencia en $24\text{ días}$ laborando $8\text{ h/d}$?  
 A) $36$  
 B) $40$  
 C) $42$  
 D) $45$  
 E) $48$  
 
-44. Se divide el número $1\,900$ en tres partes tales que la primera es a la segunda como $2$ es a $3$, y la segunda es a la tercera como $4$ es a $5$. Determine la mayor de las partes.
+44. Se divide el número $1\,900$ en tres partes tales que la primera es a la segunda como $2$ es a $3$, y la segunda es a la tercera como $4$ es a $5$. Determine la mayor de las partes.  
 A) $\text{S/ } 750$  
 B) $\text{S/ } 800$  
 C) $\text{S/ } 850$  
 D) $\text{S/ } 900$  
 E) $\text{S/ } 950$  
 
-45. En una prueba de resistencia de materiales para construcción antisísmica en CISMID-UNI, la flexión máxima $f$ de una viga rectangular es directamente proporcional a la carga aplicada $W$ y al cubo de la longitud $L$, e inversamente proporcional al ancho de la base $b$ y al cubo del peralte $h$. Si una viga experimenta una flexión de $4\text{ mm}$, ¿cuál será la nueva flexión si se duplica la carga, se reduce la longitud a la mitad, se reduce la base a la mitad y se duplica el peralte?
+45. En una prueba de resistencia de materiales para construcción antisísmica en CISMID-UNI, la flexión máxima $f$ de una viga rectangular es directamente proporcional a la carga aplicada $W$ y al cubo de la longitud $L$, e inversamente proporcional al ancho de la base $b$ y al cubo del peralte $h$. Si una viga experimenta una flexión de $4\text{ mm}$, ¿cuál será la nueva flexión si se duplica la carga, se reduce la longitud a la mitad, se reduce la base a la mitad y se duplica el peralte?  
 A) $0{,}25\text{ mm}$  
 B) $0{,}5\text{ mm}$  
 C) $1\text{ mm}$  
