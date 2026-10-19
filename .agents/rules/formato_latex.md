@@ -25,6 +25,8 @@ Este documento define las normas obligatorias para asegurar que toda fórmula ma
    ```
 3. **Cierre correlativo de `$`:***
    * En cada línea de texto, el conteo total de caracteres `$` (descontando los bloques `$$`) debe ser siempre un número **par**.
+4. **Líneas en blanco obligatorias ANTES y DESPUÉS de bloques `$$ ... $$`:**
+   * En Markdown y MyST (Jupyter Book / GitHub Pages), los bloques de ecuaciones `$$` deben tener obligatoriamente una línea en blanco anterior y una posterior. Si se colocan pegados al párrafo anterior sin línea en blanco, el analizador lo trata como texto dentro de `<p>`, rompiendo la interpretación de MathJax e insertando caracteres `$` crudos.
 
 ---
 

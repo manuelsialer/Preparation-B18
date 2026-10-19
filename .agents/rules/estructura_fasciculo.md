@@ -1,9 +1,9 @@
-# Estructura Estándar de los Fascículos Didácticos
+# Estructura Estándar de los Temas Didácticos
 
-Cada fascículo de la carpeta `Clases/` debe seguir esta estructura obligatoria:
+Cada tema de la carpeta `Clases/` debe seguir esta estructura obligatoria (sin índice manual de markdown, ya que Jupyter Book genera automáticamente el índice interactivo lateral):
 
 1. **Encabezado y Metadatos:**
-   - Materia, Número de Fascículo y Título.
+   - Materia, Número de Tema y Título.
    - Indicador Oficial de PRONABEC / CNEB asociado.
    - Competencia y Capacidades a desarrollar.
 
