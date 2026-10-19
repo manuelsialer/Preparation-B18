@@ -19,7 +19,7 @@ El módulo cubre los temas angulares del álgebra elemental y superior con teor�
 | **05** | [Función Lineal y Función Afín](05_Funcion_Lineal_y_Afin.md) | Pendiente, ordenada al origen, ecuación punto-pendiente, paralelismo, perpendicularidad y modelos afines |
 | **06** | [Ecuaciones Cuadráticas](06_Ecuaciones_Cuadraticas.md) | Aspa simple, fórmula general, discriminante, Teorema de Cardano-Vieta y reconstrucción de ecuaciones |
 | **07** | [Función Cuadrática](07_Funcion_Cuadratica.md) | Parábola, coordenadas del vértice, concavidad, eje de simetría y problemas de optimización (máximos y mínimos) |
-| **08** | Polinomios y Operaciones | Grados absoluto y relativo, polinomios especiales, valor numérico y productos notables |
+| **08** | [Polinomios y Operaciones](08_Polinomios_y_Operaciones.md) | Grados absoluto y relativo, polinomios especiales, valor numérico y productos notables |
 | **09** | División Algebraica y Teorema del Resto | Método de Horner, regla de Ruffini, Teorema del Resto y divisibilidad algebraica |
 | **10** | Factorización y Fracciones Algebraicas | Criterios de factorización, aspa doble y especial, MCM/MCD de polinomios y simplificación de fracciones |
 | **11** | Radicación y Racionalización | Radicales dobles a simples, factores racionalizantes de diversos órdenes y valor numérico |
