@@ -1,4 +1,4 @@
-# Módulo 3: Geometría (Forma, Movimiento y Localización)
+# Geometría 
 
 Bienvenido al módulo de **Geometría**, rigurosamente alineado con la matriz de evaluación del **Examen Nacional de Preselección (ENP) Beca 18** y los estándares del **Currículo Nacional (CNEB)**.
 
