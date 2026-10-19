@@ -758,12 +758,10 @@ Extrayendo raíz cuadrada: $r' = \sqrt{1{,}44} \cdot r = 1{,}20 \cdot r$, lo que
 
 ---
 
-## 7. Formulario Resumen (Cheat Sheet) en LaTeX
+## 7. Formulario Resumen
 
 $$
 \begin{array}{|c|c|}
-\hline
-\multicolumn{2}{|c|}{\textbf{RELACIONES FUNDAMENTALES DE TANTO POR CIENTO}} \\
 \hline
 \textbf{Concepto} & \textbf{Expresión Matemática} \\
 \hline
@@ -779,8 +777,6 @@ $$
 $$
 \begin{array}{|c|c|}
 \hline
-\multicolumn{2}{|c|}{\textbf{MODELO COMERCIAL ESTÁNDAR PREUNIVERSITARIO}} \\
-\hline
 \textbf{Magnitud Comercial} & \textbf{Ecuación y Regla Convencional} \\
 \hline
 \text{Con Ganancia} & P_v = P_c + G \quad (\text{por defecto: } G = g\% \cdot P_c) \\
@@ -794,8 +790,6 @@ $$
 
 $$
 \begin{array}{|c|c|}
-\hline
-\multicolumn{2}{|c|}{\textbf{VARIACIONES GEOMÉTRICAS Y MEZCLAS PORCENTUALES}} \\
 \hline
 \textbf{Caso de Aplicación} & \textbf{Algoritmo Óptimo} \\
 \hline

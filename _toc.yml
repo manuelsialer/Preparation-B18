@@ -9,3 +9,4 @@ parts:
       - file: Clases/Aritmetica/04_Notacion_Cientifica_y_Exponencial
       - file: Clases/Aritmetica/05_Sistema_de_Unidades_y_Conversion
       - file: Clases/Aritmetica/06_Tanto_por_Ciento_y_Variaciones_Porcentuales
+      - file: Clases/Aritmetica/07_Interes_Simple

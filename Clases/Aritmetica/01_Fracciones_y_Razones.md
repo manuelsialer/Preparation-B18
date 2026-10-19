@@ -930,7 +930,7 @@ Como el $\text{MCD}(P, Q) = 5$, la fracción real multiplicada por su factor es 
 
 ---
 
-## 7. FORMULARIO RESUMEN (CHEAT SHEET)
+## 7. Formulario Resumen
 
 ### 1. Definición y Clasificación Fundamental
 

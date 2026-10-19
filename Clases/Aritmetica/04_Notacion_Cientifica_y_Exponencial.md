@@ -929,7 +929,7 @@ $$N = \frac{8.0 \times 10^{12}}{2.5 \times 10^{-7}} = \left(\frac{8.0}{2.5}\righ
 
 ---
 
-## 7. FORMULARIO RESUMEN (CHEAT SHEET EN LATEX)
+## 7. Formulario Resumen
 
 ### 1. Definición Canónica de la Notación Científica
 

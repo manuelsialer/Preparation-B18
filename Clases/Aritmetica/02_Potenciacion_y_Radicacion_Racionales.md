@@ -1012,7 +1012,7 @@ Para consolidar tu aprendizaje autónomo, revisa las directrices de los 5 proble
 
 ---
 
-## 7. FORMULARIO RESUMEN (CHEAT SHEET)
+## 7. Formulario Resumen
 
 ### 1. Definiciones y Exponentes Especiales
 

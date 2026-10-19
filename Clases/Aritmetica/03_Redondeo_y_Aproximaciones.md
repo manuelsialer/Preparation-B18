@@ -901,7 +901,7 @@ Para afianzar tu destreza en los problemas de mayor exigencia analítica del Blo
 
 ---
 
-## 7. FORMULARIO RESUMEN (CHEAT SHEET EN LATEX)
+## 7. Formulario Resumen
 
 ### 1. Clasificación Decimal y Fracción Generatriz
 

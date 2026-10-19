@@ -872,12 +872,10 @@ El área de la sección circular de la probeta es $A = \frac{\pi \cdot D^2}{4} =
 
 ---
 
-## 7. Formulario Resumen (Cheat Sheet) en LaTeX
+## 7. Formulario Resumen
 
 $$
 \begin{array}{|c|c|c|}
-\hline
-\multicolumn{3}{|c|}{\textbf{TABLA GENERAL DE PREFIJOS DEL SISTEMA INTERNACIONAL (SI)}} \\
 \hline
 \textbf{Prefijo} & \textbf{Símbolo} & \textbf{Factor Multiplicador} \\
 \hline
@@ -895,8 +893,6 @@ $$
 $$
 \begin{array}{|c|c|}
 \hline
-\multicolumn{2}{|c|}{\textbf{EQUIVALENCIAS DE LONGITUD, SUPERFICIE Y CAPACIDAD}} \\
-\hline
 \textbf{Magnitud} & \textbf{Equivalencias Fundamentales} \\
 \hline
 \text{Longitud Lineal} & 1\text{ km} = 1\,000\text{ m} = 10^5\text{ cm} = 10^6\text{ mm} \\
@@ -910,14 +906,12 @@ $$
 $$
 \begin{array}{|c|c|}
 \hline
-\multicolumn{2}{|c|}{\textbf{SISTEMA DE TIEMPO (SEXAGESIMAL Y COMPUESTAS)}} \\
-\hline
 \textbf{Concepto} & \textbf{Relación Matemática} \\
 \hline
 \text{Equivalencias de Tiempo} & 1\text{ día} = 24\text{ h} = 1\,440\text{ min} = 86\,400\text{ s} \quad \mid \quad 1\text{ h} = 60\text{ min} = 3\,600\text{ s} \\
 \text{Año Comercial / Común} & 1\text{ año com.} = 360\text{ días} \quad \mid \quad 1\text{ año común} = 365\text{ días} \quad \mid \quad 1\text{ año bis.} = 366\text{ días} \\
 \text{Conversión Decimal a Horas} & H{,}D\text{ h} \implies \text{Minutos} = D \times 60 \quad (0{,}45\text{ h} = 27\text{ min}) \\
-\text{Factor de Velocidad} & 1\frac{\text{km}}{\text{h}} \xrightarrow{\times \frac{5}{18}} \frac{\text{m}}{\text{s}} \qquad \mid \qquad 1\frac{\text{m}}{\text{s}} \xrightarrow{\times \frac{18}{5}} \frac{\text{km}}{\text{h}} \\
+\text{Factor de Velocidad} & 1\frac{\text{km}}{\text{h}} \to \; [\times \frac{5}{18}] \to \frac{\text{m}}{\text{s}} \qquad \mid \qquad 1\frac{\text{m}}{\text{s}} \to \; [\times \frac{18}{5}] \to \frac{\text{km}}{\text{h}} \\
 \text{Caudal Volumétrico} & Q = \frac{V}{t} \quad \left(1\frac{\text{m}^3}{\text{s}} = 1\,000\frac{\text{L}}{\text{s}} = 3\,600\frac{\text{m}^3}{\text{h}}\right) \\
 \hline
 \end{array}
