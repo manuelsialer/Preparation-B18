@@ -19,3 +19,4 @@ parts:
       - file: Clases/Algebra/03_Sistemas_de_Ecuaciones_Lineales
       - file: Clases/Algebra/04_Inecuaciones_de_Primer_Grado
       - file: Clases/Algebra/05_Funcion_Lineal_y_Afin
+      - file: Clases/Algebra/06_Ecuaciones_Cuadraticas
