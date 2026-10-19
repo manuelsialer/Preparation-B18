@@ -6,22 +6,22 @@ Bienvenido al repositorio y compendio didáctico interactivo desarrollado para l
 
 ## 🎯 Enfoque Pedagógico del Material
 
-Cada fascículo ha sido diseñado bajo los estándares oficiales del **Currículo Nacional (CNEB)** y el temario oficial del **PRONABEC**:
-1. **Fundamentación Teórica Rigurosa:** Explicada desde los primeros principios, axiomas y propiedades, sin omitir procedimientos intermedios.
+Cada tema ha sido diseñado bajo los estándares oficiales del **Currículo Nacional (CNEB)** y el temario oficial del **PRONABEC**:
+1. **Fundamentación Teórica Rigurosa:** Explicada desde los primeros principios, axiomas y propiedades, sin omitir procedimientos intermedios y complementada con figuras vectoriales de alta precisión en **LaTeX TikZ**.
 2. **Ejercicios Resueltos Paso a Paso:** 10 problemas modelo categorizados por nivel (Básico, Intermedio y Avanzado/Beca 18) con estrategia y análisis detallado.
 3. **Práctica Propuesta:** 45 problemas organizados en 3 bloques de dificultad progresiva con tabla de claves de respuesta verificadas.
-4. **Formulario Resumen (Cheat Sheet):** Síntesis de fórmulas y propiedades esenciales en una sola página.
+4. **Formulario Resumen (Cheat Sheet):** Síntesis de fórmulas y propiedades esenciales en tablas Markdown nativas.
 
 ---
 
 ## 📚 Estructura de Cursos
 
-* **Aritmética:** Números racionales, potencias, aproximaciones, porcentajes, interés simple y magnitudes.
-* **Álgebra:** Intervalos, ecuaciones, inecuaciones, sistemas lineales y funciones (lineal, afín, cuadrática y exponencial).
-* **Geometría:** Puntos y líneas notables, relaciones métricas, cuadriláteros, polígonos, circunferencia y cuerpos de revolución.
-* **Trigonometría:** Razones trigonométricas, ángulos notables y ángulos verticales de elevación y depresión.
-* **Estadística y Probabilidad:** Tablas con datos agrupados, medidas de tendencia central, gráficos y regla de Laplace.
-* **Competencia Lectora:** Comprensión literal, inferencial y evaluación crítica de textos continuos y discontinuos.
+* **Módulo 1: Aritmética (9 temas):** Números racionales, potencias, aproximaciones, porcentajes, interés simple, magnitudes y progresiones.
+* **Módulo 2: Álgebra (12 temas):** Intervalos, ecuaciones, inecuaciones, sistemas lineales, funciones, polinomios, factorización y logaritmos.
+* **Módulo 3: Geometría (6 temas):** Puntos y líneas notables, relaciones métricas, cuadriláteros, polígonos, circunferencia y cuerpos de revolución con figuras vectoriales TikZ.
+* **Módulo 4: Trigonometría (3 temas):** Razones trigonométricas, triángulos notables, ángulos verticales e identidades fundamentales.
+* **Módulo 5: Estadística y Probabilidad (4 temas):** Tablas con datos agrupados, medidas de tendencia central, gráficos y regla de Laplace.
+* **Módulo 6: Competencia Lectora (Próximamente):** Comprensión literal, inferencial y evaluación crítica.
 
 ---
 
