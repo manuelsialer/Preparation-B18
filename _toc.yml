@@ -10,3 +10,4 @@ parts:
       - file: Clases/Aritmetica/05_Sistema_de_Unidades_y_Conversion
       - file: Clases/Aritmetica/06_Tanto_por_Ciento_y_Variaciones_Porcentuales
       - file: Clases/Aritmetica/07_Interes_Simple
+      - file: Clases/Aritmetica/08_Magnitudes_Proporcionales_y_Regla_de_Tres
