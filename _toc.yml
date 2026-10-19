@@ -34,3 +34,8 @@ chapters:
       - file: Clases/Geometria/04_Poligonos_Regulares_y_Propiedades
       - file: Clases/Geometria/05_Circunferencia_y_Circulo
       - file: Clases/Geometria/06_Cuerpos_de_Revolucion_Cilindro_Esfera_y_Cono
+  - file: Clases/Trigonometria/index
+    sections:
+      - file: Clases/Trigonometria/01_Razones_Trigonometricas_y_Triangulos_Notables
+      - file: Clases/Trigonometria/02_Angulos_Verticales_Elevacion_y_Depresion
+      - file: Clases/Trigonometria/03_Identidades_Trigonometricas_Fundamentales
