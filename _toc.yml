@@ -20,3 +20,4 @@ parts:
       - file: Clases/Algebra/04_Inecuaciones_de_Primer_Grado
       - file: Clases/Algebra/05_Funcion_Lineal_y_Afin
       - file: Clases/Algebra/06_Ecuaciones_Cuadraticas
+      - file: Clases/Algebra/07_Funcion_Cuadratica
