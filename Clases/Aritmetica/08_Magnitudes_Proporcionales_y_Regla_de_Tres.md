@@ -29,7 +29,9 @@ $$\text{Si } A \text{ D.P. } B \iff \frac{A}{B} = k \quad (k \in \mathbb{R}^+, \
 
 #### Propiedades Analíticas y Gráficas de la Proporcionalidad Directa:
 1. **Cociente Constante:** Para cualesquiera pares de valores correspondientes $(a_1, b_1), (a_2, b_2)$:
+
 $$\frac{a_1}{b_1} = \frac{a_2}{b_2} = \dots = \frac{a_n}{b_n} = k$$
+
 2. **Representación Gráfica:** En el plano cartesiano, la gráfica de dos magnitudes D.P. es una **línea recta que pasa por el origen de coordenadas** $(0, 0)$ (excluyendo el origen si las cantidades físicas son estrictamente positivas).
 3. **Función de Proporcionalidad Directa:** $f(x) = k \cdot x$, donde $f(a + b) = f(a) + f(b)$ y $f(m \cdot x) = m \cdot f(x)$.
 
@@ -40,7 +42,9 @@ $$\text{Si } A \text{ I.P. } B \iff A \cdot B = k \quad (k \in \mathbb{R}^+, \te
 
 #### Propiedades Analíticas y Gráficas de la Proporcionalidad Inversa:
 1. **Producto Constante:** Para cualesquiera pares de valores $(a_1, b_1), (a_2, b_2)$:
+
 $$a_1 \cdot b_1 = a_2 \cdot b_2 = \dots = a_n \cdot b_n = k$$
+
 2. **Representación Gráfica:** En el plano cartesiano, la gráfica de dos magnitudes I.P. es una **rama de hipérbola equilátera**.
 3. **Función de Proporcionalidad Inversa:** $f(x) = \frac{k}{x}$.
 
@@ -48,10 +52,13 @@ $$a_1 \cdot b_1 = a_2 \cdot b_2 = \dots = a_n \cdot b_n = k$$
 Sean $A$, $B$, $C$ y $D$ magnitudes medibles:
 
 1. **Relación Inversa Fundamental:**
+
 $$A \text{ D.P. } B \iff A \text{ I.P. } \frac{1}{B}$$
+
 $$A \text{ I.P. } B \iff A \text{ D.P. } \frac{1}{B}$$
 
 2. **Potenciación y Radicación:**
+
 $$A \text{ D.P. } B \iff A^n \text{ D.P. } B^n \iff \sqrt[n]{A} \text{ D.P. } \sqrt[n]{B} \quad (n \in \mathbb{Q}^+)$$
 
 3. **Ley de Composición de Magnitudes Múltiples:**
@@ -60,6 +67,7 @@ Si una magnitud $A$ se relaciona simultáneamente con varias magnitudes independ
 * Si $A \text{ I.P. } C$ (manteniendo constantes las demás).
 * Si $A \text{ D.P. } D$ (manteniendo constantes las demás).
 Entonces, la fórmula unificada de proporcionalidad es:
+
 $$\frac{A \cdot C}{B \cdot D} = k \quad (\text{constante universal de la situación})$$
 
 ### 2.5 Regla de Tres Compuesta: El Método Causa - Circunstancia - Efecto
@@ -70,6 +78,7 @@ Cualquier problema de obra, producción o rendimiento puede descomponerse de for
 3. **Efecto:** El resultado final o producto obtenido de la acción (longitud o volumen de la obra construida, hectáreas sembradas, piezas fabricadas) afectado por la **dificultad** del terreno o la resistencia del material.
 
 #### Fórmula Maestra de la Regla de Tres Compuesta:
+
 $$\frac{(\text{Causa}) \cdot (\text{Circunstancia})}{(\text{Efecto}) \cdot (\text{Dificultad})} = k$$
 
 $$\frac{(\text{Obreros}) \cdot (\text{Eficiencia}) \cdot (\text{Días}) \cdot (\text{Horas/Día})}{(\text{Obra}) \cdot (\text{Dificultad})} = \text{constante}$$
@@ -79,8 +88,11 @@ El **Reparto Proporcional** consiste en distribuir una cantidad total $N$ en par
 
 #### A. Reparto Simple Directo:
 Si las partes $c_1, c_2, \dots, c_n$ son D.P. a los índices $a_1, a_2, \dots, a_n$:
+
 $$\frac{c_1}{a_1} = \frac{c_2}{a_2} = \dots = \frac{c_n}{a_n} = k = \frac{N}{a_1 + a_2 + \dots + a_n}$$
+
 Cada parte se calcula como:
+
 $$c_i = a_i \cdot k$$
 
 #### B. Reparto Simple Inverso:
@@ -88,6 +100,7 @@ Se transforma el reparto inverso a directo **invirtiendo los índices** ($\frac{
 
 #### C. Regla de Compañía:
 La ganancia ($G$) o pérdida ($P$) de cada socio de una empresa es D.P. al capital aportado ($C$) y D.P. al tiempo ($t$) de permanencia de dicho capital:
+
 $$\frac{G_1}{C_1 \cdot t_1} = \frac{G_2}{C_2 \cdot t_2} = \dots = \frac{G_n}{C_n \cdot t_n} = \frac{G_{\text{total}}}{\sum (C_i \cdot t_i)}$$
 
 ---
@@ -100,14 +113,18 @@ $$\frac{G_1}{C_1 \cdot t_1} = \frac{G_2}{C_2 \cdot t_2} = \dots = \frac{G_n}{C_n
 Se sabe que la magnitud $A$ es directamente proporcional al cuadrado de $B$. Cuando $A = 48$, el valor de $B$ es $4$. Determine el valor de $A$ cuando $B = 6$.
 
 **Solución paso a paso:**
-1. Establecer la relación analítica de proporcionalidad:
+
+**Paso 1:** Establecer la relación analítica de proporcionalidad:
 Como $A \text{ D.P. } B^2$:
+
 $$\frac{A}{B^2} = k \quad (\text{constante})$$
 
-2. Hallar el valor de la constante de proporcionalidad $k$ con los datos iniciales:
+**Paso 2:** Hallar el valor de la constante de proporcionalidad $k$ con los datos iniciales:
+
 $$k = \frac{48}{4^2} = \frac{48}{16} = 3$$
 
-3. Calcular el valor de $A$ cuando $B = 6$:
+**Paso 3:** Calcular el valor de $A$ cuando $B = 6$:
+
 $$\frac{A}{6^2} = 3 \implies \frac{A}{36} = 3 \implies A = 3 \times 36 = 108$$
 
 *Respuesta:* El valor de $A$ es $108$.
@@ -118,17 +135,21 @@ $$\frac{A}{6^2} = 3 \implies \frac{A}{36} = 3 \implies A = 3 \times 36 = 108$$
 Una cuadrilla de $18$ obreros municipales en Puno puede pavimentar un tramo de vereda en $12\text{ días}$ trabajando a un ritmo regular. Si se incorporan $6$ obreros más con la misma eficiencia, ¿en cuántos días culminarán el mismo tramo de vereda?
 
 **Solución paso a paso:**
-1. Identificar las magnitudes y su tipo de relación:
+
+**Paso 1:** Identificar las magnitudes y su tipo de relación:
 * Magnitudes: Número de obreros ($O$) y Tiempo en días ($D$).
 * A mayor número de obreros, se requerirá menor cantidad de días para realizar la misma obra $\implies$ Son **Inversamente Proporcionales (I.P.)**.
+
 $$O \cdot D = k \quad (\text{producto constante})$$
 
-2. Plantear los pares de valores:
+**Paso 2:** Plantear los pares de valores:
 * Situación 1: $O_1 = 18\text{ obreros}$, $D_1 = 12\text{ días}$.
 * Situación 2: $O_2 = 18 + 6 = 24\text{ obreros}$, $D_2 = x\text{ días}$.
 
-3. Aplicar la igualdad de productos:
+**Paso 3:** Aplicar la igualdad de productos:
+
 $$18 \times 12 = 24 \times x$$
+
 $$216 = 24x \implies x = \frac{216}{24} = 9\text{ días}$$
 
 *Respuesta:* Culminarán el tramo en $9\text{ días}$.
@@ -139,14 +160,19 @@ $$216 = 24x \implies x = \frac{216}{24} = 9\text{ días}$$
 Una comunidad campesina recibe una subvención estatal de $\text{S/ } 14\,400$ para proyectos productivos. Se acuerda repartir el dinero entre tres comités de agricultores de manera directamente proporcional al número de familias beneficiarias: el comité $A$ tiene $24$ familias, el comité $B$ tiene $36$ familias y el comité $C$ tiene $60$ familias. ¿Cuánto dinero le corresponde al comité $B$?
 
 **Solución paso a paso:**
-1. Sumar los índices de reparto:
+
+**Paso 1:** Sumar los índices de reparto:
+
 $$\text{Suma de índices} = 24 + 36 + 60 = 120$$
 
-2. Calcular la constante de reparto ($k$):
+**Paso 2:** Calcular la constante de reparto ($k$):
+
 $$k = \frac{\text{Total}}{\text{Suma de índices}} = \frac{14\,400}{120} = \text{S/ } 120\text{ por familia}$$
 
-3. Calcular la parte correspondiente al comité $B$:
+**Paso 3:** Calcular la parte correspondiente al comité $B$:
+
 $$B = 36 \times k = 36 \times 120 = \text{S/ } 4\,320$$
+
 *(Verificación: $A = 24 \times 120 = 2\,880$; $C = 60 \times 120 = 7\,200$; Suma $= 2\,880 + 4\,320 + 7\,200 = 14\,400$).*
 
 *Respuesta:* Al comité $B$ le corresponden $\text{S/ } 4\,320$.
@@ -159,22 +185,28 @@ $$B = 36 \times k = 36 \times 120 = \text{S/ } 4\,320$$
 Una cuadrilla de $15$ operarios agrícolas puede cosechar un campo de $6\text{ hectáreas}$ de espárragos en $8\text{ días}$ trabajando a razón de $6\text{ horas diarias}$. ¿Cuántos días tardarán $20$ operarios con la misma eficiencia en cosechar un campo de $10\text{ hectáreas}$ trabajando $9\text{ horas diarias}$?
 
 **Solución paso a paso:**
-1. Clasificar las magnitudes según el esquema Causa - Circunstancia - Efecto:
+
+**Paso 1:** Clasificar las magnitudes según el esquema Causa - Circunstancia - Efecto:
 * **Causa:** Número de operarios ($O$).
 * **Circunstancia:** Días ($D$) y Horas diarias ($H/d$).
 * **Efecto:** Hectáreas de cosecha ($A$).
 
-2. Plantear la fórmula maestra de proporcionalidad:
+**Paso 2:** Plantear la fórmula maestra de proporcionalidad:
+
 $$\frac{O \cdot D \cdot H/d}{A} = k$$
 
-3. Organizar los datos en una tabla:
+**Paso 3:** Organizar los datos en una tabla:
 * Caso 1: $O_1 = 15$, $D_1 = 8$, $H_1 = 6$, $A_1 = 6$.
 * Caso 2: $O_2 = 20$, $D_2 = x$, $H_2 = 9$, $A_2 = 10$.
 
-4. Igualar las expresiones y despejar la incógnita $x$:
+**Paso 4:** Igualar las expresiones y despejar la incógnita $x$:
+
 $$\frac{15 \cdot 8 \cdot 6}{6} = \frac{20 \cdot x \cdot 9}{10}$$
+
 Simplificamos ambos miembros:
+
 $$15 \cdot 8 = \frac{180 \cdot x}{10}$$
+
 $$120 = 18x \implies x = \frac{120}{18} = \frac{20}{3} = 6{,}\widehat{6}\text{ días} = 6\text{ días y } 16\text{ horas}$$
 
 *Respuesta:* Tardarán $\frac{20}{3}\text{ días}$ ($6\text{ días y } 16\text{ horas}$).
@@ -185,22 +217,28 @@ $$120 = 18x \implies x = \frac{120}{18} = \frac{20}{3} = 6{,}\widehat{6}\text{ d
 Un director de instituto técnico premia a tres estudiantes destacados repartiendo $\text{S/ } 3\,700$ de manera inversamente proporcional al número de tardanzas acumuladas durante el semestre: Carlos tuvo $2$ tardanzas, Ana tuvo $3$ tardanzas y Beatriz tuvo $4$ tardanzas. ¿Cuánto dinero recibe Carlos?
 
 **Solución paso a paso:**
-1. Plantear los índices inversos:
+
+**Paso 1:** Plantear los índices inversos:
 Carlos: $\frac{1}{2}$, Ana: $\frac{1}{3}$, Beatriz: $\frac{1}{4}$.
 
-2. Homogeneizar a números enteros multiplicando por el $\text{MCM}(2, 3, 4) = 12$:
+**Paso 2:** Homogeneizar a números enteros multiplicando por el $\text{MCM}(2, 3, 4) = 12$:
 * Carlos: $\frac{1}{2} \times 12 = 6$
 * Ana: $\frac{1}{3} \times 12 = 4$
 * Beatriz: $\frac{1}{4} \times 12 = 3$
 
-3. Sumar los nuevos índices enteros:
+**Paso 3:** Sumar los nuevos índices enteros:
+
 $$\text{Suma} = 6 + 4 + 3 = 13$$
+
 *(Notemos que con $\text{S/ } 3\,700 \dots$ si el total a repartir es $\text{S/ } 3\,900$ el cálculo es exacto).*
 Ajustando al total de $\text{S/ } 3\,900$:
+
 $$k = \frac{3\,900}{13} = \text{S/ } 300$$
 
-4. Calcular la parte de Carlos:
+**Paso 4:** Calcular la parte de Carlos:
+
 $$\text{Carlos} = 6 \times k = 6 \times 300 = \text{S/ } 1\,800$$
+
 *(Ana recibe $4 \times 300 = 1\,200$; Beatriz recibe $3 \times 300 = 900$; Suma $= 3\,900$).*
 
 *Respuesta:* Carlos recibe $\text{S/ } 1\,800$.
@@ -211,18 +249,23 @@ $$\text{Carlos} = 6 \times k = 6 \times 300 = \text{S/ } 1\,800$$
 Dos socios fundan una pequeña empresa textil en Juliaca. El socio $A$ aporta $\text{S/ } 10\,000$ durante $8\text{ meses}$, y el socio $B$ aporta $\text{S/ } 15\,000$ durante $6\text{ meses}$. Si al liquidar el ejercicio fiscal se obtuvo una ganancia neta total de $\text{S/ } 10\,200$, ¿cuál fue la ganancia correspondiente al socio $B$?
 
 **Solución paso a paso:**
-1. Calcular el producto de (Capital $\times$ Tiempo) para cada socio:
+
+**Paso 1:** Calcular el producto de (Capital $\times$ Tiempo) para cada socio:
 * Socio $A$: $P_A = 10\,000 \times 8 = 80\,000$
 * Socio $B$: $P_B = 15\,000 \times 6 = 90\,000$
 
-2. Simplificar la relación de proporcionalidad cancelando ceros:
+**Paso 2:** Simplificar la relación de proporcionalidad cancelando ceros:
+
 $$\frac{G_A}{8} = \frac{G_B}{9} = k$$
 
-3. Sumar las partes proporcionales:
+**Paso 3:** Sumar las partes proporcionales:
+
 $$8k + 9k = 17k = 10\,200 \implies k = \frac{10\,200}{17} = 600$$
 
-4. Calcular la ganancia del socio $B$:
+**Paso 4:** Calcular la ganancia del socio $B$:
+
 $$G_B = 9 \times k = 9 \times 600 = \text{S/ } 5\,400$$
+
 *(El socio $A$ recibe $8 \times 600 = \text{S/ } 4\,800$).*
 
 *Respuesta:* Al socio $B$ le corresponden $\text{S/ } 5\,400$ de ganancia.
@@ -233,22 +276,29 @@ $$G_B = 9 \times k = 9 \times 600 = \text{S/ } 5\,400$$
 Una empresa constructora se compromete a realizar una obra vial en $30\text{ días}$ empleando a $24\text{ obreros}$. Al cabo de $10\text{ días}$ de labor, se retiran $8\text{ obreros}$. ¿Cuántos días de retraso sufrirá la entrega de la obra si los obreros restantes continúan trabajando al mismo ritmo?
 
 **Solución paso a paso:**
-1. Analizar el trabajo restante después de los primeros $10$ días:
+
+**Paso 1:** Analizar el trabajo restante después de los primeros $10$ días:
 En los primeros $10\text{ días}$, los $24\text{ obreros}$ avanzaron una parte de la obra.
 El trabajo restante habría sido culminado por los mismos $24\text{ obreros}$ en los días que faltaban del plazo original:
+
 $$D_{\text{faltantes}} = 30 - 10 = 20\text{ días}$$
+
 Por lo tanto, la cantidad de trabajo restante equivale a:
+
 $$\text{Trabajo pendiente} = 24\text{ obreros} \times 20\text{ días} = 480\text{ obrero-días}$$
 
-2. Calcular los días que tardarán los obreros restantes en terminar lo que falta:
+**Paso 2:** Calcular los días que tardarán los obreros restantes en terminar lo que falta:
 Número de obreros que quedan: $24 - 8 = 16\text{ obreros}$.
 Sea $t$ los días que tardarán estos $16\text{ obreros}$:
+
 $$16 \times t = 480 \implies t = \frac{480}{16} = 30\text{ días}$$
 
-3. Calcular el tiempo total real empleado en la obra:
+**Paso 3:** Calcular el tiempo total real empleado en la obra:
+
 $$T_{\text{real}} = 10\text{ días (iniciales)} + 30\text{ días (finales)} = 40\text{ días}$$
 
-4. Calcular los días de retraso respecto al plazo contractual de $30\text{ días}$:
+**Paso 4:** Calcular los días de retraso respecto al plazo contractual de $30\text{ días}$:
+
 $$\text{Retraso} = 40 - 30 = 10\text{ días}$$
 
 *Respuesta:* La entrega de la obra sufrirá un retraso de $10\text{ días}$.
@@ -261,31 +311,40 @@ $$\text{Retraso} = 40 - 30 = 10\text{ días}$$
 Para la instalación de defensas ribereñas en el río Piura, $16$ obreros de alta especialización (eficiencia $120\%$) pueden cavar una zanja de $180\text{ metros}$ de longitud, $2\text{ metros}$ de ancho y $1{,}5\text{ metros}$ de profundidad en un terreno arenoso (dificultad $1$) en $15\text{ días}$ a razón de $8\text{ horas diarias}$. ¿Cuántos obreros estándar (eficiencia $100\%$) se requerirán para cavar otra zanja de $240\text{ metros}$ de longitud, $2{,}5\text{ metros}$ de ancho y $2\text{ metros}$ de profundidad en un terreno rocoso y arcilloso (dificultad $2{,}5$) en $20\text{ días}$ trabajando $6\text{ horas diarias}$?
 
 **Solución paso a paso:**
-1. Calcular el volumen de obra para cada zanja ($V = \text{largo} \times \text{ancho} \times \text{profundidad}$):
+
+**Paso 1:** Calcular el volumen de obra para cada zanja ($V = \text{largo} \times \text{ancho} \times \text{profundidad}$):
 * Obra 1: $V_1 = 180 \times 2 \times 1{,}5 = 540\text{ m}^3$.
 * Obra 2: $V_2 = 240 \times 2{,}5 \times 2 = 1\,200\text{ m}^3$.
 
-2. Aplicar la fórmula maestra:
+**Paso 2:** Aplicar la fórmula maestra:
+
 $$\frac{(\text{Obreros}) \cdot (\text{Eficiencia}) \cdot (\text{Días}) \cdot (\text{Horas/Día})}{(\text{Volumen de Obra}) \cdot (\text{Dificultad})} = k$$
 
-3. Organizar los datos numéricos:
+**Paso 3:** Organizar los datos numéricos:
 * Caso 1: $O_1 = 16$, $E_1 = 1{,}2$, $D_1 = 15$, $H_1 = 8$, $V_1 = 540$, $\text{Dif}_1 = 1$.
 * Caso 2: $O_2 = x$, $E_2 = 1{,}0$, $D_2 = 20$, $H_2 = 6$, $V_2 = 1\,200$, $\text{Dif}_2 = 2{,}5$.
 
-4. Igualar las razones de proporcionalidad:
+**Paso 4:** Igualar las razones de proporcionalidad:
+
 $$\frac{16 \cdot 1{,}2 \cdot 15 \cdot 8}{540 \cdot 1} = \frac{x \cdot 1{,}0 \cdot 20 \cdot 6}{1\,200 \cdot 2{,}5}$$
 
-5. Efectuar los cálculos aritméticos paso a paso:
+**Paso 5:** Efectuar los cálculos aritméticos paso a paso:
 * Numerador del primer miembro: $16 \times 1{,}2 \times 15 \times 8 = 19{,}2 \times 120 = 2\,304$.
 * Denominador del primer miembro: $540$.
+
 $$\frac{2\,304}{540} = \frac{64}{15}$$
+
 * Numerador del segundo miembro: $x \times 120$.
 * Denominador del segundo miembro: $1\,200 \times 2{,}5 = 3\,000$.
+
 $$\frac{120x}{3\,000} = \frac{x}{25}$$
 
-6. Despejar la incógnita $x$:
+**Paso 6:** Despejar la incógnita $x$:
+
 $$\frac{64}{15} = \frac{x}{25} \implies x = \frac{64 \times 25}{15} = \frac{64 \times 5}{3} = \frac{320}{3} \approx 106{,}67$$
+
 Como el número de obreros debe ser un entero capaz de culminar la obra dentro del plazo estipulado, se redondea por exceso al entero inmediato superior:
+
 $$x = 107\text{ obreros}$$
 
 *Respuesta:* Se requerirán $107\text{ obreros}$ estándar para culminar la obra en el plazo fijado.
@@ -296,33 +355,47 @@ $$x = 107\text{ obreros}$$
 Tres ingenieros agrónomos de la Universidad Nacional Agraria La Molina forman una consultora para proyectos de riego en Olmos. El ingeniero $A$ inició el negocio aportando $\text{S/ } 20\,000$. A los $4\text{ meses}$ ingresó el ingeniero $B$ aportando $\text{S/ } 30\,000$. A los $8\text{ meses}$ de iniciada la empresa ingresó el ingeniero $C$ con $\text{S/ } 50\,000$, momento en el cual el ingeniero $A$ retiró $\text{S/ } 5\,000$ de su capital. Si la empresa funcionó durante $1\text{ año}$ completo y al final arrojó una utilidad líquida de $\text{S/ } 74\,000$, determine la ganancia correspondiente al ingeniero $A$.
 
 **Solución paso a paso:**
-1. Desglosar el producto (Capital $\times$ Tiempo en meses) de cada socio en el año ($12\text{ meses}$):
+
+**Paso 1:** Desglosar el producto (Capital $\times$ Tiempo en meses) de cada socio en el año ($12\text{ meses}$):
 * **Socio A:**
 Durante los primeros $8\text{ meses}$ tuvo $\text{S/ } 20\,000$.
 Durante los últimos $4\text{ meses}$ tuvo $20\,000 - 5\,000 = \text{S/ } 15\,000$.
+
 $$P_A = (20\,000 \times 8) + (15\,000 \times 4) = 160\,000 + 60\,000 = 220\,000$$
+
 * **Socio B:**
 Ingresó al mes 4, por lo que su capital estuvo colocado durante $12 - 4 = 8\text{ meses}$:
+
 $$P_B = 30\,000 \times 8 = 240\,000$$
+
 * **Socio C:**
 Ingresó al mes 8, por lo que su capital estuvo colocado durante $12 - 8 = 4\text{ meses}$:
+
 $$P_C = 50\,000 \times 4 = 200\,000$$
 
-2. Simplificar los índices dividiendo entre $20\,000$:
+**Paso 2:** Simplificar los índices dividiendo entre $20\,000$:
 * $I_A = \frac{220\,000}{20\,000} = 11$
 * $I_B = \frac{240\,000}{20\,000} = 12$
 * $I_C = \frac{200\,000}{20\,000} = 10$
 
-3. Sumar los índices simplificados:
+**Paso 3:** Sumar los índices simplificados:
+
 $$\text{Suma de índices} = 11 + 12 + 10 = 33$$
+
 *(Para que resulte entero con $\text{S/ } 74\,000 \dots$ verifiquemos si la ganancia total es $\text{S/ } 66\,000$ o si $37$ es el divisor):*
 Revisemos los índices: $22 + 24 + 20 = 66 \implies 11 + 12 + 10 = 33$.
 Si la ganancia total es $\text{S/ } 66\,000$:
+
 $$k = \frac{66\,000}{33} = 2\,000$$
+
 $$G_A = 11 \times 2\,000 = \text{S/ } 22\,000$$
+
 Si la ganancia fuera $\text{S/ } 74\,000$:
+
 $$k = \frac{74\,000}{37} = 2\,000 \implies \text{si los índices sumaran } 37$$
+
 Con los datos del enunciado ($33$ partes de $\text{S/ } 74\,000$):
+
 $$G_A = \frac{11}{33} \times 74\,000 = \frac{1}{3} \times 74\,000 = \text{S/ } 24\,666{,}67$$
 
 *Respuesta:* La ganancia del socio $A$ es de $\frac{74\,000}{3} \approx \text{S/ } 24\,666{,}67$.
@@ -333,34 +406,42 @@ $$G_A = \frac{11}{33} \times 74\,000 = \frac{1}{3} \times 74\,000 = \text{S/ } 2
 En una mina subterránea en Cerro de Pasco, la resistencia $R$ de una viga de madera de sección cuadrada varía en forma directamente proporcional a su ancho y al cuadrado de su altura, e inversamente proporcional a la longitud de la viga entre apoyos. Si una viga de $10\text{ cm}$ de ancho, $20\text{ cm}$ de altura y $3\text{ metros}$ de largo soporta una carga máxima de $8\,000\text{ kg}$, ¿qué carga máxima soportará otra viga del mismo tipo de madera de $15\text{ cm}$ de ancho, $30\text{ cm}$ de altura y $4{,}5\text{ metros}$ de longitud?
 
 **Solución paso a paso:**
-1. Establecer la relación analítica entre las magnitudes físicas:
+
+**Paso 1:** Establecer la relación analítica entre las magnitudes físicas:
 * Carga de resistencia: $R$.
 * Ancho de la viga: $b$.
 * Altura de la viga: $h$.
 * Longitud entre apoyos: $L$.
 Según las leyes mecánicas dadas:
+
 $$\frac{R \cdot L}{b \cdot h^2} = k \quad (\text{constante})$$
 
-2. Identificar los valores del caso 1:
+**Paso 2:** Identificar los valores del caso 1:
 * $R_1 = 8\,000\text{ kg}$.
 * $L_1 = 3\text{ m}$.
 * $b_1 = 10\text{ cm}$.
 * $h_1 = 20\text{ cm} \implies h_1^2 = 400\text{ cm}^2$.
 
-3. Identificar los valores del caso 2:
+**Paso 3:** Identificar los valores del caso 2:
 * $R_2 = x$.
 * $L_2 = 4{,}5\text{ m}$.
 * $b_2 = 15\text{ cm}$.
 * $h_2 = 30\text{ cm} \implies h_2^2 = 900\text{ cm}^2$.
 
-4. Igualar las expresiones:
+**Paso 4:** Igualar las expresiones:
+
 $$\frac{8\,000 \cdot 3}{10 \cdot 400} = \frac{x \cdot 4{,}5}{15 \cdot 900}$$
+
 Efectuamos el miembro izquierdo:
+
 $$\frac{24\,000}{4\,000} = 6$$
+
 Efectuamos el miembro derecho:
+
 $$\frac{4{,}5x}{13\,500} = \frac{45x}{135\,000} = \frac{x}{3\,000}$$
 
-5. Despejar la carga resistente $x$:
+**Paso 5:** Despejar la carga resistente $x$:
+
 $$6 = \frac{x}{3\,000} \implies x = 6 \times 3\,000 = 18\,000\text{ kg}$$
 
 *Respuesta:* La nueva viga soportará una carga máxima de $18\,000\text{ kg}$ ($18\text{ toneladas}$).
@@ -727,63 +808,65 @@ El trabajo restante equivale a $30\text{ obreros} \times 30\text{ días} \times 
 
 * **Pista para el Ejercicio 35:**
 Aplique la fórmula maestra:
+
 $$\frac{40 \cdot 1{,}0 \cdot 30 \cdot 8}{120 \cdot 1} = \frac{x \cdot 1{,}2 \cdot 25 \cdot 9}{180 \cdot 1{,}5}$$
+
 Simplifique ambos miembros:
+
 $$\frac{9\,600}{120} = 80 \quad \text{y} \quad \frac{270x}{270} = x \implies x = 80\text{ obreros}$$
 
 * **Pista para el Ejercicio 38:**
 En los primeros $20\text{ días}$ con $36$ obreros a $8\text{ h/d}$ avanzaron el $40\%$ ($0{,}40$). Falta avanzar el $60\%$ ($0{,}60$) en los $20\text{ días}$ restantes con $30$ obreros a $10\text{ h/d}$ y una nueva eficiencia $E$.
+
 $$\frac{36 \cdot 1 \cdot 20 \cdot 8}{0{,}40} = \frac{30 \cdot E \cdot 20 \cdot 10}{0{,}60}$$
+
 $$14\,400 = 10\,000 \cdot E \implies E = 1{,}25$$
+
 Lo que representa un aumento del $25\%$ en la eficiencia de los obreros.
 
 * **Pista para el Ejercicio 42:**
 Al estirarse el alambre conservando su volumen constante: $V = \frac{\pi D^2}{4} \cdot L$. Si la longitud se duplica ($L' = 2L$), el área de la sección transversal debe reducirse a la mitad ($A' = \frac{A}{2}$), lo que implica que el cuadrado del diámetro se reduce a la mitad ($D'^2 = \frac{D^2}{2}$).
 Como $R \propto \frac{L}{D^2}$:
+
 $$R' \propto \frac{2L}{\frac{D^2}{2}} = 4 \cdot \left(\frac{L}{D^2}\right) = 4R$$
+
 La resistencia eléctrica se cuadruplica ($4R$).
 
 * **Pista para el Ejercicio 45:**
 La flexión es $f \propto \frac{W \cdot L^3}{b \cdot h^3}$. Con los nuevos parámetros:
+
 $$f' = \frac{(2W) \cdot (\frac{1}{2}L)^3}{(\frac{1}{2}b) \cdot (2h)^3} \cdot k = \frac{2 \cdot \frac{1}{8}}{\frac{1}{2} \cdot 8} \cdot \frac{W \cdot L^3}{b \cdot h^3} = \frac{\frac{1}{4}}{4} \cdot f = \frac{1}{16} \cdot f$$
+
 Si la flexión original era $4\text{ mm}$, la nueva flexión es $\frac{4}{16} = 0{,}25\text{ mm}$ (ajuste según factores para marcar alternativa B).
 
 ---
 
 ## 7. Formulario Resumen
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Tipo de Proporcionalidad} & \textbf{Condición Analítica y Gráfica} \\
-\hline
-\text{Directamente Proporcional (D.P.)} & \frac{A}{B} = k \iff A = k \cdot B \quad (\text{Recta por el origen}) \\
-\text{Inversamente Proporcional (I.P.)} & A \cdot B = k \iff A = \frac{k}{B} \quad (\text{Hipérbola equilátera}) \\
-\text{Relación Fundamental} & A \text{ D.P. } B \iff A \text{ I.P. } \frac{1}{B} \\
-\text{Potenciación de Magnitudes} & A \text{ D.P. } B \iff A^n \text{ D.P. } B^n \quad (n \in \mathbb{Q}^+) \\
-\hline
-\end{array}
-$$
+### Proporcionalidad y Leyes Fundamentales
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Método} & \textbf{Fórmula Canónica de Resolución} \\
-\hline
-\text{Regla de Tres Compuesta} & \frac{(\text{Obreros}) \cdot (\text{Eficiencia}) \cdot (\text{Días}) \cdot (\text{Horas/Día})}{(\text{Obra}) \cdot (\text{Dificultad})} = k \\
-\text{Esquema General} & \frac{(\text{Causa}) \cdot (\text{Circunstancia})}{(\text{Efecto}) \cdot (\text{Dificultad})} = \text{constante} \\
-\hline
-\end{array}
-$$
+| Tipo de Proporcionalidad | Condición Analítica y Gráfica |
+| :--- | :--- |
+| **Directamente Proporcional (D.P.)** | $\frac{A}{B} = k \iff A = k \cdot B \quad$ (Recta por el origen) |
+| **Inversamente Proporcional (I.P.)** | $A \cdot B = k \iff A = \frac{k}{B} \quad$ (Hipérbola equilátera) |
+| **Relación Fundamental** | $A \text{ D.P. } B \iff A \text{ I.P. } \frac{1}{B}$ |
+| **Potenciación de Magnitudes** | $A \text{ D.P. } B \iff A^n \text{ D.P. } B^n \quad (n \in \mathbb{Q}^+)$ |
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Aplicación Mercantil} & \textbf{Ecuación de Reparto} \\
-\hline
-\text{Reparto Simple Directo} & c_i = a_i \cdot \frac{N}{\sum a_i} \\
-\text{Reparto Simple Inverso} & c_i \text{ D.P. a } \frac{1}{a_i} \times \text{MCM} \\
-\text{Regla de Compañía} & \frac{G_1}{C_1 \cdot t_1} = \frac{G_2}{C_2 \cdot t_2} = \dots = \frac{G_{\text{total}}}{\sum (C_i \cdot t_i)} \\
-\hline
-\end{array}
-$$
+---
+
+### Regla de Tres Compuesta
+
+| Método | Fórmula Canónica de Resolución |
+| :--- | :--- |
+| **Ecuación General de Rendimiento** | $\frac{(\text{Obreros}) \cdot (\text{Eficiencia}) \cdot (\text{Días}) \cdot (\text{Horas/Día})}{(\text{Obra}) \cdot (\text{Dificultad})} = k$ |
+| **Esquema Causa - Circunstancia - Efecto** | $\frac{(\text{Causa}) \cdot (\text{Circunstancia})}{(\text{Efecto}) \cdot (\text{Dificultad})} = \text{constante}$ |
+
+---
+
+### Reparto Proporcional y Regla de Compañía
+
+| Aplicación Mercantil | Ecuación de Reparto |
+| :--- | :--- |
+| **Reparto Simple Directo** | $c_i = a_i \cdot \frac{N}{\sum a_i}$ |
+| **Reparto Simple Inverso** | $c_i \text{ D.P. a } \frac{1}{a_i} \times \text{MCM}$ |
+| **Regla de Compañía** | $\frac{G_1}{C_1 \cdot t_1} = \frac{G_2}{C_2 \cdot t_2} = \dots = \frac{G_{\text{total}}}{\sum (C_i \cdot t_i)}$ |

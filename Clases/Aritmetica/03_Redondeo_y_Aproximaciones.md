@@ -165,8 +165,6 @@ $$E_{r,\text{total}} \approx E_{r,1} + E_{r,2}$$
 
 ## 3. 10 EJERCICIOS RESUELTOS PASO A PASO
 
----
-
 ### NIVEL BÁSICO (Fijación de Conceptos)
 
 #### Ejercicio 01
@@ -185,23 +183,24 @@ E) $29$
 
 * **Estrategia / Planteamiento:** Convertimos cada expresión decimal a su correspondiente fracción generatriz irreductible y luego sumamos y restamos mediante el mínimo común múltiplo de sus denominadores.
 * **Resolución:**
-1. *Conversión de cada decimal:*
+
+**Paso 1:** Conversión de cada decimal:
 * $0.\widehat{6} = \frac{6}{9} = \frac{2}{3}$
 * $0.1\widehat{3} = \frac{13 - 1}{90} = \frac{12}{90} = \frac{2}{15}$
 * $0.25 = \frac{25}{100} = \frac{1}{4}$
-2. *Operación combinada:*
+**Paso 2:** Operación combinada:
 
 $$M = \frac{2}{3} + \frac{2}{15} - \frac{1}{4}$$
 
-3. *Homogeneizamos con el $\text{MCM}(3, 15, 4) = 60$:*
+**Paso 3:** Homogeneizamos con el $\text{MCM}(3, 15, 4) = 60$:
 
 $$M = \frac{2(20) + 2(4) - 1(15)}{60} = \frac{40 + 8 - 15}{60} = \frac{33}{60}$$
 
-4. *Simplificamos a fracción irreductible:*
+**Paso 4:** Simplificamos a fracción irreductible:
 
 $$M = \frac{33 \div 3}{60 \div 3} = \frac{11}{20}$$
 
-5. *Suma de términos:*
+**Paso 5:** Suma de términos:
 
 $$\text{Numerador} + \text{Denominador} = 11 + 20 = 31 \quad \text{o revisemos } \frac{33}{60} = \frac{11}{20} \implies 11 + 20 = 31$$
 
@@ -221,19 +220,20 @@ E) $0.05$
 
 * **Estrategia / Planteamiento:** Identificamos el valor obtenido por truncamiento (defecto) a centésimos y el valor obtenido por la regla de redondeo analizando la cifra milésima.
 * **Resolución:**
-1. El número es $\sqrt{5} = 2.2360679\dots$
-2. *Aproximación por defecto (truncamiento) a centésimos:*
+
+**Paso 1:** El número es $\sqrt{5} = 2.2360679\dots$:
+**Paso 2:** Aproximación por defecto (truncamiento) a centésimos:
 Cortamos directamente en la segunda cifra decimal:
 
 $$V_{\text{defecto}} = 2.23$$
 
-3. *Aproximación por redondeo a centésimos:*
+**Paso 3:** Aproximación por redondeo a centésimos:
 Observamos la cifra de las milésimas: es $6$.
 Como $6 \ge 5$, la cifra centésima ($3$) aumenta en $1$:
 
 $$V_{\text{redondeo}} = 2.24$$
 
-4. *Diferencia positiva:*
+**Paso 4:** Diferencia positiva:
 
 $$\text{Diferencia} = 2.24 - 2.23 = 0.01$$
 
@@ -251,23 +251,24 @@ E) $3.1\%$
 
 * **Estrategia / Planteamiento:** Calculamos el error absoluto ($|V_r - V_a|$), lo dividimos entre el valor real exacto para obtener el error relativo y multiplicamos por $100\%$ redondeando a un decimal.
 * **Resolución:**
-1. *Datos:*
+
+**Paso 1:** Datos:
 
 $$V_r = 12.8\text{ m}, \quad V_a = 12.5\text{ m}$$
 
-2. *Error absoluto:*
+**Paso 2:** Error absoluto:
 
 $$E_a = |12.8 - 12.5| = 0.3\text{ metros}$$
 
-3. *Error relativo:*
+**Paso 3:** Error relativo:
 
 $$E_r = \frac{E_a}{V_r} = \frac{0.3}{12.8} = \frac{3}{128} \approx 0.0234375$$
 
-4. *Error porcentual:*
+**Paso 4:** Error porcentual:
 
 $$E_p = 0.0234375 \times 100\% = 2.34375\%$$
 
-5. *Redondeo al décimo:*
+**Paso 5:** Redondeo al décimo:
 Como la cifra centésima es $4 < 5$, el valor se mantiene:
 
 $$E_p \approx 2.3\%$$
@@ -294,17 +295,18 @@ E) $2.68$
 
 * **Estrategia / Planteamiento:** Sustituimos los valores dados en el numerador, efectuamos la suma exacta y dividimos entre el denominador. Finalmente redondeamos el cociente a centésimos.
 * **Resolución:**
-1. *Cálculo del numerador:*
+
+**Paso 1:** Cálculo del numerador:
 
 $$N = \pi + \sqrt{2} = 3.142 + 1.414 = 4.556$$
 
-2. *División entre $\sqrt{3} \approx 1.732$:*
+**Paso 2:** División entre $\sqrt{3} \approx 1.732$:
 
 $$K = \frac{4.556}{1.732} = \frac{4556}{1732}$$
 
-3. *Efectuamos la división con decimales:*
+**Paso 3:** Efectuamos la división con decimales:
 * $4556 \div 1732 \approx 2.63048\dots$
-4. *Redondeo al centésimo (segunda cifra decimal):*
+**Paso 4:** Redondeo al centésimo (segunda cifra decimal):
 La cifra de las milésimas es $0 < 5$, por lo que la cifra de los centésimos se mantiene en $3$:
 
 $$K \approx 2.63$$
@@ -323,22 +325,23 @@ E) $\text{S/ } 150$
 
 * **Estrategia / Planteamiento:** Calculamos el precio unitario bajo el método de truncamiento y bajo el método de redondeo. Luego calculamos el costo total para cada caso y determinamos la diferencia.
 * **Resolución:**
-1. *Precio unitario original:* $P = \text{S/ } 7.846$ por kilogramo.
-2. *Opción A (Truncamiento a centésimos):*
+
+**Paso 1:** Precio unitario original:
+**Paso 2:** Opción A (Truncamiento a centésimos):
 Se corta en dos decimales:
 
 $$P_A = \text{S/ } 7.84$$
 
 $$\text{Costo Total}_A = 10\,000 \times 7.84 = \text{S/ } 78\,400$$
 
-3. *Opción B (Redondeo a centésimos):*
+**Paso 3:** Opción B (Redondeo a centésimos):
 La cifra milésima es $6 \ge 5$, por lo que sube a $5$:
 
 $$P_B = \text{S/ } 7.85$$
 
 $$\text{Costo Total}_B = 10\,000 \times 7.85 = \text{S/ } 78\,500$$
 
-4. *Diferencia monetaria:*
+**Paso 4:** Diferencia monetaria:
 
 $$\text{Diferencia} = 78\,500 - 78\,400 = \text{S/ } 100$$
 
@@ -361,16 +364,17 @@ E) $18$
 
 * **Estrategia / Planteamiento:** El denominador $37$ genera un decimal periódico puro, ya que $37 \times 27 = 999$. Amplificamos la fracción por $27$ para obtener denominador $999$ y hallar el período de forma inmediata.
 * **Resolución:**
-1. Amplificamos numerador y denominador por $27$:
+
+**Paso 1:** Amplificamos numerador y denominador por $27$:
 
 $$f = \frac{15 \times 27}{37 \times 27} = \frac{405}{999}$$
 
-2. Por definición de fracción generatriz periódica pura:
+**Paso 2:** Por definición de fracción generatriz periódica pura:
 
 $$\frac{405}{999} = 0.\widehat{405}$$
 
-3. El período es $405$.
-4. Suma de cifras del período:
+**Paso 3:** El período es $405$.
+**Paso 4:** Suma de cifras del período:
 
 $$4 + 0 + 5 = 9 \quad (\text{o si se evalúa } 15/37 = 0.405405\dots)$$
 
@@ -390,11 +394,12 @@ E) $0.35\text{ m}^2$
 
 * **Estrategia / Planteamiento:** Calculamos el área con ambos valores de $\pi$, restamos los resultados para obtener el error absoluto y redondeamos a centésimos.
 * **Resolución:**
-1. *Área con valor estándar:*
+
+**Paso 1:** Área con valor estándar:
 
 $$A_1 = 3.1416 \times 10^2 = 3.1416 \times 100 = 314.16\text{ m}^2$$
 
-2. *Área con la aproximación de Arquímedes:*
+**Paso 2:** Área con la aproximación de Arquímedes:
 
 $$A_2 = \frac{22}{7} \times 10^2 = \frac{2200}{7}\text{ m}^2$$
 
@@ -402,11 +407,11 @@ Efectuamos la división:
 
 $$\frac{2200}{7} \approx 314.2857\dots\text{ m}^2$$
 
-3. *Error absoluto:*
+**Paso 3:** Error absoluto:
 
 $$E_a = |A_2 - A_1| = |314.2857 - 314.1600| = 0.1257\dots\text{ m}^2$$
 
-4. *Redondeo al centésimo:*
+**Paso 4:** Redondeo al centésimo:
 La cifra de las milésimas es $5 \ge 5$, por lo que el centésimo ($2$) sube a $3$:
 
 $$E_a \approx 0.13\text{ m}^2$$
@@ -427,24 +432,25 @@ E) $\text{S/ } 15\,050$
 
 * **Estrategia / Planteamiento:** Calculamos el volumen de una columna ($V = \pi r^2 h$), multiplicamos por las 12 columnas, incorporamos el $5\%$ de merma, redondeamos por exceso al entero superior (por política de compra de camiones mixer) y multiplicamos por el costo unitario.
 * **Resolución:**
-1. *Volumen de una columna:*
+
+**Paso 1:** Volumen de una columna:
 
 $$V_{\text{col}} = \pi \cdot r^2 \cdot h = 3.14 \times (0.5)^2 \times 4 = 3.14 \times 0.25 \times 4 = 3.14 \times 1 = 3.14\text{ m}^3$$
 
-2. *Volumen neto para las 12 columnas:*
+**Paso 2:** Volumen neto para las 12 columnas:
 
 $$V_{\text{neto}} = 12 \times 3.14 = 37.68\text{ m}^3$$
 
-3. *Adición del 5% de merma:*
+**Paso 3:** Adición del 5% de merma:
 
 $$V_{\text{total}} = V_{\text{neto}} \times 1.05 = 37.68 \times 1.05 = 39.564\text{ m}^3$$
 
-4. *Redondeo al entero superior:*
+**Paso 4:** Redondeo al entero superior:
 Como no venden fracciones de metro cúbico en mixer para bombeo continuo, se aproxima por exceso:
 
 $$V_{\text{compra}} = 40\text{ m}^3$$
 
-5. *Costo total presupuestado:*
+**Paso 5:** Costo total presupuestado:
 
 $$\text{Costo} = 40 \times \text{S/ } 350 = \text{S/ } 14\,000$$
 
@@ -462,7 +468,8 @@ E) Perímetro $= 104.5\text{ m}$; Error absoluto $\approx 0.095\text{ m}$
 
 * **Estrategia / Planteamiento:** Calculamos el perímetro sumando los catetos más la hipotenusa aproximada con ambos valores de $\sqrt{5}$ y restamos para hallar la magnitud del error absoluto.
 * **Resolución:**
-1. *Cálculo de la hipotenusa:*
+
+**Paso 1:** Cálculo de la hipotenusa:
 * Con $\sqrt{5} \approx 2.24$:
 
 $$H_a = 20 \times 2.24 = 44.8\text{ metros}$$
@@ -471,15 +478,15 @@ $$H_a = 20 \times 2.24 = 44.8\text{ metros}$$
 
 $$H_r = 20 \times 2.2361 = 44.722\text{ metros}$$
 
-2. *Perímetro aproximado utilizado:*
+**Paso 2:** Perímetro aproximado utilizado:
 
 $$P_a = 20 + 40 + H_a = 60 + 44.8 = 104.8\text{ metros}$$
 
-3. *Perímetro más preciso:*
+**Paso 3:** Perímetro más preciso:
 
 $$P_r = 20 + 40 + H_r = 60 + 44.722 = 104.722\text{ metros}$$
 
-4. *Error absoluto en el perímetro:*
+**Paso 4:** Error absoluto en el perímetro:
 
 $$E_a = |P_a - P_r| = |104.8 - 104.722| = 0.078\text{ metros}$$
 
@@ -497,7 +504,8 @@ E) $0.16\text{ céntimos}$
 
 * **Estrategia / Planteamiento:** Multiplicamos el monto en dólares por la cotización con 4 decimales. Observamos la parte fraccionaria que excede los centésimos (milésimos y diezmilésimos) y aplicamos la regla de redondeo comercial.
 * **Resolución:**
-1. *Cálculo del monto exacto:*
+
+**Paso 1:** Cálculo del monto exacto:
 
 $$\text{Monto exacto} = 85\,420 \times 3.7548$$
 
@@ -505,18 +513,18 @@ Multiplicamos:
 
 $$85\,420 \times 3.7548 = 320\,735.016\text{ soles}$$
 
-2. *Análisis del redondeo a centésimos:*
+**Paso 2:** Análisis del redondeo a centésimos:
 * Cifra de las centésimas: $1$.
 * Cifra de las milésimas: $6$.
 * Como $6 \ge 5$, el centésimo ($1$) sube a $2$:
 
 $$\text{Monto acreditado} = \text{S/ } 320\,735.02$$
 
-3. *Diferencia en soles:*
+**Paso 3:** Diferencia en soles:
 
 $$\text{Diferencia} = 320\,735.020 - 320\,735.016 = 0.004\text{ soles}$$
 
-4. *Conversión a céntimos de sol ($1\text{ sol} = 100\text{ céntimos}$):*
+**Paso 4:** Conversión a céntimos de sol ($1\text{ sol} = 100\text{ céntimos}$):
 
 $$\text{Diferencia en céntimos} = 0.004 \times 100 = 0.4\text{ céntimos} \quad (\text{o } 0.40\text{ céntimos})$$
 
@@ -525,8 +533,6 @@ $$\text{Diferencia en céntimos} = 0.004 \times 100 = 0.4\text{ céntimos} \quad
 ---
 
 ## 4. PRÁCTICA PROPUESTA (45 EJERCICIOS)
-
----
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 

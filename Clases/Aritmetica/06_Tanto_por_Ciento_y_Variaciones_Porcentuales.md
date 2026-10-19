@@ -89,16 +89,24 @@ En las transacciones comerciales intervienen magnitudes claramente tipificadas p
 * Si hay ganancia: $P_v = P_c + G$.
 * Si hay pérdida: $P_v = P_c - P$.
 5. **Rebaja o Descuento Comercial ($D$):**
+
 $$P_v = P_f - D \iff P_f = P_v + D$$
 
 #### Invariantes y Reglas Convencionales de Examen:
 * **Regla 1:** Salvo que el enunciado declare explícitamente lo contrario, la **Ganancia ($G$)** o la **Pérdida ($P$)** se calculan siempre como un porcentaje del **Precio de Costo ($P_c$)**:
+
 $$G = g\% \cdot P_c \quad \mid \quad P = p\% \cdot P_c$$
+
 * **Regla 2:** Si el enunciado indica que la ganancia es un porcentaje del precio de venta, se plantea:
+
 $$G = g\% \cdot P_v \implies P_v = P_c + g\% \cdot P_v \implies (100 - g)\% \cdot P_v = P_c$$
+
 * **Regla 3:** El **Descuento o Rebaja ($D$)** se calcula invariablemente sobre el **Precio Fijado o de Lista ($P_f$)**:
+
 $$D = d\% \cdot P_f \implies P_v = (100 - d)\% \cdot P_f$$
+
 * **Regla 4 (Ganancia Bruta vs. Ganancia Neta):**
+
 $$G_{\text{bruta}} = G_{\text{neta}} + \text{Gastos Operativos}$$
 
 ### 2.6 Variaciones Porcentuales en Magnitudes Geométricas
@@ -124,17 +132,23 @@ Para determinar cómo varía porcentualmente el área o volumen de una figura cu
 En un colegio preuniversitario con $1\,200$ estudiantes matriculados, el $65\%$ son varones. De las mujeres, el $25\%$ postula a carreras de Ingeniería. ¿Cuántas mujeres postulan a carreras distintas de Ingeniería y qué porcentaje del total de estudiantes del colegio representan?
 
 **Solución paso a paso:**
-1. Determinar la cantidad de mujeres en el colegio:
+
+**Paso 1:** Determinar la cantidad de mujeres en el colegio:
 Si el $65\%$ son varones, el porcentaje de mujeres es:
+
 $$100\% - 65\% = 35\%$$
+
 $$\text{Mujeres} = 35\% \text{ de } 1\,200 = \frac{35}{100} \cdot 1\,200 = 35 \cdot 12 = 420\text{ mujeres}$$
 
-2. Determinar las mujeres que postulan a carreras distintas de Ingeniería:
+**Paso 2:** Determinar las mujeres que postulan a carreras distintas de Ingeniería:
 Si el $25\%$ postula a Ingeniería, el porcentaje que postula a otras carreras es:
+
 $$100\% - 25\% = 75\%$$
+
 $$\text{Otras carreras} = 75\% \text{ de } 420 = \frac{3}{4} \cdot 420 = 3 \cdot 105 = 315\text{ mujeres}$$
 
-3. Calcular qué porcentaje representan respecto al total del colegio ($1\,200$ estudiantes):
+**Paso 3:** Calcular qué porcentaje representan respecto al total del colegio ($1\,200$ estudiantes):
+
 $$\text{Porcentaje} = \left(\frac{315}{1\,200}\right) \times 100\% = \frac{315}{12}\% = 26{,}25\%$$
 
 *Respuesta:* Son $315$ mujeres y representan el $26{,}25\%$ del alumnado total.
@@ -145,17 +159,21 @@ $$\text{Porcentaje} = \left(\frac{315}{1\,200}\right) \times 100\% = \frac{315}{
 Una tienda de tecnología ofrece por "Ciberday" una laptop con una rebaja del $20\%$, y si el pago se realiza con tarjeta de crédito de la tienda, se otorga un descuento adicional del $15\%$ sobre el saldo. ¿A qué descuento único equivalente corresponde dicha promoción comercial?
 
 **Solución paso a paso:**
-1. Analizar el saldo remanente que se paga tras cada descuento:
+
+**Paso 1:** Analizar el saldo remanente que se paga tras cada descuento:
 * Con el primer descuento del $20\%$, se paga el $100\% - 20\% = 80\%$ del precio original.
 * Con el segundo descuento del $15\%$, se paga el $100\% - 15\% = 85\%$ de lo que quedaba.
 
-2. Calcular el porcentaje final que se paga del precio de lista ($P_0$):
+**Paso 2:** Calcular el porcentaje final que se paga del precio de lista ($P_0$):
+
 $$P_{\text{final}} = 85\% \text{ del } 80\% \text{ de } P_0 = \frac{85}{100} \cdot \frac{80}{100} \cdot P_0 = \frac{85 \cdot 4}{500} \cdot P_0 = \frac{340}{500} \cdot P_0 = \frac{68}{100} \cdot P_0 = 68\% \cdot P_0$$
 
-3. Determinar el descuento único equivalente ($D_u$):
+**Paso 3:** Determinar el descuento único equivalente ($D_u$):
+
 $$D_u = 100\% - 68\% = 32\%$$
 
 *(Verificación directa por fórmula de dos descuentos):*
+
 $$D_u = 20 + 15 - \frac{20 \cdot 15}{100} = 35 - \frac{300}{100} = 35 - 3 = 32\%$$
 
 *Respuesta:* La promoción equivale a un descuento único del $32\%$.
@@ -166,15 +184,19 @@ $$D_u = 20 + 15 - \frac{20 \cdot 15}{100} = 35 - \frac{300}{100} = 35 - 3 = 32\%
 Un comerciante del emporio de Gamarra compra un lote de pantalones de mezclilla a $\text{S/ } 60$ cada uno. ¿A qué precio debe vender cada pantalón para ganar el $25\%$ del costo sabiendo que los gastos de flete representan $\text{S/ } 5$ por unidad?
 
 **Solución paso a paso:**
-1. Identificar el costo total unitario ($P_c$):
+
+**Paso 1:** Identificar el costo total unitario ($P_c$):
 El costo unitario comprende la adquisición más los gastos de flete asociados a la mercadería:
+
 $$P_c = \text{S/ } 60 + \text{S/ } 5 = \text{S/ } 65$$
 
-2. Calcular la ganancia monetaria requerida ($G$):
+**Paso 2:** Calcular la ganancia monetaria requerida ($G$):
 La ganancia es el $25\%$ del costo total:
+
 $$G = 25\% \cdot P_c = \frac{1}{4} \cdot 65 = \text{S/ } 16{,}25$$
 
-3. Calcular el precio de venta ($P_v$):
+**Paso 3:** Calcular el precio de venta ($P_v$):
+
 $$P_v = P_c + G = 65 + 16{,}25 = \text{S/ } 81{,}25$$
 
 *Respuesta:* Debe vender cada pantalón a $\text{S/ } 81{,}25$.
@@ -187,20 +209,25 @@ $$P_v = P_c + G = 65 + 16{,}25 = \text{S/ } 81{,}25$$
 Un importador de instrumentos topográficos fija el precio de un teodolito de modo que, al hacer un descuento del $20\%$ al comprador, aún gana el $30\%$ de lo que le costó. Si el teodolito le costó $\text{S/ } 2\,400$, ¿cuál fue el precio fijado para la venta en vitrina?
 
 **Solución paso a paso:**
-1. Identificar datos conocidos:
+
+**Paso 1:** Identificar datos conocidos:
 * Precio de costo: $P_c = \text{S/ } 2\,400$.
 * Ganancia: $G = 30\% \cdot P_c = \frac{30}{100} \cdot 2\,400 = \text{S/ } 720$.
 * Descuento ofrecido: $D = 20\% \cdot P_f$.
 
-2. Calcular el precio de venta real efectivo ($P_v$):
+**Paso 2:** Calcular el precio de venta real efectivo ($P_v$):
+
 $$P_v = P_c + G = 2\,400 + 720 = \text{S/ } 3\,120$$
+
 *(Alternativamente: $P_v = 130\% \cdot P_c = 1{,}3 \cdot 2\,400 = \text{S/ } 3\,120$).*
 
-3. Relacionar el precio de venta con el precio fijado ($P_f$):
+**Paso 3:** Relacionar el precio de venta con el precio fijado ($P_f$):
 Como se rebajó el $20\%$ del precio fijado:
+
 $$P_v = (100\% - 20\%) \cdot P_f = 80\% \cdot P_f = 0{,}8 \cdot P_f$$
 
-4. Despejar el precio fijado ($P_f$):
+**Paso 4:** Despejar el precio fijado ($P_f$):
+
 $$0{,}8 \cdot P_f = 3\,120 \implies P_f = \frac{3\,120}{0{,}8} = \frac{31\,200}{8} = \text{S/ } 3\,900$$
 
 *Respuesta:* El precio fijado en vitrina fue de $\text{S/ } 3\,900$.
@@ -211,22 +238,30 @@ $$0{,}8 \cdot P_f = 3\,120 \implies P_f = \frac{3\,120}{0{,}8} = \frac{31\,200}{
 En una parcela experimental de espárragos en Ica, el ancho del terreno de cultivo se incrementa en un $25\%$, pero debido a una servidumbre de paso para un canal de regadío, la longitud del terreno disminuye en un $20\%$. ¿En qué porcentaje varía el área total disponible para el cultivo?
 
 **Solución paso a paso:**
-1. Plantear la fórmula del área original ($A_0$):
+
+**Paso 1:** Plantear la fórmula del área original ($A_0$):
 Sea $L$ la longitud y $W$ el ancho original:
+
 $$A_0 = L \cdot W \quad (100\% \text{ del área})$$
 
-2. Expresar las nuevas dimensiones en forma porcentual:
+**Paso 2:** Expresar las nuevas dimensiones en forma porcentual:
 * Nueva longitud: $L' = L - 20\% \cdot L = 80\% \cdot L = 0{,}8 \cdot L$.
 * Nuevo ancho: $W' = W + 25\% \cdot W = 125\% \cdot W = 1{,}25 \cdot W$.
 
-3. Calcular la nueva área ($A'$):
+**Paso 3:** Calcular la nueva área ($A'$):
+
 $$A' = L' \cdot W' = (0{,}8 \cdot L) \cdot (1{,}25 \cdot W) = (0{,}8 \cdot 1{,}25) \cdot (L \cdot W)$$
+
 Efectuando el producto:
+
 $$0{,}8 \times 1{,}25 = \frac{4}{5} \times \frac{5}{4} = 1$$
+
 $$A' = 1 \cdot (L \cdot W) = A_0$$
 
-4. Comparar respecto al área base:
+**Paso 4:** Comparar respecto al área base:
+
 $$A' = 100\% \cdot A_0$$
+
 Variación: $100\% - 100\% = 0\%$.
 
 *Respuesta:* El área del terreno no varía (permanece exactamente constante).
@@ -237,20 +272,29 @@ Variación: $100\% - 100\% = 0\%$.
 Una empresa distribuidora de paneles solares en Arequipa vende un inversor híbrido ganando el $20\%$ del precio de venta. Si el equipo le costó a la empresa $\text{S/ } 3\,600$, determine el monto de la ganancia obtenida.
 
 **Solución paso a paso:**
-1. Plantear la relación fundamental con la condición del enunciado:
+
+**Paso 1:** Plantear la relación fundamental con la condición del enunciado:
+
 $$P_v = P_c + G$$
+
 Aquí, la condición explícita es: $G = 20\% \cdot P_v$.
 
-2. Sustituir en la ecuación fundamental:
+**Paso 2:** Sustituir en la ecuación fundamental:
+
 $$P_v = P_c + 0{,}20 \cdot P_v$$
+
 $$P_v - 0{,}20 \cdot P_v = P_c$$
+
 $$0{,}80 \cdot P_v = P_c \iff 80\% \cdot P_v = P_c$$
 
-3. Calcular el precio de venta ($P_v$):
+**Paso 3:** Calcular el precio de venta ($P_v$):
+
 $$P_v = \frac{P_c}{0{,}80} = \frac{3\,600}{0{,}8} = \text{S/ } 4\,500$$
 
-4. Calcular la ganancia monetaria ($G$):
+**Paso 4:** Calcular la ganancia monetaria ($G$):
+
 $$G = 20\% \cdot P_v = 0{,}20 \cdot 4\,500 = \text{S/ } 900$$
+
 *(O también: $G = P_v - P_c = 4\,500 - 3\,600 = \text{S/ } 900$).*
 
 *Respuesta:* La ganancia obtenida fue de $\text{S/ } 900$.
@@ -261,22 +305,32 @@ $$G = 20\% \cdot P_v = 0{,}20 \cdot 4\,500 = \text{S/ } 900$$
 Un criador de alpacas de Puno vende dos ejemplares reproductores a $\text{S/ } 2\,400$ cada uno. En el primer ejemplar gana el $20\%$ de su costo, mientras que en el segundo pierde el $20\%$ de su respectivo costo. Determine si en el balance global de la transacción el criador ganó o perdió, y cuánto dinero exactamente.
 
 **Solución paso a paso:**
-1. Analizar el primer ejemplar ($P_{v1} = 2\,400$, gana $20\%$ de su costo $C_1$):
+
+**Paso 1:** Analizar el primer ejemplar ($P_{v1} = 2\,400$, gana $20\%$ de su costo $C_1$):
+
 $$P_{v1} = C_1 + 20\% \cdot C_1 = 120\% \cdot C_1 = 1{,}2 \cdot C_1$$
+
 $$2\,400 = 1{,}2 \cdot C_1 \implies C_1 = \frac{2\,400}{1{,}2} = \text{S/ } 2\,000$$
+
 Ganancia en el primer animal:
+
 $$G_1 = P_{v1} - C_1 = 2\,400 - 2\,000 = +\text{S/ } 400$$
 
-2. Analizar el segundo ejemplar ($P_{v2} = 2\,400$, pierde $20\%$ de su costo $C_2$):
+**Paso 2:** Analizar el segundo ejemplar ($P_{v2} = 2\,400$, pierde $20\%$ de su costo $C_2$):
+
 $$P_{v2} = C_2 - 20\% \cdot C_2 = 80\% \cdot C_2 = 0{,}8 \cdot C_2$$
+
 $$2\,400 = 0{,}8 \cdot C_2 \implies C_2 = \frac{2\,400}{0{,}8} = \text{S/ } 3\,000$$
+
 Pérdida en el segundo animal:
+
 $$P_2 = C_2 - P_{v2} = 3\,000 - 2\,400 = -\text{S/ } 600$$
 
-3. Balance económico global:
+**Paso 3:** Balance económico global:
 * Ingreso total recaudado: $P_{v1} + P_{v2} = 2\,400 + 2\,400 = \text{S/ } 4\,800$.
 * Costo total invertido: $C_1 + C_2 = 2\,000 + 3\,000 = \text{S/ } 5\,000$.
 * Balance neto:
+
 $$\text{Balance} = 4\,800 - 5\,000 = -\text{S/ } 200$$
 
 *Respuesta:* El criador pierde globalmente $\text{S/ } 200$ (equivalente a una pérdida del $4\%$ sobre el costo total invertido).
@@ -289,35 +343,53 @@ $$\text{Balance} = 4\,800 - 5\,000 = -\text{S/ } 200$$
 Una cooperativa cafetalera de Quillabamba (Cusco) exporta sacos de café especial. Desea fijar el precio de lista de un lote para que, luego de ofrecer a los distribuidores un descuento del $15\%$ por volumen y pagar una comisión bancaria internacional del $5\%$ calculada sobre el precio de venta facturado, obtenga una ganancia neta equivalente al $36\%$ de su costo de producción. Si el costo de producción del lote es de $\$ 40\,000$, determine el precio de lista que debe consignar en la proforma.
 
 **Solución paso a paso:**
-1. Desglosar las variables del problema:
+
+**Paso 1:** Desglosar las variables del problema:
 * Costo de producción: $P_c = \$ 40\,000$.
 * Ganancia neta deseada: $G_n = 36\% \cdot P_c = 0{,}36 \cdot 40\,000 = \$ 14\,400$.
 * Comisión bancaria (gasto): $\text{Gasto} = 5\% \cdot P_v = 0{,}05 \cdot P_v$.
 * Descuento comercial al distribuidor: $D = 15\% \cdot P_f$.
 
-2. Relacionar la ganancia bruta con la ganancia neta y los gastos:
+**Paso 2:** Relacionar la ganancia bruta con la ganancia neta y los gastos:
+
 $$G_{\text{bruta}} = G_n + \text{Gasto} = 14\,400 + 0{,}05 \cdot P_v$$
 
-3. Plantear la ecuación del precio de venta ($P_v$):
+**Paso 3:** Plantear la ecuación del precio de venta ($P_v$):
+
 $$P_v = P_c + G_{\text{bruta}}$$
+
 $$P_v = 40\,000 + (14\,400 + 0{,}05 \cdot P_v)$$
+
 $$P_v - 0{,}05 \cdot P_v = 54\,400$$
+
 $$0{,}95 \cdot P_v = 54\,400 \implies P_v = \frac{54\,400}{0{,}95} = \frac{54\,400}{\frac{19}{20}} = \frac{54\,400 \cdot 20}{19}$$
+
 Dividiendo $54\,400$ entre $19$ ($54\,400 = 19 \times 2\,863{,}157...$):
 Comprobamos: $19 \times 3 = 57$, $54\,400 / 19$:
+
 $$54\,400 = 19 \cdot 2\,863{,}1578... \approx 57\,263{,}16$$
+
 Para mantener exactitud fraccionaria:
+
 $$P_v = \frac{1\,088\,000}{19}$$
 
-4. Relacionar el precio de venta con el precio fijado ($P_f$):
+**Paso 4:** Relacionar el precio de venta con el precio fijado ($P_f$):
 Como se ofrece un descuento del $15\%$:
+
 $$P_v = (100\% - 15\%) \cdot P_f = 85\% \cdot P_f = \frac{17}{20} \cdot P_f$$
+
 Igualamos ambas expresiones para despejar $P_f$:
+
 $$\frac{17}{20} \cdot P_f = \frac{1\,088\,000}{19}$$
+
 $$P_f = \frac{1\,088\,000 \cdot 20}{19 \cdot 17}$$
+
 Notemos que $1\,088$ es divisible entre $17$:
+
 $$1\,088 \div 17 = 64 \implies 1\,088\,000 \div 17 = 64\,000$$
+
 Por lo tanto:
+
 $$P_f = \frac{64\,000 \cdot 20}{19} = \frac{1\,280\,000}{19} \approx \$ 67\,368{,}42$$
 
 *Respuesta:* El precio de lista debe ser de $\frac{1\,280\,000}{19} \approx \$ 67\,368{,}42$.
@@ -328,23 +400,31 @@ $$P_f = \frac{64\,000 \cdot 20}{19} = \frac{1\,280\,000}{19} \approx \$ 67\,368{
 En una microempresa de metalmecánica en Huancayo, la tarifa de energía eléctrica industrial se incrementa en un $25\%$ por kilovatio-hora ($\text{kWh}$). El administrador decide optimizar los procesos de corte y soldadura para que el gasto mensual total en electricidad disminuya en un $10\%$. ¿En qué porcentaje debe reducirse el consumo de energía eléctrica de la planta?
 
 **Solución paso a paso:**
-1. Establecer la relación del gasto total ($G$):
+
+**Paso 1:** Establecer la relación del gasto total ($G$):
 Sea $P$ el precio unitario del $\text{kWh}$ y $C$ la cantidad de $\text{kWh}$ consumidos:
+
 $$G = P \cdot C \quad (100\% \text{ del gasto original})$$
 
-2. Expresar los nuevos valores tras las variaciones:
+**Paso 2:** Expresar los nuevos valores tras las variaciones:
 * Nuevo precio unitario: $P' = P + 25\% \cdot P = 125\% \cdot P = \frac{5}{4} \cdot P$.
 * Nuevo gasto mensual deseado: $G' = G - 10\% \cdot G = 90\% \cdot G = \frac{9}{10} \cdot G$.
 * Sea $C'$ el nuevo consumo de energía requerido:
+
 $$G' = P' \cdot C'$$
 
-3. Reemplazar y despejar la relación entre $C'$ y $C$:
+**Paso 3:** Reemplazar y despejar la relación entre $C'$ y $C$:
+
 $$\frac{9}{10} \cdot (P \cdot C) = \left(\frac{5}{4} \cdot P\right) \cdot C'$$
+
 Cancelamos $P$ en ambos miembros:
+
 $$\frac{9}{10} \cdot C = \frac{5}{4} \cdot C'$$
+
 $$C' = \left(\frac{9}{10} \cdot \frac{4}{5}\right) \cdot C = \frac{36}{50} \cdot C = \frac{72}{100} \cdot C = 72\% \cdot C$$
 
-4. Calcular la variación porcentual de reducción:
+**Paso 4:** Calcular la variación porcentual de reducción:
+
 $$\text{Reducción} = 100\% - 72\% = 28\%$$
 
 *Respuesta:* El consumo de energía eléctrica debe reducirse en un $28\%$.
@@ -357,22 +437,29 @@ En el laboratorio de metalurgia de una universidad en Junín se tienen dos recip
 2. ¿Cuántos litros de agua destilada (al $0\%$ de ácido) deben agregarse a dicha mezcla final para rebajar su concentración hasta un $40\%$ exacto?
 
 **Solución paso a paso:**
-1. Calcular el volumen de ácido puro en cada recipiente:
+
+**Paso 1:** Calcular el volumen de ácido puro en cada recipiente:
 * Recipiente 1: $V_{a1} = 30\% \cdot 40\text{ L} = \frac{30}{100} \cdot 40 = 12\text{ litros de ácido puro}$.
 * Recipiente 2: $V_{a2} = 70\% \cdot 60\text{ L} = \frac{70}{100} \cdot 60 = 42\text{ litros de ácido puro}$.
 
-2. Determinar la concentración de la primera mezcla:
+**Paso 2:** Determinar la concentración de la primera mezcla:
 * Volumen total de ácido puro: $V_a = 12 + 42 = 54\text{ litros}$.
 * Volumen total de la mezcla: $V_T = 40 + 60 = 100\text{ litros}$.
 * Concentración porcentual ($C_{\text{mezcla}}$):
+
 $$C_{\text{mezcla}} = \left(\frac{54\text{ L}}{100\text{ L}}\right) \times 100\% = 54\%$$
 
-3. Calcular el volumen de agua ($x$) a añadir para rebajar la concentración al $40\%$:
+**Paso 3:** Calcular el volumen de agua ($x$) a añadir para rebajar la concentración al $40\%$:
 Al añadir agua destilada, el volumen de ácido puro se mantiene constante en $54\text{ litros}$, mientras que el volumen total se incrementa a $100 + x$:
+
 $$\frac{54}{100 + x} = 40\% = \frac{40}{100} = \frac{2}{5}$$
+
 Multiplicamos en aspa:
+
 $$54 \cdot 5 = 2 \cdot (100 + x)$$
+
 $$270 = 200 + 2x$$
+
 $$2x = 70 \implies x = 35\text{ litros}$$
 
 *Respuesta:* La mezcla inicial queda al $54\%$ de concentración, y se deben agregar $35\text{ litros}$ de agua destilada para rebajarla al $40\%$.
@@ -739,8 +826,11 @@ Plantee la cadena de relaciones: $P_v = P_c + G_n + 0{,}04 \cdot P_v \implies 0{
 
 * **Pista para el Ejercicio 33:**
 Normalice el costo total a $100$ unidades monetarias. El balance de ganancias es:
+
 $$\text{Ganancia total} = 0{,}35(100) \cdot 0{,}20 + 0{,}45(100) \cdot 0{,}30 - 0{,}20(100) \cdot 0{,}10$$
+
 $$\text{Ganancia total} = 7 + 13{,}5 - 2 = 18{,}5$$
+
 Como el costo base fue $100$, el rendimiento promedio es exactamente del $18{,}5\%$.
 
 * **Pista para el Ejercicio 36:**
@@ -748,54 +838,50 @@ Sea $100\text{ kg}$ de agua marina con $3{,}5\text{ kg}$ de sal. La salmuera con
 
 * **Pista para el Ejercicio 40:**
 Sea el costo $P_c = 100$. El precio fijado es $P_f = 160$. Los dos descuentos sucesivos del $10\%$ y $20\%$ dejan como precio de venta:
+
 $$P_v = 0{,}80 \times 0{,}90 \times 160 = 0{,}72 \times 160 = 115{,}2$$
+
 Como el costo inicial fue $100$, la ganancia efectiva es $115{,}2 - 100 = 15{,}2$ sobre el costo ($15{,}2\%$).
 
 * **Pista para el Ejercicio 42:**
 El volumen del cono depende de $r^2 \cdot h$. El nuevo volumen es $V' = (1 - 0{,}28)V = 0{,}72V$. La nueva altura es $h' = 0{,}50h$.
+
 $$r'^2 \cdot (0{,}50h) = 0{,}72 \cdot (r^2 \cdot h) \implies r'^2 = \frac{0{,}72}{0{,}50} \cdot r^2 = 1{,}44 \cdot r^2$$
+
 Extrayendo raíz cuadrada: $r' = \sqrt{1{,}44} \cdot r = 1{,}20 \cdot r$, lo que corresponde a un aumento del $20\%$.
 
 ---
 
 ## 7. Formulario Resumen
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Concepto} & \textbf{Expresión Matemática} \\
-\hline
-\text{Operador Porcentual} & P\% = \frac{P}{100} \implies P\% \text{ de } N = \frac{P}{100} \cdot N \\
-\text{Relación Parte - Todo} & \text{Porcentaje} = \left(\frac{\text{Parte}}{\text{Todo}}\right) \times 100\% = \left(\frac{P}{T}\right) \times 100\% \\
-\text{Dos Descuentos Sucesivos} & D_u = \left(d_1 + d_2 - \frac{d_1 \cdot d_2}{100}\right)\% \\
-\text{Dos Aumentos Sucesivos} & A_u = \left(a_1 + a_2 + \frac{a_1 \cdot a_2}{100}\right)\% \\
-\text{Descuentos en Cascada (Saldo)} & P_{\text{final}} = (100 - d_k)\% \dots (100 - d_1)\% \cdot P_0 \\
-\hline
-\end{array}
-$$
+### Operaciones Porcentuales y Descuentos Sucesivos
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Magnitud Comercial} & \textbf{Ecuación y Regla Convencional} \\
-\hline
-\text{Con Ganancia} & P_v = P_c + G \quad (\text{por defecto: } G = g\% \cdot P_c) \\
-\text{Con Pérdida} & P_v = P_c - P \quad (\text{por defecto: } P = p\% \cdot P_c) \\
-\text{Precio Fijado o de Lista} & P_f = P_v + D \iff P_v = (100 - d)\% \cdot P_f \\
-\text{Ganancia Bruta vs. Neta} & G_{\text{bruta}} = G_{\text{neta}} + \text{Gastos Operativos} \\
-\text{Ganancia sobre Venta} & P_v = P_c + g\% \cdot P_v \implies (100 - g)\% \cdot P_v = P_c \\
-\hline
-\end{array}
-$$
+| Concepto | Expresión Matemática |
+| :--- | :--- |
+| **Operador Porcentual** | $P\% = \frac{P}{100} \implies P\% \text{ de } N = \frac{P}{100} \cdot N$ |
+| **Relación Parte - Todo** | $\text{Porcentaje} = \left(\frac{\text{Parte}}{\text{Todo}}\right) \times 100\% = \left(\frac{P}{T}\right) \times 100\%$ |
+| **Dos Descuentos Sucesivos** | $D_u = \left(d_1 + d_2 - \frac{d_1 \cdot d_2}{100}\right)\%$ |
+| **Dos Aumentos Sucesivos** | $A_u = \left(a_1 + a_2 + \frac{a_1 \cdot a_2}{100}\right)\%$ |
+| **Descuentos en Cascada (Saldo)** | $P_{\text{final}} = (100 - d_k)\% \dots (100 - d_1)\% \cdot P_0$ |
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Caso de Aplicación} & \textbf{Algoritmo Óptimo} \\
-\hline
-\text{Variación de Áreas / Volúmenes} & A' = (1 \pm \Delta_1)(1 \pm \Delta_2)\dots \cdot A_0 \implies \Delta\% = A' - 100\% \\
-\text{Concentración de Mezcla} & C_m = \left(\frac{V_{a1} \cdot c_1 + V_{a2} \cdot c_2 + \dots}{V_1 + V_2 + \dots}\right)\% \\
-\text{Dilución de Solución} & V_1 \cdot C_1 = V_2 \cdot C_2 \quad (\text{soluto constante}) \\
-\hline
-\end{array}
-$$
+---
+
+### Aplicaciones Comerciales
+
+| Magnitud Comercial | Ecuación y Regla Convencional |
+| :--- | :--- |
+| **Con Ganancia** | $P_v = P_c + G \quad (\text{por defecto: } G = g\% \cdot P_c)$ |
+| **Con Pérdida** | $P_v = P_c - P \quad (\text{por defecto: } P = p\% \cdot P_c)$ |
+| **Precio Fijado o de Lista** | $P_f = P_v + D \iff P_v = (100 - d)\% \cdot P_f$ |
+| **Ganancia Bruta vs. Neta** | $G_{\text{bruta}} = G_{\text{neta}} + \text{Gastos Operativos}$ |
+| **Ganancia sobre Venta** | $P_v = P_c + g\% \cdot P_v \implies (100 - g)\% \cdot P_v = P_c$ |
+
+---
+
+### Variaciones Geométricas y Mezclas
+
+| Caso de Aplicación | Algoritmo Óptimo |
+| :--- | :--- |
+| **Variación de Áreas / Volúmenes** | $A' = (1 \pm \Delta_1)(1 \pm \Delta_2)\dots \cdot A_0 \implies \Delta\% = A' - 100\%$ |
+| **Concentración de Mezcla** | $C_m = \left(\frac{V_{a1} \cdot c_1 + V_{a2} \cdot c_2 + \dots}{V_1 + V_2 + \dots}\right)\%$ |
+| **Dilución de Solución** | $V_1 \cdot C_1 = V_2 \cdot C_2 \quad (\text{soluto constante})$ |

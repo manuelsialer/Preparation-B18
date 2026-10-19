@@ -193,8 +193,6 @@ Al extraer una fracción $f$ de una mezcla homogénea (por ejemplo, agua y alcoh
 
 ## 3. 10 EJERCICIOS RESUELTOS PASO A PASO
 
----
-
 ### NIVEL BÁSICO (Fijación de Conceptos)
 
 #### Ejercicio 01
@@ -212,12 +210,13 @@ E) $\frac{9}{5}$
 
 * **Estrategia / Planteamiento:** Se efectúan las operaciones del numerador y del denominador por separado respetando la jerarquía matemática y simplificando antes de multiplicar. Finalmente, se aplica la regla de extremos y medios.
 * **Resolución:**
-1. *Numerador ($N$):*
+
+**Paso 1:** Numerador ($N$):
 Calculamos el $\text{MCM}(3, 6, 4) = 12$.
 
 $$N = \frac{2(4) + 5(2) - 1(3)}{12} = \frac{8 + 10 - 3}{12} = \frac{15}{12} = \frac{5}{4}$$
 
-2. *Denominador ($D$):*
+**Paso 2:** Denominador ($D$):
 Efectuamos el producto primero:
 
 $$\frac{3}{8} \times \frac{4}{9} = \frac{3 \cdot 4}{8 \cdot 9} = \frac{12}{72} = \frac{1}{6}$$
@@ -226,7 +225,7 @@ Sumamos con $\frac{1}{2}$:
 
 $$D = \frac{1}{6} + \frac{1}{2} = \frac{1 + 3}{6} = \frac{4}{6} = \frac{2}{3}$$
 
-3. *Cociente final ($M$):*
+**Paso 3:** Cociente final ($M$):
 
 $$M = \frac{\frac{5}{4}}{\frac{2}{3}} = \frac{5 \cdot 3}{4 \cdot 2} = \frac{15}{8}$$
 
@@ -244,18 +243,19 @@ E) $17$
 
 * **Estrategia / Planteamiento:** Planteamos la ecuación algebraica $\frac{a}{b} + \frac{b}{a} = \frac{a^2 + b^2}{a \cdot b} = \frac{74}{35}$. Como la fracción es irreductible, $a$ y $b$ son $\text{PESI}$, por lo que analizamos los factores de $35$.
 * **Resolución:**
-1. Igualamos las expresiones:
+
+**Paso 1:** Igualamos las expresiones:
 
 $$\frac{a^2 + b^2}{a \cdot b} = \frac{74}{35}$$
 
-2. Descomponemos el denominador: $a \cdot b = 35 \implies 35 = 5 \times 7$ o $35 = 1 \times 35$.
-3. Verificamos con $a = 5$ y $b = 7$ (recordando que es propia, $a < b$):
+**Paso 2:** Descomponemos el denominador: $a \cdot b = 35 \implies 35 = 5 \times 7$ o $35 = 1 \times 35$.
+**Paso 3:** Verificamos con $a = 5$ y $b = 7$ (recordando que es propia, $a < b$):
 
 $$a^2 + b^2 = 5^2 + 7^2 = 25 + 49 = 74$$
 
 ¡Cumple exactamente la condición!
-4. La fracción es $\frac{5}{7}$, la cual es propia e irreductible ($\text{PESI}(5, 7) = 1$).
-5. Calculamos la suma de sus términos:
+**Paso 4:** La fracción es $\frac{5}{7}$, la cual es propia e irreductible ($\text{PESI}(5, 7) = 1$).
+**Paso 5:** Calculamos la suma de sus términos:
 
 $$a + b = 5 + 7 = 12$$
 
@@ -273,16 +273,17 @@ E) $\text{S/ } 400$
 
 * **Estrategia / Planteamiento:** Aplicamos el principio de "lo que queda" en forma encadenada. Si se gasta una fracción $f$, queda $(1-f)$ de lo que había inmediatamente antes.
 * **Resolución:**
-1. Sea $P$ la propina inicial.
-2. En el primer gasto (útiles), gasta $\frac{2}{5}P \implies$ Le queda:
+
+**Paso 1:** Sea $P$ la propina inicial.
+**Paso 2:** En el primer gasto (útiles), gasta $\frac{2}{5}P \implies$ Le queda:
 
 $$Q_1 = \left(1 - \frac{2}{5}\right)P = \frac{3}{5}P$$
 
-3. En el segundo gasto (pasajes), gasta $\frac{3}{4}$ del resto $\implies$ Le queda:
+**Paso 3:** En el segundo gasto (pasajes), gasta $\frac{3}{4}$ del resto $\implies$ Le queda:
 
 $$Q_2 = \left(1 - \frac{3}{4}\right)Q_1 = \frac{1}{4} \left(\frac{3}{5}P\right) = \frac{3}{20}P$$
 
-4. Por dato del problema, lo que le queda es $\text{S/ } 45$:
+**Paso 4:** Por dato del problema, lo que le queda es $\text{S/ } 45$:
 
 $$\frac{3}{20}P = 45 \implies 3P = 45 \cdot 20 \implies 3P = 900 \implies P = 300$$
 
@@ -302,20 +303,21 @@ E) $12\text{ h}$
 
 * **Estrategia / Planteamiento:** Reducimos a la unidad el trabajo que realiza cada grifo y desagüe en $1\text{ hora}$. Sumamos los aportes de llenado y restamos el caudal de vaciado.
 * **Resolución:**
-1. Rendimiento por hora de cada elemento:
+
+**Paso 1:** Rendimiento por hora de cada elemento:
 * Grifo $A$: llena $\frac{1}{6}$ del reservorio en $1\text{ hora}$.
 * Grifo $B$: llena $\frac{1}{12}$ del reservorio en $1\text{ hora}$.
 * Desagüe $C$: vacía $\frac{1}{8}$ del reservorio en $1\text{ hora}$.
-2. Rendimiento neto conjunto en $1\text{ hora}$ ($R_{\text{neto}}$):
+**Paso 2:** Rendimiento neto conjunto en $1\text{ hora}$ ($R_{\text{neto}}$):
 
 $$R_{\text{neto}} = \frac{1}{6} + \frac{1}{12} - \frac{1}{8}$$
 
-3. Calculamos el $\text{MCM}(6, 12, 8) = 24$:
+**Paso 3:** Calculamos el $\text{MCM}(6, 12, 8) = 24$:
 
 $$R_{\text{neto}} = \frac{4 + 2 - 3}{24} = \frac{3}{24} = \frac{1}{8}$$
 
-4. Interpretación: En $1\text{ hora}$ se llena $\frac{1}{8}$ del reservorio.
-5. Tiempo total $T$ para llenarlo por completo ($1$ unidad entera):
+**Paso 4:** Interpretación: En $1\text{ hora}$ se llena $\frac{1}{8}$ del reservorio.
+**Paso 5:** Tiempo total $T$ para llenarlo por completo ($1$ unidad entera):
 
 $$T = \frac{1}{R_{\text{neto}}} = \frac{1}{\frac{1}{8}} = 8\text{ horas}$$
 
@@ -333,7 +335,8 @@ E) $75\text{ L}$
 
 * **Estrategia / Planteamiento:** Determinamos la composición inicial de la mezcla. Al extraer una porción de mezcla homogénea, cada componente disminuye en la misma fracción que disminuye el volumen total.
 * **Resolución:**
-1. *Composición inicial:*
+
+**Paso 1:** Composición inicial:
 
 $$\text{Total} = 120\text{ L}$$
 
@@ -341,14 +344,14 @@ $$\text{Gasolina} = \frac{5}{5+3}(120) = \frac{5}{8}(120) = 75\text{ litros}$$
 
 $$\text{Alcohol} = \frac{3}{8}(120) = 45\text{ litros}$$
 
-2. *Análisis de la extracción:*
+**Paso 2:** Análisis de la extracción:
 Se extraen $40\text{ L}$ de los $120\text{ L}$ totales.
 
 $$\text{Fracción que se extrae} = \frac{40}{120} = \frac{1}{3}$$
 
 $$\text{Fracción que queda de cada componente} = 1 - \frac{1}{3} = \frac{2}{3}$$
 
-3. *Cálculo de la gasolina restante:*
+**Paso 3:** Cálculo de la gasolina restante:
 
 $$\text{Gasolina final} = \frac{2}{3} \times (\text{Gasolina inicial}) = \frac{2}{3}(75) = 2 \times 25 = 50\text{ litros}$$
 
@@ -366,15 +369,16 @@ E) $144\text{ cm}$
 
 * **Estrategia / Planteamiento:** La altura tras $n$ rebotes sigue una ley exponencial fraccionaria: $H_n = H_0 \cdot \left(\frac{2}{3}\right)^n$. Despejamos la altura inicial $H_0$.
 * **Resolución:**
-1. Alturas consecutivas:
+
+**Paso 1:** Alturas consecutivas:
 * Tras el 1.º rebote: $H_1 = \frac{2}{3}H_0$
 * Tras el 2.º rebote: $H_2 = \frac{2}{3}H_1 = \left(\frac{2}{3}\right)^2 H_0$
 * Tras el 3.º rebote: $H_3 = \frac{2}{3}H_2 = \left(\frac{2}{3}\right)^3 H_0 = \frac{8}{27}H_0$
-2. Igualamos con el dato del problema:
+**Paso 2:** Igualamos con el dato del problema:
 
 $$\frac{8}{27}H_0 = 32$$
 
-3. Despejamos $H_0$:
+**Paso 3:** Despejamos $H_0$:
 
 $$H_0 = \frac{32 \cdot 27}{8} = 4 \cdot 27 = 108\text{ cm}$$
 
@@ -392,18 +396,19 @@ E) $14$
 
 * **Estrategia / Planteamiento:** Homogeneizamos los extremos a denominador $72$. Si la fracción buscada es $\frac{x}{72}$, para ser irreductible, $x$ debe ser primo relativo con $72$ ($\text{PESI}(x, 72) = 1$). Descomponemos $72 = 2^3 \times 3^2$, por lo que $x$ no puede ser múltiplo de $2$ ni de $3$.
 * **Resolución:**
-1. *Homogenización de extremos:*
+
+**Paso 1:** Homogenización de extremos:
 
 $$\frac{1}{6} = \frac{1 \times 12}{6 \times 12} = \frac{12}{72}$$
 
 $$\frac{5}{8} = \frac{5 \times 9}{8 \times 9} = \frac{45}{72}$$
 
-2. *Rango para el numerador $x$:*
+**Paso 2:** Rango para el numerador $x$:
 
 $$\frac{12}{72} < \frac{x}{72} < \frac{45}{72} \implies 12 < x < 45$$
 
 Los valores enteros posibles para $x$ son $\{13, 14, 15, \dots, 44\}$.
-3. *Condición de irreductibilidad:*
+**Paso 3:** Condición de irreductibilidad:
 $x$ no puede ser múltiplo de $2$ ni múltiplo de $3$ ($\text{MCD}(x, 72) = 1$).
 * Números impares entre 13 y 44:
 
@@ -413,7 +418,7 @@ $$13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43 \quad (16\text{
 
 $$15, 21, 27, 33, 39 \quad (5\text{ números})$$
 
-4. *Conteo final:*
+**Paso 4:** Conteo final:
 
 $$16 - 5 = 11\text{ valores válidos}$$
 
@@ -434,15 +439,16 @@ E) $18\,000\text{ kg}$
 
 * **Estrategia / Planteamiento:** Modelamos la cosecha total como una variable $C$. Calculamos la fracción que va quedando en cada jornada y la igualamos a los $1200\text{ kg}$ restantes para hallar $C$. Luego determinamos lo empacado en la segunda jornada.
 * **Resolución:**
-1. *Pérdida/Empaque sucesivo:*
+
+**Paso 1:** Pérdida/Empaque sucesivo:
 * Jornada 1: empaca $\frac{1}{3}C \implies$ Queda $R_1 = \left(1 - \frac{1}{3}\right)C = \frac{2}{3}C$.
 * Jornada 2: empaca $\frac{2}{5}R_1 \implies$ Queda $R_2 = \left(1 - \frac{2}{5}\right)R_1 = \frac{3}{5}\left(\frac{2}{3}C\right) = \frac{2}{5}C$.
 * Jornada 3: empaca $\frac{3}{4}R_2 \implies$ Queda $R_3 = \left(1 - \frac{3}{4}\right)R_2 = \frac{1}{4}\left(\frac{2}{5}C\right) = \frac{1}{10}C$.
-2. *Determinación de la cosecha total $C$:*
+**Paso 2:** Determinación de la cosecha total $C$:
 
 $$\frac{1}{10}C = 1200 \implies C = 12\,000\text{ kg}$$
 
-3. *Cálculo de lo empacado en la segunda jornada:*
+**Paso 3:** Cálculo de lo empacado en la segunda jornada:
 
 $$\text{Empaque Jornada 2} = \frac{2}{5} R_1 = \frac{2}{5}\left(\frac{2}{3}C\right) = \frac{4}{15}C$$
 
@@ -462,27 +468,28 @@ E) $02:30\text{ p.m.}$
 
 * **Estrategia / Planteamiento:** Analizamos los intervalos de tiempo por etapas calculando la fracción de volumen acumulada hasta las $09:00\text{ a.m.}$, y luego calculamos el tiempo restante con los 3 conductos operando simultáneamente.
 * **Resolución:**
-1. *Caudales unitarios en $1\text{ hora}$:*
+
+**Paso 1:** Caudales unitarios en $1\text{ hora}$:
 
 $$q_1 = +\frac{1}{10}, \quad q_2 = +\frac{1}{15}, \quad q_c = -\frac{1}{20}$$
 
-2. *Etapa 1 (De 06:00 a 08:00 a.m. = 2 horas):*
+**Paso 2:** Etapa 1 (De 06:00 a 08:00 a.m. = 2 horas):
 Solo opera $M_1$:
 
 $$V_1 = 2 \times \frac{1}{10} = \frac{2}{10} = \frac{1}{5}$$
 
-3. *Etapa 2 (De 08:00 a 09:00 a.m. = 1 hora):*
+**Paso 3:** Etapa 2 (De 08:00 a 09:00 a.m. = 1 hora):
 Operan $M_1$ y $M_2$:
 
 $$V_2 = 1 \times \left(\frac{1}{10} + \frac{1}{15}\right) = \frac{3 + 2}{30} = \frac{5}{30} = \frac{1}{6}$$
 
-4. *Volumen total acumulado a las 09:00 a.m.:*
+**Paso 4:** Volumen total acumulado a las 09:00 a.m.
 
 $$V_{\text{acum}} = V_1 + V_2 = \frac{1}{5} + \frac{1}{6} = \frac{6 + 5}{30} = \frac{11}{30}$$
 
 $$\text{Falta por llenar} = 1 - \frac{11}{30} = \frac{19}{30}$$
 
-5. *Etapa 3 (A partir de las 09:00 a.m.):*
+**Paso 5:** Etapa 3 (A partir de las 09:00 a.m.):
 Operan $M_1$, $M_2$ y el consumo de la posta:
 
 $$q_{\text{neto}} = \frac{1}{10} + \frac{1}{15} - \frac{1}{20}$$
@@ -491,7 +498,7 @@ Calculamos el $\text{MCM}(10, 15, 20) = 60$:
 
 $$q_{\text{neto}} = \frac{6 + 4 - 3}{60} = \frac{7}{60}$$
 
-6. *Tiempo adicional $t$ requerido:*
+**Paso 6:** Tiempo adicional $t$ requerido:
 
 $$q_{\text{neto}} \cdot t = \frac{19}{30} \implies \frac{7}{60} \cdot t = \frac{38}{60} \implies 7t = 38 \implies t = \frac{38}{7}\text{ horas}$$
 
@@ -519,11 +526,12 @@ E) $\text{S/ } 28\,000$
 
 * **Estrategia / Planteamiento:** Descontamos los gastos notariales para obtener el capital social real aportado por Rosa. A partir de las fracciones sucesivas, determinamos el capital total y la proporción exacta de Lucía para calcular su dividendo de utilidades.
 * **Resolución:**
-1. *Aporte de Rosa:*
+
+**Paso 1:** Aporte de Rosa:
 
 $$\text{Aporte neto de Rosa} = \text{S/ } 18\,000$$
 
-2. *Determinación de fracciones del capital social ($C$):*
+**Paso 2:** Determinación de fracciones del capital social ($C$):
 * Carmen: aporta $\frac{3}{8}C$.
 * Resto tras Carmen: $\left(1 - \frac{3}{8}\right)C = \frac{5}{8}C$.
 * Lucía: aporta $\frac{4}{7}$ del resto:
@@ -534,13 +542,13 @@ $$\text{Aporte de Lucía} = \frac{4}{7}\left(\frac{5}{8}C\right) = \frac{20}{56}
 
 $$\text{Fracción de Rosa} = \left(1 - \frac{4}{7}\right)\left(\frac{5}{8}C\right) = \frac{3}{7}\left(\frac{5}{8}C\right) = \frac{15}{56}C$$
 
-3. *Cálculo del capital social $C$:*
+**Paso 3:** Cálculo del capital social $C$:
 
 $$\frac{15}{56}C = 18\,000 \implies C = \frac{18\,000 \times 56}{15} = 1200 \times 56 = \text{S/ } 67\,200$$
 
-4. *Fracción del capital que aportó Lucía:*
+**Paso 4:** Fracción del capital que aportó Lucía:
 La fracción de Lucía sobre el total es $\frac{20}{56} = \frac{5}{14}$.
-5. *Distribución proporcional de la utilidad ($\text{S/ } 56\,000$):*
+**Paso 5:** Distribución proporcional de la utilidad ($\text{S/ } 56\,000$):
 
 $$\text{Utilidad de Lucía} = \frac{20}{56} \times 56\,000 = 20 \times 1000 = \text{S/ } 20\,000$$
 
@@ -549,8 +557,6 @@ $$\text{Utilidad de Lucía} = \frac{20}{56} \times 56\,000 = 20 \times 1000 = \t
 ---
 
 ## 4. PRÁCTICA PROPUESTA (45 EJERCICIOS)
-
----
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 

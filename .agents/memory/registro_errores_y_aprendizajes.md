@@ -76,5 +76,37 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   * Para listas con viñetas, usar únicamente `* ` o `  * ` en columna 0 o sangría mínima de 2 espacios.
   * Ninguna línea en todo el markdown debe tener 4 espacios iniciales a menos que se desee explícitamente un bloque de código monospace sin matemáticas.
 
+---
+
+### `[ERR-009]` Fórmulas `$$` pegadas a listas o párrafos sin línea en blanco (desincronización de MathJax)
+* **Fecha:** 2026-10-19
+* **Problema:** Ecuaciones como `$$I = \frac{C \cdot r \cdot t}{1\,200}$$` se rompían y mostraban signos `$` sueltos y texto desconfigurado en la web.
+* **Causa Raíz:** En CommonMark/MyST, si un bloque display math `$$` se coloca inmediatamente en la línea siguiente a un ítem numerado (ej. `2. Aplicar fórmula:\n$$...$$`) o texto sin línea en blanco intermedia, el motor lo procesa como texto inline dentro del ítem `<li><p>`, interpretando el `$$` como dos tokens individuales `$`. Esto rompe el árbol DOM y corrompe MathJax en toda la página.
+* **Invariante / Regla Aprendida:**
+  1. En las soluciones paso a paso, **NO usar listas numeradas `1. `, `2. `**. Usar párrafos independientes en negrita a columna 0: `**Paso 1:**`, `**Paso 2:**`, `**Paso 3:**`.
+  2. **REGLA DE ORO DE ESPACIADO:** Todo bloque de ecuación `$$` debe tener estrictamente **una línea en blanco antes** y **una línea en blanco después**.
+  3. Si hay dos fórmulas consecutivas, **debe existir una línea en blanco entre ellas**.
+
+---
+
+### `[ERR-010]` Fallas de MathJax por `\begin{array}` en el Formulario Resumen y Soluciones
+* **Fecha:** 2026-10-19
+* **Problema:** En el Formulario Resumen y en ejercicios con sumas alineadas, el navegador mostraba código LaTeX en bruto como `$$\begin{array}{rl} 1\text{ h} & 45\text{ min} ... \end{array}$$`.
+* **Causa Raíz:** Sphinx encapsula bloques matemáticos con saltos en `\begin{split}`, y al anidar un `\begin{array}` con `\hline` o alineaciones complejas, MathJax 3 falla en el navegador.
+* **Invariante / Regla Aprendida:**
+  1. En la sección `## 7. Formulario Resumen`, **PROHIBIDO usar `\begin{array}`**. Se deben usar siempre **Tablas Markdown estándar** (`| Concepto | Expresión Matemática |`) con matemáticas inline `$ ... $`. Las tablas Markdown son 100% nativas en HTML, responsive y totalmente inmunes a fallas de renderizado.
+  2. El título de la sección 7 debe ser estricta y únicamente **`## 7. Formulario Resumen`** (sin agregados entre paréntesis ni etiquetas de LaTeX).
+  3. Para operaciones aritméticas alineadas en soluciones, estructurarlas en tablas Markdown explicativas en vez de `\begin{array}`.
+
+---
+
+### `[ERR-011]` Reglas horizontales (`---`) debajo de encabezados causan error de transición en Sphinx
+* **Fecha:** 2026-10-19
+* **Problema:** Advertencias de Sphinx: `ERROR: Document or section may not begin with a transition`.
+* **Causa Raíz:** En la especificación de docutils, una sección no puede comenzar inmediatamente con una regla de transición `---`.
+* **Invariante / Regla Aprendida:**
+  * **NUNCA colocar `---` directamente debajo de un encabezado (`#`, `##`, `###`).**
+  * La regla `---` se usa exclusivamente para cerrar o delimitar el final de una sección previa, justo antes del siguiente título.
+
 
 

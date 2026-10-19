@@ -160,8 +160,6 @@ $$
 
 ## 3. 10 EJERCICIOS RESUELTOS PASO A PASO
 
----
-
 ### NIVEL BÁSICO (Fijación de Conceptos)
 
 #### Ejercicio 01
@@ -179,19 +177,20 @@ E) $1.2 \times 10^9$
 
 * **Estrategia / Planteamiento:** Convertimos cada factor a notación científica estándar, multiplicamos los numeradores sumando exponentes y dividimos entre el denominador restando exponentes.
 * **Resolución:**
-1. *Conversión de cada término:*
+
+**Paso 1:** Conversión de cada término:
 * $0.000\,048 = 4.8 \times 10^{-5}$
 * $3\,000\,000 = 3 \times 10^6$
 * $0.000\,12 = 1.2 \times 10^{-4}$
-2. *Sustitución en $M$:*
+**Paso 2:** Sustitución en $M$:
 
 $$M = \frac{(4.8 \times 10^{-5}) \times (3 \times 10^6)}{1.2 \times 10^{-4}}$$
 
-3. *Agrupamos mantisas y potencias de 10:*
+**Paso 3:** Agrupamos mantisas y potencias de 10:
 
 $$M = \left(\frac{4.8 \times 3}{1.2}\right) \times 10^{-5 + 6 - (-4)}$$
 
-4. *Operamos:*
+**Paso 4:** Operamos:
 
 $$\frac{4.8}{1.2} = 4 \implies 4 \times 3 = 12$$
 
@@ -199,7 +198,7 @@ $$\text{Exponente} = -5 + 6 + 4 = 5$$
 
 $$M = 12 \times 10^5$$
 
-5. *Normalizamos a notación científica ($1 \le a < 10$):*
+**Paso 5:** Normalizamos a notación científica ($1 \le a < 10$):
 
 $$12 \times 10^5 = (1.2 \times 10^1) \times 10^5 = 1.2 \times 10^6$$
 
@@ -222,18 +221,19 @@ E) $6.245 \times 10^7$
 
 * **Estrategia / Planteamiento:** Homogeneizamos todos los sumandos a la mayor potencia de 10 ($10^7$) desplazando los puntos decimales correspondientes y luego sumamos las mantisas algebraicamente.
 * **Resolución:**
-1. *Homogeneización a base $10^7$:*
+
+**Paso 1:** Homogeneización a base $10^7$:
 * $5.4 \times 10^7 = 5.4 \times 10^7$
 * $8.2 \times 10^6 = 0.82 \times 10^7$
 * $2.5 \times 10^5 = 0.025 \times 10^7$
-2. *Factorizamos $10^7$:*
+**Paso 2:** Factorizamos $10^7$:
 
 $$S = (5.4 + 0.82 - 0.025) \times 10^7$$
 
-3. *Efectuamos la suma decimal:*
+**Paso 3:** Efectuamos la suma decimal:
 * $5.4 + 0.82 = 6.22$
 * $6.22 - 0.025 = 6.195$
-4. *Expresión final:*
+**Paso 4:** Expresión final:
 
 $$S = 6.195 \times 10^7$$
 
@@ -252,13 +252,14 @@ E) $10^{-25}\text{ g}$
 
 * **Estrategia / Planteamiento:** Comparamos el coeficiente $a = 2.99$ con la media geométrica $\sqrt{10} \approx 3.162$.
 * **Resolución:**
-1. El número es $N = 2.99 \times 10^{-23}$.
-2. Mantisa: $a = 2.99$.
-3. Criterio de comparación:
+
+**Paso 1:** El número es $N = 2.99 \times 10^{-23}$.
+**Paso 2:** Mantisa: $a = 2.99$.
+**Paso 3:** Criterio de comparación:
 
 $$2.99 < 3.162277\dots \quad (a < \sqrt{10})$$
 
-4. Por definición de orden de magnitud:
+**Paso 4:** Por definición de orden de magnitud:
 
 $$\text{OM} = 10^{-23}\text{ g}$$
 
@@ -283,20 +284,21 @@ E) $9.0 \times 10^4$
 
 * **Estrategia / Planteamiento:** Simplificamos el interior del radical agrupando mantisas y exponentes de base 10, asegurando que el exponente resultante sea un número par para extraer la raíz cuadrada exacta.
 * **Resolución:**
-1. *Operación en el radicando:*
+
+**Paso 1:** Operación en el radicando:
 
 $$\text{Radicando} = \frac{(1.44 \times 2.5)}{4.0} \times \frac{10^{-3} \times 10^7}{10^{-2}}$$
 
-2. *Cálculo numérico de mantisas:*
+**Paso 2:** Cálculo numérico de mantisas:
 * $1.44 \times 2.5 = 3.6$
 * $\frac{3.6}{4.0} = 0.9$
-3. *Cálculo de potencias de 10:*
+**Paso 3:** Cálculo de potencias de 10:
 
 $$\text{Exponente} = -3 + 7 - (-2) = 4 + 2 = 6$$
 
 $$\text{Radicando} = 0.9 \times 10^6$$
 
-4. *Ajuste a potencia par con mantisa de raíz exacta:*
+**Paso 4:** Ajuste a potencia par con mantisa de raíz exacta:
 
 $$0.9 \times 10^6 = 9 \times 10^5 \quad (\text{exponente impar, ajustamos})$$
 
@@ -325,16 +327,17 @@ E) $1.6 \times 10^7\text{ archivos}$
 
 * **Estrategia / Planteamiento:** Convertimos ambas cantidades a la unidad base (Bytes) utilizando los prefijos del Sistema Internacional ($\text{Tera} = 10^{12}$ y $\text{Mega} = 10^6$) y dividimos la capacidad total entre el tamaño del archivo.
 * **Resolución:**
-1. *Conversión de unidades:*
+
+**Paso 1:** Conversión de unidades:
 * Capacidad del SSD: $2\text{ TB} = 2 \times 10^{12}\text{ Bytes}$
 * Tamaño del archivo: $8\text{ MB} = 8 \times 10^6\text{ Bytes}$
-2. *Cálculo del número de archivos ($N$):*
+**Paso 2:** Cálculo del número de archivos ($N$):
 
 $$N = \frac{2 \times 10^{12}}{8 \times 10^6} = \left(\frac{2}{8}\right) \times 10^{12 - 6}$$
 
 $$N = 0.25 \times 10^6$$
 
-3. *Normalización a notación científica ($1 \le a < 10$):*
+**Paso 3:** Normalización a notación científica ($1 \le a < 10$):
 
 $$N = (2.5 \times 10^{-1}) \times 10^6 = 2.5 \times 10^5\text{ archivos}$$
 
@@ -357,22 +360,23 @@ E) $2.4$
 
 * **Estrategia / Planteamiento:** Aplicamos las propiedades de potenciación distributiva $(a \times 10^p)^n = a^n \times 10^{p \cdot n}$, simplificamos coeficientes y potencias de diez y despejamos $k$.
 * **Resolución:**
-1. *Desarrollo del numerador:*
+
+**Paso 1:** Desarrollo del numerador:
 * $(3 \times 10^{-4})^3 = 3^3 \times 10^{-12} = 27 \times 10^{-12}$
 * $(4 \times 10^8)^2 = 4^2 \times 10^{16} = 16 \times 10^{16}$
 * Producto del numerador:
 
 $$(27 \times 16) \times 10^{-12 + 16} = 432 \times 10^4$$
 
-2. *Desarrollo del denominador:*
+**Paso 2:** Desarrollo del denominador:
 
 $$(6 \times 10^{-2})^2 = 6^2 \times 10^{-4} = 36 \times 10^{-4}$$
 
-3. *División:*
+**Paso 3:** División:
 
 $$\frac{432 \times 10^4}{36 \times 10^{-4}} = \left(\frac{432}{36}\right) \times 10^{4 - (-4)} = 12 \times 10^8$$
 
-4. *Igualamos a $k \times 10^7$:*
+**Paso 4:** Igualamos a $k \times 10^7$:
 
 $$12 \times 10^8 = k \times 10^7$$
 
@@ -394,19 +398,20 @@ E) $9.82 \times 10^{11}\text{ km}$
 
 * **Estrategia / Planteamiento:** Convertimos el tiempo de un año a segundos ($365 \times 24 \times 3600$), aplicamos $d = v \cdot t$ y convertimos metros a kilómetros dividiendo entre $10^3$.
 * **Resolución:**
-1. *Cálculo de los segundos en un año:*
+
+**Paso 1:** Cálculo de los segundos en un año:
 
 $$t = 365 \times 24 \times 3600\text{ s} = 365 \times 86\,400\text{ s} = 31\,536\,000\text{ s} = 3.1536 \times 10^7\text{ s}$$
 
-2. *Cálculo de la distancia en metros ($d = v \cdot t$):*
+**Paso 2:** Cálculo de la distancia en metros ($d = v \cdot t$):
 
 $$d = (3.0 \times 10^8\text{ m/s}) \times (3.1536 \times 10^7\text{ s}) = 9.4608 \times 10^{15}\text{ metros}$$
 
-3. *Conversión a kilómetros ($1\text{ km} = 10^3\text{ m}$):*
+**Paso 3:** Conversión a kilómetros ($1\text{ km} = 10^3\text{ m}$):
 
 $$d = \frac{9.4608 \times 10^{15}}{10^3}\text{ km} = 9.4608 \times 10^{12}\text{ km}$$
 
-4. *Redondeo a dos decimales:*
+**Paso 4:** Redondeo a dos decimales:
 
 $$d \approx 9.46 \times 10^{12}\text{ km}$$
 
@@ -426,19 +431,20 @@ E) $14.2\text{ min}$ y $1600\text{ Mb}$
 
 * **Estrategia / Planteamiento:** Calculamos el tiempo de viaje $t$ mediante $t = \frac{d}{c}$, lo convertimos a minutos y luego multiplicamos los segundos por la tasa de transferencia para hallar los Megabits transmitidos.
 * **Resolución:**
-1. *Tiempo de viaje en segundos ($t$):*
+
+**Paso 1:** Tiempo de viaje en segundos ($t$):
 
 $$t = \frac{2.25 \times 10^8\text{ km}}{3.0 \times 10^5\text{ km/s}} = \left(\frac{2.25}{3.0}\right) \times 10^{8 - 5}\text{ s} = 0.75 \times 10^3\text{ s} = 750\text{ segundos}$$
 
-2. *Conversión a minutos:*
+**Paso 2:** Conversión a minutos:
 
 $$t_{\text{min}} = \frac{750}{60} = 12.5\text{ minutos}$$
 
-3. *Cantidad de datos emitidos en $750\text{ segundos}$:*
+**Paso 3:** Cantidad de datos emitidos en $750\text{ segundos}$:
 
 $$\text{Total bits} = 750\text{ s} \times (2.0 \times 10^6\text{ bits/s}) = 1500 \times 10^6\text{ bits}$$
 
-4. *Conversión a Megabits ($1\text{ Mb} = 10^6\text{ bits}$):*
+**Paso 4:** Conversión a Megabits ($1\text{ Mb} = 10^6\text{ bits}$):
 
 $$\text{Datos} = \frac{1500 \times 10^6}{10^6} = 1500\text{ Mb}$$
 
@@ -456,11 +462,12 @@ E) Orden de magnitud: $10^{-22}\text{ m}^3$; Razón: $1.0 \times 10^{10}$ veces
 
 * **Estrategia / Planteamiento:** Calculamos el volumen del virus en $\text{m}^3$ usando $R = 6.0 \times 10^{-8}\text{ m}$, determinamos su orden de magnitud comparando su mantisa con $\sqrt{10}$, y dividimos el volumen de la gota entre el volumen viral.
 * **Resolución:**
-1. *Radio del virus:*
+
+**Paso 1:** Radio del virus:
 
 $$R = 60\text{ nm} = 60 \times 10^{-9}\text{ m} = 6.0 \times 10^{-8}\text{ m}$$
 
-2. *Cálculo del volumen viral ($V_v$):*
+**Paso 2:** Cálculo del volumen viral ($V_v$):
 
 $$V_v = \frac{4}{3} \pi R^3 = \frac{4}{3} (3.14) (6.0 \times 10^{-8})^3$$
 
@@ -469,12 +476,12 @@ $$V_v = \frac{4}{3} \pi R^3 = \frac{4}{3} (3.14) (6.0 \times 10^{-8})^3$$
 
 $$V_v = 9.0432 \times 10^{-22}\text{ m}^3$$
 
-3. *Orden de Magnitud de $V_v$:*
+**Paso 3:** Orden de Magnitud de $V_v$:
 Como la mantisa $a = 9.0432 \ge \sqrt{10} \approx 3.162$:
 
 $$\text{OM} = 10^{-22 + 1} = 10^{-21}\text{ m}^3$$
 
-4. *Razón volumétrica:*
+**Paso 4:** Razón volumétrica:
 
 $$\text{Razón} = \frac{V_{\text{gota}}}{V_v} = \frac{4.5 \times 10^{-12}\text{ m}^3}{9.0432 \times 10^{-22}\text{ m}^3} \approx \frac{4.5}{9.0} \times 10^{-12 - (-22)} = 0.5 \times 10^{10} = 5.0 \times 10^9\text{ veces}$$
 
@@ -492,25 +499,26 @@ E) $1.88 \times 10^{15}\text{ Joules}$
 
 * **Estrategia / Planteamiento:** Convertimos $30\text{ días}$ a segundos ($30 \times 24 \times 3600$), multiplicamos por la potencia en notación científica y ajustamos el resultado.
 * **Resolución:**
-1. *Tiempo en segundos ($t$):*
+
+**Paso 1:** Tiempo en segundos ($t$):
 
 $$t = 30 \times 24 \times 3600\text{ s} = 30 \times 86\,400\text{ s} = 2\,592\,000\text{ s} = 2.592 \times 10^6\text{ s}$$
 
-2. *Cálculo de la energía ($E = P \cdot t$):*
+**Paso 2:** Cálculo de la energía ($E = P \cdot t$):
 
 $$E = (1.02 \times 10^9\text{ W}) \times (2.592 \times 10^6\text{ s})$$
 
-3. *Multiplicación de mantisas:*
+**Paso 3:** Multiplicación de mantisas:
 
 $$1.02 \times 2.592 = 2.64384$$
 
-4. *Multiplicación de potencias:*
+**Paso 4:** Multiplicación de potencias:
 
 $$10^9 \times 10^6 = 10^{15}$$
 
 $$E = 2.64384 \times 10^{15}\text{ Joules}$$
 
-5. *Redondeo a dos decimales:*
+**Paso 5:** Redondeo a dos decimales:
 
 $$E \approx 2.64 \times 10^{15}\text{ Joules}$$
 
@@ -519,8 +527,6 @@ $$E \approx 2.64 \times 10^{15}\text{ Joules}$$
 ---
 
 ## 4. PRÁCTICA PROPUESTA (45 EJERCICIOS)
-
----
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 

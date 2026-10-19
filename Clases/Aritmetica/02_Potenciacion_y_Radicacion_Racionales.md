@@ -175,8 +175,6 @@ $$
 
 ## 3. 10 EJERCICIOS RESUELTOS PASO A PASO
 
----
-
 ### NIVEL BÁSICO (Fijación de Conceptos)
 
 #### Ejercicio 01
@@ -194,16 +192,17 @@ E) $\frac{67}{8}$
 
 * **Estrategia / Planteamiento:** Aplicamos las propiedades de exponente negativo $\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^n$ y de exponente cero $x^0 = 1$ a cada término de forma independiente, para luego homogeneizar la adición fraccionaria.
 * **Resolución:**
-1. Calculamos cada término por separado:
+
+**Paso 1:** Calculamos cada término por separado:
 * $T_1 = \left(\frac{1}{2}\right)^{-2} = \left(\frac{2}{1}\right)^2 = 4$
 * $T_2 = \left(\frac{2}{3}\right)^{-3} = \left(\frac{3}{2}\right)^3 = \frac{27}{8}$
 * $T_3 = \left(\frac{4}{5}\right)^{-1} = \frac{5}{4}$
 * $T_4 = \left(\frac{1}{8}\right)^0 = 1$
-2. Sustituimos en la expresión:
+**Paso 2:** Sustituimos en la expresión:
 
 $$E = 4 + \frac{27}{8} + \frac{5}{4} - 1 = (4 - 1) + \frac{27}{8} + \frac{5}{4} = 3 + \frac{27}{8} + \frac{10}{8}$$
 
-3. Homogeneizamos a denominador $8$:
+**Paso 3:** Homogeneizamos a denominador $8$:
 
 $$E = \frac{24}{8} + \frac{27}{8} + \frac{10}{8} = \frac{24 + 27 + 10}{8} = \frac{61}{8}$$
 
@@ -226,21 +225,22 @@ E) $4$
 
 * **Estrategia / Planteamiento:** Agrupamos las raíces cuadradas en un único radical utilizando la propiedad $\sqrt{A} \times \sqrt{B} = \sqrt{A \cdot B}$, simplificamos la fracción resultante antes de extraer la raíz y calculamos la raíz cúbica del divisor.
 * **Resolución:**
-1. Multiplicamos las dos raíces cuadradas del numerador:
+
+**Paso 1:** Multiplicamos las dos raíces cuadradas del numerador:
 
 $$\sqrt{\frac{27}{8}} \times \sqrt{\frac{32}{3}} = \sqrt{\frac{27}{8} \times \frac{32}{3}}$$
 
-2. Simplificamos dentro del radical:
+**Paso 2:** Simplificamos dentro del radical:
 * $\frac{27}{3} = 9$
 * $\frac{32}{8} = 4$
 
 $$\sqrt{9 \times 4} = \sqrt{36} = 6$$
 
-3. Calculamos la raíz cúbica del divisor:
+**Paso 3:** Calculamos la raíz cúbica del divisor:
 
 $$\sqrt[3]{\frac{64}{27}} = \frac{\sqrt[3]{64}}{\sqrt[3]{27}} = \frac{4}{3}$$
 
-4. Realizamos la división final:
+**Paso 4:** Realizamos la división final:
 
 $$K = 6 \div \frac{4}{3} = 6 \times \frac{3}{4} = \frac{18}{4} = \frac{9}{2}$$
 
@@ -263,18 +263,19 @@ E) $-\frac{11}{5}$
 
 * **Estrategia / Planteamiento:** Descomponemos las bases en sus factores primos de potencias de $\frac{5}{3}$. Notamos que $\frac{27}{125} = \left(\frac{3}{5}\right)^3 = \left(\frac{5}{3}\right)^{-3}$. Al igualar las bases, igualamos los exponentes resultantes.
 * **Resolución:**
-1. Expresamos ambas bases en función de $\frac{5}{3}$:
+
+**Paso 1:** Expresamos ambas bases en función de $\frac{5}{3}$:
 * $\frac{25}{9} = \left(\frac{5}{3}\right)^2$
 * $\frac{27}{125} = \left(\frac{3}{5}\right)^3 = \left(\frac{5}{3}\right)^{-3}$
-2. Sustituimos en la ecuación:
+**Paso 2:** Sustituimos en la ecuación:
 
 $$\left[\left(\frac{5}{3}\right)^2\right]^{x-1} = \left[\left(\frac{5}{3}\right)^{-3}\right]^{x+3}$$
 
-3. Multiplicamos los exponentes (potencia de potencia):
+**Paso 3:** Multiplicamos los exponentes (potencia de potencia):
 
 $$\left(\frac{5}{3}\right)^{2(x-1)} = \left(\frac{5}{3}\right)^{-3(x+3)}$$
 
-4. Como las bases son iguales y distintas de $0, 1, -1$, igualamos los exponentes:
+**Paso 4:** Como las bases son iguales y distintas de $0, 1, -1$, igualamos los exponentes:
 
 $$2(x - 1) = -3(x + 3)$$
 
@@ -305,7 +306,8 @@ E) $\frac{45}{136}$
 
 * **Estrategia / Planteamiento:** Simplificamos el numerador término por término transformando las fracciones a potencias de bases comunes. Luego resolvemos el denominador y efectuamos la división final.
 * **Resolución:**
-1. *Numerador:*
+
+**Paso 1:** Numerador:
 * Término 1:
 
 $$\left(\frac{2}{3}\right)^{-2} \cdot \left(\frac{9}{4}\right)^{-1} = \left(\frac{3}{2}\right)^2 \cdot \frac{4}{9} = \frac{9}{4} \cdot \frac{4}{9} = 1$$
@@ -318,11 +320,11 @@ $$\left(\frac{5}{2}\right)^{-3} \cdot \left(\frac{25}{4}\right)^2 = \left(\frac{
 
 $$N = 1 + \frac{5}{2} = \frac{7}{2}$$
 
-2. *Denominador:*
+**Paso 2:** Denominador:
 
 $$D = \left(\frac{1}{2}\right)^{-4} - \sqrt{\frac{144}{25}} = 2^4 - \frac{12}{5} = 16 - \frac{12}{5} = \frac{80 - 12}{5} = \frac{68}{5}$$
 
-3. *Cociente $S = \frac{N}{D}$:*
+**Paso 3:** Cociente $S = \frac{N}{D}$:
 
 $$S = \frac{\frac{7}{2}}{\frac{68}{5}} = \frac{7 \cdot 5}{2 \cdot 68} = \frac{35}{136}$$
 
@@ -345,22 +347,23 @@ E) $\left(\frac{1}{2}\right)^{2/3}$
 
 * **Estrategia / Planteamiento:** Expresamos todos los coeficientes en base $2$ con exponentes negativos o fraccionarios, e introducimos sucesivamente los factores desde afuera hacia adentro (o aplicamos la regla de exponentes fraccionarios sumados).
 * **Resolución:**
-1. Expresemos cada factor en potencias de $\frac{1}{2}$:
+
+**Paso 1:** Expresemos cada factor en potencias de $\frac{1}{2}$:
 * $\frac{1}{4} = \left(\frac{1}{2}\right)^2$
 * $\frac{1}{2} = \left(\frac{1}{2}\right)^1$
-2. Trabajemos desde el radical más interno:
+**Paso 2:** Trabajemos desde el radical más interno:
 
 $$R_{\text{interno}} = \sqrt[3]{\frac{1}{2}} = \left(\frac{1}{2}\right)^{1/3}$$
 
-3. Multiplicamos por el factor que lo precede y extraemos la raíz cuadrada:
+**Paso 3:** Multiplicamos por el factor que lo precede y extraemos la raíz cuadrada:
 
 $$\sqrt{\frac{1}{2} \cdot \left(\frac{1}{2}\right)^{1/3}} = \sqrt{\left(\frac{1}{2}\right)^{1 + 1/3}} = \sqrt{\left(\frac{1}{2}\right)^{4/3}} = \left(\frac{1}{2}\right)^{\frac{4/3}{2}} = \left(\frac{1}{2}\right)^{2/3}$$
 
-4. Multiplicamos por $\frac{1}{4} = \left(\frac{1}{2}\right)^2$ y extraemos la raíz cúbica exterior:
+**Paso 4:** Multiplicamos por $\frac{1}{4} = \left(\frac{1}{2}\right)^2$ y extraemos la raíz cúbica exterior:
 
 $$P = \sqrt[3]{\left(\frac{1}{2}\right)^2 \cdot \left(\frac{1}{2}\right)^{2/3}} = \sqrt[3]{\left(\frac{1}{2}\right)^{2 + 2/3}} = \sqrt[3]{\left(\frac{1}{2}\right)^{8/3}}$$
 
-5. Dividimos el exponente entre el índice $3$:
+**Paso 5:** Dividimos el exponente entre el índice $3$:
 
 $$P = \left(\frac{1}{2}\right)^{\frac{8/3}{3}} = \left(\frac{1}{2}\right)^{\frac{8}{9}}$$
 
@@ -388,23 +391,24 @@ E) $3$
 
 * **Estrategia / Planteamiento:** Notamos que $\frac{4}{9} = \left(\frac{2}{3}\right)^2$ y $\frac{27}{8} = \left(\frac{3}{2}\right)^3 = \left(\frac{2}{3}\right)^{-3}$. Homogeneizamos las bases para obtener una ecuación cuadrática en $x$.
 * **Resolución:**
-1. Escribimos ambas bases en función de $\frac{2}{3}$:
+
+**Paso 1:** Escribimos ambas bases en función de $\frac{2}{3}$:
 
 $$\left[\left(\frac{2}{3}\right)^2\right]^{x^2 - 3x} = \left[\left(\frac{2}{3}\right)^{-3}\right]^{x - 3}$$
 
-2. Multiplicamos exponentes:
+**Paso 2:** Multiplicamos exponentes:
 
 $$\left(\frac{2}{3}\right)^{2x^2 - 6x} = \left(\frac{2}{3}\right)^{-3x + 9}$$
 
-3. Igualamos los exponentes:
+**Paso 3:** Igualamos los exponentes:
 
 $$2x^2 - 6x = -3x + 9$$
 
-4. Ordenamos la ecuación cuadrática:
+**Paso 4:** Ordenamos la ecuación cuadrática:
 
 $$2x^2 - 3x - 9 = 0$$
 
-5. Factorizamos por aspa simple:
+**Paso 5:** Factorizamos por aspa simple:
 * $2x \quad\quad +3 \implies +3x$
 * $x \quad\quad\quad -3 \implies -6x$
 * Suma cruzada: $+3x - 6x = -3x$ (correcto).
@@ -413,7 +417,7 @@ $$(2x + 3)(x - 3) = 0$$
 
 $$x_1 = -\frac{3}{2}, \quad x_2 = 3$$
 
-6. Calculamos la suma de las raíces:
+**Paso 6:** Calculamos la suma de las raíces:
 
 $$x_1 + x_2 = -\frac{3}{2} + 3 = \frac{3}{2}$$
 
@@ -437,19 +441,20 @@ E) $2\sqrt{7}$
 
 * **Estrategia / Planteamiento:** Racionalizamos cada término multiplicándolo por su respectiva expresión conjugada para eliminar las raíces de los denominadores.
 * **Resolución:**
-1. *Primer término:*
+
+**Paso 1:** Primer término:
 
 $$\frac{1}{\sqrt{7} - \sqrt{5}} \cdot \frac{\sqrt{7} + \sqrt{5}}{\sqrt{7} + \sqrt{5}} = \frac{\sqrt{7} + \sqrt{5}}{7 - 5} = \frac{\sqrt{7} + \sqrt{5}}{2}$$
 
-2. *Segundo término:*
+**Paso 2:** Segundo término:
 
 $$\frac{1}{\sqrt{5} - \sqrt{3}} \cdot \frac{\sqrt{5} + \sqrt{3}}{\sqrt{5} + \sqrt{3}} = \frac{\sqrt{5} + \sqrt{3}}{5 - 3} = \frac{\sqrt{5} + \sqrt{3}}{2}$$
 
-3. *Tercer término:*
+**Paso 3:** Tercer término:
 
 $$\frac{2}{\sqrt{7} - \sqrt{3}} \cdot \frac{\sqrt{7} + \sqrt{3}}{\sqrt{7} + \sqrt{3}} = \frac{2(\sqrt{7} + \sqrt{3})}{7 - 3} = \frac{2(\sqrt{7} + \sqrt{3})}{4} = \frac{\sqrt{7} + \sqrt{3}}{2}$$
 
-4. *Sustitución y reducción:*
+**Paso 4:** Sustitución y reducción:
 Como todos tienen denominador común $2$:
 
 $$R = \frac{(\sqrt{7} + \sqrt{5}) - (\sqrt{5} + \sqrt{3}) + (\sqrt{7} + \sqrt{3})}{2}$$
@@ -482,16 +487,17 @@ E) $16\text{ mg}$
 
 * **Estrategia / Planteamiento:** Determinamos el tiempo transcurrido $t$, lo sustituimos en el exponente racional $\frac{t}{6}$ y resolvemos la potencia con base fraccionaria.
 * **Resolución:**
-1. *Tiempo transcurrido ($t$):*
+
+**Paso 1:** Tiempo transcurrido ($t$):
 Desde las $08:00\text{ a.m.}$ de hoy hasta las $02:00\text{ a.m.}$ de mañana han pasado:
 
 $$t = 16\text{ horas (del mismo día)} + 2\text{ horas (del día siguiente)} = 18\text{ horas}$$
 
-2. *Cálculo del exponente fraccionario:*
+**Paso 2:** Cálculo del exponente fraccionario:
 
 $$\frac{t}{6} = \frac{18}{6} = 3$$
 
-3. *Evaluación de la masa remanente:*
+**Paso 3:** Evaluación de la masa remanente:
 
 $$M(18) = 64 \cdot \left(\frac{1}{2}\right)^3 = 64 \cdot \frac{1}{8} = 8\text{ mg}$$
 
@@ -509,18 +515,19 @@ E) $6\text{ capas}$
 
 * **Estrategia / Planteamiento:** Planteamos la relación de atenuación exponencial: $I_k = I_0 \cdot \left(\frac{4}{9}\right)^k$. Igualamos el cociente $\frac{I_k}{I_0} = \frac{64}{729}$ y encontramos $k$ expresando ambos términos como potencias de números primos.
 * **Resolución:**
-1. Planteamos la ecuación:
+
+**Paso 1:** Planteamos la ecuación:
 
 $$I_0 \cdot \left(\frac{4}{9}\right)^k = \frac{64}{729} \cdot I_0 \implies \left(\frac{4}{9}\right)^k = \frac{64}{729}$$
 
-2. Descomponemos el segundo miembro en potencias de $4$ y $9$ (o de $2$ y $3$):
+**Paso 2:** Descomponemos el segundo miembro en potencias de $4$ y $9$ (o de $2$ y $3$):
 * $64 = 4^3$ (o $2^6$)
 * $729 = 9^3$ (ya que $9 \times 9 = 81$ y $81 \times 9 = 729$)
-3. Expresamos como potencia:
+**Paso 3:** Expresamos como potencia:
 
 $$\left(\frac{4}{9}\right)^k = \left(\frac{4}{9}\right)^3$$
 
-4. Por igualdad de bases racionales:
+**Paso 4:** Por igualdad de bases racionales:
 
 $$k = 3\text{ capas}$$
 
@@ -538,14 +545,15 @@ E) $\frac{3}{32}$
 
 * **Estrategia / Planteamiento:** La masa de una esfera homogénea es directamente proporcional a su volumen ($M \propto V$), y el volumen es proporcional al cubo de su radio ($V = \frac{4}{3}\pi R^3 \implies M \propto R^3$). Por ende, la razón de masas es el cubo de la razón de radios combinada.
 * **Resolución:**
-1. *Radio resultante tras las dos reducciones sucesivas:*
+
+**Paso 1:** Radio resultante tras las dos reducciones sucesivas:
 * Reducción 1: $R_2 = \frac{2}{3}R_1$
 * Reducción 2: $R_3 = \frac{3}{4}R_2 = \frac{3}{4}\left(\frac{2}{3}R_1\right) = \frac{2}{4}R_1 = \frac{1}{2}R_1$
-2. *Relación de volumen y masa:*
+**Paso 2:** Relación de volumen y masa:
 
 $$\frac{M_3}{M_1} = \frac{V_3}{V_1} = \left(\frac{R_3}{R_1}\right)^3$$
 
-3. *Sustituimos la razón de radios:*
+**Paso 3:** Sustituimos la razón de radios:
 
 $$\frac{M_3}{M_1} = \left(\frac{1}{2}\right)^3 = \frac{1^3}{2^3} = \frac{1}{8}$$
 
@@ -554,8 +562,6 @@ $$\frac{M_3}{M_1} = \left(\frac{1}{2}\right)^3 = \frac{1^3}{2^3} = \frac{1}{8}$$
 ---
 
 ## 4. PRÁCTICA PROPUESTA (45 EJERCICIOS)
-
----
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 

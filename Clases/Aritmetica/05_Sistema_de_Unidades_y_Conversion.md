@@ -150,7 +150,8 @@ $$1\frac{\text{m}^3}{\text{s}} = 1\,000\frac{\text{L}}{\text{s}} = 60\,000\frac{
 Un cable de fibra óptica instalado entre dos antenas de telecomunicación mide $3{,}75\text{ km}$. Si un tramo de prueba mide $48\,000\text{ cm}$ y otro tramo de empalme mide $850\text{ m}$, ¿cuántos decámetros ($\text{dam}$) le faltan al tendido para completar la distancia total?
 
 **Solución paso a paso:**
-1. **Identificar la incógnita y unificar a una unidad común:**
+
+**Paso 1:** Identificar la incógnita y unificar a una unidad común:
 Conviene convertir todas las magnitudes a la unidad pedida: decámetros ($\text{dam}$), recordando que:
 
 $$1\text{ dam} = 10\text{ m} \implies 1\text{ m} = 0{,}1\text{ dam}$$
@@ -159,11 +160,11 @@ $$1\text{ km} = 1\,000\text{ m} = 100\text{ dam}$$
 
 $$1\text{ dam} = 1\,000\text{ cm} \implies 1\text{ cm} = 10^{-3}\text{ dam}$$
 
-2. **Convertir la distancia total:**
+**Paso 2:** Convertir la distancia total:
 
 $$D_{\text{total}} = 3{,}75\text{ km} \times \frac{100\text{ dam}}{1\text{ km}} = 375\text{ dam}$$
 
-3. **Convertir los tramos ya instalados:**
+**Paso 3:** Convertir los tramos ya instalados:
 * Tramo 1:
 
 $$T_1 = 48\,000\text{ cm} \times \frac{1\text{ dam}}{1\,000\text{ cm}} = 48\text{ dam}$$
@@ -172,7 +173,7 @@ $$T_1 = 48\,000\text{ cm} \times \frac{1\text{ dam}}{1\,000\text{ cm}} = 48\text
 
 $$T_2 = 850\text{ m} \times \frac{1\text{ dam}}{10\text{ m}} = 85\text{ dam}$$
 
-4. **Calcular la distancia instalada y la faltante:**
+**Paso 4:** Calcular la distancia instalada y la faltante:
 
 $$D_{\text{instalada}} = T_1 + T_2 = 48\text{ dam} + 85\text{ dam} = 133\text{ dam}$$
 
@@ -186,30 +187,30 @@ $$D_{\text{faltante}} = D_{\text{total}} - D_{\text{instalada}} = 375\text{ dam}
 Un estudiante de academia dedica tres sesiones de estudio por la tarde: la primera dura $1\text{ h } 45\text{ min } 30\text{ s}$, la segunda dura $2\text{ h } 38\text{ min } 45\text{ s}$ y la tercera dura $55\text{ min } 45\text{ s}$. Exprese el tiempo total de estudio en horas en formato decimal exacto.
 
 **Solución paso a paso:**
-1. **Sumar los componentes sexagesimales de forma ordenada:**
 
-$$\begin{array}{rl}
-1\text{ h} & 45\text{ min} \quad 30\text{ s} \\
-+ \; 2\text{ h} & 38\text{ min} \quad 45\text{ s} \\
-0\text{ h} & 55\text{ min} \quad 45\text{ s} \\
-\hline
-3\text{ h} & 138\text{ min} \quad 120\text{ s}
-\end{array}$$
+**Paso 1:** Sumar los componentes sexagesimales de forma ordenada:
 
-2. **Normalizar los segundos a minutos:**
+| Sesión de Estudio | Horas | Minutos | Segundos |
+| :--- | :---: | :---: | :---: |
+| Primera sesión | $1\text{ h}$ | $45\text{ min}$ | $30\text{ s}$ |
+| Segunda sesión | $2\text{ h}$ | $38\text{ min}$ | $45\text{ s}$ |
+| Tercera sesión | $0\text{ h}$ | $55\text{ min}$ | $45\text{ s}$ |
+| **Suma bruta** | **$3\text{ h}$** | **$138\text{ min}$** | **$120\text{ s}$** |
+
+**Paso 2:** Normalizar los segundos a minutos:
 
 $$120\text{ s} = \frac{120}{60}\text{ min} = 2\text{ min } 00\text{ s}$$
 
 Sumamos a los minutos: $138\text{ min} + 2\text{ min} = 140\text{ min}$.
 
-3. **Normalizar los minutos a horas:**
+**Paso 3:** Normalizar los minutos a horas:
 
 $$140\text{ min} = 120\text{ min} + 20\text{ min} = 2\text{ h } 20\text{ min}$$
 
 Sumamos a las horas: $3\text{ h} + 2\text{ h} = 5\text{ h}$.
 Tiempo total sexagesimal: $5\text{ h } 20\text{ min } 00\text{ s}$.
 
-4. **Convertir a horas en forma decimal fraccionaria y periódica:**
+**Paso 4:** Convertir a horas en forma decimal fraccionaria y periódica:
 
 $$T = 5\text{ h} + \frac{20\text{ min}}{60\frac{\text{min}}{\text{h}}} = 5 + \frac{1}{3}\text{ h} = \frac{16}{3}\text{ h} = 5{,}\widehat{3}\text{ h}$$
 
@@ -221,11 +222,12 @@ $$T = 5\text{ h} + \frac{20\text{ min}}{60\frac{\text{min}}{\text{h}}} = 5 + \fr
 Un vehículo de transporte interprovincial viaja por la Panamericana Sur a una velocidad constante de $90\text{ km/h}$. Si ingresa a un tramo urbano donde el límite máximo de velocidad es de $22\text{ m/s}$, determine si el conductor está infringiendo el límite y calcule la diferencia en $\text{m/s}$.
 
 **Solución paso a paso:**
-1. **Convertir la velocidad del vehículo a $\text{m/s}$ usando el factor directo $\frac{5}{18}$:**
+
+**Paso 1:** Convertir la velocidad del vehículo a $\text{m/s}$ usando el factor directo $\frac{5}{18}$:
 
 $$V = 90\frac{\text{km}}{\text{h}} \times \frac{5\text{ m/s}}{18\text{ km/h}} = \left(\frac{90}{18}\right) \times 5 = 5 \times 5 = 25\text{ m/s}$$
 
-2. **Comparar con el límite permitido:**
+**Paso 2:** Comparar con el límite permitido:
 
 $$V_{\text{vehículo}} = 25\text{ m/s}$$
 
@@ -233,7 +235,7 @@ $$V_{\text{límite}} = 22\text{ m/s}$$
 
 Como $25 > 22$, el conductor sí infringe el límite de velocidad.
 
-3. **Calcular la diferencia:**
+**Paso 3:** Calcular la diferencia:
 
 $$\Delta V = 25\text{ m/s} - 22\text{ m/s} = 3\text{ m/s}$$
 
@@ -247,21 +249,22 @@ $$\Delta V = 25\text{ m/s} - 22\text{ m/s} = 3\text{ m/s}$$
 Una comunidad campesina en el valle del Mantaro posee un terreno de cultivo de forma rectangular cuyas dimensiones son $450\text{ m}$ de largo por $240\text{ m}$ de ancho. Si se destina el $40\%$ del terreno a la siembra de papa nativa y se sabe que cada metro cuadrado produce en promedio $2{,}5\text{ kg}$ de tubérculo, ¿cuántas toneladas métricas ($\text{t}$) de papa se cosecharán? ($1\text{ t} = 1\,000\text{ kg}$).
 
 **Solución paso a paso:**
-1. **Calcular el área total del terreno en metros cuadrados:**
+
+**Paso 1:** Calcular el área total del terreno en metros cuadrados:
 
 $$\text{Área}_{\text{total}} = 450\text{ m} \times 240\text{ m} = 108\,000\text{ m}^2$$
 
 *(En hectáreas equivale a $\frac{108\,000}{10\,000} = 10{,}8\text{ ha}$).*
 
-2. **Calcular el área destinada al cultivo de papa:**
+**Paso 2:** Calcular el área destinada al cultivo de papa:
 
 $$\text{Área}_{\text{papa}} = 40\% \times 108\,000\text{ m}^2 = \frac{40}{100} \times 108\,000 = 43\,200\text{ m}^2$$
 
-3. **Calcular la masa total cosechada en kilogramos:**
+**Paso 3:** Calcular la masa total cosechada en kilogramos:
 
 $$\text{Masa} = 43\,200\text{ m}^2 \times 2{,}5\frac{\text{kg}}{\text{m}^2} = 108\,000\text{ kg}$$
 
-4. **Convertir la masa a toneladas métricas ($\text{t}$):**
+**Paso 4:** Convertir la masa a toneladas métricas ($\text{t}$):
 
 $$\text{Masa en t} = 108\,000\text{ kg} \times \frac{1\text{ t}}{1\,000\text{ kg}} = 108\text{ t}$$
 
@@ -273,7 +276,8 @@ $$\text{Masa en t} = 108\,000\text{ kg} \times \frac{1\text{ t}}{1\,000\text{ kg
 Un reservorio comunal para riego tecnificado tiene una capacidad de $180\text{ m}^3$. El reservorio se llena mediante dos tuberías simultáneas: la tubería $A$ abastece a razón de $150\text{ L/min}$ y la tubería $B$ aporta $5\text{ L/s}$. Si al iniciar el proceso el reservorio ya contiene el $15\%$ de su capacidad total, ¿cuántas horas y minutos exactos tardará en llenarse completamente?
 
 **Solución paso a paso:**
-1. **Calcular el volumen necesario por llenar:**
+
+**Paso 1:** Calcular el volumen necesario por llenar:
 * Capacidad total en litros:
 
 $$V_{\text{total}} = 180\text{ m}^3 \times \frac{1\,000\text{ L}}{1\text{ m}^3} = 180\,000\text{ L}$$
@@ -286,7 +290,7 @@ $$V_{\text{inicial}} = 0{,}15 \times 180\,000\text{ L} = 27\,000\text{ L}$$
 
 $$V_{\text{falta}} = 180\,000\text{ L} - 27\,000\text{ L} = 153\,000\text{ L}$$
 
-2. **Unificar y sumar los caudales de ambas tuberías:**
+**Paso 2:** Unificar y sumar los caudales de ambas tuberías:
 * Caudal de la tubería $B$:
 
 $$Q_B = 5\frac{\text{L}}{\text{s}} \times \frac{60\text{ s}}{1\text{ min}} = 300\frac{\text{L}}{\text{min}}$$
@@ -295,11 +299,11 @@ $$Q_B = 5\frac{\text{L}}{\text{s}} \times \frac{60\text{ s}}{1\text{ min}} = 300
 
 $$Q_{\text{total}} = Q_A + Q_B = 150\frac{\text{L}}{\text{min}} + 300\frac{\text{L}}{\text{min}} = 450\frac{\text{L}}{\text{min}}$$
 
-3. **Calcular el tiempo en minutos:**
+**Paso 3:** Calcular el tiempo en minutos:
 
 $$t = \frac{V_{\text{falta}}}{Q_{\text{total}}} = \frac{153\,000\text{ L}}{450\text{ L/min}} = 340\text{ min}$$
 
-4. **Convertir el tiempo a horas y minutos exactos:**
+**Paso 4:** Convertir el tiempo a horas y minutos exactos:
 
 $$340\text{ min} = 300\text{ min} + 40\text{ min} = 5\text{ h } 40\text{ min}$$
 
@@ -313,16 +317,17 @@ En horas decimales sería: $5 + \frac{40}{60} = 5{,}\widehat{6}\text{ h}$.
 En una carta geográfica nacional a escala $1:250\,000$, la distancia medida en línea recta entre dos poblados andinos es de $18{,}4\text{ cm}$. Si una brigada médica recorre dicha ruta en un vehículo todoterreno a una velocidad media de $40\text{ km/h}$ y hace dos paradas técnicas de $25\text{ minutos}$ cada una, ¿cuánto tiempo total (en horas y minutos) dura la expedición?
 
 **Solución paso a paso:**
-1. **Calcular la distancia real sobre el terreno:**
+
+**Paso 1:** Calcular la distancia real sobre el terreno:
 La escala $1:250\,000$ indica que $1\text{ cm}$ en el papel equivale a $250\,000\text{ cm}$ en la realidad.
 
 $$D_{\text{real}} = 18{,}4\text{ cm} \times 250\,000 = 4\,600\,000\text{ cm}$$
 
-2. **Convertir la distancia real a kilómetros:**
+**Paso 2:** Convertir la distancia real a kilómetros:
 
 $$D_{\text{real}} = 4\,600\,000\text{ cm} \times \frac{1\text{ m}}{100\text{ cm}} \times \frac{1\text{ km}}{1\,000\text{ m}} = \frac{4\,600\,000}{100\,000}\text{ km} = 46\text{ km}$$
 
-3. **Calcular el tiempo de movimiento del vehículo:**
+**Paso 3:** Calcular el tiempo de movimiento del vehículo:
 
 $$t_{\text{viaje}} = \frac{D}{V} = \frac{46\text{ km}}{40\text{ km/h}} = 1{,}15\text{ h}$$
 
@@ -330,7 +335,7 @@ Convertimos $1{,}15\text{ h}$ a minutos:
 
 $$1{,}15 \times 60\text{ min} = 69\text{ min} = 1\text{ h } 09\text{ min}$$
 
-4. **Sumar el tiempo de las paradas técnicas:**
+**Paso 4:** Sumar el tiempo de las paradas técnicas:
 
 $$t_{\text{paradas}} = 2 \times 25\text{ min} = 50\text{ min}$$
 
@@ -344,19 +349,20 @@ $$t_{\text{total}} = 69\text{ min} + 50\text{ min} = 119\text{ min} = 1\text{ h 
 Un procesador digital envía paquetes de telemetría hacia una antena cada $250\text{ microsegundos}$ ($\mu\text{s}$). Cada paquete tiene un tamaño de $128\text{ bytes}$. ¿Cuántos megabytes ($\text{MB}$) de información se transmiten en un lapso continuo de $2\text{ horas}$? Asuma que $1\text{ MB} = 10^6\text{ bytes}$ (sistema decimal de telecomunicaciones).
 
 **Solución paso a paso:**
-1. **Convertir el intervalo de transmisión a segundos:**
+
+**Paso 1:** Convertir el intervalo de transmisión a segundos:
 
 $$\Delta t = 250\ \mu\text{s} = 250 \times 10^{-6}\text{ s} = 2{,}5 \times 10^{-4}\text{ s}$$
 
-2. **Calcular la cantidad de segundos en $2\text{ horas}$:**
+**Paso 2:** Calcular la cantidad de segundos en $2\text{ horas}$:
 
 $$T = 2\text{ h} \times \frac{3\,600\text{ s}}{1\text{ h}} = 7\,200\text{ s} = 7{,}2 \times 10^3\text{ s}$$
 
-3. **Calcular el número total de paquetes transmitidos ($N$):**
+**Paso 3:** Calcular el número total de paquetes transmitidos ($N$):
 
 $$N = \frac{T}{\Delta t} = \frac{7\,200\text{ s}}{250 \times 10^{-6}\text{ s}} = \frac{7{,}2 \times 10^3}{2{,}5 \times 10^{-4}} = 2{,}88 \times 10^7\text{ paquetes}$$
 
-4. **Calcular el total de bytes y convertir a megabytes ($\text{MB}$):**
+**Paso 4:** Calcular el total de bytes y convertir a megabytes ($\text{MB}$):
 
 $$\text{Total bytes} = N \times 128\text{ bytes} = 2{,}88 \times 10^7 \times 128 = 368{,}64 \times 10^7\text{ bytes} = 3\,686{,}4 \times 10^6\text{ bytes}$$
 
@@ -377,14 +383,15 @@ Durante una crecida extraordinaria del río Huallaga en Loreto, se debe evacuar 
 Si la operación de transbordo entre la lancha y los camiones toma exactamente $42\text{ minutos}$, determine el tiempo total de la evacuación expresado en horas, minutos y segundos exactos.
 
 **Solución paso a paso:**
-1. **Analizar la velocidad efectiva en la etapa fluvial:**
+
+**Paso 1:** Analizar la velocidad efectiva en la etapa fluvial:
 La lancha viaja río abajo, por lo que la velocidad del río se suma a la velocidad de la lancha:
 
 $$V_{\text{río}} = 2\frac{\text{m}}{\text{s}} \times \frac{18\text{ km/h}}{5\text{ m/s}} = \frac{36}{5}\text{ km/h} = 7{,}2\text{ km/h}$$
 
 $$V_{\text{efectiva}} = V_{\text{lancha}} + V_{\text{río}} = 18\text{ km/h} + 7{,}2\text{ km/h} = 25{,}2\text{ km/h}$$
 
-2. **Calcular el tiempo de la etapa fluvial ($t_1$):**
+**Paso 2:** Calcular el tiempo de la etapa fluvial ($t_1$):
 
 $$t_1 = \frac{D_1}{V_{\text{efectiva}}} = \frac{72\text{ km}}{25{,}2\text{ km/h}} = \frac{72}{\frac{252}{10}} = \frac{720}{252}\text{ h}$$
 
@@ -400,15 +407,15 @@ Convertimos $\frac{3}{7}\text{ min}$ a segundos:
 
 $$\frac{3}{7} \times 60 = \frac{180}{7}\text{ s} = 25{,}71\text{ s}$$
 
-3. **Calcular el tiempo de la etapa terrestre ($t_2$):**
+**Paso 3:** Calcular el tiempo de la etapa terrestre ($t_2$):
 
 $$t_2 = \frac{D_2}{V_{\text{terrestre}}} = \frac{45\text{ km}}{30\text{ km/h}} = 1{,}5\text{ h} = 1\text{ h } 30\text{ min } 00\text{ s}$$
 
-4. **Convertir el tiempo de transbordo a horas fraccionarias:**
+**Paso 4:** Convertir el tiempo de transbordo a horas fraccionarias:
 
 $$t_{\text{transbordo}} = 42\text{ min} = \frac{42}{60}\text{ h} = \frac{7}{10}\text{ h} = 0{,}7\text{ h}$$
 
-5. **Sumar el tiempo total de manera exacta en fracciones de hora:**
+**Paso 5:** Sumar el tiempo total de manera exacta en fracciones de hora:
 
 $$T_{\text{total}} = t_1 + t_2 + t_{\text{transbordo}} = \frac{20}{7} + \frac{3}{2} + \frac{7}{10}$$
 
@@ -436,20 +443,21 @@ $$\frac{3}{7} \times 60 = \frac{180}{7}\text{ s} = 25\frac{5}{7}\text{ s} \appro
 Un satélite de observación de la Tierra orbita a una altitud de $630\text{ km}$ sobre la superficie del territorio peruano. Emite un pulso láser hacia una estación terrena en Huancayo que se encuentra a una distancia oblicua de $1\,050\text{ km}$. La velocidad de propagación de la luz en el medio es $c \approx 3 \times 10^8\text{ m/s}$. Calcule el tiempo que tarda el pulso en llegar a la estación expresado en milisegundos ($\text{ms}$) y en microsegundos ($\mu\text{s}$).
 
 **Solución paso a paso:**
-1. **Convertir la distancia a metros:**
+
+**Paso 1:** Convertir la distancia a metros:
 
 $$D = 1\,050\text{ km} \times \frac{1\,000\text{ m}}{1\text{ km}} = 1\,050\,000\text{ m} = 1{,}05 \times 10^6\text{ m}$$
 
-2. **Calcular el tiempo en segundos empleando la fórmula del MRU:**
+**Paso 2:** Calcular el tiempo en segundos empleando la fórmula del MRU:
 
 $$t = \frac{D}{c} = \frac{1{,}05 \times 10^6\text{ m}}{3 \times 10^8\text{ m/s}} = \frac{1{,}05}{3} \times 10^{6-8}\text{ s} = 0{,}35 \times 10^{-2}\text{ s} = 3{,}5 \times 10^{-3}\text{ s}$$
 
-3. **Convertir a milisegundos ($\text{ms}$):**
+**Paso 3:** Convertir a milisegundos ($\text{ms}$):
 Como $1\text{ ms} = 10^{-3}\text{ s}$:
 
 $$t = 3{,}5 \times 10^{-3}\text{ s} = 3{,}5\text{ ms}$$
 
-4. **Convertir a microsegundos ($\mu\text{s}$):**
+**Paso 4:** Convertir a microsegundos ($\mu\text{s}$):
 Como $1\text{ ms} = 1\,000\ \mu\text{s}$:
 
 $$t = 3{,}5\text{ ms} \times \frac{1\,000\ \mu\text{s}}{1\text{ ms}} = 3\,500\ \mu\text{s}$$
@@ -462,7 +470,8 @@ $$t = 3{,}5\text{ ms} \times \frac{1\,000\ \mu\text{s}}{1\text{ ms}} = 3\,500\ \
 Un proyecto agroindustrial en las pampas de Majes (Arequipa) posee un sistema de riego por aspersión que suministra una lámina de agua de $8\text{ mm}$ de altura a un lote de $15\text{ hectáreas}$ de palto. Si el agua se bombea desde una represa mediante una tubería principal de la cual sale un caudal constante de $75\text{ L/s}$, ¿cuántas horas, minutos y segundos tardará en completarse el riego del lote?
 
 **Solución paso a paso:**
-1. **Unificar las dimensiones del lote y la lámina de agua a metros:**
+
+**Paso 1:** Unificar las dimensiones del lote y la lámina de agua a metros:
 * Área regada:
 
 $$A = 15\text{ ha} \times \frac{10\,000\text{ m}^2}{1\text{ ha}} = 150\,000\text{ m}^2 = 1{,}5 \times 10^5\text{ m}^2$$
@@ -471,7 +480,7 @@ $$A = 15\text{ ha} \times \frac{10\,000\text{ m}^2}{1\text{ ha}} = 150\,000\text
 
 $$h = 8\text{ mm} \times \frac{1\text{ m}}{1\,000\text{ mm}} = 8 \times 10^{-3}\text{ m}$$
 
-2. **Calcular el volumen total de agua requerido en metros cúbicos y en litros:**
+**Paso 2:** Calcular el volumen total de agua requerido en metros cúbicos y en litros:
 
 $$V = A \times h = (150\,000\text{ m}^2) \times (0{,}008\text{ m}) = 1\,200\text{ m}^3$$
 
@@ -479,11 +488,11 @@ Convertimos a litros:
 
 $$V = 1\,200\text{ m}^3 \times \frac{1\,000\text{ L}}{1\text{ m}^3} = 1\,200\,000\text{ L} = 1{,}2 \times 10^6\text{ L}$$
 
-3. **Calcular el tiempo total de bombeo en segundos:**
+**Paso 3:** Calcular el tiempo total de bombeo en segundos:
 
 $$t = \frac{V}{Q} = \frac{1\,200\,000\text{ L}}{75\text{ L/s}} = 16\,000\text{ s}$$
 
-4. **Convertir los segundos al sistema sexagesimal (horas, minutos y segundos):**
+**Paso 4:** Convertir los segundos al sistema sexagesimal (horas, minutos y segundos):
 * Dividimos entre $3\,600$ para obtener las horas:
 
 $$16\,000 \div 3\,600 = 4\text{ con residuo } 1\,600\text{ s} \implies 4\text{ h}$$
@@ -874,45 +883,37 @@ El área de la sección circular de la probeta es $A = \frac{\pi \cdot D^2}{4} =
 
 ## 7. Formulario Resumen
 
-$$
-\begin{array}{|c|c|c|}
-\hline
-\textbf{Prefijo} & \textbf{Símbolo} & \textbf{Factor Multiplicador} \\
-\hline
-\text{Tera / Giga} & \text{T / G} & 10^{12} \quad / \quad 10^9 \\
-\text{Mega / Kilo} & \text{M / k} & 10^6 \quad / \quad 10^3 \\
-\text{Hecto / Deca} & \text{h / da} & 10^2 \quad / \quad 10^1 \\
-\textbf{Unidad Base} & \text{—} & 10^0 = 1 \\
-\text{Deci / Centi} & \text{d / c} & 10^{-1} \quad / \quad 10^{-2} \\
-\text{Mili / Micro} & \text{m / } \mu & 10^{-3} \quad / \quad 10^{-6} \\
-\text{Nano / Pico} & \text{n / p} & 10^{-9} \quad / \quad 10^{-12} \\
-\hline
-\end{array}
-$$
+### Prefijos del Sistema Internacional (SI)
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Magnitud} & \textbf{Equivalencias Fundamentales} \\
-\hline
-\text{Longitud Lineal} & 1\text{ km} = 1\,000\text{ m} = 10^5\text{ cm} = 10^6\text{ mm} \\
-\text{Superficie (Área)} & 1\text{ m}^2 = 10^4\text{ cm}^2 = 10^6\text{ mm}^2 \quad \mid \quad 1\text{ km}^2 = 10^6\text{ m}^2 \\
-\text{Unidades Agrarias} & 1\text{ ha} = 10\,000\text{ m}^2 = 1\text{ hm}^2 \quad \mid \quad 1\text{ a} = 100\text{ m}^2 = 1\text{ dam}^2 \\
-\text{Capacidad y Volumen} & 1\text{ m}^3 = 1\,000\text{ L} = 10^6\text{ cm}^3 \quad \mid \quad 1\text{ L} = 1\text{ dm}^3 = 1\,000\text{ mL} = 1\,000\text{ cm}^3 \\
-\hline
-\end{array}
-$$
+| Prefijo | Símbolo | Factor Multiplicador |
+| :--- | :---: | :---: |
+| **Tera / Giga** | $\text{T / G}$ | $10^{12} \quad / \quad 10^9$ |
+| **Mega / Kilo** | $\text{M / k}$ | $10^6 \quad / \quad 10^3$ |
+| **Hecto / Deca** | $\text{h / da}$ | $10^2 \quad / \quad 10^1$ |
+| **Unidad Base** | — | $10^0 = 1$ |
+| **Deci / Centi** | $\text{d / c}$ | $10^{-1} \quad / \quad 10^{-2}$ |
+| **Mili / Micro** | $\text{m / } \mu$ | $10^{-3} \quad / \quad 10^{-6}$ |
+| **Nano / Pico** | $\text{n / p}$ | $10^{-9} \quad / \quad 10^{-12}$ |
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Concepto} & \textbf{Relación Matemática} \\
-\hline
-\text{Equivalencias de Tiempo} & 1\text{ día} = 24\text{ h} = 1\,440\text{ min} = 86\,400\text{ s} \quad \mid \quad 1\text{ h} = 60\text{ min} = 3\,600\text{ s} \\
-\text{Año Comercial / Común} & 1\text{ año com.} = 360\text{ días} \quad \mid \quad 1\text{ año común} = 365\text{ días} \quad \mid \quad 1\text{ año bis.} = 366\text{ días} \\
-\text{Conversión Decimal a Horas} & H{,}D\text{ h} \implies \text{Minutos} = D \times 60 \quad (0{,}45\text{ h} = 27\text{ min}) \\
-\text{Factor de Velocidad} & 1\frac{\text{km}}{\text{h}} \to \; [\times \frac{5}{18}] \to \frac{\text{m}}{\text{s}} \qquad \mid \qquad 1\frac{\text{m}}{\text{s}} \to \; [\times \frac{18}{5}] \to \frac{\text{km}}{\text{h}} \\
-\text{Caudal Volumétrico} & Q = \frac{V}{t} \quad \left(1\frac{\text{m}^3}{\text{s}} = 1\,000\frac{\text{L}}{\text{s}} = 3\,600\frac{\text{m}^3}{\text{h}}\right) \\
-\hline
-\end{array}
-$$
+---
+
+### Equivalencias de Longitud, Superficie y Capacidad
+
+| Magnitud | Equivalencias Fundamentales |
+| :--- | :--- |
+| **Longitud Lineal** | $1\text{ km} = 1\,000\text{ m} = 10^5\text{ cm} = 10^6\text{ mm}$ |
+| **Superficie (Área)** | $1\text{ m}^2 = 10^4\text{ cm}^2 = 10^6\text{ mm}^2 \quad \mid \quad 1\text{ km}^2 = 10^6\text{ m}^2$ |
+| **Unidades Agrarias** | $1\text{ ha} = 10\,000\text{ m}^2 = 1\text{ hm}^2 \quad \mid \quad 1\text{ a} = 100\text{ m}^2 = 1\text{ dam}^2$ |
+| **Capacidad y Volumen** | $1\text{ m}^3 = 1\,000\text{ L} = 10^6\text{ cm}^3 \quad \mid \quad 1\text{ L} = 1\text{ dm}^3 = 1\,000\text{ mL} = 1\,000\text{ cm}^3$ |
+
+---
+
+### Sistema de Tiempo y Magnitudes Derivadas
+
+| Concepto | Relación Matemática |
+| :--- | :--- |
+| **Equivalencias de Tiempo** | $1\text{ día} = 24\text{ h} = 1\,440\text{ min} = 86\,400\text{ s} \quad \mid \quad 1\text{ h} = 60\text{ min} = 3\,600\text{ s}$ |
+| **Año Comercial / Común** | $1\text{ año com.} = 360\text{ días} \quad \mid \quad 1\text{ año común} = 365\text{ días} \quad \mid \quad 1\text{ año bis.} = 366\text{ días}$ |
+| **Conversión Decimal a Horas** | $H{,}D\text{ h} \implies \text{Minutos} = D \times 60 \quad (0{,}45\text{ h} = 27\text{ min})$ |
+| **Factor de Velocidad** | $1\,\frac{\text{km}}{\text{h}} \times \frac{5}{18} = 1\,\frac{\text{m}}{\text{s}} \qquad \iff \qquad 1\,\frac{\text{m}}{\text{s}} \times \frac{18}{5} = 1\,\frac{\text{km}}{\text{h}}$ |
+| **Caudal Volumétrico** | $Q = \frac{V}{t} \quad \left(1\,\frac{\text{m}^3}{\text{s}} = 1\,000\,\frac{\text{L}}{\text{s}} = 3\,600\,\frac{\text{m}^3}{\text{h}}\right)$ |
