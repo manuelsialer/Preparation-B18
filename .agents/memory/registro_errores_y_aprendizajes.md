@@ -186,3 +186,69 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 * **Invariante / Regla Aprendida:**
   * Círculo inscrito: `\tkzDefCircle[in](A,B,C)\tkzGetPoints{I}{P}` y luego `\tkzDrawCircle(I,P)`.
   * Círculo circunscrito: `\tkzDefCircle[circum](A,B,C)\tkzGetPoints{O}{P}` y luego `\tkzDrawCircle(O,P)`.
+
+---
+
+### `[ERR-017]` Rutas Relativas de Assets en Estructuras de Carpetas Anidadas
+* **Fecha:** 2026-10-19
+* **Problema:** Imágenes no encontradas (`WARNING: image file not readable: assets/...`) durante `jupyter-book build .`.
+* **Causa Raíz:** Los archivos de tema se ubican dos niveles abajo en `Clases/<Materia>/<archivo>.md`, por lo que una referencia `assets/...` o `../assets/...` no resuelve la raíz del proyecto.
+* **Invariante / Regla Aprendida:**
+  * Desde `Clases/<Materia>/`, la ruta relativa obligatoria hacia `assets/` es:
+    ````markdown
+    ```{figure} ../../assets/<materia>/<archivo>.svg
+    ```
+    ````
+
+---
+
+### `[ERR-018]` Vectorización Pura SVG en TikZ con `dvisvgm --pdf --exact-bbox`
+* **Fecha:** 2026-10-19
+* **Problema:** Gráficos vectoriales generados que se cortan en los márgenes o que no escalan uniformemente en diferentes navegadores y resoluciones móviles.
+* **Causa Raíz:** Conversiones rasterizadas o bounding boxes imprecisos calculados sin recortar el espacio blanco del PDF compilado.
+* **Invariante / Regla Aprendida:**
+  * Usar el pipeline estandarizado en `scratch/tikz_to_svg.py`:
+    1. Documentclass: `\documentclass[tikz,border=5pt]{standalone}`.
+    2. Paquetes: `\usepackage{tikz}`, `\usepackage{tkz-euclide}`, `\usepackage{pgfplots}`, `\usepackage{amsmath,amssymb}`.
+    3. Compilar PDF: `pdflatex -interaction=nonstopmode <archivo>.tex`.
+    4. Convertir a SVG vectorial: `dvisvgm --pdf --exact-bbox <archivo>.pdf -o <archivo>.svg`.
+
+---
+
+### `[ERR-019]` Formato Estricto de "7. Formulario Resumen" (Markdown Nativo vs `\begin{array}`)
+* **Fecha:** 2026-10-19
+* **Problema:** En dispositivos móviles y lectores web, los bloques `\begin{array}` causan scroll horizontal desmesurado, no respetan el responsive design y dificultan la lectura rápida.
+* **Causa Raíz:** Se utilizaban tablas matemáticas complejas de LaTeX en vez de tablas nativas del Markdown parseadas por MyST.
+* **Invariante / Regla Aprendida:**
+  * La sección final debe llamarse exactamente **`## 7. Formulario Resumen`**.
+  * Toda tabla debe ser una tabla Markdown nativa con columnas claras (`| Concepto / Teorema | Fórmula / Expresión Matemática |`).
+  * La matemática debe ir incrustada como inline `$ ... $` dentro de las celdas, sin barras verticales `|` no escapadas.
+
+---
+
+### `[ERR-020]` Salto de Línea Obligatorio de Dos Espacios (`  \n`) en Opciones de Ejercicios
+* **Fecha:** 2026-10-19
+* **Problema:** El texto del enunciado se fusiona con la alternativa `A)` en una sola línea continua al renderizarse en HTML.
+* **Causa Raíz:** En la especificación CommonMark y MyST, un salto de línea simple en el archivo fuente es tratado como un espacio en blanco común.
+* **Invariante / Regla Aprendida:**
+  * Toda línea de enunciado que precede a la alternativa `A)` DEBE terminar con dos espacios en blanco seguidos de salto de línea (`  \n`), o una línea en blanco intermedia antes de la lista de alternativas.
+
+---
+
+### `[ERR-021]` Orientación de Vértices en Arcos con `\tkzMarkAngle`
+* **Fecha:** 2026-10-19
+* **Problema:** En figuras de triángulos y polígonos, arcos de ángulo dibujados al exterior del triángulo en lugar de al interior.
+* **Causa Raíz:** `tkz-euclide` mide ángulos en sentido antihorario. Si se invierte el orden de los vértices (ej. `(C,B,A)` en lugar de `(A,B,C)`), el arco se proyecta sobre el ángulo reflejo (exterior).
+* **Invariante / Regla Aprendida:**
+  * Verificar la orientación geométrica: para marcar el ángulo en $B$, el orden de los puntos `(A,B,C)` debe seguir el sentido trigonométrico estándar (antihorario respecto al interior de la figura).
+
+---
+
+### `[ERR-022]` Denominación "Tema XX" y Supresión de Índices Manuales
+* **Fecha:** 2026-10-19
+* **Problema:** Títulos inconsistentes (`Fascículo XX`) y bloques artificiales `🧭 ÍNDICE` que duplican la barra de navegación nativa del tema web de Jupyter Book.
+* **Causa Raíz:** Residuos de plantillas para documentos impresos monofásicos no adaptados al estándar interactivo de Jupyter Book.
+* **Invariante / Regla Aprendida:**
+  * Título nivel 1 estricto: `# Tema XX: [Nombre del Tema]`.
+  * Queda terminantemente prohibido incluir bloques manuales de índice (`🧭 ÍNDICE` o enlaces manuales ancla `#`). La navegación lateral e interna la gestiona automáticamente Sphinx/Jupyter Book.
+
