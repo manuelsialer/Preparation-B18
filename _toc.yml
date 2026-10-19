@@ -6,3 +6,4 @@ parts:
       - file: Clases/Aritmetica/01_Fracciones_y_Razones
       - file: Clases/Aritmetica/02_Potenciacion_y_Radicacion_Racionales
       - file: Clases/Aritmetica/03_Redondeo_y_Aproximaciones
+      - file: Clases/Aritmetica/04_Notacion_Cientifica_y_Exponencial
