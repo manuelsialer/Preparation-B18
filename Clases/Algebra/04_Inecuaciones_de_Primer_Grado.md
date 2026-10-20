@@ -10,75 +10,84 @@ Una **inecuación de primer grado** es una desigualdad algebraica condicionada d
 
 ## 2. Marco Teórico Riguroso
 
-### 2.1 Definición Canónica y Desigualdades Fundamentales
+### 2.1 ¿Qué es una Inecuación? (El Puente Intuitivo del Límite Real)
 
-Una inecuación lineal o de primer grado en una variable $x$ es toda expresión que puede reducirse a una de las cuatro formas canónicas:
+En la vida cotidiana, casi ninguna meta se define con una igualdad estricta. Un postulante a **Beca 18** no necesita sacar *exactamente* 80 puntos para clasificar; necesita sacar **80 puntos o más** ($P \ge 80$). De igual forma, el gasto mensual no debe superar el presupuesto disponible ($G \le B$).
 
-$$
-a \cdot x + b > 0 \qquad a \cdot x + b \ge 0
-$$
-
-$$
-a \cdot x + b < 0 \qquad a \cdot x + b \le 0
-$$
-
-donde $a, b \in \mathbb{R}$ con $a \neq 0$.
-
-El **conjunto solución ($CS$)** es el subconjunto de números reales que satisfacen la relación de orden:
-
-$$
-CS = \{ x \in \mathbb{R} \mid a \cdot x + b \gtrless 0 \}
-$$
+Una **inecuación** es una desigualdad condicionada. A diferencia de una ecuación (donde la respuesta suele ser un número aislado como $x = 3$), la solución de una inecuación es **un intervalo completo de la recta real**: un conjunto infinito de valores que cumplen la condición.
 
 ---
 
-### 2.2 Axiomas de Orden y Reglas Operatorias Críticas
+### 2.2 Axiomas de Orden y la Regla Crítica de Inversión
 
-Para resolver una inecuación lineal preservando la equivalencia del conjunto solución, se aplican estrictamente los axiomas de orden en $\mathbb{R}$:
+```{figure} ../../assets/algebra/inecuaciones_regla_signos.svg
+---
+width: 95%
+align: center
+alt: Regla de Signos en Inecuaciones y Recta Real
+---
+*Figura 1: Representación gráfica de la Regla de Oro en la recta real. Al multiplicar o dividir por un número negativo, el orden geométrico se invierte como en un espejo ($x > -3 \iff CS = \langle -3, +\infty\rangle$).*
+```
 
-1. **Monotonía de la Adición:**
-Si a ambos miembros de una desigualdad se les suma o resta un mismo número real $c$, el sentido de la desigualdad **se conserva**:
+Para despejar una inecuación sin alterar el conjunto solución, aplicamos las siguientes tres leyes fundamentales:
 
-$$
-x < y \iff x \pm c < y \pm c \quad (\forall c \in \mathbb{R})
-$$
+1. **Sumar o restar cualquier número (positivo o negativo) NO cambia el sentido:**
+   $$x < y \iff x \pm c < y \pm c$$
+   *(Si dos personas tienen diferentes edades y pasan 5 años, la mayor sigue siendo mayor).*
 
-2. **Multiplicación por una Constante Positiva:**
-Si ambos miembros se multiplican o dividen por una constante real estrictamente positiva ($k > 0$), el sentido de la desigualdad **se conserva**:
+2. **Multiplicar o dividir por un número POSITIVO ($k > 0$) NO cambia el sentido:**
+   $$x < y \iff k \cdot x < k \cdot y \quad (k > 0)$$
 
-$$
-x < y \iff k \cdot x < k \cdot y \quad (k > 0)
-$$
+3. **¡LA REGLA DE ORO! Multiplicar o dividir por un número NEGATIVO ($k < 0$) INVIERTE obligatoriamente el sentido:**
+   $$x < y \iff k \cdot x \ \mathbf{>}\ k \cdot y \quad (k < 0)$$
 
-3. **Multiplicación por una Constante Negativa (Regla Crítica de Inversión):**
-Si ambos miembros se multiplican o dividen por un número real estrictamente negativo ($k < 0$), el sentido de la desigualdad **se invierte obligatoriamente**:
+#### ¿Por qué se invierte el sentido con un negativo?
+Observa este ejemplo con números concretos:
+Sabemos que $2 < 5$.
+Si multiplicas ambos miembros por $-1$:
+¿Quién es mayor, $-2$ o $-5$?
+En la recta numérica, el $-2$ está a la derecha del $-5$ (es decir, una deuda de S/ 2 es mejor que una deuda de S/ 5). Por tanto:
+$$-2 > -5$$
+El signo $<$ se transformó obligatoriamente en $>$.
 
-$$
-x < y \iff k \cdot x > k \cdot y \quad (k < 0)
-$$
-
-> Advertencia Crítica de Rigor: En inecuaciones algebraicas está **estrictamente prohibido multiplicar en aspa o cancelar variables en denominadores** si no se tiene certeza matemática absoluta sobre el signo (positivo o negativo) de la expresión cancelada. Cancelar una expresión que puede ser negativa sin invertir el sentido o que puede anularse invalida todo el análisis.
+#### Micro-ejemplo 1: Despeje con coeficiente negativo
+Resuelva: $5 - 2x \le 11$.
+1. Restamos $5$ a ambos lados: $-2x \le 11 - 5 \implies -2x \le 6$.
+2. Dividimos entre $-2$. Como dividimos entre un **número negativo**, el sentido $\le$ se invierte a $\ge$:
+   $$x \ge \frac{6}{-2} \implies x \ge -3$$
+3. Conjunto solución en intervalo: $CS = [-3, +\infty\rangle$.
 
 ---
 
-### 2.3 Tipos Especiales de Inecuaciones Lineales
+### 2.3 Inecuaciones Dobles o Simultáneas
 
-#### 1. Inecuaciones Dobles o Simultáneas
-Adoptan la estructura $a \le P(x) \le b$. Se resuelven despejando la variable $x$ mediante operaciones uniformes simultáneas en los tres miembros, o descomponiendo en la conjunción lógica:
+Adoptan la estructura $a \le P(x) \le b$. Se resuelven de dos formas:
+1. **Despeje uniforme simultáneo:** Hacer la misma operación en los tres miembros a la vez hasta dejar la $x$ aislada al centro.
+2. **Conjunción lógica:** Separar en dos inecuaciones $P(x) \ge a$ y $P(x) \le b$, y calcular la **intersección** ($\cap$) de sus conjuntos solución.
 
-$$
-a \le P(x) \le b \iff (P(x) \ge a) \ \land \ (P(x) \le b)
-$$
+#### Micro-ejemplo 2: Inecuación doble simultánea
+Resuelva: $-5 < 3x + 1 \le 13$.
+1. Restamos $1$ a los tres miembros:
+   $$-5 - 1 < 3x \le 13 - 1 \implies -6 < 3x \le 12$$
+2. Dividimos entre $3$ (número positivo, no cambia el sentido):
+   $$\frac{-6}{3} < x \le \frac{12}{3} \implies -2 < x \le 4$$
+3. Conjunto solución: $CS = \langle -2, 4]$.
 
-El conjunto solución final es la **intersección** de ambos semiplanos o rayos en la recta real.
+---
 
-#### 2. Inecuaciones con Coeficientes Fraccionarios
-Se multiplican todos los términos por el Mínimo Común Múltiplo (MCM) de los denominadores. Dado que el MCM de números positivos es siempre un escalar positivo, el sentido de la desigualdad se mantiene inalterado.
+### 2.4 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
 
-#### 3. Inecuaciones Fraccionarias Reducibles a Lineales
-Si una inecuación presenta la forma $\frac{P(x)}{k} > 0$ con $k \in \mathbb{R} - \{0\}$ constante:
-* Si $k > 0 \implies P(x) > 0$.
-* Si $k < 0 \implies P(x) < 0$.
+> ⚠️ **Error 1: Olvidar invertir el signo de la desigualdad con negativos.**  
+> Es el error más frecuente en todo el examen de Beca 18. Al pasar $-4x < 12$, escribir $x < -3$ en lugar de $x > -3$. Recuerda: cada vez que dividas o multipliques por un negativo, dale la vuelta al símbolo inmediatamente.
+
+> ⚠️ **Error 2: Multiplicar en aspa con incógnitas en el denominador.**  
+> Si te dan $\frac{3}{x} < 1$, es **absolutamente ilegal** pasar la $x$ a multiplicar y decir $3 < x$. ¿Por qué? ¡Porque no sabes si $x$ es positivo o negativo! Si $x$ fuese negativo, la desigualdad tendría que haberse invertido. La forma correcta es pasar el $1$ a restar: $\frac{3}{x} - 1 < 0 \implies \frac{3-x}{x} < 0$, y aplicar el método de los puntos críticos.
+
+> ⚠️ **Error 3: Confundir "menor valor entero" con el extremo del intervalo.**  
+> Si el conjunto solución de un problema es $CS = \langle 4, 12]$, y la pregunta pide: *"Halle el menor valor entero que cumple la inecuación"*:
+> * El extremo inferior es $4$, pero como el corchete es abierto ($\langle 4$), el $4$ **NO pertenece a la solución**.
+> * El menor número entero admisible es el siguiente: **$5$**.
+
 
 ---
 

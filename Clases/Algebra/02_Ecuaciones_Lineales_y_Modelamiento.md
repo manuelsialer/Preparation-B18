@@ -10,80 +10,64 @@ Cuando una cooperativa cafetalera de Quillabamba calcula su **punto de equilibri
 
 ## 2. Marco Teórico Riguroso
 
-### 2.1 Definición Canónica y Clasificación
+### 2.1 ¿Qué es Realmente una Ecuación? (El Puente Intuitivo de la Balanza)
 
-Una **ecuación lineal o de primer grado con una incógnita** es toda igualdad condicional que puede reducirse a la forma general:
+Una **ecuación** no es una fórmula rígida para memorizar; es una **balanza de dos platillos en perfecto y estricto equilibrio**.
+* Lo que está en el platillo izquierdo (primer miembro) pesa exactamente lo mismo que lo que está en el platillo derecho (segundo miembro).
+* La letra $x$ (o incógnita) representa un paquete sellado cuyo peso desconocemos.
+* **¿Qué significa "despejar"?** En el colegio suelen enseñar el truco mecánico: *"lo que está sumando pasa restando, lo que está multiplicando pasa dividiendo"*. Aunque funciona en la práctica, olvidar el porqué hace que los estudiantes cometan errores graves de signos. Despejar significa simplemente **hacer exactamente la misma operación en ambos platillos para no romper el equilibrio de la balanza**:
+  * Si quieres quitar un $+5$ del lado izquierdo, tienes que restar $5$ en **ambos** lados.
+  * Si quieres deshacerte de un coeficiente $3$ que multiplica a $x$, tienes que dividir entre $3$ a **todos** los términos de ambos lados.
 
-$$
-a \cdot x + b = 0 \quad (a, b \in \mathbb{R})
-$$
+---
 
-donde:
-* $x$ es la incógnita o variable principal.
-* $a$ es el coeficiente principal o de primer grado.
-* $b$ es el término independiente.
+### 2.2 Definición Canónica y Clasificación
+
+Toda ecuación de primer grado con una sola incógnita puede simplificarse a la forma canónica:
+
+$$a \cdot x + b = 0 \quad (a, b \in \mathbb{R})$$
+
+Donde $a$ es el coeficiente que acompaña a la incógnita y $b$ es el término independiente.
 
 #### Clasificación según el Conjunto Solución ($CS$)
 
-1. **Ecuación Compatible Determinada (Consistente con Solución Única):**
-Ocurre si y solo si $a \neq 0$.
-Por el axioma del inverso multiplicativo en $\mathbb{R}$:
+La naturaleza de la solución depende exclusivamente de los valores de $a$ y $b$:
 
-$$
-x = -\frac{b}{a} \implies CS = \left\{ -\frac{b}{a} \right\}
-$$
+| Tipo de Ecuación | Condiciones de Coeficientes | Forma Resultante | Conjunto Solución ($CS$) | Significado en la Balanza |
+| :--- | :---: | :---: | :---: | :--- |
+| **Compatible Determinada** | $a \neq 0$ | $x = -\dfrac{b}{a}$ | $CS = \left\{ -\dfrac{b}{a} \right\}$ | Hay **una única solución** exacta. La balanza se equilibra con un único peso. |
+| **Compatible Indeterminada** | $a = 0$ y $b = 0$ | $0 \cdot x = 0$ | $CS = \mathbb{R}$ | **Infinitas soluciones**. Es una identidad: no importa qué número le des a $x$, $0 \cdot x$ siempre será 0. |
+| **Incompatible (Absurda)** | $a = 0$ y $b \neq 0$ | $0 \cdot x = -b$ | $CS = \emptyset$ (Vacío) | **Cero soluciones**. Es una contradicción lógica: ningún número multiplicado por cero puede dar un número distinto de cero. |
 
-2. **Ecuación Compatible Indeterminada (Identidad Algebraica):**
-Ocurre si $a = 0$ y $b = 0$.
-La igualdad adopta la forma $0 \cdot x + 0 = 0$, la cual se verifica para cualquier valor asignado a $x$:
-
-$$
-CS = \mathbb{R}
-$$
-
-3. **Ecuación Incompatible, Inconsistente o Absurda:**
-Ocurre si $a = 0$ y $b \neq 0$.
-La expresión resultante $0 \cdot x = -b$ (con $-b \neq 0$) no admite ningún número real como solución:
-
-$$
-CS = \emptyset
-$$
+#### Micro-ejemplo 1: Análisis de Parámetros
+Determine para qué valores de $m$ y $n$ la ecuación $(m - 3)x = n + 4$ es incompatible:
+* *Análisis:* Para que sea incompatible, el coeficiente de $x$ debe ser cero y el término independiente debe ser no nulo:
+  $$m - 3 = 0 \implies m = 3$$
+  $$n + 4 \neq 0 \implies n \neq -4$$
+* *Conclusión:* Si $m = 3$ y $n \neq -4$, la ecuación adopta la forma absurda $0x = k \neq 0$, por lo que su $CS = \emptyset$.
 
 ---
 
-### 2.2 Principios de Equivalencia Algebraica
+### 2.3 Ecuaciones Fraccionarias y el CVA (Conjunto de Valores Admisibles)
 
-Para transformar una ecuación compleja en otra equivalente más simple sin alterar su conjunto solución, se aplican rigurosamente los siguientes teoremas:
+Una ecuación es **fraccionaria** cuando la incógnita aparece en el denominador (por ejemplo, $\frac{5}{x - 2} = 3$).
 
-* **Adición o Sustracción:** Si a ambos miembros de una ecuación se les suma o resta una misma expresión real bien definida $E(x)$, la ecuación resultante es equivalente:
+> 📌 **Mandamiento del Álgebra:** **¡Nunca se puede dividir entre cero!** La división entre cero es una operación matemáticamente indefinida en los números reales.
 
-$$
-A(x) = B(x) \iff A(x) \pm E(x) = B(x) \pm E(x)
-$$
+Por ello, **antes de multiplicar en cruz o simplificar**, es obligatorio hallar el **Conjunto de Valores Admisibles (CVA)**:
 
-* **Multiplicación o División por un Escalar No Nulo:** Si ambos miembros se multiplican o dividen por una constante $k \in \mathbb{R}$ con $k \neq 0$, las soluciones se conservan idénticas:
+$$\text{CVA} = \{ x \in \mathbb{R} \mid \text{Todos los denominadores } \neq 0 \}$$
 
-$$
-A(x) = B(x) \iff k \cdot A(x) = k \cdot B(x) \quad (k \neq 0)
-$$
+Cualquier número hallado al resolver la ecuación que anule algún denominador es una **raíz extraña** y debe ser expulsado inmediatamente del conjunto solución:
 
-> Advertencia Crítica de Rigor: Multiplicar una ecuación por una expresión que contiene a la incógnita $P(x)$ puede introducir **raíces extrañas** (cuando $P(x) = 0$). Asimismo, dividir entre una expresión que contiene la incógnita puede provocar la **pérdida de soluciones válidas**.
+$$CS = \{ x_{\text{hallado}} \} \cap \text{CVA}$$
 
----
-
-### 2.3 Ecuaciones Fraccionarias y Restricciones del Universo
-
-Cuando la incógnita se encuentra en el denominador de uno o más términos, la ecuación se denomina **fraccionaria**. En estos casos, el primer paso inexcusable es determinar el **Conjunto de Valores Admisibles (CVA)**, garantizando que ningún denominador se anule:
-
-$$
-\text{CVA} = \{ x \in \mathbb{R} \mid \text{Denominadores } \neq 0 \}
-$$
-
-Toda solución algebraica obtenida debe cruzarse con el CVA:
-
-$$
-CS = \{ x_{\text{hallado}} \} \cap \text{CVA}
-$$
+#### Micro-ejemplo 2: Trampa de la Raíz Extraña
+Resuelva: $\dfrac{x^2 - 4}{x - 2} = 4$.
+1. **Restricción CVA:** El denominador $x - 2 \neq 0 \implies x \neq 2$. Por ende, $\text{CVA} = \mathbb{R} - \{2\}$.
+2. **Resolución:** Factorizando el numerador: $\frac{(x-2)(x+2)}{x-2} = 4 \implies x + 2 = 4 \implies x = 2$.
+3. **Validación:** El valor hallado es $x = 2$, ¡pero el CVA prohibía explícitamente $x = 2$!
+4. **Respuesta real:** La ecuación es **incompatible** y su conjunto solución es $CS = \emptyset$.
 
 ---
 
@@ -97,27 +81,19 @@ En situaciones de la vida real, el planteo de ecuaciones traduce relaciones cont
 * **Costo Variable Unitario ($c_v$):** Costo de materiales, insumos o mano de obra por cada unidad producida.
 * **Costo Total ($C_T$):**
 
-$$
-C_T(q) = C_f + c_v \cdot q
-$$
+$$C_T(q) = C_f + c_v \cdot q$$
 
 * **Ingreso Total ($I$):** Si cada unidad se comercializa a un precio de venta unitario $p_v$:
 
-$$
-I(q) = p_v \cdot q
-$$
+$$I(q) = p_v \cdot q$$
 
 * **Utilidad o Ganancia Neta ($U$):**
 
-$$
-U(q) = I(q) - C_T(q) = (p_v - c_v) \cdot q - C_f
-$$
+$$U(q) = I(q) - C_T(q) = (p_v - c_v) \cdot q - C_f$$
 
 * **Punto de Equilibrio ($q_e$):** Nivel de producción donde la utilidad es nula (el ingreso cubre exactamente los costos totales, sin ganancia ni pérdida):
 
-$$
-U(q_e) = 0 \iff q_e = \frac{C_f}{p_v - c_v}
-$$
+$$U(q_e) = 0 \iff q_e = \frac{C_f}{p_v - c_v}$$
 
 La diferencia $(p_v - c_v)$ recibe el nombre de **margen de contribución unitario**.
 
@@ -125,11 +101,29 @@ La diferencia $(p_v - c_v)$ recibe el nombre de **margen de contribución unitar
 
 ```{figure} ../../assets/algebra/punto_equilibrio.svg
 ---
+width: 90%
 align: center
 alt: Gráfica del Punto de Equilibrio en el Plano Cartesiano
 ---
-Gráfica del Modelo Lineal en el plano cartesiano: La recta de Ingreso Total $I(q) = p_v \cdot q$ intersecta a la recta de Costo Total $C_T(q) = C_f + c_v \cdot q$ en el Punto de Equilibrio $(q_e, I_e)$, delimitando claramente la Zona de Pérdidas ($q < q_e$) y la Zona de Ganancias ($q > q_e$).
+*Figura 1: Gráfica del Modelo Lineal en el plano cartesiano. La recta de Ingreso Total $I(q) = p_v \cdot q$ intersecta a la recta de Costo Total $C_T(q) = C_f + c_v \cdot q$ en el Punto de Equilibrio $(q_e, I_e)$, delimitando claramente la Zona de Pérdidas ($q < q_e$) y la Zona de Ganancias ($q > q_e$).*
 ```
+
+---
+
+### 2.5 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
+
+> ⚠️ **Error 1: El signo negativo que precede a una fracción.**  
+> Al resolver una ecuación como $\frac{x}{2} - \frac{2x - 5}{3} = 1$, el signo negativo afecta a **TODO el numerador**:
+> $$-\frac{2x - 5}{3} = \frac{-(2x - 5)}{3} = \frac{-2x + 5}{3}$$
+> El 70% de postulantes olvida cambiar el signo del segundo término y escribe erróneamente $-2x - 5$, arruinando todo el ejercicio.
+
+> ⚠️ **Error 2: Cancelar la incógnita dividiendo entre ella.**  
+> Si tienes $x(x - 4) = 3x$, es un grave error tachar la $x$ a ambos lados diciendo "divido entre $x$". Si haces eso, obtienes $x - 4 = 3 \implies x = 7$ y **pierdes la solución $x = 0$**. La regla correcta es pasar todo a un solo miembro y factorizar:
+> $$x(x - 4) - 3x = 0 \implies x(x - 4 - 3) = 0 \implies x(x - 7) = 0 \implies x = 0 \lor x = 7$$
+
+> ⚠️ **Error 3: Olvidar verificar el CVA en ecuaciones con denominadores.**  
+> Siempre que veas una incógnita abajo, anota al costado con tinta roja los valores prohibidos. Si tu respuesta final coincide con un valor prohibido, el conjunto solución es vacío ($\emptyset$).
+
 
 
 ---

@@ -12,13 +12,23 @@ $$
 \operatorname{Dom}(f) = \mathbb{R}
 $$
 
-La representación gráfica de una función cuadrática en el plano cartesiano $\mathbb{R}^2$ es una curva simétrica y regular denominada **parábola**, cuyo eje de simetría es siempre vertical (paralelo al eje de ordenadas $Y$).
+### 1.1 ¿Qué es una Parábola? (El Puente Intuitivo del Balón en el Aire)
 
-En el examen de preselección Beca 18 y en las carreras profesionales de ingeniería, economía, agronomía y ciencias básicas, la función cuadrática es la herramienta fundamental para modelar problemas de **optimización**: maximización de áreas cultivables bajo perímetros limitados, determinación del precio óptimo de venta para alcanzar ingresos o utilidades máximas, minimización de costos operacionales y trayectorias balísticas en física clásica.
+Cuando un futbolista patea un tiro libre en el estadio de Cusco, el balón no viaja en línea recta: asciende venciendo la resistencia del aire, pierde velocidad progresivamente hasta alcanzar un punto más alto (la cima del vuelo) y luego desciende simétricamente hasta impactar el césped. 
+
+Esa trayectoria curva en forma de "U" invertida es una **parábola**, la gráfica representativa de toda **función cuadrática**:
+
+$$f(x) = ax^2 + bx + c \quad (a \neq 0)$$
+
+#### La Regla Nemotécnica de la Concavidad (¿Feliz o Triste?)
+El signo del coeficiente principal $a$ decide de inmediato hacia dónde abren los brazos de la parábola:
+* **Si $a > 0$ (positivo):** La parábola tiene forma de **sonrisa o copa $\smile$** (cóncava hacia arriba). El vértice es el fondo de la copa: la función tiene un **VALOR MÍNIMO**.
+* **Si $a < 0$ (negativo):** La parábola tiene forma de **puente o arco $\frown$** (cóncava hacia abajo). El vértice es la cumbre del cerro: la función tiene un **VALOR MÁXIMO**.
 
 ---
 
-## 1. Formas de Representación de la Función Cuadrática
+### 1.2 Formas de Representación de la Función Cuadrática
+
 
 Una función cuadrática puede expresarse algebraicamente en tres formas equivalentes según el contexto de análisis:
 

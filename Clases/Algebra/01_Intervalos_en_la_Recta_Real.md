@@ -14,145 +14,133 @@ Para el postulante a **Beca 18**, dominar las operaciones con intervalos (unión
 
 ### 2.1 El Sistema de los Números Reales y la Recta Numérica
 
-El conjunto de los números reales ($\mathbb{R}$) es un cuerpo conmutativo, ordenado y **completo** (cumple el axioma del supremo). Esto garantiza una correspondencia biunívoca (biyectiva) entre cada punto geométrico de una recta orientada y un número real exacto:
-* A la derecha del origen ($0$) se ubican los reales positivos ($\mathbb{R}^+$).
-* A la izquierda se ubican los reales negativos ($\mathbb{R}^-$).
-* El orden natural establece que $a < b$ si y solo si la diferencia $(b - a)$ es estrictamente positiva ($b - a > 0$).
+#### ¿Qué es realmente la recta real? (El Puente Intuitivo)
+Imagina una carretera recta e infinita. En el colegio muchas veces nos enseñaron a contar únicamente números enteros: $1, 2, 3, \dots$ o con negativos $-1, -2, -3$. Sin embargo, en el mundo real (la velocidad de un mototaxi, el peso exacto de una cosecha de papa, la temperatura ambiental de Cerro de Pasco), las medidas no dan saltos mágicos; son **continuas**.
+
+Entre el kilómetro $1$ y el kilómetro $2$ no hay un vacío: allí se encuentran el kilómetro $1.5$, el $1.25$, el $1.999$, pero también números irracionales como $\sqrt{2} \approx 1.4142\dots$ o el número áureo. Los **números reales ($\mathbb{R}$)** llenan por completo la recta, sin dejar un solo hueco microscópico. A cada punto geométrico de la recta le corresponde exactamente un número real, y a cada número real le corresponde un único punto geométrico.
+
+* Hacia la derecha del origen ($0$) crecen los números positivos hacia el infinito positivo ($+\infty$).
+* Hacia la izquierda decrecen los números negativos hacia el infinito negativo ($-\infty$).
+* Decimos que $a < b$ si el punto $a$ se encuentra a la izquierda de $b$ en la recta.
 
 ---
 
-### 2.2 Clasificación de Intervalos
+### 2.2 ¿Qué es un Intervalo? Extremos Abiertos vs. Cerrados
 
-Sean $a, b \in \mathbb{R}$ dos números reales tales que $a \le b$:
+Un **intervalo** es un "tramo" continuo de la recta numérica. A diferencia de un conjunto discreto entre llaves como $\{2, 5\}$, que contiene **únicamente dos números** (el 2 y el 5), el intervalo $[2, 5]$ contiene **infinitos números reales** comprendidos entre 2 y 5 (como $2.01, \pi, 4.8$, etc.).
+
+La distinción más importante que todo postulante debe dominar radica en cómo tratamos los extremos de ese tramo:
+
+| Tipo de Extremo | Símbolo Notacional | Representación Gráfica | Significado Intuitivo | Condición Algebraica |
+| :---: | :---: | :---: | :--- | :---: |
+| **Cerrado** | Corchete $[ \text{ o } ]$ | Círculo relleno sólido ($\bullet$) | El valor extremo **SÍ forma parte** del conjunto. Está incluido. | $\le$ o $\ge$ |
+| **Abierto** | Corchete angular $\langle \text{ o } \rangle$ | Círculo blanco hueco ($\circ$) | El extremo es solo una frontera límite; **NO pertenece** al conjunto. | $<$ o $>$ |
+
+#### Micro-ejemplo 1: Reconocimiento de pertenencia
+Dado el intervalo $I = \langle -3, 5]$:
+* ¿El $-3$ pertenece a $I$? **No**, porque el extremo es abierto ($\langle -3$).
+* ¿El $0$ pertenece a $I$? **Sí**, está en el interior del tramo.
+* ¿El $4.99$ pertenece a $I$? **Sí**, es menor que 5.
+* ¿El $5$ pertenece a $I$? **Sí**, porque el extremo es cerrado ($5]$).
+* ¿El $5.001$ pertenece a $I$? **No**, ya se salió del tramo por la derecha.
+
+---
+
+### 2.3 Clasificación de Intervalos
+
+Sean $a, b \in \mathbb{R}$ con $a \le b$:
 
 #### 1. Intervalos Acotados (Finitos)
+Poseen extremos numéricos concretos a ambos lados. Su **longitud** siempre se calcula como:
 
-* **Intervalo Abierto:** Subconjunto de números reales comprendidos estrictamente entre $a$ y $b$. Los extremos no pertenecen al conjunto.
-Notación: $\langle a, b \rangle$ o $]a, b[$.
-Definición conjuntista:
+$$L = b - a$$
 
-$$
-\langle a, b \rangle = \{ x \in \mathbb{R} \mid a < x < b \}
-$$
+* **Intervalo Abierto $\langle a, b \rangle$:**
 
-Longitud del intervalo: $L = b - a$.
+  $$\langle a, b \rangle = \{ x \in \mathbb{R} \mid a < x < b \}$$
 
-* **Intervalo Cerrado:** Subconjunto que incluye a ambos extremos $a$ y $b$.
-Notación: $[a, b]$.
-Definición conjuntista:
+* **Intervalo Cerrado $[a, b]$:**
 
-$$
-[a, b] = \{ x \in \mathbb{R} \mid a \le x \le b \}
-$$
+  $$[a, b] = \{ x \in \mathbb{R} \mid a \le x \le b \}$$
 
-Longitud del intervalo: $L = b - a$.
+* **Intervalo Semiabierto por la Izquierda $\langle a, b]$:**
 
-* **Intervalo Semiabierto por la Izquierda (o semicerrado por la derecha):** Excluye al extremo inferior $a$ e incluye al superior $b$.
-Notación: $\langle a, b]$.
-Definición conjuntista:
+  $$\langle a, b] = \{ x \in \mathbb{R} \mid a < x \le b \}$$
 
-$$
-\langle a, b] = \{ x \in \mathbb{R} \mid a < x \le b \}
-$$
+* **Intervalo Semiabierto por la Derecha $[a, b\rangle$:**
 
-* **Intervalo Semiabierto por la Derecha (o semicerrado por la izquierda):** Incluye al extremo inferior $a$ y excluye al superior $b$.
-Notación: $[a, b\rangle$.
-Definición conjuntista:
+  $$[a, b\rangle = \{ x \in \mathbb{R} \mid a \le x < b \}$$
 
-$$
-[a, b\rangle = \{ x \in \mathbb{R} \mid a \le x < b \}
-$$
-
-* **Intervalo Degenerado:** Si $a = b$, el intervalo cerrado se reduce a un conjunto unitario: $[a, a] = \{a\}$, mientras que $\langle a, a \rangle = \emptyset$.
-
----
+* **Intervalo Degenerado:** Si los dos extremos coinciden ($a = b$), el intervalo cerrado colapsa en un solo punto unitario $[a, a] = \{a\}$, mientras que el abierto queda vacío: $\langle a, a \rangle = \emptyset$.
 
 #### 2. Intervalos No Acotados (Infinitos)
+Abarcan una semirrecta que no tiene fin hacia uno o ambos lados.
+* Hacia la derecha: $\langle a, +\infty \rangle = \{ x \in \mathbb{R} \mid x > a \}$ o $[a, +\infty \rangle = \{ x \in \mathbb{R} \mid x \ge a \}$.
+* Hacia la izquierda: $\langle -\infty, b \rangle = \{ x \in \mathbb{R} \mid x < b \}$ o $\langle -\infty, b] = \{ x \in \mathbb{R} \mid x \le b \}$.
+* Recta real completa: $\langle -\infty, +\infty \rangle = \mathbb{R}$.
 
-Son aquellos que se extienden indefinidamente hacia la derecha ($+\infty$) o hacia la izquierda ($-\infty$):
-
-* Intervalo abierto hacia la derecha:
-
-$$
-\langle a, +\infty \rangle = \{ x \in \mathbb{R} \mid x > a \}
-$$
-
-* Intervalo cerrado hacia la derecha:
-
-$$
-[a, +\infty \rangle = \{ x \in \mathbb{R} \mid x \ge a \}
-$$
-
-* Intervalo abierto hacia la izquierda:
-
-$$
-\langle -\infty, b \rangle = \{ x \in \mathbb{R} \mid x < b \}
-$$
-
-* Intervalo cerrado hacia la izquierda:
-
-$$
-\langle -\infty, b] = \{ x \in \mathbb{R} \mid x \le b \}
-$$
-
-* Recta real completa:
-
-$$
-\langle -\infty, +\infty \rangle = \mathbb{R}
-$$
-
-> Nota importante de rigor: El infinito ($+\infty$ o $-\infty$) no es un número real, sino un concepto abstracto de no acotación métrica; por ende, los extremos con $\pm \infty$ siempre se escriben abiertos ($\langle$ o $\rangle$).
+> 📌 **Regla de Oro:** El infinito ($+\infty$ o $-\infty$) **NO es un número**, sino una tendencia sin límite. Por esta razón, el infinito **NUNCA puede cerrarse con corchete $[ \ ]$**; siempre debe llevar extremo abierto ($\langle$ o $\rangle$).
 
 ---
 
-### 2.3 Operaciones con Intervalos
+### 2.4 Operaciones con Intervalos (Representación Gráfica Vectorial)
 
-Dado que los intervalos son conjuntos de números reales, sobre ellos se definen las operaciones estándar de la teoría de conjuntos:
+```{figure} ../../assets/algebra/intervalos_recta_real_operaciones.svg
+---
+width: 95%
+align: center
+alt: Intervalos en la Recta Real y Operaciones
+---
+*Figura 1: Representación gráfica de los intervalos $A = [-3, 4\rangle$ y $B = \langle 1, 6]$ en la recta real orientada, mostrando su unión, intersección, diferencia y complemento.*
+```
 
-#### 1. Unión ($\cup$)
-Reúne todos los elementos que pertenecen al menos a uno de los intervalos:
+Para operar con intervalos, la estrategia más segura consiste en dibujar la recta numérica, marcar los números de menor a mayor, levantar las barras verticales respetando los círculos abiertos ($\circ$) o cerrados ($\bullet$), y analizar las regiones sombreadas:
 
-$$
-A \cup B = \{ x \in \mathbb{R} \mid x \in A \lor x \in B \}
-$$
+#### 1. Unión ($A \cup B$)
+Es la reunión total: reúne todos los puntos cubiertos por $A$, por $B$ o por ambos. En la Figura 1:
 
-#### 2. Intersección ($\cap$)
-Formado por todos los números reales comunes a ambos intervalos:
+$$A \cup B = [-3, 6]$$
 
-$$
-A \cap B = \{ x \in \mathbb{R} \mid x \in A \land x \in B \}
-$$
+#### 2. Intersección ($A \cap B$)
+Es la zona común: el tramo donde se superponen ambos intervalos al mismo tiempo (sombreado con líneas diagonales en la Figura 1):
 
-Si $A \cap B = \emptyset$, se dice que $A$ y $B$ son **intervalos disjuntos**.
+$$A \cap B = \langle 1, 4\rangle$$
 
-#### 3. Diferencia Relativa ($A - B$ o $A \setminus B$)
-Conjunto de elementos que pertenecen a $A$ pero no pertenecen a $B$:
+*(Nótese que en 1 el conjunto $B$ es abierto, por lo que el 1 no es común a ambos y la intersección queda abierta en 1).*
 
-$$
-A - B = \{ x \in \mathbb{R} \mid x \in A \land x \notin B \}
-$$
+#### 3. Diferencia Relativa ($A - B$)
+Es la resta conjuntista: **"A todo lo que pertenece a $A$, quítale cualquier punto que forme parte de $B$"**.
+En la Figura 1:
+* El intervalo $A$ empieza en $-3$ y llega hasta justo antes de 4.
+* El intervalo $B$ empieza en los números mayores a 1.
+* Al quitar $B$, nos quedamos con el tramo de $-3$ a 1.
+* **¿Qué le pasa al número 1?** Como $B = \langle 1, 6]$ tiene extremo abierto en 1, el número 1 **NO estaba en $B$**; por lo tanto, no se lo pudimos quitar a $A$. Así, el 1 permanece en $A$:
 
-Propiedad del borde crítico: Si $B$ contiene al número $c$ en su extremo cerrado, dicho número se sustrae de $A$, convirtiéndose el extremo resultante en abierto. Si $B$ tenía extremo abierto en $c$, el elemento $c$ permanece en $A$.
+$$A - B = [-3, 1]$$
 
 #### 4. Complemento ($A^c$ o $A'$)
-Es la diferencia entre el conjunto universo ($\mathbb{R}$) y el intervalo $A$:
+Es lo que le falta al intervalo para ser toda la recta real ($\mathbb{R} - A$):
 
-$$
-A^c = \mathbb{R} - A = \{ x \in \mathbb{R} \mid x \notin A \}
-$$
+$$A^c = \langle -\infty, -3\rangle \cup [4, +\infty\rangle$$
 
-Leyes de De Morgan:
+---
 
-$$
-(A \cup B)^c = A^c \cap B^c \qquad \text{y} \qquad (A \cap B)^c = A^c \cup B^c
-$$
+### 2.5 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
 
-#### 5. Diferencia Simétrica ($A \ \Delta \ B$)
-Conjunto de elementos que pertenecen a $A$ o a $B$, pero no a ambos simultáneamente:
+> ⚠️ **Error 1: Restar los números de los extremos en lugar de restar conjuntos.**  
+> Si te piden $A - B$ con $A = [3, 8]$ y $B = [1, 4]$, un error grave es calcular $3 - 1 = 2$ y $8 - 4 = 4$ y responder $[2, 4]$. ¡Eso es una aberración matemática! La diferencia de conjuntos es quitar territorio en la recta: al tramo $[3, 8]$ le quitamos $[1, 4]$, quedando únicamente $\langle 4, 8]$.
 
-$$
-A \ \Delta \ B = (A \cup B) - (A \cap B) = (A - B) \cup (B - A)
-$$
+> ⚠️ **Error 2: Inversión de bordes en la Diferencia y Complemento.**  
+> Grábate esta regla de frontera:
+> * Si sustraes un elemento que estaba **cerrado** ($\bullet$), se va en la resta y el borde restante queda **abierto** ($\circ$).
+> * Si sustraes un extremo que estaba **abierto** ($\circ$), el elemento NO se fue y permanece en el resultado como **cerrado** ($\bullet$).
+
+> ⚠️ **Error 3: Confundir la cantidad de elementos con la longitud.**  
+> En el intervalo $[2, 7]$:
+> * Su **longitud** métrica es $7 - 2 = 5$.
+> * La cantidad de **números reales** es **infinita**.
+> * La cantidad de **números enteros** es $7 - 2 + 1 = 6$ enteros ($\{2, 3, 4, 5, 6, 7\}$).
+
 
 ---
 

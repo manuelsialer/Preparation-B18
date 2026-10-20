@@ -10,110 +10,90 @@ Un **sistema de ecuaciones lineales con dos incógnitas** ($2 \times 2$) modela 
 
 ## 2. Marco Teórico Riguroso
 
-### 2.1 Definición Canónica y Estructura Matricial
+### 2.1 ¿Por qué Dos Ecuaciones para Dos Incógnitas? (El Puente Intuitivo)
 
-Un sistema de dos ecuaciones lineales con dos incógnitas $x$ e $y$ en los números reales adopta la forma canónica:
+Si una persona te dice: *"Compré dos artículos y en total gasté S/ 20"*, la ecuación es $x + y = 20$.
+¿Puedes saber con exactitud cuánto costó cada artículo? **No.** Podría ser $10$ y $10$, $1$ y $19$, $0.50$ y $19.50$. Existen **infinitas parejas** de números que suman 20. Una sola ecuación con dos incógnitas es una pista incompleta: representa una **línea recta completa** llena de infinitos puntos.
 
-$$
-\begin{cases}
-a_1 x + b_1 y = c_1 \\
-a_2 x + b_2 y = c_2
-\end{cases}
-$$
-
-donde:
-* $x, y \in \mathbb{R}$ son las incógnitas del sistema.
-* $a_1, b_1, a_2, b_2 \in \mathbb{R}$ son los coeficientes del sistema.
-* $c_1, c_2 \in \mathbb{R}$ son los términos independientes.
-
-El **conjunto solución ($CS$)** es el conjunto de todos los pares ordenados $(x_0, y_0) \in \mathbb{R}^2$ que verifican simultáneamente ambas igualdades:
-
-$$
-CS = \{ (x_0, y_0) \in \mathbb{R}^2 \mid a_1 x_0 + b_1 y_0 = c_1 \ \land \ a_2 x_0 + b_2 y_0 = c_2 \}
-$$
+Para fijar un único precio exacto en la realidad, necesitas una **segunda pista independiente**, por ejemplo: *"El primer artículo costó S/ 4 más que el segundo"* ($x - y = 4$).
+Ahora tienes dos rectas distintas en el plano cartesiano. La solución del sistema no es otra cosa que el **único punto geográfico donde ambas rectas se cruzan**: $(12, 8)$.
 
 ---
 
-### 2.2 Clasificación Analítica y Geométrica
+### 2.2 Definición Canónica y Estructura del Sistema $2 \times 2$
 
-La naturaleza del conjunto solución está intrínsecamente ligada a la posición relativa de las rectas $L_1: a_1 x + b_1 y = c_1$ y $L_2: a_2 x + b_2 y = c_2$ en el plano cartesiano:
+Un sistema lineal con dos incógnitas $x$ e $y$ se expresa canónicamente como:
 
-#### 1. Sistema Compatible Determinado (Solución Única)
-Las pendientes de ambas rectas son distintas, lo que garantiza que las rectas son **secantes** y se intersectan en exactamente un punto $(x_0, y_0)$:
+$$\begin{cases} a_1 x + b_1 y = c_1 \\ a_2 x + b_2 y = c_2 \end{cases}$$
 
-$$
-\frac{a_1}{a_2} \neq \frac{b_1}{b_2} \iff a_1 b_2 - a_2 b_1 \neq 0
-$$
+El **conjunto solución ($CS$)** es el conjunto de pares ordenados $(x, y)$ que satisfacen **ambas igualdades al mismo tiempo**.
 
-Conjunto solución unitario: $CS = \{ (x_0, y_0) \}$.
+---
 
-#### 2. Sistema Compatible Indeterminado (Infinitas Soluciones)
-Ambas ecuaciones representan la **misma recta** (rectas coincidentes). Todos los infinitos puntos de la recta satisfacen el sistema:
+### 2.3 Clasificación Analítica y Geométrica (La Posición de las Rectas)
 
-$$
-\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}
-$$
-
-Conjunto solución continuo: $CS = \{ (x, y) \in \mathbb{R}^2 \mid a_1 x + b_1 y = c_1 \}$.
-
-#### 3. Sistema Incompatible o Inconsistente (Sin Solución)
-Las rectas tienen la misma pendiente pero diferente ordenada en el origen, resultando en **rectas paralelas disjuntas** que jamás se intersecan:
-
-$$
-\frac{a_1}{a_2} = \frac{b_1}{b_2} \neq \frac{c_1}{c_2}
-$$
-
-Conjunto solución vacío: $CS = \emptyset$.
-
-#### Representación en el Plano Cartesiano de los Tres Casos
+Imagina dos carreteras rectas en el desierto:
 
 ```{figure} ../../assets/algebra/sistemas_lineales_posiciones.svg
 ---
+width: 95%
 align: center
 alt: Posición relativa de dos rectas en el plano cartesiano
 ---
-Interpretación geométrica en $\mathbb{R}^2$ de los sistemas de ecuaciones lineales: (1) Rectas secantes con punto común $P(x_0, y_0)$ (Compatible Determinado); (2) Rectas paralelas disjuntas sin intersección (Incompatible); (3) Rectas coincidentes con infinitos puntos comunes (Compatible Indeterminado).
+*Figura 1: Interpretación geométrica en $\mathbb{R}^2$ de los tres tipos de sistemas lineales: (1) Rectas secantes que se cortan en un punto único (Compatible Determinado); (2) Rectas paralelas disjuntas que nunca se tocan (Incompatible); (3) Rectas coincidentes que comparten todos sus puntos (Compatible Indeterminado).*
 ```
 
+| Tipo de Sistema | Criterio de Coeficientes | Comportamiento Geométrico | Número de Soluciones | Conjunto Solución ($CS$) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Compatible Determinado** | $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$ | Rectas **secantes** (se cortan en un punto) | **Solución única** | $CS = \{ (x_0, y_0) \}$ |
+| **Compatible Indeterminado** | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$ | Rectas **coincidentes** (una sobre la otra) | **Infinitas soluciones** | $CS = \{ (x, y) \mid a_1 x + b_1 y = c_1 \}$ |
+| **Incompatible (Inconsistente)** | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$ | Rectas **paralelas disjuntas** (nunca se tocan) | **Cero soluciones** | $CS = \emptyset$ |
+
+#### Micro-ejemplo 1: Condición de Incompatibilidad
+Halle el valor de $k$ para que el siguiente sistema no tenga solución:
+$$\begin{cases} (k - 1)x + 2y = 8 \\ 6x + 4y = 5 \end{cases}$$
+* *Estrategia:* Para que sea incompatible (rectas paralelas), las pendientes deben ser iguales pero las ordenadas distintas:
+  $$\frac{k - 1}{6} = \frac{2}{4} \neq \frac{8}{5}$$
+* *Resolución:*
+  $$\frac{k - 1}{6} = \frac{1}{2} \implies 2(k - 1) = 6 \implies k - 1 = 3 \implies k = 4$$
+* *Verificación:* Para $k = 4$, la razón es $\frac{3}{6} = \frac{2}{4} = \frac{1}{2}$, mientras que $\frac{8}{5} = 1.6 \neq 0.5$. Se cumple la condición. Por ende, $k = 4$.
 
 ---
 
-### 2.3 Métodos Clásicos de Resolución Algebraica
+### 2.4 Métodos Clásicos de Resolución Algebraica
 
-1. **Método de Reducción (Eliminación Gaussiana):**
-Consiste en multiplicar una o ambas ecuaciones por factores no nulos convenientes de modo que los coeficientes de una de las incógnitas resulten opuestos aditivos ($k$ y $-k$). Al sumar miembro a miembro las ecuaciones transformadas, la variable seleccionada se elimina, reduciendo el problema a una ecuación lineal de una sola incógnita.
+1. **Método de Reducción (Eliminación):**
+   Multiplicar una o ambas ecuaciones por números estratégicos para que una incógnita tenga coeficientes opuestos ($+k$ y $-k$). Al sumar miembro a miembro, esa incógnita se extingue. Es el método más rápido en exámenes de admisión.
 
 2. **Método de Sustitución:**
-Se despeja una incógnita de una de las ecuaciones en función de la otra y se reemplaza dicha expresión en la ecuación restante. Es el método idóneo cuando alguno de los coeficientes originales es igual a $\pm 1$.
+   Despejar una incógnita donde tenga coeficiente $1$ o $-1$ y reemplazarla en la otra ecuación.
 
-3. **Método de Igualación:**
-Se despeja la misma incógnita en ambas ecuaciones y se igualan las expresiones resultantes, resolviendo la ecuación de primer grado obtenida.
+3. **Método de Determinantes (Regla de Cramer):**
+   Permite calcular directamente el valor de una incógnita sin tener que resolver todo el sistema:
+   $$\Delta_s = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix} = a_1 b_2 - a_2 b_1$$
+   $$\Delta_x = \begin{vmatrix} c_1 & b_1 \\ c_2 & b_2 \end{vmatrix} = c_1 b_2 - c_2 b_1, \qquad \Delta_y = \begin{vmatrix} a_1 & c_1 \\ a_2 & c_2 \end{vmatrix} = a_1 c_2 - a_2 c_1$$
+   Si $\Delta_s \neq 0$:
+   $$x = \frac{\Delta_x}{\Delta_s}, \qquad y = \frac{\Delta_y}{\Delta_s}$$
 
-4. **Método de Determinantes (Regla de Cramer):**
-Se definen los determinantes de segundo orden:
-Determinante del sistema ($\Delta_s$):
+#### Micro-ejemplo 2: Determinante $2 \times 2$ con Signos Negativos
+Calcule $\begin{vmatrix} 3 & -2 \\ 4 & 5 \end{vmatrix}$:
+* *Cálculo:* $\text{Diag. Principal} - \text{Diag. Secundaria} = (3)(5) - (4)(-2) = 15 - (-8) = 15 + 8 = 23$.
 
-$$
-\Delta_s = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix} = a_1 b_2 - a_2 b_1
-$$
+---
 
-Determinante respecto a $x$ ($\Delta_x$):
+### 2.5 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
 
-$$
-\Delta_x = \begin{vmatrix} c_1 & b_1 \\ c_2 & b_2 \end{vmatrix} = c_1 b_2 - c_2 b_1
-$$
+> ⚠️ **Error 1: Olvidar multiplicar el segundo miembro al amplificar.**  
+> Si tienes $3x + 2y = 10$ y decides multiplicar por $3$ para eliminar variables, ¡debes multiplicar a TODOS los términos! El error común es escribir $9x + 6y = 10$, olvidando que el 10 también se triplica ($= 30$).
 
-Determinante respecto a $y$ ($\Delta_y$):
+> ⚠️ **Error 2: No ordenar las columnas antes de aplicar proporciones o determinantes.**  
+> En las preguntas de trampa colocan:
+> $$\begin{cases} 2x + 3y = 7 \\ 5y - 4x = 1 \end{cases}$$
+> Si aplicas Cramer sin ordenar, tomarás $a_2 = 5$ y $b_2 = -4$. ¡Error fatal! La segunda ecuación debe ordenarse como $-4x + 5y = 1$ antes de extraer la matriz de coeficientes.
 
-$$
-\Delta_y = \begin{vmatrix} a_1 & c_1 \\ a_2 & c_2 \end{vmatrix} = a_1 c_2 - a_2 c_1
-$$
+> ⚠️ **Error 3: Menos por menos en la diagonal secundaria de Cramer.**  
+> La fórmula de un determinante siempre lleva un signo menos central: $(a_1 b_2) - (a_2 b_1)$. Si el producto secundario es negativo, el signo cambia a positivo. Quien no domina leyes de signos se equivoca de alternativa en el 80% de los casos.
 
-Si $\Delta_s \neq 0$, por la Regla de Cramer la solución única viene dada por:
-
-$$
-x = \frac{\Delta_x}{\Delta_s} \qquad \text{y} \qquad y = \frac{\Delta_y}{\Delta_s}
-$$
 
 ---
 

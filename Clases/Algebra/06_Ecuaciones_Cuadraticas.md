@@ -12,34 +12,43 @@ Las ecuaciones cuadráticas constituyen uno de los pilares más determinantes de
 
 ---
 
-## 1. Marco Teórico y Clasificación
+### 1.1 ¿De Dónde Nace una Ecuación Cuadrática? (El Puente Intuitivo)
 
-### 1.1 Forma General y Formas Incompletas
+En la vida real, muchas magnitudes no dependen de una sola dimensión lineal, sino de la interacción de dos dimensiones: el **área**.
+Imagina que un campesino en el valle del Mantaro desea cercar un terreno rectangular para sembrar alcachofas. Sabe que el largo del terreno mide 3 metros más que su ancho ($x$).
+* El ancho mide: $x$
+* El largo mide: $x + 3$
+* El área total del terreno es: $\text{Área} = x(x + 3) = x^2 + 3x$
 
-Dependiendo de la nulidad o no nulidad de los coeficientes lineales ($b$) o independientes ($c$), las ecuaciones cuadráticas se clasifican en:
+Si el dueño dispone de semillas para cubrir exactamente $40\text{ m}^2$, surge de manera natural la igualdad:
 
-1. **Ecuación Cuadrática Completa:** Posee todos sus términos no nulos ($a \neq 0, b \neq 0, c \neq 0$):
-$$
-ax^2 + bx + c = 0
-$$
-2. **Ecuación Cuadrática Pura ($b = 0, c \neq 0$):**
-$$
-ax^2 + c = 0 \implies x^2 = -\frac{c}{a} \implies x = \pm \sqrt{-\frac{c}{a}}
-$$
-Si $-\frac{c}{a} > 0$, las dos raíces son reales opuestas (simétricas: $x_1 = -x_2$). Si $-\frac{c}{a} < 0$, las raíces pertenecen al campo de los números complejos conjugados.
-3. **Ecuación Cuadrática Mixta ($b \neq 0, c = 0$):**
-$$
-ax^2 + bx = 0 \implies x(ax + b) = 0 \implies x_1 = 0 \quad \lor \quad x_2 = -\frac{b}{a}
-$$
-Toda ecuación mixta admite siempre a cero ($0$) como una de sus raíces reales.
-4. **Ecuación Cuadrática Homogénea o Nula ($b = 0, c = 0$):**
-$$
-ax^2 = 0 \implies x_1 = x_2 = 0
-$$
+$$x^2 + 3x = 40 \implies x^2 + 3x - 40 = 0$$
+
+Aparece el término $x^2$ (equis al cuadrado). Esta es una **ecuación cuadrática o de segundo grado**. A diferencia de las ecuaciones lineales, una ecuación cuadrática puede admitir **hasta dos soluciones distintas** (en este ejemplo, $x = 5$ y $x = -8$; descartando la negativa por tratarse de una longitud física, el ancho es $5\text{ m}$).
 
 ---
 
-## 2. Métodos de Resolución
+### 1.2 Forma Canónica General y Formas Incompletas
+
+Toda ecuación de segundo grado en una variable puede reducirse a su forma canónica:
+
+$$ax^2 + bx + c = 0 \quad (a, b, c \in \mathbb{R}, \ a \neq 0)$$
+
+Donde:
+* $a$ es el coeficiente cuadrático (jamás puede ser cero, porque la ecuación dejaría de ser cuadrática).
+* $b$ es el coeficiente lineal.
+* $c$ es el término independiente.
+
+#### Formas Incompletas (Resolución Rápida sin Fórmula General)
+
+1. **Ecuación Cuadrática Pura ($b = 0, c \neq 0$):**
+   $$ax^2 + c = 0 \implies x^2 = -\frac{c}{a} \implies x = \pm \sqrt{-\frac{c}{a}}$$
+   *Micro-ejemplo:* $2x^2 - 18 = 0 \implies x^2 = 9 \implies x = \pm 3$. Conjunto solución: $CS = \{-3, 3\}$.
+
+2. **Ecuación Cuadrática Mixta ($b \neq 0, c = 0$):**
+   $$ax^2 + bx = 0 \implies x(ax + b) = 0 \implies x_1 = 0 \quad \lor \quad x_2 = -\frac{b}{a}$$
+   *Micro-ejemplo:* $3x^2 - 12x = 0 \implies 3x(x - 4) = 0 \implies x_1 = 0 \lor x_2 = 4$. Conjunto solución: $CS = \{0, 4\}$.
+
 
 ### 2.1 Método de Factorización
 
@@ -154,9 +163,28 @@ $$
 S = -\frac{b}{a} = 0 \iff b = 0
 $$
 * **Raíces Recíprocas o Inversas:** Son aquellas cuyo producto es la unidad ($x_1 = \frac{1}{x_2} \iff x_1 \cdot x_2 = 1$).
-$$
-P = \frac{c}{a} = 1 \iff a = c
-$$
+$$P = \frac{c}{a} = 1 \iff a = c$$
+
+#### Micro-ejemplo 1: Uso veloz de Cardano-Vieta
+Dada la ecuación $3x^2 - 12x + 7 = 0$, calcule la suma y producto de raíces sin resolver la ecuación:
+* **Suma:** $S = -\frac{b}{a} = -\frac{-12}{3} = \frac{12}{3} = 4$.
+* **Producto:** $P = \frac{c}{a} = \frac{7}{3}$.
+
+---
+
+### 3.7 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
+
+> ⚠️ **Error 1: Olvidar la solución negativa al extraer raíz cuadrada.**  
+> Al resolver $x^2 = 36$, el 40% de postulantes responde $x = 6$. ¡Olvidan que $(-6)^2$ también es $36$! Recuerda: siempre coloca el doble signo $\pm$: $x = \pm \sqrt{36} = \pm 6$.
+
+> ⚠️ **Error 2: El signo de $-b$ en la fórmula general.**  
+> Si la ecuación es $x^2 - 6x + 2 = 0$, aquí $b = -6$. Por lo tanto:
+> $$-b = -(-6) = +6$$
+> Muchos cometen el error de escribir $-6 \pm \sqrt{\dots}$ y fallan la alternativa correcta.
+
+> ⚠️ **Error 3: Creer que $\Delta < 0$ significa que la ecuación es absurda.**  
+> Si $\Delta < 0$, la ecuación **NO tiene raíces reales**, pero **SÍ tiene raíces complejas/imaginarias** conjugadas. Si la pregunta de admisión dice: *"Indique el número de raíces reales"*, la respuesta es **cero**; pero si dice: *"Indique el número total de raíces (en el campo complejo)"*, la respuesta es **dos**.
+
 
 ---
 

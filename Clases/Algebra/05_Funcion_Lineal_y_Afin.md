@@ -12,47 +12,43 @@ Para el estudiante y postulante a **Beca 18**, dominar la función lineal y afí
 
 ## 2. Marco Teórico Riguroso
 
-### 2.1 Definición General de Función Real de Variable Real
+### 2.1 ¿Qué es una Función? (El Puente Intuitivo de la Máquina)
 
-Una función real de variable real es una correspondencia binaria $f: D_f \subseteq \mathbb{R} \to \mathbb{R}$ tal que a cada elemento $x$ del dominio ($D_f$) le corresponde un **único** elemento $y = f(x)$ en el codominio o rango ($R_f$):
+Imagina una máquina automática en una fábrica de café en Chanchamayo:
+* Por una ranura superior introduces granos seleccionados: este es el valor de entrada, la variable independiente ($x$).
+* Los engranajes internos procesan el grano según una regla fija: esta regla es la función $f$.
+* Por la bandeja inferior sale el paquete de café listo: este es el valor de salida, la variable dependiente ($y = f(x)$).
 
-$$
-(x, y_1) \in f \ \land \ (x, y_2) \in f \implies y_1 = y_2
-$$
+> 📌 **Condición de Función:** Para que una relación sea considerada una función matemática, la máquina jamás puede ser impredecible: **para cada valor de entrada $x$, debe salir un ÚNICO valor de salida $y$**. Si al ingresar el número $2$ a veces sale $5$ y a veces sale $8$, la máquina está rota y la relación NO es una función.
 
-Geométricamente, una gráfica en el plano cartesiano representa una función si y solo si cualquier recta vertical trazada en el dominio corta a la curva en **a lo sumo un punto** (Criterio de la Recta Vertical).
-
----
-
-### 2.2 Función Lineal (Proporcionalidad Directa)
-
-Una función $f: \mathbb{R} \to \mathbb{R}$ es estrictamente **lineal** si su regla de correspondencia adopta la forma canónica:
-
-$$
-f(x) = m \cdot x \quad (m \in \mathbb{R}, \ m \neq 0)
-$$
-
-donde:
-* $m$ es la constante de proporcionalidad o **pendiente**.
-* Su gráfica es una línea recta que pasa necesariamente por el **origen de coordenadas** $(0, 0)$, puesto que $f(0) = m \cdot 0 = 0$.
-* Propiedad aditiva y homogénea: $f(x_1 + x_2) = f(x_1) + f(x_2)$ y $f(k \cdot x) = k \cdot f(x)$.
-* Dominio y Rango: $D_f = \mathbb{R}$ y $R_f = \mathbb{R}$.
+Geométricamente en el plano cartesiano, esto se comprueba con el **Criterio de la Recta Vertical**: si trazas cualquier línea vertical imaginaria sobre la gráfica y esta corta a la curva en más de un punto, no es una función.
 
 ---
 
-### 2.3 Función Afín (Modelo con Término Independiente)
+### 2.2 La Pendiente ($m$): La Inclinación de la Rampa
 
-Una función $g: \mathbb{R} \to \mathbb{R}$ es **afín** si su regla de correspondencia es de primer grado con término independiente no nulo:
+La **pendiente** no es una fórmula misteriosa; es la inclinación física de una rampa o cerro:
 
-$$
-g(x) = m \cdot x + b \quad (m, b \in \mathbb{R}, \ m \neq 0, \ b \neq 0)
-$$
+$$m = \frac{\text{Desplazamiento Vertical}}{\text{Desplazamiento Horizontal}} = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}$$
 
-donde:
-* $m$ es la **pendiente** de la recta ($m = \tan \theta$, donde $\theta$ es el ángulo de inclinación respecto al eje positivo de las abscisas).
-* $b$ es la **ordenada en el origen**, es decir, el valor donde la recta intersecta al eje vertical $Y$ en el punto $(0, b)$.
-* Intersección con el eje horizontal $X$ (raíz o cero de la función): se obtiene resolviendo $g(x) = 0 \implies x = -\frac{b}{m}$, dando el punto $\left(-\frac{b}{m}, 0\right)$.
-* Si $m = 0$, la función se transforma en la **función constante** $g(x) = b$, cuya gráfica es una recta horizontal de pendiente nula.
+* Si caminas hacia la derecha y subes: la pendiente es **positiva ($m > 0$)** y la función es **creciente**.
+* Si caminas hacia la derecha y bajas: la pendiente es **negativa ($m < 0$)** y la función es **decreciente**.
+* Si el piso es perfectamente plano y horizontal: la pendiente es **cero ($m = 0$)** y la función es **constante** ($f(x) = b$).
+* Una pared vertical pura tiene pendiente **indefinida** (división entre cero, $\Delta x = 0$) y no representa una función.
+
+---
+
+### 2.3 Función Lineal vs. Función Afín
+
+La diferencia entre ambas es clave en el temario de Beca 18:
+
+| Tipo | Ecuación Canónica | Corte con el Eje $Y$ | ¿Pasa por el Origen $(0,0)$? | Ejemplo de la Vida Real |
+| :--- | :---: | :---: | :---: | :--- |
+| **Función Lineal** | $f(x) = m \cdot x$ | $(0, 0)$ | **SÍ, siempre** | Precio de papas por kilo sin costo fijo: si compras 0 kg, pagas S/ 0 ($f(x) = 2.5x$). |
+| **Función Afín** | $g(x) = m \cdot x + b$ | $(0, b)$ | **NO** (cortada a la altura $b$) | Carrera de taxi: Tarifa base de S/ 4 más S/ 1.50 por km: si subes y no avanzas, ya debes S/ 4 ($g(x) = 1.5x + 4$). |
+
+El número $b$ recibe el nombre de **ordenada en el origen** porque indica exactamente a qué altura la recta atraviesa el eje vertical $Y$.
+
 
 ---
 
@@ -100,11 +96,31 @@ $$
 
 3. **Forma Simétrica o Canónica:** Si corta a los ejes en $(a, 0)$ y $(0, b)$ con $a, b \neq 0$:
 
-$$
-\frac{x}{a} + \frac{y}{b} = 1
-$$
+$$\frac{x}{a} + \frac{y}{b} = 1$$
+
+
+#### Micro-ejemplo 1: Hallar la función a partir de dos puntos
+Una recta pasa por $(1, 5)$ y $(4, 11)$.
+1. **Pendiente:** $m = \frac{11 - 5}{4 - 1} = \frac{6}{3} = 2$.
+2. **Ordenada al origen:** $y = 2x + b \implies 5 = 2(1) + b \implies b = 3$.
+3. **Ecuación:** $f(x) = 2x + 3$.
 
 ---
+
+### 2.7 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
+
+> ⚠️ **Error 1: Restar en orden invertido las coordenadas de la pendiente.**  
+> Si tomas $P_1(2, 3)$ y $P_2(5, 9)$, calcular:
+> $$m = \frac{9 - 3}{2 - 5} = \frac{6}{-3} = -2 \quad \text{¡ERROR TOTAL!}$$
+> El orden debe ser idéntico en el numerador y denominador: si en el numerador restaste $P_2 - P_1$ ($9 - 3$), en el denominador DEBES restar también $P_2 - P_1$ ($5 - 2 = 3$), dando $m = +2$.
+
+> ⚠️ **Error 2: Confundir el corte con el eje $X$ con el corte con el eje $Y$.**  
+> * Para hallar el corte con el eje vertical $Y$, haz $x = 0 \implies (0, b)$.
+> * Para hallar el corte con el eje horizontal $X$, haz $y = 0 \implies mx + b = 0 \implies x = -\frac{b}{m}$. El punto es $\left(-\frac{b}{m}, 0\right)$.
+
+> ⚠️ **Error 3: Creer que una recta vertical es una función.**  
+> Una recta vertical como $x = 4$ tiene pendiente indefinida (infinita) y corta a una infinidad de valores de $y$ para un mismo $x = 4$. Por lo tanto, viola el principio de unicidad y **NO es una función**.
+
 
 ## 3. 10 Ejercicios Resueltos Paso a Paso
 

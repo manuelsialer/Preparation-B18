@@ -7,10 +7,10 @@ Bienvenido al repositorio y compendio didáctico interactivo desarrollado para l
 ## 🎯 Enfoque Pedagógico del Material
 
 Cada tema ha sido diseñado bajo los estándares oficiales del **Currículo Nacional (CNEB)** y el temario oficial del **PRONABEC**:
-1. **Fundamentación Teórica Rigurosa:** Explicada desde los primeros principios, axiomas y propiedades, sin omitir procedimientos intermedios y complementada con figuras vectoriales de alta precisión en **LaTeX TikZ**.
+1. **Fundamentación Teórica Rigurosa:** Explicada desde los primeros principios, axiomas y propiedades, sin omitir procedimientos intermedios y complementada con figuras vectoriales de alta precisión.
 2. **Ejercicios Resueltos Paso a Paso:** 10 problemas modelo categorizados por nivel (Básico, Intermedio y Avanzado/Beca 18) con estrategia y análisis detallado.
 3. **Práctica Propuesta:** 45 problemas organizados en 3 bloques de dificultad progresiva con tabla de claves de respuesta verificadas.
-4. **Formulario Resumen (Cheat Sheet):** Síntesis de fórmulas y propiedades esenciales en tablas Markdown nativas.
+4. **Formulario Resumen (Cheat Sheet):** Síntesis de fórmulas y propiedades esenciales en tablas.
 
 ---
 
