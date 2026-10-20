@@ -252,3 +252,16 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   * Título nivel 1 estricto: `# Tema XX: [Nombre del Tema]`.
   * Queda terminantemente prohibido incluir bloques manuales de índice (`🧭 ÍNDICE` o enlaces manuales ancla `#`). La navegación lateral e interna la gestiona automáticamente Sphinx/Jupyter Book.
 
+---
+
+### `[ERR-023]` Teoría Comprimida y Falta de Andamiaje para el Perfil Beca 18
+* **Fecha:** 2026-10-19
+* **Problema:** Teorías condensadas en listas de fórmulas abstractas sin puentes intuitivos ni explicaciones progresivas, lo cual resulta inaccesible para estudiantes de colegios públicos con formación matemática deficitaria.
+* **Causa Raíz:** Priorizar la cobertura rápida del temario y los ejercicios sobre la labor formativa de un libro de texto integral.
+* **Invariante / Regla Aprendida:**
+  1. **Andamiaje desde Cero:** Explicar el concepto con lenguaje intuitivo y analogías antes de formalizar.
+  2. **Micro-ejemplos Ilustrativos:** Incluir un mini-ejemplo de aplicación de 1 a 2 líneas inmediatamente después de cada teorema o fórmula en la teoría.
+  3. **Alertas de Errores Comunes:** Incluir en cada tema la sección `> ⚠️ **¡Cuidado con el error clásico de admisión!**` explicando dónde falla la mayoría de postulantes.
+  4. **Abundancia Gráfica en TikZ:** Cada concepto fundamental (planos, trazos auxiliares, rectas numéricas, diagramas) debe tener su figura vectorial propia.
+
+
