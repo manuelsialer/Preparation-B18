@@ -39,6 +39,7 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build .
+          touch _build/html/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

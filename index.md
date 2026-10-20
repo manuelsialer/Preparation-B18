@@ -21,7 +21,7 @@ Cada tema ha sido diseñado bajo los estándares oficiales del **Currículo Naci
 * **Módulo 3: Geometría (6 temas):** Puntos y líneas notables, relaciones métricas, cuadriláteros, polígonos, circunferencia y cuerpos de revolución con figuras vectoriales TikZ.
 * **Módulo 4: Trigonometría (3 temas):** Razones trigonométricas, triángulos notables, ángulos verticales e identidades fundamentales.
 * **Módulo 5: Estadística y Probabilidad (4 temas):** Tablas con datos agrupados, medidas de tendencia central, gráficos y regla de Laplace.
-* **Módulo 6: Competencia Lectora (Próximamente):** Comprensión literal, inferencial y evaluación crítica.
+* **Módulo 6: Competencia Lectora (10 temas):** Jerarquía de ideas, tipología textual continua/discontinua, inferencias lógicas, sentido figurado, textos dialécticos y lectura crítica.
 
 ---
 

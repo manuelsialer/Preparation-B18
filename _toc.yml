@@ -45,4 +45,8 @@ chapters:
       - file: Clases/Estadistica/02_Medidas_de_Tendencia_Central
       - file: Clases/Estadistica/03_Graficos_Estadisticos_y_Tipos_de_Variables
       - file: Clases/Estadistica/04_Probabilidad_y_Sucesos_Aleatorios
+  - file: Clases/Competencia_Lectora/index
+    sections:
+      - file: Clases/Competencia_Lectora/01_Tema_Idea_Principal_y_Subtemas
+
 
