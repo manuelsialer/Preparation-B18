@@ -264,4 +264,28 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   3. **Alertas de Errores Comunes:** Incluir en cada tema la sección `> ⚠️ **¡Cuidado con el error clásico de admisión!**` explicando dónde falla la mayoría de postulantes.
   4. **Abundancia Gráfica en TikZ:** Cada concepto fundamental (planos, trazos auxiliares, rectas numéricas, diagramas) debe tener su figura vectorial propia.
 
+---
+
+### `[ERR-024]` SVGs en Blanco por `opacity` y `pattern` de TikZ en `dvisvgm`
+* **Fecha:** 2026-10-19
+* **Problema:** Los archivos SVG generados con `pdflatex` + `dvisvgm 3.4.3` (ej. `assets/algebra/intervalos_recta_real_operaciones.svg` y `assets/algebra/inecuaciones_regla_signos.svg`) se muestran totalmente en blanco en navegadores web.
+* **Causa Raíz:**
+  1. El uso del modificador `opacity=...` (ej. `[fill=blue!20, opacity=0.6]`) en TikZ provoca que `dvisvgm` interprete el grupo de transparencia PDF inyectando atributos globales `stroke-opacity='0'` y `fill-opacity='0'` en todos los trazados SVG subsiguientes.
+  2. El uso de la librería `patterns` de TikZ (ej. `[pattern=north east lines]`) también genera grupos de transparencia/máscaras en el PDF, lo que activa el mismo fallo en `dvisvgm`.
+* **Invariante / Regla Aprendida:**
+  * **PROHIBIDO** usar `opacity=...`, `fill opacity=...` o `stroke opacity=...` en el código TikZ destinado a exportación SVG con `dvisvgm`.
+  * **PROHIBIDO** usar tramas de `pattern=...` de TikZ.
+  * Para lograr tonos tenues, usar exclusivamente **mezcla de colores sólidos** de xcolor: `fill=blue!15`, `fill=red!20`, `fill=purple!22`.
+  * Si se requieren líneas diagonales o rayado para intersecciones, implementarlas mediante trazado explícito con bucles manuales acotados:
+    ```latex
+    \begin{scope}
+        \clip (1,0) rectangle (4,1.2);
+        \foreach \s in {0.5, 0.8, ..., 5.5} {
+            \draw[thin, purple!60] (\s, -0.2) -- (\s+1.2, 1.4);
+        }
+    \end{scope}
+    ```
+  * Tras toda compilación de SVG, verificar con script o `grep` que no existan atributos `opacity='0'` en el SVG resultante.
+
+
 
