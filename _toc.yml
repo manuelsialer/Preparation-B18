@@ -48,5 +48,7 @@ chapters:
   - file: Clases/Competencia_Lectora/index
     sections:
       - file: Clases/Competencia_Lectora/01_Tema_Idea_Principal_y_Subtemas
+      - file: Clases/Competencia_Lectora/02_Tipologia_Textual_Formatos_Continuo_Discontinuo_Mixto
+
 
 

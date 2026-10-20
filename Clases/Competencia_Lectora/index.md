@@ -1,4 +1,4 @@
-# Módulo: Competencia Lectora
+# Competencia Lectora
 
 Bienvenido al módulo de **Competencia Lectora** del *Compendio Preuniversitario de Alto Nivel para Beca 18*. 
 

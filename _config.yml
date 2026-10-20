@@ -31,3 +31,6 @@ exclude_patterns:
   - "scratch/*"
   - "requirements.txt"
   - "LICENSE"
+  - "README.md"
+  - "docs/*"
+
