@@ -49,7 +49,6 @@ La diferencia entre ambas es clave en el temario de Beca 18:
 
 El número $b$ recibe el nombre de **ordenada en el origen** porque indica exactamente a qué altura la recta atraviesa el eje vertical $Y$.
 
-
 ---
 
 ### 2.4 Representación en el Plano Cartesiano
@@ -98,7 +97,6 @@ $$
 
 $$\frac{x}{a} + \frac{y}{b} = 1$$
 
-
 #### Micro-ejemplo 1: Hallar la función a partir de dos puntos
 Una recta pasa por $(1, 5)$ y $(4, 11)$.
 1. **Pendiente:** $m = \frac{11 - 5}{4 - 1} = \frac{6}{3} = 2$.
@@ -111,7 +109,7 @@ Una recta pasa por $(1, 5)$ y $(4, 11)$.
 
 > ⚠️ **Error 1: Restar en orden invertido las coordenadas de la pendiente.**  
 > Si tomas $P_1(2, 3)$ y $P_2(5, 9)$, calcular:
-> $$m = \frac{9 - 3}{2 - 5} = \frac{6}{-3} = -2 \quad \text{¡ERROR TOTAL!}$$
+> $m = \frac{9 - 3}{2 - 5} = \frac{6}{-3} = -2 \quad \text{¡ERROR TOTAL!}$
 > El orden debe ser idéntico en el numerador y denominador: si en el numerador restaste $P_2 - P_1$ ($9 - 3$), en el denominador DEBES restar también $P_2 - P_1$ ($5 - 2 = 3$), dando $m = +2$.
 
 > ⚠️ **Error 2: Confundir el corte con el eje $X$ con el corte con el eje $Y$.**  
@@ -120,7 +118,6 @@ Una recta pasa por $(1, 5)$ y $(4, 11)$.
 
 > ⚠️ **Error 3: Creer que una recta vertical es una función.**  
 > Una recta vertical como $x = 4$ tiene pendiente indefinida (infinita) y corta a una infinidad de valores de $y$ para un mismo $x = 4$. Por lo tanto, viola el principio de unicidad y **NO es una función**.
-
 
 ## 3. 10 Ejercicios Resueltos Paso a Paso
 
@@ -386,10 +383,10 @@ Al cabo de $10\text{ años}$ ($t = 10$): $V(10) = 4\,000 \implies P_1(10, 4\,000
 **Paso 2:** Calcular la tasa de depreciación anual (pendiente $m$):
 
 $$
-m = \frac{V_1 - V_0}{t_1 - t_0} = \frac{4\,000 - 24\,000}{10 - 0} = \frac{-20\,000}{10} = -2\,000\text{ US\$/año}
+m = \frac{V_1 - V_0}{t_1 - t_0} = \frac{4\,000 - 24\,000}{10 - 0} = \frac{-20\,000}{10} = -2\,000\text{ USD/año}
 $$
 
-La máquina pierde un valor constante de $\text{US\$\; } 2\,000$ por cada año transcurrido.
+La máquina pierde un valor constante de $\text{USD } 2\,000$ por cada año transcurrido.
 
 **Paso 3:** Formular la función afín:
 Con ordenada en el origen $b = 24\,000$:
@@ -401,10 +398,10 @@ $$
 **Paso 4:** Calcular el valor a los $t = 6\text{ años}$:
 
 $$
-V(6) = -2\,000(6) + 24\,000 = -12\,000 + 24\,000 = \text{US\$\; } 12\,000
+V(6) = -2\,000(6) + 24\,000 = -12\,000 + 24\,000 = \text{USD } 12\,000
 $$
 
-*Respuesta:* La función de depreciación es $V(t) = -2\,000t + 24\,000$, y a los $6\text{ años}$ su valor es $\text{US\$\; } 12\,000$.
+*Respuesta:* La función de depreciación es $V(t) = -2\,000t + 24\,000$, y a los $6\text{ años}$ su valor es $\text{USD } 12\,000$.
 
 ---
 

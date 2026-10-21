@@ -8,9 +8,11 @@ $$
 
 Para garantizar la existencia y unicidad en el campo de los números reales ($\mathbb{R}$):
 * Si el índice $n$ es **par**, el radicando debe ser estrictamente no negativo ($a \geq 0$). La raíz aritmética es siempre un número real no negativo: $b \geq 0$. Una de las identidades más cruciales del álgebra formal es:
+
 $$
 \sqrt[2k]{x^{2k}} = |x|
 $$
+
 * Si el índice $n$ es **impar**, el radicando puede ser cualquier número real ($a \in \mathbb{R}$), y la raíz $b$ conserva unívocamente el mismo signo que el radicando $a$: $\sqrt[3]{-8} = -2$.
 
 La transformación de radicales dobles a radicales simples y la racionalización de denominadores son herramientas determinantes en el examen de preselección Beca 18, permitiendo el cálculo exacto de límites trigonométricos, cálculo de hipotenusas en topografía e ingeniería, simplificación de impedancias eléctricas y resolución analítica de inecuaciones irracionales.
@@ -21,9 +23,11 @@ La transformación de radicales dobles a radicales simples y la racionalización
 
 La radicación en $\mathbb{R}$ exige considerar las condiciones de existencia para índices pares e impares:
 * **Índice Par:** $\sqrt[2k]{a}$ existe en $\mathbb{R} \iff a \geq 0$. Su valor es estrictamente no negativo:
+
 $$
 \sqrt[2k]{x^{2k}} = |x|
 $$
+
 * **Índice Impar:** $\sqrt[2k+1]{a}$ está definida para todo $a \in \mathbb{R}$ y conserva el signo del radicando: $\sqrt[3]{-27} = -3$.
 
 ---
@@ -69,10 +73,13 @@ $$
 Esta equivalencia se deduce directamente del desarrollo del binomio al cuadrado: $(\sqrt{a} \pm \sqrt{b})^2 = a + b \pm 2\sqrt{ab}$.
 
 * **Estrategia Operativa:** Si el radical interior no posee el coeficiente 2, se introduce o extrae un factor 4 del radicando:
+
 $$
 \sqrt{A \pm \sqrt{B}} = \sqrt{A \pm 2\sqrt{\frac{B}{4}}}
 $$
+
 O bien, multiplicando y dividiendo por $\sqrt{2}$:
+
 $$
 \sqrt{A \pm \sqrt{B}} = \frac{\sqrt{2A \pm 2\sqrt{B}}}{\sqrt{2}}
 $$
@@ -127,9 +134,11 @@ Para fracciones con denominadores $\sqrt{a} \pm \sqrt{b}$ o $a \pm \sqrt{b}$:
 El Factor Racionalizante es la **expresión conjugada**, aprovechando la diferencia de cuadrados $(x + y)(x - y) = x^2 - y^2$:
 
 * Si el denominador es $(\sqrt{a} + \sqrt{b})$, su $\text{F.R.} = (\sqrt{a} - \sqrt{b})$:
+
 $$
 (\sqrt{a} + \sqrt{b})(\sqrt{a} - \sqrt{b}) = a - b
 $$
+
 * Si el denominador es $(\sqrt{a} - \sqrt{b})$, su $\text{F.R.} = (\sqrt{a} + \sqrt{b})$.
 
 ### 2.3 Caso 3: Denominador Binomio de Raíces Cúbicas
@@ -138,10 +147,13 @@ Para fracciones con denominadores $\sqrt[3]{a} \pm \sqrt[3]{b}$:
 El Factor Racionalizante es el trinomio correspondiente a la suma o diferencia de cubos $(x \pm y)(x^2 \mp xy + y^2) = x^3 \pm y^3$:
 
 * Si el denominador es $(\sqrt[3]{a} + \sqrt[3]{b})$, su $\text{F.R.} = \sqrt[3]{a^2} - \sqrt[3]{ab} + \sqrt[3]{b^2}$:
+
 $$
 (\sqrt[3]{a} + \sqrt[3]{b})(\sqrt[3]{a^2} - \sqrt[3]{ab} + \sqrt[3]{b^2}) = a + b
 $$
+
 * Si el denominador es $(\sqrt[3]{a} - \sqrt[3]{b})$, su $\text{F.R.} = \sqrt[3]{a^2} + \sqrt[3]{ab} + \sqrt[3]{b^2}$:
+
 $$
 (\sqrt[3]{a} - \sqrt[3]{b})(\sqrt[3]{a^2} + \sqrt[3]{ab} + \sqrt[3]{b^2}) = a - b
 $$
@@ -165,6 +177,7 @@ $$
 
 ### Ejercicio 1: Descomposición de Radical Doble a Simple (Fórmula General)
 Transformar a radicales simples:
+
 $$
 E = \sqrt{7 + \sqrt{40}}
 $$
@@ -188,6 +201,7 @@ $\sqrt{7 + \sqrt{40}} = \sqrt{x} + \sqrt{y} = \sqrt{5} + \sqrt{2}$
 
 ### Ejercicio 2: Método Práctico del Doble Producto
 Descomponer a radicales simples:
+
 $$
 M = \sqrt{11 - 2\sqrt{30}}
 $$
@@ -212,6 +226,7 @@ $\sqrt{11 - 2\sqrt{30}} = \sqrt{6} - \sqrt{5}$
 
 ### Ejercicio 3: Acondicionamiento para el Doble Producto
 Simplificar la expresión:
+
 $$
 K = \sqrt{4 + \sqrt{12}} - \sqrt{3}
 $$
@@ -235,6 +250,7 @@ $K = (\sqrt{3} + 1) - \sqrt{3} = 1$
 
 ### Ejercicio 4: Racionalización de Denominador Monomio
 Racionalizar y simplificar:
+
 $$
 F = \frac{12}{\sqrt[5]{8}}
 $$
@@ -257,6 +273,7 @@ $F = 6\sqrt[5]{4}$
 
 ### Ejercicio 5: Racionalización por Conjugada Cuadrática
 Racionalizar el denominador de la fracción:
+
 $$
 P = \frac{14}{\sqrt{11} - 2}
 $$
@@ -278,6 +295,7 @@ $P = \frac{14(\sqrt{11} + 2)}{7} = 2(\sqrt{11} + 2) = 2\sqrt{11} + 4$
 
 ### Ejercicio 6: Racionalización de Denominador Cúbico
 Racionalizar la fracción:
+
 $$
 Q = \frac{10}{\sqrt[3]{7} - \sqrt[3]{2}}
 $$
@@ -301,6 +319,7 @@ $Q = \frac{10(\sqrt[3]{49} + \sqrt[3]{14} + \sqrt[3]{4})}{5} = 2(\sqrt[3]{49} + 
 
 ### Ejercicio 7: Suma Telescópica de Radicales
 Calcular el valor numérico de la suma finita:
+
 $$
 S = \frac{1}{\sqrt{2} + 1} + \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \dots + \frac{1}{\sqrt{100} + \sqrt{99}}
 $$
@@ -325,6 +344,7 @@ $S = \sqrt{100} - 1 = 10 - 1 = 9$
 
 ### Ejercicio 8: Racionalización de Denominador Trinomio
 Racionalizar la fracción:
+
 $$
 E = \frac{2}{\sqrt{2} + \sqrt{3} + \sqrt{5}}
 $$
@@ -348,6 +368,7 @@ $E = \frac{(\sqrt{2} + \sqrt{3} - \sqrt{5})\sqrt{6}}{6} = \frac{\sqrt{12} + \sqr
 
 ### Ejercicio 9: Radical Doble Cúbico
 Descomponer en radical simple la expresión:
+
 $$
 R = \sqrt[3]{10 + \sqrt{108}}
 $$
@@ -379,9 +400,11 @@ $\sqrt[3]{10 + \sqrt{108}} = 1 + \sqrt{3}$
 
 ### Ejercicio 10: Aplicación Contextualizada (Cálculo de Impedancia en Redes Eléctricas Rurales)
 En un proyecto de electrificación rural con paneles solares en una comunidad andina de Puno, la impedancia equivalente de una red eléctrica alterna está expresada por la fracción racionalizada:
+
 $$
 Z = \frac{60}{\sqrt{7 + 4\sqrt{3}}}
 $$
+
 donde $Z$ está en ohmios ($\Omega$). Determinar el valor exacto de la impedancia en su forma más simple sin radicales en el denominador.
 
 **Paso 1:** Analizamos el denominador como un radical doble:
@@ -519,20 +542,14 @@ E) $\sqrt{5}$
 
 ### Nivel Intermedio (Ejercicios 16 al 35)
 
-16. Simplificar la expresión algebraica:
-$$
-M = \sqrt{12 + \sqrt{140}} - \sqrt{8 - \sqrt{28}}
-$$
+16. Simplificar la expresión algebraica: $M = \sqrt{12 + \sqrt{140}} - \sqrt{8 - \sqrt{28}}$.  
 A) $2\sqrt{2}$  
 B) $\sqrt{5} + 1$  
 C) $\sqrt{7} + 1$  
 D) $2\sqrt{5}$  
 E) $2$  
 
-17. Racionalizar y simplificar:
-$$
-F = \frac{6}{\sqrt{7} + \sqrt{5} + \sqrt{2}}
-$$
+17. Racionalizar y simplificar: $F = \frac{6}{\sqrt{7} + \sqrt{5} + \sqrt{2}}$.  
 A) $\frac{\sqrt{70} + \sqrt{14} - \sqrt{10}}{2}$  
 B) $\frac{3(\sqrt{7} + \sqrt{5} - \sqrt{2})}{4}$  
 C) $\frac{\sqrt{14} + \sqrt{10} - \sqrt{35}}{2}$  
@@ -546,10 +563,7 @@ C) $\sqrt{5} - 1$
 D) $2\sqrt{3}$  
 E) $1$  
 
-19. Racionalizar el denominador de la fracción con raíces cúbicas:
-$$
-K = \frac{15}{\sqrt[3]{25} + \sqrt[3]{10} + \sqrt[3]{4}}
-$$
+19. Racionalizar el denominador de la fracción con raíces cúbicas: $K = \frac{15}{\sqrt[3]{25} + \sqrt[3]{10} + \sqrt[3]{4}}$.  
 A) $5(\sqrt[3]{5} - \sqrt[3]{2})$  
 B) $3(\sqrt[3]{5} - \sqrt[3]{2})$  
 C) $\sqrt[3]{5} - \sqrt[3]{2}$  
@@ -563,30 +577,21 @@ C) $20$
 D) $12$  
 E) $25$  
 
-21. Descomponer a radicales simples:
-$$
-P = \sqrt{28 - 10\sqrt{3}}
-$$
+21. Descomponer a radicales simples: $P = \sqrt{28 - 10\sqrt{3}}$.  
 A) $5 - \sqrt{3}$  
 B) $3 - \sqrt{5}$  
 C) $5 + \sqrt{3}$  
 D) $4 - \sqrt{3}$  
 E) $\sqrt{15} - \sqrt{3}$  
 
-22. Calcular el valor de $x$ que satisface la igualdad:
-$$
-\sqrt{x + \sqrt{48}} = \sqrt{6} + \sqrt{2}
-$$
+22. Calcular el valor de $x$ que satisface la igualdad: $\sqrt{x + \sqrt{48}} = \sqrt{6} + \sqrt{2}$.  
 A) $8$  
 B) $10$  
 C) $12$  
 D) $14$  
 E) $16$  
 
-23. Racionalizar y efectuar:
-$$
-E = \frac{2}{\sqrt{6} - 2} - \frac{2}{\sqrt{6} + 2}
-$$
+23. Racionalizar y efectuar: $E = \frac{2}{\sqrt{6} - 2} - \frac{2}{\sqrt{6} + 2}$.  
 A) $4$  
 B) $2\sqrt{6}$  
 C) $2$  
@@ -600,10 +605,7 @@ C) $2\text{ m}^2$
 D) $2.5\text{ m}^2$  
 E) $3\text{ m}^2$  
 
-25. Simplificar la expresión:
-$$
-M = \sqrt{1 + 2\sqrt{1 + 2\sqrt{1 + 2\sqrt{9}}}}
-$$
+25. Simplificar la expresión: $M = \sqrt{1 + 2\sqrt{1 + 2\sqrt{1 + 2\sqrt{9}}}}$.  
 A) $3$  
 B) $\sqrt{7}$  
 C) $\sqrt{5}$  
@@ -638,141 +640,109 @@ C) $0$
 D) $-1$  
 E) $1/2$  
 
-30. Racionalizar la expresión fraccionaria:
-$$
-\frac{4}{\sqrt{5} + \sqrt{3} - \sqrt{2}}
-$$
-e indicar el denominador racional resultante tras la primera etapa:  
-A) $2\sqrt{15}$  
-B) $6 + 2\sqrt{15}$  
-C) $2\sqrt{6}$  
-D) $4$  
-E) $10$  
+30. Racionalizar la expresión fraccionaria: $\frac{4}{\sqrt{5} + \sqrt{3} - \sqrt{2}}$ e indicar el denominador racional resultante tras la primera etapa:  
+A) $2\sqrt{15}$
+B) $6 + 2\sqrt{15}$
+C) $2\sqrt{6}$
+D) $4$
+E) $10$
 
-31. Descomponer a radicales simples $\sqrt{11 + 4\sqrt{6}}$:  
-A) $2\sqrt{2} + \sqrt{3}$  
-B) $3\sqrt{2} + \sqrt{3}$  
-C) $\sqrt{8} + \sqrt{3}$  
-D) $\sqrt{6} + \sqrt{5}$  
-E) $2\sqrt{3} + \sqrt{2}$  
+31. Descomponer a radicales simples $\sqrt{11 + 4\sqrt{6}}$:
+A) $2\sqrt{2} + \sqrt{3}$
+B) $3\sqrt{2} + \sqrt{3}$
+C) $\sqrt{8} + \sqrt{3}$
+D) $\sqrt{6} + \sqrt{5}$
+E) $2\sqrt{3} + \sqrt{2}$
 
-32. Al simplificar $E = \frac{\sqrt{2}}{\sqrt{3} - \sqrt{2}} - \frac{\sqrt{3}}{\sqrt{3} + \sqrt{2}}$, se obtiene:  
-A) $5$  
-B) $1$  
-C) $2\sqrt{6}$  
-D) $5 - 2\sqrt{6}$  
-E) $2\sqrt{6} - 5$  
+32. Al simplificar $E = \frac{\sqrt{2}}{\sqrt{3} - \sqrt{2}} - \frac{\sqrt{3}}{\sqrt{3} + \sqrt{2}}$, se obtiene:
+A) $5$
+B) $1$
+C) $2\sqrt{6}$
+D) $5 - 2\sqrt{6}$
+E) $2\sqrt{6} - 5$
 
-33. Descomponer el radical doble cúbico $\sqrt[3]{26 + \sqrt{675}}$ a la forma simple $x + \sqrt{y}$:  
-A) $2 + \sqrt{3}$  
-B) $1 + \sqrt{3}$  
-C) $3 + \sqrt{2}$  
-D) $2 + \sqrt{5}$  
-E) $1 + \sqrt{5}$  
+33. Descomponer el radical doble cúbico $\sqrt[3]{26 + \sqrt{675}}$ a la forma simple $x + \sqrt{y}$:
+A) $2 + \sqrt{3}$
+B) $1 + \sqrt{3}$
+C) $3 + \sqrt{2}$
+D) $2 + \sqrt{5}$
+E) $1 + \sqrt{5}$
 
-34. Si $\frac{1}{\sqrt{7 - \sqrt{48}}} = a + \sqrt{b}$, hallar $a + b$:  
-A) $5$  
-B) $7$  
-C) $9$  
-D) $6$  
-E) $8$  
+34. Si $\frac{1}{\sqrt{7 - \sqrt{48}}} = a + \sqrt{b}$, hallar $a + b$:
+A) $5$
+B) $7$
+C) $9$
+D) $6$
+E) $8$
 
-35. Un soporte metálico para una torre de telecomunicaciones en Ayacucho tiene una longitud dada por $L = \frac{10}{\sqrt{6} + \sqrt{5} - 1}\text{ m}$. El factor racionalizante adecuado para la primera fase es:  
-A) $(\sqrt{6} + \sqrt{5}) + 1$  
-B) $(\sqrt{6} - \sqrt{5}) - 1$  
-C) $\sqrt{6} - \sqrt{5} + 1$  
-D) $\sqrt{6} + \sqrt{5}$  
-E) $\sqrt{30} + 1$  
+35. Un soporte metálico para una torre de telecomunicaciones en Ayacucho tiene una longitud dada por $L = \frac{10}{\sqrt{6} + \sqrt{5} - 1}\text{ m}$. El factor racionalizante adecuado para la primera fase es:
+A) $(\sqrt{6} + \sqrt{5}) + 1$
+B) $(\sqrt{6} - \sqrt{5}) - 1$
+C) $\sqrt{6} - \sqrt{5} + 1$
+D) $\sqrt{6} + \sqrt{5}$
+E) $\sqrt{30} + 1$
 
 ---
 
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
-36. Descomponer en tres radicales simples la expresión:
-$$
-P = \sqrt{14 + 2\sqrt{15} + 2\sqrt{21} + 2\sqrt{35}}
-$$
+36. Descomponer en tres radicales simples la expresión: $P = \sqrt{14 + 2\sqrt{15} + 2\sqrt{21} + 2\sqrt{35}}$.  
 A) $\sqrt{3} + \sqrt{5} + \sqrt{7}$  
 B) $\sqrt{2} + \sqrt{5} + \sqrt{7}$  
 C) $\sqrt{3} + \sqrt{4} + \sqrt{7}$  
 D) $1 + \sqrt{6} + \sqrt{7}$  
 E) $\sqrt{2} + \sqrt{3} + \sqrt{5}$  
 
-37. Simplificar la siguiente expresión con infinitos radicales anidados:
-$$
-E = \sqrt{12 + \sqrt{12 + \sqrt{12 + \dots}}}
-$$
+37. Simplificar la siguiente expresión con infinitos radicales anidados: $E = \sqrt{12 + \sqrt{12 + \sqrt{12 + \dots}}}$.  
 A) $4$  
 B) $3$  
 C) $6$  
 D) $12$  
 E) $\sqrt{12}$  
 
-38. Calcular el valor exacto de la expresión cúbica:
-$$
-M = \sqrt[3]{20 + 14\sqrt{2}} + \sqrt[3]{20 - 14\sqrt{2}}
-$$
+38. Calcular el valor exacto de la expresión cúbica: $M = \sqrt[3]{20 + 14\sqrt{2}} + \sqrt[3]{20 - 14\sqrt{2}}$.  
 A) $4$  
 B) $2$  
 C) $2\sqrt{2}$  
 D) $6$  
 E) $3$  
 
-39. Si se racionaliza el denominador de:
-$$
-F = \frac{1}{\sqrt[4]{8} + \sqrt[4]{4} + \sqrt[4]{2} + 1}
-$$
-el resultado equivalente simplificado es:  
-A) $\sqrt[4]{2} - 1$  
-B) $\sqrt[4]{8} - 1$  
-C) $\sqrt{2} - 1$  
-D) $\sqrt[4]{4} - 1$  
-E) $1 - \sqrt[4]{2}$  
+39. Si se racionaliza el denominador de: $F = \frac{1}{\sqrt[4]{8} + \sqrt[4]{4} + \sqrt[4]{2} + 1}$, el resultado equivalente simplificado es:  
+A) $\sqrt[4]{2} - 1$
+B) $\sqrt[4]{8} - 1$
+C) $\sqrt{2} - 1$
+D) $\sqrt[4]{4} - 1$
+E) $1 - \sqrt[4]{2}$
 
-40. Hallar el valor de $x$ que satisface la ecuación irracional:
-$$
-\sqrt{x + 2} + \sqrt{x - 3} = 5
-$$
+40. Hallar el valor de $x$ que satisface la ecuación irracional: $\sqrt{x + 2} + \sqrt{x - 3} = 5$.  
 A) $7$  
 B) $9$  
 C) $6$  
 D) $8$  
 E) $11$  
 
-41. **(Reto)** Simplificar a su mínima expresión:
-$$
-T = \sqrt{2 + \sqrt{3}} \cdot \sqrt{2 + \sqrt{2 + \sqrt{3}}} \cdot \sqrt{2 - \sqrt{2 + \sqrt{3}}}
-$$
+41. **(Reto)** Simplificar a su mínima expresión: $T = \sqrt{2 + \sqrt{3}} \cdot \sqrt{2 + \sqrt{2 + \sqrt{3}}} \cdot \sqrt{2 - \sqrt{2 + \sqrt{3}}}$.  
 A) $1$  
 B) $\sqrt{2}$  
 C) $\sqrt{3}$  
 D) $2$  
 E) $1/2$  
 
-42. **(Reto)** Descomponer en cuatro radicales simples la expresión:
-$$
-\sqrt{10 + \sqrt{24} + \sqrt{40} + \sqrt{60}}
-$$
+42. **(Reto)** Descomponer en cuatro radicales simples la expresión: $\sqrt{10 + \sqrt{24} + \sqrt{40} + \sqrt{60}}$.  
 A) $\sqrt{2} + \sqrt{3} + \sqrt{5}$  
 B) $1 + \sqrt{2} + \sqrt{3} + \sqrt{5}$  
 C) $\sqrt{3} + \sqrt{5} + \sqrt{7}$  
 D) $\sqrt{2} + \sqrt{5} + \sqrt{6}$  
 E) $2 + \sqrt{3} + \sqrt{5}$  
 
-43. **(Reto)** Racionalizar completamente el denominador de:
-$$
-K = \frac{1}{\sqrt[3]{4} + \sqrt[3]{2} - 2}
-$$
+43. **(Reto)** Racionalizar completamente el denominador de: $K = \frac{1}{\sqrt[3]{4} + \sqrt[3]{2} - 2}$.  
 A) $\frac{\sqrt[3]{2} - 1}{2}$  
 B) $\frac{\sqrt[3]{4} + \sqrt[3]{2} + 2}{6}$  
 C) $\frac{\sqrt[3]{4} + 1}{3}$  
 D) $\frac{\sqrt[3]{2} + 1}{2}$  
 E) $\frac{\sqrt[3]{4} - \sqrt[3]{2} + 1}{3}$  
 
-44. **(Reto)** Calcular el valor exacto de la fracción racionalizada:
-$$
-E = \frac{\sqrt{10 + \sqrt{84}} - \sqrt{10 - \sqrt{84}}}{\sqrt{7}}
-$$
+44. **(Reto)** Calcular el valor exacto de la fracción racionalizada: $E = \frac{\sqrt{10 + \sqrt{84}} - \sqrt{10 - \sqrt{84}}}{\sqrt{7}}$.  
 A) $2\sqrt{3}$  
 B) $2$  
 C) $\sqrt{3}$  

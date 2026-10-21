@@ -38,22 +38,32 @@ Una **identidad trigonométrica** es una igualdad algebraica entre razones trigo
 Derivan directamente del Teorema de Pitágoras en la circunferencia unitaria ($x^2 + y^2 = 1$):
 
 1. **Fundamental del Seno y Coseno:**
-   $$\sin^2\theta + \cos^2\theta = 1$$
+
+$$\sin^2\theta + \cos^2\theta = 1$$
+
    *Despejes de alta frecuencia:*
-   $$\sin^2\theta = 1 - \cos^2\theta = (1 + \cos\theta)(1 - \cos\theta)$$
-   $$\cos^2\theta = 1 - \sin^2\theta = (1 + \sin\theta)(1 - \sin\theta)$$
+
+$$\sin^2\theta = 1 - \cos^2\theta = (1 + \cos\theta)(1 - \cos\theta)$$
+
+$$\cos^2\theta = 1 - \sin^2\theta = (1 + \sin\theta)(1 - \sin\theta)$$
 
 2. **De la Tangente y Secante:**
    Dividiendo entre $\cos^2\theta$:
-   $$1 + \tan^2\theta = \sec^2\theta \implies \sec^2\theta - \tan^2\theta = 1$$
+
+$$1 + \tan^2\theta = \sec^2\theta \implies \sec^2\theta - \tan^2\theta = 1$$
+
    *Diferencia de cuadrados (propiedad clave en Beca 18):*
-   $$(\sec\theta + \tan\theta)(\sec\theta - \tan\theta) = 1 \iff \sec\theta + \tan\theta = \frac{1}{\sec\theta - \tan\theta}$$
+
+$$(\sec\theta + \tan\theta)(\sec\theta - \tan\theta) = 1 \iff \sec\theta + \tan\theta = \frac{1}{\sec\theta - \tan\theta}$$
 
 3. **De la Cotangente y Cosecante:**
    Dividiendo entre $\sin^2\theta$:
-   $$1 + \cot^2\theta = \csc^2\theta \implies \csc^2\theta - \cot^2\theta = 1$$
+
+$$1 + \cot^2\theta = \csc^2\theta \implies \csc^2\theta - \cot^2\theta = 1$$
+
    *Diferencia de cuadrados:*
-   $$(\csc\theta + \cot\theta)(\csc\theta - \cot\theta) = 1 \iff \csc\theta + \cot\theta = \frac{1}{\csc\theta - \cot\theta}$$
+
+$$(\csc\theta + \cot\theta)(\csc\theta - \cot\theta) = 1 \iff \csc\theta + \cot\theta = \frac{1}{\csc\theta - \cot\theta}$$
 
 ---
 
@@ -80,22 +90,28 @@ $$\tan\theta \cdot \cot\theta = 1 \implies \cot\theta = \frac{1}{\tan\theta}$$
 Estas identidades se deducen algebraicamente de las fundamentales y ahorran tiempo valioso en exámenes cronometrados:
 
 1. **Suma de Tangente y Cotangente:**
-   $$\tan\theta + \cot\theta = \frac{\sin\theta}{\cos\theta} + \frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta + \cos^2\theta}{\sin\theta \cos\theta} = \frac{1}{\sin\theta \cos\theta} = \sec\theta \csc\theta$$
-   $$\tan\theta + \cot\theta = \sec\theta \csc\theta$$
+
+$$\tan\theta + \cot\theta = \frac{\sin\theta}{\cos\theta} + \frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta + \cos^2\theta}{\sin\theta \cos\theta} = \frac{1}{\sin\theta \cos\theta} = \sec\theta \csc\theta$$
+
+$$\tan\theta + \cot\theta = \sec\theta \csc\theta$$
 
 2. **Suma de Cuadrados de Secante y Cosecante:**
-   $$\sec^2\theta + \csc^2\theta = \sec^2\theta \cdot \csc^2\theta$$
+
+$$\sec^2\theta + \csc^2\theta = \sec^2\theta \cdot \csc^2\theta$$
 
 3. **Cuartas Potencias:**
    Elevando al cuadrado $\sin^2\theta + \cos^2\theta = 1$:
-   $$\sin^4\theta + \cos^4\theta = 1 - 2\sin^2\theta \cos^2\theta$$
+
+$$\sin^4\theta + \cos^4\theta = 1 - 2\sin^2\theta \cos^2\theta$$
 
 4. **Sextas Potencias:**
    Elevando al cubo $\sin^2\theta + \cos^2\theta = 1$:
-   $$\sin^6\theta + \cos^6\theta = 1 - 3\sin^2\theta \cos^2\theta$$
+
+$$\sin^6\theta + \cos^6\theta = 1 - 3\sin^2\theta \cos^2\theta$$
 
 5. **Trinomio al Cuadrado Especial:**
-   $$(1 \pm \sin\theta \pm \cos\theta)^2 = 2(1 \pm \sin\theta)(1 \pm \cos\theta)$$
+
+$$(1 \pm \sin\theta \pm \cos\theta)^2 = 2(1 \pm \sin\theta)(1 \pm \cos\theta)$$
 
 ---
 
@@ -123,6 +139,7 @@ Para simplificar expresiones o demostrar identidades en exámenes:
 
 #### Ejercicio 1
 Simplifique la siguiente expresión trigonométrica:
+
 $$E = (\sin\theta + \cos\theta)^2 + (\sin\theta - \cos\theta)^2$$
 
 **Análisis Conceptual:**
@@ -131,13 +148,17 @@ Desarrollamos ambos binomios al cuadrado mediante el producto notable $(a \pm b)
 **Solución Paso a Paso:**
 
 **Paso 1:** Desarrollar el primer binomio al cuadrado:
+
 $$(\sin\theta + \cos\theta)^2 = \sin^2\theta + 2\sin\theta\cos\theta + \cos^2\theta$$
 
 **Paso 2:** Desarrollar el segundo binomio al cuadrado:
+
 $$(\sin\theta - \cos\theta)^2 = \sin^2\theta - 2\sin\theta\cos\theta + \cos^2\theta$$
 
 **Paso 3:** Sumar ambas expresiones:
+
 $$E = (\sin^2\theta + \cos^2\theta) + (\sin^2\theta + \cos^2\theta) + (2\sin\theta\cos\theta - 2\sin\theta\cos\theta)$$
+
 $$E = 1 + 1 + 0 = 2$$
 
 **Conclusión:**
@@ -147,6 +168,7 @@ La expresión simplificada es idénticamente igual a $2$.
 
 #### Ejercicio 2
 Simplifique la expresión trigonométrica:
+
 $$K = \frac{\tan\theta + \cot\theta}{\sec\theta}$$
 
 **Análisis Conceptual:**
@@ -155,9 +177,11 @@ Expresamos todo en términos de senos y cosenos, o empleamos la identidad auxili
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar la identidad auxiliar $\tan\theta + \cot\theta = \sec\theta \csc\theta$:
+
 $$K = \frac{\sec\theta \csc\theta}{\sec\theta}$$
 
 **Paso 2:** Simplificar el factor común $\sec\theta$:
+
 $$K = \csc\theta$$
 
 **Conclusión:**
@@ -174,16 +198,21 @@ Elevamos ambos miembros de la ecuación al cuadrado para hacer aparecer el térm
 **Solución Paso a Paso:**
 
 **Paso 1:** Elevar al cuadrado ambos miembros:
+
 $$(\sin\theta + \cos\theta)^2 = \left(\frac{4}{3}\right)^2$$
 
 **Paso 2:** Desarrollar el binomio al cuadrado:
+
 $$\sin^2\theta + 2\sin\theta\cos\theta + \cos^2\theta = \frac{16}{9}$$
 
 **Paso 3:** Reemplazar $\sin^2\theta + \cos^2\theta = 1$:
+
 $$1 + 2\sin\theta\cos\theta = \frac{16}{9}$$
 
 **Paso 4:** Despejar el producto:
+
 $$2\sin\theta\cos\theta = \frac{16}{9} - 1 = \frac{7}{9}$$
+
 $$\sin\theta\cos\theta = \frac{7}{18}$$
 
 **Conclusión:**
@@ -202,13 +231,17 @@ Utilizamos la propiedad de que $\sec\theta + \tan\theta$ y $\sec\theta - \tan\th
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la identidad de la diferencia de cuadrados:
+
 $$\sec\theta + \tan\theta = \frac{1}{\sec\theta - \tan\theta} = \frac{1}{1/4} = 4$$
 
 **Paso 2:** Sumar miembro a miembro ambas ecuaciones:
+
 $$(\sec\theta + \tan\theta) + (\sec\theta - \tan\theta) = 4 + \frac{1}{4}$$
+
 $$2\sec\theta = \frac{17}{4} \implies \sec\theta = \frac{17}{8}$$
 
 **Paso 3:** Calcular $\cos\theta$ mediante la razón recíproca:
+
 $$\cos\theta = \frac{1}{\sec\theta} = \frac{8}{17}$$
 
 **Conclusión:**
@@ -218,6 +251,7 @@ El valor de $\cos\theta$ es $\frac{8}{17}$.
 
 #### Ejercicio 5
 Reduzca a su mínima expresión:
+
 $$M = \frac{1}{1 + \sin\theta} + \frac{1}{1 - \sin\theta}$$
 
 **Análisis Conceptual:**
@@ -226,15 +260,19 @@ Efectuamos la suma de fracciones heterogéneas encontrando el común denominador
 **Solución Paso a Paso:**
 
 **Paso 1:** Sumar las fracciones cruzadas:
+
 $$M = \frac{(1 - \sin\theta) + (1 + \sin\theta)}{(1 + \sin\theta)(1 - \sin\theta)}$$
 
 **Paso 2:** Simplificar el numerador:
+
 $$\text{Numerador} = 1 - \sin\theta + 1 + \sin\theta = 2$$
 
 **Paso 3:** Simplificar el denominador usando la identidad pitagórica:
+
 $$\text{Denominador} = 1 - \sin^2\theta = \cos^2\theta$$
 
 **Paso 4:** Reescribir la fracción resultante:
+
 $$M = \frac{2}{\cos^2\theta} = 2\sec^2\theta$$
 
 **Conclusión:**
@@ -244,6 +282,7 @@ La mínima expresión es $M = 2\sec^2\theta$.
 
 #### Ejercicio 6
 Calcule el valor numérico de la expresión:
+
 $$W = 3(\sin^4\theta + \cos^4\theta) - 2(\sin^6\theta + \cos^6\theta)$$
 
 **Análisis Conceptual:**
@@ -254,12 +293,15 @@ $\sin^6\theta + \cos^6\theta = 1 - 3\sin^2\theta\cos^2\theta$
 **Solución Paso a Paso:**
 
 **Paso 1:** Sustituir las identidades auxiliares:
+
 $$W = 3(1 - 2\sin^2\theta\cos^2\theta) - 2(1 - 3\sin^2\theta\cos^2\theta)$$
 
 **Paso 2:** Aplicar la propiedad distributiva:
+
 $$W = 3 - 6\sin^2\theta\cos^2\theta - 2 + 6\sin^2\theta\cos^2\theta$$
 
 **Paso 3:** Reducir términos semejantes:
+
 $$W = (3 - 2) + (-6\sin^2\theta\cos^2\theta + 6\sin^2\theta\cos^2\theta) = 1 + 0 = 1$$
 
 **Conclusión:**
@@ -269,6 +311,7 @@ El valor numérico de la expresión es $1$, constante e independiente del ángul
 
 #### Ejercicio 7
 Demuestre y simplifique la expresión:
+
 $$H = \frac{\sin\theta}{1 + \cos\theta} + \frac{1 + \cos\theta}{\sin\theta}$$
 
 **Análisis Conceptual:**
@@ -277,16 +320,21 @@ Sumamos las fracciones algebraicamente para generar la identidad pitagórica fun
 **Solución Paso a Paso:**
 
 **Paso 1:** Efectuar la suma de fracciones:
+
 $$H = \frac{\sin^2\theta + (1 + \cos\theta)^2}{\sin\theta(1 + \cos\theta)}$$
 
 **Paso 2:** Desarrollar el binomio al cuadrado:
+
 $$(1 + \cos\theta)^2 = 1 + 2\cos\theta + \cos^2\theta$$
+
 $$H = \frac{\sin^2\theta + 1 + 2\cos\theta + \cos^2\theta}{\sin\theta(1 + \cos\theta)}$$
 
 **Paso 3:** Agrupar $\sin^2\theta + \cos^2\theta = 1$:
+
 $$H = \frac{(1) + 1 + 2\cos\theta}{\sin\theta(1 + \cos\theta)} = \frac{2 + 2\cos\theta}{\sin\theta(1 + \cos\theta)}$$
 
 **Paso 4:** Factorizar el $2$ en el numerador y simplificar:
+
 $$H = \frac{2(1 + \cos\theta)}{\sin\theta(1 + \cos\theta)} = \frac{2}{\sin\theta} = 2\csc\theta$$
 
 **Conclusión:**
@@ -298,7 +346,9 @@ La expresión simplificada es $H = 2\csc\theta$.
 
 #### Ejercicio 8 (Optimización de Energía en Señal de Antena de Telecomunicación)
 En una torre de transmisión de microondas de Entel en la sierra de Huancavelica, la potencia de radiación electromagnética instantánea $P(t)$ en vatios está modelada por la expresión:
+
 $$P(t) = P_0 \cdot \left[ (\sec\theta + \tan\theta)^2 + (\sec\theta - \tan\theta)^2 - 2 \right]$$
+
 donde $\theta$ es el desfase de modulación y $P_0 = 50\text{ W}$ es la potencia base. Si se sabe que $\sec\theta \cdot \tan\theta = \sqrt{3}$, calcule el valor exacto de la potencia de transmisión $P(t)$.
 
 **Análisis Conceptual:**
@@ -312,19 +362,25 @@ También podemos expresarlo con el dato del producto.
 **Solución Paso a Paso:**
 
 **Paso 1:** Desarrollar la expresión de Legendre:
+
 $$(\sec\theta + \tan\theta)^2 + (\sec\theta - \tan\theta)^2 = 2(\sec^2\theta + \tan^2\theta)$$
 
 **Paso 2:** Restar el $2$ y aplicar la identidad pitagórica $\sec^2\theta - 1 = \tan^2\theta$:
+
 $$2(\sec^2\theta + \tan^2\theta) - 2 = 2(\sec^2\theta + \tan^2\theta - 1) = 2(\tan^2\theta + \tan^2\theta) = 4\tan^2\theta$$
 
 **Paso 3:** Usar el dato $\sec\theta \cdot \tan\theta = \sqrt{3}$:
 Sabemos que $\sec^2\theta = 1 + \tan^2\theta$.
 Elevando al cuadrado el dato: $\sec^2\theta \cdot \tan^2\theta = (\sqrt{3})^2 = 3$.
+
 $$(1 + \tan^2\theta)\tan^2\theta = 3 \implies (\tan^2\theta)^2 + \tan^2\theta - 3 = 0$$
+
 Sea $u = \tan^2\theta$:
+
 $$u^2 + u - 3 = 0 \implies u = \frac{-1 + \sqrt{1 - 4(1)(-3)}}{2} = \frac{-1 + \sqrt{13}}{2}$$
 
 **Paso 4:** Calcular la potencia final $P(t) = P_0 \cdot 4u$:
+
 $$P(t) = 50 \cdot 4 \cdot \left(\frac{\sqrt{13} - 1}{2}\right) = 100(\sqrt{13} - 1)\text{ W} \approx 100(3.6055 - 1) \approx 260.55\text{ W}$$
 
 **Conclusión:**
@@ -334,7 +390,9 @@ La potencia de radiación de la antena es de $100(\sqrt{13}-1)\text{ W} \approx 
 
 #### Ejercicio 9 (Filtrado de Ruido Armónico en Subestación Eléctrica del Mantaro)
 En el monitoreo de armónicos eléctricos de la central hidroeléctrica del Mantaro, una onda de voltaje parásita $V(\theta)$ viene descrita por la ecuación:
+
 $$V(\theta) = V_{\text{pico}} \cdot \frac{\sin^4\theta - \cos^4\theta}{\sin^2\theta - \cos^2\theta} + V_{\text{pico}} \cdot (\tan\theta \cos\theta)^2$$
+
 con $V_{\text{pico}} = 220\text{ V}$. Reduzca la ecuación a su mínima expresión y determine el valor constante del voltaje RMS efectivo detectado por los filtros de protección.
 
 **Análisis Conceptual:**
@@ -343,16 +401,23 @@ El numerador $\sin^4\theta - \cos^4\theta$ es una diferencia de cuadrados: $(\si
 **Solución Paso a Paso:**
 
 **Paso 1:** Factorizar el primer término:
+
 $$\sin^4\theta - \cos^4\theta = (\sin^2\theta + \cos^2\theta)(\sin^2\theta - \cos^2\theta) = 1 \cdot (\sin^2\theta - \cos^2\theta)$$
+
 Por lo tanto:
+
 $$\frac{\sin^4\theta - \cos^4\theta}{\sin^2\theta - \cos^2\theta} = 1$$
 
 **Paso 2:** Simplificar el segundo término:
+
 $$\tan\theta \cdot \cos\theta = \frac{\sin\theta}{\cos\theta} \cdot \cos\theta = \sin\theta$$
+
 $$(\tan\theta \cos\theta)^2 = \sin^2\theta$$
 
 **Paso 3:** Reensamblar la expresión de voltaje:
+
 $$V(\theta) = V_{\text{pico}}(1 + \sin^2\theta)$$
+
 Cuando la señal se encuentra en su nodo principal ($\theta = 0$): $V = V_{\text{pico}} = 220\text{ V}$.
 El término base filtrado corresponde a $220\text{ V}$.
 
@@ -363,7 +428,9 @@ La expresión se reduce a $V(\theta) = 220(1 + \sin^2\theta)\text{ V}$, donde la
 
 #### Ejercicio 10 (Diseño de Disipador Sísmico en Edificio Multifamiliar de Lima)
 El coeficiente de amortiguamiento dinámico $C(\theta)$ de un disipador viscoso en un edificio de Miraflores cumple la relación trigonométrica:
+
 $$C(\theta) = C_0 \cdot \frac{\sec\theta - \cos\theta}{\csc\theta - \sin\theta}$$
+
 donde $C_0 = 150\text{ kN}\cdot\text{s/m}$. Demuestre que el coeficiente puede expresarse como una sola razón trigonométrica al cubo de $\theta$, y calcule su valor si $\theta = 30^\circ$.
 
 **Análisis Conceptual:**
@@ -374,16 +441,21 @@ Transformamos el numerador y denominador a senos y cosenos:
 **Solución Paso a Paso:**
 
 **Paso 1:** Expresar numerador y denominador con fracciones homogéneas:
+
 $$\text{Numerador} = \frac{\sin^2\theta}{\cos\theta}$$
+
 $$\text{Denominador} = \frac{\cos^2\theta}{\sin\theta}$$
 
 **Paso 2:** Dividir mediante producto de extremos y medios:
+
 $$\frac{\frac{\sin^2\theta}{\cos\theta}}{\frac{\cos^2\theta}{\sin\theta}} = \frac{\sin^2\theta \cdot \sin\theta}{\cos\theta \cdot \cos^2\theta} = \frac{\sin^3\theta}{\cos^3\theta} = \tan^3\theta$$
 
 **Paso 3:** Evaluar para $\theta = 30^\circ$ con $\tan(30^\circ) = \frac{\sqrt{3}}{3}$:
+
 $$\tan^3(30^\circ) = \left(\frac{\sqrt{3}}{3}\right)^3 = \frac{3\sqrt{3}}{27} = \frac{\sqrt{3}}{9}$$
 
 **Paso 4:** Calcular el valor numérico de $C(30^\circ)$:
+
 $$C(30^\circ) = 150 \cdot \frac{\sqrt{3}}{9} = \frac{50\sqrt{3}}{3}\text{ kN}\cdot\text{s/m} \approx \frac{50(1.732)}{3} \approx 28.87\text{ kN}\cdot\text{s/m}$$
 
 **Conclusión:**
@@ -602,8 +674,7 @@ C) $2$
 D) $\sin^2\theta$  
 E) $\cos^2\theta$  
 
-30. Calcule el valor de $k$ para que la siguiente igualdad sea una identidad:  
-$$\frac{\cos\theta}{1 - \sin\theta} = \frac{1 + \sin\theta}{k}$$  
+30. Calcule el valor de $k$ para que la siguiente igualdad sea una identidad: $\frac{\cos\theta}{1 - \sin\theta} = \frac{1 + \sin\theta}{k}$.  
 A) $\sin\theta$  
 B) $\cos\theta$  
 C) $\tan\theta$  
@@ -615,7 +686,9 @@ E) $\sec\theta$
 ### Bloque III: Nivel Avanzado / Contextualizado Beca 18 (15 ejercicios)
 
 31. En un circuito electrónico RLC para telecomunicaciones, la impedancia reactiva $Z(\theta)$ cumple la relación:  
-$$Z(\theta) = Z_0 \cdot \left[ (\sin\theta + \csc\theta)^2 + (\cos\theta + \sec\theta)^2 - (\tan\theta + \cot\theta)^2 \right]$$  
+
+$$Z(\theta) = Z_0 \cdot \left[ (\sin\theta + \csc\theta)^2 + (\cos\theta + \sec\theta)^2 - (\tan\theta + \cot\theta)^2 \right]$$
+
 Calcule el valor constante del factor multiplicativo entre corchetes independiente de $\theta$.  
 A) $3$  
 B) $5$  
@@ -624,7 +697,9 @@ D) $9$
 E) $11$  
 
 32. En un sismógrafo digital en Arequipa, la señal de aceleración del suelo $a(t)$ en $\text{m/s}^2$ viene dada por:  
-$$a(t) = 4\left(\frac{1 - \tan^2\theta}{1 + \tan^2\theta}\right)$$  
+
+$$a(t) = 4\left(\frac{1 - \tan^2\theta}{1 + \tan^2\theta}\right)$$
+
 Si se sabe que $\theta$ es tal que $\sin\theta = \frac{3}{5}$ con $\theta$ agudo, calcule el valor de la aceleración $a(t)$.  
 A) $0.80\text{ m/s}^2$  
 B) $1.12\text{ m/s}^2$  
@@ -633,7 +708,9 @@ D) $1.76\text{ m/s}^2$
 E) $2.00\text{ m/s}^2$  
 
 33. Un filtro digital de audio ecualiza una pista musical eliminando ruidos en frecuencias altas mediante el factor de atenuación:  
-$$F(\theta) = \frac{\sin^3\theta + \cos^3\theta}{\sin\theta + \cos\theta} + \sin\theta\cos\theta$$  
+
+$$F(\theta) = \frac{\sin^3\theta + \cos^3\theta}{\sin\theta + \cos\theta} + \sin\theta\cos\theta$$
+
 Demuestre el valor exacto de la atenuación $F(\theta)$ para cualquier fase $\theta$.  
 A) $0.5$  
 B) $1.0$  
@@ -642,7 +719,9 @@ D) $2.0$
 E) Depende de $\theta$  
 
 34. Una antena parabólica en un observatorio solar en Moquegua tiene un rendimiento de captación modelado por:  
-$$\eta(\theta) = \eta_0 \cdot \left( \frac{\tan\theta + \sec\theta - 1}{\tan\theta - \sec\theta + 1} \right)$$  
+
+$$\eta(\theta) = \eta_0 \cdot \left( \frac{\tan\theta + \sec\theta - 1}{\tan\theta - \sec\theta + 1} \right)$$
+
 Simplifique la expresión entre paréntesis a una sola razón trigonométrica o suma elemental.  
 A) $\sin\theta + \cos\theta$  
 B) $\sec\theta + \tan\theta$  
@@ -672,7 +751,9 @@ D) $\cot(\theta/2)$
 E) $\tan\theta$  
 
 38. La potencia disipada en una resistencia de caldeo por efecto Joule es proporcional a:  
-$$E = (\sin\theta + \cos\theta)^4 - (\sin\theta - \cos\theta)^4$$  
+
+$$E = (\sin\theta + \cos\theta)^4 - (\sin\theta - \cos\theta)^4$$
+
 Simplifique la expresión $E$ a su forma más compacta.  
 A) $4\sin\theta\cos\theta$  
 B) $8\sin\theta\cos\theta$  
@@ -688,7 +769,9 @@ D) $\frac{12}{13}$
 E) $\frac{10}{13}$  
 
 40. En un dron de rescate, la señal de telemetría procesa el cociente:  
-$$Q = \frac{\cos^2\theta - \sin^2\theta}{\cot\theta - \tan\theta}$$  
+
+$$Q = \frac{\cos^2\theta - \sin^2\theta}{\cot\theta - \tan\theta}$$
+
 Simplifique la señal $Q$ en términos elementales de senos y cosenos.  
 A) $\sin\theta\cos\theta$  
 B) $\sin^2\theta$  
@@ -717,8 +800,7 @@ C) $45^\circ$
 D) $60^\circ$  
 E) $75^\circ$  
 
-44. Simplifique la siguiente expresión trigonométrica:  
-$$Y = \frac{\sin^3\theta + \cos^3\theta}{1 - \sin\theta\cos\theta} + \frac{\sin^3\theta - \cos^3\theta}{1 + \sin\theta\cos\theta}$$  
+44. Simplifique la siguiente expresión trigonométrica: $Y = \frac{\sin^3\theta + \cos^3\theta}{1 - \sin\theta\cos\theta} + \frac{\sin^3\theta - \cos^3\theta}{1 + \sin\theta\cos\theta}$.  
 A) $2\sin\theta$  
 B) $2\cos\theta$  
 C) $0$  
@@ -726,7 +808,9 @@ D) $2$
 E) $\sin\theta\cos\theta$  
 
 45. En una red de sensores piezoeléctricos, la salida de voltaje viene dada por:  
-$$V = V_0 \cdot \left[ \frac{\tan\theta}{1 - \cot\theta} + \frac{\cot\theta}{1 - \tan\theta} \right]$$  
+
+$$V = V_0 \cdot \left[ \frac{\tan\theta}{1 - \cot\theta} + \frac{\cot\theta}{1 - \tan\theta} \right]$$
+
 Reduzca el factor entre corchetes a una expresión equivalente con razones fundamentales.  
 A) $1 + \tan\theta + \cot\theta$  
 B) $1 + \sec\theta\csc\theta$  

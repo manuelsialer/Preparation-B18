@@ -9,16 +9,12 @@ La competencia fundamental trabajada en este módulo es:
 
 ## 🎯 Mapa Curricular del Módulo
 
-```{table} Contenidos y Aprendizajes Esperados
-:widths: 15 35 50
-
 | Tema | Denominación Oficial | Aprendizajes Esperados y Competencias Clave |
 | :---: | :--- | :--- |
-| **01** | Tablas de Frecuencias y Datos Agrupados | Construcción de intervalos de clase, cálculo de marcas de clase ($x_i$), frecuencias absolutas ($f_i$), relativas ($h_i$) y acumuladas ($F_i, H_i$). |
-| **02** | Medidas de Tendencia Central y Dispersión | Cálculo e interpretación de la Media Aritmética ($ar{x}$), Mediana ($Me$) y Moda ($Mo$) para datos agrupados y no agrupados; asimetría de distribuciones. |
-| **03** | Gráficos Estadísticos y Tipos de Variables | Identificación de variables cualitativas y cuantitativas; lectura e interpretación analítica de histogramas, polígonos de frecuencia y diagramas circulares. |
-| **04** | Probabilidad y Sucesos Aleatorios | Espacio muestral ($\Omega$), regla de Laplace para sucesos equiprobables, sucesos mutuamente excluyentes, independientes y probabilidad condicional básica. |
-```
+| **01** | [Tablas de Frecuencias y Datos Agrupados](01_Tablas_de_Frecuencias_Datos_Agrupados.md) | Construcción de intervalos de clase, cálculo de marcas de clase ($x_i$), frecuencias absolutas ($f_i$), relativas ($h_i$) y acumuladas ($F_i, H_i$). |
+| **02** | [Medidas de Tendencia Central y Dispersión](02_Medidas_de_Tendencia_Central.md) | Cálculo e interpretación de la Media Aritmética ($\bar{x}$), Mediana ($Me$) y Moda ($Mo$) para datos agrupados y no agrupados; asimetría de distribuciones. |
+| **03** | [Gráficos Estadísticos y Tipos de Variables](03_Graficos_Estadisticos_y_Tipos_de_Variables.md) | Identificación de variables cualitativas y cuantitativas; lectura e interpretación analítica de histogramas, polígonos de frecuencia y diagramas circulares. |
+| **04** | [Probabilidad y Sucesos Aleatorios](04_Probabilidad_y_Sucesos_Aleatorios.md) | Espacio muestral ($\Omega$), regla de Laplace para sucesos equiprobables, sucesos mutuamente excluyentes, independientes y probabilidad condicional básica. |
 
 ---
 

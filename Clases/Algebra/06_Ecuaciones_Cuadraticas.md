@@ -42,13 +42,16 @@ Donde:
 #### Formas Incompletas (Resolución Rápida sin Fórmula General)
 
 1. **Ecuación Cuadrática Pura ($b = 0, c \neq 0$):**
-   $$ax^2 + c = 0 \implies x^2 = -\frac{c}{a} \implies x = \pm \sqrt{-\frac{c}{a}}$$
+
+$$ax^2 + c = 0 \implies x^2 = -\frac{c}{a} \implies x = \pm \sqrt{-\frac{c}{a}}$$
+
    *Micro-ejemplo:* $2x^2 - 18 = 0 \implies x^2 = 9 \implies x = \pm 3$. Conjunto solución: $CS = \{-3, 3\}$.
 
 2. **Ecuación Cuadrática Mixta ($b \neq 0, c = 0$):**
-   $$ax^2 + bx = 0 \implies x(ax + b) = 0 \implies x_1 = 0 \quad \lor \quad x_2 = -\frac{b}{a}$$
-   *Micro-ejemplo:* $3x^2 - 12x = 0 \implies 3x(x - 4) = 0 \implies x_1 = 0 \lor x_2 = 4$. Conjunto solución: $CS = \{0, 4\}$.
 
+$$ax^2 + bx = 0 \implies x(ax + b) = 0 \implies x_1 = 0 \quad \lor \quad x_2 = -\frac{b}{a}$$
+
+   *Micro-ejemplo:* $3x^2 - 12x = 0 \implies 3x(x - 4) = 0 \implies x_1 = 0 \lor x_2 = 4$. Conjunto solución: $CS = \{0, 4\}$.
 
 ### 2.1 Método de Factorización
 
@@ -99,10 +102,7 @@ El signo y valor del discriminante determina de manera unívoca la naturaleza ge
 * Si además $\Delta$ es un cuadrado perfecto ($k^2, k \in \mathbb{Q}$), las raíces son números racionales ($\mathbb{Q}$) y el trinomio es factorizable en $\mathbb{Q}$.
 * Si $\Delta$ no es un cuadrado perfecto, las raíces son reales irracionales conjugadas de la forma $p \pm \sqrt{q}$.
 2. **Si $\Delta = 0$:** La ecuación admite **una raíz real doble o única** ($x_1 = x_2 = -\frac{b}{2a}$). El trinomio es un Trinomio Cuadrado Perfecto (T.C.P.).
-3. **Si $\Delta < 0$:** La ecuación **no tiene raíces reales**. Presenta dos raíces complejas imaginarias conjugadas:
-$$
-x = -\frac{b}{2a} \pm i \frac{\sqrt{4ac - b^2}}{2a}, \quad (i = \sqrt{-1})
-$$
+3. **Si $\Delta < 0$:** La ecuación **no tiene raíces reales**. Presenta dos raíces complejas imaginarias conjugadas: $x = -\frac{b}{2a} \pm i \frac{\sqrt{4ac - b^2}}{2a}, \quad (i = \sqrt{-1})$.
 
 ### Interpretación Gráfica en el Plano Cartesiano
 
@@ -125,13 +125,17 @@ Sean $x_1$ y $x_2$ las raíces de la ecuación canónica $ax^2 + bx + c = 0$ ($a
 ### 3.1 Suma de Raíces ($S$)
 
 $$
+
 S = x_1 + x_2 = -\frac{b}{a}
+
 $$
 
 ### 3.2 Producto de Raíces ($P$)
 
 $$
+
 P = x_1 \cdot x_2 = \frac{c}{a}
+
 $$
 
 ### 3.3 Diferencia Absoluta de Raíces ($D$)
@@ -139,13 +143,17 @@ $$
 Aplicando la identidad algebraica de Legendre: $(x_1 + x_2)^2 - (x_1 - x_2)^2 = 4x_1 x_2$, se obtiene:
 
 $$
+
 |x_1 - x_2| = \frac{\sqrt{\Delta}}{|a|} = \frac{\sqrt{b^2 - 4ac}}{|a|}, \quad (\Delta \geq 0)
+
 $$
 
 ### 3.4 Suma de Inversas
 
 $$
+
 \frac{1}{x_1} + \frac{1}{x_2} = \frac{x_1 + x_2}{x_1 \cdot x_2} = \frac{-b/a}{c/a} = -\frac{b}{c}, \quad (c \neq 0)
+
 $$
 
 ### 3.5 Reconstrucción de la Ecuación Cuadrática
@@ -153,16 +161,23 @@ $$
 Si se conocen las raíces $x_1$ y $x_2$ (o bien su suma $S$ y su producto $P$), la ecuación cuadrática original mónica se reconstruye directamente como:
 
 $$
+
 x^2 - S x + P = 0 \iff x^2 - (x_1 + x_2)x + (x_1 \cdot x_2) = 0
+
 $$
 
 ### 3.6 Raíces Especiales
 
 * **Raíces Simétricas u Opuestas:** Son aquellas cuya suma es nula ($x_1 = -x_2 \iff x_1 + x_2 = 0$).
+
 $$
+
 S = -\frac{b}{a} = 0 \iff b = 0
+
 $$
+
 * **Raíces Recíprocas o Inversas:** Son aquellas cuyo producto es la unidad ($x_1 = \frac{1}{x_2} \iff x_1 \cdot x_2 = 1$).
+
 $$P = \frac{c}{a} = 1 \iff a = c$$
 
 #### Micro-ejemplo 1: Uso veloz de Cardano-Vieta
@@ -174,17 +189,16 @@ Dada la ecuación $3x^2 - 12x + 7 = 0$, calcule la suma y producto de raíces si
 
 ### 3.7 ⚠️ ¡Cuidado con los Errores Clásicos de Admisión!
 
-> ⚠️ **Error 1: Olvidar la solución negativa al extraer raíz cuadrada.**  
+> ⚠️ **Error 1: Olvidar la solución negativa al extraer raíz cuadrada.**
 > Al resolver $x^2 = 36$, el 40% de postulantes responde $x = 6$. ¡Olvidan que $(-6)^2$ también es $36$! Recuerda: siempre coloca el doble signo $\pm$: $x = \pm \sqrt{36} = \pm 6$.
 
-> ⚠️ **Error 2: El signo de $-b$ en la fórmula general.**  
+> ⚠️ **Error 2: El signo de $-b$ en la fórmula general.**
 > Si la ecuación es $x^2 - 6x + 2 = 0$, aquí $b = -6$. Por lo tanto:
-> $$-b = -(-6) = +6$$
+> $-b = -(-6) = +6$
 > Muchos cometen el error de escribir $-6 \pm \sqrt{\dots}$ y fallan la alternativa correcta.
 
-> ⚠️ **Error 3: Creer que $\Delta < 0$ significa que la ecuación es absurda.**  
+> ⚠️ **Error 3: Creer que $\Delta < 0$ significa que la ecuación es absurda.**
 > Si $\Delta < 0$, la ecuación **NO tiene raíces reales**, pero **SÍ tiene raíces complejas/imaginarias** conjugadas. Si la pregunta de admisión dice: *"Indique el número de raíces reales"*, la respuesta es **cero**; pero si dice: *"Indique el número total de raíces (en el campo complejo)"*, la respuesta es **dos**.
-
 
 ---
 
@@ -192,8 +206,11 @@ Dada la ecuación $3x^2 - 12x + 7 = 0$, calcule la suma y producto de raíces si
 
 ### Ejercicio 1: Factorización por Aspa Simple
 Resolver la ecuación cuadrática:
+
 $$
+
 6x^2 - 11x - 35 = 0
+
 $$
 
 **Paso 1:** Descomponemos los extremos para aplicar aspa simple.
@@ -221,8 +238,11 @@ $3x + 5 = 0 \implies x_2 = -\frac{5}{3}$
 
 ### Ejercicio 2: Aplicación del Discriminante para Raíz Única
 Determinar los valores reales de $k$ para que la siguiente ecuación tenga raíces reales e iguales (solución única):
+
 $$
+
 (k - 1)x^2 + 2(k + 1)x + (k + 3) = 0
+
 $$
 
 **Paso 1:** Identificamos los coeficientes de la ecuación:
@@ -251,8 +271,11 @@ Los términos de segundo y primer grado en $k$ se cancelan idénticamente para c
 
 ### Ejercicio 3: Teorema de Cardano-Vieta con Suma de Cuadrados
 Si $x_1$ y $x_2$ son las raíces de la ecuación $2x^2 - 6x + 1 = 0$, calcular el valor numérico de la expresión:
+
 $$
+
 M = x_1^2 + x_2^2 + 3(x_1 + x_2)
+
 $$
 
 **Paso 1:** Aplicamos las propiedades de Cardano-Vieta sobre los coeficientes $a = 2$, $b = -6$, $c = 1$:
@@ -275,9 +298,13 @@ $M = (x_1^2 + x_2^2) + 3(x_1 + x_2) = 8 + 3(3) = 8 + 9 = 17$
 
 ### Ejercicio 4: Raíces Simétricas y Recíprocas
 Hallar los valores de $m$ y $n$ en la ecuación:
+
 $$
+
 (m - 3)x^2 + (2m - 8)x + (n + 5) = 0
+
 $$
+
 sabiendo que sus raíces son simétricas y que al mismo tiempo el producto de sus raíces es igual a 4.
 
 **Paso 1:** Condición de raíces simétricas:
@@ -299,8 +326,11 @@ $\frac{n + 5}{1} = 4 \implies n + 5 = 4 \implies n = -1$
 
 ### Ejercicio 5: Reconstrucción de Ecuaciones Cuadráticas
 Formar una ecuación cuadrática mónica con coeficientes enteros cuyas raíces sean el triple de las raíces de la ecuación:
+
 $$
+
 x^2 - 4x + 2 = 0
+
 $$
 
 **Paso 1:** Sean $\alpha$ y $\beta$ las raíces de $x^2 - 4x + 2 = 0$.
@@ -324,8 +354,11 @@ $y^2 - 12y + 18 = 0$
 
 ### Ejercicio 6: Suma de Inversas y Cubos
 Dada la ecuación $x^2 - 5x + 3 = 0$ de raíces $a$ y $b$, calcular el valor de:
+
 $$
+
 K = \frac{1}{a^2} + \frac{1}{b^2}
+
 $$
 
 **Paso 1:** Obtenemos la suma y producto de raíces:
@@ -347,8 +380,11 @@ $K = \frac{19}{9}$
 
 ### Ejercicio 7: Ecuaciones Reducibles a Cuadráticas (Bicuadrada básica)
 Resolver en $\mathbb{R}$ la ecuación:
+
 $$
+
 x^4 - 13x^2 + 36 = 0
+
 $$
 
 **Paso 1:** Realizamos el cambio de variable auxiliar:
@@ -374,9 +410,13 @@ C.S. $= \{-3, -2, 2, 3\}$
 
 ### Ejercicio 8: Contextualización Física (Lanzamiento Vertical Beca 18)
 Desde lo alto de una torre de control en una represa hidroeléctrica en Huancavelica, se lanza un proyectil de señalización verticalmente hacia arriba con una velocidad inicial de $30\text{ m/s}$. La altura $h$ (en metros) sobre el suelo en función del tiempo $t$ (en segundos) está modelada por la ecuación física:
+
 $$
+
 h(t) = -5t^2 + 30t + 80
+
 $$
+
 ¿En cuántos segundos impactará el proyectil contra el suelo?
 
 **Paso 1:** Cuando el proyectil impacta contra el suelo, su altura final es cero ($h(t) = 0$):
@@ -454,278 +494,283 @@ $\text{Perímetro} = 2(\text{Ancho} + \text{Largo}) = 2(15 + 40) = 2(55) = 110\t
 
 ### Nivel Básico (Ejercicios 1 al 15)
 
-1. Resolver la ecuación $x^2 - 9x + 20 = 0$ e indicar la mayor de sus raíces:  
-A) $4$  
-B) $5$  
-C) $9$  
-D) $20$  
-E) $1$  
+1. Resolver la ecuación $x^2 - 9x + 20 = 0$ e indicar la mayor de sus raíces:
+A) $4$
+B) $5$
+C) $9$
+D) $20$
+E) $1$
 
-2. Hallar el conjunto solución de la ecuación incompleta pura $3x^2 - 48 = 0$:  
-A) $\{4\}$  
-B) $\{-4\}$  
-C) $\{-4, 4\}$  
-D) $\{-16, 16\}$  
-E) $\{0, 4\}$  
+2. Hallar el conjunto solución de la ecuación incompleta pura $3x^2 - 48 = 0$:
+A) $\{4\}$
+B) $\{-4\}$
+C) $\{-4, 4\}$
+D) $\{-16, 16\}$
+E) $\{0, 4\}$
 
-3. Al resolver $5x^2 - 15x = 0$, la suma de sus soluciones es:  
-A) $0$  
-B) $3$  
-C) $-3$  
-D) $5$  
-E) $15$  
+3. Al resolver $5x^2 - 15x = 0$, la suma de sus soluciones es:
+A) $0$
+B) $3$
+C) $-3$
+D) $5$
+E) $15$
 
-4. Determinar las raíces de la ecuación cuadrática $2x^2 + 7x + 3 = 0$:  
-A) $\{-3, -1/2\}$  
-B) $\{3, 1/2\}$  
-C) $\{-3, 1/2\}$  
-D) $\{3, -1/2\}$  
-E) $\{-7, 3\}$  
+4. Determinar las raíces de la ecuación cuadrática $2x^2 + 7x + 3 = 0$:
+A) $\{-3, -1/2\}$
+B) $\{3, 1/2\}$
+C) $\{-3, 1/2\}$
+D) $\{3, -1/2\}$
+E) $\{-7, 3\}$
 
-5. ¿Cuál es el discriminante de la ecuación $3x^2 - 5x + 4 = 0$?  
-A) $73$  
-B) $49$  
-C) $-23$  
-D) $-47$  
-E) $0$  
+5. ¿Cuál es el discriminante de la ecuación $3x^2 - 5x + 4 = 0$?
+A) $73$
+B) $49$
+C) $-23$
+D) $-47$
+E) $0$
 
-6. Si una ecuación cuadrática tiene como raíces a $x_1 = 3$ y $x_2 = -7$, ¿cuál es la ecuación mónica correspondiente?  
-A) $x^2 + 4x - 21 = 0$  
-B) $x^2 - 4x - 21 = 0$  
-C) $x^2 + 4x + 21 = 0$  
-D) $x^2 - 10x - 21 = 0$  
-E) $x^2 + 10x + 21 = 0$  
+6. Si una ecuación cuadrática tiene como raíces a $x_1 = 3$ y $x_2 = -7$, ¿cuál es la ecuación mónica correspondiente?
+A) $x^2 + 4x - 21 = 0$
+B) $x^2 - 4x - 21 = 0$
+C) $x^2 + 4x + 21 = 0$
+D) $x^2 - 10x - 21 = 0$
+E) $x^2 + 10x + 21 = 0$
 
-7. En la ecuación $x^2 - 8x + k = 0$, una de las raíces es $x = 2$. Hallar el valor de la constante $k$:  
-A) $10$  
-B) $12$  
-C) $16$  
-D) $8$  
-E) $14$  
+7. En la ecuación $x^2 - 8x + k = 0$, una de las raíces es $x = 2$. Hallar el valor de la constante $k$:
+A) $10$
+B) $12$
+C) $16$
+D) $8$
+E) $14$
 
-8. Calcular la suma y el producto de las raíces de la ecuación $4x^2 - 12x + 5 = 0$:  
-A) $S = 3, P = 5/4$  
-B) $S = -3, P = 5/4$  
-C) $S = 12, P = 5$  
-D) $S = 3, P = -5/4$  
-E) $S = 4, P = 5/12$  
+8. Calcular la suma y el producto de las raíces de la ecuación $4x^2 - 12x + 5 = 0$:
+A) $S = 3, P = 5/4$
+B) $S = -3, P = 5/4$
+C) $S = 12, P = 5$
+D) $S = 3, P = -5/4$
+E) $S = 4, P = 5/12$
 
-9. Resolver la ecuación cuadrática $(x - 4)^2 = 25$ e indicar la menor solución:  
-A) $9$  
-B) $-1$  
-C) $-9$  
-D) $1$  
-E) $-5$  
+9. Resolver la ecuación cuadrática $(x - 4)^2 = 25$ e indicar la menor solución:
+A) $9$
+B) $-1$
+C) $-9$
+D) $1$
+E) $-5$
 
-10. Si el discriminante de $x^2 - mx + 9 = 0$ es igual a cero, ¿cuáles son los posibles valores de $m$?  
-A) Solo $6$  
-B) Solo $-6$  
-C) $\pm 6$  
-D) $\pm 3$  
-E) $\pm 18$  
+10. Si el discriminante de $x^2 - mx + 9 = 0$ es igual a cero, ¿cuáles son los posibles valores de $m$?
+A) Solo $6$
+B) Solo $-6$
+C) $\pm 6$
+D) $\pm 3$
+E) $\pm 18$
 
-11. Resolver por completación de cuadrados $x^2 + 6x - 7 = 0$ e indicar el producto de sus raíces:  
-A) $-7$  
-B) $7$  
-C) $-6$  
-D) $6$  
-E) $-1$  
+11. Resolver por completación de cuadrados $x^2 + 6x - 7 = 0$ e indicar el producto de sus raíces:
+A) $-7$
+B) $7$
+C) $-6$
+D) $6$
+E) $-1$
 
-12. Hallar la menor raíz de la ecuación $x(x + 5) = 24$:  
-A) $3$  
-B) $-8$  
-C) $8$  
-D) $-3$  
-E) $-5$  
+12. Hallar la menor raíz de la ecuación $x(x + 5) = 24$:
+A) $3$
+B) $-8$
+C) $8$
+D) $-3$
+E) $-5$
 
-13. Para qué valor de $c$ la ecuación $x^2 - 4x + c = 0$ tiene solución real única:  
-A) $2$  
-B) $4$  
-C) $-4$  
-D) $16$  
-E) $8$  
+13. Para qué valor de $c$ la ecuación $x^2 - 4x + c = 0$ tiene solución real única:
+A) $2$
+B) $4$
+C) $-4$
+D) $16$
+E) $8$
 
-14. Si la suma de dos números es 15 y su producto es 54, determinar el menor de dichos números:  
-A) $6$  
-B) $9$  
-C) $5$  
-D) $4$  
-E) $3$  
+14. Si la suma de dos números es 15 y su producto es 54, determinar el menor de dichos números:
+A) $6$
+B) $9$
+C) $5$
+D) $4$
+E) $3$
 
-15. Indicar la naturaleza de las raíces de la ecuación $2x^2 - 4x + 7 = 0$:  
-A) Reales e iguales  
-B) Reales, racionales y distintas  
-C) Reales, irracionales y distintas  
-D) No reales (complejas conjugadas)  
-E) Infinitas soluciones  
+15. Indicar la naturaleza de las raíces de la ecuación $2x^2 - 4x + 7 = 0$:
+A) Reales e iguales
+B) Reales, racionales y distintas
+C) Reales, irracionales y distintas
+D) No reales (complejas conjugadas)
+E) Infinitas soluciones
 
 ---
 
 ### Nivel Intermedio (Ejercicios 16 al 35)
 
-16. Si $x_1$ y $x_2$ son las raíces de la ecuación $x^2 - 7x + 5 = 0$, calcular el valor de $E = x_1^2 + x_2^2$:  
-A) $39$  
-B) $49$  
-C) $29$  
-D) $44$  
-E) $34$  
+16. Si $x_1$ y $x_2$ son las raíces de la ecuación $x^2 - 7x + 5 = 0$, calcular el valor de $E = x_1^2 + x_2^2$:
+A) $39$
+B) $49$
+C) $29$
+D) $44$
+E) $34$
 
-17. En la ecuación $2x^2 - 8x + 3 = 0$, calcular la suma de las inversas de sus raíces $\frac{1}{x_1} + \frac{1}{x_2}$:  
-A) $8/3$  
-B) $4/3$  
-C) $3/8$  
-D) $-8/3$  
-E) $2/3$  
+17. En la ecuación $2x^2 - 8x + 3 = 0$, calcular la suma de las inversas de sus raíces $\frac{1}{x_1} + \frac{1}{x_2}$:
+A) $8/3$
+B) $4/3$
+C) $3/8$
+D) $-8/3$
+E) $2/3$
 
-18. Hallar el valor de $m$ para que la ecuación $(m - 2)x^2 - (2m - 1)x + m - 1 = 0$ tenga raíces recíprocas:  
-A) $1$  
-B) $2$  
-C) No existe tal valor  
-D) $3$  
-E) $0$  
+18. Hallar el valor de $m$ para que la ecuación $(m - 2)x^2 - (2m - 1)x + m - 1 = 0$ tenga raíces recíprocas:
+A) $1$
+B) $2$
+C) No existe tal valor
+D) $3$
+E) $0$
 
-19. Si las raíces de la ecuación $(a + 1)x^2 + (b - 2)x + 12 = 0$ son simétricas y recíprocas al mismo tiempo, calcular $a + b$:  
-A) $11$  
-B) $13$  
-C) $9$  
-D) $15$  
-E) $14$  
+19. Si las raíces de la ecuación $(a + 1)x^2 + (b - 2)x + 12 = 0$ son simétricas y recíprocas al mismo tiempo, calcular $a + b$:
+A) $11$
+B) $13$
+C) $9$
+D) $15$
+E) $14$
 
-20. Si $x_1$ y $x_2$ son las raíces de $x^2 - 3x + 1 = 0$, calcular el valor de $M = x_1^3 + x_2^3$:  
-A) $18$  
-B) $27$  
-C) $15$  
-D) $24$  
-E) $21$  
+20. Si $x_1$ y $x_2$ son las raíces de $x^2 - 3x + 1 = 0$, calcular el valor de $M = x_1^3 + x_2^3$:
+A) $18$
+B) $27$
+C) $15$
+D) $24$
+E) $21$
 
-21. Determinar el valor positivo de $k$ para el cual la diferencia de las raíces de la ecuación $x^2 - kx + 12 = 0$ sea igual a 1:  
-A) $5$  
-B) $6$  
-C) $7$  
-D) $8$  
-E) $9$  
+21. Determinar el valor positivo de $k$ para el cual la diferencia de las raíces de la ecuación $x^2 - kx + 12 = 0$ sea igual a 1:
+A) $5$
+B) $6$
+C) $7$
+D) $8$
+E) $9$
 
-22. Si una de las raíces de la ecuación $x^2 - (k + 3)x + 3k = 0$ es el triple de la otra, calcular el mayor valor de $k$:  
-A) $1$  
-B) $3$  
-C) $9$  
-D) $6$  
-E) $12$  
+22. Si una de las raíces de la ecuación $x^2 - (k + 3)x + 3k = 0$ es el triple de la otra, calcular el mayor valor de $k$:
+A) $1$
+B) $3$
+C) $9$
+D) $6$
+E) $12$
 
-23. Formar la ecuación cuadrática cuyas raíces sean el inverso aditivo y multiplicativo de las raíces de $x^2 - 6x + 4 = 0$, es decir, raíces $-\frac{1}{x_1}$ y $-\frac{1}{x_2}$:  
-A) $4x^2 + 6x + 1 = 0$  
-B) $4x^2 - 6x + 1 = 0$  
-C) $x^2 + 6x + 4 = 0$  
-D) $4x^2 + 6x - 1 = 0$  
-E) $2x^2 + 3x + 2 = 0$  
+23. Formar la ecuación cuadrática cuyas raíces sean el inverso aditivo y multiplicativo de las raíces de $x^2 - 6x + 4 = 0$, es decir, raíces $-\frac{1}{x_1}$ y $-\frac{1}{x_2}$:
+A) $4x^2 + 6x + 1 = 0$
+B) $4x^2 - 6x + 1 = 0$
+C) $x^2 + 6x + 4 = 0$
+D) $4x^2 + 6x - 1 = 0$
+E) $2x^2 + 3x + 2 = 0$
 
-24. Un agricultor de café en Junín cerca una parcela rectangular de $180\text{ m}^2$. Si el largo excede al ancho en $3\text{ m}$, ¿cuántos metros de alambre se necesitan para darle una vuelta completa al perímetro?  
-A) $54\text{ m}$  
-B) $48\text{ m}$  
-C) $52\text{ m}$  
-D) $60\text{ m}$  
-E) $45\text{ m}$  
+24. Un agricultor de café en Junín cerca una parcela rectangular de $180\text{ m}^2$. Si el largo excede al ancho en $3\text{ m}$, ¿cuántos metros de alambre se necesitan para darle una vuelta completa al perímetro?
+A) $54\text{ m}$
+B) $48\text{ m}$
+C) $52\text{ m}$
+D) $60\text{ m}$
+E) $45\text{ m}$
 
-25. Un grupo de estudiantes postulantes a Beca 18 deciden alquilar un bus para visitar la feria vocacional universitaria en Lima por un costo total de $S/\, 720$, repartido en partes iguales. Al momento de viajar, 4 estudiantes desisten, por lo que cada uno de los restantes debe pagar $S/\, 6$ adicionales. ¿Cuántos estudiantes viajaron finalmente?  
-A) $20$  
-B) $24$  
-C) $16$  
-D) $18$  
-E) $22$  
+25. Un grupo de estudiantes postulantes a Beca 18 deciden alquilar un bus para visitar la feria vocacional universitaria en Lima por un costo total de $S/\, 720$, repartido en partes iguales. Al momento de viajar, 4 estudiantes desisten, por lo que cada uno de los restantes debe pagar $S/\, 6$ adicionales. ¿Cuántos estudiantes viajaron finalmente?
+A) $20$
+B) $24$
+C) $16$
+D) $18$
+E) $22$
 
-26. Resolver en $\mathbb{R}$ la ecuación racional fraccionaria $\frac{x}{x - 2} + \frac{2}{x + 2} = \frac{8}{x^2 - 4}$:  
-A) $\{-2, 2\}$  
-B) $\{2\}$  
-C) $\{-2\}$  
-D) $\emptyset$ (No tiene solución)  
-E) $\{0\}$  
+26. Resolver en $\mathbb{R}$ la ecuación racional fraccionaria $\frac{x}{x - 2} + \frac{2}{x + 2} = \frac{8}{x^2 - 4}$:
+A) $\{-2, 2\}$
+B) $\{2\}$
+C) $\{-2\}$
+D) $\emptyset$ (No tiene solución)
+E) $\{0\}$
 
-27. Resolver la ecuación irracional $\sqrt{2x + 7} = x + 2$ e indicar la suma de sus soluciones reales:  
-A) $1$  
-B) $-1$  
-C) $-3$  
-D) $0$  
-E) $3$  
+27. Resolver la ecuación irracional $\sqrt{2x + 7} = x + 2$ e indicar la suma de sus soluciones reales:
+A) $1$
+B) $-1$
+C) $-3$
+D) $0$
+E) $3$
 
-28. Si la ecuación cuadrática en $x$: $x^2 - 2(a - 1)x + a^2 - 2a = 0$ tiene raíces reales, ¿qué condición debe cumplir el parámetro $a$?  
-A) $a \geq 1$  
-B) $a \leq 1$  
-C) $a \in \mathbb{R}$ (Se cumple para todo $a$ real)  
-D) $a > 0$  
-E) $a \in \emptyset$  
+28. Si la ecuación cuadrática en $x$: $x^2 - 2(a - 1)x + a^2 - 2a = 0$ tiene raíces reales, ¿qué condición debe cumplir el parámetro $a$?
+A) $a \geq 1$
+B) $a \leq 1$
+C) $a \in \mathbb{R}$ (Se cumple para todo $a$ real)
+D) $a > 0$
+E) $a \in \emptyset$
 
-29. Determinar el valor de $k$ para que las raíces de la ecuación $x^2 - (k - 5)x + (k - 2) = 0$ difieran en 3 unidades:  
-A) $6$ ó $10$  
-B) $4$ ó $8$  
-C) $5$ ó $9$  
-D) $3$ ó $7$  
-E) $2$ ó $6$  
+29. Determinar el valor de $k$ para que las raíces de la ecuación $x^2 - (k - 5)x + (k - 2) = 0$ difieran en 3 unidades:
+A) $6$ ó $10$
+B) $4$ ó $8$
+C) $5$ ó $9$
+D) $3$ ó $7$
+E) $2$ ó $6$
 
-30. Hallar el producto de todas las raíces reales de la ecuación $(x^2 - 5x)^2 - 2(x^2 - 5x) - 24 = 0$:  
-A) $24$  
-B) $-24$  
-C) $36$  
-D) $-36$  
-E) $18$  
+30. Hallar el producto de todas las raíces reales de la ecuación $(x^2 - 5x)^2 - 2(x^2 - 5x) - 24 = 0$:
+A) $24$
+B) $-24$
+C) $36$
+D) $-36$
+E) $18$
 
-31. Un microempresario textil de Huancayo produce mantas tradicionales. El costo fijo mensual es de $S/\, 1200$ y el costo variable unitario es de $S/\, 20$. Si vende cada manta a un precio $p = 100 - x$ soles, donde $x$ es la cantidad de mantas producidas y vendidas, ¿cuántas mantas debe vender para obtener una ganancia neta de $S/\, 400$?  
-A) $40$ mantas  
-B) $20$ ó $60$ mantas  
-C) $50$ mantas  
-D) $30$ mantas  
-E) $10$ ó $70$ mantas  
+31. Un microempresario textil de Huancayo produce mantas tradicionales. El costo fijo mensual es de $S/\, 1200$ y el costo variable unitario es de $S/\, 20$. Si vende cada manta a un precio $p = 100 - x$ soles, donde $x$ es la cantidad de mantas producidas y vendidas, ¿cuántas mantas debe vender para obtener una ganancia neta de $S/\, 400$?
+A) $40$ mantas
+B) $20$ ó $60$ mantas
+C) $50$ mantas
+D) $30$ mantas
+E) $10$ ó $70$ mantas
 
-32. Si las raíces de $x^2 + px + q = 0$ son el doble de las raíces de $x^2 + mx + n = 0$, hallar la relación que existe entre $q$ y $n$:  
-A) $q = 2n$  
-B) $q = 4n$  
-C) $q = n/2$  
-D) $q = n/4$  
-E) $q = 8n$  
+32. Si las raíces de $x^2 + px + q = 0$ son el doble de las raíces de $x^2 + mx + n = 0$, hallar la relación que existe entre $q$ y $n$:
+A) $q = 2n$
+B) $q = 4n$
+C) $q = n/2$
+D) $q = n/4$
+E) $q = 8n$
 
-33. Si $\alpha$ es una raíz de la ecuación $x^2 - 3x + 1 = 0$, calcular el valor de $\alpha^4 + \frac{1}{\alpha^4}$:  
-A) $47$  
-B) $49$  
-C) $51$  
-D) $45$  
-E) $43$  
+33. Si $\alpha$ es una raíz de la ecuación $x^2 - 3x + 1 = 0$, calcular el valor de $\alpha^4 + \frac{1}{\alpha^4}$:
+A) $47$
+B) $49$
+C) $51$
+D) $45$
+E) $43$
 
-34. Dos grifos abiertos simultáneamente llenan un reservorio de agua potable comunal en 6 horas. Si el grifo secundario tarda 5 horas más que el grifo principal en llenarlo funcionando solo, ¿cuántas horas tardaría el grifo principal en llenar el reservorio por sí solo?  
-A) $10\text{ h}$  
-B) $12\text{ h}$  
-C) $15\text{ h}$  
-D) $8\text{ h}$  
-E) $14\text{ h}$  
+34. Dos grifos abiertos simultáneamente llenan un reservorio de agua potable comunal en 6 horas. Si el grifo secundario tarda 5 horas más que el grifo principal en llenarlo funcionando solo, ¿cuántas horas tardaría el grifo principal en llenar el reservorio por sí solo?
+A) $10\text{ h}$
+B) $12\text{ h}$
+C) $15\text{ h}$
+D) $8\text{ h}$
+E) $14\text{ h}$
 
 35. Resolver el sistema simétrico de ecuaciones:
+
 $$
+
 \begin{cases} x + y = 10 \\ x y = 21 \end{cases}
+
 $$
-e indicar el valor absoluto de la diferencia $|x - y|$:  
-A) $2$  
-B) $3$  
-C) $4$  
-D) $5$  
-E) $6$  
+
+e indicar el valor absoluto de la diferencia $|x - y|$:
+A) $2$
+B) $3$
+C) $4$
+D) $5$
+E) $6$
 
 ---
 
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
 36. Si las ecuaciones cuadráticas:
-$$
-(m - 1)x^2 - (m + 2)x + 6 = 0 \quad \text{y} \quad (n - 2)x^2 - (2n + 1)x + 18 = 0
-$$
-tienen las mismas raíces (son ecuaciones equivalentes), calcular el valor de $m + n$:  
-A) $10$  
-B) $12$  
-C) $14$  
-D) $16$  
-E) $8$  
 
-37. Dada la ecuación cuadrática $x^2 - 2x + 5 = 0$, cuyas raíces son $x_1$ y $x_2$. Calcular el valor exacto de:
 $$
-T = \frac{x_1^4 + x_2^4 + 14}{(x_1 - x_2)^2}
+
+(m - 1)x^2 - (m + 2)x + 6 = 0 \quad \text{y} \quad (n - 2)x^2 - (2n + 1)x + 18 = 0
+
 $$
+
+tienen las mismas raíces (son ecuaciones equivalentes), calcular el valor de $m + n$:
+A) $10$
+B) $12$
+C) $14$
+D) $16$
+E) $8$
+
+37. Dada la ecuación cuadrática $x^2 - 2x + 5 = 0$, cuyas raíces son $x_1$ y $x_2$. Calcular el valor exacto de: $T = \frac{x_1^4 + x_2^4 + 14}{(x_1 - x_2)^2}$.  
 A) $1$  
 B) $2$  
 C) $-2$  
@@ -746,35 +791,28 @@ C) $3$
 D) $1$  
 E) $2$  
 
-40. Hallar todos los valores reales de $k$ para los cuales la ecuación:
-$$
-(k^2 - 4)x^2 + 2(k - 2)x + 1 = 0
-$$
-tiene exactamente una única solución en $\mathbb{R}$:  
-A) $k = 2$  
-B) $k = -2$  
-C) $k = 2$ ó $k = -2$  
-D) No existe solución única  
-E) $k = 0$  
+40. Hallar todos los valores reales de $k$ para los cuales la ecuación $(k^2 - 4)x^2 + 2(k - 2)x + 1 = 0$ tiene exactamente una única solución en $\mathbb{R}$:  
+A) $k = 2$
+B) $k = -2$
+C) $k = 2$ ó $k = -2$
+D) No existe solución única
+E) $k = 0$
 
-41. **(Reto)** Si $x_1$ y $x_2$ son raíces de $x^2 - x - 1 = 0$, demostrar que $x_n = x_1^n + x_2^n$ genera la sucesión de Lucas (asociada a Fibonacci). Calcular el valor de $x_5 = x_1^5 + x_2^5$:  
-A) $11$  
-B) $9$  
-C) $13$  
-D) $15$  
-E) $7$  
+41. **(Reto)** Si $x_1$ y $x_2$ son raíces de $x^2 - x - 1 = 0$, demostrar que $x_n = x_1^n + x_2^n$ genera la sucesión de Lucas (asociada a Fibonacci). Calcular el valor de $x_5 = x_1^5 + x_2^5$:
+A) $11$
+B) $9$
+C) $13$
+D) $15$
+E) $7$
 
-42. **(Reto)** Para qué valores reales del parámetro $m$ las dos raíces de la ecuación $x^2 - 2(m - 1)x + (2m + 1) = 0$ son ambas estrictamente positivas:  
-A) $m \geq 4$  
-B) $m > 1$  
-C) $m \in \langle -\infty, -1/2 \rangle$  
-D) $m \in \langle 4, +\infty \rangle$  
-E) $m \geq 4 \lor m \leq 0$  
+42. **(Reto)** Para qué valores reales del parámetro $m$ las dos raíces de la ecuación $x^2 - 2(m - 1)x + (2m + 1) = 0$ son ambas estrictamente positivas:
+A) $m \geq 4$
+B) $m > 1$
+C) $m \in \langle -\infty, -1/2 \rangle$
+D) $m \in \langle 4, +\infty \rangle$
+E) $m \geq 4 \lor m \leq 0$
 
-43. **(Reto)** Resolver en $\mathbb{R}$ la ecuación:
-$$
-\sqrt{x^2 - 3x + 6} + \sqrt{x^2 - 3x - 1} = 7
-$$
+43. **(Reto)** Resolver en $\mathbb{R}$ la ecuación: $\sqrt{x^2 - 3x + 6} + \sqrt{x^2 - 3x - 1} = 7$.  
 A) $\{-2, 5\}$  
 B) $\{-1, 4\}$  
 C) $\{2, 3\}$  

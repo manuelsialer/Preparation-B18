@@ -26,7 +26,8 @@ El **Tema Central** es el asunto, entidad, fenómeno o problema medular del que 
 * **Naturaleza gramatical:** Es siempre un **Sintagma Nominal (frase nominal)**. No afirma ni niega nada; solo nombra o presenta la materia de estudio.
 * **Propiedad clave:** **NUNCA lleva verbo conjugado**. Si tu respuesta contiene un verbo principal conjugado, no estás enunciando el tema, sino una idea.
 * **Pregunta de descubrimiento:**
-  $$\text{¿De qué o de quién trata el texto integralmente?}$$
+
+$$\text{¿De qué o de quién trata el texto integralmente?}$$
 
 > 💡 **Micro-ejemplo:**
 > * *Texto:* "La tara (*Caesalpinia spinosa*) es una leguminosa nativa del Perú con un altísimo contenido de taninos. Actualmente, se exporta a Europa para el curtido ecológico de cueros y a la industria farmacéutica por sus propiedades antioxidantes."
@@ -39,7 +40,8 @@ La **Idea Principal** es la proposición más importante que el autor formula so
 * **Naturaleza gramatical:** Es una **Oración Completa y Autónoma** (Sujeto + Verbo Conjugado + Predicado). Afirma o niega de forma explícita o implícita una postura sobre el tema.
 * **Prueba de fuego (Regla de Supresión):** Si extraes la idea principal del texto, los demás párrafos quedan huérfanos, sin conexión lógica ni propósito común.
 * **Pregunta de descubrimiento:**
-  $$\text{¿Qué sostiene principalmente el autor sobre el tema central?}$$
+
+$$\text{¿Qué sostiene principalmente el autor sobre el tema central?}$$
 
 > 💡 **Micro-ejemplo:**
 > * *Para el texto anterior de la tara:*
@@ -68,7 +70,9 @@ Son las oraciones que complementan, ejemplifican, argumentan, comparan o detalla
 ### 2.4 El Título: Síntesis Dinámica y Específica
 El **Título** es una etiqueta nominal que resume el tema central agregándole el ángulo, enfoque o variable específica que aborda el texto.
 * **Fórmula estándar de construcción:**
-  $$\text{Título} = \text{Tema Central} + \text{Aspecto Específico o Propósito}$$
+
+$$\text{Título} = \text{Tema Central} + \text{Aspecto Específico o Propósito}$$
+
 * *Ejemplo:*
   * Tema: *La anemia infantil*.
   * Aspecto específico: *Eficacia de los suplementos de hierro polimaltosado en zonas altoandinas*.

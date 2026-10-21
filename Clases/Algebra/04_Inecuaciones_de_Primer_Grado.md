@@ -32,14 +32,18 @@ alt: Regla de Signos en Inecuaciones y Recta Real
 Para despejar una inecuación sin alterar el conjunto solución, aplicamos las siguientes tres leyes fundamentales:
 
 1. **Sumar o restar cualquier número (positivo o negativo) NO cambia el sentido:**
-   $$x < y \iff x \pm c < y \pm c$$
+
+$$x < y \iff x \pm c < y \pm c$$
+
    *(Si dos personas tienen diferentes edades y pasan 5 años, la mayor sigue siendo mayor).*
 
 2. **Multiplicar o dividir por un número POSITIVO ($k > 0$) NO cambia el sentido:**
-   $$x < y \iff k \cdot x < k \cdot y \quad (k > 0)$$
+
+$$x < y \iff k \cdot x < k \cdot y \quad (k > 0)$$
 
 3. **¡LA REGLA DE ORO! Multiplicar o dividir por un número NEGATIVO ($k < 0$) INVIERTE obligatoriamente el sentido:**
-   $$x < y \iff k \cdot x \ \mathbf{>}\ k \cdot y \quad (k < 0)$$
+
+$$x < y \iff k \cdot x \ \mathbf{>}\ k \cdot y \quad (k < 0)$$
 
 #### ¿Por qué se invierte el sentido con un negativo?
 Observa este ejemplo con números concretos:
@@ -47,14 +51,18 @@ Sabemos que $2 < 5$.
 Si multiplicas ambos miembros por $-1$:
 ¿Quién es mayor, $-2$ o $-5$?
 En la recta numérica, el $-2$ está a la derecha del $-5$ (es decir, una deuda de S/ 2 es mejor que una deuda de S/ 5). Por tanto:
+
 $$-2 > -5$$
+
 El signo $<$ se transformó obligatoriamente en $>$.
 
 #### Micro-ejemplo 1: Despeje con coeficiente negativo
 Resuelva: $5 - 2x \le 11$.
 1. Restamos $5$ a ambos lados: $-2x \le 11 - 5 \implies -2x \le 6$.
 2. Dividimos entre $-2$. Como dividimos entre un **número negativo**, el sentido $\le$ se invierte a $\ge$:
-   $$x \ge \frac{6}{-2} \implies x \ge -3$$
+
+$$x \ge \frac{6}{-2} \implies x \ge -3$$
+
 3. Conjunto solución en intervalo: $CS = [-3, +\infty\rangle$.
 
 ---
@@ -68,9 +76,13 @@ Adoptan la estructura $a \le P(x) \le b$. Se resuelven de dos formas:
 #### Micro-ejemplo 2: Inecuación doble simultánea
 Resuelva: $-5 < 3x + 1 \le 13$.
 1. Restamos $1$ a los tres miembros:
-   $$-5 - 1 < 3x \le 13 - 1 \implies -6 < 3x \le 12$$
+
+$$-5 - 1 < 3x \le 13 - 1 \implies -6 < 3x \le 12$$
+
 2. Dividimos entre $3$ (número positivo, no cambia el sentido):
-   $$\frac{-6}{3} < x \le \frac{12}{3} \implies -2 < x \le 4$$
+
+$$\frac{-6}{3} < x \le \frac{12}{3} \implies -2 < x \le 4$$
+
 3. Conjunto solución: $CS = \langle -2, 4]$.
 
 ---
@@ -87,7 +99,6 @@ Resuelva: $-5 < 3x + 1 \le 13$.
 > Si el conjunto solución de un problema es $CS = \langle 4, 12]$, y la pregunta pide: *"Halle el menor valor entero que cumple la inecuación"*:
 > * El extremo inferior es $4$, pero como el corchete es abierto ($\langle 4$), el $4$ **NO pertenece a la solución**.
 > * El menor número entero admisible es el siguiente: **$5$**.
-
 
 ---
 
@@ -719,12 +730,7 @@ C) $[-3, 3\rangle$
 D) $\langle 3, 5]$  
 E) $\emptyset$  
 
-17. Determine el número de enteros que satisfacen simultáneamente:
-
-$$
--4 < \frac{2x - 6}{3} \le 2
-$$
-
+17. Determine el número de enteros que satisfacen simultáneamente: $-4 < \frac{2x - 6}{3} \le 2$.  
 A) $7$  
 B) $8$  
 C) $9$  
@@ -759,12 +765,7 @@ C) $\langle -\infty, -4]$
 D) $[-4, +\infty\rangle$  
 E) $\langle -\infty, 2]$  
 
-22. Halle la suma de todos los números enteros que verifican la inecuación:
-
-$$
--5 \le 1 - 3x < 10
-$$
-
+22. Halle la suma de todos los números enteros que verifican la inecuación: $-5 \le 1 - 3x < 10$.  
 A) $-3$  
 B) $-1$  
 C) $0$  
@@ -795,15 +796,7 @@ C) $17$
 D) $18$  
 E) $19$  
 
-26. Resuelva el sistema lineal de inecuaciones:
-
-$$
-\begin{cases}
-\frac{x - 1}{2} < \frac{x + 2}{3} \\
-\frac{x + 1}{4} \le \frac{x - 2}{3}
-\end{cases}
-$$
-
+26. Resuelva el sistema lineal de inecuaciones: $\begin{cases} \frac{x - 1}{2} < \frac{x + 2}{3} \\ \frac{x + 1}{4} \le \frac{x - 2}{3} \end{cases}$.  
 A) $[11, +\infty\rangle$  
 B) $\langle -\infty, 7\rangle$  
 C) $[7, 11\rangle$  
@@ -842,57 +835,35 @@ E) $4$
 
 ### Bloque III: Nivel Avanzado y Retos Beca 18 (Problemas 31 al 45)
 
-31. Un ingeniero agrónomo en Tacna formula un abono líquido para olivos. Para no quemar las raíces, la concentración de sales $C$ (en gramos por litro) debe verificar:
+31. Un ingeniero agrónomo en Tacna formula un abono líquido para olivos. Para no quemar las raíces, la concentración de sales $C$ (en gramos por litro) debe verificar: $1{,}8 \le \frac{3C + 2{,}4}{4} < 3{,}6$. Determine la suma de los valores enteros de $C$ que cumplen con el rango de seguridad agronómica.  
+A) $7$
+B) $9$
+C) $12$
+D) $15$
+E) $10$
 
-$$
-1{,}8 \le \frac{3C + 2{,}4}{4} < 3{,}6
-$$
+32. Determine todos los valores de $a \in \mathbb{R}$ para los cuales la inecuación $(a^2 - 4)x + a - 2 > 0$ tiene como conjunto solución a todo el conjunto de los números reales ($CS = \mathbb{R}$).  
+A) $a = 2$
+B) $a = -2$
+C) $a > 2$
+D) $a < -2$
+E) No existe tal valor
 
-Determine la suma de los valores enteros de $C$ que cumplen con el rango de seguridad agronómica.  
-A) $7$  
-B) $9$  
-C) $12$  
-D) $15$  
-E) $10$  
+33. Un camión de transporte de carga pesada cruza el puente colgante de Paucartambo, cuya estructura admite una carga máxima total de $18\text{ toneladas}$. El camión vacío pesa $6{,}5\text{ toneladas}$. Si transporta $80\text{ sacos}$ de café de $50\text{ kg}$ cada uno y el resto de la carga se compone de cajas de fruta de $25\text{ kg}$, ¿cuál es el número máximo de cajas de fruta que puede transportar con seguridad?
+A) $280\text{ cajas}$
+B) $300\text{ cajas}$
+C) $320\text{ cajas}$
+D) $260\text{ cajas}$
+E) $350\text{ cajas}$
 
-32. Determine todos los valores de $a \in \mathbb{R}$ para los cuales la inecuación:
-
-$$
-(a^2 - 4)x + a - 2 > 0
-$$
-
-tiene como conjunto solución a todo el conjunto de los números reales ($CS = \mathbb{R}$).  
-A) $a = 2$  
-B) $a = -2$  
-C) $a > 2$  
-D) $a < -2$  
-E) No existe tal valor  
-
-33. Un camión de transporte de carga pesada cruza el puente colgante de Paucartambo, cuya estructura admite una carga máxima total de $18\text{ toneladas}$. El camión vacío pesa $6{,}5\text{ toneladas}$. Si transporta $80\text{ sacos}$ de café de $50\text{ kg}$ cada uno y el resto de la carga se compone de cajas de fruta de $25\text{ kg}$, ¿cuál es el número máximo de cajas de fruta que puede transportar con seguridad?  
-A) $280\text{ cajas}$  
-B) $300\text{ cajas}$  
-C) $320\text{ cajas}$  
-D) $260\text{ cajas}$  
-E) $350\text{ cajas}$  
-
-34. Si $x \in \langle -3, 2]$, determine el intervalo exacto de variación de:
-
-$$
-R(x) = \frac{4 - 3x}{2x + 7}
-$$
-
+34. Si $x \in \langle -3, 2]$, determine el intervalo exacto de variación de: $R(x) = \frac{4 - 3x}{2x + 7}$.  
 A) $\left[ -\frac{2}{11}, 13 \right\rangle$  
 B) $\left\langle -\frac{2}{11}, 13 \right]$  
 C) $\left[ -\frac{2}{11}, 7 \right\rangle$  
 D) $\left\langle -1, 13 \right]$  
 E) $\left[ 0, 13 \right\rangle$  
 
-35. Resuelva en $\mathbb{R}$ la inecuación fraccionaria:
-
-$$
-\frac{2x - 1}{x + 3} \ge 2
-$$
-
+35. Resuelva en $\mathbb{R}$ la inecuación fraccionaria: $\frac{2x - 1}{x + 3} \ge 2$.  
 A) $\langle -\infty, -3\rangle$  
 B) $[-3, +\infty\rangle$  
 C) $\langle -3, +\infty\rangle$  
@@ -906,28 +877,14 @@ C) $231$
 D) $235$  
 E) $240$  
 
-37. Halle el conjunto de valores de $k$ para los cuales el sistema de inecuaciones en $x$:
+37. Halle el conjunto de valores de $k$ para los cuales el sistema de inecuaciones en $x$: $\begin{cases} 2x - 3 \le 5 \\ 3x + k > 4 \end{cases}$ admite exactamente $3$ soluciones enteras.  
+A) $\langle -5, -2]$
+B) $[-5, -2\rangle$
+C) $\langle -8, -5]$
+D) $[-8, -5\rangle$
+E) $\langle -6, -3]$
 
-$$
-\begin{cases}
-2x - 3 \le 5 \\
-3x + k > 4
-\end{cases}
-$$
-
-admite exactamente $3$ soluciones enteras.  
-A) $\langle -5, -2]$  
-B) $[-5, -2\rangle$  
-C) $\langle -8, -5]$  
-D) $[-8, -5\rangle$  
-E) $\langle -6, -3]$  
-
-38. Si se sabe que $a < b < 0$, resuelva en la variable $x$ la inecuación:
-
-$$
-\frac{x - a}{b} < \frac{x - b}{a}
-$$
-
+38. Si se sabe que $a < b < 0$, resuelva en la variable $x$ la inecuación: $\frac{x - a}{b} < \frac{x - b}{a}$.  
 A) $\langle a + b, +\infty\rangle$  
 B) $\langle -\infty, a + b\rangle$  
 C) $\langle 0, a + b\rangle$  
@@ -948,12 +905,7 @@ C) $5a - 2b = 1$
 D) $2a + 5b = 1$  
 E) $a - b = 2$  
 
-41. Determine el número de enteros que verifican la inecuación compuesta:
-
-$$
-\frac{x - 1}{2} < \frac{2x + 1}{3} \le \frac{3x - 2}{4}
-$$
-
+41. Determine el número de enteros que verifican la inecuación compuesta: $\frac{x - 1}{2} < \frac{2x + 1}{3} \le \frac{3x - 2}{4}$.  
 A) Infinitos  
 B) $0$  
 C) $5$  
@@ -974,24 +926,14 @@ C) $41$
 D) $42$  
 E) $38$  
 
-44. Si $x \in \langle 2, 5]$, determine el conjunto al que pertenece:
-
-$$
-E = \frac{x^2 - 4x + 7}{x - 1}
-$$
-
+44. Si $x \in \langle 2, 5]$, determine el conjunto al que pertenece: $E = \frac{x^2 - 4x + 7}{x - 1}$.  
 A) $\left[ \frac{11}{4}, 4 \right\rangle$  
 B) $\left[ 2\sqrt{3} - 2, 4 \right]$  
 C) $\left\langle 2\sqrt{3} - 2, 4 \right]$  
 D) $[2, 4]$  
 E) $\langle 2, 5]$  
 
-45. Sean $a, b \in \mathbb{R}^+$ tales que $a + b = 1$. Determine el menor valor real de $k$ tal que para todo par de números reales positivos se verifique:
-
-$$
-\frac{1}{a} + \frac{1}{b} \ge k
-$$
-
+45. Sean $a, b \in \mathbb{R}^+$ tales que $a + b = 1$. Determine el menor valor real de $k$ tal que para todo par de números reales positivos se verifique: $\frac{1}{a} + \frac{1}{b} \ge k$.  
 A) $2$  
 B) $3$  
 C) $4$  

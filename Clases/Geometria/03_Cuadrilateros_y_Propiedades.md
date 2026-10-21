@@ -26,7 +26,9 @@ alt: Propiedades Fundamentales del Trapecio
 
 Un cuadrilátero es un polígono de cuatro lados y cuatro vértices.
 * **Suma de Ángulos Interiores:** En todo cuadrilátero convexo, la suma de las medidas de sus cuatro ángulos interiores es $360^\circ$:
-  $$\alpha + \beta + \theta + \delta = 360^\circ$$
+
+$$\alpha + \beta + \theta + \delta = 360^\circ$$
+
 * **Suma de Ángulos Exteriores:** La suma de las medidas de los ángulos exteriores (uno por vértice) es siempre $360^\circ$.
 
 ---
@@ -61,10 +63,12 @@ Un trapecio es aquel cuadrilátero que tiene solo dos lados opuestos paralelos d
 
 #### 1. Teorema de la Mediana o Base Media ($MN$)
 El segmento que une los puntos medios de los lados no paralelos es paralelo a las bases y su longitud es igual a la semisuma de las longitudes de dichas bases:
+
 $$MN \parallel \text{Bases}\quad\text{y}\quad MN = \frac{B + b}{2}$$
 
 #### 2. Teorema del Segmento que Une los Puntos Medios de las Diagonales ($PQ$)
 El segmento que une los puntos medios de las dos diagonales de un trapecio es paralelo a las bases y su longitud es igual a la semidiferencia de las longitudes de dichas bases:
+
 $$PQ \parallel \text{Bases}\quad\text{y}\quad PQ = \frac{B - b}{2}$$
 
 #### 3. Tipos Específicos de Trapecios:
@@ -101,9 +105,12 @@ Un paralelogramo es aquel cuadrilátero en el cual sus dos pares de lados opuest
 
 En todo cuadrilátero convexo o cóncavo, los puntos medios de sus cuatro lados determinan siempre un **paralelogramo** (denominado Paralelogramo de Varignon).
 * El perímetro del paralelogramo de Varignon es igual a la suma de las longitudes de las diagonales del cuadrilátero original:
-  $$\text{Perímetro}(\text{Varignon}) = d_1 + d_2$$
+
+$$\text{Perímetro}(\text{Varignon}) = d_1 + d_2$$
+
 * El área del paralelogramo de Varignon es exactamente la mitad del área del cuadrilátero original:
-  $$\text{Área}(\text{Varignon}) = \frac{\text{Área}(\text{Cuadrilátero})}{2}$$
+
+$$\text{Área}(\text{Varignon}) = \frac{\text{Área}(\text{Cuadrilátero})}{2}$$
 
 ---
 
@@ -131,12 +138,15 @@ La base media une los puntos medios de los lados laterales y su longitud equival
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar las bases:
+
 $$b = 14\text{ cm},\quad B = 26\text{ cm}$$
 
 **Paso 2:** Aplicar la fórmula de la base media:
+
 $$MN = \frac{B + b}{2} = \frac{26 + 14}{2}$$
 
 **Paso 3:** Calcular el resultado:
+
 $$MN = \frac{40}{2} = 20\text{ cm}$$
 
 **Conclusión:**
@@ -153,12 +163,15 @@ El segmento entre puntos medios de diagonales se obtiene con la semidiferencia d
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar los datos:
+
 $$B = 32\text{ cm},\quad b = 18\text{ cm}$$
 
 **Paso 2:** Aplicar la fórmula de la semidiferencia:
+
 $$x = \frac{B - b}{2} = \frac{32 - 18}{2}$$
 
 **Paso 3:** Realizar la sustracción y división:
+
 $$x = \frac{14}{2} = 7\text{ cm}$$
 
 **Conclusión:**
@@ -175,12 +188,15 @@ En todo paralelogramo (y por ende en el romboide), los ángulos opuestos son con
 **Solución Paso a Paso:**
 
 **Paso 1:** Hallar el ángulo opuesto $\angle C$:
+
 $$\angle C = \angle A = 50^\circ$$
 
 **Paso 2:** Hallar el ángulo consecutivo $\angle B$:
+
 $$\angle B = 180^\circ - \angle A = 180^\circ - 50^\circ = 130^\circ$$
 
 **Paso 3:** Hallar el ángulo opuesto $\angle D$:
+
 $$\angle D = \angle B = 130^\circ$$
 
 **Conclusión:**
@@ -199,14 +215,19 @@ Tenemos un sistema de dos ecuaciones lineales con dos incógnitas ($B$ y $b$) fo
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear las dos ecuaciones:
+
 $$\frac{B + b}{2} = 22 \implies B + b = 44$$
+
 $$\frac{B - b}{2} = 6 \implies B - b = 12$$
 
 **Paso 2:** Sumar miembro a miembro ambas ecuaciones:
+
 $$(B + b) + (B - b) = 44 + 12$$
+
 $$2B = 56 \implies B = 28\text{ cm}$$
 
 **Paso 3:** Sustituir $B = 28$ para encontrar $b$:
+
 $$28 + b = 44 \implies b = 44 - 28 = 16\text{ cm}$$
 
 **Conclusión:**
@@ -223,16 +244,21 @@ Se traza la altura $CH$ desde el vértice $C$ perpendicular a la base mayor $AD$
 **Solución Paso a Paso:**
 
 **Paso 1:** Descomponer la base mayor $AD$:
+
 $$AD = AH + HD$$
+
 Como $ABCH$ es un rectángulo, $AH = BC = 8\text{ cm}$.
 
 **Paso 2:** Resolver el triángulo rectángulo $\triangle CHD$ recto en $H$:
 El ángulo en $C$ dentro del triángulo es $90^\circ - 53^\circ = 37^\circ$, y el ángulo en $D$ es $53^\circ$ (o viceversa según el ángulo de inclinación). Con hipotenusa $CD = 15 = 5k \implies k = 3$.
 El cateto adyacente al ángulo de $53^\circ$ (sobre la base) mide:
+
 $$HD = 3k = 3(3) = 9\text{ cm}$$
+
 *(o si el ángulo en $C$ es obtuso de $127^\circ$, el agudo en $D$ es $53^\circ$, luego $HD = 15 \cos(53^\circ) = 15(3/5) = 9\text{ cm}$).*
 
 **Paso 3:** Sumar los tramos para hallar $AD$:
+
 $$AD = AH + HD = 8 + 9 = 17\text{ cm}$$
 
 **Conclusión:**
@@ -249,15 +275,19 @@ Las diagonales de un rombo son perpendiculares y se cortan en sus puntos medios.
 **Solución Paso a Paso:**
 
 **Paso 1:** Hallar el lado del rombo $L$:
+
 $$L = \sqrt{12^2 + 5^2} = \sqrt{144 + 25} = \sqrt{169} = 13\text{ cm}$$
 
 **Paso 2:** Calcular el perímetro:
+
 $$\text{Perímetro} = 4L = 4(13) = 52\text{ cm}$$
 
 **Paso 3:** Calcular el área del rombo mediante sus diagonales:
+
 $$\text{Área} = \frac{D \cdot d}{2} = \frac{24 \cdot 10}{2} = 120\text{ cm}^2$$
 
 **Paso 4:** Calcular la altura igualando el área como base por altura ($L \cdot h$):
+
 $$\text{Área} = L \cdot h \implies 120 = 13 \cdot h \implies h = \frac{120}{13}\text{ cm} \approx 9.23\text{ cm}$$
 
 **Conclusión:**
@@ -274,12 +304,15 @@ En un trapecio isósceles, al trazar las alturas desde los extremos de la base m
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular las proyecciones laterales simétricas:
+
 $$x = \frac{B - b}{2} = \frac{26 - 10}{2} = 8\text{ cm}$$
 
 **Paso 2:** Calcular la altura $h$ por el Teorema de Pitágoras en el triángulo lateral:
+
 $$h = \sqrt{17^2 - 8^2} = \sqrt{289 - 64} = \sqrt{225} = 15\text{ cm}$$
 
 **Paso 3:** Calcular la diagonal $d$ considerando el triángulo rectángulo de catetos $h = 15$ y base $B - x = 26 - 8 = 18$:
+
 $$d = \sqrt{15^2 + 18^2} = \sqrt{225 + 324} = \sqrt{549} = \sqrt{9 \cdot 61} = 3\sqrt{61}\text{ cm} \approx 23.43\text{ cm}$$
 
 **Conclusión:**
@@ -298,12 +331,15 @@ La sección es un trapecio isósceles con $b = 1.8\text{ m}$, $B = 3.4\text{ m}$
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la proyección horizontal de cada talud:
+
 $$x = \frac{B - b}{2} = \frac{3.4 - 1.8}{2} = \frac{1.6}{2} = 0.8\text{ m}$$
 
 **Paso 2:** Calcular la longitud del talud inclinado ($L_{\text{talud}}$) por Pitágoras:
+
 $$L_{\text{talud}} = \sqrt{x^2 + h^2} = \sqrt{0.8^2 + 1.5^2} = \sqrt{0.64 + 2.25} = \sqrt{2.89} = 1.7\text{ m}$$
 
 **Paso 3:** Calcular el área de la sección transversal de flujo:
+
 $$\text{Área} = \left(\frac{B + b}{2}\right) \cdot h = \left(\frac{3.4 + 1.8}{2}\right) \cdot 1.5 = \left(\frac{5.2}{2}\right) \cdot 1.5 = 2.6 \cdot 1.5 = 3.9\text{ m}^2$$
 
 **Conclusión:**
@@ -320,16 +356,21 @@ El cerco sigue la base media $MN = \frac{B+b}{2}$. Como $MN$ une los puntos medi
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la longitud del cerco divisorio (base media):
+
 $$MN = \frac{B + b}{2} = \frac{200 + 120}{2} = \frac{320}{2} = 160\text{ m}$$
 
 **Paso 2:** Calcular el área de la sub-parcela superior (trapecio con bases $120\text{ m}$ y $160\text{ m}$, y altura $40\text{ m}$):
+
 $$A_1 = \left(\frac{120 + 160}{2}\right) \cdot 40 = 140 \cdot 40 = 5\,600\text{ m}^2$$
 
 **Paso 3:** Calcular el área de la sub-parcela inferior (trapecio con bases $160\text{ m}$ y $200\text{ m}$, y altura $40\text{ m}$):
+
 $$A_2 = \left(\frac{160 + 200}{2}\right) \cdot 40 = 180 \cdot 40 = 7\,200\text{ m}^2$$
 
 **Paso 4:** Verificación de área total:
+
 $$A_{\text{total}} = \left(\frac{200 + 120}{2}\right) \cdot 80 = 160 \cdot 80 = 12\,800\text{ m}^2$$
+
 $$A_1 + A_2 = 5\,600 + 7\,200 = 12\,800\text{ m}^2 \quad \text{(Correcto)}$$
 
 **Conclusión:**
@@ -346,17 +387,25 @@ El romboide tiene lados $AB = CD = 12\text{ dm}$ y diagonal $BD = 16\text{ dm}$ 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el lado mayor $AD$ por el Teorema de Pitágoras en el triángulo rectángulo $\triangle ABD$:
+
 $$AD = \sqrt{AB^2 + BD^2} = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = \sqrt{400} = 20\text{ dm}$$
 
 **Paso 2:** Calcular el área de captación solar del tragaluz:
+
 $$\text{Área}(\triangle ABD) = \frac{12 \cdot 16}{2} = 96\text{ dm}^2$$
+
 $$\text{Área total}(ABCD) = 2 \cdot \text{Área}(\triangle ABD) = 2 \cdot 96 = 192\text{ dm}^2 = 1.92\text{ m}^2$$
 
 **Paso 3:** Calcular la diagonal mayor $AC$ mediante la Ley de los Paralelogramos ($d_1^2 + d_2^2 = 2(a^2 + b^2)$):
+
 $$AC^2 + BD^2 = 2(AB^2 + AD^2)$$
+
 $$AC^2 + 16^2 = 2(12^2 + 20^2)$$
+
 $$AC^2 + 256 = 2(144 + 400) = 2(544) = 1088$$
+
 $$AC^2 = 1088 - 256 = 832$$
+
 $$AC = \sqrt{832} = \sqrt{64 \cdot 13} = 8\sqrt{13}\text{ dm} \approx 28.84\text{ dm}$$
 
 **Conclusión:**

@@ -63,12 +63,15 @@ $$\tan(\alpha) \cdot \cot(\alpha) = 1 \iff \cot(\alpha) = \frac{1}{\tan(\alpha)}
 Toda razón trigonométrica de un ángulo agudo es numéricamente igual a la **co-razón** de su ángulo complementario ($90^\circ - \alpha$):
 
 Si $\alpha + \beta = 90^\circ$ (ángulos complementarios):
+
 $$\sin(\alpha) = \cos(\beta) \iff \sin(\alpha) = \cos(90^\circ - \alpha)$$
+
 $$\tan(\alpha) = \cot(\beta) \iff \tan(\alpha) = \cot(90^\circ - \alpha)$$
+
 $$\sec(\alpha) = \csc(\beta) \iff \sec(\alpha) = \csc(90^\circ - \alpha)$$
 
-> **Regla de Examen:** Si $\tan(3x) = \cot(2x + 15^\circ)$, los ángulos deben sumar forzosamente $90^\circ$:
-> $$3x + (2x + 15^\circ) = 90^\circ \implies 5x = 75^\circ \implies x = 15^\circ$$
+> **Regla de Examen:** Si $\tan(3x) = \cot(2x + 15^\circ)$, los ángulos deben sumar forzosamente $90^\circ$:  
+> $3x + (2x + 15^\circ) = 90^\circ \implies 5x = 75^\circ \implies x = 15^\circ$
 
 ---
 
@@ -117,6 +120,7 @@ $$\sec(\alpha) = \csc(\beta) \iff \sec(\alpha) = \csc(90^\circ - \alpha)$$
 
 #### Ejercicio 1
 En un triángulo rectángulo, los catetos miden $5\text{ cm}$ y $12\text{ cm}$. Si $\theta$ es el menor ángulo agudo, determine el valor de la expresión:
+
 $$E = 13\sin(\theta) + 12\tan(\theta)$$
 
 **Análisis Conceptual:**
@@ -125,16 +129,21 @@ El menor ángulo agudo se opone al menor cateto ($5$). Hallamos la hipotenusa po
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la hipotenusa $c$ por el Teorema de Pitágoras:
+
 $$c = \sqrt{5^2 + 12^2} = \sqrt{25 + 144} = \sqrt{169} = 13\text{ cm}$$
 
 **Paso 2:** Determinar el cateto opuesto y adyacente para el menor ángulo $\theta$:
+
 $$\text{C.O.} = 5,\quad \text{C.A.} = 12,\quad H = 13$$
 
 **Paso 3:** Calcular las razones trigonométricas necesarias:
+
 $$\sin(\theta) = \frac{\text{C.O.}}{H} = \frac{5}{13}$$
+
 $$\tan(\theta) = \frac{\text{C.O.}}{\text{C.A.}} = \frac{5}{12}$$
 
 **Paso 4:** Evaluar la expresión $E$:
+
 $$E = 13\left(\frac{5}{13}\right) + 12\left(\frac{5}{12}\right) = 5 + 5 = 10$$
 
 **Conclusión:**
@@ -144,7 +153,9 @@ El valor de la expresión $E$ es $10$.
 
 #### Ejercicio 2
 Siendo $x$ un ángulo agudo tal que:
+
 $$\sin(3x - 10^\circ) \cdot \csc(x + 30^\circ) = 1$$
+
 calcule el valor de $M = \cos(2x) + \tan(x + 5^\circ)$.
 
 **Análisis Conceptual:**
@@ -153,14 +164,19 @@ La igualdad corresponde a dos razones trigonométricas recíprocas ($\sin\alpha 
 **Solución Paso a Paso:**
 
 **Paso 1:** Igualar los ángulos por propiedad de razones recíprocas:
+
 $$3x - 10^\circ = x + 30^\circ$$
 
 **Paso 2:** Despejar el valor de $x$:
+
 $$3x - x = 30^\circ + 10^\circ$$
+
 $$2x = 40^\circ \implies x = 20^\circ$$
 
 **Paso 3:** Reemplazar $x = 20^\circ$ en la expresión $M$:
+
 $$M = \cos(2 \cdot 20^\circ) + \tan(20^\circ + 5^\circ) = \cos(40^\circ) + \tan(25^\circ)$$
+
 *(Si se planteaba con $x=30^\circ$, daría valores notables; verifiquemos con los ángulos notables exactos).*
 Evaluando para $x = 20^\circ$: la relación angular es correcta y $2x = 40^\circ$.
 
@@ -171,7 +187,9 @@ El ángulo agudo $x$ mide $20^\circ$.
 
 #### Ejercicio 3
 Siendo $\alpha$ y $\beta$ ángulos agudos complementarios tales que:
+
 $$\tan(2\alpha - 15^\circ) = \cot(3\beta + 10^\circ)$$
+
 Si además se sabe que $\alpha = \beta$, determine el valor del ángulo común.
 
 **Análisis Conceptual:**
@@ -180,10 +198,13 @@ Como la tangente de un ángulo es igual a la cotangente de otro, los ángulos so
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la condición de co-razones complementarias:
+
 $$(2\alpha - 15^\circ) + (3\beta + 10^\circ) = 90^\circ$$
+
 $$2\alpha + 3\beta - 5^\circ = 90^\circ \implies 2\alpha + 3\beta = 95^\circ$$
 
 **Paso 2:** Usar la condición $\alpha = \beta$:
+
 $$2\alpha + 3\alpha = 95^\circ \implies 5\alpha = 95^\circ \implies \alpha = 19^\circ$$
 
 **Conclusión:**
@@ -195,6 +216,7 @@ El valor del ángulo común es $\alpha = \beta = 19^\circ$.
 
 #### Ejercicio 4
 Calcule el valor numérico simplificado de la expresión:
+
 $$K = \frac{4\sin(30^\circ) + \sqrt{3}\tan(60^\circ) + 5\cos(53^\circ)}{2\sec(45^\circ) \cdot \csc(45^\circ)}$$
 
 **Análisis Conceptual:**
@@ -203,16 +225,21 @@ Reemplazamos directamente los valores numéricos exactos y aproximados de los tr
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar los valores notables:
+
 $$\sin(30^\circ) = \frac{1}{2},\quad \tan(60^\circ) = \sqrt{3},\quad \cos(53^\circ) = \frac{3}{5}$$
+
 $$\sec(45^\circ) = \sqrt{2},\quad \csc(45^\circ) = \sqrt{2}$$
 
 **Paso 2:** Calcular el numerador:
+
 $$\text{Num} = 4\left(\frac{1}{2}\right) + \sqrt{3}(\sqrt{3}) + 5\left(\frac{3}{5}\right) = 2 + 3 + 3 = 8$$
 
 **Paso 3:** Calcular el denominador:
+
 $$\text{Den} = 2(\sqrt{2})(\sqrt{2}) = 2(2) = 4$$
 
 **Paso 4:** Dividir numerador entre denominador:
+
 $$K = \frac{8}{4} = 2$$
 
 **Conclusión:**
@@ -229,13 +256,17 @@ La tangente define la proporción de los catetos: $\text{C.O.} = 8k$ y $\text{C.
 **Solución Paso a Paso:**
 
 **Paso 1:** Determinar la hipotenusa en función de $k$:
+
 $$c = \sqrt{(8k)^2 + (15k)^2} = \sqrt{64k^2 + 225k^2} = \sqrt{289k^2} = 17k$$
 
 **Paso 2:** Plantear la ecuación del perímetro:
+
 $$\text{Perímetro} = 8k + 15k + 17k = 40k$$
+
 $$40k = 120 \implies k = 3\text{ cm}$$
 
 **Paso 3:** Calcular la longitud de la hipotenusa:
+
 $$\text{Hipotenusa} = 17k = 17(3) = 51\text{ cm}$$
 
 **Conclusión:**
@@ -245,7 +276,9 @@ La hipotenusa mide $51\text{ cm}$.
 
 #### Ejercicio 6
 Determine el valor del ángulo agudo $x$ si se cumple simultáneamente:
+
 $$\sin(2x + y) = \cos(x + 2y)$$
+
 $$\tan(x - y + 10^\circ) \cdot \cot(20^\circ) = 1$$
 
 **Análisis Conceptual:**
@@ -254,14 +287,19 @@ La primera ecuación usa co-razones (suman $90^\circ$). La segunda ecuación usa
 **Solución Paso a Paso:**
 
 **Paso 1:** De la primera ecuación (co-razones):
+
 $$(2x + y) + (x + 2y) = 90^\circ \implies 3x + 3y = 90^\circ \implies x + y = 30^\circ$$
 
 **Paso 2:** De la segunda ecuación (recíprocas):
+
 $$x - y + 10^\circ = 20^\circ \implies x - y = 10^\circ$$
 
 **Paso 3:** Resolver el sistema sumando ambas ecuaciones:
+
 $$(x + y) + (x - y) = 30^\circ + 10^\circ$$
+
 $$2x = 40^\circ \implies x = 20^\circ$$
+
 $$y = 30^\circ - 20^\circ = 10^\circ$$
 
 **Conclusión:**
@@ -278,16 +316,21 @@ Se traza la altura $BH = h$. Esta divide al lado $AC$ en dos segmentos $AH$ y $H
 **Solución Paso a Paso:**
 
 **Paso 1:** Expresar los segmentos en función de la altura $h$:
+
 $$AH = h\sqrt{3}$$
+
 $$HC = h$$
 
 **Paso 2:** Sumar los tramos para igualar a la longitud total $AC$:
+
 $$AC = AH + HC = h\sqrt{3} + h = h(\sqrt{3} + 1)$$
 
 **Paso 3:** Igualar con el dato del problema:
+
 $$h(\sqrt{3} + 1) = 12(\sqrt{3} + 1)$$
 
 **Paso 4:** Simplificar el factor común:
+
 $$h = 12\text{ cm}$$
 
 **Conclusión:**
@@ -306,14 +349,19 @@ La rampa forma un triángulo rectángulo notable de $16^\circ - 74^\circ$ donde 
 **Solución Paso a Paso:**
 
 **Paso 1:** Usar la razón $\sin(16^\circ)$ para calcular la longitud de la rampa $L$:
+
 $$\sin(16^\circ) = \frac{\text{Profundidad}}{L} = \frac{7}{25}$$
+
 $$\frac{70}{L} = \frac{7}{25} \implies L = \frac{70 \cdot 25}{7} = 10 \cdot 25 = 250\text{ m}$$
 
 **Paso 2:** Usar la razón $\cos(16^\circ)$ o $\tan(16^\circ)$ para el avance horizontal $d$:
+
 $$\tan(16^\circ) = \frac{\text{Profundidad}}{d} = \frac{7}{24}$$
+
 $$\frac{70}{d} = \frac{7}{24} \implies d = \frac{70 \cdot 24}{7} = 10 \cdot 24 = 240\text{ m}$$
 
 **Paso 3:** Verificar mediante Pitágoras:
+
 $$240^2 + 70^2 = 57\,600 + 4\,900 = 62\,500 = 250^2 \quad \text{(Correcto)}$$
 
 **Conclusión:**
@@ -330,12 +378,15 @@ El triángulo formado es el notable de $37^\circ - 53^\circ$ con hipotenusa $H =
 **Solución Paso a Paso:**
 
 **Paso 1:** Expresar la hipotenusa en función de la constante $k$:
+
 $$H = 5k = 1\,200\text{ m} \implies k = \frac{1\,200}{5} = 240\text{ m}$$
 
 **Paso 2:** Calcular el desnivel vertical (cateto opuesto al ángulo de $37^\circ$):
+
 $$\Delta h = 3k = 3(240) = 720\text{ m}$$
 
 **Paso 3:** Calcular la separación horizontal en el mapa:
+
 $$d = 4k = 4(240) = 960\text{ m}$$
 
 **Conclusión:**
@@ -352,12 +403,15 @@ En el triángulo rectángulo notable de $\frac{53^\circ}{2}$, la relación de ca
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar la razón trigonométrica de $\frac{53^\circ}{2}$:
+
 $$\tan\left(\frac{53^\circ}{2}\right) = \frac{\text{Altura del puntal}}{\text{Base horizontal}} = \frac{1}{2}$$
 
 **Paso 2:** Despejar la altura del puntal con base de $4\text{ m}$:
+
 $$\frac{h}{4} = \frac{1}{2} \implies h = 2\text{ m}$$
 
 **Paso 3:** Calcular la longitud del panel inclinado (hipotenusa):
+
 $$L = \sqrt{2^2 + 4^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}\text{ m} \approx 2(2.236) \approx 4.47\text{ m}$$
 
 **Conclusión:**
@@ -492,8 +546,7 @@ C) $\frac{7}{24}$
 D) $\frac{25}{24}$  
 E) $\frac{12}{13}$  
 
-18. Calcule el valor simplificado de:  
-$$W = \frac{\sin(30^\circ) + \cos(60^\circ)}{\tan(45^\circ) + \cot(45^\circ)}$$  
+18. Calcule el valor simplificado de: $W = \frac{\sin(30^\circ) + \cos(60^\circ)}{\tan(45^\circ) + \cot(45^\circ)}$.  
 A) $\frac{1}{4}$  
 B) $\frac{1}{2}$  
 C) $1$  

@@ -29,7 +29,6 @@ El signo del coeficiente principal $a$ decide de inmediato hacia dónde abren lo
 
 ### 1.2 Formas de Representación de la Función Cuadrática
 
-
 Una función cuadrática puede expresarse algebraicamente en tres formas equivalentes según el contexto de análisis:
 
 ### 1.1 Forma Canónica o Polinomial General
@@ -87,10 +86,13 @@ $$
 El signo del coeficiente principal $a$ define unívocamente hacia dónde abren las ramas de la parábola:
 
 * **Si $a > 0$:** La parábola es **cóncava hacia arriba** (abre hacia $+Y$). El vértice $V(h, k)$ es el punto más bajo de toda la gráfica; por consiguiente, la función alcanza en $x = h$ su **valor mínimo global**, el cual es $f_{mín} = k$. El rango de la función es:
+
 $$
 \operatorname{Ran}(f) = [k, +\infty\rangle
 $$
+
 * **Si $a < 0$:** La parábola es **cóncava hacia abajo** (abre hacia $-Y$). El vértice $V(h, k)$ es el punto más alto de la gráfica; por consiguiente, la función alcanza en $x = h$ su **valor máximo global**, el cual es $f_{máx} = k$. El rango de la función es:
+
 $$
 \operatorname{Ran}(f) = \langle -\infty, k]
 $$
@@ -283,9 +285,11 @@ Ingreso máximo: $I_{máx} = 15 \times 225 = S/\, 3375$.
 
 ### Ejercicio 7: Cinemática y Altura Máxima
 Un cohete de sondeo meteorológico lanzado desde la estación de Huancayo describe una trayectoria vertical cuya altura $h$ (en metros) respecto al nivel del suelo en función del tiempo transcurrido $t$ (en segundos) está dada por:
+
 $$
 h(t) = -5t^2 + 80t + 25
 $$
+
 Calcular: a) El tiempo en el que alcanza la altura máxima, b) La altura máxima alcanzada, c) El tiempo en el que regresa al suelo.
 
 **Paso 1:** Identificamos los parámetros de la función cuadrática:

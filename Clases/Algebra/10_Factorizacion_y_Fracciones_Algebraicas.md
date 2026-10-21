@@ -26,17 +26,22 @@ $$
 
 donde $c \in \mathbb{Q}$ es una constante numérica y $f_1, f_2, f_3$ son factores primos no semejantes entre sí:
 
-1. **Número de Factores Primos ($N_{FP}$):** Es la cantidad de bases primas distintas que contienen variables:
-$$
-N_{FP} = 3
-$$
+1. **Número de Factores Primos ($N_{FP}$):** Es la cantidad de bases primas distintas que contienen variables: $N_{FP} = 3$.
+
 2. **Número de Factores Totales o Divisores ($N_{FT}$):** Incluye a las constantes y combinaciones:
+
 $$
+
 N_{FT} = (\alpha + 1)(\beta + 1)(\gamma + 1)
+
 $$
+
 3. **Número de Factores Algebraicos ($N_{FA}$):** Es el total de factores que contienen al menos una variable (se excluye el factor constante 1):
+
 $$
+
 N_{FA} = (\alpha + 1)(\beta + 1)(\gamma + 1) - 1
+
 $$
 
 ---
@@ -51,38 +56,57 @@ Se identifican patrones reconocibles de productos notables leídos de derecha a 
 * **Diferencia de Cuadrados:** $A^2 - B^2 = (A - B)(A + B)$
 * **Trinomio Cuadrado Perfecto (T.C.P.):** $A^2 \pm 2AB + B^2 = (A \pm B)^2$
 * **Suma y Diferencia de Cubos:**
+
 $$
+
 A^3 + B^3 = (A + B)(A^2 - AB + B^2)
+
 $$
+
 $$
+
 A^3 - B^3 = (A - B)(A^2 + AB + B^2)
+
 $$
+
 * **Identidad de Argand:**
+
 $$
+
 x^4 + x^2 + 1 = (x^2 + x + 1)(x^2 - x + 1)
+
 $$
+
 $$
+
 x^{4m} + x^{2m} y^{2n} + y^{4n} = (x^{2m} + x^m y^n + y^{2n})(x^{2m} - x^m y^n + y^{2n})
+
 $$
 
 ### 2.3 Criterio del Aspa Simple
 Se aplica para factorizar trinomios de la forma canónica:
 
 $$
+
 P(x) = Ax^{2n} + Bx^n + C
+
 $$
 
 Se descomponen los términos extremos $Ax^{2n} = (a_1 x^n)(a_2 x^n)$ y $C = (c_1)(c_2)$, de tal modo que la suma algebraica de los productos en aspa coincida exactamente con el término central:
 
 $$
+
 (a_1 c_2 + a_2 c_1)x^n = Bx^n \implies P(x) = (a_1 x^n + c_1)(a_2 x^n + c_2)
+
 $$
 
 ### 2.4 Criterio del Aspa Doble
 Se aplica a polinomios de 6 términos en dos variables de la forma general:
 
 $$
+
 P(x, y) = Ax^2 + Bxy + Cy^2 + Dx + Ey + F
+
 $$
 
 * **Aspa 1:** Entre los términos 1, 2 y 3 ($Ax^2, Bxy, Cy^2$) para verificar $Bxy$.
@@ -93,27 +117,41 @@ $$
 Se aplica específicamente a polinomios completos de cuarto grado de una sola variable:
 
 $$
+
 P(x) = Ax^4 + Bx^3 + Cx^2 + Dx + E
+
 $$
 
 1. Se descomponen los extremos $Ax^4 = (a_1 x^2)(a_2 x^2)$ y $E = (e_1)(e_2)$.
 2. Se efectúa el producto en aspa de los extremos para obtener el término cuadrático temporal:
+
 $$
+
 T_{cuad} = (a_1 e_2 + a_2 e_1)x^2
+
 $$
+
 3. Se calcula la cantidad cuadrática faltante que se debe generar:
+
 $$
+
 \text{Falta} = Cx^2 - T_{cuad} = Kx^2
+
 $$
+
 4. Dicho valor $Kx^2$ se descompone en el término central como $(k_1 x)(k_2 x)$ para verificar simultáneamente mediante aspas simples internas a los términos cúbico ($Bx^3$) y lineal ($Dx$).
 
 ### 2.6 Criterio de los Divisores Binómicos (Ceros Racionales de Gauss)
 Se utiliza para factorizar polinomios de cualquier grado que admitan al menos un factor lineal $(x - r)$.
 
 1. Se determinan los **posibles ceros racionales (P.C.R.)**:
+
 $$
+
 \text{P.C.R.} = \pm \frac{\text{Divisores del término independiente } |a_0|}{\text{Divisores del coeficiente principal } |a_n|}
+
 $$
+
 2. Se evalúa el polinomio mediante la regla de Ruffini en los valores $r \in \text{P.C.R.}$. Si el residuo es cero ($P(r) = 0$), entonces $(x - r)$ es un factor primo.
 3. Se repite el proceso con el cociente obtenido hasta agotar los factores lineales.
 
@@ -131,15 +169,21 @@ Es el producto de todos los **factores primos comunes y no comunes** afectados d
 Para cualesquiera dos polinomios $A(x)$ y $B(x)$:
 
 $$
+
 A(x) \cdot B(x) \equiv \text{M.C.D.}[A, B] \cdot \text{M.C.M.}[A, B]
+
 $$
 
 ### 3.4 Fracciones Algebraicas y Simplificación
 Una fracción algebraica es el cociente indicado de dos polinomios $\frac{P(x)}{Q(x)}$ con $Q(x) \not\equiv 0$.
 * **Dominio de Existencia:** Se deben excluir todos los valores reales que anulan el denominador:
+
 $$
+
 \operatorname{Dom} = \{x \in \mathbb{R} \mid Q(x) \neq 0\}
+
 $$
+
 * **Regla de Simplificación:** Se factorizan completamente numerador y denominador y se cancelan los factores primos idénticos comunes, registrando las restricciones de dominio.
 
 ---
@@ -148,9 +192,13 @@ $$
 
 ### Ejercicio 1: Factor Común y Agrupación
 Factorizar completamente sobre $\mathbb{Q}$ el polinomio:
+
 $$
+
 P(a, b, c) = a^3 + a^2 b + a^2 c + a b c + b^2 c + b c^2
+
 $$
+
 e indicar el número de factores primos.
 
 **Paso 1:** Contamos 6 términos. Buscamos agrupar en ternas o pares convenientes.
@@ -176,8 +224,11 @@ $P(a, b, c) = (a + b + c)(a^2 + bc)$
 
 ### Ejercicio 2: Aspa Doble
 Factorizar en $\mathbb{Q}$ el polinomio:
+
 $$
+
 P(x, y) = 6x^2 + 7xy - 3y^2 + 11x - 11y - 10
+
 $$
 
 **Paso 1:** Verificamos el orden canónico para aspa doble:
@@ -209,8 +260,11 @@ $P(x, y) = (2x + 3y + 5)(3x - y - 2)$
 
 ### Ejercicio 3: Aspa Doble Especial
 Factorizar sobre $\mathbb{Q}$ el polinomio:
+
 $$
+
 P(x) = x^4 - 2x^3 - 13x^2 + 14x + 24
+
 $$
 
 **Paso 1:** Ordenamos y completamos en forma descendente de grado 4:
@@ -254,8 +308,11 @@ $P(x) = (x + 1)(x - 2)(x + 3)(x - 4)$
 
 ### Ejercicio 4: Artificio de Quita y Pon (Completación a Argand)
 Factorizar en $\mathbb{Q}$ la expresión:
+
 $$
+
 P(x) = x^4 + 64
+
 $$
 
 **Paso 1:** Reconocemos una suma de dos cuadrados: $x^4 + 64 = (x^2)^2 + 8^2$.
@@ -304,8 +361,11 @@ $\text{M.C.M.}[A, B] = (x - 1)(x - 3)(x + 1)(x + 3) = (x^2 - 1)(x^2 - 9) = x^4 -
 
 ### Ejercicio 6: Simplificación de Fracción Algebraica
 Simplificar la fracción y establecer sus restricciones de existencia:
+
 $$
+
 F(x) = \frac{x^3 + 3x^2 - 4x - 12}{x^3 - 2x^2 - 9x + 18}
+
 $$
 
 **Paso 1:** Factorizamos el numerador $N(x)$:
@@ -326,8 +386,11 @@ $F(x) = \frac{(x + 3)(x - 2)(x + 2)}{(x - 2)(x - 3)(x + 3)} = \frac{x + 2}{x - 3
 
 ### Ejercicio 7: Operaciones con Fracciones Racionales
 Efectuar y simplificar la siguiente suma de fracciones algebraicas:
+
 $$
+
 S(x) = \frac{1}{x^2 - x} + \frac{2}{1 - x^2} + \frac{1}{x^2 + x}
+
 $$
 
 **Paso 1:** Factorizamos los denominadores cuidando los signos:
@@ -351,9 +414,13 @@ $S(x) = \frac{x + 1 - 2x + x - 1}{x(x - 1)(x + 1)} = \frac{0}{x(x - 1)(x + 1)} =
 
 ### Ejercicio 8: Fracción Algebraica Irreductible y Constante
 Determinar la relación que deben cumplir las constantes $A, B, C$ para que la fracción racional:
+
 $$
+
 F(x, y) = \frac{a_1 x + b_1 y + c_1}{a_2 x + b_2 y + c_2}
+
 $$
+
 sea independiente de las variables $x$ e $y$ (tome un valor constante $k \neq 0$).
 
 **Paso 1:** Para que la fracción sea constante e independiente de las variables:
@@ -373,8 +440,11 @@ $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} = k$
 
 ### Ejercicio 9: Descomposición en Fracciones Parciales Básicas
 Descomponer la fracción propia en la suma de fracciones parciales:
+
 $$
+
 \frac{5x - 1}{x^2 - x - 6}
+
 $$
 
 **Paso 1:** Factorizamos el denominador por aspa simple:
@@ -398,9 +468,13 @@ $5(-2) - 1 = A(0) + B(-2 - 3) \implies -11 = -5B \implies B = \frac{11}{5}$
 
 ### Ejercicio 10: Modelamiento Contextualizado (Eficiencia de Maquinaria Agrícola)
 En un consorcio de productores agroecológicos en Chanchamayo, dos desgranadoras mecánicas de maíz trabajan en conjunto. La máquina principal tarda $x$ horas en procesar una tonelada de grano, mientras que la máquina secundaria tarda $(x + 3)$ horas en procesar la misma cantidad. Si el tiempo conjunto $T(x)$ en horas está modelado por la fracción algebraica compuesta:
+
 $$
+
 T(x) = \frac{1}{\frac{1}{x} + \frac{1}{x + 3}}
+
 $$
+
 determinar el modelo simplificado de $T(x)$ y calcular el tiempo en minutos que tardan ambas máquinas operando simultáneamente si $x = 2\text{ horas}$.
 
 **Paso 1:** Sumamos las fracciones en el denominador de $T(x)$:
@@ -423,147 +497,144 @@ $\text{Tiempo} = \frac{10}{7} \times 60\text{ min} = \frac{600}{7}\text{ min} \a
 
 ### Nivel Básico (Ejercicios 1 al 15)
 
-1. Factorizar $P(x) = 6x^3 - 15x^2$ e indicar el factor común extraído:  
-A) $3x$  
-B) $3x^2$  
-C) $x^2$  
-D) $6x^2$  
-E) $15x$  
+1. Factorizar $P(x) = 6x^3 - 15x^2$ e indicar el factor común extraído:
+A) $3x$
+B) $3x^2$
+C) $x^2$
+D) $6x^2$
+E) $15x$
 
-2. ¿Cuántos factores primos tiene el polinomio $P(x, y) = 4x^3 y^2(x - 1)(y + 2)^3$?  
-A) $4$  
-B) $5$  
-C) $9$  
-D) $3$  
-E) $2$  
+2. ¿Cuántos factores primos tiene el polinomio $P(x, y) = 4x^3 y^2(x - 1)(y + 2)^3$?
+A) $4$
+B) $5$
+C) $9$
+D) $3$
+E) $2$
 
-3. Factorizar por diferencia de cuadrados $16x^2 - 49y^2$:  
-A) $(4x - 7y)^2$  
-B) $(4x + 7y)(4x - 7y)$  
-C) $(16x - 49y)(x + y)$  
-D) $(4x + 7y)^2$  
-E) $4x - 7y$  
+3. Factorizar por diferencia de cuadrados $16x^2 - 49y^2$:
+A) $(4x - 7y)^2$
+B) $(4x + 7y)(4x - 7y)$
+C) $(16x - 49y)(x + y)$
+D) $(4x + 7y)^2$
+E) $4x - 7y$
 
-4. Factorizar el trinomio $x^2 - 11x + 24$ e indicar la suma de sus factores primos:  
-A) $2x - 11$  
-B) $2x + 11$  
-C) $2x - 14$  
-D) $x - 11$  
-E) $2x - 10$  
+4. Factorizar el trinomio $x^2 - 11x + 24$ e indicar la suma de sus factores primos:
+A) $2x - 11$
+B) $2x + 11$
+C) $2x - 14$
+D) $x - 11$
+E) $2x - 10$
 
-5. Simplificar la fracción algebraica $\frac{x^2 - 9}{x^2 - 6x + 9}$:  
-A) $\frac{x + 3}{x - 3}$  
-B) $\frac{x - 3}{x + 3}$  
-C) $\frac{1}{x - 3}$  
-D) $x + 3$  
-E) $1$  
+5. Simplificar la fracción algebraica $\frac{x^2 - 9}{x^2 - 6x + 9}$:
+A) $\frac{x + 3}{x - 3}$
+B) $\frac{x - 3}{x + 3}$
+C) $\frac{1}{x - 3}$
+D) $x + 3$
+E) $1$
 
-6. Al factorizar $x^3 - 8$, uno de los factores primos es:  
-A) $x^2 - 2x + 4$  
-B) $x^2 + 2x + 4$  
-C) $x^2 + 4$  
-D) $x^2 - 4$  
-E) $x + 2$  
+6. Al factorizar $x^3 - 8$, uno de los factores primos es:
+A) $x^2 - 2x + 4$
+B) $x^2 + 2x + 4$
+C) $x^2 + 4$
+D) $x^2 - 4$
+E) $x + 2$
 
-7. Factorizar $P(a, b) = a^2 + ab + ax + bx$ por agrupación:  
-A) $(a + b)(a + x)$  
-B) $(a - b)(a + x)$  
-C) $(a + b)(x - a)$  
-D) $(ab)(a + x)$  
-E) $(a + b + x)^2$  
+7. Factorizar $P(a, b) = a^2 + ab + ax + bx$ por agrupación:
+A) $(a + b)(a + x)$
+B) $(a - b)(a + x)$
+C) $(a + b)(x - a)$
+D) $(ab)(a + x)$
+E) $(a + b + x)^2$
 
-8. Hallar el M.C.D. de los monomios $A = 12x^3 y^4$ y $B = 18x^2 y^5$:  
-A) $6x^3 y^5$  
-B) $6x^2 y^4$  
-C) $36x^3 y^5$  
-D) $12x^2 y^4$  
-E) $2x^2 y^4$  
+8. Hallar el M.C.D. de los monomios $A = 12x^3 y^4$ y $B = 18x^2 y^5$:
+A) $6x^3 y^5$
+B) $6x^2 y^4$
+C) $36x^3 y^5$
+D) $12x^2 y^4$
+E) $2x^2 y^4$
 
-9. Hallar el M.C.M. de los monomios $A = 12x^3 y^4$ y $B = 18x^2 y^5$:  
-A) $36x^3 y^5$  
-B) $6x^2 y^4$  
-C) $216x^5 y^9$  
-D) $18x^3 y^5$  
-E) $72x^3 y^5$  
+9. Hallar el M.C.M. de los monomios $A = 12x^3 y^4$ y $B = 18x^2 y^5$:
+A) $36x^3 y^5$
+B) $6x^2 y^4$
+C) $216x^5 y^9$
+D) $18x^3 y^5$
+E) $72x^3 y^5$
 
-10. Si el polinomio $x^2 + mx + 25$ es un trinomio cuadrado perfecto con $m > 0$, hallar $m$:  
-A) $5$  
-B) $10$  
-C) $20$  
-D) $25$  
-E) $50$  
+10. Si el polinomio $x^2 + mx + 25$ es un trinomio cuadrado perfecto con $m > 0$, hallar $m$:
+A) $5$
+B) $10$
+C) $20$
+D) $25$
+E) $50$
 
-11. Factorizar por aspa simple $2x^2 + 5x - 3$:  
-A) $(2x - 1)(x + 3)$  
-B) $(2x + 1)(x - 3)$  
-C) $(2x + 3)(x - 1)$  
-D) $(x + 1)(2x - 3)$  
-E) $(2x - 3)(x + 1)$  
+11. Factorizar por aspa simple $2x^2 + 5x - 3$:
+A) $(2x - 1)(x + 3)$
+B) $(2x + 1)(x - 3)$
+C) $(2x + 3)(x - 1)$
+D) $(x + 1)(2x - 3)$
+E) $(2x - 3)(x + 1)$
 
-12. Simplificar la fracción $\frac{x^2 - 4x}{x^2 - 16}$:  
-A) $\frac{x}{x + 4}$  
-B) $\frac{x}{x - 4}$  
-C) $\frac{1}{x + 4}$  
-D) $\frac{x - 4}{x + 4}$  
-E) $\frac{4}{x + 4}$  
+12. Simplificar la fracción $\frac{x^2 - 4x}{x^2 - 16}$:
+A) $\frac{x}{x + 4}$
+B) $\frac{x}{x - 4}$
+C) $\frac{1}{x + 4}$
+D) $\frac{x - 4}{x + 4}$
+E) $\frac{4}{x + 4}$
 
-13. ¿Cuál es el conjunto de valores que NO pertenecen al dominio de $\frac{x + 5}{x^2 - 1}$?  
-A) $\{1\}$  
-B) $\{-1\}$  
-C) $\{-1, 1\}$  
-D) $\{-5\}$  
-E) $\{0\}$  
+13. ¿Cuál es el conjunto de valores que NO pertenecen al dominio de $\frac{x + 5}{x^2 - 1}$?
+A) $\{1\}$
+B) $\{-1\}$
+C) $\{-1, 1\}$
+D) $\{-5\}$
+E) $\{0\}$
 
-14. Reducir la suma de fracciones homogéneas: $\frac{2x + 1}{x - 3} - \frac{x + 4}{x - 3}$:  
-A) $1$  
-B) $\frac{x - 3}{x + 3}$  
-C) $x - 3$  
-D) $\frac{3x + 5}{x - 3}$  
-E) $0$  
+14. Reducir la suma de fracciones homogéneas: $\frac{2x + 1}{x - 3} - \frac{x + 4}{x - 3}$:
+A) $1$
+B) $\frac{x - 3}{x + 3}$
+C) $x - 3$
+D) $\frac{3x + 5}{x - 3}$
+E) $0$
 
-15. Al factorizar $x^4 - 1$ en el campo de los números racionales $\mathbb{Q}$, ¿cuántos factores primos se obtienen?  
-A) $2$  
-B) $3$  
-C) $4$  
-D) $1$  
-E) $5$  
+15. Al factorizar $x^4 - 1$ en el campo de los números racionales $\mathbb{Q}$, ¿cuántos factores primos se obtienen?
+A) $2$
+B) $3$
+C) $4$
+D) $1$
+E) $5$
 
 ---
 
 ### Nivel Intermedio (Ejercicios 16 al 35)
 
-16. Factorizar completamente el polinomio $P(x) = x^4 - 5x^2 + 4$ e indicar la cantidad de factores algebraicos:  
-A) $4$  
-B) $15$  
-C) $8$  
-D) $16$  
-E) $7$  
+16. Factorizar completamente el polinomio $P(x) = x^4 - 5x^2 + 4$ e indicar la cantidad de factores algebraicos:
+A) $4$
+B) $15$
+C) $8$
+D) $16$
+E) $7$
 
-17. Indicar la suma de los factores primos del polinomio $P(x, y) = x^2 - y^2 + 4x + 4$:  
-A) $2x + 4$  
-B) $2x + 2y + 4$  
-C) $2x - 2y + 4$  
-D) $2x$  
-E) $2y + 4$  
+17. Indicar la suma de los factores primos del polinomio $P(x, y) = x^2 - y^2 + 4x + 4$:
+A) $2x + 4$
+B) $2x + 2y + 4$
+C) $2x - 2y + 4$
+D) $2x$
+E) $2y + 4$
 
-18. Factorizar por aspa doble $P(x, y) = 2x^2 + 5xy + 2y^2 + 7x + 5y + 3$ e indicar uno de sus factores primos:  
-A) $2x + y + 3$  
-B) $x + 2y + 3$  
-C) $2x + y + 1$  
-D) $x + y + 1$  
-E) $2x + 2y + 3$  
+18. Factorizar por aspa doble $P(x, y) = 2x^2 + 5xy + 2y^2 + 7x + 5y + 3$ e indicar uno de sus factores primos:
+A) $2x + y + 3$
+B) $x + 2y + 3$
+C) $2x + y + 1$
+D) $x + y + 1$
+E) $2x + 2y + 3$
 
-19. Al factorizar $P(x) = x^3 - 6x^2 + 11x - 6$ mediante divisores binómicos, la suma de los términos independientes de sus factores primos es:  
-A) $-6$  
-B) $6$  
-C) $-11$  
-D) $11$  
-E) $0$  
+19. Al factorizar $P(x) = x^3 - 6x^2 + 11x - 6$ mediante divisores binómicos, la suma de los términos independientes de sus factores primos es:
+A) $-6$
+B) $6$
+C) $-11$
+D) $11$
+E) $0$
 
-20. Simplificar la siguiente expresión racional:
-$$
-E = \left( \frac{x}{x + 1} + \frac{1}{x - 1} \right) \div \frac{x^2 + 1}{x^2 - 1}
-$$
+20. Simplificar la siguiente expresión racional: $E = \left( \frac{x}{x + 1} + \frac{1}{x - 1} \right) \div \frac{x^2 + 1}{x^2 - 1}$.  
 A) $1$  
 B) $x$  
 C) $x - 1$  
@@ -600,10 +671,7 @@ C) $12x + 14$
 D) $6x + 8$  
 E) $8x + 12$  
 
-25. Simplificar la fracción continua elemental:
-$$
-F(x) = 1 + \frac{1}{1 + \frac{1}{x}}
-$$
+25. Simplificar la fracción continua elemental: $F(x) = 1 + \frac{1}{1 + \frac{1}{x}}$.  
 A) $\frac{2x + 1}{x + 1}$  
 B) $\frac{x + 2}{x + 1}$  
 C) $\frac{2x + 2}{x + 1}$  
@@ -638,10 +706,7 @@ C) $(x + 2)^2$
 D) $(x + 2)^3(x - 3)$  
 E) $x^2 + 2x$  
 
-30. Reducir la siguiente operación combinada:
-$$
-M = \left( \frac{1}{a} - \frac{1}{b} \right) \left( \frac{a^2 b + ab^2}{b - a} \right)
-$$
+30. Reducir la siguiente operación combinada: $M = \left( \frac{1}{a} - \frac{1}{b} \right) \left( \frac{a^2 b + ab^2}{b - a} \right)$.  
 A) $-1$  
 B) $-(a + b)$  
 C) $a + b$  
@@ -687,80 +752,56 @@ E) $\frac{1}{2}$
 
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
-36. Factorizar completamente sobre $\mathbb{Q}$ el polinomio:
-$$
-P(x) = x^5 + x + 1
-$$
-e indicar uno de sus factores primos:  
-A) $x^2 + x + 1$  
-B) $x^2 - x + 1$  
-C) $x^3 + x + 1$  
-D) $x^3 - x + 1$  
-E) $x^2 + 1$  
+36. Factorizar completamente sobre $\mathbb{Q}$ el polinomio: $P(x) = x^5 + x + 1$ e indicar uno de sus factores primos:  
+A) $x^2 + x + 1$
+B) $x^2 - x + 1$
+C) $x^3 + x + 1$
+D) $x^3 - x + 1$
+E) $x^2 + 1$
 
-37. Simplificar la siguiente fracción cíclica para $a, b, c$ mutuamente diferentes:
-$$
-E = \frac{a}{(a - b)(a - c)} + \frac{b}{(b - c)(b - a)} + \frac{c}{(c - a)(c - b)}
-$$
+37. Simplificar la siguiente fracción cíclica para $a, b, c$ mutuamente diferentes: $E = \frac{a}{(a - b)(a - c)} + \frac{b}{(b - c)(b - a)} + \frac{c}{(c - a)(c - b)}$.  
 A) $0$  
 B) $1$  
 C) $a + b + c$  
 D) $abc$  
 E) $-1$  
 
-38. Factorizar en $\mathbb{Q}$ el polinomio de cuarto grado:
-$$
-P(x) = (x^2 + x + 1)(x^2 + x + 2) - 12
-$$
-e indicar la suma de los coeficientes de uno de sus factores cuadráticos irreducibles:  
-A) $7$  
-B) $8$  
-C) $9$  
-D) $5$  
-E) $3$  
+38. Factorizar en $\mathbb{Q}$ el polinomio de cuarto grado: $P(x) = (x^2 + x + 1)(x^2 + x + 2) - 12$ e indicar la suma de los coeficientes de uno de sus factores cuadráticos irreducibles:  
+A) $7$
+B) $8$
+C) $9$
+D) $5$
+E) $3$
 
-39. Si el M.C.D. de los polinomios $A(x) = x^3 - 6x^2 + 11x - m$ y $B(x) = x^3 + 2x^2 - x - n$ es un polinomio cuadrático, calcular $m + n$:  
-A) $8$  
-B) $6$  
-C) $4$  
-D) $10$  
-E) $12$  
+39. Si el M.C.D. de los polinomios $A(x) = x^3 - 6x^2 + 11x - m$ y $B(x) = x^3 + 2x^2 - x - n$ es un polinomio cuadrático, calcular $m + n$:
+A) $8$
+B) $6$
+C) $4$
+D) $10$
+E) $12$
 
-40. Descomponer en fracciones parciales e indicar el valor de $A + B + C$:
-$$
-\frac{3x^2 - 2x + 1}{(x - 1)(x - 2)(x - 3)} \equiv \frac{A}{x - 1} + \frac{B}{x - 2} + \frac{C}{x - 3}
-$$
+40. Descomponer en fracciones parciales e indicar el valor de $A + B + C$: $\frac{3x^2 - 2x + 1}{(x - 1)(x - 2)(x - 3)} \equiv \frac{A}{x - 1} + \frac{B}{x - 2} + \frac{C}{x - 3}$.  
 A) $3$  
 B) $0$  
 C) $1$  
 D) $-2$  
 E) $5$  
 
-41. **(Reto)** Factorizar completamente el polinomio en dos variables:
-$$
-P(x, y) = x^3 + y^3 + 3xy - 1
-$$
+41. **(Reto)** Factorizar completamente el polinomio en dos variables: $P(x, y) = x^3 + y^3 + 3xy - 1$.  
 A) $(x + y - 1)(x^2 - xy + y^2 + x + y + 1)$  
 B) $(x + y + 1)(x^2 - xy + y^2 - x - y + 1)$  
 C) $(x - y - 1)(x^2 + xy + y^2 + x - y + 1)$  
 D) $(x + y - 1)^3$  
 E) $(x + y - 1)(x^2 + y^2 + 1)$  
 
-42. **(Reto)** Si la fracción algebraica:
-$$
-F(x, y, z) = \frac{ax^2 + 4xy + cy^2 + 6z^2}{2x^2 + bxy + 6y^2 + 4z^2}
-$$
-es independiente de las variables $x, y, z$, calcular el valor numérico de $a \cdot b \cdot c$:  
-A) $72$  
-B) $48$  
-C) $36$  
-D) $54$  
-E) $64$  
+42. **(Reto)** Si la fracción algebraica $F(x, y, z) = \frac{ax^2 + 4xy + cy^2 + 6z^2}{2x^2 + bxy + 6y^2 + 4z^2}$ es independiente de las variables $x, y, z$, calcular el valor numérico de $a \cdot b \cdot c$:  
+A) $72$
+B) $48$
+C) $36$
+D) $54$
+E) $64$
 
-43. **(Reto)** Simplificar la siguiente suma telescópica de fracciones algebraicas para $n$ términos:
-$$
-S = \frac{1}{x(x + 1)} + \frac{1}{(x + 1)(x + 2)} + \frac{1}{(x + 2)(x + 3)} + \dots + \frac{1}{(x + n - 1)(x + n)}
-$$
+43. **(Reto)** Simplificar la siguiente suma telescópica de fracciones algebraicas para $n$ términos: $S = \frac{1}{x(x + 1)} + \frac{1}{(x + 1)(x + 2)} + \frac{1}{(x + 2)(x + 3)} + \dots + \frac{1}{(x + n - 1)(x + n)}$.  
 A) $\frac{n}{x(x + n)}$  
 B) $\frac{1}{x(x + n)}$  
 C) $\frac{n + 1}{x(x + n)}$  
@@ -774,10 +815,7 @@ C) $3$
 D) $1$  
 E) $5$  
 
-45. **(Reto)** Si $x + y + z = 1$ y $\frac{1}{x} + \frac{1}{y} + \frac{1}{z} = 0$, calcular el valor simplificado de la fracción:
-$$
-K = \frac{x^3 + y^3 + z^3 - 3xyz}{x^2 + y^2 + z^2}
-$$
+45. **(Reto)** Si $x + y + z = 1$ y $\frac{1}{x} + \frac{1}{y} + \frac{1}{z} = 0$, calcular el valor simplificado de la fracción: $K = \frac{x^3 + y^3 + z^3 - 3xyz}{x^2 + y^2 + z^2}$.  
 A) $1$  
 B) $1/2$  
 C) $3$  

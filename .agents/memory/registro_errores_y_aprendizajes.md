@@ -336,6 +336,33 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   2. El archivo `assets/favicon.ico` debe generarse con canal alfa transparente y almacenar los tamaños multi-resolución: 16×16, 32×32, 48×48 y 64×64 píxeles.
   3. Vincular formalmente en `_config.yml` tanto `html: favicon: "assets/favicon.ico"` como `html: logo: "assets/logo.png"` para garantizar una identidad visual coherente tanto en la pestaña del navegador como en la cabecera del menú lateral.
 
+---
 
+### `[ERR-029]` Colisiones de KaTeX por Display Math (`$$`) Pegado a Alternativas `A)` y `$$` Huérfanos
+* **Fecha:** 2026-10-21
+* **Problema:** En el visor / preview de Markdown y en KaTeX web, aparecía el error crítico:
+  `ParseError: KaTeX parse error: Can't use function '$' in math mode at position XX: ...\cot(45^\circ)}$$ A) $\frac{1…`
+  y en otras secciones el texto normal en español quedaba atrapado en cursiva sin espacios dentro de fórmulas matemáticas (runaway math mode: `*(Siseplanteabaconx=30...)*`).
+* **Causa Raíz:**
+  1. Cuando un enunciado de problema propuesto terminaba con `$$fórmula$$` (especialmente con dos espacios finales `  \n`) y la siguiente línea era `A) $alternativa$`, CommonMark une ambas líneas en el mismo párrafo (`<p>$$...$$<br>A) $...$</p>`). El parser de inline math empareja el primer `$` de `$$` con el `$` de `A)`, dejando el segundo `$` dentro del modo matemático e invocando a KaTeX con texto y símbolos `$`, provocando el `ParseError`.
+  2. La presencia de delimitadores `$$` huérfanos o fórmulas inline con `$` sin cerrar invertía por completo el estado matemático en el resto del archivo: el texto regular se interpretaba como LaTeX y las ecuaciones reales como texto.
+* **Invariante / Regla Aprendida:**
+  1. En las 45 preguntas propuestas, la fórmula final del enunciado DEBE escribirse como **matemática inline en la misma línea del número de pregunta**:
+     `18. Calcule el valor simplificado de: $W = \frac{\sin(30^\circ) + \cos(60^\circ)}{\tan(45^\circ) + \cot(45^\circ)}$.  \nA) ...`
+  2. Queda estrictamente PROHIBIDO colocar un bloque `$$` inmediatamente antes de la alternativa `A)`.
+  3. Todo bloque display math `$$` (teoría y ejercicios resueltos) debe estar a columna 0 y contar obligatoriamente con **una línea en blanco antes y una después**.
+  4. Nunca dejar delimitadores `$$` impares ni expresiones `$ ... $` abiertas a lo largo del documento.
+  5. Ejecutar el validador riguroso `python scratch/audit_katex_syntax_rigorous.py` garantizando **0 errores** antes de publicar.
 
+---
 
+### `[ERR-030]` Vinculación Hipertextual Obligatoria en Tablas de Índices Curriculares
+* **Fecha:** 2026-10-21
+* **Problema:** En módulos como *Estadística y Probabilidad* y *Competencia Lectora*, la tabla de contenidos curricular en `index.md` mostraba los títulos en texto plano o con directivas `{table}` sin enlaces hipertextuales clicables, rompiendo la coherencia de navegación con el resto de cursos (Aritmética, Álgebra, Geometría, Trigonometría).
+* **Causa Raíz:** Falta de estandarización en la plantilla del archivo `index.md` de cada asignatura al momento de redactar nuevos módulos.
+* **Invariante / Regla Aprendida:**
+  1. Todo archivo `Clases/<Curso>/index.md` debe incluir una tabla estándar en Markdown nativo:
+     `| Tema | Título del Contenido / Denominación Oficial | Competencia Clave |`
+  2. La columna del título debe contener un **enlace relativo directo al archivo `.md` del tema**:
+     `| **01** | [Tablas de Frecuencias y Datos Agrupados](01_Tablas_de_Frecuencias_Datos_Agrupados.md) | ... |`
+  3. Evitar secuencias de escape no deseadas (como `\b` en `\bar{x}`) asegurando que los símbolos matemáticos dentro de las tablas (`\bar{x}`, `\Omega`) se escriban correctamente sin caracteres de control ASCII.

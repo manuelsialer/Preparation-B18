@@ -24,7 +24,9 @@ alt: "Nivel Inferencial: Causa-Efecto y Problema-Solución"
 ### 2.1 ¿Qué es una Inferencia Válida?
 La **inferencia** es el movimiento cognitivo mediante el cual se extrae una información nueva e implícita a partir de premisas o datos explícitos contenidos en el texto.
 * **Fórmula lógica basal:**
-  $$\text{Premisas Explícitas } (P_1, P_2) \implies \text{Conclusión Implícita Válida } (Q)$$
+
+$$\text{Premisas Explícitas } (P_1, P_2) \implies \text{Conclusión Implícita Válida } (Q)$$
+
 * **Condición de validez:** Si las premisas son verdaderas dentro del universo del texto, la conclusión deducida **debe ser necesariamente verdadera**.
 * **Prueba de la doble vía:** Una inferencia correcta:
   1. **NO está escrita textualmente** con las mismas palabras (si estuviera escrita literal, sería una pregunta de nivel literal, no una inferencia).

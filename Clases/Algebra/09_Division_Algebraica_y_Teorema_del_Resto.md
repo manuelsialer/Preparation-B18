@@ -18,18 +18,24 @@ En el examen de preselección Beca 18 y en las carreras científicas y técnicas
 
 Sean $D(x)$ y $d(x)$ polinomios cuyos grados absolutos están bien definidos y denotados por $\text{gr}(D)$ y $\text{gr}(d)$ respectivamente, con la condición de existencia de cociente: $\text{gr}(D) \geq \text{gr}(d) \geq 1$.
 
-1. **Grado del Cociente:** El grado del polinomio cociente es exactamente igual a la diferencia entre el grado del dividendo y el grado del divisor:
-$$
-\text{gr}(Q) = \text{gr}(D) - \text{gr}(d)
-$$
+1. **Grado del Cociente:** El grado del polinomio cociente es exactamente igual a la diferencia entre el grado del dividendo y el grado del divisor: $\text{gr}(Q) = \text{gr}(D) - \text{gr}(d)$.
+
 2. **Grado Máximo del Residuo:** El grado máximo que puede alcanzar el residuo es una unidad menor que el grado del divisor:
+
 $$
+
 \text{gr}_{máx}(R) = \text{gr}(d) - 1
+
 $$
+
 3. **División Exacta:** Ocurre cuando el residuo es idénticamente nulo ($R(x) \equiv 0$). En tal caso:
+
 $$
+
 D(x) \equiv d(x) \cdot Q(x)
+
 $$
+
 Se dice entonces que $D(x)$ es divisible entre $d(x)$, o que $d(x)$ es un factor de $D(x)$.
 4. **División Inexacta:** Ocurre cuando $R(x) \not\equiv 0$.
 
@@ -50,7 +56,9 @@ Es el algoritmo general y sistemático aplicable para dividir dos polinomios de 
 Es el caso particular del método de Horner que se aplica cuando el divisor es un binomio lineal de primer grado:
 
 $$
+
 d(x) = ax + b, \quad (a \neq 0)
+
 $$
 
 Se iguala $ax + b = 0 \implies x = -\frac{b}{a}$. Si $a \neq 1$, el cociente verdadero se obtiene dividiendo el cociente intermedio entre el coeficiente principal: $Q(x) = \frac{q(x)}{a}$.
@@ -64,7 +72,9 @@ Se iguala $ax + b = 0 \implies x = -\frac{b}{a}$. Si $a \neq 1$, el cociente ver
 Permite calcular el residuo de una división sin efectuarla ni hallar el cociente. Para un divisor lineal $ax + b$:
 
 $$
+
 R = P\left(-\frac{b}{a}\right)
+
 $$
 
 Para divisores no lineales de grado superior, se iguala el divisor a cero y se despeja la potencia más conveniente $x^n = k$, sustituyendo directamente en el dividendo sin extraer raíces.
@@ -75,9 +85,13 @@ Son divisiones algebraicas de binomios que generan desarrollos notables exactos:
 
 * **Condición de proporcionalidad:** $\frac{p}{m} = \frac{q}{n} = N \in \mathbb{N}$ (número de términos).
 * **Término general de lugar $k$:**
+
 $$
+
 T_k = (\pm) \cdot x^{N - k} a^{k - 1}
+
 $$
+
 donde el signo depende del divisor: positivo si es $x - a$, y $(-1)^{k-1}$ si es $x + a$.
 
 ---
@@ -86,8 +100,11 @@ donde el signo depende del divisor: positivo si es $x - a$, y $(-1)^{k-1}$ si es
 
 ### Ejercicio 1: División por Método de Horner
 Efectuar la división e indicar el cociente y el residuo:
+
 $$
+
 \frac{6x^5 + 7x^4 - 18x^3 + 10x^2 + 7x - 9}{3x^2 - x + 2}
+
 $$
 
 **Paso 1:** Verificamos que ambos polinomios estén completos y ordenados en forma descendente:
@@ -129,8 +146,11 @@ Residuo: $R(x) = \frac{170}{9}x - \frac{67}{9}$
 
 ### Ejercicio 2: Determinación de Parámetros en División Exacta
 Calcular $A + B$ para que la siguiente división sea exacta ($R(x) \equiv 0$):
+
 $$
+
 \frac{2x^4 + 3x^3 + x^2 + Ax + B}{x^2 + 2x + 3}
+
 $$
 
 **Paso 1:** Al ser exacta, el residuo final debe ser idénticamente nulo: $R(x) = 0x + 0$.
@@ -158,8 +178,11 @@ $A + B = (-9) + (-9) = -18$
 
 ### Ejercicio 3: Regla de Ruffini con Coeficiente Principal $a \neq 1$
 Dividir mediante la regla de Ruffini e indicar el cociente y el residuo:
+
 $$
+
 \frac{4x^4 - 2x^3 + 6x^2 - 5x + 3}{2x - 1}
+
 $$
 
 **Paso 1:** Igualamos el divisor lineal a cero para hallar el valor crítico:
@@ -186,8 +209,11 @@ Residuo: $R = 2$ (el residuo no se divide).
 
 ### Ejercicio 4: Teorema del Resto con Divisor Lineal
 Hallar el residuo de dividir el polinomio:
+
 $$
+
 P(x) = (x - 3)^{2026} + (x - 2)^5 + (2x - 7)^3 + 4 \quad \text{entre} \quad x - 4
+
 $$
 
 **Paso 1:** Por el Teorema del Resto, igualamos el divisor a cero:
@@ -206,8 +232,11 @@ $R = 1 + 32 + (1)^3 + 4 = 1 + 32 + 1 + 4 = 38$
 
 ### Ejercicio 5: Teorema del Resto con Potencias Compuestas
 Calcular el resto de la siguiente división algebraica:
+
 $$
+
 \frac{x^{47} + x^{33} - 2x^{15} + 5x^4 - 3}{x^2 + 1}
+
 $$
 
 **Paso 1:** Por la generalización del Teorema del Resto, igualamos el divisor a cero:
@@ -234,8 +263,11 @@ $\text{gr}(R) = 1 < \text{gr}(d) = 2$ (Cumple estrictamente la cota de grado).
 
 ### Ejercicio 6: Número de Términos en un Cociente Notable
 Determinar el valor de $m$ y el número de términos del cociente notable originado por:
+
 $$
+
 \frac{x^{5m-1} - y^{12m-5}}{x^{m-2} - y^{2m-1}}
+
 $$
 
 **Paso 1:** Aplicamos la condición fundamental de proporcionalidad de exponentes:
@@ -267,8 +299,11 @@ Para $\frac{x^{3m} - y^{2m}}{x^3 - y^2}$: $\frac{3m}{3} = \frac{2m}{2} = m$ tér
 
 ### Ejercicio 7: Cálculo del Término de Lugar $k$ en Cociente Notable
 Calcular el término de lugar 15 en el desarrollo del siguiente cociente notable:
+
 $$
+
 \frac{x^{80} - y^{40}}{x^2 - y}
+
 $$
 
 **Paso 1:** Hallamos el número total de términos $N$:
@@ -369,133 +404,130 @@ $R(x) = -6x + 12$
 
 ### Nivel Básico (Ejercicios 1 al 15)
 
-1. En una división algebraica exacta, si el dividendo es de grado 7 y el divisor es de grado 3, ¿cuál es el grado del cociente?  
-A) $10$  
-B) $4$  
-C) $2$  
-D) $3$  
-E) $5$  
+1. En una división algebraica exacta, si el dividendo es de grado 7 y el divisor es de grado 3, ¿cuál es el grado del cociente?
+A) $10$
+B) $4$
+C) $2$
+D) $3$
+E) $5$
 
-2. ¿Cuál es el grado máximo que puede tener el residuo al dividir un polinomio entre un trinomio de grado 3?  
-A) $3$  
-B) $2$  
-C) $1$  
-D) $0$  
-E) $4$  
+2. ¿Cuál es el grado máximo que puede tener el residuo al dividir un polinomio entre un trinomio de grado 3?
+A) $3$
+B) $2$
+C) $1$
+D) $0$
+E) $4$
 
-3. Calcular el residuo de dividir $P(x) = x^3 - 4x^2 + 5x - 7$ entre $x - 2$:  
-A) $-5$  
-B) $5$  
-C) $-3$  
-D) $3$  
-E) $7$  
+3. Calcular el residuo de dividir $P(x) = x^3 - 4x^2 + 5x - 7$ entre $x - 2$:
+A) $-5$
+B) $5$
+C) $-3$
+D) $3$
+E) $7$
 
-4. Al dividir $P(x) = 2x^3 - 3x^2 + 4x - 5$ entre $x + 1$, el resto es:  
-A) $-14$  
-B) $-10$  
-C) $-6$  
-D) $8$  
-E) $-2$  
+4. Al dividir $P(x) = 2x^3 - 3x^2 + 4x - 5$ entre $x + 1$, el resto es:
+A) $-14$
+B) $-10$
+C) $-6$
+D) $8$
+E) $-2$
 
-5. Efectuar por Ruffini la división $\frac{x^2 - 7x + 12}{x - 3}$ e indicar el cociente:  
-A) $x - 4$  
-B) $x + 4$  
-C) $x - 3$  
-D) $x + 3$  
-E) $x - 7$  
+5. Efectuar por Ruffini la división $\frac{x^2 - 7x + 12}{x - 3}$ e indicar el cociente:
+A) $x - 4$
+B) $x + 4$
+C) $x - 3$
+D) $x + 3$
+E) $x - 7$
 
-6. Si un polinomio $P(x)$ es divisible entre $x - 5$, ¿cuál es el valor numérico de $P(5)$?  
-A) $5$  
-B) $-5$  
-C) $0$  
-D) $1$  
-E) No se puede saber  
+6. Si un polinomio $P(x)$ es divisible entre $x - 5$, ¿cuál es el valor numérico de $P(5)$?
+A) $5$
+B) $-5$
+C) $0$
+D) $1$
+E) No se puede saber
 
-7. ¿Cuántos términos tiene el cociente notable $\frac{x^{35} - y^{35}}{x - y}$?  
-A) $35$  
-B) $34$  
-C) $36$  
-D) $7$  
-E) $5$  
+7. ¿Cuántos términos tiene el cociente notable $\frac{x^{35} - y^{35}}{x - y}$?
+A) $35$
+B) $34$
+C) $36$
+D) $7$
+E) $5$
 
-8. Hallar el cociente de dividir $6x^3 - 11x^2 + 10x - 3$ entre $3x - 1$:  
-A) $2x^2 - 3x + 1$  
-B) $2x^2 + 3x - 1$  
-C) $2x^2 - 3x + 3$  
-D) $6x^2 - 9x + 3$  
-E) $x^2 - 3x + 1$  
+8. Hallar el cociente de dividir $6x^3 - 11x^2 + 10x - 3$ entre $3x - 1$:
+A) $2x^2 - 3x + 1$
+B) $2x^2 + 3x - 1$
+C) $2x^2 - 3x + 3$
+D) $6x^2 - 9x + 3$
+E) $x^2 - 3x + 1$
 
-9. Calcular el término de lugar 3 en el desarrollo de $\frac{x^6 - y^6}{x - y}$:  
-A) $x^4 y^2$  
-B) $x^3 y^2$  
-C) $x^3 y^3$  
-D) $x^2 y^3$  
-E) $x^4 y^3$  
+9. Calcular el término de lugar 3 en el desarrollo de $\frac{x^6 - y^6}{x - y}$:
+A) $x^4 y^2$
+B) $x^3 y^2$
+C) $x^3 y^3$
+D) $x^2 y^3$
+E) $x^4 y^3$
 
-10. Si al dividir $x^2 - kx + 8$ entre $x - 2$ el resto es 0, hallar el valor de $k$:  
-A) $4$  
-B) $6$  
-C) $8$  
-D) $5$  
-E) $2$  
+10. Si al dividir $x^2 - kx + 8$ entre $x - 2$ el resto es 0, hallar el valor de $k$:
+A) $4$
+B) $6$
+C) $8$
+D) $5$
+E) $2$
 
-11. El resto de dividir $x^{100} - 1$ entre $x + 1$ es:  
-A) $0$  
-B) $1$  
-C) $-2$  
-D) $2$  
-E) $-1$  
+11. El resto de dividir $x^{100} - 1$ entre $x + 1$ es:
+A) $0$
+B) $1$
+C) $-2$
+D) $2$
+E) $-1$
 
-12. ¿Cuál de las siguientes divisiones NO corresponde a un cociente notable?  
-A) $\frac{x^7 - y^7}{x - y}$  
-B) $\frac{x^8 - y^8}{x + y}$  
-C) $\frac{x^9 + y^9}{x + y}$  
-D) $\frac{x^6 + y^6}{x - y}$  
-E) $\frac{x^{10} - y^{10}}{x - y}$  
+12. ¿Cuál de las siguientes divisiones NO corresponde a un cociente notable?
+A) $\frac{x^7 - y^7}{x - y}$
+B) $\frac{x^8 - y^8}{x + y}$
+C) $\frac{x^9 + y^9}{x + y}$
+D) $\frac{x^6 + y^6}{x - y}$
+E) $\frac{x^{10} - y^{10}}{x - y}$
 
-13. En el método de Horner, si el divisor es de grado 4, ¿cuántas columnas se separan hacia la derecha para el residuo?  
-A) $2$ columnas  
-B) $3$ columnas  
-C) $4$ columnas  
-D) $5$ columnas  
-E) $1$ columna  
+13. En el método de Horner, si el divisor es de grado 4, ¿cuántas columnas se separan hacia la derecha para el residuo?
+A) $2$ columnas
+B) $3$ columnas
+C) $4$ columnas
+D) $5$ columnas
+E) $1$ columna
 
-14. Al dividir $x^4 - 16$ entre $x - 2$, el término independiente del cociente es:  
-A) $2$  
-B) $4$  
-C) $8$  
-D) $16$  
-E) $-8$  
+14. Al dividir $x^4 - 16$ entre $x - 2$, el término independiente del cociente es:
+A) $2$
+B) $4$
+C) $8$
+D) $16$
+E) $-8$
 
-15. Si el resto de dividir $P(x)$ entre $2x - 3$ es 7, entonces se cumple que:  
-A) $P(3) = 7$  
-B) $P(-3/2) = 7$  
-C) $P(3/2) = 7$  
-D) $P(7) = 3/2$  
-E) $P(0) = 7$  
+15. Si el resto de dividir $P(x)$ entre $2x - 3$ es 7, entonces se cumple que:
+A) $P(3) = 7$
+B) $P(-3/2) = 7$
+C) $P(3/2) = 7$
+D) $P(7) = 3/2$
+E) $P(0) = 7$
 
 ---
 
 ### Nivel Intermedio (Ejercicios 16 al 35)
 
-16. Hallar $a + b$ si la división $\frac{x^4 - 3x^3 + 2x^2 + ax + b}{x^2 - x + 1}$ es exacta:  
-A) $-1$  
-B) $1$  
-C) $2$  
-D) $-2$  
-E) $0$  
+16. Hallar $a + b$ si la división $\frac{x^4 - 3x^3 + 2x^2 + ax + b}{x^2 - x + 1}$ es exacta:
+A) $-1$
+B) $1$
+C) $2$
+D) $-2$
+E) $0$
 
-17. Calcular el resto de dividir $P(x) = (x - 1)^{40} + (x - 2)^3 + 5$ entre $x^2 - 3x + 2$:  
-A) $x + 2$  
-B) $2x + 1$  
-C) $-x + 5$  
-D) $x + 4$  
-E) $5$  
+17. Calcular el resto de dividir $P(x) = (x - 1)^{40} + (x - 2)^3 + 5$ entre $x^2 - 3x + 2$:
+A) $x + 2$
+B) $2x + 1$
+C) $-x + 5$
+D) $x + 4$
+E) $5$
 
-18. Hallar el término independiente del cociente en la división:
-$$
-\frac{6x^4 + x^3 - 8x^2 + 13x - 5}{2x^2 - x + 3}
-$$
+18. Hallar el término independiente del cociente en la división: $\frac{6x^4 + x^3 - 8x^2 + 13x - 5}{2x^2 - x + 3}$.  
 A) $-2$  
 B) $2$  
 C) $3$  
@@ -530,10 +562,7 @@ C) $5$
 D) $6$  
 E) $2$  
 
-23. Calcular el término central en el desarrollo del cociente notable:
-$$
-\frac{x^{21} + y^{21}}{x + y}
-$$
+23. Calcular el término central en el desarrollo del cociente notable: $\frac{x^{21} + y^{21}}{x + y}$.  
 A) $x^{10} y^{10}$  
 B) $-x^{10} y^{10}$  
 C) $x^{11} y^{10}$  
@@ -568,10 +597,7 @@ C) $6$
 D) $4$  
 E) $7$  
 
-28. Hallar la suma de coeficientes del cociente de la división:
-$$
-\frac{3x^5 - 2x^4 + 4x^3 - 5x^2 + 2x - 1}{x - 1}
-$$
+28. Hallar la suma de coeficientes del cociente de la división: $\frac{3x^5 - 2x^4 + 4x^3 - 5x^2 + 2x - 1}{x - 1}$.  
 A) $15$  
 B) $17$  
 C) $19$  
@@ -632,9 +658,11 @@ E) $1$
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
 36. Si el residuo de la división:
+
 $$
 \frac{ax^5 + bx^4 + cx^3 - x^2 + 2x - 3}{x^3 - x + 1}
 $$
+
 es idénticamente nulo, calcular el valor de $a + b + c$:  
 A) $2$  
 B) $4$  
@@ -650,9 +678,11 @@ D) $3x^2 - 2x + 4$
 E) $x^2 + 2x + 5$  
 
 38. Si la división algebraica:
+
 $$
 \frac{x^{2026} - 1}{x^2 + x + 1}
 $$
+
 deja residuo $R(x) = ax + b$, calcular $a^2 + b^2$:  
 A) $1$  
 B) $2$  
@@ -661,9 +691,11 @@ D) $4$
 E) $5$  
 
 39. Si el término de lugar 17 en el desarrollo del cociente notable:
+
 $$
 \frac{x^a - y^b}{x^5 - y^7}
 $$
+
 es de la forma $x^{115} y^c$, determinar el valor de $a + b + c$:  
 A) $540$  
 B) $580$  
@@ -686,9 +718,11 @@ D) $5$
 E) $2x + 1$  
 
 42. **(Reto)** Si la división:
+
 $$
 \frac{mx^4 + nx^3 + 22x^2 - 13x - 12}{2x^2 - 3x + 4}
 $$
+
 deja como residuo $R(x) = 5x - 4$, calcular el valor de $m \cdot n$ aplicando el método de Horner invertido:  
 A) $24$  
 B) $36$  
@@ -697,9 +731,11 @@ D) $18$
 E) $30$  
 
 43. **(Reto)** Si el penúltimo término del desarrollo del cociente notable:
+
 $$
 \frac{x^n - y^m}{x^2 - y}
 $$
+
 es $x^2 y^{28}$, hallar el número total de términos de dicho cociente notable:  
 A) $29$  
 B) $30$  

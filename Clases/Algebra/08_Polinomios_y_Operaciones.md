@@ -23,10 +23,13 @@ El grado es una característica intrínseca de los monomios y polinomios asociad
 Dado el monomio $M(x, y, z) = c \cdot x^a y^b z^c$ con coeficiente $c \neq 0$:
 
 * **Grado Relativo (G.R.):** Es el exponente de la variable en referencia.
+
 $$
 \text{G.R.}(x) = a, \quad \text{G.R.}(y) = b, \quad \text{G.R.}(z) = c
 $$
+
 * **Grado Absoluto (G.A.):** Es la suma de los exponentes de todas sus variables.
+
 $$
 \text{G.A.}(M) = a + b + c
 $$
@@ -230,9 +233,11 @@ $$
 
 ### Ejercicio 1: Grados en Polinomios Multivariables
 Dado el polinomio homogéneo:
+
 $$
 P(x, y) = 2x^{2a+b} y^{a-b} - 5x^{3a-2} y^4 + 7x^a y^{2b+3}
 $$
+
 determinar el valor numérico de $a \cdot b$.
 
 **Paso 1:** Al ser un polinomio homogéneo, todos sus términos poseen el mismo grado absoluto.
@@ -269,9 +274,11 @@ $a \cdot b = 2 \times 5 = 10$.
 
 ### Ejercicio 2: Polinomio Completo y Ordenado
 Si el polinomio:
+
 $$
 P(x) = (a - 2)x^{b-1} + (b + 3)x^{c-2} + (c - 1)x^{a-3} + 5
 $$
+
 es completo y ordenado en forma descendente, calcular la suma de sus coeficientes.
 
 **Paso 1:** Al estar ordenado en forma descendente y completo con 4 términos (incluyendo el término independiente constante 5), los grados de los términos deben ser exactamente:
@@ -300,6 +307,7 @@ $\sum \text{coef} = 2 + 7 + 3 + 5 = 17$
 
 ### Ejercicio 3: Polinomios Idénticos y Sistema de Ecuaciones
 Hallar los valores de $m$ y $n$ si se cumple la siguiente identidad de polinomios:
+
 $$
 m(x - 2) + n(x + 3) \equiv 5x + 4
 $$
@@ -351,6 +359,7 @@ $P(5) = 5^2 + 3(5) + 5 = 25 + 15 + 5 = 45$
 
 ### Ejercicio 5: Aplicación de Identidades de Legendre
 Simplificar la siguiente expresión algebraica:
+
 $$
 E = \frac{(2a + 3b)^2 - (2a - 3b)^2}{ab}
 $$
@@ -371,6 +380,7 @@ $E = \frac{24ab}{ab} = 24, \quad (ab \neq 0)$
 
 ### Ejercicio 6: Identidad de Cauchy (Suma de Cubos)
 Si $x + \frac{1}{x} = 4$, calcular el valor exacto de:
+
 $$
 K = x^3 + \frac{1}{x^3}
 $$
@@ -396,6 +406,7 @@ $K = x^3 + \frac{1}{x^3} = 64 - 12 = 52$
 
 ### Ejercicio 7: Identidad Condicional de Tres Variables
 Si $a, b, c$ son números reales no nulos tales que $a + b + c = 0$, simplificar:
+
 $$
 M = \frac{a^3 + b^3 + c^3}{3abc} + \frac{(a + b)^2}{ab} + \frac{(b + c)^2}{bc} + \frac{(c + a)^2}{ca}
 $$
@@ -425,9 +436,11 @@ $M = 1 + 3 = 4$
 
 ### Ejercicio 8: Identidad de Stevin y Productos Consecutivos
 Calcular el valor numérico de:
+
 $$
 P = \sqrt{(x - 1)(x + 1)(x^2 + 1)(x^4 + 1) + 1}
 $$
+
 para cualquier valor real de $x$.
 
 **Paso 1:** Multiplicamos los dos primeros factores utilizando diferencia de cuadrados:
@@ -651,10 +664,7 @@ C) $24$
 D) $20$  
 E) $15$  
 
-20. Simplificar la expresión aplicando identidades de Legendre:
-$$
-M = \frac{(a + 2b)^2 - (a - 2b)^2}{8ab}
-$$
+20. Simplificar la expresión aplicando identidades de Legendre: $M = \frac{(a + 2b)^2 - (a - 2b)^2}{8ab}$.  
 A) $1$  
 B) $2$  
 C) $1/2$  
@@ -668,10 +678,7 @@ C) $2$
 D) $3$  
 E) $1/6$  
 
-22. Si $a^2 + b^2 + c^2 = ab + bc + ca$ para $a, b, c \in \mathbb{R}$, calcular el valor de:
-$$
-K = \frac{a^5 + b^5 + c^5}{(a + b + c)^5} \times 81
-$$
+22. Si $a^2 + b^2 + c^2 = ab + bc + ca$ para $a, b, c \in \mathbb{R}$, calcular el valor de: $K = \frac{a^5 + b^5 + c^5}{(a + b + c)^5} \times 81$.  
 A) $1$  
 B) $3$  
 C) $9$  
@@ -699,10 +706,7 @@ C) $5$
 D) $6$  
 E) $8$  
 
-26. Reducir la siguiente expresión algebraica:
-$$
-R = (x + 1)(x - 1)(x^2 + 1)(x^4 + 1)(x^8 + 1) + 1
-$$
+26. Reducir la siguiente expresión algebraica: $R = (x + 1)(x - 1)(x^2 + 1)(x^4 + 1)(x^8 + 1) + 1$.  
 A) $x^8$  
 B) $x^{16}$  
 C) $x^{32}$  
@@ -804,20 +808,14 @@ C) $11$
 D) $8$  
 E) $12$  
 
-40. Sabiendo que $a + b + c = 0$, reducir a su mínima expresión:
-$$
-T = \frac{(2a + b + c)^3 + (a + 2b + c)^3 + (a + b + 2c)^3}{abc}
-$$
+40. Sabiendo que $a + b + c = 0$, reducir a su mínima expresión: $T = \frac{(2a + b + c)^3 + (a + 2b + c)^3 + (a + b + 2c)^3}{abc}$.  
 A) $3$  
 B) $1$  
 C) $-3$  
 D) $6$  
 E) $-1$  
 
-41. **(Reto)** Si se cumple que $\frac{a}{b} + \frac{b}{a} = 2$ para $a, b \in \mathbb{R} \setminus \{0\}$, calcular el valor numérico de:
-$$
-M = \frac{7a^3 + 5b^3}{3a^2 b + 9ab^2}
-$$
+41. **(Reto)** Si se cumple que $\frac{a}{b} + \frac{b}{a} = 2$ para $a, b \in \mathbb{R} \setminus \{0\}$, calcular el valor numérico de: $M = \frac{7a^3 + 5b^3}{3a^2 b + 9ab^2}$.  
 A) $1$  
 B) $2$  
 C) $12/7$  
@@ -838,20 +836,14 @@ C) $-1/6$
 D) $1/2$  
 E) $-1/3$  
 
-44. **(Reto)** Simplificar la siguiente expresión condicional para $x, y, z$ diferentes entre sí:
-$$
-K = \frac{x^2}{(x - y)(x - z)} + \frac{y^2}{(y - z)(y - x)} + \frac{z^2}{(z - x)(z - y)}
-$$
+44. **(Reto)** Simplificar la siguiente expresión condicional para $x, y, z$ diferentes entre sí: $K = \frac{x^2}{(x - y)(x - z)} + \frac{y^2}{(y - z)(y - x)} + \frac{z^2}{(z - x)(z - y)}$.  
 A) $0$  
 B) $1$  
 C) $x + y + z$  
 D) $xy + yz + zx$  
 E) $-1$  
 
-45. **(Reto)** Si $x + y + z = 0$ con $x, y, z \neq 0$, calcular el valor de:
-$$
-S = \frac{x^4 + y^4 + z^4}{(x^2 + y^2 + z^2)^2}
-$$
+45. **(Reto)** Si $x + y + z = 0$ con $x, y, z \neq 0$, calcular el valor de: $S = \frac{x^4 + y^4 + z^4}{(x^2 + y^2 + z^2)^2}$.  
 A) $1$  
 B) $1/2$  
 C) $2$  

@@ -57,19 +57,19 @@ $$L = b - a$$
 
 * **Intervalo Abierto $\langle a, b \rangle$:**
 
-  $$\langle a, b \rangle = \{ x \in \mathbb{R} \mid a < x < b \}$$
+$$\langle a, b \rangle = \{ x \in \mathbb{R} \mid a < x < b \}$$
 
 * **Intervalo Cerrado $[a, b]$:**
 
-  $$[a, b] = \{ x \in \mathbb{R} \mid a \le x \le b \}$$
+$$[a, b] = \{ x \in \mathbb{R} \mid a \le x \le b \}$$
 
 * **Intervalo Semiabierto por la Izquierda $\langle a, b]$:**
 
-  $$\langle a, b] = \{ x \in \mathbb{R} \mid a < x \le b \}$$
+$$\langle a, b] = \{ x \in \mathbb{R} \mid a < x \le b \}$$
 
 * **Intervalo Semiabierto por la Derecha $[a, b\rangle$:**
 
-  $$[a, b\rangle = \{ x \in \mathbb{R} \mid a \le x < b \}$$
+$$[a, b\rangle = \{ x \in \mathbb{R} \mid a \le x < b \}$$
 
 * **Intervalo Degenerado:** Si los dos extremos coinciden ($a = b$), el intervalo cerrado colapsa en un solo punto unitario $[a, a] = \{a\}$, mientras que el abierto queda vacío: $\langle a, a \rangle = \emptyset$.
 
@@ -140,7 +140,6 @@ $$A^c = \langle -\infty, -3\rangle \cup [4, +\infty\rangle$$
 > * Su **longitud** métrica es $7 - 2 = 5$.
 > * La cantidad de **números reales** es **infinita**.
 > * La cantidad de **números enteros** es $7 - 2 + 1 = 6$ enteros ($\{2, 3, 4, 5, 6, 7\}$).
-
 
 ---
 
@@ -770,24 +769,14 @@ C) $[24{,}5; 26{,}2]$
 D) $\langle 26{,}2; 38{,}0\rangle$  
 E) $[22{,}0; 24{,}5\rangle$  
 
-32. Si $x \in \langle -3, 2\rangle$, determine el intervalo exacto de variación de:
-
-$$
-F(x) = \frac{x^2 + 2}{x^2 + 1}
-$$
-
+32. Si $x \in \langle -3, 2\rangle$, determine el intervalo exacto de variación de: $F(x) = \frac{x^2 + 2}{x^2 + 1}$.  
 A) $\left\langle 1, \frac{11}{10} \right\rangle$  
 B) $\left\langle 1, 2 \right]$  
 C) $\left] \frac{11}{10}, 2 \right]$  
 D) $[1, 2]$  
 E) $\left\langle 1, \frac{6}{5} \right]$  
 
-33. Sean los intervalos $I_n = \left\langle -\frac{1}{n}, 2 + \frac{1}{n} \right]$ para todo $n \in \mathbb{N} = \{1, 2, 3, \dots\}$. Halle el conjunto resultante de la unión infinita:
-
-$$
-U = \bigcup_{n=1}^\infty I_n
-$$
-
+33. Sean los intervalos $I_n = \left\langle -\frac{1}{n}, 2 + \frac{1}{n} \right]$ para todo $n \in \mathbb{N} = \{1, 2, 3, \dots\}$. Halle el conjunto resultante de la unión infinita: $U = \bigcup_{n=1}^\infty I_n$.  
 A) $[0, 2]$  
 B) $\langle -1, 3]$  
 C) $[-1, 3]$  
@@ -801,12 +790,7 @@ C) $7{,}2\text{ MPa}$
 D) $9{,}0\text{ MPa}$  
 E) $5{,}4\text{ MPa}$  
 
-35. Si $x \in [3, 7]$, determine el intervalo al que pertenece la expresión:
-
-$$
-E = \frac{x^2 - 2x + 5}{x - 1}
-$$
-
+35. Si $x \in [3, 7]$, determine el intervalo al que pertenece la expresión: $E = \frac{x^2 - 2x + 5}{x - 1}$.  
 A) $[4, 7]$  
 B) $\left[ 4, \frac{20}{3} \right]$  
 C) $[5, 8]$  
@@ -841,12 +825,7 @@ C) $\langle -12, 20\rangle$
 D) $[-10, 20]$  
 E) $\langle -6, 20\rangle$  
 
-40. Si $x \in [2, 6]$, halle el conjunto imagen de la función:
-
-$$
-h(x) = \frac{x^2 - 4x + 8}{x - 2 + \sqrt{x - 2} + 1}
-$$
-
+40. Si $x \in [2, 6]$, halle el conjunto imagen de la función: $h(x) = \frac{x^2 - 4x + 8}{x - 2 + \sqrt{x - 2} + 1}$.  
 A) $[2, 4]$  
 B) $[1, 5]$  
 C) $[2, 5]$  
@@ -860,12 +839,7 @@ C) $5$
 D) $3$  
 E) $7$  
 
-42. Si $x, y \in \mathbb{R}$ tales que $x \in [1, 3]$ e $y \in [2, 5]$, determine el intervalo en el cual varía la expresión:
-
-$$
-W = \frac{x + y}{x \cdot y}
-$$
-
+42. Si $x, y \in \mathbb{R}$ tales que $x \in [1, 3]$ e $y \in [2, 5]$, determine el intervalo en el cual varía la expresión: $W = \frac{x + y}{x \cdot y}$.  
 A) $\left[ \frac{7}{15}, \frac{3}{2} \right]$  
 B) $\left[ \frac{8}{15}, \frac{4}{3} \right]$  
 C) $\left[ \frac{2}{5}, 1 \right]$  
@@ -886,12 +860,7 @@ C) $2{,}8\text{ V}$
 D) $4{,}0\text{ V}$  
 E) $2{,}5\text{ V}$  
 
-45. Para cada $n \in \mathbb{N}$, sea el intervalo $K_n = \left[ \frac{2n - 1}{n}, \frac{3n + 4}{n} \right]$. Calcule la longitud del intervalo resultante de:
-
-$$
-\left( \bigcup_{n=1}^\infty K_n \right) - \left( \bigcap_{n=1}^\infty K_n \right)
-$$
-
+45. Para cada $n \in \mathbb{N}$, sea el intervalo $K_n = \left[ \frac{2n - 1}{n}, \frac{3n + 4}{n} \right]$. Calcule la longitud del intervalo resultante de: $\left( \bigcup_{n=1}^\infty K_n \right) - \left( \bigcap_{n=1}^\infty K_n \right)$.  
 A) $4$  
 B) $5$  
 C) $3$  

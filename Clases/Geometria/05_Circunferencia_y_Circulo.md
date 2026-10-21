@@ -41,28 +41,35 @@ El **círculo** es la unión de la circunferencia y su región interior.
 
 1. **Perpendicularidad Radio-Tangente:**
    Todo radio trazado hacia el punto de tangencia es estrictamente perpendicular a la recta tangente:
-   $$OT \perp \mathcal{L}_T$$
+
+$$OT \perp \mathcal{L}_T$$
 
 2. **Tangentes desde un Punto Exterior:**
    Desde un punto exterior $P$ se pueden trazar exactamente dos tangentes a una circunferencia, cuyos segmentos de contacto son congruentes:
-   $$PA = PB$$
+
+$$PA = PB$$
+
    Además, el rayo $PO$ biseca el ángulo $\angle APB$.
 
 3. **Cuerdas Paralelas:**
    Dos rectas paralelas secantes o tangentes determinan arcos congruentes comprendidos entre ellas:
-   $$\mathcal{L}_1 \parallel \mathcal{L}_2 \implies \text{m}(\widehat{AB}) = \text{m}(\widehat{CD})$$
+
+$$\mathcal{L}_1 \parallel \mathcal{L}_2 \implies \text{m}(\widehat{AB}) = \text{m}(\widehat{CD})$$
 
 4. **Teorema de Poncelet (Triángulo Rectángulo Circunscrito):**
    En todo triángulo rectángulo, la suma de las longitudes de los catetos es igual a la longitud de la hipotenusa más el doble del radio de la circunferencia inscrita (inradio $r$):
-   $$a + c = b + 2r$$
+
+$$a + c = b + 2r$$
 
 5. **Teorema de Pitot (Cuadrilátero Circunscrito):**
    En todo cuadrilátero circunscrito a una circunferencia, la suma de las longitudes de dos lados opuestos es igual a la suma de las longitudes de los otros dos lados opuestos:
-   $$AB + CD = BC + AD$$
+
+$$AB + CD = BC + AD$$
 
 6. **Teorema de Steiner (Cuadrilátero Exinscrito):**
    En todo cuadrilátero exinscrito a una circunferencia, la diferencia de las longitudes de dos lados opuestos es igual a la diferencia de los otros dos lados:
-   $$AB - CD = AD - BC$$
+
+$$AB - CD = AD - BC$$
 
 ---
 
@@ -87,15 +94,19 @@ El **círculo** es la unión de la circunferencia y su región interior.
 
 #### 1. Teorema de las Cuerdas
 Si dos cuerdas $AB$ y $CD$ se cortan en un punto interior $P$:
+
 $$AP \cdot PB = CP \cdot PD$$
 
 #### 2. Teorema de las Secantes
 Si desde un punto exterior $P$ se trazan dos secantes $PAB$ y $PCD$:
+
 $$PA \cdot PB = PC \cdot PD$$
+
 *(donde $PA$ y $PC$ son las partes exteriores y $PB$, $PD$ son las secantes completas).*
 
 #### 3. Teorema de la Tangente
 Si desde un punto exterior $P$ se traza una tangente $PT$ ($T$ punto de contacto) y una secante $PAB$:
+
 $$PT^2 = PA \cdot PB$$
 
 ---
@@ -103,18 +114,29 @@ $$PT^2 = PA \cdot PB$$
 ### 2.5 Longitudes y Áreas de Regiones Circulares
 
 1. **Longitud de la Circunferencia ($L$):**
-   $$L = 2\pi R = \pi D$$
+
+$$L = 2\pi R = \pi D$$
+
 2. **Longitud de un Arco de Ángulo Central $\theta$:**
-   $$L_{\text{arco}} = \frac{2\pi R \cdot \theta}{360^\circ} = \frac{\pi R \cdot \theta}{180^\circ}$$
+
+$$L_{\text{arco}} = \frac{2\pi R \cdot \theta}{360^\circ} = \frac{\pi R \cdot \theta}{180^\circ}$$
+
 3. **Área del Círculo:**
-   $$A = \pi R^2$$
+
+$$A = \pi R^2$$
+
 4. **Área de un Sector Circular:**
-   $$A_{\text{sector}} = \frac{\pi R^2 \cdot \theta}{360^\circ} = \frac{L_{\text{arco}} \cdot R}{2}$$
+
+$$A_{\text{sector}} = \frac{\pi R^2 \cdot \theta}{360^\circ} = \frac{L_{\text{arco}} \cdot R}{2}$$
+
 5. **Área de una Corona Circular:**
-   $$A_{\text{corona}} = \pi(R^2 - r^2) = \frac{\pi \cdot AB^2}{4}$$
+
+$$A_{\text{corona}} = \pi(R^2 - r^2) = \frac{\pi \cdot AB^2}{4}$$
+
    *(donde $AB$ es la cuerda de la circunferencia mayor tangente a la menor).*
 6. **Área de un Segmento Circular:**
-   $$A_{\text{segmento}} = A_{\text{sector}} - A_{\triangle \text{isósceles}} = \frac{\pi R^2 \theta}{360^\circ} - \frac{R^2 \sin(\theta)}{2}$$
+
+$$A_{\text{segmento}} = A_{\text{sector}} - A_{\triangle \text{isósceles}} = \frac{\pi R^2 \theta}{360^\circ} - \frac{R^2 \sin(\theta)}{2}$$
 
 ---
 
@@ -140,9 +162,11 @@ El ángulo central mide igual que el arco subentendido ($\alpha = \text{arco}$),
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el ángulo central $\alpha$:
+
 $$\alpha = \text{m}(\text{arco}) = 110^\circ$$
 
 **Paso 2:** Calcular el ángulo inscrito $\beta$:
+
 $$\beta = \frac{\text{m}(\text{arco})}{2} = \frac{110^\circ}{2} = 55^\circ$$
 
 **Conclusión:**
@@ -159,13 +183,17 @@ Aplicamos el Teorema de las Cuerdas: el producto de los segmentos de una cuerda 
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la igualdad del Teorema de las Cuerdas:
+
 $$AP \cdot PB = CP \cdot PD$$
 
 **Paso 2:** Reemplazar los datos numéricos:
+
 $$8 \cdot 9 = 6 \cdot PD$$
+
 $$72 = 6 \cdot PD$$
 
 **Paso 3:** Despejar $PD$:
+
 $$PD = \frac{72}{6} = 12\text{ cm}$$
 
 **Conclusión:**
@@ -182,13 +210,17 @@ Aplicamos el Teorema de Pitot: la suma de los lados opuestos es igual. Sean los 
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear el Teorema de Pitot:
+
 $$a + c = b + d$$
 
 **Paso 2:** Sustituir los valores conocidos:
+
 $$10 + 18 = 14 + d$$
+
 $$28 = 14 + d$$
 
 **Paso 3:** Despejar $d$:
+
 $$d = 28 - 14 = 14\text{ cm}$$
 
 **Conclusión:**
@@ -207,14 +239,19 @@ El Teorema de la Tangente establece $PT^2 = PA \cdot PB$. Como la secante pasa p
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar el Teorema de la Tangente:
+
 $$PT^2 = PA \cdot PB$$
+
 $$12^2 = 8 \cdot PB \implies 144 = 8 \cdot PB$$
 
 **Paso 2:** Despejar la secante total $PB$:
+
 $$PB = \frac{144}{8} = 18\text{ cm}$$
 
 **Paso 3:** Relacionar $PB$ con el radio $R$:
+
 $$PB = PA + 2R \implies 18 = 8 + 2R$$
+
 $$2R = 10 \implies R = 5\text{ cm}$$
 
 **Conclusión:**
@@ -231,13 +268,17 @@ Primero se halla la hipotenusa por Pitágoras. Luego se usa el Teorema de Poncel
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la hipotenusa $b$:
+
 $$b = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = \sqrt{400} = 20\text{ cm}$$
 
 **Paso 2:** Aplicar el Teorema de Poncelet:
+
 $$a + c = b + 2r \implies 12 + 16 = 20 + 2r$$
+
 $$28 = 20 + 2r \implies 2r = 8 \implies r = 4\text{ cm}$$
 
 **Paso 3:** Calcular la distancia del incentro al vértice recto:
+
 $$d(I, B) = r\sqrt{2} = 4\sqrt{2}\text{ cm}$$
 
 **Conclusión:**
@@ -254,9 +295,11 @@ El ángulo entre dos tangentes y el arco menor subentendido son suplementarios: 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la medida del arco menor $\widehat{AB}$:
+
 $$\angle P + \text{m}(\widehat{AB}) = 180^\circ \implies 40^\circ + \text{m}(\widehat{AB}) = 180^\circ \implies \text{m}(\widehat{AB}) = 140^\circ$$
 
 **Paso 2:** Calcular el ángulo inscrito $\angle ACB$:
+
 $$\angle ACB = \frac{\text{m}(\widehat{AB})}{2} = \frac{140^\circ}{2} = 70^\circ$$
 
 **Conclusión:**
@@ -273,9 +316,11 @@ En la corona circular, el radio mayor $R$, el radio menor $r$ y la mitad de la c
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la relación pitagórica en la mitad de la cuerda tangente:
+
 $$R^2 = r^2 + \left(\frac{16}{2}\right)^2 \implies R^2 - r^2 = 8^2 = 64$$
 
 **Paso 2:** Calcular el área de la corona circular:
+
 $$A_{\text{corona}} = \pi(R^2 - r^2) = 64\pi\text{ cm}^2$$
 
 **Conclusión:**
@@ -294,15 +339,20 @@ El centro es $O$, el radio es $R = 30\text{ m}$, y la distancia del centro a la 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la longitud del segmento tangente $PA$ por Pitágoras:
+
 $$PA = \sqrt{PO^2 - R^2} = \sqrt{50^2 - 30^2} = \sqrt{2500 - 900} = \sqrt{1600} = 40\text{ m}$$
 
 **Paso 2:** Calcular la distancia perpendicular $h$ desde el punto de tangencia $A$ hacia la línea de simetría $PO$:
 En el triángulo rectángulo $\triangle PAO$:
+
 $$\text{Cateto}_1 \cdot \text{Cateto}_2 = \text{Hipotenusa} \cdot h$$
+
 $$PA \cdot OA = PO \cdot h \implies 40 \cdot 30 = 50 \cdot h$$
+
 $$1200 = 50h \implies h = \frac{1200}{50} = 24\text{ m}$$
 
 **Paso 3:** Calcular la distancia total entre ambas cámaras ($AB$):
+
 $$AB = 2h = 2(24) = 48\text{ m}$$
 
 **Conclusión:**
@@ -319,11 +369,15 @@ Se aplican las fórmulas de longitud de arco y área de un sector circular para 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la longitud del arco exterior recorrido:
+
 $$L_{\text{arco}} = \frac{2\pi R \cdot \theta}{360^\circ} = \frac{2\pi(60)(150^\circ)}{360^\circ} = \frac{18\,000\pi}{360} = 50\pi\text{ m}$$
+
 $$L_{\text{arco}} \approx 50(3.1416) = 157.08\text{ m}$$
 
 **Paso 2:** Calcular el área del sector circular irrigado:
+
 $$A_{\text{sector}} = \frac{\pi R^2 \cdot \theta}{360^\circ} = \frac{\pi(60^2)(150^\circ)}{360^\circ} = \frac{3600 \cdot 150 \cdot \pi}{360} = 10 \cdot 150 \cdot \pi = 1\,500\pi\text{ m}^2$$
+
 $$A_{\text{sector}} \approx 1500(3.1416) = 4\,712.4\text{ m}^2 \approx 0.47\text{ hectáreas}$$
 
 **Conclusión:**
@@ -341,13 +395,17 @@ La fórmula pitagórica de la tangente común exterior es: $T_e = \sqrt{d^2 - (R
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar los datos:
+
 $$R = 50\text{ cm},\quad r = 20\text{ cm},\quad d = 100\text{ cm}$$
 
 **Paso 2:** Calcular la diferencia de radios:
+
 $$R - r = 50 - 20 = 30\text{ cm}$$
 
 **Paso 3:** Aplicar el Teorema de Pitágoras para la tangente común exterior:
+
 $$T_e = \sqrt{d^2 - (R - r)^2} = \sqrt{100^2 - 30^2} = \sqrt{10\,000 - 900} = \sqrt{9\,100}$$
+
 $$T_e = \sqrt{100 \cdot 91} = 10\sqrt{91}\text{ cm} \approx 10(9.539) \approx 95.39\text{ cm}$$
 
 **Conclusión:**

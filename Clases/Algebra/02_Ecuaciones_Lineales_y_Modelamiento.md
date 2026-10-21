@@ -42,8 +42,11 @@ La naturaleza de la solución depende exclusivamente de los valores de $a$ y $b$
 #### Micro-ejemplo 1: Análisis de Parámetros
 Determine para qué valores de $m$ y $n$ la ecuación $(m - 3)x = n + 4$ es incompatible:
 * *Análisis:* Para que sea incompatible, el coeficiente de $x$ debe ser cero y el término independiente debe ser no nulo:
-  $$m - 3 = 0 \implies m = 3$$
-  $$n + 4 \neq 0 \implies n \neq -4$$
+
+$$m - 3 = 0 \implies m = 3$$
+
+$$n + 4 \neq 0 \implies n \neq -4$$
+
 * *Conclusión:* Si $m = 3$ y $n \neq -4$, la ecuación adopta la forma absurda $0x = k \neq 0$, por lo que su $CS = \emptyset$.
 
 ---
@@ -114,17 +117,14 @@ alt: Gráfica del Punto de Equilibrio en el Plano Cartesiano
 
 > ⚠️ **Error 1: El signo negativo que precede a una fracción.**  
 > Al resolver una ecuación como $\frac{x}{2} - \frac{2x - 5}{3} = 1$, el signo negativo afecta a **TODO el numerador**:
-> $$-\frac{2x - 5}{3} = \frac{-(2x - 5)}{3} = \frac{-2x + 5}{3}$$
+> $-\frac{2x - 5}{3} = \frac{-(2x - 5)}{3} = \frac{-2x + 5}{3}$
 > El 70% de postulantes olvida cambiar el signo del segundo término y escribe erróneamente $-2x - 5$, arruinando todo el ejercicio.
 
 > ⚠️ **Error 2: Cancelar la incógnita dividiendo entre ella.**  
 > Si tienes $x(x - 4) = 3x$, es un grave error tachar la $x$ a ambos lados diciendo "divido entre $x$". Si haces eso, obtienes $x - 4 = 3 \implies x = 7$ y **pierdes la solución $x = 0$**. La regla correcta es pasar todo a un solo miembro y factorizar:
-> $$x(x - 4) - 3x = 0 \implies x(x - 4 - 3) = 0 \implies x(x - 7) = 0 \implies x = 0 \lor x = 7$$
-
+> $x(x - 4) - 3x = 0 \implies x(x - 4 - 3) = 0 \implies x(x - 7) = 0 \implies x = 0 \lor x = 7$
 > ⚠️ **Error 3: Olvidar verificar el CVA en ecuaciones con denominadores.**  
 > Siempre que veas una incógnita abajo, anota al costado con tinta roja los valores prohibidos. Si tu respuesta final coincide con un valor prohibido, el conjunto solución es vacío ($\emptyset$).
-
-
 
 ---
 
@@ -856,55 +856,38 @@ E) $20$
 
 ### Bloque III: Nivel Avanzado y Retos Beca 18 (Problemas 31 al 45)
 
-31. Resuelva en $\mathbb{R}$ la ecuación:
+31. Resuelva en $\mathbb{R}$ la ecuación: $\frac{x - a - b}{c} + \frac{x - b - c}{a} + \frac{x - c - a}{b} = 3$, donde $a, b, c$ son constantes reales estrictamente positivas.  
+A) $a + b + c$
+B) $ab + bc + ca$
+C) $a^2 + b^2 + c^2$
+D) $0$
+E) $\frac{a + b + c}{3}$
 
-$$
-\frac{x - a - b}{c} + \frac{x - b - c}{a} + \frac{x - c - a}{b} = 3
-$$
+32. En un centro de salud comunal en Loreto, se cuenta con una solución antiséptica de $80\text{ litros}$ al $25\%$ de concentración de yodopovidona. ¿Cuántos litros de agua destilada (concentración $0\%$) deben agregarse para diluir la solución hasta dejarla al $10\%$ de concentración adecuada para limpieza de heridas?
+A) $100\text{ L}$
+B) $110\text{ L}$
+C) $120\text{ L}$
+D) $130\text{ L}$
+E) $140\text{ L}$
 
-donde $a, b, c$ son constantes reales estrictamente positivas.  
-A) $a + b + c$  
-B) $ab + bc + ca$  
-C) $a^2 + b^2 + c^2$  
-D) $0$  
-E) $\frac{a + b + c}{3}$  
-
-32. En un centro de salud comunal en Loreto, se cuenta con una solución antiséptica de $80\text{ litros}$ al $25\%$ de concentración de yodopovidona. ¿Cuántos litros de agua destilada (concentración $0\%$) deben agregarse para diluir la solución hasta dejarla al $10\%$ de concentración adecuada para limpieza de heridas?  
-A) $100\text{ L}$  
-B) $110\text{ L}$  
-C) $120\text{ L}$  
-D) $130\text{ L}$  
-E) $140\text{ L}$  
-
-33. Si la ecuación cuadrática-lineal en $x$:
-
-$$
-(k^2 - 16)x^2 + (k^2 - 3k - 4)x + k^2 - k - 2 = 0
-$$
-
-se reduce a una ecuación de primer grado compatible indeterminada, determine el valor de la constante real $k$.  
-A) $4$  
-B) $-4$  
-C) $-1$  
-D) $2$  
-E) No existe tal valor  
+33. Si la ecuación cuadrática-lineal en $x$: $(k^2 - 16)x^2 + (k^2 - 3k - 4)x + k^2 - k - 2 = 0$ se reduce a una ecuación de primer grado compatible indeterminada, determine el valor de la constante real $k$.  
+A) $4$
+B) $-4$
+C) $-1$
+D) $2$
+E) No existe tal valor
 
 34. Una empresa agroexportadora de Ica contrata un servicio de transporte de carga pesada. La empresa logística ofrece dos planes de flete mensual:
 Plan Alpha: Costo fijo de $\text{S/ } 5\,000$ más $\text{S/ } 12$ por tonelada-kilómetro transportada.
 Plan Beta: Costo fijo de $\text{S/ } 2\,000$ más $\text{S/ } 18$ por tonelada-kilómetro transportada.
-¿A partir de qué volumen exacto de transporte (en toneladas-kilómetro) resulta económicamente más conveniente optar por el Plan Alpha?  
-A) $400$  
-B) $500$  
-C) $600$  
-D) $450$  
-E) $550$  
+¿A partir de qué volumen exacto de transporte (en toneladas-kilómetro) resulta económicamente más conveniente optar por el Plan Alpha?
+A) $400$
+B) $500$
+C) $600$
+D) $450$
+E) $550$
 
-35. Resuelva para $x$ en la ecuación:
-
-$$
-\frac{x + 1}{x - 1} + \frac{x - 2}{x + 2} = \frac{x - 1}{x + 1} + \frac{x + 2}{x - 2}
-$$
-
+35. Resuelva para $x$ en la ecuación: $\frac{x + 1}{x - 1} + \frac{x - 2}{x + 2} = \frac{x - 1}{x + 1} + \frac{x + 2}{x - 2}$.  
 A) $\{0\}$  
 B) $\{1, -1\}$  
 C) $\emptyset$  
@@ -918,57 +901,35 @@ C) $22\,000\text{ m}^3$
 D) $15\,000\text{ m}^3$  
 E) $25\,000\text{ m}^3$  
 
-37. Determine el valor de $x$ que satisface la igualdad:
-
-$$
-\frac{x - 10}{1990} + \frac{x - 20}{1980} + \frac{x - 30}{1970} = \frac{x - 1990}{10} + \frac{x - 1980}{20} + \frac{x - 1970}{30}
-$$
-
+37. Determine el valor de $x$ que satisface la igualdad: $\frac{x - 10}{1990} + \frac{x - 20}{1980} + \frac{x - 30}{1970} = \frac{x - 1990}{10} + \frac{x - 1980}{20} + \frac{x - 1970}{30}$.  
 A) $2\,000$  
 B) $1\,990$  
 C) $2\,010$  
 D) $2\,020$  
 E) $1\,980$  
 
-38. Para qué valores de los parámetros $a$ y $b$ la ecuación lineal:
+38. ¿Para qué valores de los parámetros $a$ y $b$ la ecuación lineal $(a - 2)x + 3 = bx + a$ es incompatible?  
+A) $a = b + 2 \land a \neq 3$
+B) $a = b \land a \neq 2$
+C) $a = 3 \land b = 1$
+D) $a \neq b + 2$
+E) $b = a - 2 \land a = 3$
 
-$$
-(a - 2)x + 3 = bx + a
-$$
+39. Un agricultor de Tarma reparte su cosecha de papas entre tres mayoristas. Al primero le vende la mitad del total más $10\text{ sacos}$; al segundo le entrega la tercera parte del resto más $15\text{ sacos}$; y al tercero le quedan los últimos $45\text{ sacos}$. ¿Cuántos sacos de papa cosechó en total?
+A) $200\text{ sacos}$
+B) $210\text{ sacos}$
+C) $220\text{ sacos}$
+D) $190\text{ sacos}$
+E) $240\text{ sacos}$
 
-es incompatible.  
-A) $a = b + 2 \land a \neq 3$  
-B) $a = b \land a \neq 2$  
-C) $a = 3 \land b = 1$  
-D) $a \neq b + 2$  
-E) $b = a - 2 \land a = 3$  
+40. Si la ecuación fraccionaria en $x$: $\frac{x - a}{x - 2} + \frac{x - b}{x - 3} = 2$ no admite ninguna solución en $\mathbb{R}$, halle una relación necesaria entre los parámetros reales $a$ y $b$.  
+A) $a + b = 5$
+B) $2a + 3b = 13$
+C) $a = 2 \lor b = 3$
+D) $3a + 2b = 12$
+E) $a \cdot b = 6$
 
-39. Un agricultor de Tarma reparte su cosecha de papas entre tres mayoristas. Al primero le vende la mitad del total más $10\text{ sacos}$; al segundo le entrega la tercera parte del resto más $15\text{ sacos}$; y al tercero le quedan los últimos $45\text{ sacos}$. ¿Cuántos sacos de papa cosechó en total?  
-A) $200\text{ sacos}$  
-B) $210\text{ sacos}$  
-C) $220\text{ sacos}$  
-D) $190\text{ sacos}$  
-E) $240\text{ sacos}$  
-
-40. Si la ecuación fraccionaria en $x$:
-
-$$
-\frac{x - a}{x - 2} + \frac{x - b}{x - 3} = 2
-$$
-
-no admite ninguna solución en $\mathbb{R}$, halle una relación necesaria entre los parámetros reales $a$ y $b$.  
-A) $a + b = 5$  
-B) $2a + 3b = 13$  
-C) $a = 2 \lor b = 3$  
-D) $3a + 2b = 12$  
-E) $a \cdot b = 6$  
-
-41. Resuelva en $\mathbb{R}$:
-
-$$
-\frac{x + 1}{2025} + \frac{x + 2}{2024} + \frac{x + 3}{2023} + \dots + \frac{x + 2025}{1} = 2025
-$$
-
+41. Resuelva en $\mathbb{R}$: $\frac{x + 1}{2025} + \frac{x + 2}{2024} + \frac{x + 3}{2023} + \dots + \frac{x + 2025}{1} = 2025$.  
 A) $0$  
 B) $2025$  
 C) $-1$  

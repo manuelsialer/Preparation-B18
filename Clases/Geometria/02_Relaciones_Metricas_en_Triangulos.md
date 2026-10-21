@@ -45,23 +45,29 @@ A partir de la semejanza de los tres triángulos rectángulos formados ($\triang
 
 #### Teorema 1: Teorema de Pitágoras
 El cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los catetos:
+
 $$a^2 + c^2 = b^2$$
 
 #### Teorema 2: Cuadrado de un Cateto (Teorema del Cateto)
 El cuadrado de la longitud de un cateto es igual al producto de la longitud de la hipotenusa por la longitud de su proyección ortogonal sobre ella:
+
 $$c^2 = b \cdot m$$
+
 $$a^2 = b \cdot n$$
 
 #### Teorema 3: Cuadrado de la Altura Relativa a la Hipotenusa
 El cuadrado de la altura relativa a la hipotenusa es igual al producto de las longitudes de las proyecciones de los catetos sobre dicha hipotenusa:
+
 $$h^2 = m \cdot n$$
 
 #### Teorema 4: Producto de Catetos
 El producto de las longitudes de los catetos es igual al producto de la longitud de la hipotenusa por la altura relativa a ella:
+
 $$a \cdot c = b \cdot h$$
 
 #### Teorema 5: Inversa de los Cuadrados de los Catetos
 La inversa del cuadrado de la altura relativa a la hipotenusa es igual a la suma de las inversas de los cuadrados de los catetos:
+
 $$\frac{1}{h^2} = \frac{1}{a^2} + \frac{1}{c^2}$$
 
 ---
@@ -71,20 +77,26 @@ $$\frac{1}{h^2} = \frac{1}{a^2} + \frac{1}{c^2}$$
 #### 1. Teorema de Euclides (Generalización de Pitágoras)
 * **Para un ángulo agudo ($\angle A < 90^\circ$):**
   El cuadrado del lado opuesto a un ángulo agudo es igual a la suma de los cuadrados de los otros dos lados menos el doble producto de uno de ellos por la proyección del otro sobre él:
-  $$a^2 = b^2 + c^2 - 2b \cdot m$$
+
+$$a^2 = b^2 + c^2 - 2b \cdot m$$
+
   *(donde $m$ es la proyección de $c$ sobre el lado $b$).*
 
 * **Para un ángulo obtuso ($\angle A > 90^\circ$):**
   El cuadrado del lado opuesto al ángulo obtuso es igual a la suma de los cuadrados de los otros dos lados más el doble producto de uno de ellos por la proyección del otro sobre él:
-  $$a^2 = b^2 + c^2 + 2b \cdot m$$
+
+$$a^2 = b^2 + c^2 + 2b \cdot m$$
 
 #### 2. Teorema de la Mediana (Teorema de Apolonio)
 En todo triángulo, la suma de los cuadrados de dos lados es igual al doble del cuadrado de la mediana relativa al tercer lado, más la mitad del cuadrado de dicho tercer lado:
+
 $$a^2 + c^2 = 2m_b^2 + \frac{b^2}{2}$$
 
 #### 3. Teorema de Herón (Cálculo de la Altura)
 Permite calcular la longitud de la altura sin conocer ángulos, conociendo únicamente los tres lados del triángulo:
+
 $$h_b = \frac{2}{b}\sqrt{p(p - a)(p - b)(p - c)}$$
+
 donde $p = \frac{a + b + c}{2}$ es el semiperímetro.
 
 ---
@@ -111,13 +123,17 @@ Se conocen las dos proyecciones $m = 4$ y $n = 9$. El Teorema 3 relaciona direct
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar los datos y la fórmula aplicable:
+
 $$m = 4\text{ cm},\quad n = 9\text{ cm}$$
+
 $$h^2 = m \cdot n$$
 
 **Paso 2:** Sustituir los valores:
+
 $$h^2 = 4 \cdot 9 = 36$$
 
 **Paso 3:** Extraer la raíz cuadrada positiva:
+
 $$h = \sqrt{36} = 6\text{ cm}$$
 
 **Conclusión:**
@@ -134,12 +150,15 @@ Se conoce la hipotenusa $b = 25$ y la proyección del cateto $m = 9$. El Teorema
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar el Teorema del Cateto:
+
 $$c^2 = b \cdot m$$
 
 **Paso 2:** Reemplazar los datos numéricos:
+
 $$c^2 = 25 \cdot 9 = 225$$
 
 **Paso 3:** Calcular la longitud del cateto:
+
 $$c = \sqrt{225} = 15\text{ cm}$$
 
 **Conclusión:**
@@ -156,14 +175,19 @@ Primero se halla la hipotenusa mediante el Teorema de Pitágoras. Luego se calcu
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la hipotenusa $b$ por Pitágoras:
+
 $$b = \sqrt{15^2 + 20^2} = \sqrt{225 + 400} = \sqrt{625} = 25\text{ cm}$$
 
 **Paso 2:** Aplicar el Teorema 4 (producto de catetos):
+
 $$a \cdot c = b \cdot h$$
+
 $$15 \cdot 20 = 25 \cdot h$$
+
 $$300 = 25h$$
 
 **Paso 3:** Despejar la altura $h$:
+
 $$h = \frac{300}{25} = 12\text{ cm}$$
 
 **Conclusión:**
@@ -182,17 +206,23 @@ Con $h = 12$ y $m = 16$, usamos $h^2 = m \cdot n$ para hallar la otra proyecció
 **Solución Paso a Paso:**
 
 **Paso 1:** Hallar la otra proyección $n$:
+
 $$h^2 = m \cdot n \implies 12^2 = 16 \cdot n$$
+
 $$144 = 16n \implies n = \frac{144}{16} = 9\text{ cm}$$
 
 **Paso 2:** Determinar la hipotenusa total $b$:
+
 $$b = m + n = 16 + 9 = 25\text{ cm}$$
 
 **Paso 3:** Calcular ambos catetos mediante el teorema del cateto:
+
 $$c^2 = b \cdot m = 25 \cdot 16 = 400 \implies c = 20\text{ cm}$$
+
 $$a^2 = b \cdot n = 25 \cdot 9 = 225 \implies a = 15\text{ cm}$$
 
 **Paso 4:** Sumar los lados para obtener el perímetro:
+
 $$\text{Perímetro} = a + c + b = 15 + 20 + 25 = 60\text{ cm}$$
 
 **Conclusión:**
@@ -209,18 +239,25 @@ Sean los catetos $c = k$ y $a = 3k$. La hipotenusa por Pitágoras es $b = \sqrt{
 **Solución Paso a Paso:**
 
 **Paso 1:** Expresar los lados en función de $k$:
+
 $$\text{Catetos: } c = k,\quad a = 3k$$
+
 $$\text{Hipotenusa: } b = \sqrt{k^2 + 9k^2} = k\sqrt{10}$$
 
 **Paso 2:** Aplicar el Teorema del producto de catetos:
+
 $$a \cdot c = b \cdot h$$
+
 $$(3k)(k) = (k\sqrt{10})(3\sqrt{10})$$
+
 $$3k^2 = 30k$$
 
 **Paso 3:** Como $k > 0$, simplificamos entre $3k$:
+
 $$k = 10\text{ cm}$$
 
 **Paso 4:** Calcular la hipotenusa $b$:
+
 $$b = k\sqrt{10} = 10\sqrt{10}\text{ cm}$$
 
 **Conclusión:**
@@ -233,19 +270,25 @@ En un triángulo $ABC$, los lados miden $AB = 7\text{ cm}$, $BC = 9\text{ cm}$ y
 
 **Análisis Conceptual:**
 Aplicamos el Teorema de la Mediana (Apolonio) sobre el lado $b = AC = 8$:
+
 $$AB^2 + BC^2 = 2m_b^2 + \frac{AC^2}{2}$$
 
 **Solución Paso a Paso:**
 
 **Paso 1:** Reemplazar las longitudes dadas en la ecuación de Apolonio:
+
 $$7^2 + 9^2 = 2m_b^2 + \frac{8^2}{2}$$
 
 **Paso 2:** Efectuar las potencias y operaciones numéricas:
+
 $$49 + 81 = 2m_b^2 + \frac{64}{2}$$
+
 $$130 = 2m_b^2 + 32$$
 
 **Paso 3:** Despejar la mediana $m_b$:
+
 $$2m_b^2 = 130 - 32 = 98$$
+
 $$m_b^2 = 49 \implies m_b = 7\text{ cm}$$
 
 **Conclusión:**
@@ -262,12 +305,15 @@ El Teorema 5 establece directamente la igualdad entre la suma de las inversas de
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear el Teorema 5:
+
 $$\frac{1}{a^2} + \frac{1}{c^2} = \frac{1}{h^2}$$
 
 **Paso 2:** Igualar con el dato del problema:
+
 $$\frac{1}{144} = \frac{1}{h^2}$$
 
 **Paso 3:** Invertir y extraer la raíz:
+
 $$h^2 = 144 \implies h = 12\text{ cm}$$
 
 **Conclusión:**
@@ -286,13 +332,17 @@ La rampa es la hipotenusa $b = 20\text{ m}$. Está dividida en $m$ y $n$ con $m 
 **Solución Paso a Paso:**
 
 **Paso 1:** Determinar los segmentos de la rampa:
+
 $$m + n = 20 \implies 4n + n = 20 \implies 5n = 20 \implies n = 4\text{ m}$$
+
 $$m = 4(4) = 16\text{ m}$$
 
 **Paso 2:** Calcular la altura de la columna $h$:
+
 $$h^2 = m \cdot n = 16 \cdot 4 = 64 \implies h = \sqrt{64} = 8\text{ m}$$
 
 **Paso 3:** Calcular la elevación vertical del centro de salud (cateto vertical $a$ adyacente a la proyección $n$ o cateto de elevación):
+
 $$a^2 = b \cdot n = 20 \cdot 4 = 80 \implies a = \sqrt{80} = 4\sqrt{5}\text{ m} \approx 8.94\text{ m}$$
 
 **Conclusión:**
@@ -309,22 +359,33 @@ En el triángulo oblicuángulo $ABC$, los lados son $a = 150$, $b = 130$ y el la
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el semiperímetro $p$:
+
 $$p = \frac{150 + 130 + 140}{2} = \frac{420}{2} = 210\text{ m}$$
 
 **Paso 2:** Calcular las diferencias del semiperímetro con los lados:
+
 $$p - a = 210 - 150 = 60\text{ m}$$
+
 $$p - b = 210 - 130 = 80\text{ m}$$
+
 $$p - c = 210 - 140 = 70\text{ m}$$
 
 **Paso 3:** Calcular el área del triángulo por Herón:
+
 $$\text{Área} = \sqrt{210 \cdot 60 \cdot 80 \cdot 70}$$
+
 Descomponiendo factores:
+
 $$210 \cdot 70 = 3 \cdot 70 \cdot 70 = 3 \cdot 70^2$$
+
 $$60 \cdot 80 = 4800 = 3 \cdot 1600 = 3 \cdot 40^2$$
+
 $$\text{Área} = \sqrt{(3 \cdot 70^2) \cdot (3 \cdot 40^2)} = \sqrt{3^2 \cdot 70^2 \cdot 40^2} = 3 \cdot 70 \cdot 40 = 8\,400\text{ m}^2$$
 
 **Paso 4:** Calcular la altura relativa $h_c$:
+
 $$\text{Área} = \frac{c \cdot h_c}{2} \implies 8\,400 = \frac{140 \cdot h_c}{2} = 70 \cdot h_c$$
+
 $$h_c = \frac{8\,400}{70} = 120\text{ m}$$
 
 **Conclusión:**
@@ -341,14 +402,19 @@ El sistema forma un triángulo rectángulo en $O$ con catetos $a = 60\text{ m}$ 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la longitud del ducto de ventilación $AB$ (hipotenusa $c$):
+
 $$c = \sqrt{60^2 + 80^2} = \sqrt{3600 + 6400} = \sqrt{10\,000} = 100\text{ m}$$
 
 **Paso 2:** Calcular la longitud del conducto de drenaje $h$ (Teorema del producto de catetos):
+
 $$a \cdot b = c \cdot h$$
+
 $$60 \cdot 80 = 100 \cdot h \implies 4800 = 100h \implies h = 48\text{ m}$$
 
 **Paso 3:** Calcular la distancia del punto de conexión al frente $A$ (proyección $m$ del cateto $60\text{ m}$):
+
 $$a^2 = c \cdot m \implies 60^2 = 100 \cdot m$$
+
 $$3600 = 100m \implies m = 36\text{ m}$$
 
 **Conclusión:**

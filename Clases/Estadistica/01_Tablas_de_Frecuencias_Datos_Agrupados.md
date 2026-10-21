@@ -15,26 +15,26 @@ Para extraer información significativa, el primer paso riguroso consiste en **t
 * **Muestra ($n$):** Subconjunto representativo de la población.
 * **Alcance ($A$):** Intervalo cerrado delimitado por el valor mínimo y máximo:
   
-  $$A = [x_{\min}, x_{\max}]$$
+$$A = [x_{\min}, x_{\max}]$$
   
 * **Rango o Recorrido ($R$):** Amplitud total de los datos:
   
-  $$R = x_{\max} - x_{\min}$$
+$$R = x_{\max} - x_{\min}$$
 
 ### 2.2 Reglas de Agrupamiento en Intervalos
 Para datos continuos o discretos con amplio rango, se divide el recorrido en $k$ intervalos de clase $[L_i, L_s\rangle$:
 1. **Número de Intervalos ($k$):** Comúnmente estimado mediante la **Regla de Sturges**:
    
-   $$k = 1 + 3.322 \log_{10}(n)$$
+$$k = 1 + 3.322 \log_{10}(n)$$
    
    *(El valor de $k$ se redondea al entero más próximo).*
 2. **Ancho o Amplitud de Clase ($C$ o $w$):** Longitud de cada intervalo (asumiendo amplitud constante):
    
-   $$C = \frac{R}{k}$$
+$$C = \frac{R}{k}$$
 
 3. **Marca de Clase ($x_i$):** Punto medio del intervalo, representativo de los datos en esa clase:
    
-   $$x_i = \frac{L_i + L_s}{2}$$
+$$x_i = \frac{L_i + L_s}{2}$$
 
 ```{figure} ../../assets/estadistica/histograma_poligono_frecuencias.svg
 ---
@@ -48,15 +48,15 @@ alt: Histograma y Polígono de Frecuencias
 ### 2.3 Tipos de Frecuencias
 * **Frecuencia Absoluta ($f_i$):** Número de observaciones pertenecientes al $i$-ésimo intervalo. Cumple:
   
-  $$\sum_{i=1}^{k} f_i = n$$
+$$\sum_{i=1}^{k} f_i = n$$
 
 * **Frecuencia Relativa ($h_i$):** Proporción de datos en el intervalo:
   
-  $$h_i = \frac{f_i}{n}, \quad \sum_{i=1}^{k} h_i = 1$$
+$$h_i = \frac{f_i}{n}, \quad \sum_{i=1}^{k} h_i = 1$$
 
 * **Frecuencia Relativa Porcentual ($h_i\%$):**
   
-  $$h_i\% = h_i \times 100\%$$
+$$h_i\% = h_i \times 100\%$$
 
 * **Frecuencias Acumuladas:**
   * **Absoluta Acumulada ($F_i$):** $F_i = \sum_{j=1}^{i} f_j = F_{i-1} + f_i$, con $F_k = n$.

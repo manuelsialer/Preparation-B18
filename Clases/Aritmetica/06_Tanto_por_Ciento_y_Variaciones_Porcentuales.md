@@ -390,9 +390,9 @@ $$1\,088 \div 17 = 64 \implies 1\,088\,000 \div 17 = 64\,000$$
 
 Por lo tanto:
 
-$$P_f = \frac{64\,000 \cdot 20}{19} = \frac{1\,280\,000}{19} \approx \$ 67\,368{,}42$$
+$$P_f = \frac{64\,000 \cdot 20}{19} = \frac{1\,280\,000}{19} \approx \text{USD } 67\,368{,}42$$
 
-*Respuesta:* El precio de lista debe ser de $\frac{1\,280\,000}{19} \approx \$ 67\,368{,}42$.
+*Respuesta:* El precio de lista debe ser de $\frac{1\,280\,000}{19} \approx \text{USD } 67\,368{,}42$.
 
 ---
 

@@ -518,10 +518,7 @@ C) $730$
 D) $732$  
 E) $734$  
 
-6. Calcule el valor de la siguiente suma infinita convergente:
-
-$$S = 16 + 8 + 4 + 2 + 1 + \dots$$
-
+6. Calcule el valor de la siguiente suma infinita convergente: $S = 16 + 8 + 4 + 2 + 1 + \dots$.  
 A) $30$  
 B) $32$  
 C) $34$  
@@ -563,10 +560,7 @@ C) $18$
 D) $20$  
 E) $22$  
 
-12. Calcule la suma límite de la serie geométrica:
-
-$$M = 27 - 9 + 3 - 1 + \frac{1}{3} - \dots$$
-
+12. Calcule la suma límite de la serie geométrica: $M = 27 - 9 + 3 - 1 + \frac{1}{3} - \dots$.  
 A) $18$  
 B) $20$  
 C) $20{,}25$  
@@ -661,10 +655,7 @@ C) $p + q$
 D) $pq$  
 E) $-(p + q)$  
 
-25. Halle el valor de la suma infinita convergente:
-
-$$E = \frac{2}{3} + \frac{4}{9} + \frac{6}{27} + \frac{8}{81} + \dots$$
-
+25. Halle el valor de la suma infinita convergente: $E = \frac{2}{3} + \frac{4}{9} + \frac{6}{27} + \frac{8}{81} + \dots$.  
 A) $1$  
 B) $\frac{3}{2}$  
 C) $\frac{4}{3}$  
@@ -731,10 +722,7 @@ C) $\$ 85\,240$
 D) $\$ 88\,150$  
 E) $\$ 92\,000$  
 
-34. Calcule el valor exacto de convergencia de la serie infinita:
-
-$$S = \frac{1}{5} + \frac{3}{25} + \frac{5}{125} + \frac{7}{625} + \dots + \frac{2n - 1}{5^n} + \dots$$
-
+34. Calcule el valor exacto de convergencia de la serie infinita: $S = \frac{1}{5} + \frac{3}{25} + \frac{5}{125} + \frac{7}{625} + \dots + \frac{2n - 1}{5^n} + \dots$.  
 A) $\frac{1}{3}$  
 B) $\frac{3}{8}$  
 C) $\frac{5}{16}$  
@@ -769,10 +757,7 @@ C) $14{,}25\text{ km}$
 D) $14{,}85\text{ km}$  
 E) $15{,}15\text{ km}$  
 
-39. Si $S_1, S_2, S_3, \dots, S_p$ representan las sumas de los $n$ primeros términos de $p$ progresiones aritméticas cuyos primeros términos son $1, 2, 3, \dots, p$ y cuyas razones son $1, 3, 5, \dots, (2p - 1)$ respectivamente, determine el valor de la suma total:
-
-$$E = S_1 + S_2 + S_3 + \dots + S_p$$
-
+39. Si $S_1, S_2, S_3, \dots, S_p$ representan las sumas de los $n$ primeros términos de $p$ progresiones aritméticas cuyos primeros términos son $1, 2, 3, \dots, p$ y cuyas razones son $1, 3, 5, \dots, (2p - 1)$ respectivamente, determine el valor de la suma total: $E = S_1 + S_2 + S_3 + \dots + S_p$.  
 A) $\frac{np(np + 1)}{2}$  
 B) $\frac{n(p + 1)}{2}$  
 C) $\frac{p(n + 1)}{2}$  
@@ -819,10 +804,7 @@ C) $14$
 D) $15$  
 E) $16$  
 
-45. Calcule el valor de la suma límite de los productos de términos consecutivos de una progresión geométrica infinita:
-
-$$E = 1 \cdot \frac{1}{3} + \frac{1}{3} \cdot \frac{1}{9} + \frac{1}{9} \cdot \frac{1}{27} + \frac{1}{27} \cdot \frac{1}{81} + \dots$$
-
+45. Calcule el valor de la suma límite de los productos de términos consecutivos de una progresión geométrica infinita: $E = 1 \cdot \frac{1}{3} + \frac{1}{3} \cdot \frac{1}{9} + \frac{1}{9} \cdot \frac{1}{27} + \frac{1}{27} \cdot \frac{1}{81} + \dots$.  
 A) $\frac{3}{8}$  
 B) $\frac{1}{4}$  
 C) $\frac{3}{10}$  

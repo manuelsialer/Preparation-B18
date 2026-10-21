@@ -565,40 +565,28 @@ $$\frac{M_3}{M_1} = \left(\frac{1}{2}\right)^3 = \frac{1^3}{2^3} = \frac{1}{8}$$
 
 ### BLOQUE I: NIVEL BÁSICO (Problemas 01 al 15)
 
-1. Calcule el valor irreductible de:
-
-$$E = \left(-\frac{2}{3}\right)^3 + \left(-\frac{1}{3}\right)^2 - \left(\frac{1}{3}\right)^0$$
-
+1. Calcule el valor irreductible de: $E = \left(-\frac{2}{3}\right)^3 + \left(-\frac{1}{3}\right)^2 - \left(\frac{1}{3}\right)^0$.  
 A) $-\frac{32}{27}$  
 B) $-\frac{34}{27}$  
 C) $-\frac{28}{27}$  
 D) $-\frac{26}{27}$  
 E) $-\frac{22}{27}$  
 
-2. Simplifique la siguiente expresión aplicando leyes de exponentes:
-
-$$M = \frac{\left(\frac{3}{5}\right)^8 \cdot \left(\frac{3}{5}\right)^{-5}}{\left(\frac{3}{5}\right)^2}$$
-
+2. Simplifique la siguiente expresión aplicando leyes de exponentes: $M = \frac{\left(\frac{3}{5}\right)^8 \cdot \left(\frac{3}{5}\right)^{-5}}{\left(\frac{3}{5}\right)^2}$.  
 A) $\frac{3}{5}$  
 B) $\frac{9}{25}$  
 C) $\frac{27}{125}$  
 D) $1$  
 E) $\frac{5}{3}$  
 
-3. Halle el valor numérico de:
-
-$$P = \sqrt{\frac{1}{9}} + \sqrt[3]{-\frac{8}{27}} - \sqrt[4]{\frac{1}{16}}$$
-
+3. Halle el valor numérico de: $P = \sqrt{\frac{1}{9}} + \sqrt[3]{-\frac{8}{27}} - \sqrt[4]{\frac{1}{16}}$.  
 A) $-\frac{5}{6}$  
 B) $-\frac{7}{6}$  
 C) $-\frac{1}{2}$  
 D) $-\frac{2}{3}$  
 E) $-\frac{3}{4}$  
 
-4. Determine el exponente final de $x$ al simplificar ($x > 0$):
-
-$$Q = \frac{\sqrt[3]{x^2} \cdot \sqrt{x}}{\sqrt[6]{x^5}}$$
-
+4. Determine el exponente final de $x$ al simplificar ($x > 0$): $Q = \frac{\sqrt[3]{x^2} \cdot \sqrt{x}}{\sqrt[6]{x^5}}$.  
 A) $0$  
 B) $\frac{1}{6}$  
 C) $\frac{1}{3}$  
@@ -612,10 +600,7 @@ C) $\frac{16}{81}$
 D) $\frac{4}{9}$  
 E) $\frac{9}{4}$  
 
-6. Calcule el valor de:
-
-$$A = \sqrt{\frac{25}{36} + \frac{11}{36}} - \sqrt{\frac{16}{25} - \frac{7}{25}}$$
-
+6. Calcule el valor de: $A = \sqrt{\frac{25}{36} + \frac{11}{36}} - \sqrt{\frac{16}{25} - \frac{7}{25}}$.  
 A) $\frac{1}{5}$  
 B) $\frac{2}{5}$  
 C) $\frac{3}{5}$  
@@ -629,20 +614,14 @@ C) $\frac{1}{2}$
 D) $8$  
 E) $16$  
 
-8. Efectúe y simplifique:
-
-$$L = \left[\left(\frac{2}{5}\right)^{-2}\right]^{-1/2}$$
-
+8. Efectúe y simplifique: $L = \left[\left(\frac{2}{5}\right)^{-2}\right]^{-1/2}$.  
 A) $\frac{2}{5}$  
 B) $\frac{5}{2}$  
 C) $\frac{4}{25}$  
 D) $\frac{25}{4}$  
 E) $1$  
 
-9. Calcule el valor de:
-
-$$W = \sqrt[3]{\frac{1}{8}} \times \sqrt[3]{\frac{27}{64}} \times \sqrt[3]{\frac{125}{1000}}$$
-
+9. Calcule el valor de: $W = \sqrt[3]{\frac{1}{8}} \times \sqrt[3]{\frac{27}{64}} \times \sqrt[3]{\frac{125}{1000}}$.  
 A) $\frac{3}{32}$  
 B) $\frac{3}{16}$  
 C) $\frac{1}{8}$  
@@ -677,10 +656,7 @@ C) $-\frac{9}{16}$
 D) $-\frac{16}{9}$  
 E) $\frac{3}{4}$  
 
-14. Simplifique:
-
-$$F = \sqrt{\frac{1}{4} + \frac{1}{9}}$$
-
+14. Simplifique: $F = \sqrt{\frac{1}{4} + \frac{1}{9}}$.  
 A) $\frac{5}{6}$  
 B) $\frac{\sqrt{13}}{6}$  
 C) $\frac{5}{36}$  
@@ -701,60 +677,42 @@ E) V - F - V
 
 ### BLOQUE II: NIVEL INTERMEDIO (Problemas 16 al 30)
 
-16. Calcule el valor numérico de la expresión:
-
-$$H = \frac{2^{-1} + 3^{-1}}{2^{-1} - 3^{-1}} \times \left(\frac{5}{6}\right)^{-1}$$
-
+16. Calcule el valor numérico de la expresión: $H = \frac{2^{-1} + 3^{-1}}{2^{-1} - 3^{-1}} \times \left(\frac{5}{6}\right)^{-1}$.  
 A) $5$  
 B) $6$  
 C) $\frac{25}{6}$  
 D) $\frac{36}{5}$  
 E) $1$  
 
-17. Simplifique la expresión con potencias de bases compuestas:
-
-$$Z = \frac{6^4 \times 10^3 \times 15^2}{2^6 \times 3^5 \times 5^5}$$
-
+17. Simplifique la expresión con potencias de bases compuestas: $Z = \frac{6^4 \times 10^3 \times 15^2}{2^6 \times 3^5 \times 5^5}$.  
 A) $\frac{3}{5}$  
 B) $\frac{9}{5}$  
 C) $\frac{18}{5}$  
 D) $\frac{27}{5}$  
 E) $\frac{12}{5}$  
 
-18. Resuelva la ecuación exponencial:
-
-$$\left(\frac{9}{4}\right)^{2x-1} = \left(\frac{8}{27}\right)^{x-4}$$
-
+18. Resuelva la ecuación exponencial: $\left(\frac{9}{4}\right)^{2x-1} = \left(\frac{8}{27}\right)^{x-4}$.  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $\frac{5}{2}$  
 E) $\frac{7}{2}$  
 
-19. Halle el valor equivalente de:
-
-$$T = \sqrt{2 \sqrt{2 \sqrt{2 \sqrt{2}}}}$$
-
+19. Halle el valor equivalente de: $T = \sqrt{2 \sqrt{2 \sqrt{2 \sqrt{2}}}}$.  
 A) $2^{7/8}$  
 B) $2^{15/16}$  
 C) $2^{31/32}$  
 D) $2^{5/8}$  
 E) $2^{3/4}$  
 
-20. Racionalice y calcule el valor de:
-
-$$M = \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \frac{1}{\sqrt{5} + \sqrt{4}}$$
-
+20. Racionalice y calcule el valor de: $M = \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \frac{1}{\sqrt{5} + \sqrt{4}}$.  
 A) $\sqrt{5} - \sqrt{2}$  
 B) $\sqrt{5} + \sqrt{2}$  
 C) $\sqrt{5} - 2$  
 D) $2 - \sqrt{2}$  
 E) $\sqrt{5}$  
 
-21. Calcule el valor de $E$:
-
-$$E = \left[\left(\frac{1}{64}\right)^{-1/3} + \left(\frac{1}{81}\right)^{-1/4}\right]^{1/2}$$
-
+21. Calcule el valor de $E$: $E = \left[\left(\frac{1}{64}\right)^{-1/3} + \left(\frac{1}{81}\right)^{-1/4}\right]^{1/2}$.  
 A) $\sqrt{7}$  
 B) $\sqrt{5}$  
 C) $7$  
@@ -768,40 +726,28 @@ C) $\frac{1}{16}$
 D) $-\frac{1}{2}$  
 E) $-\frac{1}{4}$  
 
-23. Simplifique la raíz enésima:
-
-$$A = \sqrt[n]{\frac{20^{n+1}}{4^{n+2} + 2^{2n+2}}}$$
-
+23. Simplifique la raíz enésima: $A = \sqrt[n]{\frac{20^{n+1}}{4^{n+2} + 2^{2n+2}}}$.  
 A) $4$  
 B) $5$  
 C) $2$  
 D) $\frac{5}{2}$  
 E) $\frac{5}{4}$  
 
-24. Halle el exponente fraccionario irreductible de $a$ al reducir:
-
-$$J = \sqrt[3]{a^2 \sqrt{a \sqrt[4]{a^3}}}$$
-
+24. Halle el exponente fraccionario irreductible de $a$ al reducir: $J = \sqrt[3]{a^2 \sqrt{a \sqrt[4]{a^3}}}$.  
 A) $\frac{17}{24}$  
 B) $\frac{19}{24}$  
 C) $\frac{23}{24}$  
 D) $\frac{25}{24}$  
 E) $\frac{7}{8}$  
 
-25. Resuelva en $\mathbb{R}$:
-
-$$\left(\frac{1}{25}\right)^{2x} \cdot 125^{x-1} = \left(\frac{1}{5}\right)^{x+5}$$
-
+25. Resuelva en $\mathbb{R}$: $\left(\frac{1}{25}\right)^{2x} \cdot 125^{x-1} = \left(\frac{1}{5}\right)^{x+5}$.  
 A) $1$  
 B) $2$  
 C) $-1$  
 D) $-2$  
 E) $3$  
 
-26. Reduzca la expresión:
-
-$$U = \sqrt{\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}}$$
-
+26. Reduzca la expresión: $U = \sqrt{\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}}$.  
 A) $\frac{1}{2}$  
 B) $\frac{\sqrt{7}}{4}$  
 C) $\frac{7}{8}$  
@@ -822,20 +768,14 @@ C) $\sqrt{5} - \sqrt{2}$
 D) $2 + \sqrt{3}$  
 E) $\sqrt{7} + \sqrt{2}$  
 
-29. Calcule el valor de $K$ si:
-
-$$K = \left(\frac{2}{3}\right)^{-1} + \left(\frac{3}{2}\right)^{-2} + \left(\frac{4}{9}\right)^{-1/2}$$
-
+29. Calcule el valor de $K$ si: $K = \left(\frac{2}{3}\right)^{-1} + \left(\frac{3}{2}\right)^{-2} + \left(\frac{4}{9}\right)^{-1/2}$.  
 A) $\frac{29}{9}$  
 B) $\frac{31}{9}$  
 C) $\frac{35}{9}$  
 D) $\frac{37}{9}$  
 E) $\frac{41}{9}$  
 
-30. Calcule el valor de la raíz infinita:
-
-$$X = \sqrt{\frac{1}{2} + \sqrt{\frac{1}{2} + \sqrt{\frac{1}{2} + \cdots}}}$$
-
+30. Calcule el valor de la raíz infinita: $X = \sqrt{\frac{1}{2} + \sqrt{\frac{1}{2} + \sqrt{\frac{1}{2} + \cdots}}}$.  
 A) $\frac{1}{2}$  
 B) $1$  
 C) $\frac{\sqrt{3}}{2}$  

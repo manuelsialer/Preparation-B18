@@ -31,16 +31,16 @@ El módulo desarrolla de manera progresiva las tres grandes dimensiones de la co
 
 | N° | Tema | Enfoque Pedagógico |
 | :---: | :--- | :--- |
-| **01** | **El Tema, la Idea Principal y los Subtemas** | Jerarquía del texto, macrorreglas de supresión/generalización y descarte de ideas secundarias. |
-| **02** | **Tipología por Formato: Continuos, Discontinuos y Mixtos** | Lectura no lineal de infografías, tablas estadísticas, afiches y diagramas del contexto nacional. |
-| **03** | **Tipología por Intención: Expositivo, Narrativo e Instructivo** | Identificación de estructuras textuales lógicas, patrones causales y cronológicos. |
-| **04** | **Nivel Literal: Localización e Integración de Información** | Paráfrasis, escaneo rápido y reconstrucción de información dispersa en el texto. |
-| **05** | **Nivel Inferencial: Causa-Efecto y Problema-Solución** | Relaciones causales implícitas, deducción de factores determinantes y propuestas de solución. |
-| **06** | **Sentido Figurado, Metáforas, Ironías y Tono del Autor** | Lenguaje connotativo, recursos retóricos, modismos contextuales y actitud del emisor. |
-| **07** | **Inferencia Global: Conclusiones, Extrapolación y Propósito** | Síntesis deductiva, predicción de escenarios ("¿Qué ocurriría si...?") e intención comunicativa. |
-| **08** | **Textos Argumentativos: Tesis, Argumentos y Contraargumentos** | Identificación de la postura central, argumentos de soporte y objeciones que debilitan la tesis. |
-| **09** | **Textos Dialécticos: Discrepancias y Coincidencias (Texto A vs. B)** | Comparación de posturas enfrentadas sobre dilemas éticos, científicos y de la realidad peruana. |
-| **10** | **Lectura Crítica: Falacias, Sesgos y Credibilidad de Fuentes** | Detección de falacias de admisión, análisis de objetividad y juicio crítico fundamentado. |
+| **01** | [El Tema, la Idea Principal y los Subtemas](01_Tema_Idea_Principal_y_Subtemas.md) | Jerarquía del texto, macrorreglas de supresión/generalización y descarte de ideas secundarias. |
+| **02** | [Tipología por Formato: Continuos, Discontinuos y Mixtos](02_Tipologia_Textual_Formatos_Continuo_Discontinuo_Mixto.md) | Lectura no lineal de infografías, tablas estadísticas, afiches y diagramas del contexto nacional. |
+| **03** | [Tipología por Intención: Expositivo, Narrativo e Instructivo](03_Tipologia_Textual_Intencion_Expositivo_Narrativo_Instructivo.md) | Identificación de estructuras textuales lógicas, patrones causales y cronológicos. |
+| **04** | [Nivel Literal: Localización e Integración de Información](04_Nivel_Literal_Localizacion_e_Integracion_de_Informacion.md) | Paráfrasis, escaneo rápido y reconstrucción de información dispersa en el texto. |
+| **05** | [Nivel Inferencial: Causa-Efecto y Problema-Solución](05_Nivel_Inferencial_Causa_Efecto_y_Problema_Solucion.md) | Relaciones causales implícitas, deducción de factores determinantes y propuestas de solución. |
+| **06** | [Sentido Figurado, Metáforas, Ironías y Tono del Autor](06_Sentido_Figurado_Metaforas_Ironias_y_Tono_del_Autor.md) | Lenguaje connotativo, recursos retóricos, modismos contextuales y actitud del emisor. |
+| **07** | [Inferencia Global: Conclusiones, Extrapolación y Propósito](07_Inferencia_Global_Conclusiones_Extrapolacion_e_Intencion.md) | Síntesis deductiva, predicción de escenarios ("¿Qué ocurriría si...?") e intención comunicativa. |
+| **08** | [Textos Argumentativos: Tesis, Argumentos y Contraargumentos](08_Textos_Argumentativos_Tesis_Argumentos_y_Contraargumentos.md) | Identificación de la postura central, argumentos de soporte y objeciones que debilitan la tesis. |
+| **09** | [Textos Dialécticos: Discrepancias y Coincidencias (Texto A vs. B)](09_Textos_Dialecticos_Discrepancias_y_Coincidencias.md) | Comparación de posturas enfrentadas sobre dilemas éticos, científicos y de la realidad peruana. |
+| **10** | [Lectura Crítica: Falacias, Sesgos y Credibilidad de Fuentes](10_Lectura_Critica_Falacias_Sesgos_y_Credibilidad_de_Fuentes.md) | Detección de falacias de admisión, análisis de objetividad y juicio crítico fundamentado. |
 
 ---
 

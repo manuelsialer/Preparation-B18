@@ -639,20 +639,14 @@ E) $0.04 \times 10^6$
 
 ### BLOQUE II: NIVEL INTERMEDIO (Problemas 16 al 30)
 
-16. Calcule el resultado de simplificar la expresión:
-
-$$E = \frac{7.2 \times 10^{-4} + 1.8 \times 10^{-3}}{4.0 \times 10^{-2}}$$
-
+16. Calcule el resultado de simplificar la expresión: $E = \frac{7.2 \times 10^{-4} + 1.8 \times 10^{-3}}{4.0 \times 10^{-2}}$.  
 A) $6.3 \times 10^{-2}$  
 B) $6.3 \times 10^{-3}$  
 C) $6.3 \times 10^{-1}$  
 D) $2.52 \times 10^{-2}$  
 E) $2.52 \times 10^{-1}$  
 
-17. Determine el valor de $M$ en notación científica:
-
-$$M = \frac{(6.0 \times 10^5)^2 \times (2.0 \times 10^{-4})}{(3.0 \times 10^3)^3}$$
-
+17. Determine el valor de $M$ en notación científica: $M = \frac{(6.0 \times 10^5)^2 \times (2.0 \times 10^{-4})}{(3.0 \times 10^3)^3}$.  
 A) $2.67 \times 10^{-3}$  
 B) $2.67 \times 10^{-4}$  
 C) $2.67 \times 10^{-2}$  
@@ -666,10 +660,7 @@ C) $1.51 \times 10^5\text{ veces}$
 D) $1.51 \times 10^4\text{ veces}$  
 E) $6.625 \times 10^3\text{ veces}$  
 
-19. Efectúe la operación:
-
-$$K = \sqrt[3]{2.7 \times 10^{-5} \times 8.0 \times 10^{-7}}$$
-
+19. Efectúe la operación: $K = \sqrt[3]{2.7 \times 10^{-5} \times 8.0 \times 10^{-7}}$.  
 A) $6.0 \times 10^{-4}$  
 B) $6.0 \times 10^{-5}$  
 C) $2.16 \times 10^{-4}$  
@@ -704,20 +695,14 @@ C) $4.0 \times 10^8$
 D) $2.5 \times 10^9$  
 E) $4.0 \times 10^{10}$  
 
-24. Determine el orden de magnitud del producto:
-
-$$P = (4.5 \times 10^3) \times (7.8 \times 10^5)$$
-
+24. Determine el orden de magnitud del producto: $P = (4.5 \times 10^3) \times (7.8 \times 10^5)$.  
 A) $10^8$  
 B) $10^9$  
 C) $10^{10}$  
 D) $10^{11}$  
 E) $10^7$  
 
-25. Simplifique:
-
-$$Z = \frac{(1.5 \times 10^{-2}) + (2.5 \times 10^{-3})}{5.0 \times 10^{-4}}$$
-
+25. Simplifique: $Z = \frac{(1.5 \times 10^{-2}) + (2.5 \times 10^{-3})}{5.0 \times 10^{-4}}$.  
 A) $3.5 \times 10^1$  
 B) $3.5 \times 10^0$  
 C) $3.5 \times 10^2$  
@@ -731,10 +716,7 @@ C) $2.4 \times 10^3\text{ kg}$
 D) $2.4 \times 10^4\text{ kg}$  
 E) $2.4 \times 10^5\text{ kg}$  
 
-27. Encuentre el valor de $x$ si se cumple que:
-
-$$\frac{4.2 \times 10^x}{1.4 \times 10^{-5}} = 3.0 \times 10^{12}$$
-
+27. Encuentre el valor de $x$ si se cumple que: $\frac{4.2 \times 10^x}{1.4 \times 10^{-5}} = 3.0 \times 10^{12}$.  
 A) $5$  
 B) $6$  
 C) $7$  
@@ -748,10 +730,7 @@ C) $1845$
 D) $1820$  
 E) $1850$  
 
-29. Calcule el valor de $W$ en notación científica:
-
-$$W = \frac{1}{2.5 \times 10^{-6}}$$
-
+29. Calcule el valor de $W$ en notación científica: $W = \frac{1}{2.5 \times 10^{-6}}$.  
 A) $4.0 \times 10^5$  
 B) $4.0 \times 10^6$  
 C) $2.5 \times 10^5$  
@@ -871,10 +850,7 @@ C) $4.5 \times 10^5\text{ veces}$
 D) $5.0 \times 10^5\text{ veces}$  
 E) $2.0 \times 10^7\text{ veces}$  
 
-45. **(Contexto de Reto Preuniversitario y Descomposición Exponencial):** Determine el valor simplificado e irreductible de $E$ expresado en notación científica:
-
-$$E = \frac{\sqrt{3.6 \times 10^7} \times \sqrt[3]{6.4 \times 10^{-8}}}{(2.0 \times 10^{-2})^2 \times (1.5 \times 10^4)}$$
-
+45. **(Contexto de Reto Preuniversitario y Descomposición Exponencial):** Determine el valor simplificado e irreductible de $E$ expresado en notación científica: $E = \frac{\sqrt{3.6 \times 10^7} \times \sqrt[3]{6.4 \times 10^{-8}}}{(2.0 \times 10^{-2})^2 \times (1.5 \times 10^4)}$.  
 A) $4.0 \times 10^0$  
 B) $4.0 \times 10^1$  
 C) $4.0 \times 10^{-1}$  

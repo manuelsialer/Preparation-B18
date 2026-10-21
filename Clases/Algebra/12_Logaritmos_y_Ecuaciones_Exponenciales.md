@@ -8,11 +8,10 @@ $$
 
 Para garantizar la existencia formal y la unicidad en el campo de los números reales ($\mathbb{R}$), se establecen de manera obligatoria las **condiciones de existencia del logaritmo** (Conjunto de Valores Admisibles o C.V.A.):
 
-1. El argumento o número debe ser estrictamente positivo:
-$$
-N > 0
-$$
+1. El argumento o número debe ser estrictamente positivo: $N > 0$.
+
 2. La base debe ser estrictamente positiva y diferente de uno:
+
 $$
 b > 0 \quad \land \quad b \neq 1
 $$
@@ -38,11 +37,15 @@ Simetría respecto a la diagonal principal $y = x$ entre la función exponencial
 De la definición de función inversa se deducen directamente las dos identidades de cancelación fundamentales:
 
 $$
+
 b^{\log_b(N)} = N, \quad \forall N > 0, \ b > 0, \ b \neq 1
+
 $$
 
 $$
+
 \log_b(b^x) = x, \quad \forall x \in \mathbb{R}, \ b > 0, \ b \neq 1
+
 $$
 
 Valores particulares inmediatos:
@@ -52,12 +55,19 @@ Valores particulares inmediatos:
 ### 1.2 Sistemas Notables de Logaritmos
 
 1. **Logaritmo Decimal, Vulgar o de Briggs:** Es aquel cuya base es 10. Por convenio internacional se omite escribir la base:
+
 $$
+
 \log_{10}(N) \equiv \log(N)
+
 $$
+
 2. **Logaritmo Natural, Neperiano o Hiperbólico:** Es aquel cuya base es la constante matemática trascendente $e \approx 2.718281828\dots$:
+
 $$
+
 \log_e(N) \equiv \ln(N)
+
 $$
 
 ---
@@ -69,61 +79,109 @@ Para bases y argumentos pertenecientes a sus respectivos dominios de existencia:
 ### 2.1 Teoremas Operativos Fundamentales
 
 1. **Logaritmo de un Producto:**
+
 $$
+
 \log_b(M \cdot N) = \log_b(M) + \log_b(N)
+
 $$
+
 2. **Logaritmo de un Cociente:**
+
 $$
+
 \log_b\left(\frac{M}{N}\right) = \log_b(M) - \log_b(N)
+
 $$
+
 3. **Logaritmo de una Potencia (Regla del Sombrero):**
+
 $$
+
 \log_b(N^k) = k \cdot \log_b(N), \quad (\forall k \in \mathbb{R})
+
 $$
+
 4. **Generalización de Exponentes en Base y Argumento:**
+
 $$
+
 \log_{b^m}(N^k) = \frac{k}{m} \log_b(N), \quad (m \neq 0)
+
 $$
+
 5. **Logaritmo de una Raíz:**
+
 $$
+
 \log_b(\sqrt[n]{N}) = \frac{1}{n} \log_b(N)
+
 $$
 
 ### 2.2 Teoremas de Transformación de Base
 
 1. **Fórmula del Cambio de Base:** Permite convertir un logaritmo en base $b$ a una nueva base arbitraria $c$ ($c > 0, c \neq 1$):
+
 $$
+
 \log_b(N) = \frac{\log_c(N)}{\log_c(b)}
+
 $$
+
 2. **Regla de la Inversión de Base:**
+
 $$
+
 \log_b(a) = \frac{1}{\log_a(b)} \iff \log_b(a) \cdot \log_a(b) = 1
+
 $$
+
 3. **Regla de la Cadena:**
+
 $$
+
 \log_b(a) \cdot \log_c(b) \cdot \log_d(c) = \log_d(a)
+
 $$
+
 4. **Permuta de Base y Argumento en Exponenciales:**
+
 $$
+
 a^{\log_b(c)} = c^{\log_b(a)}
+
 $$
 
 ### 2.3 Cologaritmo y Antilogaritmo
 
 1. **Cologaritmo ($\text{colog}$):** Es el logaritmo del inverso multiplicativo del argumento, equivalente al opuesto del logaritmo:
+
 $$
+
 \text{colog}_b(N) = \log_b\left(\frac{1}{N}\right) = -\log_b(N)
+
 $$
+
 2. **Antilogaritmo ($\text{antilog}$):** Es la operación puramente exponencial en la base especificada:
+
 $$
+
 \text{antilog}_b(x) = b^x
+
 $$
+
 3. **Propiedades de Composición y Cancelación:**
+
 $$
+
 \log_b(\text{antilog}_b(x)) = x
+
 $$
+
 $$
+
 \text{antilog}_b(\log_b(N)) = N
+
 $$
 
 ---
@@ -135,13 +193,21 @@ $$
 Son igualdades algebraicas donde la incógnita se encuentra ubicada en el exponente.
 
 * **Principio de Bases Iguales:** Si las bases son idénticas y no triviales ($a > 0, a \neq 1$):
+
 $$
+
 a^{f(x)} = a^{g(x)} \iff f(x) = g(x)
+
 $$
+
 * **Principio de Analogía o Semejanza Formal:**
+
 $$
+
 [f(x)]^{f(x)} = a^a \implies f(x) = a
+
 $$
+
 * **Método de Cambio de Variable:** Para ecuaciones con sumas o diferencias de potencias de la misma base, se hace $u = a^x$ (con $u > 0$), reduciendo la expresión a una ecuación polinomial.
 * **Aplicación de Logaritmos:** Cuando las bases son distintas e irreducibles ($a^x = b$), se toman logaritmos a ambos miembros: $x = \frac{\log(b)}{\log(a)}$.
 
@@ -153,9 +219,13 @@ Son ecuaciones en las cuales la incógnita forma parte del argumento o de la bas
 1. **Determinar el C.V.A.:** Establecer las desigualdades $N(x) > 0$, $b(x) > 0$ y $b(x) \neq 1$. El C.V.A. es la intersección de todos los intervalos admisibles.
 2. **Aplicar propiedades algebraicas:** Transformar sumas y diferencias de logaritmos en logaritmos de productos o cocientes hasta alcanzar la forma canónica $\log_b(f(x)) = \log_b(g(x))$.
 3. **Inyectividad:** Por ser la función logarítmica biyectiva:
+
 $$
+
 \log_b(f(x)) = \log_b(g(x)) \iff f(x) = g(x)
+
 $$
+
 4. **Verificación y Descarte de Raíces Extrañas:** Confrontar las soluciones algebraicas obtenidas con el C.V.A. Solo los valores que pertenezcan estrictamente al C.V.A. constituyen el Conjunto Solución (C.S.).
 
 ---
@@ -164,8 +234,11 @@ $$
 
 ### Ejercicio 1: Aplicación de la Definición e Identidades
 Calcular el valor numérico de la expresión:
+
 $$
+
 E = \log_2(32) + \log_3\left(\frac{1}{27}\right) + \log_{\sqrt{5}}(25)
+
 $$
 
 **Paso 1:** Evaluamos cada término individualmente aplicando la definición de logaritmo:
@@ -182,8 +255,11 @@ $E = 5 + (-3) + 4 = 6$
 
 ### Ejercicio 2: Propiedades de la Regla del Sombrero y Radicales
 Reducir la expresión:
+
 $$
+
 M = \log_{8}(16) + \log_{27}(81) - \log_{32}(64)
+
 $$
 
 **Paso 1:** Expresamos las bases y argumentos como potencias de números primos comunes:
@@ -209,8 +285,11 @@ $M = \frac{8(5) - 6(3)}{15} = \frac{40 - 18}{15} = \frac{22}{15}$
 
 ### Ejercicio 3: Regla de la Cadena y Cambio de Base
 Calcular el valor del producto:
+
 $$
+
 P = \log_2(3) \cdot \log_3(5) \cdot \log_5(7) \cdot \log_7(64)
+
 $$
 
 **Paso 1:** Aplicamos la Regla de la Cadena para el producto continuado de logaritmos:
@@ -229,8 +308,11 @@ $P = \log_2(2^6) = 6\log_2(2) = 6(1) = 6$
 
 ### Ejercicio 4: Ecuación Logarítmica con Validación de C.V.A.
 Resolver la ecuación logarítmica en $\mathbb{R}$:
+
 $$
+
 \log_2(x + 2) + \log_2(x - 1) = 2
+
 $$
 
 **Paso 1:** Determinamos el Conjunto de Valores Admisibles (C.V.A.):
@@ -259,8 +341,11 @@ $(x + 3)(x - 2) = 0 \implies x_1 = -3 \quad \lor \quad x_2 = 2$
 
 ### Ejercicio 5: Ecuación Exponencial con Cambio de Variable
 Resolver en $\mathbb{R}$:
+
 $$
+
 4^x - 3 \cdot 2^{x+1} + 8 = 0
+
 $$
 
 **Paso 1:** Homogeneizamos la base expresando todo en potencias de 2:
@@ -289,8 +374,11 @@ Ambos valores son positivos, por lo que ambos son válidos.
 
 ### Ejercicio 6: Cologaritmos y Antilogaritmos Compuestos
 Calcular el valor numérico de:
+
 $$
+
 A = \text{antilog}_2\left[ \log_3\left( \text{antilog}_3(4) \right) + \text{colog}_2\left( \frac{1}{8} \right) \right]
+
 $$
 
 **Paso 1:** Resolvemos de adentro hacia afuera:
@@ -310,9 +398,13 @@ $A = \text{antilog}_2(7) = 2^7 = 128$
 
 ### Ejercicio 7: Sistema de Ecuaciones Exponenciales
 Resolver el sistema de ecuaciones:
+
 $$
+
 \begin{cases} 2^x \cdot 3^y = 18 \\ 2^y \cdot 3^x = 12 \end{cases}
+
 $$
+
 y calcular el valor de $x + y$.
 
 **Paso 1:** Multiplicamos miembro a miembro ambas ecuaciones:
@@ -333,8 +425,11 @@ $6^{x+y} = 6^3 \implies x + y = 3$
 
 ### Ejercicio 8: Identidad de Permuta de Base y Argumento
 Hallar el valor de $x$ en la ecuación:
+
 $$
+
 x^{\log_3(2)} + 2^{\log_3(x)} = 16
+
 $$
 
 **Paso 1:** Aplicamos la propiedad de permuta $a^{\log_b(c)} = c^{\log_b(a)}$ sobre el primer término:
@@ -360,8 +455,11 @@ Verificamos C.V.A.: $x = 27 > 0$ (Válido).
 
 ### Ejercicio 9: Ecuación por Analogía o Semejanza Formal
 Resolver en $\mathbb{R}$:
+
 $$
+
 x^x = 256
+
 $$
 
 **Paso 1:** Descomponemos 256 en factores primos:
@@ -380,9 +478,13 @@ Por analogía matemática estricta: $x = 4$.
 
 ### Ejercicio 10: Aplicación Contextualizada (Crecimiento Poblacional en Piscigranja)
 En un centro de acuicultura comunal en la selva central de Oxapampa, la biomasa $B(t)$ de peces en kilogramos en función del tiempo $t$ (en meses) sigue el modelo de crecimiento exponencial:
+
 $$
+
 B(t) = 500 \cdot e^{0.08 t}
+
 $$
+
 ¿En cuántos meses la biomasa alcanzará los $2000\text{ kg}$? (Dato: $\ln(2) \approx 0.693$).
 
 **Paso 1:** Planteamos la condición del problema:
@@ -410,202 +512,186 @@ $t = \frac{1.386}{0.08} = \frac{138.6}{8} = 17.325\text{ meses}$
 
 ### Nivel Básico (Ejercicios 1 al 15)
 
-1. Calcular el valor de $\log_3(81)$:  
-A) $3$  
-B) $4$  
-C) $5$  
-D) $27$  
-E) $9$  
+1. Calcular el valor de $\log_3(81)$:
+A) $3$
+B) $4$
+C) $5$
+D) $27$
+E) $9$
 
-2. Hallar el valor de $\log_{1/2}(16)$:  
-A) $4$  
-B) $-4$  
-C) $2$  
-D) $-2$  
-E) $8$  
+2. Hallar el valor de $\log_{1/2}(16)$:
+A) $4$
+B) $-4$
+C) $2$
+D) $-2$
+E) $8$
 
-3. Resolver la ecuación exponencial $3^{2x - 1} = 27$:  
-A) $1$  
-B) $2$  
-C) $3$  
-D) $4$  
-E) $5$  
+3. Resolver la ecuación exponencial $3^{2x - 1} = 27$:
+A) $1$
+B) $2$
+C) $3$
+D) $4$
+E) $5$
 
-4. Si $\log_b(64) = 3$, ¿cuál es el valor de la base $b$?  
-A) $2$  
-B) $4$  
-C) $8$  
-D) $16$  
-E) $3$  
+4. Si $\log_b(64) = 3$, ¿cuál es el valor de la base $b$?
+A) $2$
+B) $4$
+C) $8$
+D) $16$
+E) $3$
 
-5. Calcular el valor de $E = \log(1000) + \ln(e^4)$:  
-A) $7$  
-B) $12$  
-C) $10$  
-D) $3$  
-E) $4$  
+5. Calcular el valor de $E = \log(1000) + \ln(e^4)$:
+A) $7$
+B) $12$
+C) $10$
+D) $3$
+E) $4$
 
-6. Reducir la suma $\log(2) + \log(5)$:  
-A) $0$  
-B) $1$  
-C) $7$  
-D) $10$  
-E) $\log(7)$  
+6. Reducir la suma $\log(2) + \log(5)$:
+A) $0$
+B) $1$
+C) $7$
+D) $10$
+E) $\log(7)$
 
-7. Calcular el valor del antilogaritmo: $\text{antilog}_3(4)$:  
-A) $12$  
-B) $64$  
-C) $81$  
-D) $27$  
-E) $243$  
+7. Calcular el valor del antilogaritmo: $\text{antilog}_3(4)$:
+A) $12$
+B) $64$
+C) $81$
+D) $27$
+E) $243$
 
-8. Hallar el valor de $\text{colog}_5(125)$:  
-A) $3$  
-B) $-3$  
-C) $1/3$  
-D) $-1/3$  
-E) $25$  
+8. Hallar el valor de $\text{colog}_5(125)$:
+A) $3$
+B) $-3$
+C) $1/3$
+D) $-1/3$
+E) $25$
 
-9. Resolver la ecuación exponencial $2^{x^2 - 5} = 16$:  
-A) $\pm 3$  
-B) $\pm 2$  
-C) $\pm 1$  
-D) $3$  
-E) $9$  
+9. Resolver la ecuación exponencial $2^{x^2 - 5} = 16$:
+A) $\pm 3$
+B) $\pm 2$
+C) $\pm 1$
+D) $3$
+E) $9$
 
-10. Si $\log(x) = 2$, ¿cuál es el valor de $x$?  
-A) $20$  
-B) $100$  
-C) $10$  
-D) $1000$  
-E) $2$  
+10. Si $\log(x) = 2$, ¿cuál es el valor de $x$?
+A) $20$
+B) $100$
+C) $10$
+D) $1000$
+E) $2$
 
-11. Calcular el valor de $7^{\log_7(15)}$:  
-A) $7$  
-B) $15$  
-C) $1$  
-D) $105$  
-E) $0$  
+11. Calcular el valor de $7^{\log_7(15)}$:
+A) $7$
+B) $15$
+C) $1$
+D) $105$
+E) $0$
 
-12. Resolver la ecuación $\log_5(2x - 3) = 1$:  
-A) $4$  
-B) $3$  
-C) $5$  
-D) $2$  
-E) $1$  
+12. Resolver la ecuación $\log_5(2x - 3) = 1$:
+A) $4$
+B) $3$
+C) $5$
+D) $2$
+E) $1$
 
-13. ¿Cuál es el producto de $\log_2(5) \cdot \log_5(8)$?  
-A) $2$  
-B) $3$  
-C) $4$  
-D) $5$  
-E) $8$  
+13. ¿Cuál es el producto de $\log_2(5) \cdot \log_5(8)$?
+A) $2$
+B) $3$
+C) $4$
+D) $5$
+E) $8$
 
-14. Si $\log_2(x) = -3$, hallar $x$:  
-A) $-8$  
-B) $1/8$  
-C) $1/6$  
-D) $8$  
-E) $-6$  
+14. Si $\log_2(x) = -3$, hallar $x$:
+A) $-8$
+B) $1/8$
+C) $1/6$
+D) $8$
+E) $-6$
 
-15. Resolver $5^{x+1} = 1$:  
-A) $0$  
-B) $-1$  
-C) $1$  
-D) $5$  
-E) $-5$  
+15. Resolver $5^{x+1} = 1$:
+A) $0$
+B) $-1$
+C) $1$
+D) $5$
+E) $-5$
 
 ---
 
 ### Nivel Intermedio (Ejercicios 16 al 35)
 
-16. Resolver en $\mathbb{R}$ la ecuación $\log(x + 3) + \log(x - 3) = \log(16)$ e indicar la solución:  
-A) $5$  
-B) $-5$  
-C) $\pm 5$  
-D) $4$  
-E) $25$  
+16. Resolver en $\mathbb{R}$ la ecuación $\log(x + 3) + \log(x - 3) = \log(16)$ e indicar la solución:
+A) $5$
+B) $-5$
+C) $\pm 5$
+D) $4$
+E) $25$
 
-17. Resolver la ecuación exponencial $9^x - 10 \cdot 3^x + 9 = 0$ e indicar la suma de sus soluciones:  
-A) $1$  
-B) $2$  
-C) $3$  
-D) $10$  
-E) $0$  
+17. Resolver la ecuación exponencial $9^x - 10 \cdot 3^x + 9 = 0$ e indicar la suma de sus soluciones:
+A) $1$
+B) $2$
+C) $3$
+D) $10$
+E) $0$
 
-18. Calcular el valor de $M = \log_4(8) + \log_9(27)$:  
-A) $2$  
-B) $3$  
-C) $5/2$  
-D) $7/2$  
-E) $4$  
+18. Calcular el valor de $M = \log_4(8) + \log_9(27)$:
+A) $2$
+B) $3$
+C) $5/2$
+D) $7/2$
+E) $4$
 
-19. Si $\log(2) = a$ y $\log(3) = b$, expresar $\log(72)$ en función de $a$ y $b$:  
-A) $3a + 2b$  
-B) $2a + 3b$  
-C) $a^3 b^2$  
-D) $6ab$  
-E) $3a - 2b$  
+19. Si $\log(2) = a$ y $\log(3) = b$, expresar $\log(72)$ en función de $a$ y $b$:
+A) $3a + 2b$
+B) $2a + 3b$
+C) $a^3 b^2$
+D) $6ab$
+E) $3a - 2b$
 
-20. Si $\log(2) = a$, expresar $\log(5)$ en términos de $a$:  
-A) $1 - a$  
-B) $1 + a$  
-C) $a/2$  
-D) $2a$  
-E) $10 - a$  
+20. Si $\log(2) = a$, expresar $\log(5)$ en términos de $a$:
+A) $1 - a$
+B) $1 + a$
+C) $a/2$
+D) $2a$
+E) $10 - a$
 
-21. Resolver la ecuación con antilogaritmos y cologaritmos:
-$$
-\log_2\left( \text{antilog}_4\left( \log_2(x) \right) \right) = 4
-$$
+21. Resolver la ecuación con antilogaritmos y cologaritmos: $\log_2\left( \text{antilog}_4\left( \log_2(x) \right) \right) = 4$.  
 A) $2$  
 B) $4$  
 C) $8$  
 D) $16$  
 E) $1$  
 
-22. Hallar la solución real de la ecuación exponencial:
-$$
-x^x = 3125
-$$
+22. Hallar la solución real de la ecuación exponencial: $x^x = 3125$.  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $6$  
 E) $25$  
 
-23. Resolver el sistema de ecuaciones:
-$$
-\begin{cases} x + y = 65 \\ \log(x) + \log(y) = 3 \end{cases}
-$$
-e indicar el valor del mayor de los dos números:  
-A) $40$  
-B) $50$  
-C) $45$  
-D) $60$  
-E) $55$  
+23. Resolver el sistema de ecuaciones: $\begin{cases} x + y = 65 \\ \log(x) + \log(y) = 3 \end{cases}$ e indicar el valor del mayor de los dos números:  
+A) $40$
+B) $50$
+C) $45$
+D) $60$
+E) $55$
 
-24. Un decibelímetro en un taller industrial en Ate mide el nivel de intensidad sonora $\beta$ en decibelios según $\beta = 10 \log\left(\frac{I}{I_0}\right)$. Si la intensidad de una máquina es $I = 10^8 I_0$, ¿cuál es el nivel de ruido en decibelios?  
-A) $70\text{ dB}$  
-B) $80\text{ dB}$  
-C) $90\text{ dB}$  
-D) $100\text{ dB}$  
-E) $60\text{ dB}$  
+24. Un decibelímetro en un taller industrial en Ate mide el nivel de intensidad sonora $\beta$ en decibelios según $\beta = 10 \log\left(\frac{I}{I_0}\right)$. Si la intensidad de una máquina es $I = 10^8 I_0$, ¿cuál es el nivel de ruido en decibelios?
+A) $70\text{ dB}$
+B) $80\text{ dB}$
+C) $90\text{ dB}$
+D) $100\text{ dB}$
+E) $60\text{ dB}$
 
-25. Resolver en $\mathbb{R}$:
-$$
-\log_x(2x^2 - 5x + 4) = 2
-$$
+25. Resolver en $\mathbb{R}$: $\log_x(2x^2 - 5x + 4) = 2$.  
 A) $1$ ó $4$  
 B) Solo $4$  
 C) Solo $1$  
 D) $2$  
 E) $\emptyset$  
 
-26. Calcular el valor de:
-$$
-E = \log_2(6) \cdot \log_6(8) + \log_3(5) \cdot \log_5(9)
-$$
+26. Calcular el valor de: $E = \log_2(6) \cdot \log_6(8) + \log_3(5) \cdot \log_5(9)$.  
 A) $3$  
 B) $5$  
 C) $6$  
@@ -626,30 +712,21 @@ C) $2a$
 D) $a/2$  
 E) $4a$  
 
-29. Determinar el valor de $x$ que satisface:
-$$
-3^{\log_2(x)} = 27
-$$
+29. Determinar el valor de $x$ que satisface: $3^{\log_2(x)} = 27$.  
 A) $4$  
 B) $8$  
 C) $9$  
 D) $16$  
 E) $3$  
 
-30. Hallar el producto de las soluciones de la ecuación:
-$$
-x^{\log(x)} = 100x
-$$
+30. Hallar el producto de las soluciones de la ecuación: $x^{\log(x)} = 100x$.  
 A) $10$  
 B) $100$  
 C) $1000$  
 D) $1$  
 E) $0.1$  
 
-31. Resolver en $\mathbb{R}$ la ecuación:
-$$
-\log_2(x^2 - 4) - \log_2(x - 2) = 3
-$$
+31. Resolver en $\mathbb{R}$ la ecuación: $\log_2(x^2 - 4) - \log_2(x - 2) = 3$.  
 A) $6$  
 B) $-6$  
 C) $4$  
@@ -677,10 +754,7 @@ C) $81$
 D) $2187$  
 E) $27$  
 
-35. Resolver la inecuación logarítmica básica:
-$$
-\log_2(x - 4) < 3
-$$
+35. Resolver la inecuación logarítmica básica: $\log_2(x - 4) < 3$.  
 A) $\langle 4, 12 \rangle$  
 B) $\langle -\infty, 12 \rangle$  
 C) $[4, 12]$  
@@ -691,92 +765,63 @@ E) $\langle 4, 8 \rangle$
 
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
-36. Resolver en $\mathbb{R}$ la ecuación:
-$$
-\log_2(x) + \log_4(x) + \log_{16}(x) = 7
-$$
+36. Resolver en $\mathbb{R}$ la ecuación: $\log_2(x) + \log_4(x) + \log_{16}(x) = 7$.  
 A) $16$  
 B) $32$  
 C) $64$  
 D) $8$  
 E) $128$  
 
-37. Si $x, y, z$ son términos consecutivos de una progresión geométrica, simplificar:
-$$
-E = \frac{1}{\log_x(N) + 1} + \frac{1}{\log_z(N) + 1} - \frac{2}{\log_y(N) + 1}
-$$
+37. Si $x, y, z$ son términos consecutivos de una progresión geométrica, simplificar: $E = \frac{1}{\log_x(N) + 1} + \frac{1}{\log_z(N) + 1} - \frac{2}{\log_y(N) + 1}$.  
 A) $0$  
 B) $1$  
 C) $-1$  
 D) $2$  
 E) $\log_y(N)$  
 
-38. Determinar el número de soluciones reales de la ecuación:
-$$
-|x - 2| = \log_2(x)
-$$
+38. Determinar el número de soluciones reales de la ecuación: $|x - 2| = \log_2(x)$.  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $0$  
 E) Infinitas  
 
-39. Si $\log_a(bc) = 2$, $\log_b(ca) = 3$ y $\log_c(ab) = 4$, calcular el valor numérico de:
-$$
-S = \frac{1}{\log_a(abc)} + \frac{1}{\log_b(abc)} + \frac{1}{\log_c(abc)}
-$$
+39. Si $\log_a(bc) = 2$, $\log_b(ca) = 3$ y $\log_c(ab) = 4$, calcular el valor numérico de: $S = \frac{1}{\log_a(abc)} + \frac{1}{\log_b(abc)} + \frac{1}{\log_c(abc)}$.  
 A) $1$  
 B) $2$  
 C) $3$  
 D) $1/2$  
 E) $9$  
 
-40. Resolver la ecuación exponencial:
-$$
-2^{2x+1} - 5 \cdot 6^x + 3^{2x+1} = 0
-$$
-e indicar el producto de sus raíces:  
-A) $-1$  
-B) $0$  
-C) $1$  
-D) $2$  
-E) $-2$  
+40. Resolver la ecuación exponencial: $2^{2x+1} - 5 \cdot 6^x + 3^{2x+1} = 0$ e indicar el producto de sus raíces:  
+A) $-1$
+B) $0$
+C) $1$
+D) $2$
+E) $-2$
 
-41. **(Reto)** Si $a^2 + b^2 = 7ab$ con $a, b > 0$, demostrar la identidad de los logaritmos y hallar el valor de $k$ en:
-$$
-\log\left(\frac{a + b}{3}\right) = k(\log(a) + \log(b))
-$$
+41. **(Reto)** Si $a^2 + b^2 = 7ab$ con $a, b > 0$, demostrar la identidad de los logaritmos y hallar el valor de $k$ en: $\log\left(\frac{a + b}{3}\right) = k(\log(a) + \log(b))$.  
 A) $1/2$  
 B) $1/3$  
 C) $1$  
 D) $2$  
 E) $1/4$  
 
-42. **(Reto)** Resolver en $\mathbb{R}$ la ecuación con torre de exponentes:
-$$
-x^{x^{x+1}} = 16
-$$
+42. **(Reto)** Resolver en $\mathbb{R}$ la ecuación con torre de exponentes: $x^{x^{x+1}} = 16$.  
 A) $\sqrt{2}$  
 B) $2$  
 C) $\sqrt[4]{2}$  
 D) $4$  
 E) $\sqrt[3]{2}$  
 
-43. **(Reto)** Resolver el sistema simétrico de logaritmos:
-$$
-\begin{cases} \log_y(x) + \log_x(y) = \frac{5}{2} \\ xy = 64 \end{cases}
-$$
-con $x > y > 1$, e indicar el valor de $x - y$:  
-A) $12$  
-B) $14$  
-C) $16$  
-D) $15$  
-E) $18$  
+43. **(Reto)** Resolver el sistema simétrico de logaritmos: $\begin{cases} \log_y(x) + \log_x(y) = \frac{5}{2} \\ xy = 64 \end{cases}$ con $x > y > 1$, e indicar el valor de $x - y$:  
+A) $12$
+B) $14$
+C) $16$
+D) $15$
+E) $18$
 
-44. **(Reto)** Calcular el valor exacto de la suma finita:
-$$
-S = \sum_{k=2}^{100} \frac{1}{\log_k(100!)}
-$$
+44. **(Reto)** Calcular el valor exacto de la suma finita: $S = \sum_{k=2}^{100} \frac{1}{\log_k(100!)}$.  
 A) $1$  
 B) $100$  
 C) $0$  

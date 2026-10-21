@@ -14,11 +14,11 @@ Sin embargo, limitarse a calcular el promedio o media aritmética puede generar 
 Es el centro de gravedad de la distribución. Se calcula como la suma ponderada de todos los valores dividida entre el tamaño de la muestra:
 * **Para datos no agrupados:**
   
-  $$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
 
 * **Para datos agrupados en intervalos de clase:**
   
-  $$\bar{x} = \frac{\sum_{i=1}^{k} x_i f_i}{n} = \sum_{i=1}^{k} x_i h_i$$
+$$\bar{x} = \frac{\sum_{i=1}^{k} x_i f_i}{n} = \sum_{i=1}^{k} x_i h_i$$
 
   *Donde $x_i$ es la marca de clase del $i$-ésimo intervalo y $f_i$ su frecuencia absoluta.*
 
@@ -27,11 +27,11 @@ Es el valor que divide a la muestra ordenada exactamente en dos mitades (50% de 
 * **Para datos agrupados:**
   1. Se localiza la **clase mediana**, que es el primer intervalo cuya frecuencia acumulada satisface:
      
-     $$F_i \ge \frac{n}{2}$$
+$$F_i \ge \frac{n}{2}$$
      
   2. Se aplica la fórmula de interpolación lineal:
      
-     $$Me = L_i + C \left( \frac{\frac{n}{2} - F_{i-1}}{f_i} \right)$$
+$$Me = L_i + C \left( \frac{\frac{n}{2} - F_{i-1}}{f_i} \right)$$
      
      *Donde:*
      * $L_i$: Límite inferior de la clase mediana.
@@ -46,7 +46,7 @@ Es el valor que se presenta con mayor frecuencia en la distribución.
   1. Se localiza la **clase modal**, que es el intervalo con la máxima frecuencia absoluta $f_i$.
   2. Se aplica la fórmula:
      
-     $$Mo = L_i + C \left( \frac{d_1}{d_1 + d_2} \right)$$
+$$Mo = L_i + C \left( \frac{d_1}{d_1 + d_2} \right)$$
      
      *Donde:*
      * $d_1 = f_i - f_{i-1}$ (diferencia con la frecuencia anterior).
@@ -65,15 +65,15 @@ alt: Asimetría de Distribuciones
 ### 2.4 Asimetría y Relación entre Medidas
 * **Distribución Simétrica:** La curva es perfectamente equilibrada (campana de Gauss).
   
-  $$\bar{x} = Me = Mo$$
+$$\bar{x} = Me = Mo$$
 
 * **Asimetría Positiva (Sesgada a la Derecha):** Cola extendida hacia valores grandes.
   
-  $$Mo < Me < \bar{x}$$
+$$Mo < Me < \bar{x}$$
 
 * **Asimetría Negativa (Sesgada a la Izquierda):** Cola extendida hacia valores pequeños.
   
-  $$\bar{x} < Me < Mo$$
+$$\bar{x} < Me < Mo$$
 
 ---
 

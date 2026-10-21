@@ -51,11 +51,17 @@ alt: Posición relativa de dos rectas en el plano cartesiano
 
 #### Micro-ejemplo 1: Condición de Incompatibilidad
 Halle el valor de $k$ para que el siguiente sistema no tenga solución:
+
 $$\begin{cases} (k - 1)x + 2y = 8 \\ 6x + 4y = 5 \end{cases}$$
+
 * *Estrategia:* Para que sea incompatible (rectas paralelas), las pendientes deben ser iguales pero las ordenadas distintas:
-  $$\frac{k - 1}{6} = \frac{2}{4} \neq \frac{8}{5}$$
+
+$$\frac{k - 1}{6} = \frac{2}{4} \neq \frac{8}{5}$$
+
 * *Resolución:*
-  $$\frac{k - 1}{6} = \frac{1}{2} \implies 2(k - 1) = 6 \implies k - 1 = 3 \implies k = 4$$
+
+$$\frac{k - 1}{6} = \frac{1}{2} \implies 2(k - 1) = 6 \implies k - 1 = 3 \implies k = 4$$
+
 * *Verificación:* Para $k = 4$, la razón es $\frac{3}{6} = \frac{2}{4} = \frac{1}{2}$, mientras que $\frac{8}{5} = 1.6 \neq 0.5$. Se cumple la condición. Por ende, $k = 4$.
 
 ---
@@ -70,10 +76,14 @@ $$\begin{cases} (k - 1)x + 2y = 8 \\ 6x + 4y = 5 \end{cases}$$
 
 3. **Método de Determinantes (Regla de Cramer):**
    Permite calcular directamente el valor de una incógnita sin tener que resolver todo el sistema:
-   $$\Delta_s = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix} = a_1 b_2 - a_2 b_1$$
-   $$\Delta_x = \begin{vmatrix} c_1 & b_1 \\ c_2 & b_2 \end{vmatrix} = c_1 b_2 - c_2 b_1, \qquad \Delta_y = \begin{vmatrix} a_1 & c_1 \\ a_2 & c_2 \end{vmatrix} = a_1 c_2 - a_2 c_1$$
+
+$$\Delta_s = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix} = a_1 b_2 - a_2 b_1$$
+
+$$\Delta_x = \begin{vmatrix} c_1 & b_1 \\ c_2 & b_2 \end{vmatrix} = c_1 b_2 - c_2 b_1, \qquad \Delta_y = \begin{vmatrix} a_1 & c_1 \\ a_2 & c_2 \end{vmatrix} = a_1 c_2 - a_2 c_1$$
+
    Si $\Delta_s \neq 0$:
-   $$x = \frac{\Delta_x}{\Delta_s}, \qquad y = \frac{\Delta_y}{\Delta_s}$$
+
+$$x = \frac{\Delta_x}{\Delta_s}, \qquad y = \frac{\Delta_y}{\Delta_s}$$
 
 #### Micro-ejemplo 2: Determinante $2 \times 2$ con Signos Negativos
 Calcule $\begin{vmatrix} 3 & -2 \\ 4 & 5 \end{vmatrix}$:
@@ -88,12 +98,11 @@ Calcule $\begin{vmatrix} 3 & -2 \\ 4 & 5 \end{vmatrix}$:
 
 > ⚠️ **Error 2: No ordenar las columnas antes de aplicar proporciones o determinantes.**  
 > En las preguntas de trampa colocan:
-> $$\begin{cases} 2x + 3y = 7 \\ 5y - 4x = 1 \end{cases}$$
+> $\begin{cases} 2x + 3y = 7 \\ 5y - 4x = 1 \end{cases}$
 > Si aplicas Cramer sin ordenar, tomarás $a_2 = 5$ y $b_2 = -4$. ¡Error fatal! La segunda ecuación debe ordenarse como $-4x + 5y = 1$ antes de extraer la matriz de coeficientes.
 
 > ⚠️ **Error 3: Menos por menos en la diagonal secundaria de Cramer.**  
 > La fórmula de un determinante siempre lleva un signo menos central: $(a_1 b_2) - (a_2 b_1)$. Si el producto secundario es negativo, el signo cambia a positivo. Quien no domina leyes de signos se equivoca de alternativa en el 80% de los casos.
-
 
 ---
 
@@ -903,15 +912,7 @@ E) $9\text{ h}$
 
 ### Bloque III: Nivel Avanzado y Retos Beca 18 (Problemas 31 al 45)
 
-31. Resuelva el sistema literal para $x$ e $y$ en términos de $a$ y $b$ ($a \neq \pm b$):
-
-$$
-\begin{cases}
-\frac{x}{a + b} + \frac{y}{a - b} = 2 \\
-\frac{x}{a - b} - \frac{y}{a + b} = \frac{4ab}{a^2 - b^2}
-\end{cases}
-$$
-
+31. Resuelva el sistema literal para $x$ e $y$ en términos de $a$ y $b$ ($a \neq \pm b$): $\begin{cases} \frac{x}{a + b} + \frac{y}{a - b} = 2 \\ \frac{x}{a - b} - \frac{y}{a + b} = \frac{4ab}{a^2 - b^2} \end{cases}$.  
 A) $x = a + b, \ y = a - b$  
 B) $x = a^2 + b^2, \ y = 2ab$  
 C) $x = a, \ y = b$  
@@ -925,164 +926,84 @@ C) $F_1 = 40\text{ kg}, \ F_2 = 60\text{ kg}$
 D) $F_1 = 55\text{ kg}, \ F_2 = 45\text{ kg}$  
 E) $F_1 = 45\text{ kg}, \ F_2 = 55\text{ kg}$  
 
-33. Determine la condición necesaria y suficiente entre las constantes no nulas $a, b, c, d$ para que el sistema:
+33. Determine la condición necesaria y suficiente entre las constantes no nulas $a, b, c, d$ para que el sistema $\begin{cases} ax + by = c \\ bx + ay = d \end{cases}$ admita infinitas soluciones.  
+A) $a = b \land c = d$
+B) $a = -b \land c = -d$
+C) $(a = b \land c = d) \lor (a = -b \land c = -d)$
+D) $a^2 - b^2 \neq 0$
+E) $c = d$
 
-$$
-\begin{cases}
-ax + by = c \\
-bx + ay = d
-\end{cases}
-$$
+34. Una empresa comunal de piscigranjas en Junín vende trucha fresca eviscerada a dos cadenas de restaurantes. El cliente $A$ compra $120\text{ kg}$ de trucha grande y $80\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,040$. El cliente $B$ adquiere $90\text{ kg}$ de trucha grande y $150\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,330$. Determine el precio del kilogramo de trucha grande.
+A) $\text{S/ } 16$
+B) $\text{S/ } 17$
+C) $\text{S/ } 18$
+D) $\text{S/ } 19$
+E) $\text{S/ } 15$
 
-admita infinitas soluciones.  
-A) $a = b \land c = d$  
-B) $a = -b \land c = -d$  
-C) $(a = b \land c = d) \lor (a = -b \land c = -d)$  
-D) $a^2 - b^2 \neq 0$  
-E) $c = d$  
+35. Resuelva el sistema fraccionario simétrico $\begin{cases} \frac{x + y}{xy} = \frac{5}{6} \\ \frac{x - y}{xy} = \frac{1}{6} \end{cases}$ y halle el valor de $x^2 + y^2$.  
+A) $13$
+B) $25$
+C) $10$
+D) $15$
+E) $20$
 
-34. Una empresa comunal de piscigranjas en Junín vende trucha fresca eviscerada a dos cadenas de restaurantes. El cliente $A$ compra $120\text{ kg}$ de trucha grande y $80\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,040$. El cliente $B$ adquiere $90\text{ kg}$ de trucha grande y $150\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,330$. Determine el precio del kilogramo de trucha grande.  
-A) $\text{S/ } 16$  
-B) $\text{S/ } 17$  
-C) $\text{S/ } 18$  
-D) $\text{S/ } 19$  
-E) $\text{S/ } 15$  
+36. Determine el valor de $k$ para que las tres rectas concurrentes en el plano cartesiano $L_1: 2x - y = 5$, $L_2: 3x + 2y = 11$ y $L_3: kx + 4y = 10$ se intersecten en el mismo punto.
+A) $2$
+B) $3$
+C) $4$
+D) $1$
+E) $-2$
 
-35. Resuelva el sistema fraccionario simétrico:
+37. Si el sistema $\begin{cases} (2m - 1)x + 3y = 7 \\ 5x + (m + 1)y = 8 \end{cases}$ es compatible determinado, halle el conjunto de todos los valores que **no** puede tomar $m$.  
+A) $\left\{ -\frac{8}{2}, 2 \right\}$
+B) $\left\{ -\frac{17}{2}, 1 \right\}$
+C) $\left\{ -\frac{16}{2}, 2 \right\}$
+D) $\left\{ -\frac{17}{2}, 2 \right\}$
+E) $\left\{ \frac{17}{2}, -2 \right\}$
 
-$$
-\begin{cases}
-\frac{x + y}{xy} = \frac{5}{6} \\
-\frac{x - y}{xy} = \frac{1}{6}
-\end{cases}
-$$
+38. Dos cuadrillas de trabajadores del programa Lurawi Perú realizan el mantenimiento de un camino rural. Si la primera cuadrilla trabaja $5\text{ días}$ y la segunda $4\text{ días}$, completan $\frac{7}{12}$ del camino. Si la primera trabaja $2\text{ días}$ y la segunda $6\text{ días}$, avanzan $\frac{1}{2}$ de la obra. ¿En cuántos días completaría toda la obra la primera cuadrilla trabajando en solitario?
+A) $12\text{ días}$
+B) $15\text{ días}$
+C) $16\text{ días}$
+D) $18\text{ días}$
+E) $20\text{ días}$
 
-Halle el valor de $x^2 + y^2$.  
-A) $13$  
-B) $25$  
-C) $10$  
-D) $15$  
-E) $20$  
+39. Resuelva el sistema en los reales positivos $\begin{cases} x^2 + xy = 28 \\ y^2 + xy = 21 \end{cases}$ y halle el valor de $x + y$.  
+A) $5$
+B) $6$
+C) $7$
+D) $8$
+E) $9$
 
-36. Determine el valor de $k$ para que las tres rectas concurrentes en el plano cartesiano $L_1: 2x - y = 5$, $L_2: 3x + 2y = 11$ y $L_3: kx + 4y = 10$ se intersecten en el mismo punto.  
-A) $2$  
-B) $3$  
-C) $4$  
-D) $1$  
-E) $-2$  
-
-37. Si el sistema:
-
-$$
-\begin{cases}
-(2m - 1)x + 3y = 7 \\
-5x + (m + 1)y = 8
-\end{cases}
-$$
-
-es compatible determinado, halle el conjunto de todos los valores que **no** puede tomar $m$.  
-A) $\left\{ -\frac{8}{2}, 2 \right\}$  
-B) $\left\{ -\frac{17}{2}, 1 \right\}$  
-C) $\left\{ -\frac{16}{2}, 2 \right\}$  
-D) $\left\{ -\frac{17}{2}, 2 \right\}$  
-E) $\left\{ \frac{17}{2}, -2 \right\}$  
-
-38. Dos cuadrillas de trabajadores del programa Lurawi Perú realizan el mantenimiento de un camino rural. Si la primera cuadrilla trabaja $5\text{ días}$ y la segunda $4\text{ días}$, completan $\frac{7}{12}$ del camino. Si la primera trabaja $2\text{ días}$ y la segunda $6\text{ días}$, avanzan $\frac{1}{2}$ de la obra. ¿En cuántos días completaría toda la obra la primera cuadrilla trabajando en solitario?  
-A) $12\text{ días}$  
-B) $15\text{ días}$  
-C) $16\text{ días}$  
-D) $18\text{ días}$  
-E) $20\text{ días}$  
-
-39. Resuelva el sistema en los reales positivos:
-
-$$
-\begin{cases}
-x^2 + xy = 28 \\
-y^2 + xy = 21
-\end{cases}
-$$
-
-Halle el valor de $x + y$.  
-A) $5$  
-B) $6$  
-C) $7$  
-D) $8$  
-E) $9$  
-
-40. Si el sistema lineal:
-
-$$
-\begin{cases}
-ax + by = 1 \\
-cx + dy = 2
-\end{cases}
-$$
-
-tiene como solución única $x = 3, \ y = 4$, halle la solución del sistema:
-
-$$
-\begin{cases}
-a(u + v) + b(u - v) = 1 \\
-c(u + v) + d(u - v) = 2
-\end{cases}
-$$
-
+40. Si el sistema lineal $\begin{cases} ax + by = 1 \\ cx + dy = 2 \end{cases}$ tiene como solución única $x = 3, \ y = 4$, halle la solución del sistema $\begin{cases} a(u + v) + b(u - v) = 1 \\ c(u + v) + d(u - v) = 2 \end{cases}$.  
 A) $u = \frac{7}{2}, \ v = -\frac{1}{2}$  
 B) $u = 7, \ v = -1$  
 C) $u = 3, \ v = 4$  
 D) $u = 2, \ v = 1$  
 E) $u = \frac{5}{2}, \ v = \frac{1}{2}$  
 
-41. Considere el sistema paramétrico:
+41. Considere el sistema paramétrico $\begin{cases} x + ay = a^2 \\ x + by = b^2 \\ x + cy = c^2 \end{cases}$ donde $a, b, c$ son números reales distintos entre sí. Determine el conjunto solución del sistema.  
+A) $\emptyset$
+B) $\{(ab, a+b)\}$
+C) $\{(-ab, a+b)\}$
+D) $\{(-bc, b+c)\}$
+E) Infinitas soluciones
 
-$$
-\begin{cases}
-x + ay = a^2 \\
-x + by = b^2 \\
-x + cy = c^2
-\end{cases}
-$$
+42. Un tanque de combustible diésel para maquinaria pesada en una mina de Pasco tiene dos bombas de extracción: la bomba $A$ opera a un flujo constante $q_1$ y la bomba $B$ a $q_2$. Si ambas bombas funcionan durante $3\text{ horas}$, extraen $180\text{ galones}$. Si la bomba $A$ opera durante $4\text{ horas}$ y la bomba $B$ durante $2\text{ horas}$, extraen $190\text{ galones}$. ¿En cuántas horas vaciará sola la bomba $B$ un tanque lleno de $300\text{ galones}$?
+A) $12\text{ h}$
+B) $15\text{ h}$
+C) $10\text{ h}$
+D) $18\text{ h}$
+E) $20\text{ h}$
 
-donde $a, b, c$ son números reales distintos entre sí. Determine el conjunto solución del sistema.  
-A) $\emptyset$  
-B) $\{(ab, a+b)\}$  
-C) $\{(-ab, a+b)\}$  
-D) $\{(-bc, b+c)\}$  
-E) Infinitas soluciones  
+43. Si el sistema $\begin{cases} (k - 1)x + 2y = 0 \\ 3x + (k + 4)y = 0 \end{cases}$ posee soluciones no nulas, calcule la suma de los cuadrados de los valores que puede adoptar la constante real $k$.  
+A) $29$
+B) $34$
+C) $25$
+D) $37$
+E) $41$
 
-42. Un tanque de combustible diésel para maquinaria pesada en una mina de Pasco tiene dos bombas de extracción: la bomba $A$ opera a un flujo constante $q_1$ y la bomba $B$ a $q_2$. Si ambas bombas funcionan durante $3\text{ horas}$, extraen $180\text{ galones}$. Si la bomba $A$ opera durante $4\text{ horas}$ y la bomba $B$ durante $2\text{ horas}$, extraen $190\text{ galones}$. ¿En cuántas horas vaciará sola la bomba $B$ un tanque lleno de $300\text{ galones}$?  
-A) $12\text{ h}$  
-B) $15\text{ h}$  
-C) $10\text{ h}$  
-D) $18\text{ h}$  
-E) $20\text{ h}$  
-
-43. Si el sistema:
-
-$$
-\begin{cases}
-(k - 1)x + 2y = 0 \\
-3x + (k + 4)y = 0
-\end{cases}
-$$
-
-posee soluciones no nulas, calcule la suma de los cuadrados de los valores que puede adoptar la constante real $k$.  
-A) $29$  
-B) $34$  
-C) $25$  
-D) $37$  
-E) $41$  
-
-44. Determine el valor de $x$ al resolver:
-
-$$
-\begin{cases}
-\frac{x + 2}{3} + \frac{y - 1}{4} = \frac{x + y}{2} \\
-\frac{x - 3}{2} - \frac{y + 2}{5} = \frac{x - y}{3}
-\end{cases}
-$$
-
+44. Determine el valor de $x$ al resolver $\begin{cases} \frac{x + 2}{3} + \frac{y - 1}{4} = \frac{x + y}{2} \\ \frac{x - 3}{2} - \frac{y + 2}{5} = \frac{x - y}{3} \end{cases}$.  
 A) $8$  
 B) $10$  
 C) $12$  

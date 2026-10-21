@@ -41,19 +41,25 @@ Todo polígono regular es inscriptible y circunscriptible a dos circunferencias 
 Para cualquier polígono convexo de $n$ lados ($n \ge 3$):
 
 1. **Suma de las medidas de los ángulos interiores ($S_i$):**
-   $$S_i = 180^\circ(n - 2)$$
+
+$$S_i = 180^\circ(n - 2)$$
 
 2. **Medida de un solo ángulo interior en polígono equiángulo o regular ($\angle_i$):**
-   $$\angle_i = \frac{180^\circ(n - 2)}{n}$$
+
+$$\angle_i = \frac{180^\circ(n - 2)}{n}$$
 
 3. **Suma de las medidas de los ángulos exteriores ($S_e$):**
-   $$S_e = 360^\circ \quad (\text{constante para todo } n)$$
+
+$$S_e = 360^\circ \quad (\text{constante para todo } n)$$
 
 4. **Medida de un solo ángulo exterior en polígono regular ($\angle_e$):**
-   $$\angle_e = \frac{360^\circ}{n}$$
+
+$$\angle_e = \frac{360^\circ}{n}$$
 
 5. **Medida del ángulo central en polígono regular ($\angle_c$):**
-   $$\angle_c = \frac{360^\circ}{n}$$
+
+$$\angle_c = \frac{360^\circ}{n}$$
+
    *Identidad clave:* $\angle_e = \angle_c$ y $\angle_i + \angle_e = 180^\circ$.
 
 ---
@@ -61,14 +67,18 @@ Para cualquier polígono convexo de $n$ lados ($n \ge 3$):
 ### 2.3 Fórmulas de Diagonales
 
 1. **Número de diagonales trazadas desde un solo vértice ($d_1$):**
-   $$d_1 = n - 3$$
+
+$$d_1 = n - 3$$
+
    *(No se puede trazar diagonales hacia sí mismo ni hacia los dos vértices adyacentes).*
 
 2. **Número total de diagonales de un polígono de $n$ lados ($D$):**
-   $$D = \frac{n(n - 3)}{2}$$
+
+$$D = \frac{n(n - 3)}{2}$$
 
 3. **Número de diagonales trazadas desde los primeros $v$ vértices consecutivos ($D_v$):**
-   $$D_v = v \cdot n - \frac{(v + 1)(v + 2)}{2}$$
+
+$$D_v = v \cdot n - \frac{(v + 1)(v + 2)}{2}$$
 
 ---
 
@@ -89,11 +99,16 @@ Para cualquier polígono convexo de $n$ lados ($n \ge 3$):
 ### 2.5 Perímetro y Área de un Polígono Regular
 
 * **Perímetro ($2p$):** Suma de todos sus lados:
-  $$2p = n \cdot L_n \implies p = \frac{n \cdot L_n}{2} \quad (\text{semiperímetro})$$
+
+$$2p = n \cdot L_n \implies p = \frac{n \cdot L_n}{2} \quad (\text{semiperímetro})$$
+
 * **Área de la Región Poligonal Regular:** Producto del semiperímetro por la apotema:
-  $$\text{Área} = p \cdot a_p = \frac{n \cdot L_n \cdot a_p}{2}$$
+
+$$\text{Área} = p \cdot a_p = \frac{n \cdot L_n \cdot a_p}{2}$$
+
 * **Área en función del circunradio y el ángulo central:**
-  $$\text{Área} = \frac{n}{2} R^2 \sin\left(\frac{360^\circ}{n}\right)$$
+
+$$\text{Área} = \frac{n}{2} R^2 \sin\left(\frac{360^\circ}{n}\right)$$
 
 ---
 
@@ -122,9 +137,11 @@ Se aplica la fórmula de la suma de ángulos interiores $S_i = 180^\circ(n-2)$ y
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la suma de ángulos interiores con $n = 20$:
+
 $$S_i = 180^\circ(20 - 2) = 180^\circ(18) = 3\,240^\circ$$
 
 **Paso 2:** Calcular el número total de diagonales:
+
 $$D = \frac{20(20 - 3)}{2} = \frac{20(17)}{2} = 10 \cdot 17 = 170$$
 
 **Conclusión:**
@@ -141,13 +158,17 @@ Es más rápido trabajar con el ángulo exterior complementario: $\angle_e = 180
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la medida del ángulo exterior:
+
 $$\angle_e = 180^\circ - 144^\circ = 36^\circ$$
 
 **Paso 2:** Despejar el número de lados $n$:
+
 $$\angle_e = \frac{360^\circ}{n} \implies 36^\circ = \frac{360^\circ}{n} \implies n = \frac{360}{36} = 10\text{ lados}$$
+
 El polígono es un **decágono regular**.
 
 **Paso 3:** Calcular el número total de diagonales:
+
 $$D = \frac{10(10 - 3)}{2} = \frac{10(7)}{2} = 35$$
 
 **Conclusión:**
@@ -164,13 +185,17 @@ En el hexágono regular ($n=6$), el lado es exactamente igual al circunradio ($L
 **Solución Paso a Paso:**
 
 **Paso 1:** Determinar la longitud del lado $L_6$:
+
 $$L_6 = R = 12\text{ cm}$$
 
 **Paso 2:** Calcular la apotema $a_p$:
+
 $$a_p = \frac{R\sqrt{3}}{2} = \frac{12\sqrt{3}}{2} = 6\sqrt{3}\text{ cm}$$
 
 **Paso 3:** Calcular el área del hexágono regular:
+
 $$\text{Perímetro } 2p = 6 \cdot 12 = 72\text{ cm} \implies p = 36\text{ cm}$$
+
 $$\text{Área} = p \cdot a_p = 36 \cdot 6\sqrt{3} = 216\sqrt{3}\text{ cm}^2 \approx 374.12\text{ cm}^2$$
 
 **Conclusión:**
@@ -189,16 +214,23 @@ Sea $n$ el número de lados del polígono original. Planteamos la ecuación con 
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la ecuación algebraica de diagonales:
+
 $$D(n+3) - D(n) = 24$$
+
 $$\frac{(n + 3)[(n + 3) - 3]}{2} - \frac{n(n - 3)}{2} = 24$$
+
 $$\frac{(n + 3)(n)}{2} - \frac{n(n - 3)}{2} = 24$$
 
 **Paso 2:** Multiplicar por $2$ y simplificar:
+
 $$(n^2 + 3n) - (n^2 - 3n) = 48$$
+
 $$6n = 48 \implies n = 8\text{ lados}$$
+
 El polígono original es un **octógono regular**.
 
 **Paso 3:** Calcular la medida de su ángulo interior:
+
 $$\angle_i = \frac{180^\circ(8 - 2)}{8} = \frac{180^\circ(6)}{8} = \frac{1080^\circ}{8} = 135^\circ$$
 
 **Conclusión:**
@@ -215,14 +247,19 @@ Sabemos que $\angle_i + \angle_e = 180^\circ$. Con la razón dada hallamos el á
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la proporción:
+
 $$\angle_i = 5k,\quad \angle_e = 1k$$
+
 $$\angle_i + \angle_e = 5k + k = 6k = 180^\circ \implies k = 30^\circ$$
+
 Por tanto: $\angle_e = 30^\circ$.
 
 **Paso 2:** Calcular el número de lados $n$:
+
 $$\angle_e = \frac{360^\circ}{n} \implies 30^\circ = \frac{360^\circ}{n} \implies n = \frac{360}{30} = 12\text{ lados (dodecágono)}$$
 
 **Paso 3:** Calcular el total de diagonales:
+
 $$D = \frac{12(12 - 3)}{2} = \frac{12(9)}{2} = 6 \cdot 9 = 54$$
 
 **Conclusión:**
@@ -240,13 +277,16 @@ Un hexágono regular inscrito está compuesto exactamente por $6$ triángulos eq
 
 **Paso 1:** Calcular el área del triángulo equilátero inscrito en función de $R$:
 Lado $L_3 = R\sqrt{3}$.
+
 $$\text{Área}(\triangle) = \frac{L_3^2 \sqrt{3}}{4} = \frac{(R\sqrt{3})^2 \sqrt{3}}{4} = \frac{3R^2 \sqrt{3}}{4}$$
 
 **Paso 2:** Calcular el área del hexágono regular inscrito en función de $R$:
 Lado $L_6 = R$. Compuesto por $6$ triángulos equiláteros de lado $R$:
+
 $$\text{Área}(\text{Hexágono}) = 6 \cdot \frac{R^2 \sqrt{3}}{4} = \frac{6R^2 \sqrt{3}}{4}$$
 
 **Paso 3:** Calcular la razón entre ambas áreas:
+
 $$\frac{\text{Área}(\text{Hexágono})}{\text{Área}(\triangle)} = \frac{\frac{6R^2\sqrt{3}}{4}}{\frac{3R^2\sqrt{3}}{4}} = \frac{6}{3} = 2$$
 
 **Conclusión:**
@@ -263,9 +303,11 @@ Se aplica la fórmula para $v$ vértices consecutivos: $D_v = v \cdot n - \frac{
 **Solución Paso a Paso:**
 
 **Paso 1:** Reemplazar los valores $n = 10$ y $v = 5$:
+
 $$D_5 = 5(10) - \frac{(5 + 1)(5 + 2)}{2}$$
 
 **Paso 2:** Realizar las operaciones:
+
 $$D_5 = 50 - \frac{6 \cdot 7}{2} = 50 - \frac{42}{2} = 50 - 21 = 29$$
 
 **Conclusión:**
@@ -285,12 +327,15 @@ El lado es $L_8 = R\sqrt{2 - \sqrt{2}}$. El área total es $8$ veces el área de
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el lado del octógono regular:
+
 $$L_8 = 40 \sqrt{2 - 1.414} = 40 \sqrt{0.586} \approx 40(0.7655) \approx 30.62\text{ cm}$$
 
 **Paso 2:** Calcular el perímetro de la señal ($8$ lados):
+
 $$2p = 8 \cdot L_8 = 8(30.62) \approx 244.96\text{ cm} \approx 2.45\text{ m}$$
 
 **Paso 3:** Calcular el área total del octógono regular:
+
 $$\text{Área} = 2\sqrt{2} R^2 = 2(1.414)(40^2) = 2(1.414)(1600) = 3200(1.414) = 4\,524.8\text{ cm}^2 \approx 0.452\text{ m}^2$$
 
 **Conclusión:**
@@ -307,16 +352,21 @@ En un hexágono regular, $a_p = \frac{R\sqrt{3}}{2}$. Dado $a_p = 3\sqrt{3}\text
 **Solución Paso a Paso:**
 
 **Paso 1:** Despejar el radio $R$ (lado $L_6$) a partir de la apotema:
+
 $$\frac{R\sqrt{3}}{2} = 3\sqrt{3} \implies \frac{R}{2} = 3 \implies R = 6\text{ m}$$
+
 Por tanto, el lado del hexágono es $L_6 = 6\text{ m}$.
 
 **Paso 2:** Calcular el semiperímetro $p$:
+
 $$p = \frac{6 \cdot 6}{2} = 18\text{ m}$$
 
 **Paso 3:** Calcular el área del módulo hexagonal:
+
 $$\text{Área} = p \cdot a_p = 18 \cdot (3\sqrt{3}) = 54\sqrt{3}\text{ m}^2 \approx 54(1.732) \approx 93.53\text{ m}^2$$
 
 **Paso 4:** Calcular el costo total de cerramiento:
+
 $$\text{Costo} = 93.53\text{ m}^2 \times S/\, 80 = S/\, 7\,482.40$$
 
 **Conclusión:**
@@ -336,14 +386,19 @@ Para $n=10$:
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el ángulo interior del decágono:
+
 $$\angle_i = \frac{180^\circ(8)}{10} = 144^\circ$$
 
 **Paso 2:** Calcular el número de diagonales totales (cables de luces):
+
 $$D = \frac{10(10 - 3)}{2} = \frac{10 \cdot 7}{2} = 35\text{ diagonales}$$
 
 **Paso 3:** Calcular la longitud exacta de cada lindero perimétrico ($L_{10}$):
+
 $$L_{10} = \frac{R}{2}(\sqrt{5} - 1) = \frac{20}{2}(\sqrt{5} - 1) = 10(\sqrt{5} - 1)\text{ m}$$
+
 Aproximando con $\sqrt{5} \approx 2.236$:
+
 $$L_{10} \approx 10(1.236) \approx 12.36\text{ m}$$
 
 **Conclusión:**

@@ -94,8 +94,7 @@ f_{eq} = \frac{p \cdot k}{q \cdot k} \quad \text{con } k \in \mathbb{Z}^+
 $$
 
 > 💡 **Consejo Pre:** Cuando un problema indique: *"Una fracción equivalente a $\frac{5}{8}$ es tal que la suma de sus términos es 260..."*, escribe de inmediato:
-> $$\text{Numerador} = 5k, \quad \text{Denominador} = 8k \implies 5k + 8k = 260 \implies 13k = 260 \implies k = 20$$
-
+> $\text{Numerador} = 5k, \quad \text{Denominador} = 8k \implies 5k + 8k = 260 \implies 13k = 260 \implies k = 20$
 > Luego la fracción buscada es $\frac{5(20)}{8(20)} = \frac{100}{160}$. ¡Este artificio ahorra minutos valiosos!
 
 ---
@@ -161,11 +160,7 @@ $$\frac{1}{T_1} \text{ del tanque}$$
 
 $$\frac{1}{T_2} \text{ del tanque}$$
 
-3. Si actúan juntos durante $t$ horas:
-
-$$
-\left( \frac{1}{T_1} - \frac{1}{T_2} \right) \cdot t = 1 \quad (\text{donde } 1 \text{ representa la obra completa o el tanque lleno})
-$$
+3. Si actúan juntos durante $t$ horas: $\left( \frac{1}{T_1} - \frac{1}{T_2} \right) \cdot t = 1$ (donde $1$ representa la obra completa o el tanque lleno).
 
 #### B. Pérdidas y Ganancias Sucesivas ("Lo que gasto y lo que me queda")
 En problemas de gastos o pérdidas en cadena:
@@ -180,7 +175,9 @@ $$\left(1 + \frac{1}{m}\right)C = \left(\frac{m+1}{m}\right)C$$
 * Al realizar varias operaciones sucesivas, se calcula directamente sobre **lo que va quedando**:
 
 $$
+
 \text{Resto Final} = \left(1 - f_3\right)\left(1 - f_2\right)\left(1 - f_1\right) \cdot C_0
+
 $$
 
 #### C. Mezclas Líquidas y Extracciones Fraccionarias
@@ -196,12 +193,7 @@ Al extraer una fracción $f$ de una mezcla homogénea (por ejemplo, agua y alcoh
 ### NIVEL BÁSICO (Fijación de Conceptos)
 
 #### Ejercicio 01
-**Enunciado:** Calcule el valor irreductible de la siguiente operación combinada:
-
-$$
-M = \frac{\frac{2}{3} + \frac{5}{6} - \frac{1}{4}}{\frac{3}{8} \times \frac{4}{9} + \frac{1}{2}}
-$$
-
+**Enunciado:** Calcule el valor irreductible de la siguiente operación combinada: $M = \frac{\frac{2}{3} + \frac{5}{6} - \frac{1}{4}}{\frac{3}{8} \times \frac{4}{9} + \frac{1}{2}}$.  
 A) $\frac{15}{8}$  
 B) $\frac{23}{16}$  
 C) $\frac{29}{16}$  
@@ -567,10 +559,7 @@ C) $\frac{40}{92}$
 D) $\frac{52}{80}$  
 E) $\frac{36}{96}$  
 
-2. ¿Cuál es el resultado de simplificar hasta su forma irreductible la siguiente expresión?
-
-$$E = \left(\frac{3}{5} + \frac{1}{2}\right) \div \left(\frac{7}{4} - \frac{2}{3}\right)$$
-
+2. ¿Cuál es el resultado de simplificar hasta su forma irreductible la siguiente expresión?: $E = \left(\frac{3}{5} + \frac{1}{2}\right) \div \left(\frac{7}{4} - \frac{2}{3}\right)$.  
 A) $\frac{132}{65}$  
 B) $\frac{121}{65}$  
 C) $\frac{66}{65}$  
@@ -619,10 +608,7 @@ C) $72$
 D) $81$  
 E) $90$  
 
-9. Calcule el valor de la fracción continua:
-
-$$F = \frac{1}{2 + \frac{1}{1 + \frac{1}{3}}}$$
-
+9. Calcule el valor de la fracción continua: $F = \frac{1}{2 + \frac{1}{1 + \frac{1}{3}}}$.  
 A) $\frac{4}{11}$  
 B) $\frac{3}{7}$  
 C) $\frac{5}{11}$  
@@ -664,10 +650,7 @@ C) $C < B < A$
 D) $B < A < C$  
 E) $A < B < C$  
 
-15. Calcule el valor de $M$:
-
-$$M = \frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \frac{1}{3 \times 4} + \cdots + \frac{1}{19 \times 20}$$
-
+15. Calcule el valor de $M$: $M = \frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \frac{1}{3 \times 4} + \cdots + \frac{1}{19 \times 20}$.  
 A) $\frac{18}{19}$  
 B) $\frac{19}{20}$  
 C) $\frac{20}{21}$  

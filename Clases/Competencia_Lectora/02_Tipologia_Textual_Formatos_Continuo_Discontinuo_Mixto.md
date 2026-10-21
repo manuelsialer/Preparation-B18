@@ -97,7 +97,6 @@ Frente a una infografía o texto discontinuo en la prueba de Beca 18, sigue esta
 
 ### Texto Modelo 1: Nivel Básico (Texto Discontinuo - Tabla Estadística)
 
-
 > **Tabla Oficial (Adaptada del INEI): Acceso a Servicios Básicos en Hogares Rurales del Perú (2018–2023)**
 >
 > | Indicador de Servicio en el Hogar | Año 2018 | Año 2020 | Año 2022 | Año 2023 |
@@ -195,7 +194,6 @@ D) La apertura de carreteras y el crecimiento urbano tienen una incidencia cuant
 ## 5. Práctica Propuesta
 
 ### Bloque I: Comprensión de Textos Discontinuos Básicos
-
 
 #### Texto I (Afiche Institucional)
 > **Afiche del Ministerio de Salud (MINSA): "Campaña Nacional contra la Anemia Infantil"**

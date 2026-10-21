@@ -27,15 +27,18 @@ alt: Puntos Notables en el Triángulo - Baricentro e Incentro
 Para todo triángulo de vértices $A$, $B$ y $C$ con lados opuestos de longitudes $a$, $b$ y $c$, y ángulos interiores $\alpha$, $\beta$ y $\theta$:
 
 1. **Suma de Ángulos Interiores:**
-   $$\alpha + \beta + \theta = 180^\circ$$
+
+$$\alpha + \beta + \theta = 180^\circ$$
 
 2. **Teorema del Ángulo Exterior:**
    La medida de un ángulo exterior es igual a la suma de las medidas de los dos ángulos interiores no adyacentes a él:
-   $$\angle \text{ext}_C = \alpha + \beta$$
+
+$$\angle \text{ext}_C = \alpha + \beta$$
 
 3. **Existencia del Triángulo (Desigualdad Triangular):**
    La longitud de cualquier lado es estrictamente mayor que la diferencia positiva de los otros dos y menor que su suma:
-   $$|b - c| < a < b + c$$
+
+$$|b - c| < a < b + c$$
 
 4. **Correspondencia (Lado-Ángulo):**
    Al ángulo interior de mayor medida se opone el lado de mayor longitud, y viceversa.
@@ -53,7 +56,8 @@ Segmento de recta perpendicular trazado desde un vértice hacia la recta que con
 #### 3. Bisectriz Interior y Exterior
 Rayo o segmento que biseca un ángulo interior o exterior.
 * **Teorema de la Bisectriz Interior:** Si $BD$ es bisectriz interior del ángulo $B$, divide al lado opuesto $AC$ en segmentos proporcionales a los lados adyacentes:
-  $$\frac{c}{a} = \frac{AD}{DC}$$
+
+$$\frac{c}{a} = \frac{AD}{DC}$$
 
 #### 4. Mediatriz
 Recta perpendicular trazada en el punto medio de un lado del triángulo. No necesariamente pasa por el vértice opuesto (solo en triángulos isósceles respecto a la base o en equiláteros).
@@ -66,28 +70,35 @@ Recta perpendicular trazada en el punto medio de un lado del triángulo. No nece
 * **Definición:** Punto de concurrencia de las tres medianas.
 * **Propiedad de Centro de Masa:** Siempre es un punto interior al triángulo.
 * **Propiedad Fundamental $2:1$:** El baricentro divide a cada mediana en dos segmentos tales que la distancia del vértice al baricentro es el doble de la distancia del baricentro al punto medio del lado opuesto:
-  $$BG = 2 \cdot GM \iff \frac{BG}{GM} = 2$$
-  $$AG = 2 \cdot GN \iff \frac{AG}{GN} = 2$$
-  $$CG = 2 \cdot GP \iff \frac{CG}{GP} = 2$$
+
+$$BG = 2 \cdot GM \iff \frac{BG}{GM} = 2$$
+
+$$AG = 2 \cdot GN \iff \frac{AG}{GN} = 2$$
+
+$$CG = 2 \cdot GP \iff \frac{CG}{GP} = 2$$
 
 #### 2. Incentro ($I$)
 * **Definición:** Punto de concurrencia de las tres bisectrices interiores.
 * **Propiedad:** Es el centro de la circunferencia inscrita (*incírculo*), tangente a los tres lados.
 * **Equidistancia:** Equidista de los tres lados del triángulo a una distancia igual al inradio $r$.
 * **Ángulo entre Bisectrices Interiores:** El ángulo formado por las bisectrices de dos ángulos interiores mide:
-  $$\angle AIC = 90^\circ + \frac{\angle B}{2}$$
+
+$$\angle AIC = 90^\circ + \frac{\angle B}{2}$$
 
 #### 3. Circuncentro ($O$)
 * **Definición:** Punto de concurrencia de las mediatrices de los tres lados.
 * **Propiedad:** Es el centro de la circunferencia circunscrita (*circuncírculo*) que pasa por los tres vértices.
 * **Equidistancia:** Equidista de los tres vértices:
-  $$OA = OB = OC = R \quad (\text{circunradio})$$
+
+$$OA = OB = OC = R \quad (\text{circunradio})$$
+
 * **Posición según el tipo de triángulo:**
   * En un triángulo **acutángulo**, $O$ es interior.
   * En un triángulo **rectángulo**, $O$ es el **punto medio de la hipotenusa** ($R = \frac{c}{2}$).
   * En un triángulo **obtusángulo**, $O$ es exterior.
 * **Ángulo Central:** El ángulo subentendido desde el circuncentro hacia un lado es el doble del ángulo del vértice opuesto:
-  $$\angle AOC = 2 \cdot \angle B$$
+
+$$\angle AOC = 2 \cdot \angle B$$
 
 #### 4. Ortocentro ($H$)
 * **Definición:** Punto de concurrencia de las rectas que contienen a las tres alturas.
@@ -133,13 +144,17 @@ El baricentro divide a la mediana en razón $2:1$, donde el segmento que conecta
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar la relación métrica del baricentro sobre la mediana:
+
 $$BM = BG + GM$$
+
 $$BG = 2 \cdot GM \implies GM = \frac{BG}{2}$$
 
 **Paso 2:** Expresar la mediana en función de $BG$:
+
 $$BM = BG + \frac{BG}{2} = \frac{3}{2}BG$$
 
 **Paso 3:** Sustituir el valor numérico conocido ($BM = 24$):
+
 $$24 = \frac{3}{2}BG \implies BG = \frac{24 \cdot 2}{3} = \frac{48}{3} = 16\text{ cm}$$
 
 **Conclusión:**
@@ -156,10 +171,13 @@ El incentro es el punto donde concurren las bisectrices interiores. El ángulo f
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar el teorema del ángulo formado por dos bisectrices interiores:
+
 $$\angle AIC = 90^\circ + \frac{\angle B}{2}$$
 
 **Paso 2:** Reemplazar el valor del ángulo interior $\angle B = 70^\circ$:
+
 $$\angle AIC = 90^\circ + \frac{70^\circ}{2}$$
+
 $$\angle AIC = 90^\circ + 35^\circ = 125^\circ$$
 
 **Conclusión:**
@@ -179,13 +197,16 @@ En un triángulo rectángulo:
 **Solución Paso a Paso:**
 
 **Paso 1:** Recordar la propiedad de la mediana relativa a la hipotenusa en un triángulo rectángulo:
+
 $$m_h = \frac{\text{Hipotenusa}}{2}$$
 
 **Paso 2:** Sustituir la medida de la hipotenusa ($30\text{ cm}$):
+
 $$m_h = \frac{30}{2} = 15\text{ cm}$$
 
 **Paso 3:** Conectar geométricamente los puntos notables:
 El segmento que une el vértice recto ($H$) con el punto medio de la hipotenusa ($O$) es precisamente dicha mediana:
+
 $$d(H, O) = m_h = 15\text{ cm}$$
 
 **Conclusión:**
@@ -207,10 +228,13 @@ Dado que las medianas son perpendiculares, el triángulo $AGC$ formado por los s
 Las medianas son perpendiculares $\implies \angle AGC = 90^\circ$.
 
 **Paso 2:** Aplicar el Teorema de Pitágoras en el triángulo rectángulo $AGC$:
+
 $$AC^2 = AG^2 + CG^2$$
 
 **Paso 3:** Sustituir las medidas dadas:
+
 $$AC^2 = 8^2 + 6^2 = 64 + 36 = 100$$
+
 $$AC = \sqrt{100} = 10\text{ cm}$$
 
 **Conclusión:**
@@ -228,9 +252,11 @@ El circuncentro es el centro de la circunferencia circunscrita. El ángulo $\ang
 
 **Paso 1:** Relacionar el ángulo central con el ángulo inscrito:
 En la circunferencia circunscrita:
+
 $$\text{Medida del arco } \widehat{AC} = \angle AOC = 130^\circ$$
 
 **Paso 2:** Calcular el ángulo inscrito $\angle B$:
+
 $$\angle B = \frac{\text{arco } \widehat{AC}}{2} = \frac{130^\circ}{2} = 65^\circ$$
 
 **Conclusión:**
@@ -247,15 +273,21 @@ El Teorema de la Bisectriz Interior establece que el pie de la bisectriz divide 
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la proporción con las medidas conocidas:
+
 $$\frac{AD}{DC} = \frac{12}{18} = \frac{2}{3}$$
+
 Esto significa que $AD = 2k$ y $DC = 3k$.
 
 **Paso 2:** Usar la longitud total del lado $AC$:
+
 $$AC = AD + DC = 2k + 3k = 5k$$
+
 $$5k = 25 \implies k = 5\text{ cm}$$
 
 **Paso 3:** Calcular la longitud de $AD$:
+
 $$AD = 2k = 2(5) = 10\text{ cm}$$
+
 $$DC = 3k = 3(5) = 15\text{ cm}$$
 
 **Conclusión:**
@@ -272,12 +304,15 @@ En un triángulo equilátero, los puntos notables coinciden. La altura mide $h =
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la altura del triángulo equilátero:
+
 $$h = \frac{L\sqrt{3}}{2} = \frac{(12\sqrt{3})\sqrt{3}}{2} = \frac{12 \cdot 3}{2} = 18\text{ cm}$$
 
 **Paso 2:** Determinar la distancia del vértice al baricentro ($R$):
+
 $$R = \frac{2}{3}h = \frac{2}{3}(18) = 12\text{ cm}$$
 
 **Paso 3:** Determinar el inradio ($r$):
+
 $$r = \frac{1}{3}h = \frac{1}{3}(18) = 6\text{ cm}$$
 
 **Conclusión:**
@@ -292,24 +327,35 @@ Una empresa de telecomunicaciones implementa el servicio de internet en tres com
 
 **Análisis Conceptual:**
 El punto que equidista de los tres vértices de un triángulo es el **circuncentro**. El radio necesario es el circunradio $R$. Se puede calcular mediante la relación de área y circunradio:
+
 $$\text{Área} = \frac{a \cdot b \cdot c}{4R} \implies R = \frac{a \cdot b \cdot c}{4 \cdot \text{Área}}$$
+
 El área se calcula con la fórmula de Herón: $\text{Área} = \sqrt{p(p-a)(p-b)(p-c)}$.
 
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el semiperímetro $p$:
+
 $$p = \frac{13 + 14 + 15}{2} = \frac{42}{2} = 21\text{ km}$$
 
 **Paso 2:** Calcular el área por la fórmula de Herón:
+
 $$\text{Área} = \sqrt{21(21 - 13)(21 - 14)(21 - 15)}$$
+
 $$\text{Área} = \sqrt{21 \cdot 8 \cdot 7 \cdot 6}$$
+
 Descomponiendo en factores primos:
+
 $$21 \cdot 8 \cdot 7 \cdot 6 = (3 \cdot 7) \cdot (2^3) \cdot (7) \cdot (2 \cdot 3) = 2^4 \cdot 3^2 \cdot 7^2$$
+
 $$\text{Área} = \sqrt{2^4 \cdot 3^2 \cdot 7^2} = 2^2 \cdot 3 \cdot 7 = 4 \cdot 21 = 84\text{ km}^2$$
 
 **Paso 3:** Despejar el circunradio $R$:
+
 $$R = \frac{a \cdot b \cdot c}{4 \cdot \text{Área}} = \frac{13 \cdot 14 \cdot 15}{4 \cdot 84}$$
+
 Simplificando: $14$ y $84$ tienen catorceava ($84 / 14 = 6$):
+
 $$R = \frac{13 \cdot 15}{4 \cdot 6} = \frac{13 \cdot 5}{4 \cdot 2} = \frac{65}{8} = 8.125\text{ km}$$
 
 **Conclusión:**
@@ -322,21 +368,29 @@ Tres parcelas comunales de cultivo de quinua en Puno forman una distribución tr
 
 **Análisis Conceptual:**
 El punto interior que equidista de los tres lados (linderos) de un triángulo es el **incentro** ($I$), y la distancia común a los lados es el **inradio** ($r$). Observemos que las dimensiones $150, 200, 250$ son proporcionales a $3, 4, 5$, por lo que se trata de un triángulo rectángulo. En todo triángulo rectángulo se cumple el Teorema de Poncelet:
+
 $$a + b = c + 2r$$
 
 **Solución Paso a Paso:**
 
 **Paso 1:** Verificar la naturaleza del triángulo:
+
 $$150^2 + 200^2 = 22\,500 + 40\,000 = 62\,500$$
+
 $$250^2 = 62\,500$$
+
 Se trata de un triángulo rectángulo con catetos $a = 150\text{ m}$, $b = 200\text{ m}$ e hipotenusa $c = 250\text{ m}$.
 
 **Paso 2:** Aplicar el Teorema de Poncelet:
+
 $$\text{Suma de catetos} = \text{Hipotenusa} + 2 \cdot (\text{inradio})$$
+
 $$150 + 200 = 250 + 2r$$
+
 $$350 = 250 + 2r$$
 
 **Paso 3:** Despejar el inradio $r$:
+
 $$2r = 350 - 250 = 100 \implies r = 50\text{ m}$$
 
 **Conclusión:**
@@ -353,14 +407,19 @@ El baricentro $G$ divide a la mediana $CM$ en dos segmentos tales que $CG = 2 \c
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la ecuación con la longitud de la mediana:
+
 $$CM = 27\text{ km}$$
+
 $$CG = \frac{2}{3} \cdot CM$$
+
 $$GM = \frac{1}{3} \cdot CM$$
 
 **Paso 2:** Calcular la distancia de $C$ a la planta $G$:
+
 $$CG = \frac{2}{3}(27) = 18\text{ km}$$
 
 **Paso 3:** Calcular la distancia de la planta $G$ al punto medio $M$:
+
 $$GM = \frac{1}{3}(27) = 9\text{ km}$$
 
 **Conclusión:**

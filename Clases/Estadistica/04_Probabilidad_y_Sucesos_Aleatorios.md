@@ -33,37 +33,37 @@ alt: Diagrama de Venn y Regla de Laplace
 ### 2.3 Axiomas y Propiedades Fundamentales
 1. **Acotamiento:** Para cualquier suceso $A$:
    
-   $$0 \le P(A) \le 1$$
+$$0 \le P(A) \le 1$$
 
 2. **Suceso Seguro ($\Omega$):**
    
-   $$P(\Omega) = 1$$
+$$P(\Omega) = 1$$
 
 3. **Suceso Imposible ($\emptyset$):**
    
-   $$P(\emptyset) = 0$$
+$$P(\emptyset) = 0$$
 
 4. **Suceso Complementario o Contrario ($A^c$ o $A'$):**
    
-   $$P(A^c) = 1 - P(A)$$
+$$P(A^c) = 1 - P(A)$$
 
 5. **Regla de la Adición (Unión de Sucesos):**
    * **En general (eventos compatibles):**
      
-     $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
      
    * **Sucesos Mutuamente Excluyentes o Disjuntos ($A \cap B = \emptyset$):**
      
-     $$P(A \cup B) = P(A) + P(B)$$
+$$P(A \cup B) = P(A) + P(B)$$
 
 ### 2.4 Sucesos Independientes y Probabilidad Condicional
 * **Probabilidad Condicional ($P(A \mid B)$):** Probabilidad de que ocurra el evento $A$ dado que ya ha ocurrido con certeza el evento $B$ (con $P(B) > 0$):
   
-  $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
 
 * **Sucesos Independientes:** Dos sucesos $A$ y $B$ son independientes si la ocurrencia de uno no altera la probabilidad de ocurrencia del otro. Se cumple estrictamente:
   
-  $$P(A \cap B) = P(A) \cdot P(B)$$
+$$P(A \cap B) = P(A) \cdot P(B)$$
 
 ---
 

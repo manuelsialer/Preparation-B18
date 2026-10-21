@@ -37,14 +37,17 @@ En todo problema de ángulos verticales intervienen tres elementos geométricos 
 
 #### 1. Ángulo de Elevación ($\alpha$)
 Es el ángulo vertical formado entre la **línea horizontal** y la **línea visual**, cuando el objeto observado se encuentra **por encima** del nivel del observador:
+
 $$\text{Línea Visual está sobre la Línea Horizontal} \implies \text{Ángulo de Elevación } \alpha$$
 
 #### 2. Ángulo de Depresión ($\beta$)
 Es el ángulo vertical formado entre la **línea horizontal** y la **línea visual**, cuando el objeto observado se encuentra **por debajo** del nivel del observador:
+
 $$\text{Línea Visual está debajo de la Línea Horizontal} \implies \text{Ángulo de Depresión } \beta$$
 
 #### 3. Ángulo de Observación o de Visibilidad ($\theta$)
 Es el ángulo comprendido entre **dos líneas visuales** dirigidas hacia los dos extremos (superior e inferior) de un mismo objeto:
+
 $$\theta = \alpha + \beta \quad (\text{si el objeto cruza la horizontal}) \quad\text{ó}\quad \theta = \alpha_2 - \alpha_1$$
 
 ---
@@ -53,8 +56,7 @@ $$\theta = \alpha + \beta \quad (\text{si el objeto cruza la horizontal}) \quad\
 
 Dado que todas las líneas horizontales son paralelas entre sí, por el teorema de ángulos alternos internos entre paralelas:
 > **Principio de Reciprocidad:** El ángulo de depresión con que un observador $A$ divisa un punto $B$ en el suelo es **exactamente igual** al ángulo de elevación con que un observador situado en $B$ divisa al observador $A$:
-> $$\beta_{\text{depresión}}(A \to B) = \alpha_{\text{elevación}}(B \to A)$$
-
+> $\beta_{\text{depresión}}(A \to B) = \alpha_{\text{elevación}}(B \to A)$
 ---
 
 ### 2.4 Dos Casos Clásicos de Planteo en Exámenes
@@ -62,7 +64,9 @@ Dado que todas las líneas horizontales son paralelas entre sí, por el teorema 
 #### Caso A: Consideración de la Estatura del Observador
 * **Estatura Despreciable:** Si el problema no menciona la altura del observador, se considera un punto en el suelo ($h_{\text{obs}} = 0$).
 * **Estatura Explícita ($h$):** Si el problema indica que la persona mide $h$ metros (ejemplo: $1.70\text{ m}$), la altura total del edificio o torre será:
-  $$H_{\text{total}} = y + h = d\tan(\alpha) + h$$
+
+$$H_{\text{total}} = y + h = d\tan(\alpha) + h$$
+
   *(donde $y$ es el cateto opuesto del triángulo rectángulo y $d$ es la distancia horizontal).*
 
 #### Caso B: Desplazamiento del Observador (Acercamiento o Alejamiento)
@@ -70,7 +74,8 @@ Un observador divisa la cúspide de una torre de altura $H$ con un ángulo de el
 * En el primer triángulo: $d + x = H \cot(\alpha)$
 * En el segundo triángulo: $x = H \cot(\beta)$
 * Restando ambas ecuaciones:
-  $$d = H(\cot\alpha - \cot\beta) \implies H = \frac{d}{\cot\alpha - \cot\beta}$$
+
+$$d = H(\cot\alpha - \cot\beta) \implies H = \frac{d}{\cot\alpha - \cot\beta}$$
 
 ---
 
@@ -96,12 +101,15 @@ La distancia horizontal es el cateto adyacente ($40\text{ m}$) y la altura es el
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la razón trigonométrica tangente:
+
 $$\tan(37^\circ) = \frac{\text{Altura } H}{\text{Distancia horizontal } d}$$
 
 **Paso 2:** Reemplazar los valores conocidos:
+
 $$\frac{3}{4} = \frac{H}{40}$$
 
 **Paso 3:** Despejar la altura $H$:
+
 $$H = \frac{3 \cdot 40}{4} = 3 \cdot 10 = 30\text{ m}$$
 
 **Conclusión:**
@@ -118,12 +126,15 @@ Por el principio de alternos internos, el ángulo de elevación desde la lancha 
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la relación con la tangente:
+
 $$\tan(53^\circ) = \frac{\text{Altura del faro}}{\text{Distancia } d}$$
 
 **Paso 2:** Sustituir los valores:
+
 $$\frac{4}{3} = \frac{48}{d}$$
 
 **Paso 3:** Despejar la distancia $d$:
+
 $$4d = 48 \cdot 3 = 144 \implies d = \frac{144}{4} = 36\text{ m}$$
 
 **Conclusión:**
@@ -140,9 +151,11 @@ En el triángulo rectángulo formado sobre la línea horizontal del ojo, como el
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la altura del triángulo por encima de los ojos:
+
 $$y = d \cdot \tan(45^\circ) = 8.30 \cdot 1 = 8.30\text{ m}$$
 
 **Paso 2:** Sumar la estatura del observador:
+
 $$H_{\text{total}} = y + h_{\text{obs}} = 8.30 + 1.70 = 10.00\text{ m}$$
 
 **Conclusión:**
@@ -161,16 +174,21 @@ Aplicamos la fórmula de cambio de posición con los ángulos notables $30^\circ
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar los valores trigonométricos:
+
 $$\cot(30^\circ) = \sqrt{3},\quad \cot(60^\circ) = \frac{\sqrt{3}}{3}$$
 
 **Paso 2:** Plantear la ecuación con el desplazamiento $d = 40\text{ m}$:
+
 $$H(\cot 30^\circ - \cot 60^\circ) = 40$$
+
 $$H\left(\sqrt{3} - \frac{\sqrt{3}}{3}\right) = 40$$
 
 **Paso 3:** Simplificar la resta de fracciones:
+
 $$H\left(\frac{2\sqrt{3}}{3}\right) = 40$$
 
 **Paso 4:** Despejar la altura $H$:
+
 $$H = \frac{40 \cdot 3}{2\sqrt{3}} = \frac{60}{\sqrt{3}} = \frac{60\sqrt{3}}{3} = 20\sqrt{3}\text{ m} \approx 34.64\text{ m}$$
 
 **Conclusión:**
@@ -189,13 +207,17 @@ Desde el mismo punto en el suelo a distancia $d$:
 **Solución Paso a Paso:**
 
 **Paso 1:** Hallar la distancia horizontal $d$ usando la base de la antena:
+
 $$\tan(37^\circ) = \frac{24}{d} \implies \frac{3}{4} = \frac{24}{d}$$
+
 $$3d = 24 \cdot 4 = 96 \implies d = \frac{96}{3} = 32\text{ m}$$
 
 **Paso 2:** Plantear la ecuación para la cúspide de la antena con el ángulo de $45^\circ$:
+
 $$\tan(45^\circ) = \frac{24 + L}{d} \implies 1 = \frac{24 + L}{32}$$
 
 **Paso 3:** Despejar la longitud de la antena $L$:
+
 $$24 + L = 32 \implies L = 32 - 24 = 8\text{ m}$$
 
 **Conclusión:**
@@ -212,12 +234,15 @@ Ambos autos están en una línea recta horizontal. Las distancias horizontales d
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la distancia al auto más lejano ($37^\circ$):
+
 $$d_1 = 120 \cdot \cot(37^\circ) = 120 \cdot \frac{4}{3} = 40 \cdot 4 = 160\text{ m}$$
 
 **Paso 2:** Calcular la distancia al auto más cercano ($53^\circ$):
+
 $$d_2 = 120 \cdot \cot(53^\circ) = 120 \cdot \frac{3}{4} = 30 \cdot 3 = 90\text{ m}$$
 
 **Paso 3:** Calcular la separación entre los automóviles:
+
 $$\Delta d = d_1 - d_2 = 160 - 90 = 70\text{ m}$$
 
 **Conclusión:**
@@ -234,14 +259,19 @@ Sea $H$ la altura del monumento. Las cotangentes son $\cot\alpha = 3$ y $\cot\be
 **Solución Paso a Paso:**
 
 **Paso 1:** Identificar las cotangentes de los ángulos:
+
 $$\cot\alpha = \frac{1}{\tan\alpha} = 3$$
+
 $$\cot\beta = \frac{1}{\tan\beta} = 2$$
 
 **Paso 2:** Aplicar la ecuación del desplazamiento:
+
 $$d = H(\cot\alpha - \cot\beta)$$
+
 $$20 = H(3 - 2)$$
 
 **Paso 3:** Despejar la altura $H$:
+
 $$20 = H(1) \implies H = 20\text{ m}$$
 
 **Conclusión:**
@@ -260,16 +290,23 @@ La altura del acantilado es $H = 84\text{ m}$. Las distancias horizontales en el
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la distancia a la lancha más alejada ($16^\circ$):
+
 $$d_1 = 84 \cdot \cot(16^\circ) = 84 \cdot \frac{24}{7}$$
+
 Simplificando $84$ entre $7$: $\frac{84}{7} = 12$.
+
 $$d_1 = 12 \cdot 24 = 288\text{ m}$$
 
 **Paso 2:** Calcular la distancia a la lancha más cercana ($37^\circ$):
+
 $$d_2 = 84 \cdot \cot(37^\circ) = 84 \cdot \frac{4}{3}$$
+
 Simplificando $84$ entre $3$: $\frac{84}{3} = 28$.
+
 $$d_2 = 28 \cdot 4 = 112\text{ m}$$
 
 **Paso 3:** Calcular la distancia de separación entre las embarcaciones:
+
 $$\Delta d = d_1 - d_2 = 288 - 112 = 176\text{ m}$$
 
 **Conclusión:**
@@ -289,13 +326,17 @@ La distancia horizontal es $d = 4\,000\text{ m}$.
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el desnivel del cráter respecto al campamento ($y_1$):
+
 $$y_1 = 4\,000 \cdot \tan(37^\circ) = 4\,000 \cdot \frac{3}{4} = 3\,000\text{ m}$$
+
 Altitud del cráter: $3\,600 + 3\,000 = 6\,600\text{ m.s.n.m.}$
 
 **Paso 2:** Calcular la altura de la cúspide de la nube de ceniza ($y_2$):
+
 $$y_2 = 4\,000 \cdot \tan(53^\circ) = 4\,000 \cdot \frac{4}{3} = \frac{16\,000}{3} \approx 5\,333.33\text{ m}$$
 
 **Paso 3:** Calcular la altura de la columna de ceniza sobre el cráter:
+
 $$\Delta y = y_2 - y_1 = \frac{16\,000}{3} - 3\,000 = \frac{16\,000 - 9\,000}{3} = \frac{7\,000}{3} \approx 2\,333.33\text{ m}$$
 
 **Conclusión:**
@@ -312,12 +353,17 @@ La profundidad vertical es el cateto opuesto $h = 120\text{ m}$. El ángulo de d
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el ancho horizontal del cañón ($d$):
+
 $$\tan\left(\frac{53^\circ}{2}\right) = \frac{\text{Profundidad}}{d} = \frac{1}{2}$$
+
 $$\frac{120}{d} = \frac{1}{2} \implies d = 2 \cdot 120 = 240\text{ m}$$
 
 **Paso 2:** Calcular la longitud del cable de acero tensor ($L$) por Pitágoras:
+
 $$L = \sqrt{120^2 + 240^2} = \sqrt{120^2(1 + 2^2)} = 120\sqrt{1 + 4} = 120\sqrt{5}\text{ m}$$
+
 Aproximando con $\sqrt{5} \approx 2.236$:
+
 $$L \approx 120(2.236) \approx 268.33\text{ m}$$
 
 **Conclusión:**

@@ -31,11 +31,16 @@ Se engendra al girar una región rectangular una vuelta completa ($360^\circ$) a
 
 #### Fórmulas Fundamentales del Cilindro:
 1. **Área Lateral ($A_L$):** Corresponde al desarrollo plano del cilindro, el cual es un rectángulo de base $2\pi r$ (longitud de la circunferencia) y altura $h$:
-   $$A_L = 2\pi r h$$
+
+$$A_L = 2\pi r h$$
+
 2. **Área Total ($A_T$):** Suma del área lateral más el área de las dos bases circulares ($2 \cdot \pi r^2$):
-   $$A_T = A_L + 2A_{\text{base}} = 2\pi r h + 2\pi r^2 = 2\pi r(h + r)$$
+
+$$A_T = A_L + 2A_{\text{base}} = 2\pi r h + 2\pi r^2 = 2\pi r(h + r)$$
+
 3. **Volumen ($V$):** Producto del área de la base por la altura:
-   $$V = \pi r^2 h$$
+
+$$V = \pi r^2 h$$
 
 ---
 
@@ -46,17 +51,25 @@ Se engendra al girar una región triangular rectangular una vuelta completa ($36
 * **Vértice o Cúspide ($V$):** Punto superior donde concurren las generatrices.
 * **Altura ($h$):** Segmento perpendicular trazado desde el vértice hacia el centro de la base circular.
 * **Generatriz ($g$):** Segmento que une el vértice con cualquier punto de la circunferencia de la base. Cumple el Teorema de Pitágoras con el radio y la altura:
-  $$g^2 = r^2 + h^2 \implies g = \sqrt{r^2 + h^2}$$
+
+$$g^2 = r^2 + h^2 \implies g = \sqrt{r^2 + h^2}$$
 
 #### Fórmulas Fundamentales del Cono:
 1. **Área Lateral ($A_L$):** El desarrollo plano de la superficie lateral es un sector circular de radio $g$ y longitud de arco $2\pi r$:
-   $$A_L = \pi r g$$
+
+$$A_L = \pi r g$$
+
 2. **Área Total ($A_T$):** Suma del área lateral y el área de la base:
-   $$A_T = A_L + A_{\text{base}} = \pi r g + \pi r^2 = \pi r(g + r)$$
+
+$$A_T = A_L + A_{\text{base}} = \pi r g + \pi r^2 = \pi r(g + r)$$
+
 3. **Volumen ($V$):** Equivale exactamente a la tercera parte del volumen de un cilindro de igual radio y altura:
-   $$V = \frac{1}{3}\pi r^2 h$$
+
+$$V = \frac{1}{3}\pi r^2 h$$
+
 4. **Ángulo de Desarrollo del Sector Lateral ($\theta$):**
-   $$\theta = \frac{r}{g} \cdot 360^\circ$$
+
+$$\theta = \frac{r}{g} \cdot 360^\circ$$
 
 ---
 
@@ -69,9 +82,13 @@ Se engendra al girar una región semicircular una vuelta completa ($360^\circ$) 
 
 #### Fórmulas Fundamentales de la Esfera:
 1. **Área de la Superficie Esférica ($A_S$):** Es exactamente cuatro veces el área de su círculo máximo (demostrado por Arquímedes):
-   $$A_S = 4\pi r^2$$
+
+$$A_S = 4\pi r^2$$
+
 2. **Volumen de la Esfera ($V$):**
-   $$V = \frac{4}{3}\pi r^3$$
+
+$$V = \frac{4}{3}\pi r^3$$
+
 3. **Semiesfera o Hemisferio:**
    * Volumen: $V_{\text{hem}} = \frac{2}{3}\pi r^3$
    * Área de la superficie curva: $A_{\text{curva}} = 2\pi r^2$
@@ -98,9 +115,12 @@ $$\text{Capacidad (litros)} = V (\text{m}^3) \times 1\,000$$
 Arquímedes demostró que si se inscribe una esfera dentro de un cilindro equilátero ($h = 2r$):
 1. El área de la esfera es igual al área lateral del cilindro: $A_S = A_{L,\text{cilindro}} = 4\pi r^2$.
 2. El volumen de la esfera es exactamente $\frac{2}{3}$ del volumen del cilindro circunscrito:
-   $$V_{\text{esfera}} = \frac{2}{3} V_{\text{cilindro}} \quad \left(V_{\text{cilindro}} = \pi r^2(2r) = 2\pi r^3 \implies \frac{2}{3}(2\pi r^3) = \frac{4}{3}\pi r^3\right)$$
+
+$$V_{\text{esfera}} = \frac{2}{3} V_{\text{cilindro}} \quad \left(V_{\text{cilindro}} = \pi r^2(2r) = 2\pi r^3 \implies \frac{2}{3}(2\pi r^3) = \frac{4}{3}\pi r^3\right)$$
+
 3. La proporción entre los volúmenes de un cono, una semiesfera y un cilindro de igual radio $r$ y altura $h = r$ es exactamente:
-   $$V_{\text{cono}} : V_{\text{semiesfera}} : V_{\text{cilindro}} = 1 : 2 : 3$$
+
+$$V_{\text{cono}} : V_{\text{semiesfera}} : V_{\text{cilindro}} = 1 : 2 : 3$$
 
 ---
 
@@ -131,12 +151,15 @@ El volumen de un cilindro es $V = \pi r^2 h$. La capacidad en litros se obtiene 
 **Solución Paso a Paso:**
 
 **Paso 1:** Aplicar la fórmula del volumen del cilindro:
+
 $$V = \pi r^2 h$$
 
 **Paso 2:** Reemplazar los valores $r = 3\text{ m}$, $h = 7\text{ m}$ y $\pi \approx \frac{22}{7}$:
+
 $$V = \left(\frac{22}{7}\right) \cdot (3^2) \cdot 7 = 22 \cdot 9 = 198\text{ m}^3$$
 
 **Paso 3:** Convertir el volumen a litros:
+
 $$\text{Capacidad} = 198\text{ m}^3 \times 1\,000\frac{\text{L}}{\text{m}^3} = 198\,000\text{ litros}$$
 
 **Conclusión:**
@@ -153,12 +176,15 @@ El radio $r$, la altura $h$ y la generatriz $g$ forman un triángulo rectángulo
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular la altura $h$ por Pitágoras:
+
 $$h = \sqrt{g^2 - r^2} = \sqrt{10^2 - 6^2} = \sqrt{100 - 36} = \sqrt{64} = 8\text{ cm}$$
 
 **Paso 2:** Calcular el área lateral $A_L$:
+
 $$A_L = \pi r g = \pi(6)(10) = 60\pi\text{ cm}^2$$
 
 **Paso 3:** Calcular el volumen $V$:
+
 $$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi(6^2)(8) = \frac{1}{3}\pi(36)(8) = 12 \cdot 8 \cdot \pi = 96\pi\text{ cm}^3$$
 
 **Conclusión:**
@@ -175,9 +201,11 @@ Se aplican directamente las fórmulas de la esfera: $A_S = 4\pi r^2$ y $V = \fra
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el área de la superficie esférica:
+
 $$A_S = 4\pi r^2 = 4\pi(6^2) = 4\pi(36) = 144\pi\text{ cm}^2$$
 
 **Paso 2:** Calcular el volumen de la esfera:
+
 $$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(6^3) = \frac{4}{3}\pi(216) = 4 \cdot 72 \cdot \pi = 288\pi\text{ cm}^3$$
 
 **Conclusión:**
@@ -196,12 +224,15 @@ En el desarrollo lateral, la base del rectángulo/cuadrado es la longitud de la 
 **Solución Paso a Paso:**
 
 **Paso 1:** Despejar el radio $r$:
+
 $$2\pi r = 12\pi \implies r = \frac{12\pi}{2\pi} = 6\text{ cm}$$
 
 **Paso 2:** Identificar la altura $h$:
+
 $$h = 12\pi\text{ cm}$$
 
 **Paso 3:** Calcular el volumen del cilindro:
+
 $$V = \pi r^2 h = \pi(6^2)(12\pi) = \pi(36)(12\pi) = 432\pi^2\text{ cm}^3$$
 
 **Conclusión:**
@@ -219,14 +250,19 @@ El volumen desplazado en el cilindro es $\pi r^2 \Delta h$.
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el volumen de la esfera sumergida:
+
 $$V_{\text{esfera}} = \frac{4}{3}\pi R^3 = \frac{4}{3}\pi(6^3) = \frac{4}{3}\pi(216) = 288\pi\text{ cm}^3$$
 
 **Paso 2:** Igualar con el volumen desplazado en el cilindro de radio $r = 10\text{ cm}$:
+
 $$V_{\text{desplazado}} = \pi r^2 \cdot \Delta h$$
+
 $$288\pi = \pi(10^2) \cdot \Delta h$$
+
 $$288\pi = 100\pi \cdot \Delta h$$
 
 **Paso 3:** Despejar el incremento de altura $\Delta h$:
+
 $$\Delta h = \frac{288}{100} = 2.88\text{ cm}$$
 
 **Conclusión:**
@@ -243,17 +279,23 @@ El área total es $A_T = \pi r(g + r)$. Con $A_T = 96\pi$ y $g = 10$, formamos u
 **Solución Paso a Paso:**
 
 **Paso 1:** Plantear la ecuación con el área total:
+
 $$\pi r(10 + r) = 96\pi \implies r(10 + r) = 96$$
+
 $$r^2 + 10r - 96 = 0$$
 
 **Paso 2:** Factorizar por aspa simple:
+
 $$(r + 16)(r - 6) = 0$$
+
 Como el radio debe ser positivo: $r = 6\text{ cm}$.
 
 **Paso 3:** Calcular la altura $h$ por Pitágoras:
+
 $$h = \sqrt{g^2 - r^2} = \sqrt{10^2 - 6^2} = \sqrt{64} = 8\text{ cm}$$
 
 **Paso 4:** Calcular el volumen:
+
 $$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi(6^2)(8) = \frac{1}{3}\pi(36)(8) = 96\pi\text{ cm}^3$$
 
 **Conclusión:**
@@ -270,12 +312,15 @@ La cantidad de cilindros $N$ es el cociente entre el volumen de la esfera de plo
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el volumen de la esfera:
+
 $$V_{\text{esfera}} = \frac{4}{3}\pi R^3 = \frac{4}{3}\pi(9^3) = \frac{4}{3}\pi(729) = 4(243)\pi = 972\pi\text{ cm}^3$$
 
 **Paso 2:** Calcular el volumen de un cilindro:
+
 $$V_{\text{cilindro}} = \pi r^2 h = \pi(3^2)(4) = 36\pi\text{ cm}^3$$
 
 **Paso 3:** Calcular el número de cilindros $N$:
+
 $$N = \frac{972\pi}{36\pi} = 27$$
 
 **Conclusión:**
@@ -294,15 +339,19 @@ El radio común es $r = \frac{D}{2} = 2\text{ m}$. El volumen total es la suma d
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el volumen del cuerpo cilíndrico:
+
 $$V_{\text{cilindro}} = \pi(2^2)(6) = 24\pi\text{ m}^3$$
 
 **Paso 2:** Calcular el volumen de la tolva cónica inferior:
+
 $$V_{\text{cono}} = \frac{1}{3}\pi(2^2)(3) = \frac{1}{3}\pi(4)(3) = 4\pi\text{ m}^3$$
 
 **Paso 3:** Calcular el volumen total del silo:
+
 $$V_{\text{total}} = 24\pi + 4\pi = 28\pi\text{ m}^3 \approx 28(3.1416) \approx 87.96\text{ m}^3$$
 
 **Paso 4:** Calcular la capacidad de almacenamiento en toneladas de maíz:
+
 $$\text{Masa} = V_{\text{total}} \times 750\frac{\text{kg}}{\text{m}^3} = 87.9648 \times 750 \approx 65\,973.6\text{ kg} \approx 65.97\text{ toneladas}$$
 
 **Conclusión:**
@@ -319,14 +368,19 @@ El radio es $r = \frac{D}{2} = 6\text{ m}$. El área superficial de la esfera es
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el área de la superficie esférica:
+
 $$A_S = 4\pi r^2 = 4\pi(6^2) = 4\pi(36) = 144\pi\text{ m}^2$$
+
 $$A_S \approx 144(3.1416) \approx 452.39\text{ m}^2$$
 
 **Paso 2:** Calcular el número de galones necesarios:
+
 $$N_{\text{galones}} = \frac{452.39}{30} \approx 15.08\text{ galones}$$
+
 En la práctica comercial se deben comprar $16$ galones enteros para garantizar la cobertura total.
 
 **Paso 3:** Calcular el presupuesto total:
+
 $$\text{Costo} = 16 \times S/\, 120 = S/\, 1\,920$$
 
 **Conclusión:**
@@ -343,18 +397,25 @@ El radio es $r = 1.5\text{ m}$ y $h = 4\text{ m}$. El volumen en metros cúbicos
 **Solución Paso a Paso:**
 
 **Paso 1:** Calcular el volumen del reservorio:
+
 $$V = \pi r^2 h = \pi(1.5^2)(4) = \pi(2.25)(4) = 9\pi\text{ m}^3$$
+
 $$V \approx 9(3.1416) = 28.2744\text{ m}^3$$
 
 **Paso 2:** Convertir el volumen a litros:
+
 $$\text{Capacidad} = 28.2744 \times 1\,000 = 28\,274.4\text{ litros}$$
 
 **Paso 3:** Calcular el tiempo de llenado con caudal de $150\text{ L/min}$:
+
 $$t = \frac{28\,274.4\text{ L}}{150\text{ L/min}} \approx 188.5\text{ minutos}$$
+
 $$188.5\text{ min} = 3\text{ horas y } 8.5\text{ minutos} \approx 3\text{ h } 8\text{ min } 30\text{ s}$$
 
 **Paso 4:** Calcular los días de autonomía de la comunidad:
+
 $$\text{Días} = \frac{28\,274.4\text{ L}}{15\,000\text{ L/día}} \approx 1.88\text{ días}$$
+
 Alcanza para $1$ día completo y el $88\%$ del segundo día.
 
 **Conclusión:**

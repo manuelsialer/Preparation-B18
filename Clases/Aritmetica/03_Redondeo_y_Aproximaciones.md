@@ -645,10 +645,7 @@ E) $\frac{4}{900}$
 
 ### BLOQUE II: NIVEL INTERMEDIO (Problemas 16 al 30)
 
-16. Calcule el valor simplificado de la expresión:
-
-$$E = \frac{0.\widehat{3} + 0.\widehat{5}}{0.\widehat{7} - 0.\widehat{2}}$$
-
+16. Calcule el valor simplificado de la expresión: $E = \frac{0.\widehat{3} + 0.\widehat{5}}{0.\widehat{7} - 0.\widehat{2}}$.  
 A) $\frac{8}{5}$  
 B) $\frac{5}{8}$  
 C) $\frac{4}{5}$  
@@ -690,10 +687,7 @@ C) $7.8$
 D) $7.5$  
 E) $8.0$  
 
-22. Calcule la suma de las cifras del período de la fracción generatriz de:
-
-$$P = \frac{1}{0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3}}$$
-
+22. Calcule la suma de las cifras del período de la fracción generatriz de: $P = \frac{1}{0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3}}$.  
 A) $6$  
 B) $8$  
 C) $9$  
@@ -714,10 +708,7 @@ C) $2.5\text{ cm}$
 D) $3.0\text{ cm}$  
 E) $4.2\text{ cm}$  
 
-25. Encuentre el valor de la cifra $x$ si se cumple que:
-
-$$0.\widehat{x} + 0.\widehat{xx} + 0.\widehat{xxx} = \frac{4}{3}$$
-
+25. Encuentre el valor de la cifra $x$ si se cumple que: $0.\widehat{x} + 0.\widehat{xx} + 0.\widehat{xxx} = \frac{4}{3}$.  
 A) $2$  
 B) $3$  
 C) $4$  
