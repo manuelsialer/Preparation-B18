@@ -12,6 +12,8 @@ repository:
   branch: main
 
 html:
+  favicon: "assets/favicon.ico"
+  logo: "assets/logo.png"
   use_issues_button: true
   use_repository_button: true
   extra_navbar: '<p>Preparación Integral Beca 18 / Preuniversitaria</p>'
