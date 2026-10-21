@@ -287,5 +287,55 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
     ```
   * Tras toda compilación de SVG, verificar con script o `grep` que no existan atributos `opacity='0'` en el SVG resultante.
 
+---
+
+### `[ERR-025]` Manejo de Libros Masivos (>100 MB) y Optimización de PDFs Escaneados
+* **Fecha:** 2026-10-21
+* **Problema:** Archivos escaneados originales de gran peso (ej. Biblia Rodo de 772 MB y 595 MB, total ~1.4 GB) casi bloquean el repositorio de Git (que rechaza commits >100 MB) y resultarían imposibles de descargar para postulantes con datos móviles.
+* **Causa Raíz:** Documentos compuestos por imágenes escaneadas sin comprimir (PNGs de más de 7 MB por página y resoluciones superiores a 3400×2400 px).
+* **Invariante / Regla Aprendida:**
+  1. Ignorar inmediatamente en `.gitignore` cualquier carpeta de material fuente bruto pesado (`Libros/`).
+  2. Implementar un pipeline de optimización automatizada con `PyMuPDF` (`fitz`) y `Pillow`:
+     * Renderizado o escalado a DPI 140 (aprox. 1600 px de ancho), lo cual garantiza nitidez absoluta en fracciones, exponentes pequeños y subíndices de fórmulas matemáticas.
+     * Compresión en JPEG calidad 68–72 con `optimize=True`.
+     * Esto logra una reducción superior al 91% (de 1.36 GB a ~118 MB en total para más de 620 páginas), permitiendo su alojamiento dentro de los límites estándar de Git y la web.
+
+---
+
+### `[ERR-026]` Conflicto de Workflows de GitHub Actions (Jekyll vs Jupyter Book) y Redirecciones Residuales
+* **Fecha:** 2026-10-21
+* **Problema:** Tras cambiar la fuente de GitHub Pages, se generaron flujos sugeridos por la interfaz (`jekyll-gh-pages.yml` y `static.yml`), provocando la desaparición del tema interactivo de 3 columnas de Jupyter Book (las 2 barras laterales) y mostrando texto plano. Asimismo, un archivo residual `docs/index.html` provocaba un error 404 al redirigir al dominio raíz.
+* **Causa Raíz:**
+  1. Jekyll sobrescribía el artefacto compilado por Sphinx/Jupyter Book, convirtiendo el sitio en un blog plano sin `sphinx-book-theme`.
+  2. La presencia de `docs/index.html` con `<meta http-equiv="refresh" content="0; url=../index.html">` rompía la navegación cuando GitHub Pages intentaba servir desde rama.
+* **Invariante / Regla Aprendida:**
+  1. En `.github/workflows/`, solo debe existir el workflow oficial `deploy.yml` configurado para Jupyter Book.
+  2. Eliminar cualquier carpeta `/docs` residual para evitar conflictos de origen.
+  3. En GitHub (**Settings -> Pages -> Source**), la fuente debe ser estrictamente **GitHub Actions**.
+  4. Incluir siempre `workflow_dispatch:` en `deploy.yml` para permitir lanzamientos manuales desde la interfaz de GitHub Actions si fuese necesario.
+
+---
+
+### `[ERR-027]` Visores Embebidos en Pantalla para Compendios en lugar de Descargas Forzadas
+* **Fecha:** 2026-10-21
+* **Problema:** Enlaces de descarga directa de compendios de 50+ MB obligaban al estudiante a saturar el almacenamiento de su dispositivo o salir de la web para estudiar.
+* **Causa Raíz:** No proporcionar interfaces de lectura en línea dentro de la jerarquía de capítulos del compendio.
+* **Invariante / Regla Aprendida:**
+  1. Para compendios y formularios, crear páginas de visor interactivo dedicadas en Markdown estructuradas con bloques `{raw} html` que contengan un `<iframe>` de altura completa (`height: 85vh; min-height: 720px;`) con parámetros `#toolbar=1&navpanes=1`.
+  2. El visor debe permitir navegación por miniaturas, zoom (`+` / `-`) y búsqueda interna (`Ctrl + F`) de forma nativa en el navegador, sin necesidad de descargar el archivo.
+  3. En `deploy.yml`, asegurar que el paso de compilación copie los archivos PDF directamente a la carpeta de salida (`_build/html/Formularios/`) para mantener rutas relativas limpias y estables.
+
+---
+
+### `[ERR-028]` Diseño de Favicons y Branding para Portales Educativos
+* **Fecha:** 2026-10-21
+* **Problema:** Favicons generados con ilustraciones 3D, sombras o texturas complejas se ven borrosos e irreconocibles en pestañas pequeñas de 16×16 o 32×32 píxeles.
+* **Causa Raíz:** Tratar el favicon como una ilustración artística en lugar de un pictograma vectorial minimalista de alto contraste.
+* **Invariante / Regla Aprendida:**
+  1. Los favicons deben basarse en **siluetas geométricas planas (flat design) de máximo contraste** (ej. silueta blanca nítida sobre círculo de color sólido distintivo como azul rey o rojo carmesí).
+  2. El archivo `assets/favicon.ico` debe generarse con canal alfa transparente y almacenar los tamaños multi-resolución: 16×16, 32×32, 48×48 y 64×64 píxeles.
+  3. Vincular formalmente en `_config.yml` tanto `html: favicon: "assets/favicon.ico"` como `html: logo: "assets/logo.png"` para garantizar una identidad visual coherente tanto en la pestaña del navegador como en la cabecera del menú lateral.
+
+
 
 
