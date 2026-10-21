@@ -22,6 +22,7 @@ Cada tema ha sido diseñado bajo los estándares oficiales del **Currículo Naci
 * **Módulo 4: Trigonometría (3 temas):** Razones trigonométricas, triángulos notables, ángulos verticales e identidades fundamentales.
 * **Módulo 5: Estadística y Probabilidad (4 temas):** Tablas con datos agrupados, medidas de tendencia central, gráficos y regla de Laplace.
 * **Módulo 6: Competencia Lectora (10 temas):** Jerarquía de ideas, tipología textual continua/discontinua, inferencias lógicas, sentido figurado, textos dialécticos y lectura crítica.
+* **📖 Formularios y Compendios:** Síntesis oficial de fórmulas y leyes de admisión (Biblias Rodo de Ciencias y Humanidades) en [Formularios y Compendios](Formularios/index.md).
 
 ---
 

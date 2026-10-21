@@ -17,5 +17,5 @@ _build/
 .DS_Store
 Thumbs.db
 .vscode/
-.idea/
-
+# Large Raw Books
+Libros/
