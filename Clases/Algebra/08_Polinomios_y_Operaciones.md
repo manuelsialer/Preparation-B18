@@ -728,11 +728,11 @@ D) $42$
 E) $35$  
 
 29. Si $a + b = 4$ y $ab = 2$, calcular el valor de $a^4 + b^4$:  
-A) $84$  
-B) $92$  
-C) $96$  
-D) $100$  
-E) $112$  
+A) $112$  
+B) $124$  
+C) $136$  
+D) $144$  
+E) $140$  
 
 30. Un tejedor de chompas de alpaca en Puno calcula que el costo unitario de producción depende de la cantidad $x$ de chompas según el polinomio $C(x) = (x - 5)^2 + 40$. ¿Para qué nivel de producción el costo unitario es mínimo y cuál es dicho costo mínimo?  
 A) $5$ chompas; $S/\, 40$  
@@ -769,7 +769,7 @@ C) $6$
 D) $5$  
 E) $16$  
 
-35. Un tanque de piscigranja para truchas en Huancavelica tiene forma de paralelepípedo rectangular con dimensiones $(x + 4)\text{ m}$, $(x + 1)\text{ m}$ y $(x - 2)\text{ m}$. Si el volumen total es de $40\text{ m}^3$, hallar la profundidad media $(x - 2)$:  
+35. Un tanque de piscigranja para truchas en Huancavelica tiene forma de paralelepípedo rectangular con dimensiones $(x + 4)\text{ m}$, $(x + 1)\text{ m}$ y $(x - 2)\text{ m}$. Si el volumen total es de $80\text{ m}^3$, hallar la profundidad $(x - 2)$:  
 A) $1\text{ m}$  
 B) $2\text{ m}$  
 C) $3\text{ m}$  
@@ -852,7 +852,35 @@ E) $3/4$
 
 ---
 
-## 7. Formulario Resumen
+## 7. Claves de Respuestas y Pistas Estratégicas
+
+### Claves de Respuestas
+
+| N° | Clave | N° | Clave | N° | Clave | N° | Clave | N° | Clave |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1** | B | **10** | A | **19** | A | **28** | C | **37** | A |
+| **2** | A | **11** | B | **20** | A | **29** | C | **38** | A |
+| **3** | B | **12** | C | **21** | B | **30** | A | **39** | A |
+| **4** | B | **13** | B | **22** | A | **31** | C | **40** | A |
+| **5** | B | **14** | B | **23** | B | **32** | B | **41** | A |
+| **6** | B | **15** | C | **24** | A | **33** | A | **42** | A |
+| **7** | A | **16** | B | **25** | B | **34** | B | **43** | A |
+| **8** | B | **17** | C | **26** | B | **35** | B | **44** | B |
+| **9** | B | **18** | C | **27** | B | **36** | B | **45** | B |
+
+---
+
+### Pistas Estratégicas para Ejercicios Reto (41 al 45)
+
+* **Pista 41:** Multiplica en aspa $\frac{a^2 + b^2}{ab} = 2 \implies a^2 - 2ab + b^2 = 0 \implies (a - b)^2 = 0 \implies a = b$. Sustituye $b = a$ en la expresión racional para simplificarla a $1$.
+* **Pista 42:** Sea $P(x) = Ax^2 + Bx + C$ con $C = 3$. Desarrolla $P(x) - P(x - 1) = 2Ax + (B - A) = 4x + 2$, deduciendo $A = 2$ y $B = 4$. El término independiente de $P(2x + 1)$ es $P(2(0) + 1) = P(1) = 2(1)^2 + 4(1) + 3 = 9$.
+* **Pista 43:** Utiliza las sumas de Newton y los polinomios simétricos elementales: $p_1 = 1$, $p_2 = 2$, $p_3 = 3$. De $p_2 - e_1 p_1 + 2e_2 = 0$ obtén $e_2 = -1/2$. De $p_3 - e_1 p_2 + e_2 p_1 - 3e_3 = 0$ calcula $3 - 2 - 1/2 - 3e_3 = 0 \implies e_3 = abc = 1/6$.
+* **Pista 44:** Reduce a común denominador $-(x - y)(y - z)(z - x)$. Al expandir el numerador y factorizar por identidades algebraicas simétricas, resulta exactamente idéntico al denominador, reduciéndose a $1$.
+* **Pista 45:** Aplica la identidad condicional para tres variables con suma cero: si $x + y + z = 0$, se cumple que $x^4 + y^4 + z^4 = 2(x^2 y^2 + y^2 z^2 + z^2 x^2) = \frac{1}{2}(x^2 + y^2 + z^2)^2$. El cociente es exactamente $1/2$.
+
+---
+
+## 8. Formulario Resumen
 
 | Concepto / Teorema | Expresión Matemática | Propiedades y Condiciones |
 | :--- | :--- | :--- |

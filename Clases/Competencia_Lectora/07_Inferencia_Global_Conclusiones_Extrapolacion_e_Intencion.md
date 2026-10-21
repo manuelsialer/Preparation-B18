@@ -254,20 +254,24 @@ D) Denunciar judicialmente a los centros de datos por utilizar servidores inform
 
 ---
 
-### Solucionario y Justificación Pedagógica
+## 6. Claves de Respuestas y Racional de Descarte
 
-1. **Clave B:** El texto explica que los glucocorticoides provocados por el estrés crónico provocan apoptosis en linfocitos T y suprimen interleucinas, lo que disminuye la eficacia para frenar virus.
-2. **Clave C:** Si se bloquea la liberación excesiva de glucocorticoides, el mecanismo destructor sobre los linfocitos T descrito en el texto queda desactivado, preservando sus defensas.
-3. **Clave B:** El texto es de carácter explicativo/científico y su eje es la descripción del circuito psiconeuroinmunológico mediante el cual el estrés crónico mina el sistema inmune.
-4. **Clave B:** El autor demuestra que los barrios con dirigencias y lazos comunitarios sólidos sufrieron mucho menor incremento del delito a pesar de tener la misma precariedad económica, lo que convierte a la cohesión en un potente disuasivo.
-5. **Clave C:** Al concentrarse solo en patrulleros y obviar la red vecinal, el Estado descuidaría el capital social comunitario que el autor demostró que es vital para defender el espacio público.
-6. **Clave A:** Al comparar barrios de idéntico nivel económico pero diferente resultado de criminalidad según su capital social, el autor desarma la premisa simplista de que la pobreza genera delincuencia de manera directa.
-7. **Clave C:** La tesis de Jevons refuta la creencia ingenua de que volverse más eficiente por unidad equivale a consumir menos recurso en total (efecto rebote).
-8. **Clave B:** Al abaratar la energía en 99 %, el costo marginal se desploma, desencadenando una explosión de usos industriales y domésticos que elevaría el consumo neto global.
-9. **Clave C:** La opción C plantea que al volverse gratuito el insumo se consumiría *menos*, lo cual es la antítesis directa de la paradoja de Jevons (la mayor eficiencia desata mayor demanda agregada).
-10. **Clave B:** El autor busca evidenciar la limitación del enfoque puramente tecnológico frente al efecto rebote socioeconómico tanto en la revolución industrial como en la era digital de la inteligencia artificial.
+| Pregunta | Clave | Competencia / Indicador Evaluado | Justificación Breve |
+| :---: | :---: | :--- | :--- |
+| **1** | **B** | Inferencia Concluyente | El texto explica que los glucocorticoides provocados por el estrés crónico provocan apoptosis en linfocitos T y suprimen interleucinas, lo que disminuye la eficacia para frenar virus. |
+| **2** | **C** | Extrapolación Fisiológica | Si se bloquea la liberación excesiva de glucocorticoides, el mecanismo destructor sobre los linfocitos T descrito en el texto queda desactivado, preservando sus defensas. |
+| **3** | **B** | Propósito Comunicativo Central | El texto es de carácter explicativo/científico y su eje es la descripción del circuito psiconeuroinmunológico mediante el cual el estrés crónico mina el sistema inmune. |
+| **4** | **B** | Conclusión Global Armónica | El autor demuestra que los barrios con dirigencias y lazos comunitarios sólidos sufrieron mucho menor incremento del delito a pesar de tener la misma precariedad económica, lo que convierte a la cohesión en un potente disuasivo. |
+| **5** | **C** | Extrapolación de Política Pública | Al concentrarse solo en patrulleros y obviar la red vecinal, el Estado descuidaría el capital social comunitario que el autor demostró que es vital para defender el espacio público. |
+| **6** | **A** | Intención de Contraste | Al comparar barrios de idéntico nivel económico pero diferente resultado de criminalidad según su capital social, el autor desarma la premisa simplista de que la pobreza genera delincuencia de manera directa. |
+| **7** | **C** | Inferencia de Tesis (Jevons) | La tesis de Jevons refuta la creencia ingenua de que volverse más eficiente por unidad equivale a consumir menos recurso en total (efecto rebote). |
+| **8** | **B** | Extrapolación Contrafáctica | Al abaratar la energía en 99 %, el costo marginal se desploma, desencadenando una explosión de usos industriales y domésticos que elevaría el consumo neto global. |
+| **9** | **C** | Incompatibilidad Lógica | La opción C plantea que al volverse gratuito el insumo se consumiría *menos*, lo cual es la antítesis directa de la paradoja de Jevons (la mayor eficiencia desata mayor demanda agregada). |
+| **10** | **B** | Propósito Pragmático Global | El autor busca evidenciar la limitación del enfoque puramente tecnológico frente al efecto rebote socioeconómico tanto en la revolución industrial como en la era digital de la inteligencia artificial. |
 
-## 6. Autoevaluación y Diagnóstico
+---
+
+## 7. Autoevaluación y Diagnóstico
 
 | Puntaje | Diagnóstico Epistémico | Plan de Acción Estratégico |
 | :---: | :--- | :--- |
@@ -275,7 +279,9 @@ D) Denunciar judicialmente a los centros de datos por utilizar servidores inform
 | **7 - 8 aciertos** | **Nivel Competente (Comprensión Sólida)** | Dominas la conclusión, pero alguna extrapolación te hizo dudar entre causa y efecto. Refuerza el Paso 2 del protocolo. |
 | **0 - 6 aciertos** | **Nivel en Desarrollo (Atrapado en lo Literal)** | Tiendes a fantasear en las extrapolaciones o a marcar alternativas parciales. Vuelve a analizar el Texto Modelo 1 con lupa. |
 
-## 7. Formulario Resumen / Matriz de Síntesis
+---
+
+## 8. Formulario Resumen / Matriz de Síntesis
 
 | Dimensión Global | ¿Qué Evalúa en Admisión? | Pregunta Guía de Activación | Trampa Común del Distractor |
 | :--- | :--- | :--- | :--- |

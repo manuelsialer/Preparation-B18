@@ -795,7 +795,7 @@ E) $8\%$
 A) $04:30\text{ p.m.}$  
 B) $05:00\text{ p.m.}$  
 C) $06:30\text{ p.m.}$  
-D) $08:30\text{ p.m.}$  
+D) $01:30\text{ a.m. (del día siguiente)}$  
 E) $10:00\text{ p.m.}$  
 
 35. **(Contexto de Presupuesto Familiar):** Una familia destina $\frac{1}{3}$ de sus ingresos mensuales al pago de la hipoteca de su vivienda; $\frac{3}{8}$ del remanente en alimentación y servicios básicos; y las $\frac{3}{5}$ partes del nuevo saldo en educación y salud. Si el monto que les queda disponible para imprevistos y recreación es de $\text{S/ } 900$, ¿cuál es el ingreso mensual total de dicha familia?  
@@ -904,7 +904,7 @@ E) $16$
 Para potenciar tu estudio autónomo, aquí tienes las claves analíticas de los 5 ejercicios más retadores del Bloque III:
 
 * **Pista Problema 31:** La obra total es $1$. El consorcio $A$ hace en $10\text{ días}$: $10 \times \frac{1}{30} = \frac{1}{3}$. Falta terminar $\frac{2}{3}$ de la obra. El caudal conjunto de $A + B$ es $\frac{1}{30} + \frac{1}{45} = \frac{3+2}{90} = \frac{5}{90} = \frac{1}{18}$ por día. Luego, $\frac{1}{18} \cdot t = \frac{2}{3} \implies t = 12\text{ días}$. No olvides sumar los $10\text{ días}$ iniciales: $10 + 12 = 22\text{ días}$.
-* **Pista Problema 34:** A las $12:00\text{ m.}$, calcula cuánto evacuó la bomba $M$ ($5\text{ horas}$) y cuánto evacuó la bomba $N$ ($3\text{ horas}$). La fracción acumulada evacuada es $5\left(\frac{1}{16}\right) + 3\left(\frac{1}{24}\right) = \frac{5}{16} + \frac{1}{8} = \frac{7}{16}$. Falta por evacuar $\frac{9}{16}$. Como solo queda la bomba $N$, el tiempo necesario es $\frac{9/16}{1/24} = \frac{9 \times 24}{16} = 13.5\text{ horas}$. Desde las $12:00\text{ m.}$, suma $13\text{ h } 30\text{ min} \implies 01:30\text{ a.m.}$ del día siguiente (o según la programación, verifica las horas exactas de inicio).
+* **Pista Problema 34:** A las $12:00\text{ m.}$, calcula cuánto evacuó la bomba $M$ ($5\text{ horas}$) y cuánto evacuó la bomba $N$ ($3\text{ horas}$). La fracción acumulada evacuada es $5\left(\frac{1}{16}\right) + 3\left(\frac{1}{24}\right) = \frac{5}{16} + \frac{1}{8} = \frac{7}{16}$. Falta por evacuar $\frac{9}{16}$. Como solo queda la bomba $N$, el tiempo necesario es $\frac{9/16}{1/24} = \frac{9 \times 24}{16} = 13.5\text{ horas}$. Desde las $12:00\text{ m.}$, suma $13\text{ h } 30\text{ min} \implies 01:30\text{ a.m.}$ del día siguiente (Clave D).
 * **Pista Problema 36:** Cuidado con la recarga en La Oroya. Si tras el primer tramo queda $R_1 = \left(1 - \frac{4}{9}\right)C = \frac{5}{9}C$, al recargar $\frac{2}{5}$ de lo que quedaba, el nuevo volumen es $\left(1 + \frac{2}{5}\right)R_1 = \frac{7}{5}\left(\frac{5}{9}C\right) = \frac{7}{9}C$. Luego en el segundo tramo gasta $\frac{3}{7}$, por lo que le queda $\left(1 - \frac{3}{7}\right)\left(\frac{7}{9}C\right) = \frac{4}{7}\left(\frac{7}{9}C\right) = \frac{4}{9}C$. Al igualar $\frac{4}{9}C = 32$, se obtiene $C = 72\text{ galones}$.
 * **Pista Problema 43:** Nota el hermoso patrón telescópico:
 

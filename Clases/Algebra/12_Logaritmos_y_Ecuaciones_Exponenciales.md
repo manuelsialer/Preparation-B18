@@ -807,7 +807,7 @@ C) $1$
 D) $2$  
 E) $1/4$  
 
-42. **(Reto)** Resolver en $\mathbb{R}$ la ecuación con torre de exponentes: $x^{x^{x+1}} = 16$.  
+42. **(Reto)** Resolver en $\mathbb{R}$ la ecuación con torre de exponentes: $x^{x^{x+1}} = 256$.  
 A) $\sqrt{2}$  
 B) $2$  
 C) $\sqrt[4]{2}$  
@@ -848,8 +848,8 @@ E) $81$
 | **3** | B | **12** | A | **21** | B | **30** | B | **39** | A |
 | **4** | B | **13** | B | **22** | C | **31** | A | **40** | A |
 | **5** | A | **14** | B | **23** | B | **32** | B | **41** | A |
-| **6** | B | **15** | B | **24** | B | **33** | B | **42** | A |
-| **7** | C | **16** | A | **25** | B | **34** | A | **43** | B |
+| **6** | B | **15** | B | **24** | B | **33** | B | **42** | B |
+| **7** | C | **16** | A | **25** | B | **34** | A | **43** | A |
 | **8** | B | **17** | B | **26** | B | **35** | A | **44** | A |
 | **9** | A | **18** | B | **27** | B | **36** | A | **45** | A |
 
@@ -858,8 +858,8 @@ E) $81$
 ### Pistas Estratégicas para Ejercicios Reto (41 al 45)
 
 * **Pista 41:** Suma $2ab$ a ambos miembros de la condición inicial: $a^2 + 2ab + b^2 = 9ab \implies (a + b)^2 = 9ab$. Divide entre 9: $\left(\frac{a + b}{3}\right)^2 = ab$. Toma logaritmos a ambos lados y aplica la regla del sombrero: $2\log\left(\frac{a + b}{3}\right) = \log(ab) = \log(a) + \log(b)$. Concluye que $k = 1/2$.
-* **Pista 42:** Expresa la ecuación como $(x^x)^{x^x} = 16 = 2^4 = (2^2)^{2^2} = 4^4$. O bien haz $u = x^x$ para obtener $u^u = 16$, y verifica si alguna potencia fraccionaria o radical como $\sqrt{2}$ reproduce exactamente el miembro derecho: $(\sqrt{2})^{\sqrt{2}^{\sqrt{2}+1}} = 2^4 = 16$.
-* **Pista 43:** Sea $u = \log_y(x)$. Como $\log_x(y) = 1/u$, la primera ecuación es $u + \frac{1}{u} = \frac{5}{2} \implies 2u^2 - 5u + 2 = 0 \implies u = 2$ ó $u = 1/2$. Como $x > y > 1$, tomamos $u = 2 \implies \log_y(x) = 2 \implies x = y^2$. Sustituye en $xy = 64 \implies y^3 = 64 \implies y = 4$ y $x = 16$. La diferencia es $16 - 4 = 12$ (o $14$ si los factores se ajustan).
+* **Pista 42:** Aplica la ley de potencia de potencia $(A^B)^C = A^{B \cdot C}$: $(x^x)^{x^x} = x^{x \cdot x^x} = x^{x^{x+1}} = 256$. Como $256 = 4^4$, por comparación o cambio de variable $u = x^x$ se tiene $u^u = 4^4 \implies u = 4$. Luego $x^x = 4 = 2^2 \implies x = 2$.
+* **Pista 43:** Sea $u = \log_y(x)$. Como $\log_x(y) = 1/u$, la primera ecuación es $u + \frac{1}{u} = \frac{5}{2} \implies 2u^2 - 5u + 2 = 0 \implies u = 2$ ó $u = 1/2$. Como $x > y > 1$, tomamos $u = 2 \implies \log_y(x) = 2 \implies x = y^2$. Sustituyendo en $xy = 64 \implies y^3 = 64 \implies y = 4$ y $x = 16$. La diferencia requerida es $x - y = 16 - 4 = 12$.
 * **Pista 44:** Invierte cada término de la suma aplicando la regla de cambio de base: $\frac{1}{\log_k(100!)} = \log_{100!}(k)$. La suma se transforma en una suma de logaritmos de igual base: $\sum_{k=2}^{100} \log_{100!}(k) = \log_{100!}(2 \cdot 3 \cdot 4 \cdots 100) = \log_{100!}(100!) = 1$.
 * **Pista 45:** Aplica logaritmo en base 3 a ambos miembros: $\log_3(x^{\log_3(x)}) = \log_3(9x) \implies (\log_3(x))^2 = \log_3(9) + \log_3(x) = 2 + \log_3(x)$. Haciendo $u = \log_3(x)$, se tiene la ecuación cuadrática $u^2 - u - 2 = 0$. Por el Teorema de Cardano-Vieta, la suma de las raíces es $u_1 + u_2 = 1$. Como $u_1 + u_2 = \log_3(\alpha) + \log_3(\beta) = \log_3(\alpha \cdot \beta) = 1 \implies \alpha \cdot \beta = 3^1 = 3$.
 

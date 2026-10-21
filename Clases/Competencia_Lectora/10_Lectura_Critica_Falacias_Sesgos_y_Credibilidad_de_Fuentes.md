@@ -237,20 +237,24 @@ D) Apelación a los sentimientos de piedad (*ad misericordiam*).
 
 ---
 
-### Solucionario y Justificación Pedagógica
+## 6. Claves de Respuestas y Racional de Descarte
 
-1. **Clave B:** El congresista recurre a un ataque personal hacia un familiar del ministro para descalificar su propuesta técnica sobre el transporte, sin tocar los argumentos de fondo (*ad hominem*).
-2. **Clave A:** Afirmar que algo es magnífico o correcto únicamente porque *"la masa o el pueblo lo usa"* es la definición elemental de la falacia *ad populum*.
-3. **Clave B:** El pensamiento crítico evalúa las evidencias del transporte (accidentes, horas perdidas, emisiones contaminantes) y descarta los desvíos retóricos y chismes personales.
-4. **Clave B:** La muestra autoseleccionada de jugadores y su autoevaluación subjetiva no tienen valor epidemiológico para decretar la inocuidad clínica de un mecanismo de apuestas.
-5. **Clave B:** El sesgo de confirmación consiste en aferrarse a una encuesta favorable autogestionada y desestimar u ocultar la literatura médica existente que alerta sobre ludopatía infantil.
-6. **Clave B:** Una investigación científica independiente con biomarcadores cerebrales (resonancia magnética) pulveriza la afirmación de que el juego es inocuo para el cerebro de los menores.
-7. **Clave B:** A partir de un descenso modesto de 2 puntos en un solo distrito, el autor salta a una generalización moral destructiva sobre todos los seres humanos y subsidios del mundo.
-8. **Clave B:** Para sostener que si se quita el desayuno los padres resolverán la nutrición trabajando más, el autor debe asumir como verdadero el supuesto tácito de que existen empleos bien remunerados disponibles y que la única razón de la carencia es la pereza inducida por el programa.
-9. **Clave B:** Demostrar que los padres ya trabajan 50 horas a la semana y que sus ingresos son objetivamente insuficientes destruye por completo la acusación de "parasitismo y vagancia", demostrando la necesidad vital del subsidio alimentario.
-10. **Clave A:** La falacia de la solución perfecta o falacia del nirvana descarta una medida positiva (reducir 2 puntos porcentuales en un solo año) bajo el pretexto falaz de que no erradicó todo el mal de forma instantánea y perfecta.
+| Pregunta | Clave | Competencia / Indicador Evaluado | Justificación Breve |
+| :---: | :---: | :--- | :--- |
+| **1** | **B** | Detección de Falacia *Ad Hominem* | El congresista recurre a un ataque personal hacia un familiar del ministro para descalificar su propuesta técnica sobre el transporte, sin tocar los argumentos de fondo (*ad hominem*). |
+| **2** | **A** | Detección de Falacia *Ad Populum* | Afirmar que algo es magnífico o correcto únicamente porque *"la masa o el pueblo lo usa"* es la definición elemental de la falacia *ad populum*. |
+| **3** | **B** | Evaluación Crítica de Evidencias | El pensamiento crítico evalúa las evidencias del transporte (accidentes, horas perdidas, emisiones contaminantes) y descarta los desvíos retóricos y chismes personales. |
+| **4** | **B** | Validez y Representatividad Muestral | La muestra autoseleccionada de jugadores y su autoevaluación subjetiva no tienen valor epidemiológico para decretar la inocuidad clínica de un mecanismo de apuestas. |
+| **5** | **B** | Sesgo de Confirmación (*Cherry Picking*) | El sesgo de confirmación consiste en aferrarse a una encuesta favorable autogestionada y desestimar u ocultar la literatura médica existente que alerta sobre ludopatía infantil. |
+| **6** | **B** | Debilitamiento por Evidencia Científica | Una investigación científica independiente con biomarcadores cerebrales (resonancia magnética) pulveriza la afirmación de que el juego es inocuo para el cerebro de los menores. |
+| **7** | **B** | Generalización Apresurada | A partir de un descenso modesto de 2 puntos en un solo distrito, el autor salta a una generalización moral destructiva sobre todos los seres humanos y subsidios del mundo. |
+| **8** | **B** | Supuesto Tácito Fundamental | Para sostener que si se quita el desayuno los padres resolverán la nutrición trabajando más, el autor debe asumir como verdadero el supuesto tácito de que existen empleos bien remunerados disponibles y que la única razón de la carencia es la pereza inducida por el programa. |
+| **9** | **B** | Debilitamiento Empírico de Supuestos | Demostrar que los padres ya trabajan 50 horas a la semana y que sus ingresos son objetivamente insuficientes destruye por completo la acusación de "parasitismo y vagancia", demostrando la necesidad vital del subsidio alimentario. |
+| **10** | **A** | Falacia de la Solución Perfecta / Nirvana | La falacia de la solución perfecta o falacia del nirvana descarta una medida positiva (reducir 2 puntos porcentuales en un solo año) bajo el pretexto falaz de que no erradicó todo el mal de forma instantánea y perfecta. |
 
-## 6. Autoevaluación y Diagnóstico
+---
+
+## 7. Autoevaluación y Diagnóstico
 
 | Puntaje | Diagnóstico Epistémico | Plan de Acción Estratégico |
 | :---: | :--- | :--- |
@@ -258,7 +262,9 @@ D) Apelación a los sentimientos de piedad (*ad misericordiam*).
 | **7 - 8 aciertos** | **Nivel Competente (Buen Criterio)** | Reconoces las falacias principales; afina el ojo para detectar supuestos tácitos y la falacia del nirvana. |
 | **0 - 6 aciertos** | **Nivel en Desarrollo (Vulnerable a la Retórica)** | Te dejas persuadir por argumentos morales o encuestas sin revisar la metodología. Repasa la tabla de falacias del apartado 2.2. |
 
-## 7. Formulario Resumen / Matriz de Síntesis
+---
+
+## 8. Formulario Resumen / Matriz de Síntesis
 
 | Herramienta Crítica | ¿Cómo Opera la Falacia / Sesgo? | Pregunta de Detección en Examen | Antídoto Metodológico |
 | :--- | :--- | :--- | :--- |

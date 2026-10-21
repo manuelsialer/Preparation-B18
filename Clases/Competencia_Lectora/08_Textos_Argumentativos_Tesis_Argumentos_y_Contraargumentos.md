@@ -262,20 +262,24 @@ D) Un grupo de usuarios jóvenes declara que nunca ha visitado una biblioteca p�
 
 ---
 
-### Solucionario y Justificación Pedagógica
+## 6. Claves de Respuestas y Racional de Descarte
 
-1. **Clave C:** La tesis del autor se ubica al final del texto: frente a la industria chatarra, la educación voluntaria es inocua y la única salida eficaz es la intervención fiscal y regulatoria del Estado.
-2. **Clave B:** El autor sustenta el fracaso de la fuerza de voluntad en que los productos son diseñados molecularmente (*hiperpalatabilidad*) para eludir la saciedad biológica.
-3. **Clave C:** Es la postura contraria o rival que el autor descalifica de entrada (*"Esta propuesta es enteramente ingenua e ineficaz"*).
-4. **Clave B:** El texto señala que los detractores argumentan que la energía eólica y solar padecen de "intermitencia" climática y no pueden asegurar carga base ininterrumpida.
-5. **Clave B:** En el segundo párrafo, el autor refuta la objeción demostrando que las baterías de gran escala y las redes inteligentes ya permiten operar con 70 % de renovables estables en Dinamarca y Portugal.
-6. **Clave A:** Si las baterías han bajado 85 % su costo, el argumento del autor gana fuerza indiscutible, pues la solución técnica que él defiende se vuelve económicamente irresistible.
-7. **Clave B:** El autor condena el paso de la posesión física al streaming porque el usuario pierde el control sobre sus bienes culturales, dependiendo del capricho corporativo.
-8. **Clave B:** El autor contrasta el soporte físico (permanente e inviolable en el hogar) frente al entorno digital donde la empresa puede suprimir unilateralmente el archivo.
-9. **Clave B:** El argumento solo funciona si asumimos que la autonomía del ciudadano y la cultura requieren que las obras no puedan ser borradas a discreción por un tercero.
-10. **Clave C:** Si una ley obliga a entregar una copia perpetua e inalterable que el usuario guarda en su disco para siempre, se elimina el problema del "alquiler precario" y la potestad corporativa de borrarla, neutralizando el ataque del autor.
+| Pregunta | Clave | Competencia / Indicador Evaluado | Justificación Breve |
+| :---: | :---: | :--- | :--- |
+| **1** | **C** | Identificación de Tesis Central | La tesis del autor se ubica al final del texto: frente a la industria chatarra, la educación voluntaria es inocua y la única salida eficaz es la intervención fiscal y regulatoria del Estado. |
+| **2** | **B** | Argumento de Soporte Fisiológico | El autor sustenta el fracaso de la fuerza de voluntad en que los productos son diseñados molecularmente (*hiperpalatabilidad*) para eludir la saciedad biológica. |
+| **3** | **C** | Detección de Postura Adversaria | Es la postura contraria o rival que el autor descalifica de entrada (*"Esta propuesta es enteramente ingenua e ineficaz"*). |
+| **4** | **B** | Identificación del Argumento Contrario | El texto señala que los detractores argumentan que la energía eólica y solar padecen de "intermitencia" climática y no pueden asegurar carga base ininterrumpida. |
+| **5** | **B** | Refutación Dialéctica | En el segundo párrafo, el autor refuta la objeción demostrando que las baterías de gran escala y las redes inteligentes ya permiten operar con 70 % de renovables estables en Dinamarca y Portugal. |
+| **6** | **A** | Refuerzo Argumentativo | Si las baterías han bajado 85 % su costo, el argumento del autor gana fuerza indiscutible, pues la solución técnica que él defiende se vuelve económicamente irresistible. |
+| **7** | **B** | Tesis Medular Articuladora | El autor condena el paso de la posesión física al streaming porque el usuario pierde el control sobre sus bienes culturales, dependiendo del capricho corporativo. |
+| **8** | **B** | Tipo de Estrategia Argumentativa | El autor contrasta el soporte físico (permanente e inviolable en el hogar) frente al entorno digital donde la empresa puede suprimir unilateralmente el archivo. |
+| **9** | **B** | Premisa Implícita (Entimema) | El argumento solo funciona si asumimos que la autonomía del ciudadano y la cultura requieren que las obras no puedan ser borradas a discreción por un tercero. |
+| **10** | **C** | Debilitamiento Argumentativo | Si una ley obliga a entregar una copia perpetua e inalterable que el usuario guarda en su disco para siempre, se elimina el problema del "alquiler precario" y la potestad corporativa de borrarla, neutralizando el ataque del autor. |
 
-## 6. Autoevaluación y Diagnóstico
+---
+
+## 7. Autoevaluación y Diagnóstico
 
 | Puntaje | Diagnóstico Epistémico | Plan de Acción Estratégico |
 | :---: | :--- | :--- |
@@ -283,7 +287,9 @@ D) Un grupo de usuarios jóvenes declara que nunca ha visitado una biblioteca p�
 | **7 - 8 aciertos** | **Nivel Competente (Buen Razonamiento)** | Buen dominio general; dudas ocasionales en premisas implícitas o en matices de debilitamiento. |
 | **0 - 6 aciertos** | **Nivel en Desarrollo (Confusión Tema-Tesis)** | Tiendes a confundir el tema general con la tesis del autor. Vuelve a repasar el esquema T-A-C-R y el apartado 2.1. |
 
-## 7. Formulario Resumen / Matriz de Síntesis
+---
+
+## 8. Formulario Resumen / Matriz de Síntesis
 
 | Componente | Definición Rigurosa | Pregunta de Detección en Examen | Distractor Frecuente |
 | :--- | :--- | :--- | :--- |

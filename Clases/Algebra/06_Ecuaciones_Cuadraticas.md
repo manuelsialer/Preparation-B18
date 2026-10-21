@@ -826,7 +826,7 @@ C) $c = \frac{b}{a}, d = b$
 D) $c = -\frac{b}{a}, d = \frac{1}{b}$  
 E) $c = a b, d = b^2$  
 
-45. **(Reto)** Un canal de irrigación para parcelas comunales tiene sección transversal en forma de trapecio isósceles con base menor de $2\text{ m}$ y lados inclinados en ángulo de $45^\circ$. Si el área de la sección transversal debe ser de $12\text{ m}^2$ para permitir el caudal requerido en épocas de estiaje, ¿cuál debe ser la profundidad del canal en metros?  
+45. **(Reto)** Un canal de irrigación para parcelas comunales tiene sección transversal en forma de trapecio isósceles con base menor de $2\text{ m}$ y lados inclinados en ángulo de $45^\circ$. Si el área de la sección transversal debe ser de $15\text{ m}^2$ para permitir el caudal requerido en épocas de estiaje, ¿cuál debe ser la profundidad del canal en metros?  
 A) $2\text{ m}$  
 B) $3\text{ m}$  
 C) $4\text{ m}$  
@@ -863,7 +863,7 @@ E) $3.5\text{ m}$
 Interseca los tres intervalos resultantes.
 * **Pista 43:** Sea $y = x^2 - 3x$. Observa que la diferencia entre los radicandos es $(y + 6) - (y - 1) = 7$. Multiplica y divide por la expresión conjugada o eleva al cuadrado mediante el cambio de variable auxiliar $u = \sqrt{y + 6}$ y $v = \sqrt{y - 1}$.
 * **Pista 44:** Recuerda que $\cot(\theta) + \cot(\phi) = \frac{\tan(\theta) + \tan(\phi)}{\tan(\theta)\tan(\phi)} = \frac{-a}{b}$. Por Cardano-Vieta en la segunda ecuación, la suma es $-c$, luego $-c = \frac{-a}{b} \implies c = \frac{a}{b}$. Del mismo modo, el producto es $\cot(\theta)\cot(\phi) = \frac{1}{\tan(\theta)\tan(\phi)} = \frac{1}{b} = d$.
-* **Pista 45:** Si la profundidad del canal es $h$, debido a los ángulos de $45^\circ$, cada ensanchamiento lateral en la superficie es $h$. Por tanto, la base mayor del trapecio es $B = 2 + 2h$. La fórmula del área del trapecio es $\text{Área} = \frac{(B + b)}{2} \cdot h = \frac{(2 + 2h + 2)}{2} \cdot h = (h + 2)h = 12$. Resuelve la ecuación cuadrática $h^2 + 2h - 12 = 0$.
+* **Pista 45:** Si la profundidad del canal es $h$, debido a los ángulos de $45^\circ$, cada ensanchamiento lateral en la superficie es $h$. Por tanto, la base mayor del trapecio es $B = 2 + 2h$. La fórmula del área del trapecio es $\text{Área} = \frac{(B + b)}{2} \cdot h = \frac{(2 + 2h + 2)}{2} \cdot h = (h + 2)h = 15$. Resuelve la ecuación cuadrática $h^2 + 2h - 15 = 0 \implies (h - 3)(h + 5) = 0$, obteniendo la profundidad física válida $h = 3\text{ m}$.
 
 ---
 

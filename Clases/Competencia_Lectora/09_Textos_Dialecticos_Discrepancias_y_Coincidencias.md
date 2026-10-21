@@ -274,20 +274,24 @@ D) El Estado peruano suprimiría de inmediato el Ministerio de Economía y Finan
 
 ---
 
-### Solucionario y Justificación Pedagógica
+## 6. Claves de Respuestas y Racional de Descarte
 
-1. **Clave B:** Ambos textos discuten sobre la conveniencia de aplicar peajes urbanos obligatorios en las vías de la ciudad.
-2. **Clave B:** El autor 1A sostiene que el peaje es una medida racional que desincentiva el auto particular; el autor 1B afirma que es una medida segregadora e ineficaz frente a un transporte público deficiente.
-3. **Clave A:** Ambos coinciden en que la ciudad sufre graves problemas de tráfico, congestión y trancones.
-4. **Clave B:** Mientras que 2A elogia la conciliación personal y familiar, 2B sostiene que el teletrabajo borra los límites entre descanso y trabajo, disparando la hiperconexión y el agotamiento (*burnout*).
-5. **Clave A:** Ambos reconocen que el teletrabajo introduce cambios profundos en la rutina laboral tradicional, aunque difieren en sus consecuencias.
-6. **Clave A:** Al apagar servidores a las 6 p. m. (evitando la hiperconexión) y tener reuniones semanales presenciales (recuperando la creatividad colectiva), se mitigan las críticas de 2B.
-7. **Clave B:** El nudo del conflicto es si la participación de empresas privadas mediante concesiones es la salvación pragmática de las huacas (A) o una privatización mercantilista inaceptable de la memoria histórica (B).
-8. **Clave B:** El autor 3B ataca frontalmente el argumento de la "bancarrota fiscal", tildándolo de falacia ideológica para justificar la entrega de bienes públicos.
-9. **Clave A:** Ambos autores reconocen que la situación actual del patrimonio bajo tutela estatal está sumida en la desidia, la precariedad y el descuido.
-10. **Clave B:** Si la concesión no excluye a los ciudadanos locales ni mercantiliza de forma elitista el sitio, el pronóstico negativo del Texto 3B pierde sustento empírico.
+| Pregunta | Clave | Competencia / Indicador Evaluado | Justificación Breve |
+| :---: | :---: | :--- | :--- |
+| **1** | **B** | Eje Temático Común | Ambos textos discuten sobre la conveniencia de aplicar peajes urbanos obligatorios en las vías de la ciudad. |
+| **2** | **B** | Discrepancia Central | El autor 1A sostiene que el peaje es una medida racional que desincentiva el auto particular; el autor 1B afirma que es una medida segregadora e ineficaz frente a un transporte público deficiente. |
+| **3** | **A** | Punto de Coincidencia Tácita | Ambos coinciden en que la ciudad sufre graves problemas de tráfico, congestión y trancones. |
+| **4** | **B** | Discrepancia Específica (Teletrabajo) | Mientras que 2A elogia la conciliación personal y familiar, 2B sostiene que el teletrabajo borra los límites entre descanso y trabajo, disparando la hiperconexión y el agotamiento (*burnout*). |
+| **5** | **A** | Convergencia Diagnóstica | Ambos reconocen que el teletrabajo introduce cambios profundos en la rutina laboral tradicional, aunque difieren en sus consecuencias. |
+| **6** | **A** | Extrapolación de Mitigación | Al apagar servidores a las 6 p. m. (evitando la hiperconexión) y tener reuniones semanales presenciales (recuperando la creatividad colectiva), se mitigan las críticas de 2B. |
+| **7** | **B** | Discrepancia Medular (Concesiones) | El nudo del conflicto es si la participación de empresas privadas mediante concesiones es la salvación pragmática de las huacas (A) o una privatización mercantilista inaceptable de la memoria histórica (B). |
+| **8** | **B** | Refutación de Premisas Rivales | El autor 3B ataca frontalmente el argumento de la "bancarrota fiscal", tildándolo de falacia ideológica para justificar la entrega de bienes públicos. |
+| **9** | **A** | Convergencia Epistémica | Ambos autores reconocen que la situación actual del patrimonio bajo tutela estatal está sumida en la desidia, la precariedad y el descuido. |
+| **10** | **B** | Debilitamiento Dialéctico | Si la concesión no excluye a los ciudadanos locales ni mercantiliza de forma elitista el sitio, el pronóstico negativo del Texto 3B pierde sustento empírico. |
 
-## 6. Autoevaluación y Diagnóstico
+---
+
+## 7. Autoevaluación y Diagnóstico
 
 | Puntaje | Diagnóstico Epistémico | Plan de Acción Estratégico |
 | :---: | :--- | :--- |
@@ -295,7 +299,9 @@ D) El Estado peruano suprimiría de inmediato el Ministerio de Economía y Finan
 | **7 - 8 aciertos** | **Nivel Competente (Buen Desempeño)** | Buena comprensión global; atiende con mayor rigor las preguntas de debilitamiento y premisas no dichas. |
 | **0 - 6 aciertos** | **Nivel en Desarrollo (Mirada Unilateral)** | Tiendes a evaluar los textos por separado sin cruzar sus tesis. Practica la construcción de la matriz comparativa A/B. |
 
-## 7. Formulario Resumen / Matriz de Síntesis
+---
+
+## 8. Formulario Resumen / Matriz de Síntesis
 
 | Dimensión Dialéctica | Definición Operativa en Examen | Método de Resolución | Regla de Oro / Advertencia |
 | :--- | :--- | :--- | :--- |

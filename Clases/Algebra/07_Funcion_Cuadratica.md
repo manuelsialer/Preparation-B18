@@ -699,7 +699,7 @@ C) $\frac{9\sqrt{5}}{5}$
 D) $\sqrt{5}$  
 E) $\frac{8\sqrt{5}}{5}$  
 
-45. **(Reto)** Un estudiante del COAR analiza la función cuadrática $f(x) = ax^2 + bx + c$ ($a \neq 0$) y nota que $f(x + 1) - f(x) = 8x + 3$ para todo $x \in \mathbb{R}$, y además $f(0) = 5$. Determinar el valor mínimo absoluto que alcanza $f(x)$ en todo su dominio:  
+45. **(Reto)** Un estudiante del COAR analiza la función cuadrática $f(x) = ax^2 + bx + c$ ($a \neq 0$) y nota que $f(x + 1) - f(x) = 4x + 1$ para todo $x \in \mathbb{R}$, y además $f(0) = 4$. Determinar el valor mínimo absoluto que alcanza $f(x)$ en todo su dominio:  
 A) $33/8$  
 B) $31/8$  
 C) $35/8$  
@@ -732,7 +732,7 @@ E) $4$
 * **Pista 42:** Determina las coordenadas del vértice en función del parámetro $t$: $h(t) = -\frac{b}{2a} = t$ y $k(t) = f(t) = t^2 - 2t^2 + t^2 + 3t = 3t$. Al eliminar el parámetro igualando $x = t$, se sustituye directamente en la ordenada $y = 3t \implies y = 3x$.
 * **Pista 43:** Establece el sistema con el vértice superior del triángulo en $(0, 10)$ y la base sobre el eje $X$ desde $x = -6$ hasta $x = 6$. La ecuación de la recta del lado derecho es $y - 0 = -\frac{10}{6}(x - 6) \implies y = 10 - \frac{5}{3}x$. El área del rectángulo de ancho $2x$ y altura $y$ es $A(x) = 2x\left(10 - \frac{5}{3}x\right) = 20x - \frac{10}{3}x^2$. Halla el vértice de esta parábola.
 * **Pista 44:** El punto de la parábola más cercano a la recta tangente con pendiente $m = 2$ ocurre donde la recta paralela es tangente a $y = x^2$. Plantea la recta tangente $y = 2x + k$, iguala con $x^2 \implies x^2 - 2x - k = 0$ y haz $\Delta = 0 \implies k = -1$. El punto de contacto es $(1, 1)$. Aplica la fórmula de distancia de un punto a una recta: $d = \frac{|2(1) - (1) - 8|}{\sqrt{2^2 + (-1)^2}} = \frac{7}{\sqrt{5}} = \frac{7\sqrt{5}}{5}$.
-* **Pista 45:** Desarrolla $f(x + 1) - f(x) = a(x + 1)^2 + b(x + 1) + c - (ax^2 + bx + c) = 2ax + a + b$. Compara coeficientes con $8x + 3$: $2a = 8 \implies a = 4$ y $a + b = 3 \implies 4 + b = 3 \implies b = -1$. Como $f(0) = c = 5$, la función es $f(x) = 4x^2 - x + 5$. Su valor mínimo es $k = f\left(\frac{1}{8}\right) = 4\left(\frac{1}{64}\right) - \frac{1}{8} + 5 = \frac{1}{16} - \frac{2}{16} + 5 = 5 - \frac{1}{16} = \frac{79}{16} \implies$ verifica cuidadosamente la fracción.
+* **Pista 45:** Desarrolla $f(x + 1) - f(x) = a(x + 1)^2 + b(x + 1) + c - (ax^2 + bx + c) = 2ax + a + b$. Compara coeficientes con $4x + 1$: $2a = 4 \implies a = 2$ y $a + b = 1 \implies 2 + b = 1 \implies b = -1$. Como $f(0) = c = 4$, la regla de correspondencia cuadrática es $f(x) = 2x^2 - x + 4$. Su abscisa del vértice es $h = -\frac{b}{2a} = \frac{1}{4}$ y su valor mínimo absoluto es $k = f\left(\frac{1}{4}\right) = 2\left(\frac{1}{16}\right) - \frac{1}{4} + 4 = \frac{1}{8} - \frac{2}{8} + 4 = 4 - \frac{1}{8} = \frac{31}{8}$.
 
 ---
 

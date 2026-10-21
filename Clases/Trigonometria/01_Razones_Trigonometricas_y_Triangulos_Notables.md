@@ -100,17 +100,58 @@ $$\sec(\alpha) = \csc(\beta) \iff \sec(\alpha) = \csc(90^\circ - \alpha)$$
 | **$\sec$** | $\frac{2\sqrt{3}}{3}$ | $\sqrt{2}$ | $2$ | $\frac{5}{4}$ | $\frac{5}{3}$ | $\frac{25}{24}$ | $\frac{25}{7}$ |
 | **$\csc$** | $2$ | $\sqrt{2}$ | $\frac{2\sqrt{3}}{3}$ | $\frac{5}{3}$ | $\frac{5}{4}$ | $\frac{25}{7}$ | $\frac{25}{24}$ |
 
+#### Notables Secundarios y de Ángulo Mitad (Alta Frecuencia Beca 18):
+
+| Ángulo $\alpha$ | Cateto Opuesto ($\text{C.O.}$) | Cateto Adyacente ($\text{C.A.}$) | Hipotenusa ($H$) | $\tan(\alpha)$ | $\sin(\alpha)$ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **$8^\circ$** | $k$ | $7k$ | $5\sqrt{2}k$ | $\frac{1}{7}$ | $\frac{\sqrt{2}}{10}$ |
+| **$82^\circ$** | $7k$ | $k$ | $5\sqrt{2}k$ | $7$ | $\frac{7\sqrt{2}}{10}$ |
+| **$\frac{37^\circ}{2} = 18^\circ 30'$** | $k$ | $3k$ | $\sqrt{10}k$ | $\frac{1}{3}$ | $\frac{\sqrt{10}}{10}$ |
+| **$\frac{53^\circ}{2} = 26^\circ 30'$** | $k$ | $2k$ | $\sqrt{5}k$ | $\frac{1}{2}$ | $\frac{\sqrt{5}}{5}$ |
+| **$15^\circ$** | $(\sqrt{6}-\sqrt{2})k$ | $(\sqrt{6}+\sqrt{2})k$ | $4k$ | $2-\sqrt{3}$ | $\frac{\sqrt{6}-\sqrt{2}}{4}$ |
+| **$75^\circ$** | $(\sqrt{6}+\sqrt{2})k$ | $(\sqrt{6}-\sqrt{2})k$ | $4k$ | $2+\sqrt{3}$ | $\frac{\sqrt{6}+\sqrt{2}}{4}$ |
+
+> 💡 **Atajo Rodo para el triángulo $15^\circ - 75^\circ$:**  
+> La altura relativa a la hipotenusa mide exactamente la **cuarta parte de la hipotenusa**:  
+> $$h = \frac{H}{4}$$  
+> Si la hipotenusa mide $20\text{ m}$, la altura correspondiente mide inmediatamente $5\text{ m}$.
+
 ---
 
-### 2.5 Errores Frecuentes y Trampas de Examen
+### 2.5 Resolución de Triángulos Rectángulos (Método Rodo)
 
-> [!CAUTION]
-> 1. **Confundir Recíprocas con Co-razones:**
->    * Recíprocas: $\sin\alpha \cdot \csc\beta = 1 \implies \alpha = \beta$ (Mismo ángulo).
->    * Co-razones: $\sin\alpha = \cos\beta \implies \alpha + \beta = 90^\circ$ (Suman noventa).
->    * Mezclar ambas reglas es la trampa más habitual en los problemas con ecuaciones trigonométricas.
-> 2. **Olvidar que $\tan(53^\circ/2) = 1/2$ y no $0.53$:** El ángulo mitad de $53^\circ$ genera un triángulo rectángulo donde el cateto opuesto es exactamente la mitad del adyacente.
-> 3. **Operar razones como si fueran factores algebraicos:** Escribir $\sin(A + B) = \sin A + \sin B$ es un error matemático grave. Las funciones trigonométricas no son distributivas.
+Resolver un triángulo rectángulo consiste en determinar las longitudes de sus lados desconocidos en términos de **un lado conocido (dato)** y **un ángulo agudo conocido ($\theta$)**.
+
+La regla mnemotécnica preuniversitaria por excelencia es:
+
+$$\frac{\text{Lado Incógnita (Lo que quiero)}}{\text{Lado Dato (Lo que tengo)}} = \text{R.T.}(\theta)$$
+
+#### Los Tres Casos Canónicos:
+
+| Caso | Datos Conocidos | Cateto Opuesto | Cateto Adyacente | Hipotenusa |
+| :--- | :--- | :---: | :---: | :---: |
+| **Caso I: Conozco la Hipotenusa ($H$)** | $H$ y ángulo $\theta$ | $H\sin\theta$ | $H\cos\theta$ | $H$ |
+| **Caso II: Conozco el Cateto Adyacente ($a$)** | $a$ y ángulo $\theta$ | $a\tan\theta$ | $a$ | $a\sec\theta$ |
+| **Caso III: Conozco el Cateto Opuesto ($b$)** | $b$ y ángulo $\theta$ | $b$ | $b\cot\theta$ | $b\csc\theta$ |
+
+#### Cálculo Trigonométrico del Área de una Región Triangular
+
+Conociendo dos lados cualesquiera ($a$ y $b$) y la medida del ángulo comprendido entre ellos ($\theta$), el área $S$ de la región triangular se calcula directamente sin necesidad de trazar alturas auxiliares:
+
+$$S = \frac{1}{2} a \cdot b \cdot \sin(\theta)$$
+
+---
+
+### 2.6 Errores Frecuentes y Trampas de Examen
+
+> ⚠️ **1. Confundir Recíprocas con Co-razones:**  
+> * Recíprocas: $\sin\alpha \cdot \csc\beta = 1 \implies \alpha = \beta$ (Mismo ángulo).  
+> * Co-razones: $\sin\alpha = \cos\beta \implies \alpha + \beta = 90^\circ$ (Suman noventa).  
+> * Mezclar ambas reglas es la trampa más habitual en los problemas con ecuaciones trigonométricas.  
+> 
+> ⚠️ **2. Olvidar que $\tan(53^\circ/2) = 1/2$ y no $0.53$:** El ángulo mitad de $53^\circ$ genera un triángulo rectángulo donde el cateto opuesto es exactamente la mitad del adyacente.  
+> 
+> ⚠️ **3. Operar razones como si fueran factores algebraicos:** Escribir $\sin(A + B) = \sin A + \sin B$ es un error matemático grave. Las funciones trigonométricas no son distributivas.
 
 ---
 

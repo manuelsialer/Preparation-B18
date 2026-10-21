@@ -746,7 +746,7 @@ E) $32$
 44. **(Reto)** Determinar el resto de dividir $P(x) = x^{81} + x^{27} + x^9 + x^3 + x$ entre $x^2 - x + 1$:  
 A) $-5x$  
 B) $2x - 3$  
-C) $-x$  
+C) $x - 4$  
 D) $5x$  
 E) $x - 1$  
 
@@ -782,7 +782,7 @@ E) $14$
 * **Pista 41:** Plantea $P(x) \equiv (x - 1)(x - 2)Q(x) + Ax + B$. Evalúa en $x = 1 \implies P(1) = (-1)^{2026} + 0 + 3 = 4 = A(1) + B$. Evalúa en $x = 2 \implies P(2) = 0 + (1)^{1000} + 3 = 4 = 2A + B$. Resta ambas igualdades: $A = 0$ y $B = 4$. Concluye que el resto es constante e igual a 4.
 * **Pista 42:** Cuando las incógnitas $m$ y $n$ se encuentran en los términos de mayor grado del dividendo, invierte el orden completo de los polinomios (dividendo, divisor y resto) escribiéndolos desde el término independiente hacia el término de mayor grado. Aplica Horner directo sin fracciones para despejar $m$ y $n$ en la última columna.
 * **Pista 43:** Si el cociente notable tiene $N$ términos, el penúltimo término es el término de lugar $k = N - 1$. Su expresión es $T_{N-1} = (x^2)^{N - (N - 1)} (y)^{(N - 1) - 1} = (x^2)^1 y^{N - 2} = x^2 y^{N - 2}$. Iguala los exponentes con $x^2 y^{28} \implies N - 2 = 28 \implies N = 30$.
-* **Pista 44:** Multiplica el divisor por $(x + 1)$: $(x + 1)(x^2 - x + 1) = x^3 + 1 = 0 \implies x^3 = -1$. Expresa cada potencia del dividendo como potencias de $x^3$: $x^{81} = (x^3)^{27} = (-1)^{27} = -1$; $x^{27} = (x^3)^9 = -1$; $x^9 = (x^3)^3 = -1$; $x^3 = -1$. Suma todos los términos: $(-1) + (-1) + (-1) + (-1) + x = x - 4$. Si aplicas el resto directamente sobre $x^2 - x + 1$, verifica la congruencia modular.
+* **Pista 44:** Multiplica el divisor por $(x + 1)$: $(x + 1)(x^2 - x + 1) = x^3 + 1 = 0 \implies x^3 = -1$. Expresa cada potencia del dividendo como potencias de $x^3$: $x^{81} = (x^3)^{27} = (-1)^{27} = -1$; $x^{27} = (x^3)^9 = -1$; $x^9 = (x^3)^3 = -1$; $x^3 = -1$. Suma todos los términos: $(-1) + (-1) + (-1) + (-1) + x = x - 4$. Como el grado de $x - 4$ ($1$) es estrictamente menor que el grado del divisor ($2$), el resto es exactamente $R(x) = x - 4$.
 * **Pista 45:** Escribe el polinomio como $P(x) = (x^2 + 1)(x^2 + bx + c) + 2x + 3$. Desarrolla e iguala con la forma para el segundo divisor $P(x) = (x^2 - 2)(x^2 + dx + e) + 5x - 3$, o bien evalúa en los ceros de los divisores $x^2 = 2$ y $x^2 = -1$ para hallar las constantes.
 
 ---

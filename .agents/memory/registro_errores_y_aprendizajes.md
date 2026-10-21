@@ -110,21 +110,33 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 
 ---
 
-### `[ERR-012]` Salto de línea ausente entre enunciado de pregunta y alternativa A
-* **Fecha:** 2026-10-19
-* **Problema:** En las preguntas de opción múltiple, la alternativa `A) ...` aparecía pegada en el mismo renglón que el final del enunciado (ej. `1. Calcule la fracción... A) 44/88`), mientras que B, C, D, E sí saltaban a líneas independientes.
-* **Causa Raíz:** En Markdown, un salto de línea simple se interpreta como un espacio dentro del mismo párrafo. Las alternativas tenían dos espacios al final (`  \n`), pero la línea del enunciado de la pregunta terminaba en un salto simple sin espacios.
-* **Invariante / Regla Aprendida:**
-  * **Toda línea de enunciado que precede inmediatamente a la alternativa `A)` debe terminar obligatoriamente con dos espacios (`  \n`).**
-  * Esto fuerza el salto de línea `<br />` en el HTML generado, manteniendo la opción `A)` en su propio renglón alineada debajo de la pregunta.
+### `[ERR-012]` Regla Maestra de Salto de Línea y Delimitadores en Preguntas Propuestas
+* **Fecha:** 2026-10-19 (Consolidado y actualizado: 2026-10-21)
+* **Problema:** En las preguntas de opción múltiple, la alternativa `A) ...` aparecía pegada en el mismo renglón que el final del enunciado (ej. `1. Calcule la fracción... A) 44/88`), o se generaba error de KaTeX (`ParseError: Can't use function '$' in math mode`) por usar `$$` antes de `A)`.
+* **Causa Raíz:** En Markdown, un salto de línea simple se interpreta como un espacio dentro del mismo párrafo. Si se usa `$$...$$  \nA)`, CommonMark une ambas líneas en el mismo párrafo `<p>` y KaTeX colisiona.
+* **Invariante / Regla Aprendida (REGLA MAESTRA):**
+  1. Toda expresión matemática que cierre el enunciado de una pregunta propuesta **debe escribirse como fórmula inline `$ ... $` en la misma línea del número de pregunta**.
+  2. La línea del enunciado **debe terminar obligatoriamente con dos espacios en blanco seguidos de salto de línea (`  \n`)**.
+  3. La alternativa `A)` debe iniciar en la línea inmediatamente posterior a columna 0.
+  4. **Queda terminantemente PROHIBIDO colocar un bloque de display math `$$ ... $$` inmediatamente antes de la alternativa `A)`.** (Ver también `[ERR-029]`).
+  * **Ejemplo canónico obligatorio:**
+    ```markdown
+    18. Calcule el valor simplificado de: $W = \frac{\sin(30^\circ) + \cos(60^\circ)}{\tan(45^\circ) + \cot(45^\circ)}$.  
+    A) $1/2$
+    B) $1$
+    C) $\sqrt{3}/2$
+    D) $2$
+    E) $\sqrt{3}$
+    ```
 
 ---
 
 ### `[ERR-013]` Integración Obligatoria de Gráficos y Diagramas Visuales en Álgebra
 * **Fecha:** 2026-10-19
+* *⚠️ Nota de vigencia: Parcialmente derogado por `[ERR-014]`. El uso de bloques `{mermaid}` queda prohibido en favor de figuras vectoriales SVG externas generadas en TikZ.*
 * **Problema:** Los conceptos algebraicos abstractos (punto de equilibrio, posición relativa de rectas, concavidad y raíces de funciones) requieren soporte visual para maximizar la comprensión preuniversitaria.
 * **Invariante / Regla Aprendida:**
-  * En los temas de Álgebra donde intervenga modelamiento geométrico, económico o funcional, es **obligatorio incluir diagramas visuales** (bloques Mermaid o esquemas SVG/gráficos vectoriales limpios).
+  * En los temas de Álgebra donde intervenga modelamiento geométrico, económico o funcional, es **obligatorio incluir diagramas visuales** mediante archivos SVG externos en `assets/algebra/`.
   * Aplicaciones obligatorias:
     1. **Punto de Equilibrio (Modelos Lineales):** Esquema de Costo Fijo, Costo Total, Ingreso Total, Punto de Equilibrio, Zona de Pérdidas y Zona de Ganancias.
     2. **Sistemas de Ecuaciones $2 \times 2$:** Interpretación geométrica de rectas secantes (única solución), paralelas (incompatible) y coincidentes (indeterminado).
@@ -134,24 +146,21 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 ---
 
 ### `[ERR-014]` Reemplazo de Mermaid por Figuras Vectoriales LaTeX (TikZ + `tkz-euclide` / `pgfplots`)
-* **Fecha:** 2026-10-19
+* **Fecha:** 2026-10-19 (Actualizado: 2026-10-21)
 * **Problema:** Los bloques `{mermaid}` fallan en la compilación de Sphinx/Jupyter Book o generan diagramas toscos y no aptos para geometría euclidiana rigurosa.
 * **Causa Raíz:** Sphinx requiere dependencias de Node.js externas para compilar Mermaid, y además Mermaid no posee precisión geométrica ni soporte para fuentes tipográficas de LaTeX como Computer Modern.
 * **Invariante / Regla Aprendida:**
-  1. **NUNCA usar `{mermaid}` en los temas.**
+  1. **NUNCA usar `{mermaid}` en los temas de matemáticas ni ciencias.**
   2. Para figuras geométricas y de funciones, usar exclusivamente **LaTeX nativo** con **TikZ**, **`tkz-euclide`** y **`pgfplots`**.
   3. Las figuras se compilan a SVG vectorial mediante `pdflatex` + `dvisvgm` usando el helper estandarizado `scratch/tikz_to_svg.py`.
-  4. Los archivos SVG resultantes se guardan en `assets/<materia>/<nombre_figura>.svg` y se integran en el Markdown mediante la directiva:
-     ````markdown
-     ```{figure} ../../assets/<materia>/<nombre_figura>.svg
-     ---
-     width: 90%
-     align: center
-     alt: Descripción técnica
-     ---
-     *Leyenda explicativa con notación matemática.*
-     ```
-     ````
+  4. Los archivos SVG resultantes se guardan en `assets/<materia>/<nombre_figura>.svg`.
+  5. **Sintaxis de enlace recomendada (Portabilidad Total):**
+     * **Sintaxis Universal Primaria (Compatible con VS Code Preview, GitHub y Jupyter Book):**
+       ```markdown
+       ![Descripción técnica del gráfico](../../assets/<materia>/<nombre_figura>.svg)
+       *Figura X: Leyenda explicativa con notación matemática.*
+       ```
+     * **Directiva MyST `{figure}`:** Solo se admite si el destino exclusivo es Jupyter Book y el visor local cuenta con extensión para MyST. En caso de duda o para garantizar vista previa local limpia en cualquier visor Markdown, priorizar siempre `![...]`.
 
 ---
 
@@ -190,15 +199,13 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 ---
 
 ### `[ERR-017]` Rutas Relativas de Assets en Estructuras de Carpetas Anidadas
-* **Fecha:** 2026-10-19
-* **Problema:** Imágenes no encontradas (`WARNING: image file not readable: assets/...`) durante `jupyter-book build .`.
+* **Fecha:** 2026-10-19 (Actualizado: 2026-10-21)
+* **Problema:** Imágenes no encontradas (`WARNING: image file not readable: assets/...`) durante `jupyter-book build .` o enlaces rotos en la vista previa del editor.
 * **Causa Raíz:** Los archivos de tema se ubican dos niveles abajo en `Clases/<Materia>/<archivo>.md`, por lo que una referencia `assets/...` o `../assets/...` no resuelve la raíz del proyecto.
 * **Invariante / Regla Aprendida:**
   * Desde `Clases/<Materia>/`, la ruta relativa obligatoria hacia `assets/` es:
-    ````markdown
-    ```{figure} ../../assets/<materia>/<archivo>.svg
-    ```
-    ````
+    `../../assets/<materia>/<archivo>.svg`
+  * Utilizar la sintaxis universal `![Alt](../../assets/<materia>/<archivo>.svg)` o la directiva `{figure} ../../assets/<materia>/<archivo>.svg`.
 
 ---
 
@@ -222,16 +229,13 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 * **Invariante / Regla Aprendida:**
   * La sección final debe llamarse exactamente **`## 7. Formulario Resumen`**.
   * Toda tabla debe ser una tabla Markdown nativa con columnas claras (`| Concepto / Teorema | Fórmula / Expresión Matemática |`).
-  * La matemática debe ir incrustada como inline `$ ... $` dentro de las celdas, sin barras verticales `|` no escapadas.
+  * La matemática debe ir incrustada como inline `$ ... $` dentro de las celdas, sin barras verticales `|` no escapadas (usar `\mid` o `\vert`, ver `[ERR-032]`).
 
 ---
 
-### `[ERR-020]` Salto de Línea Obligatorio de Dos Espacios (`  \n`) en Opciones de Ejercicios
+### `[ERR-020]` Salto de Línea Obligatorio en Alternativas (Consolidado)
 * **Fecha:** 2026-10-19
-* **Problema:** El texto del enunciado se fusiona con la alternativa `A)` en una sola línea continua al renderizarse en HTML.
-* **Causa Raíz:** En la especificación CommonMark y MyST, un salto de línea simple en el archivo fuente es tratado como un espacio en blanco común.
-* **Invariante / Regla Aprendida:**
-  * Toda línea de enunciado que precede a la alternativa `A)` DEBE terminar con dos espacios en blanco seguidos de salto de línea (`  \n`), o una línea en blanco intermedia antes de la lista de alternativas.
+* *ℹ️ Nota de vigencia: Esta regla ha sido integrada y consolidada en la regla maestra `[ERR-012]` y en `[ERR-029]`.*
 
 ---
 
@@ -255,14 +259,14 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
 ---
 
 ### `[ERR-023]` Teoría Comprimida y Falta de Andamiaje para el Perfil Beca 18
-* **Fecha:** 2026-10-19
+* **Fecha:** 2026-10-19 (Actualizado: 2026-10-21)
 * **Problema:** Teorías condensadas en listas de fórmulas abstractas sin puentes intuitivos ni explicaciones progresivas, lo cual resulta inaccesible para estudiantes de colegios públicos con formación matemática deficitaria.
 * **Causa Raíz:** Priorizar la cobertura rápida del temario y los ejercicios sobre la labor formativa de un libro de texto integral.
 * **Invariante / Regla Aprendida:**
   1. **Andamiaje desde Cero:** Explicar el concepto con lenguaje intuitivo y analogías antes de formalizar.
   2. **Micro-ejemplos Ilustrativos:** Incluir un mini-ejemplo de aplicación de 1 a 2 líneas inmediatamente después de cada teorema o fórmula en la teoría.
   3. **Alertas de Errores Comunes:** Incluir en cada tema la sección `> ⚠️ **¡Cuidado con el error clásico de admisión!**` explicando dónde falla la mayoría de postulantes.
-  4. **Abundancia Gráfica en TikZ:** Cada concepto fundamental (planos, trazos auxiliares, rectas numéricas, diagramas) debe tener su figura vectorial propia.
+  4. **Abundancia Gráfica Externa en TikZ:** Cada concepto fundamental (planos, trazos auxiliares, rectas numéricas, diagramas) debe tener su figura vectorial propia, **almacenada siempre como archivo externo `.svg` en `assets/<materia>/` y vinculada con `![...]` (o `{figure}`), NUNCA embebida como código HTML/SVG crudo** (ver `[ERR-031]`).
 
 ---
 
@@ -366,3 +370,67 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   2. La columna del título debe contener un **enlace relativo directo al archivo `.md` del tema**:
      `| **01** | [Tablas de Frecuencias y Datos Agrupados](01_Tablas_de_Frecuencias_Datos_Agrupados.md) | ... |`
   3. Evitar secuencias de escape no deseadas (como `\b` en `\bar{x}`) asegurando que los símbolos matemáticos dentro de las tablas (`\bar{x}`, `\Omega`) se escriban correctamente sin caracteres de control ASCII.
+
+---
+
+### `[ERR-031]` Prohibición de HTML/SVG Crudo y Directivas Complejas que Rompen la Vista Previa (Markdown Preview)
+* **Fecha:** 2026-10-21 (Actualizado: 2026-10-21)
+* **Problema:** Al insertar bloques de `<div><svg>...</svg></div>` multilínea o directivas Sphinx no estándar (`{grid}`, `{tab-set}`) dentro de los archivos `.md`, el visor de Markdown local (VS Code Preview / GitHub) interpreta las líneas indentadas con 4 espacios como bloques de código (`<pre><code>`), imprimiendo las etiquetas XML (`<line...>`, `<!-- Ticks -->`) como texto plano en una caja gris y truncando la renderización de encabezados, listas y KaTeX en el resto del documento.
+* **Causa Raíz:** El parser de CommonMark entra en modo de bloque HTML o bloque indentado de código cuando encuentra etiquetas HTML no estándar o sangrías de 4 espacios, rompiendo la jerarquía del árbol AST del Markdown.
+* **Invariante / Regla Aprendida:**
+  1. Queda estrictamente PROHIBIDO insertar bloques de HTML crudo (`<div>`, `<svg>`, etc.) o directivas de maquetación avanzada no estándar en los temas curriculares (`Clases/...`).
+  2. **Excepción única autorizada:** Las páginas especiales de visor de compendios PDF (`Formularios/...`), donde se requiere incrustar un `<iframe>` mediante `{raw} html` a pantalla completa.
+  3. Todo gráfico o diagrama vectorial debe almacenarse como archivo externo independiente en `assets/<curso>/<nombre>.svg` y enlazarse preferentemente mediante la **sintaxis universal `![Descripción](../../assets/<curso>/<nombre>.svg)`** (o `{figure}` si el entorno está restringido a Jupyter Book).
+  4. Para casuísticas múltiples, cuadros comparativos y clasificaciones pedagógicas (estilo Rodo), utilizar **tablas estándar de Markdown (`| ... |`)** y bloques destacados con blockquotes (`> 💡 **Atajo Rodo:**`). Esto garantiza una visualización 100% impecable tanto en el preview local del editor, en GitHub web y en el sitio final compilado por Jupyter Book.
+
+---
+
+### `[ERR-032]` Barra Vertical `|` en Fórmulas LaTeX dentro de Tablas Markdown
+* **Fecha:** 2026-10-21
+* **Problema:** Al definir conjuntos o condiciones matemáticas dentro de una celda de tabla Markdown (ej. `| Conjunto | $A = \{ x \in \mathbb{R} | x > 0 \}$ |`), el parser de Markdown interpreta el carácter `|` como un separador de columnas, rompiendo la alineación de la tabla y corrompiendo la visualización.
+* **Causa Raíz:** Conflicto de sintaxis entre el delimitador de celdas de Markdown (`|`) y el operador de condición matemática en LaTeX.
+* **Invariante / Regla Aprendida:**
+  * Dentro de tablas Markdown, queda terminantemente PROHIBIDO usar la barra vertical literal `|` en fórmulas LaTeX.
+  * Usar obligatoriamente `\mid` para conjuntos condicionales: `$A = \{ x \in \mathbb{R} \mid x > 0 \}$`.
+  * Usar obligatoriamente `\vert` para valor absoluto o módulo: `$\vert x \vert \le 5$`.
+
+---
+
+### `[ERR-033]` Formato de Coma Decimal `{,}` en Tablas Markdown
+* **Fecha:** 2026-10-21
+* **Problema:** El uso de llaves para coma decimal en LaTeX (ej. `$94{,}5$`) dentro de tablas Markdown en visores sin MathJax nativo en celdas muestra literalmente los caracteres `{,} ` en pantalla (`94{,}5`), degradando la legibilidad.
+* **Causa Raíz:** Motores ligeros de vista previa de Markdown en editores que renderizan la tabla antes o sin pasar por el compilador completo de KaTeX.
+* **Invariante / Regla Aprendida:**
+  * En tablas Markdown, escribir números decimales usando coma simple `$94,5$` o `\text{,}` si se requiere espaciado exacto en modo matemático.
+
+---
+
+### `[ERR-034]` Encabezados `#` Prohibidos dentro de Listas o Blockquotes
+* **Fecha:** 2026-10-21
+* **Problema:** La inclusión de encabezados con `#`, `##` o `###` dentro de listas indentadas (`- # Título`) o bloques de cita (`> # Título`) corrompe la jerarquía de secciones de Sphinx y genera warnings de estructura en el árbol de documentos.
+* **Causa Raíz:** Sphinx / docutils construye la tabla de contenidos a partir de los encabezados de sección; un encabezado dentro de un bloque secundario genera niveles anidados huérfanos.
+* **Invariante / Regla Aprendida:**
+  * Todo encabezado (`#`, `##`, `###`, `####`) debe ubicarse **estrictamente a columna 0** sin sangría ni caracteres precedentes.
+  * Para títulos dentro de cajas o notas, usar texto en negrita: `> 📌 **Título de la Nota:**` o `* **Subtítulo:**`.
+
+---
+
+### `[ERR-035]` Bloques de Código Anidados (Sintaxis de 4 Backticks)
+* **Fecha:** 2026-10-21
+* **Problema:** Al ilustrar ejemplos de código Markdown que contienen bloques de triple backtick (```` ``` ````) dentro de guías o manuales, el bloque exterior se cierra prematuramente en visores locales antiguos.
+* **Causa Raíz:** Ambigüedad en el cierre de bloques cuando el número de backticks exteriores coincide con los interiores.
+* **Invariante / Regla Aprendida:**
+  * Para documentar o mostrar bloques de código que contengan a su vez bloques de código, usar estrictamente **4 backticks en el delimitador exterior (` ```` `)** y 3 backticks en el interior (` ``` `).
+
+---
+
+### `[ERR-036]` Convención Estricta de Nombres y Rutas de Assets (`snake_case` ASCII)
+* **Fecha:** 2026-10-21
+* **Problema:** Enlaces a imágenes rotos en entornos Linux / GitHub Pages o en URLs codificadas cuando un asset contiene espacios, tildes o caracteres especiales (ej. `mi figura.svg`, `función.svg`).
+* **Causa Raíz:** Discrepancia entre la codificación de URLs (`%20`, `%C3%B3`) y los sistemas de archivos sensibles a mayúsculas/minúsculas y caracteres UTF-8 en servidores de despliegue.
+* **Invariante / Regla Aprendida:**
+  * Todo archivo dentro de `assets/` debe nombrarse estrictamente en **`snake_case` ASCII minúscula**:
+    `assets/<curso>/<nombre_en_minuscula_con_guion_bajo>.svg`
+  * Prohibido el uso de espacios en blanco, mayúsculas, tildes o caracteres no ASCII (`ñ`, `°`, acentos).
+
+
