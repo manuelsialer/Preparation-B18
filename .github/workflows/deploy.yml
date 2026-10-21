@@ -40,6 +40,8 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build .
+          mkdir -p _build/html/Formularios
+          cp Formularios/*.pdf _build/html/Formularios/
           touch _build/html/.nojekyll
 
       - name: Setup Pages

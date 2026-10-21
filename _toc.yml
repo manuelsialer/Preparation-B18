@@ -58,6 +58,9 @@ chapters:
       - file: Clases/Competencia_Lectora/09_Textos_Dialecticos_Discrepancias_y_Coincidencias
       - file: Clases/Competencia_Lectora/10_Lectura_Critica_Falacias_Sesgos_y_Credibilidad_de_Fuentes
   - file: Formularios/index
+    sections:
+      - file: Formularios/Mate_y_Ciencias
+      - file: Formularios/Letras_y_Humanidades
 
 
 
