@@ -583,7 +583,7 @@ D) $1.00$
 E) $1.25$  
 
 30. Un avión vuela en línea recta horizontal a una velocidad de $180\text{ km/h}$ ($50\text{ m/s}$). En un instante, un observador en tierra lo divisa con un ángulo de elevación de $53^\circ$. Diez segundos después, lo divisa en la dirección contraria con un ángulo de elevación de $37^\circ$. Calcule la altitud de vuelo del avión.  
-A) $\frac{3000}{7}\text{ m}$  
+A) $240\text{ m}$  
 B) $\frac{6000}{7}\text{ m}$  
 C) $\frac{12000}{7}\text{ m}$  
 D) $800\text{ m}$  
@@ -621,7 +621,7 @@ C) $49.50\text{ m}$
 D) $51.20\text{ m}$  
 E) $52.50\text{ m}$  
 
-35. Desde un bote oceanográfico de IMARPE anclado frente a Huarmey, se divisa el faro de la isla con un ángulo de elevación de $37^\circ$. El barco se aleja $140\text{ m}$ mar adentro en línea recta y el nuevo ángulo de elevación pasa a ser de $16^\circ$ ($\tan 16^\circ \approx \frac{7}{24}$). Calcule la altura del faro sobre el nivel del mar.  
+35. Desde un bote oceanográfico de IMARPE anclado frente a Huarmey, se divisa el faro de la isla con un ángulo de elevación de $37^\circ$. El barco se aleja $132\text{ m}$ mar adentro en línea recta y el nuevo ángulo de elevación pasa a ser de $16^\circ$ ($\tan 16^\circ \approx \frac{7}{24}$). Calcule la altura del faro sobre el nivel del mar.  
 A) $56\text{ m}$  
 B) $63\text{ m}$  
 C) $70\text{ m}$  
@@ -708,9 +708,9 @@ E) $20\text{ m}$
 | **2** | B | **17** | A | **32** | B |
 | **3** | B | **18** | B | **33** | C |
 | **4** | B | **19** | B | **34** | C |
-| **5** | B | **20** | C | **35** | C |
+| **5** | B | **20** | C | **35** | B |
 | **6** | B | **21** | B | **36** | B |
-| **7** | A | **22** | B | **37** | C |
+| **7** | A | **22** | C | **37** | C |
 | **8** | C | **23** | A | **38** | B |
 | **9** | C | **24** | A | **39** | A |
 | **10** | D | **25** | B | **40** | B |
@@ -718,7 +718,7 @@ E) $20\text{ m}$
 | **12** | B | **27** | B | **42** | A |
 | **13** | B | **28** | A | **43** | C |
 | **14** | B | **29** | B | **44** | C |
-| **15** | B | **30** | B | **45** | B |
+| **15** | B | **30** | A | **45** | B |
 
 ---
 
@@ -755,3 +755,17 @@ E) $20\text{ m}$
 | **Notable $16^\circ$ y $74^\circ$** | Proporciones $7k, 24k, 25k$ | $\tan 16^\circ = 7/24,\quad \tan 74^\circ = 24/7$ |
 | **Notable $\frac{53^\circ}{2}$** | Proporciones $1, 2, \sqrt{5}$ | $\tan(53^\circ/2) = 1/2$ |
 | **Notable $\frac{37^\circ}{2}$** | Proporciones $1, 3, \sqrt{10}$ | $\tan(37^\circ/2) = 1/3$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 3 clave(s) corregida(s) y 3 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **22** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **30** | B | A | Corregida | Se ajustó la opción A: $h\left(\frac{3}{4}+\frac{4}{3}\right)=500 \Rightarrow h=240$ m. |
+| **35** | C | B | Corregida | Se corrigió la distancia a $132$ m: $h=\frac{21\cdot132}{44}=63$ m (B). |
+
+**Claves sin cambios:** 42 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

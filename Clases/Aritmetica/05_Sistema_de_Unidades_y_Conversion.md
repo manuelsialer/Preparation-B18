@@ -573,8 +573,8 @@ E) $65\text{ km/h}$
 A) $3{,}31\text{ h}$  
 B) $3{,}186\text{ h}$  
 C) $3{,}305\text{ h}$  
-D) $3{,}31\text{ h}$  
-E) $3{,}31\text{ h}$  
+D) $3{,}36\text{ h}$  
+E) $3{,}3186\text{ h}$  
 
 10. Un terreno rectangular mide $25\text{ m}$ de frente por $40\text{ m}$ de fondo. ¿A cuántas áreas ($\text{a}$) equivale su superficie? ($1\text{ a} = 100\text{ m}^2$).  
 A) $1\text{ a}$  
@@ -673,7 +673,7 @@ E) $60\text{ GB}$
 
 23. Dos trenes $A$ y $B$ parten simultáneamente al encuentro desde dos ciudades distantes $360\text{ km}$ a través de una vía rectilínea. El tren $A$ viaja a $75\text{ km/h}$ y el tren $B$ a $25\text{ m/s}$. ¿Al cabo de cuánto tiempo (en horas y minutos) se produce el cruce?  
 A) $2\text{ h } 00\text{ min}$  
-B) $2\text{ h } 10\text{ min}$  
+B) $2\text{ h } 11\text{ min}$  
 C) $2\text{ h } 15\text{ min}$  
 D) $2\text{ h } 24\text{ min}$  
 E) $2\text{ h } 30\text{ min}$  
@@ -749,8 +749,8 @@ E) $2 \times 10^9\text{ ps}$
 A) $6\text{ h } 45\text{ min} \;;\; 58{,}9\text{ gal}$  
 B) $7\text{ h } 09\text{ min} \;;\; 58{,}9\text{ gal}$  
 C) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
-D) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
-E) $7\text{ h } 09\text{ min} \;;\; 59{,}0\text{ gal}$  
+D) $7\text{ h } 09\text{ min} \;;\; 59{,}5\text{ gal}$  
+E) $7\text{ h } 09\text{ min} \;;\; 58{,}0\text{ gal}$  
 
 34. Una represa hidroeléctrica en la cuenca del Mantaro tiene un espejo de agua de $4{,}2\text{ km}^2$. Durante el estiaje, la evaporación superficial reduce la cota a razón de $3{,}5\text{ mm}$ diarios, mientras que las compuertas de fondo evacúan un caudal ecológico constante de $150\text{ L/s}$. Si las precipitaciones y afluentes aportan un caudal promedio de solo $50\text{ L/s}$, ¿cuántos metros cúbicos de agua pierde la represa en un lapso de $30\text{ días}$ comerciales?  
 A) $699\,600\text{ m}^3$  
@@ -843,16 +843,16 @@ E) $15{,}0\ \mu\text{m/s}$
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | B | **16** | B | **31** | B |
-| **2** | C | **17** | C | **32** | C |
-| **3** | B | **18** | D | **33** | C |
-| **4** | B | **19** | C | **34** | A |
-| **5** | A | **20** | A | **35** | C |
+| **2** | C | **17** | C | **32** | A |
+| **3** | B | **18** | B | **33** | C |
+| **4** | B | **19** | C | **34** | B |
+| **5** | A | **20** | B | **35** | C |
 | **6** | C | **21** | B | **36** | B |
 | **7** | A | **22** | B | **37** | B |
-| **8** | B | **23** | D | **38** | B |
-| **9** | D | **24** | B | **39** | C |
+| **8** | B | **23** | B | **38** | B |
+| **9** | A | **24** | B | **39** | C |
 | **10** | B | **25** | C | **40** | B |
-| **11** | B | **26** | A | **41** | E |
+| **11** | B | **26** | A | **41** | A |
 | **12** | C | **27** | B | **42** | B |
 | **13** | A | **28** | C | **43** | A |
 | **14** | C | **29** | B | **44** | B |
@@ -917,3 +917,22 @@ El área de la sección circular de la probeta es $A = \frac{\pi \cdot D^2}{4} =
 | **Conversión Decimal a Horas** | $H{,}D\text{ h} \implies \text{Minutos} = D \times 60 \quad (0{,}45\text{ h} = 27\text{ min})$ |
 | **Factor de Velocidad** | $1\,\frac{\text{km}}{\text{h}} \times \frac{5}{18} = 1\,\frac{\text{m}}{\text{s}} \qquad \iff \qquad 1\,\frac{\text{m}}{\text{s}} \times \frac{18}{5} = 1\,\frac{\text{km}}{\text{h}}$ |
 | **Caudal Volumétrico** | $Q = \frac{V}{t} \quad \left(1\,\frac{\text{m}^3}{\text{s}} = 1\,000\,\frac{\text{L}}{\text{s}} = 3\,600\,\frac{\text{m}^3}{\text{h}}\right)$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 7 clave(s) corregida(s) y 8 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **09** | D | A | Corregida | Las opciones D y E repetían el valor de A ($3{,}31$ h); se reemplazaron. $3+\frac{18}{60}+\frac{36}{3600}=3{,}31$ h. Clave A. |
+| **18** | D | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **20** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **23** | D | B | Corregida | Se ajustó la opción B: $25$ m/s $=90$ km/h, luego $t=\frac{360}{165}=2{,}1818$ h $=2$ h $11$ min. Clave B. |
+| **32** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **33** | C | C | Corregida | Las opciones D y E repetían el valor de C; se reemplazaron. Tiempo $4+2{,}4+0{,}75=7{,}15$ h $=7$ h $09$ min; combustible $\frac{223{,}2}{3{,}785}=59{,}0$ gal. Clave C. |
+| **34** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **41** | E | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 38 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -602,7 +602,7 @@ E) $5\%$
 10. Calcule el valor exacto de la suma: $S = 0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3} + \cdots + 0.\widehat{8}$.  
 A) $3$  
 B) $4$  
-C) $\frac{36}{9}$  
+C) $\frac{32}{9}$  
 D) $4.5$  
 E) $5$  
 
@@ -673,10 +673,10 @@ C) $\pm 1.456\text{ km}$
 D) $\pm 0.291\text{ km}$  
 E) $\pm 0.364\text{ km}$  
 
-20. Si la fracción irreductible $\frac{N}{37}$ genera el decimal $0.\widehat{abc}$, donde $a + b + c = 18$, determine el valor del numerador $N$.  
+20. Si la fracción irreductible $\frac{N}{27}$ genera el decimal $0.\widehat{abc}$, donde $a + b + c = 18$, determine el valor del numerador $N$.  
 A) $19$  
 B) $21$  
-C) $23$  
+C) $18$  
 D) $24$  
 E) $26$  
 
@@ -687,7 +687,7 @@ C) $7.8$
 D) $7.5$  
 E) $8.0$  
 
-22. Calcule la suma de las cifras del período de la fracción generatriz de: $P = \frac{1}{0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3}}$.  
+22. Calcule la suma de las cifras del período del decimal equivalente a $P = 0.\widehat{1} + 0.\widehat{2} + 0.\widehat{3}$.  
 A) $6$  
 B) $8$  
 C) $9$  
@@ -755,7 +755,7 @@ E) $0.\widehat{4}$
 ### BLOQUE III: NIVEL AVANZADO / TIPO BECA 18 (Problemas 31 al 45)
 
 31. **(Contexto de Obras Viales y Pavimentación):** Para el asfaltado de una pista circular alrededor de una plaza en Arequipa, se debe calcular el área de la corona circular comprendida entre un radio exterior $R = 25\text{ m}$ y un radio interior $r = 20\text{ m}$. El área teórica es $A = \pi(R^2 - r^2) = 225\pi\text{ m}^2$. Si el supervisor de obra utiliza la aproximación $\pi \approx 3.14$ y el contratista utiliza $\pi \approx \frac{22}{7}$, ¿cuál es la diferencia en metros cuadrados entre ambas valorizaciones técnicas (redondeada a décimos)?  
-A) $1.2\text{ m}^2$  
+A) $0.6\text{ m}^2$  
 B) $1.8\text{ m}^2$  
 C) $2.1\text{ m}^2$  
 D) $2.5\text{ m}^2$  
@@ -865,19 +865,19 @@ E) $36$
 
 | N.º | Bloque I (Básico) | N.º | Bloque II (Intermedio) | N.º | Bloque III (Avanzado / B18) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **01** | B | **16** | A | **31** | C |
-| **02** | B | **17** | C | **32** | B |
-| **03** | D | **18** | D | **33** | B |
-| **04** | B | **19** | A | **34** | B |
-| **05** | B | **20** | D | **35** | C |
+| **01** | B | **16** | A | **31** | A |
+| **02** | B | **17** | A | **32** | B |
+| **03** | D | **18** | A | **33** | B |
+| **04** | B | **19** | A | **34** | C |
+| **05** | B | **20** | C | **35** | C |
 | **06** | D | **21** | A | **36** | B |
 | **07** | A | **22** | A | **37** | A |
 | **08** | B | **23** | B | **38** | A |
 | **09** | B | **24** | B | **39** | B |
 | **10** | B | **25** | C | **40** | A |
 | **11** | D | **26** | A | **41** | B |
-| **12** | B | **27** | B | **42** | B |
-| **13** | B | **28** | B | **43** | B |
+| **12** | B | **27** | A | **42** | B |
+| **13** | B | **28** | A | **43** | B |
 | **14** | B | **29** | B | **44** | A |
 | **15** | B | **30** | B | **45** | C |
 
@@ -963,3 +963,23 @@ $$
 $$
 \frac{1}{3} \rightarrow 1\text{ cifra } (9) \qquad \frac{1}{11} \rightarrow 2\text{ cifras } (99) \qquad \frac{1}{27} \text{ y } \frac{1}{37} \rightarrow 3\text{ cifras } (999) \qquad \frac{1}{7} \rightarrow 6\text{ cifras } (999\,999)
 $$
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 7 clave(s) corregida(s) y 9 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **10** | B | B | Corregida | La opción C repetía el valor de B ($\frac{36}{9}=4$); se reemplazó. $S=\frac{1+2+\cdots+8}{9}=\frac{36}{9}=4$. Clave B. |
+| **17** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **18** | D | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **20** | D | C | Corregida | Se cambió el denominador a $27$ y la opción C: $\frac{N}{27}=0.\widehat{abc}=\frac{abc}{999}$ con $abc=666$ ($a+b+c=18$) da $N=18$. Clave C. |
+| **22** | A | A | Corregida | Se reformuló $P$ como suma de decimales: $P=\frac{1}{9}+\frac{2}{9}+\frac{3}{9}=\frac{2}{3}=0.\widehat{6}$, cuya cifra periódica es $6$. Clave A. |
+| **27** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **28** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **31** | C | A | Corregida | Se ajustó la opción A: $225\pi$ vale $706{,}5$ con $\pi=3{,}14$ y $707{,}14$ con $\pi=\frac{22}{7}$; la diferencia es $\approx0{,}6$ m$^2$. Clave A. |
+| **34** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+
+**Claves sin cambios:** 38 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

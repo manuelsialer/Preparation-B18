@@ -799,7 +799,7 @@ E) $32$
 23. Resuelva en $\mathbb{R}$: $\frac{2x - 1}{x - 3} = 2 + \frac{5}{x - 3}$.  
 A) $\{3\}$  
 B) $\emptyset$  
-C) $\mathbb{R}$  
+C) $\mathbb{R} \setminus \{3\}$  
 D) $\{0\}$  
 E) $\{5\}$  
 
@@ -818,7 +818,7 @@ D) $a + b - c$
 E) $-(a + b)$  
 
 26. Para qué valor de $m$ la ecuación $m(x - 1) = 2(x + 3) + m$ tiene como raíz al número $x = -2$.  
-A) $-1$  
+A) $-\frac{1}{2}$  
 B) $-2$  
 C) $1$  
 D) $2$  
@@ -929,11 +929,11 @@ C) $a = 2 \lor b = 3$
 D) $3a + 2b = 12$
 E) $a \cdot b = 6$
 
-41. Resuelva en $\mathbb{R}$: $\frac{x + 1}{2025} + \frac{x + 2}{2024} + \frac{x + 3}{2023} + \dots + \frac{x + 2025}{1} = 2025$.  
+41. Resuelva en $\mathbb{R}$: $\frac{x + 1}{2025} + \frac{x + 2}{2024} + \frac{x + 3}{2023} + \dots + \frac{x + 2025}{1} = -2025$.  
 A) $0$  
 B) $2025$  
 C) $-1$  
-D) $1$  
+D) $-2026$  
 E) $-2025$  
 
 42. En una fábrica de harina de pescado en Chimbote, una faja transportadora $A$ llena una tolva en $x$ horas, y otra faja $B$ lo hace en $x + 5$ horas. Trabajando juntas, llenan la tolva en $6\text{ horas}$. Determine el valor de $x$.  
@@ -982,21 +982,21 @@ E) $\langle -3, 5\rangle$
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **01** | B | **16** | C | **31** | A |
+| **01** | A | **16** | C | **31** | A |
 | **02** | A | **17** | C | **32** | C |
-| **03** | C | **18** | A | **33** | B |
+| **03** | C | **18** | A | **33** | E |
 | **04** | B | **19** | B | **34** | B |
 | **05** | B | **20** | B | **35** | A |
 | **06** | B | **21** | B | **36** | B |
 | **07** | C | **22** | B | **37** | A |
-| **08** | A | **23** | B | **38** | A |
-| **09** | B | **24** | E | **39** | C |
-| **10** | B | **25** | A | **40** | A |
-| **11** | B | **26** | A | **41** | A |
+| **08** | A | **23** | C | **38** | A |
+| **09** | B | **24** | A | **39** | A |
+| **10** | B | **25** | E | **40** | A |
+| **11** | C | **26** | A | **41** | D |
 | **12** | A | **27** | C | **42** | A |
 | **13** | B | **28** | C | **43** | D |
 | **14** | A | **29** | E | **44** | B |
-| **15** | B | **30** | B | **45** | B |
+| **15** | B | **30** | B | **45** | A |
 
 ---
 
@@ -1133,3 +1133,25 @@ Por lo tanto, $m \in \langle 3, +\infty\rangle$ o en el análisis general con re
 | **Punto de Equilibrio** | $q_e = \frac{C_f}{p_v - c_v}$ | Volumen donde la ganancia neta es cero ($U = 0$) |
 | **Balance de Mezclas** | $C_1 V_1 + C_2 V_2 = C_m (V_1 + V_2)$ | Conservación de la masa del componente activo |
 | **Reducción a la Unidad** | $\frac{1}{t_1} + \frac{1}{t_2} = \frac{1}{T_{\text{conjunto}}}$ | Rendimiento sumatorio por unidad de tiempo |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 9 clave(s) corregida(s) y 10 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **01** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **11** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **23** | B | C | Corregida | Se ajustó la opción C: al multiplicar se obtiene $2x-1=2x-1$, identidad válida para todo $x\ne 3$. Clave C. |
+| **24** | E | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **25** | A | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **26** | A | A | Corregida | Se ajustó la opción A: $-3m=2+m \Rightarrow m=-\frac{1}{2}$. Clave A. |
+| **33** | B | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **39** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **40** | A | A | Observación | Clave verificada, sin cambios. |
+| **41** | A | D | Corregida | Se cambió el segundo miembro a $-2025$: con $x=-2026$ cada término vale $-1$ y la suma es $-2025$. Clave D. |
+| **45** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 36 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -695,7 +695,7 @@ C) $\$ 125\,000$
 D) $\$ 130\,000$  
 E) $\$ 135\,000$  
 
-32. Si el precio unitario del cobre en la Bolsa de Metales de Londres sube en un $25\%$, ¿en qué porcentaje debe reducir una empresa minera sus costos operativos para que, manteniendo su margen de ganancia absoluto por tonelada, el precio de venta aumente únicamente en un $10\%$? Asuma que el costo operativo original representaba el $60\%$ del precio de venta original.  
+32. Si el precio de venta del cobre en la Bolsa de Metales de Londres sube un $10\%$, ¿en qué porcentaje debe aumentar la empresa minera sus costos operativos para mantener su margen de ganancia absoluto por tonelada? Asuma que el costo operativo original representaba el $60\%$ del precio de venta original.  
 A) $15\%$  
 B) $16{,}\widehat{6}\%$  
 C) $18\%$  
@@ -716,7 +716,7 @@ C) Área $+2{,}04\%$ y Volumen $+4{,}08\%$
 D) Área $+4{,}04\%$ y Volumen $+8\%$  
 E) Área $+2\%$ y Volumen $+6\%$  
 
-35. Un comerciante compró $800$ cuadernos a $\text{S/ } 5$ cada uno. Decide vender una parte ganando el $30\%$ y el resto ganando el $15\%$. Si la ganancia total obtenida fue de $\text{S/ } 980$, ¿cuántos cuadernos vendió con la mayor ganancia?  
+35. Un comerciante compró $800$ cuadernos a $\text{S/ } 5$ cada uno. Decide vender una parte ganando el $30\%$ y el resto ganando el $15\%$. Si la ganancia total obtenida fue de $\text{S/ } 990$, ¿cuántos cuadernos vendió con la mayor ganancia?  
 A) $480$  
 B) $500$  
 C) $520$  
@@ -744,7 +744,7 @@ C) $\text{S/ } 89\,200$
 D) $\text{S/ } 90\,150$  
 E) $\text{S/ } 92\,000$  
 
-39. En un proceso siderúrgico en Chimbote, se mezclan dos lingotes de bronce (aleación de cobre y estaño). El primer lingote pesa $18\text{ kg}$ y contiene un $80\%$ de cobre; el segundo lingote pesa $32\text{ kg}$ y tiene una pureza de cobre del $65\%$. ¿Cuántos kilogramos de estaño puro deben fundirse con esta masa para que la nueva aleación contenga exactamente un $60\%$ de cobre?  
+39. En un proceso siderúrgico en Chimbote, se mezclan dos lingotes de bronce (aleación de cobre y estaño). El primer lingote pesa $16\text{ kg}$ y contiene un $80\%$ de cobre; el segundo lingote pesa $32\text{ kg}$ y tiene una pureza de cobre del $65\%$. ¿Cuántos kilogramos de estaño puro deben fundirse con esta masa para que la nueva aleación contenga exactamente un $60\%$ de cobre?  
 A) $4\text{ kg}$  
 B) $6\text{ kg}$  
 C) $8\text{ kg}$  
@@ -811,7 +811,7 @@ E) $45\%$
 | **10** | B | **25** | E | **40** | A |
 | **11** | C | **26** | C | **41** | C |
 | **12** | B | **27** | C | **42** | C |
-| **13** | B | **28** | C | **43** | A |
+| **13** | B | **28** | A | **43** | A |
 | **14** | C | **29** | C | **44** | B |
 | **15** | B | **30** | C | **45** | B |
 
@@ -885,3 +885,18 @@ Extrayendo raíz cuadrada: $r' = \sqrt{1{,}44} \cdot r = 1{,}20 \cdot r$, lo que
 | **Variación de Áreas / Volúmenes** | $A' = (1 \pm \Delta_1)(1 \pm \Delta_2)\dots \cdot A_0 \implies \Delta\% = A' - 100\%$ |
 | **Concentración de Mezcla** | $C_m = \left(\frac{V_{a1} \cdot c_1 + V_{a2} \cdot c_2 + \dots}{V_1 + V_2 + \dots}\right)\%$ |
 | **Dilución de Solución** | $V_1 \cdot C_1 = V_2 \cdot C_2 \quad (\text{soluto constante})$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 1 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **28** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **32** | B | B | Corregida | Se reformuló la pregunta: con costo inicial $0{,}6P$ y margen $0{,}4P$, el nuevo costo debe ser $1{,}1P-0{,}4P=0{,}7P$; el aumento es $\frac{0{,}1P}{0{,}6P}=16{,}\widehat{6}\%$. Clave B. |
+| **35** | C | C | Corregida | Se ajustó la ganancia a S/ 990: $1{,}5x+0{,}75(800-x)=990 \Rightarrow x=520$ cuadernos. Clave C. |
+| **39** | C | C | Corregida | Se ajustó el primer lingote a $16$ kg: el cobre total es $33{,}6$ kg y $\frac{33{,}6}{48+x}=0{,}6$ da $x=8$ kg de estaño. Clave C. |
+
+**Claves sin cambios:** 44 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

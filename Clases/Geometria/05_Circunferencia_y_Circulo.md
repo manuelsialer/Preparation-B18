@@ -670,7 +670,7 @@ C) $110\text{ km}$
 D) $120\text{ km}$  
 E) $125\text{ km}$  
 
-36. En un terreno trapezoidal rectángulo circunscrito a una cisterna circular, las bases paralelas del terreno miden $18\text{ m}$ y $32\text{ m}$. Calcule el diámetro de la cisterna circular inscrita.  
+36. En un terreno trapezoidal rectángulo circunscrito a una cisterna circular, las bases paralelas del terreno miden $18\text{ m}$ y $36\text{ m}$. Calcule el diámetro de la cisterna circular inscrita.  
 A) $20\text{ m}$  
 B) $22\text{ m}$  
 C) $24\text{ m}$  
@@ -747,9 +747,9 @@ E) $S/\, 12\,566$
 | Pregunta | Clave | Pregunta | Clave | Pregunta | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | B | **16** | A | **31** | B |
-| **2** | C | **17** | A | **32** | C |
+| **2** | C | **17** | A | **32** | B |
 | **3** | B | **18** | B | **33** | B |
-| **4** | C | **19** | C | **34** | C |
+| **4** | C | **19** | C | **34** | B |
 | **5** | B | **20** | B | **35** | B |
 | **6** | C | **21** | C | **36** | C |
 | **7** | B | **22** | B | **37** | A |
@@ -759,7 +759,7 @@ E) $S/\, 12\,566$
 | **11** | B | **26** | C | **41** | B |
 | **12** | C | **27** | C | **42** | B |
 | **13** | D | **28** | A | **43** | C |
-| **14** | C | **29** | A | **44** | C |
+| **14** | C | **29** | A | **44** | B |
 | **15** | B | **30** | B | **45** | B |
 
 ---
@@ -800,3 +800,18 @@ E) $S/\, 12\,566$
 | **Área del Círculo** | Radio $R$ | $A = \pi R^2$ |
 | **Área del Sector Circular** | Ángulo central $\theta$ | $A = \frac{\pi R^2 \theta}{360^\circ} = \frac{L_{\text{arco}} \cdot R}{2}$ |
 | **Área de Corona Circular** | Cuerda tangente $L$ o radios $R, r$ | $A = \pi(R^2 - r^2) = \frac{\pi L^2}{4}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 3 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **32** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **34** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **36** | C | C | Corregida | Se corrigió la base mayor a $36$ m: en el trapecio rectángulo circunscrito $h=\frac{2ab}{a+b}=24$ m (C). |
+| **44** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+
+**Claves sin cambios:** 42 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -598,7 +598,7 @@ E) $2\sqrt{3}\text{ cm}$
 
 24. En un triángulo $ABC$, se sabe que $AB = 8\text{ cm}$, $BC = 12\text{ cm}$ y la mediana $BM = 7\text{ cm}$. Utilice el teorema de la mediana para determinar la longitud del lado $AC$.  
 A) $8\text{ cm}$  
-B) $10\text{ cm}$  
+B) $2\sqrt{55}$  
 C) $12\text{ cm}$  
 D) $14\text{ cm}$  
 E) $16\text{ cm}$  
@@ -694,7 +694,7 @@ E) $15\text{ millas}$
 37. Tres caseríos rurales en Ayacucho están enlazados por caminos rectos de longitudes $7\text{ km}$, $8\text{ km}$ y $9\text{ km}$. Para el tendido de fibra óptica, se instala un nodo central en el baricentro $G$. Si el nodo debe conectarse mediante cable subterráneo hasta el caserío $B$ (opuesto al lado de $8\text{ km}$), halle la longitud aproximada del cable de enlace $BG$.  
 A) $4.0\text{ km}$  
 B) $4.5\text{ km}$  
-C) $4.9\text{ km}$  
+C) $4.7\text{ km}$  
 D) $5.2\text{ km}$  
 E) $5.8\text{ km}$  
 
@@ -747,7 +747,7 @@ C) $120\text{ m}$
 D) $150\text{ m}$  
 E) $180\text{ m}$  
 
-45. En una faena comunal se distribuyen sacos de fertilizante en una parcela triangular $ABC$. Las medianas $AM$ y $BN$ se intersecan perpendicularmente en el baricentro $G$. Si los linderos $BC$ y $AC$ miden $10\text{ m}$ y $8\text{ m}$ respectivamente, halle la longitud del lindero $AB$.  
+45. En una faena comunal se distribuyen sacos de fertilizante en una parcela triangular $ABC$. Las medianas $AM$ y $BN$ se intersecan perpendicularmente en el baricentro $G$. Si los linderos $BC$ y $AC$ miden $6\text{ m}$ y $8\text{ m}$ respectivamente, halle la longitud del lindero $AB$.  
 A) $2\sqrt{5}\text{ m}$  
 B) $4\sqrt{5}\text{ m}$  
 C) $6\sqrt{5}\text{ m}$  
@@ -772,9 +772,9 @@ E) $4\sqrt{10}\text{ m}$
 | **10** | C | **25** | C | **40** | C |
 | **11** | A | **26** | C | **41** | C |
 | **12** | B | **27** | C | **42** | A |
-| **13** | D | **28** | C | **43** | E |
+| **13** | D | **28** | C | **43** | B |
 | **14** | D | **29** | D | **44** | B |
-| **15** | C | **30** | A | **45** | D |
+| **15** | C | **30** | A | **45** | A |
 
 ---
 
@@ -811,3 +811,18 @@ E) $4\sqrt{10}\text{ m}$
 | **Mediana a la Hipotenusa** | Mediana trazada desde el ángulo recto | $m_h = \frac{c}{2} = R$ |
 | **Teorema de Poncelet** | Triángulo rectángulo con inradio $r$ | $a + b = c + 2r$ |
 | **Recta de Euler** | Recta que contiene a $H, G$ y $O$ | $HG = 2 \cdot GO$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **24** | B | B | Corregida | Se ajustó la opción B: teorema de la mediana, $AC=\sqrt{220}=2\sqrt{55}$. |
+| **37** | C | C | Corregida | Se ajustó la opción C: $m_b=7$ km y $BG=\frac{2}{3}m_b\approx4.67$ km. |
+| **43** | E | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **45** | D | A | Corregida | Se corrigió el dato a $BC=6$ m: con medianas perpendiculares $a^2+b^2=5c^2$, entonces $36+64=5c^2$ y $c=2\sqrt{5}$ m (A). |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

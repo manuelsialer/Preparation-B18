@@ -453,7 +453,7 @@ C) $36$
 D) $7$
 E) $5$
 
-8. Hallar el cociente de dividir $6x^3 - 11x^2 + 10x - 3$ entre $3x - 1$:
+8. Hallar el cociente de dividir $6x^3 - 11x^2 + 12x - 3$ entre $3x - 1$:
 A) $2x^2 - 3x + 1$
 B) $2x^2 + 3x - 1$
 C) $2x^2 - 3x + 3$
@@ -520,42 +520,42 @@ C) $2$
 D) $-2$
 E) $0$
 
-17. Calcular el resto de dividir $P(x) = (x - 1)^{40} + (x - 2)^3 + 5$ entre $x^2 - 3x + 2$:
+17. Calcular el resto de dividir $P(x) = (x - 1)^{40} + (x - 2)^3 + 4$ entre $x^2 - 3x + 2$:
 A) $x + 2$
 B) $2x + 1$
 C) $-x + 5$
 D) $x + 4$
 E) $5$
 
-18. Hallar el término independiente del cociente en la división: $\frac{6x^4 + x^3 - 8x^2 + 13x - 5}{2x^2 - x + 3}$.  
+18. Hallar el término independiente del cociente en la división: $\frac{6x^4 + x^3 + 9x^2 + 5x + 3}{2x^2 - x + 3}$.  
 A) $-2$  
 B) $2$  
 C) $3$  
 D) $-3$  
 E) $1$  
 
-19. Si el polinomio $P(x) = x^3 + ax^2 + bx + 6$ es divisible simultáneamente entre $(x - 1)$ y $(x - 2)$, calcular $a \cdot b$:  
+19. Si el polinomio $P(x) = x^3 + ax^2 + bx - 6$ es divisible simultáneamente entre $(x - 1)$ y $(x - 2)$, calcular $a \cdot b$:  
 A) $66$  
 B) $-66$  
 C) $54$  
 D) $-54$  
 E) $36$  
 
-20. Calcular el residuo de dividir $x^{85} + x^{43} - 3x^{12} + 4$ entre $x^2 + 1$:  
+20. Calcular el residuo de dividir $x^{85} + x^{43} - 3x^{12} + 10$ entre $x^2 + 1$:  
 A) $2x + 7$  
 B) $2x + 1$  
 C) $-2x + 7$  
 D) $-2x + 1$  
 E) $7$  
 
-21. Si la división $\frac{x^4 - mx^2 + n}{x^2 - 2x + 1}$ tiene como resto $2x + 3$, calcular $m + n$:  
+21. Si la división $\frac{x^4 - mx^2 + n}{x^2 - 2x + 1}$ tiene como resto $2x + 4$, calcular $m + n$:  
 A) $7$  
 B) $9$  
 C) $11$  
 D) $5$  
 E) $8$  
 
-22. Determinar el valor de $n$ si el cociente notable $\frac{x^{3n-1} - y^{5n-7}}{x^{n-2} - y^{2n-3}}$ tiene 4 términos:  
+22. Determinar el valor de $n$ si el cociente notable $\frac{x^{2n} - y^{3n}}{x^{2} - y^{3}}$ tiene 4 términos:  
 A) $3$  
 B) $4$  
 C) $5$  
@@ -581,7 +581,7 @@ A) $5$
 B) $7$  
 C) $9$  
 D) $11$  
-E) $3$  
+E) $8$  
 
 26. Hallar el resto de la división $\frac{(x + 1)(x + 2)(x + 3)(x + 4) + 5}{x^2 + 5x + 1}$:  
 A) $15$  
@@ -597,28 +597,28 @@ C) $6$
 D) $4$  
 E) $7$  
 
-28. Hallar la suma de coeficientes del cociente de la división: $\frac{3x^5 - 2x^4 + 4x^3 - 5x^2 + 2x - 1}{x - 1}$.  
+28. Hallar la suma de coeficientes del cociente de la división: $\frac{3x^5 - 2x^4 + 4x^3 - 5x^2 + 6x - 1}{x - 1}$.  
 A) $15$  
 B) $17$  
 C) $19$  
 D) $21$  
 E) $13$  
 
-29. Si el grado absoluto del término de lugar 8 en el cociente notable $\frac{x^n - y^m}{x^3 - y^2}$ es 31, hallar el valor de $n$:  
+29. Si el grado absoluto del término de lugar 8 en el cociente notable $\frac{x^n - y^m}{x^3 - y^2}$ es 41, hallar el valor de $n$:  
 A) $45$  
 B) $48$  
 C) $51$  
 D) $54$  
 E) $60$  
 
-30. Un almacén comunal de semillas en Junín distribuye una cantidad de sacos modelada por $P(x) = x^4 + 2x^3 - 7x^2 - 8x + 12$ entre parcelas familiares. Si cada familia recibe $(x^2 - 4)$ sacos sin que sobre ninguna semilla, ¿cuántas familias se benefician si $x = 5$?  
+30. Un almacén comunal de semillas en Junín distribuye una cantidad de sacos modelada por $P(x) = x^4 + 2x^3 - 7x^2 - 8x + 12$ entre parcelas familiares. Si cada familia recibe $(x^2 - 4)$ sacos sin que sobre ninguna semilla, ¿cuántas familias se benefician si $x = 4$?  
 A) $21$ familias  
 B) $36$ familias  
 C) $28$ familias  
 D) $42$ familias  
 E) $35$ familias  
 
-31. Calcular el resto de dividir $(x - 5)^{10} + (x - 6)^7 + 3$ entre $(x - 5)(x - 6)$:  
+31. Calcular el resto de dividir $(x - 5)^{10} + (x - 6)^7 + 2$ entre $(x - 5)(x - 6)$:  
 A) $2x - 11$  
 B) $2x - 9$  
 C) $x - 2$  
@@ -629,7 +629,7 @@ E) $3x - 14$
 A) $1$  
 B) $2$  
 C) $3$  
-D) $-1$  
+D) $-4$  
 E) $0$  
 
 33. En el cociente notable $\frac{x^{40} - y^{20}}{x^2 - y}$, ¿cuál es el grado absoluto del quinto término?  
@@ -660,7 +660,7 @@ E) $1$
 36. Si el residuo de la división:
 
 $$
-\frac{ax^5 + bx^4 + cx^3 - x^2 + 2x - 3}{x^3 - x + 1}
+\frac{ax^5 + bx^4 + cx^3 - x^2 + 2x - 2}{x^3 - x + 1}
 $$
 
 es idénticamente nulo, calcular el valor de $a + b + c$:  
@@ -696,7 +696,7 @@ $$
 \frac{x^a - y^b}{x^5 - y^7}
 $$
 
-es de la forma $x^{115} y^c$, determinar el valor de $a + b + c$:  
+es de la forma $x^{135} y^c$, determinar el valor de $a + b + c$:  
 A) $540$  
 B) $580$  
 C) $612$  
@@ -710,7 +710,7 @@ C) $-6$
 D) $-4$  
 E) $-12$  
 
-41. **(Reto)** Calcular el residuo de dividir el polinomio $P(x) = (x - 2)^{2026} + (x - 1)^{1000} + 3$ entre $(x - 1)(x - 2)$:  
+41. **(Reto)** Calcular el residuo de dividir el polinomio $P(x) = (x - 2)^{2026} + (x - 1)^{1000} + 4$ entre $(x - 1)(x - 2)$:  
 A) $2x - 1$  
 B) $x + 2$  
 C) $3$  
@@ -720,7 +720,7 @@ E) $2x + 1$
 42. **(Reto)** Si la división:
 
 $$
-\frac{mx^4 + nx^3 + 22x^2 - 13x - 12}{2x^2 - 3x + 4}
+\frac{mx^4 + nx^3 + 6x^2 - 13x - 12}{2x^2 - 3x + 4}
 $$
 
 deja como residuo $R(x) = 5x - 4$, calcular el valor de $m \cdot n$ aplicando el método de Horner invertido:  
@@ -751,7 +751,7 @@ D) $5x$
 E) $x - 1$  
 
 45. **(Reto)** Un polinomio $P(x)$ de grado 4 tiene coeficiente principal 1. Si al ser dividido entre $(x^2 + 1)$ deja resto $2x + 3$, y al ser dividido entre $(x^2 - 2)$ deja resto $5x - 3$, calcular la suma de los coeficientes de $P(x)$:  
-A) $12$  
+A) $1$  
 B) $15$  
 C) $17$  
 D) $19$  
@@ -765,15 +765,15 @@ E) $14$
 
 | N° | Clave | N° | Clave | N° | Clave | N° | Clave | N° | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | B | **10** | B | **19** | B | **28** | B | **37** | A |
-| **2** | B | **11** | A | **20** | A | **29** | B | **38** | B |
-| **3** | A | **12** | D | **21** | A | **30** | A | **39** | C |
-| **4** | A | **13** | C | **22** | A | **31** | A | **40** | A |
-| **5** | A | **14** | C | **23** | A | **32** | B | **41** | D |
+| **1** | B | **10** | B | **19** | B | **28** | A | **37** | B |
+| **2** | B | **11** | A | **20** | E | **29** | C | **38** | B |
+| **3** | A | **12** | D | **21** | A | **30** | A | **39** | D |
+| **4** | A | **13** | C | **22** | A | **31** | B | **40** | D |
+| **5** | A | **14** | C | **23** | A | **32** | D | **41** | D |
 | **6** | C | **15** | C | **24** | A | **33** | C | **42** | A |
-| **7** | A | **16** | D | **25** | A | **34** | A | **43** | B |
-| **8** | A | **17** | E | **26** | C | **35** | C | **44** | C |
-| **9** | B | **18** | A | **27** | B | **36** | A | **45** | B |
+| **7** | A | **16** | D | **25** | E | **34** | A | **43** | B |
+| **8** | C | **17** | B | **26** | B | **35** | C | **44** | C |
+| **9** | B | **18** | E | **27** | B | **36** | C | **45** | A |
 
 ---
 
@@ -804,3 +804,35 @@ E) $14$
 | **C.N. Forma $\frac{x^n + a^n}{x + a}$** | Signos alternados ($+ - + - \dots$) | Válido únicamente para $n$ impar |
 | **C.N. Forma $\frac{x^n - a^n}{x + a}$** | Signos alternados ($+ - + - \dots$) | Válido únicamente para $n$ par |
 | **Término General C.N. ($T_k$)** | $T_k = (\pm) \cdot x^{N - k} a^{k - 1}$ | Signo: $(-1)^{k-1}$ si el divisor es suma |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 15 clave(s) corregida(s) y 21 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **08** | A | C | Corregida | Se ajustó el dividendo a $6x^3-11x^2+12x-3$, divisible exactamente entre $3x-1$ con cociente $2x^2-3x+3$. Clave C. |
+| **17** | E | B | Corregida | Se ajustó el término constante: $R(1)=3$ y $R(2)=5$ dan $R(x)=2x+1$. Clave B. |
+| **18** | A | E | Corregida | Se ajustó el dividendo: $(2x^2-x+3)(3x^2+2x+1)=6x^4+x^3+9x^2+5x+3$, cuyo cociente tiene término independiente $1$. Clave E. |
+| **19** | B | B | Corregida | Se ajustó el término independiente a $-6$: $a+b=5$ y $2a+b=-1$ dan $a=-6$, $b=11$ y $ab=-66$. Clave B. |
+| **20** | A | E | Corregida | Se ajustó el término constante: con $x^2\equiv-1$ el residuo es $x-x-3+c=c-3=7$. Clave E. |
+| **21** | A | A | Corregida | Se ajustó el resto a $2x+4$: al dividir resulta $m=1$, $n=6$ y $m+n=7$. Clave A. |
+| **22** | A | A | Corregida | Se reformuló el cociente notable: $\frac{2n}{2}=\frac{3n}{3}=n$ y con $4$ términos $n+1=4$, es decir $n=3$. Clave A. |
+| **25** | A | E | Corregida | Se ajustó la opción E: el resto nulo exige $A=9$, $B=-4$, $C=3$, de modo que $A+B+C=8$. Clave E. |
+| **26** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **28** | B | A | Corregida | Se ajustó el coeficiente a $6x$: la suma de coeficientes del cociente es $5(3)-8+12-10+6=15$. Clave A. |
+| **29** | B | C | Corregida | Se ajustó el grado a $41$: el término de lugar $8$ tiene grado $n-10$, luego $n=51$. Clave C. |
+| **30** | A | A | Corregida | Se ajustó el valor a $x=4$: el cociente es $x^2+2x-3$ y en $x=4$ vale $21$. Clave A. |
+| **31** | A | B | Corregida | Se ajustó el término constante: $R(5)=1$ y $R(6)=3$ dan $R(x)=2x-9$. Clave B. |
+| **32** | B | D | Corregida | Se ajustó la opción D: la división deja $R(x)=-2x+2$, luego $m-n=-4$. Clave D. |
+| **36** | A | C | Corregida | Se ajustó el término constante a $-2$: el resto nulo exige $a=-1$, $b=0$, $c=-1$ y $a+b+c=-2$. Clave C. |
+| **37** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **39** | C | D | Corregida | Se ajustó el exponente: $a=135+85=220$, $b=\frac{7a}{5}=308$ y $c=7\cdot16=112$, luego $a+b+c=640$. Clave D. |
+| **40** | A | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **41** | D | D | Corregida | Se ajustó el término constante: $R(1)=R(2)=5$, por lo que el residuo constante es $5$. Clave D. |
+| **42** | A | A | Corregida | Se ajustó el coeficiente a $6x^2$: resulta $m=-4$, $n=-6$ y $m\cdot n=24$. Clave A. |
+| **45** | B | A | Corregida | Se ajustó la opción A: $a=1$, $b=-4$ y $P(1)=1+1-3+3-1=1$. Clave A. |
+
+**Claves sin cambios:** 30 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -555,7 +555,7 @@ A) $4.5\text{ cm}$
 B) $5\text{ cm}$  
 C) $5.2\text{ cm}$  
 D) $5.5\text{ cm}$  
-E) $\sqrt[3]{125}\text{ cm} = 5\text{ cm}$  
+E) $\sqrt[3]{100}\text{ cm}$  
 
 19. Un cono y un cilindro tienen la misma base circular de radio $r$ y el mismo volumen. Si la altura del cilindro es de $6\text{ cm}$, ¿cuál es la altura del cono?  
 A) $2\text{ cm}$  
@@ -690,7 +690,7 @@ E) $0.840\text{ m}^3$
 37. Se diseñan copas cónicas de vidrio para una empresa vitivinícola en Ica. Cada copa tiene $6\text{ cm}$ de diámetro en la boca y $8\text{ cm}$ de profundidad interior. Si una botella contiene $750\text{ mL}$ de vino y se sirven copas llenas hasta los $\frac{3}{4}$ de su altura, ¿para cuántas copas completas alcanza la botella?  
 A) $18\text{ copas}$  
 B) $20\text{ copas}$  
-C) $22\text{ copas}$  
+C) $23\text{ copas}$  
 D) $24\text{ copas}$  
 E) $26\text{ copas}$  
 
@@ -734,7 +734,7 @@ A) $0.56\text{ cm}$
 B) $0.67\text{ cm}$  
 C) $0.78\text{ cm}$  
 D) $0.83\text{ cm}$  
-E) $1.00\text{ cm}$  
+E) $1.67\text{ cm}$  
 
 44. Un reloj de arena decorativo está formado por dos conos idénticos unidos por sus vértices. Cada cono tiene $6\text{ cm}$ de altura y radio de base $4\text{ cm}$. Si la arena llena exactamente uno de los conos y fluye hacia el cono inferior a una velocidad constante de $0.5\text{ cm}^3$ por segundo, ¿cuántos minutos y segundos dura la caída completa de la arena? ($\text{use } \pi \approx 3.1416$).  
 A) $3\text{ min } 12\text{ s}$  
@@ -768,7 +768,7 @@ E) $9.10\text{ cm/s}$
 | **10** | C | **25** | A | **40** | C |
 | **11** | C | **26** | D | **41** | B |
 | **12** | D | **27** | D | **42** | B |
-| **13** | D | **28** | B | **43** | D |
+| **13** | D | **28** | B | **43** | E |
 | **14** | C | **29** | B | **44** | B |
 | **15** | B | **30** | C | **45** | C |
 
@@ -805,3 +805,17 @@ E) $9.10\text{ cm/s}$
 | **Equivalencia Pequeña** | Decímetro cúbico y centímetro cúbico | $1\text{ dm}^3 = 1\text{ litro},\quad 1\text{ cm}^3 = 1\text{ mL}$ |
 | **Masa de Agua Pura** | Volumen a kilogramos | $1\text{ litro} \leftrightarrow 1\text{ kg},\quad 1\text{ m}^3 \leftrightarrow 1\,000\text{ kg} = 1\text{ tonelada}$ |
 | **Relación de Arquímedes** | Cilindro equilátero ($h=2r$), esfera ($r$) y cono | $V_{\text{cono}} : V_{\text{esfera}} : V_{\text{cilindro}} = 1 : 2 : 3$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 1 clave(s) corregida(s) y 3 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **18** | B | B | Corregida | La opción E repetía el valor de B ($\sqrt[3]{125}=5$); se reemplazó por un distractor distinto. Respuesta: $5$ cm (B). |
+| **37** | C | C | Corregida | Se ajustó la opción C: la copa servida es un cono de $r=2.25$ cm y $h=6$ cm ($V\approx31.8$ mL) y $750/31.8\approx23$. |
+| **43** | D | E | Corregida | Se ajustó la opción E: las $5$ canicas aportan $\frac{20\pi}{3}\approx20.94\text{ cm}^3$ y el nivel sube $20.94/(4\pi)\approx1.67$ cm. |
+
+**Claves sin cambios:** 44 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

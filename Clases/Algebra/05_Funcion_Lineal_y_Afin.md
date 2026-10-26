@@ -770,7 +770,7 @@ C) $112^\circ\text{F}$
 D) $116^\circ\text{F}$  
 E) $96^\circ\text{F}$  
 
-32. Si la función $f(x) = mx + b$ satisface que la suma de sus intersecciones con los ejes coordenados es igual a $10$, y su pendiente es $m = -\frac{2}{3}$, determine el valor de $f(6)$.  
+32. Si la función $f(x) = mx + b$ satisface que la suma de sus intersecciones con los ejes coordenados es igual a $50$, y su pendiente es $m = -\frac{2}{3}$, determine el valor de $f(6)$.  
 A) $12$  
 B) $14$  
 C) $16$  
@@ -819,7 +819,7 @@ C) $d = a + b$
 D) $d = 2a$  
 E) $d = \frac{a}{b}$  
 
-39. Determine el valor de $k$ para que la recta correspondiente a la función afín $f(x) = (k - 1)x + 2k + 6$ pase por el punto de intersección de las rectas $y = 3x - 1$ e $y = -2x + 9$.  
+39. Determine el valor de $k$ para que la recta correspondiente a la función afín $f(x) = (k - 1)x + 2k + 3$ pase por el punto de intersección de las rectas $y = 3x - 1$ e $y = -2x + 9$.  
 A) $1$  
 B) $-1$  
 C) $0$  
@@ -882,12 +882,12 @@ E) $\{1, 2\}$
 | **06** | B | **21** | C | **36** | B |
 | **07** | A | **22** | A | **37** | B |
 | **08** | A | **23** | A | **38** | A |
-| **09** | B | **24** | B | **39** | B |
+| **09** | B | **24** | B | **39** | A |
 | **10** | C | **25** | A | **40** | B |
 | **11** | B | **26** | C | **41** | A |
 | **12** | C | **27** | B | **42** | A |
 | **13** | C | **28** | B | **43** | C |
-| **14** | B | **29** | A | **44** | A |
+| **14** | B | **29** | A | **44** | C |
 | **15** | A | **30** | A | **45** | A |
 
 ---
@@ -977,3 +977,17 @@ Por lo tanto, los valores donde no forman un triángulo son $a \in \{-1, 1, 2\}$
 | **Depreciación Lineal** | $V(t) = -d \cdot t + V_0$ | $V_0$: valor de compra; $d$: depreciación anual constante |
 | **Cinemática (MRU)** | $x(t) = v \cdot t + x_0$ | $v$: velocidad constante; $x_0$: posición inicial |
 | **Escala de Temperatura** | $F(C) = \frac{9}{5}C + 32$ | Razón de cambio: $1{,}8^\circ\text{F}$ por cada $1^\circ\text{C}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 3 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **32** | C | C | Corregida | Se ajustó la suma de intersecciones a $50$: $b+\frac{3b}{2}=50 \Rightarrow b=20$ y $f(6)=-4+20=16$. Clave C. |
+| **39** | B | A | Corregida | Se ajustó el término independiente: el punto común es $(2,5)$ y $4k+1=5 \Rightarrow k=1$. Clave A. |
+| **44** | A | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

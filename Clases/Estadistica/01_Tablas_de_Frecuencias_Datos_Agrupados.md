@@ -422,7 +422,7 @@ D) 26
 E) 30
 
 18. En una distribución con 5 intervalos simétricos, $f_1 = 12$, $F_3 = 60$, y $n = 80$. Calcule $f_2$.  
-A) 16  
+A) $8$  
 B) 18  
 C) 20  
 D) 22  
@@ -627,14 +627,14 @@ E) 45
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | B | **16** | C | **31** | C |
-| **2** | C | **17** | C | **32** | B |
+| **1** | B | **16** | A | **31** | B |
+| **2** | C | **17** | C | **32** | A |
 | **3** | C | **18** | A | **33** | A |
 | **4** | C | **19** | C | **34** | C |
 | **5** | B | **20** | C | **35** | C |
 | **6** | C | **21** | C | **36** | D |
 | **7** | C | **22** | C | **37** | B |
-| **8** | B | **23** | C | **38** | D |
+| **8** | B | **23** | C | **38** | B |
 | **9** | B | **24** | C | **39** | B |
 | **10** | D | **25** | B | **40** | B |
 | **11** | C | **26** | C | **41** | B |
@@ -674,3 +674,19 @@ Reflexiona sobre tu proceso de resolución respondiendo a los siguientes criteri
 | **Frecuencia Absoluta Acumulada ($F_i$)** | $F_i = F_{i-1} + f_i, \quad F_k = n$ |
 | **Frecuencia Relativa Acumulada ($H_i$)** | $H_i = H_{i-1} + h_i, \quad H_k = 1$ |
 | **Interpolación en Subintervalo** | $f_{[L_i, x]} = \dfrac{x - L_i}{C} \cdot f_i$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 4 clave(s) corregida(s) y 5 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **16** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **18** | A | A | Corregida | Se ajustó la opción A: con $n=80$, $f_1=f_5=12$ y $f_2=f_4$ se obtiene $f_2=8$. Clave confirmada en A. |
+| **31** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **32** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **38** | D | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+
+**Claves sin cambios:** 41 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

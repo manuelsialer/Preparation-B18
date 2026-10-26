@@ -743,7 +743,7 @@ C) $24$
 D) $26$  
 E) $28$  
 
-8. Si el par $(2, -1)$ es solución del sistema $ax + by = 7$ y $bx - ay = -1$, determine $a + b$.  
+8. Si el par $(2, 1)$ es solución del sistema $ax + by = 7$ y $bx - ay = -1$, determine $a + b$.  
 A) $3$  
 B) $4$  
 C) $5$  
@@ -778,7 +778,7 @@ C) $\text{S/ } 80$
 D) $\text{S/ } 75$  
 E) $\text{S/ } 60$  
 
-13. Determine $y$ en el sistema: $3(x - 1) + 2y = 7$ y $2x - 3(y + 1) = -1$.  
+13. Determine $y$ en el sistema: $3(x - 1) + 2y = 7$ y $2x - 3(y + 1) = -5$.  
 A) $2$  
 B) $1$  
 C) $3$  
@@ -803,7 +803,7 @@ E) $2ab$
 
 ### Bloque II: Nivel Intermedio (Problemas 16 al 30)
 
-16. Resuelva el sistema: $\frac{2}{x} + \frac{3}{y} = 1$ y $\frac{4}{x} - \frac{9}{y} = -3$. Halle $x + y$.  
+16. Resuelva el sistema: $\frac{2}{x} + \frac{3}{y} = \frac{5}{4}$ y $\frac{4}{x} - \frac{9}{y} = -\frac{5}{4}$. Halle $x + y$.  
 A) $5$  
 B) $6$  
 C) $7$  
@@ -845,7 +845,7 @@ C) $5\text{ km/h}$
 D) $2\text{ km/h}$  
 E) $6\text{ km/h}$  
 
-22. Halle el valor de $x$ al resolver: $\frac{x + y}{x - y} = 5$ y $2x - 3y = 8$.  
+22. Halle el valor de $x$ al resolver: $\frac{x + y}{x - y} = 5$ y $3x - 2y = 25$.  
 A) $12$  
 B) $15$  
 C) $18$  
@@ -933,7 +933,7 @@ C) $(a = b \land c = d) \lor (a = -b \land c = -d)$
 D) $a^2 - b^2 \neq 0$
 E) $c = d$
 
-34. Una empresa comunal de piscigranjas en Junín vende trucha fresca eviscerada a dos cadenas de restaurantes. El cliente $A$ compra $120\text{ kg}$ de trucha grande y $80\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,040$. El cliente $B$ adquiere $90\text{ kg}$ de trucha grande y $150\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,330$. Determine el precio del kilogramo de trucha grande.
+34. Una empresa comunal de piscigranjas en Junín vende trucha fresca eviscerada a dos cadenas de restaurantes. El cliente $A$ compra $120\text{ kg}$ de trucha grande y $80\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,000$. El cliente $B$ adquiere $90\text{ kg}$ de trucha grande y $150\text{ kg}$ de trucha mediana pagando $\text{S/ } 3\,330$. Determine el precio del kilogramo de trucha grande.
 A) $\text{S/ } 16$
 B) $\text{S/ } 17$
 C) $\text{S/ } 18$
@@ -954,14 +954,14 @@ C) $4$
 D) $1$
 E) $-2$
 
-37. Si el sistema $\begin{cases} (2m - 1)x + 3y = 7 \\ 5x + (m + 1)y = 8 \end{cases}$ es compatible determinado, halle el conjunto de todos los valores que **no** puede tomar $m$.  
+37. Si el sistema $\begin{cases} (2m + 1)x + 3y = 7 \\ 5x + (m + 1)y = 8 \end{cases}$ es compatible determinado, halle el conjunto de todos los valores que **no** puede tomar $m$.  
 A) $\left\{ -\frac{8}{2}, 2 \right\}$
 B) $\left\{ -\frac{17}{2}, 1 \right\}$
 C) $\left\{ -\frac{16}{2}, 2 \right\}$
-D) $\left\{ -\frac{17}{2}, 2 \right\}$
+D) $\left\{ -\frac{7}{2}, 2 \right\}$
 E) $\left\{ \frac{17}{2}, -2 \right\}$
 
-38. Dos cuadrillas de trabajadores del programa Lurawi Perú realizan el mantenimiento de un camino rural. Si la primera cuadrilla trabaja $5\text{ días}$ y la segunda $4\text{ días}$, completan $\frac{7}{12}$ del camino. Si la primera trabaja $2\text{ días}$ y la segunda $6\text{ días}$, avanzan $\frac{1}{2}$ de la obra. ¿En cuántos días completaría toda la obra la primera cuadrilla trabajando en solitario?
+38. Dos cuadrillas de trabajadores del programa Lurawi Perú realizan el mantenimiento de un camino rural. Si la primera cuadrilla trabaja $5\text{ días}$ y la segunda $4\text{ días}$, completan $\frac{7}{12}$ del camino. Si la primera trabaja $2\text{ días}$ y la segunda $6\text{ días}$, avanzan $\frac{5}{12}$ de la obra. ¿En cuántos días completaría toda la obra la primera cuadrilla trabajando en solitario?
 A) $12\text{ días}$
 B) $15\text{ días}$
 C) $16\text{ días}$
@@ -1003,7 +1003,7 @@ C) $25$
 D) $37$
 E) $41$
 
-44. Determine el valor de $x$ al resolver $\begin{cases} \frac{x + 2}{3} + \frac{y - 1}{4} = \frac{x + y}{2} \\ \frac{x - 3}{2} - \frac{y + 2}{5} = \frac{x - y}{3} \end{cases}$.  
+44. Determine el valor de $x$ al resolver $\begin{cases} \frac{x + 2}{3} + \frac{y - 1}{4} = \frac{x + y}{2} \\ \frac{x - 3}{2} - \frac{y + 2}{2} = \frac{x - y}{3} \end{cases}$.  
 A) $8$  
 B) $10$  
 C) $12$  
@@ -1023,20 +1023,20 @@ E) $\text{S/ } 14$
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **01** | A | **16** | C | **31** | A |
+| **01** | A | **16** | D | **31** | A |
 | **02** | A | **17** | A | **32** | A |
 | **03** | B | **18** | B | **33** | C |
-| **04** | C | **19** | B | **34** | B |
-| **05** | B | **20** | A | **35** | A |
+| **04** | C | **19** | C | **34** | B |
+| **05** | B | **20** | C | **35** | A |
 | **06** | B | **21** | B | **36** | A |
-| **07** | B | **22** | D | **37** | D |
-| **08** | C | **23** | B | **38** | A |
+| **07** | B | **22** | B | **37** | D |
+| **08** | B | **23** | B | **38** | A |
 | **09** | A | **24** | A | **39** | C |
 | **10** | A | **25** | A | **40** | A |
-| **11** | A | **26** | A | **41** | A |
+| **11** | A | **26** | D | **41** | A |
 | **12** | A | **27** | B | **42** | A |
 | **13** | A | **28** | A | **43** | A |
-| **14** | A | **29** | A | **44** | C |
+| **14** | A | **29** | A | **44** | D |
 | **15** | B | **30** | B | **45** | B |
 
 ---
@@ -1119,3 +1119,25 @@ El precio inicial del rocoto relleno era de $\text{S/ } 16$.
 | **Mezcla de Concentraciones** | $V_1 + V_2 = V_T \ \land \ c_1 V_1 + c_2 V_2 = c_m V_T$ | $V_1, V_2$: volúmenes; $c_1, c_2$: porcentajes |
 | **Corriente Marina / Viento** | $v_b + v_c = v_{\text{a favor}} \ \land \ v_b - v_c = v_{\text{en contra}}$ | $v_b$: rapidez propia; $v_c$: rapidez fluido |
 | **Sistemas Homogéneos** | $ax + by = 0 \ \land \ cx + dy = 0$ | Solución no trivial $\iff ad - bc = 0$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 7 clave(s) corregida(s) y 11 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **08** | C | B | Corregida | Se corrigió la solución a $(2,1)$: $2a+b=7$ y $2b-a=-1$ dan $a=3$, $b=1$; $a+b=4$. Clave B. |
+| **13** | A | A | Corregida | Se ajustó el segundo miembro a $-5$: el sistema $3x+2y=10$, $2x-3y=2$ da $y=2$. Clave A. |
+| **16** | C | D | Corregida | Se ajustaron los segundos miembros: con $u=\frac{1}{x}$, $v=\frac{1}{y}$ resulta $u=v=\frac{1}{4}$, es decir $x=y=4$ y $x+y=8$. Clave D. |
+| **19** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **20** | A | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **22** | D | B | Corregida | Se reemplazó la ecuación incompatible: $\frac{x+y}{x-y}=5$ da $x=\frac{3y}{2}$ y con $3x-2y=25$ resulta $y=10$, $x=15$. Clave B. |
+| **26** | A | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **34** | B | B | Corregida | Se ajustó el primer pago a S/ 3 000: $120G+80M=3\,000$ y $90G+150M=3\,330$ dan $G=17$. Clave B. |
+| **37** | D | D | Corregida | Se ajustó el coeficiente: el determinante es $2m^2+3m-14=(2m+7)(m-2)$, que se anula en $m=2$ y $m=-\frac{7}{2}$. Clave D. |
+| **38** | A | A | Corregida | Se ajustó el avance a $\frac{5}{12}$: con $a=\frac{1}{12}$ y $b=\frac{1}{24}$ se cumplen ambas condiciones y la primera cuadrilla sola tarda $12$ días. Clave A. |
+| **44** | C | D | Corregida | Se ajustó el denominador a $2$: el sistema equivale a $2x+3y=5$ y $x-y=15$, de donde $x=10$. Clave D. |
+
+**Claves sin cambios:** 38 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

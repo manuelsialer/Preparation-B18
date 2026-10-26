@@ -400,7 +400,7 @@ E) $\frac{7}{36}$
 
 17. En una caja hay 5 fichas rojas y 3 azules. Se extraen dos fichas sin reposición. ¿Cuál es la probabilidad de que ambas sean rojas?  
 A) $\frac{5}{14}$  
-B) $\frac{10}{28}$  
+B) $\frac{5}{16}$  
 C) $\frac{25}{64}$  
 D) $\frac{5}{28}$  
 E) $\frac{15}{56}$
@@ -436,7 +436,7 @@ E) $\frac{5}{8}$
 22. Al extraer una carta de una baraja de 52 cartas, ¿cuál es la probabilidad de que sea un Rey o una carta de Corazones?  
 A) $\frac{4}{13}$  
 B) $\frac{17}{52}$  
-C) $\frac{16}{52}$  
+C) $\frac{8}{52}$  
 D) $\frac{15}{52}$  
 E) $\frac{1}{4}$
 
@@ -537,7 +537,7 @@ E) $\frac{5}{16}$
 
 36. En una bolsa hay 10 caramelos de fresa y 15 de limón. Si un niño extrae 3 caramelos al azar uno por uno sin reposición, ¿cuál es la probabilidad de que los tres sean de fresa?  
 A) $\frac{12}{115}$  
-B) $\frac{24}{230}$  
+B) $\frac{9}{115}$  
 C) $\frac{6}{115}$  
 D) $\frac{8}{115}$  
 E) $\frac{3}{23}$
@@ -571,7 +571,7 @@ D) $\frac{2}{5}$
 E) $\frac{3}{5}$
 
 41. De un lote de 12 computadoras portátiles donde 3 tienen fallas de fabricación, se seleccionan 2 al azar para una escuela rural de Apurímac. ¿Cuál es la probabilidad de que al menos una tenga fallas?  
-A) $\frac{15}{22}$  
+A) $\frac{10}{22}$  
 B) $\frac{17}{22}$  
 C) $\frac{9}{22}$  
 D) $\frac{13}{22}$  
@@ -620,8 +620,8 @@ E) 0.85
 | **7** | C | **22** | A | **37** | C |
 | **8** | C | **23** | C | **38** | C |
 | **9** | B | **24** | B | **39** | C |
-| **10** | A | **25** | C | **40** | C |
-| **11** | B | **26** | B | **41** | D |
+| **10** | A | **25** | B | **40** | C |
+| **11** | B | **26** | B | **41** | A |
 | **12** | A | **27** | B | **42** | A |
 | **13** | C | **28** | A | **43** | A |
 | **14** | C | **29** | B | **44** | C |
@@ -659,3 +659,19 @@ Reflexiona sobre tu proceso de resolución respondiendo a los siguientes criteri
 | **Sucesos Independientes** | $P(A \cap B) = P(A) \cdot P(B)$ |
 | **Teorema de la Probabilidad Total** | $P(B) = \sum_{i=1}^{k} P(A_i) \cdot P(B \mid A_i)$ |
 | **Teorema de Bayes** | $P(A_j \mid B) = \dfrac{P(A_j) \cdot P(B \mid A_j)}{\sum_{i=1}^{k} P(A_i) \cdot P(B \mid A_i)}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 5 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **17** | A | A | Corregida | La opción B repetía el valor de A ($\frac{10}{28}=\frac{5}{14}$); se reemplazó por un distractor distinto. Respuesta: $\frac{5}{14}$ (A). |
+| **22** | A | A | Corregida | La opción C repetía el valor de A ($\frac{16}{52}=\frac{4}{13}$); se reemplazó. Respuesta: $\frac{16}{52}=\frac{4}{13}$ (A). |
+| **25** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **36** | C | C | Corregida | La opción B era equivalente a A ($\frac{24}{230}=\frac{12}{115}$); se reemplazó por un distractor. $P=\frac{10}{25}\cdot\frac{9}{24}\cdot\frac{8}{23}=\frac{6}{115}$. Clave C. |
+| **41** | D | A | Corregida | Se ajustó la opción A: $1-\frac{\binom{9}{2}}{\binom{12}{2}}=\frac{5}{11}=\frac{10}{22}$. Clave A. |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

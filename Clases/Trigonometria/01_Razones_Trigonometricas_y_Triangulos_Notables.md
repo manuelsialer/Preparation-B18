@@ -514,7 +514,7 @@ D) $25^\circ$
 E) $30^\circ$  
 
 8. En un triángulo rectángulo $ABC$ ($B = 90^\circ$), simplifique: $K = a\csc(A) - c\cot(C)$.  
-A) $b$  
+A) $b - a$  
 B) $a$  
 C) $c$  
 D) $0$  
@@ -636,7 +636,7 @@ C) $2$
 D) $\sqrt{2}$  
 E) $\frac{\sqrt{2}}{2}$  
 
-25. Si $\sin(3x) = \cos(2y)$ y además $\tan(x + y) = 1$, con $x$ e $y$ agudos, calcule el valor de $x - y$.  
+25. Si $\sin(3x) = \cos(y)$ y además $\sin(x + y) = \cos 50^\circ$, con $x$ e $y$ agudos, calcule el valor de $x - y$.  
 A) $5^\circ$  
 B) $10^\circ$  
 C) $15^\circ$  
@@ -796,14 +796,14 @@ E) $90.50\text{ m}$
 | **1** | A | **16** | B | **31** | B |
 | **2** | B | **17** | B | **32** | B |
 | **3** | C | **18** | B | **33** | B |
-| **4** | B | **19** | A | **34** | B |
+| **4** | B | **19** | D | **34** | B |
 | **5** | C | **20** | B | **35** | B |
 | **6** | B | **21** | A | **36** | B |
 | **7** | B | **22** | B | **37** | C |
-| **8** | D | **23** | B | **38** | C |
+| **8** | A | **23** | B | **38** | C |
 | **9** | C | **24** | C | **39** | C |
-| **10** | B | **25** | C | **40** | B |
-| **11** | B | **26** | C | **41** | B |
+| **10** | B | **25** | B | **40** | B |
+| **11** | B | **26** | E | **41** | B |
 | **12** | B | **27** | B | **42** | C |
 | **13** | C | **28** | C | **43** | B |
 | **14** | B | **29** | C | **44** | C |
@@ -846,3 +846,18 @@ E) $90.50\text{ m}$
 | **Notable $16^\circ - 74^\circ$** | Lados $7k, 24k, 25k$ | $\sin 16^\circ = 7/25,\ \cos 16^\circ = 24/25,\ \tan 16^\circ = 7/24$ |
 | **Notable $\frac{53^\circ}{2}$** | Lados $k, 2k, k\sqrt{5}$ | $\tan(53^\circ/2) = 1/2,\ \sin(53^\circ/2) = \frac{\sqrt{5}}{5}$ |
 | **Notable $\frac{37^\circ}{2}$** | Lados $k, 3k, k\sqrt{10}$ | $\tan(37^\circ/2) = 1/3,\ \sin(37^\circ/2) = \frac{\sqrt{10}}{10}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 4 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **08** | D | A | Corregida | Se ajustó la opción A: $a\csc A=b$ y $c\cot C=a$, por lo que $K=b-a$. |
+| **19** | A | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **25** | C | B | Corregida | Se corrigió la condición del enunciado: $3x+y=90^\circ$ y $x+y=40^\circ$ dan $x=25^\circ$, $y=15^\circ$, así $x-y=10^\circ$ (B). |
+| **26** | C | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+
+**Claves sin cambios:** 41 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -902,3 +902,9 @@ E) $3/4$
 | **Diferencia de Cubos Factorizada** | $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$ | Binomio resta por trinomio especial |
 | **Condicional Si $a+b+c=0$** | $a^3 + b^3 + c^3 = 3abc$ | Identidad cúbica condicional |
 | **Condicional de Cuadrados** | $a^2 + b^2 + c^2 = -2(ab + bc + ca)$ | Se cumple si $a + b + c = 0$ |
+
+---
+
+## 9. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. La tabla de claves es correcta en su totalidad: todos los ejercicios tienen solución y su respuesta figura entre las opciones A–E, por lo que no se modificó ninguna clave.

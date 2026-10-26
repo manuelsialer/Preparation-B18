@@ -678,7 +678,7 @@ A) $\{-2, 2\}$
 B) $\{2\}$
 C) $\{-2\}$
 D) $\emptyset$ (No tiene solución)
-E) $\{0\}$
+E) $\{-6\}$
 
 27. Resolver la ecuación irracional $\sqrt{2x + 7} = x + 2$ e indicar la suma de sus soluciones reales:
 A) $1$
@@ -699,7 +699,7 @@ A) $6$ ó $10$
 B) $4$ ó $8$
 C) $5$ ó $9$
 D) $3$ ó $7$
-E) $2$ ó $6$
+E) $2$ ó $12$
 
 30. Hallar el producto de todas las raíces reales de la ecuación $(x^2 - 5x)^2 - 2(x^2 - 5x) - 24 = 0$:
 A) $24$
@@ -759,7 +759,7 @@ E) $6$
 
 $$
 
-(m - 1)x^2 - (m + 2)x + 6 = 0 \quad \text{y} \quad (n - 2)x^2 - (2n + 1)x + 18 = 0
+(m - 1)x^2 - (m + 2)x + 6 = 0 \quad \text{y} \quad (n - 2)x^2 - (2n + 1)x + 30 = 0
 
 $$
 
@@ -768,7 +768,7 @@ A) $10$
 B) $12$
 C) $14$
 D) $16$
-E) $8$
+E) $15$
 
 37. Dada la ecuación cuadrática $x^2 - 2x + 5 = 0$, cuyas raíces son $x_1$ y $x_2$. Calcular el valor exacto de: $T = \frac{x_1^4 + x_2^4 + 14}{(x_1 - x_2)^2}$.  
 A) $1$  
@@ -777,10 +777,10 @@ C) $-2$
 D) $-1$  
 E) $0$  
 
-38. Sea la ecuación $x^2 - bx + c = 0$ con raíces reales $\alpha$ y $\beta$. Si $\alpha^2 + \beta^2 = 27$ y $\alpha^3 + \beta^3 = 90$, y sabiendo que $b > 0$, calcular el valor de $b + c$:  
+38. Sea la ecuación $x^2 - bx + c = 0$ con raíces reales positivas $\alpha$ y $\beta$. Si $\alpha^2 + \beta^2 = 22$ y $\alpha^3 + \beta^3 = 90$, y sabiendo que $b > 0$, calcular el valor de $b + c$:  
 A) $12$  
 B) $15$  
-C) $11$  
+C) $13$  
 D) $14$  
 E) $17$  
 
@@ -841,15 +841,15 @@ E) $3.5\text{ m}$
 
 | N° | Clave | N° | Clave | N° | Clave | N° | Clave | N° | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | B | **10** | C | **19** | B | **28** | C | **37** | A |
-| **2** | C | **11** | A | **20** | A | **29** | C | **38** | C |
-| **3** | B | **12** | B | **21** | C | **30** | A | **39** | A |
-| **4** | A | **13** | B | **22** | B | **31** | B | **40** | B |
+| **1** | B | **10** | C | **19** | B | **28** | C | **37** | E |
+| **2** | C | **11** | A | **20** | A | **29** | E | **38** | C |
+| **3** | B | **12** | B | **21** | C | **30** | B | **39** | A |
+| **4** | A | **13** | B | **22** | C | **31** | A | **40** | B |
 | **5** | C | **14** | A | **23** | A | **32** | B | **41** | A |
 | **6** | A | **15** | D | **24** | A | **33** | A | **42** | A |
 | **7** | B | **16** | A | **25** | A | **34** | A | **43** | A |
-| **8** | A | **17** | A | **26** | D | **35** | C | **44** | A |
-| **9** | B | **18** | C | **27** | A | **36** | C | **45** | B |
+| **8** | A | **17** | A | **26** | E | **35** | C | **44** | A |
+| **9** | B | **18** | C | **27** | A | **36** | E | **45** | B |
 
 ---
 
@@ -887,3 +887,22 @@ Interseca los tres intervalos resultantes.
 | **Raíces Simétricas (Opuestas)** | $x_1 + x_2 = 0 \iff b = 0$ | Ecuación cuadrática pura sin término lineal |
 | **Raíces Recíprocas (Inversas)** | $x_1 \cdot x_2 = 1 \iff a = c$ | Coeficiente principal igual al término independiente |
 | **Ecuaciones Equivalentes** | $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$ | Comparten exactamente el mismo conjunto solución |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 7 clave(s) corregida(s) y 8 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **22** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **26** | D | E | Corregida | Se ajustó la opción E: $x^2+4x-12=0$ da $x=2$ (no válida) y $x=-6$. Clave E. |
+| **29** | C | E | Corregida | Se ajustó la opción E: $(k-5)^2-4(k-2)=9$ lleva a $k^2-14k+24=0$, es decir $k=2$ o $k=12$. Clave E. |
+| **30** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **31** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **36** | C | E | Corregida | Se ajustó el término constante a $30$ y la opción E: con $m=3$, $n=12$ las ecuaciones $2x^2-5x+6=0$ y $10x^2-25x+30=0$ son proporcionales y $m+n=15$. Clave E. |
+| **37** | A | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **38** | C | C | Corregida | Se ajustó $\alpha^2+\beta^2=22$ y se exigieron raíces positivas: $\alpha+\beta=6$, $\alpha\beta=7$ (raíces $3\pm\sqrt{2}$) verifican $\alpha^3+\beta^3=90$, luego $b+c=13$. Clave C. |
+
+**Claves sin cambios:** 38 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

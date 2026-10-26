@@ -675,7 +675,7 @@ C) $26.5\text{ L}$
 D) $27.0\text{ L}$  
 E) $28.5\text{ L}$  
 
-18. Un comerciante compró cierta cantidad de sacos de arroz. El primer día vende $\frac{1}{4}$ del total más $10$ sacos; el segundo día vende $\frac{1}{3}$ de lo que quedaba más $5$ sacos; y el tercer día vende los últimos $25$ sacos. ¿Cuántos sacos compró en total?  
+18. Un comerciante compró cierta cantidad de sacos de arroz. El primer día vende $\frac{1}{4}$ del total más $15$ sacos; el segundo día vende $\frac{1}{3}$ de lo que quedaba más $5$ sacos; y el tercer día vende los últimos $25$ sacos. ¿Cuántos sacos compró en total?  
 A) $60$  
 B) $70$  
 C) $80$  
@@ -731,7 +731,7 @@ C) $2\text{ h } 30\text{ min}$
 D) $2\text{ h } 40\text{ min}$  
 E) $2\text{ h } 48\text{ min}$  
 
-26. La suma de los numeradores de dos fracciones homogéneas irreductibles es $18$ y la diferencia de las mismas es $\frac{1}{2}$. Calcule el valor del denominador común.  
+26. La suma de los numeradores de dos fracciones homogéneas irreductibles es $18$ y la diferencia de las mismas es $\frac{1}{4}$. Calcule el valor del denominador común.  
 A) $8$  
 B) $12$  
 C) $14$  
@@ -813,7 +813,7 @@ D) $81\text{ galones}$
 E) $90\text{ galones}$  
 
 37. **(Contexto de Rebote Físico):** Un sensor industrial mide la elasticidad de un material elástico soltando una esfera desde una altura de $6.25\text{ metros}$. Se observa que tras el primer rebote alcanza $4\text{ metros}$. Si la razón de pérdida de altura se mantiene constante en cada choque contra el piso, ¿cuál será la altura alcanzada tras el cuarto rebote expresada en centímetros?  
-A) $102.4\text{ cm}$  
+A) $104.9\text{ cm}$  
 B) $108.6\text{ cm}$  
 C) $128.0\text{ cm}$  
 D) $144.2\text{ cm}$  
@@ -833,7 +833,7 @@ C) $6\text{ horas}$
 D) $7\text{ horas}$  
 E) $8\text{ horas}$  
 
-40. **(Contexto Financiero y Distribución Solidaria):** Se crea un fondo de becas universitarias con un capital donado. La primera universidad beneficiaria recibe $\frac{1}{4}$ del fondo más $\text{S/ } 50\,000$; la segunda recibe $\frac{1}{3}$ de lo que quedaba más $\text{S/ } 40\,000$; y la tercera universidad recibe los $\text{S/ } 160\,000$ restantes. ¿De cuánto dinero disponía el fondo de becas al inicio?  
+40. **(Contexto Financiero y Distribución Solidaria):** Se crea un fondo de becas universitarias con un capital donado. La primera universidad beneficiaria recibe $\frac{1}{4}$ del fondo más $\text{S/ } 60\,000$; la segunda recibe $\frac{1}{3}$ de lo que quedaba más $\text{S/ } 40\,000$; y la tercera universidad recibe los $\text{S/ } 160\,000$ restantes. ¿De cuánto dinero disponía el fondo de becas al inicio?  
 A) $\text{S/ } 360\,000$  
 B) $\text{S/ } 420\,000$  
 C) $\text{S/ } 450\,000$  
@@ -865,10 +865,10 @@ E) $\frac{9}{10}$
 A) $2\text{ días}$  
 B) $2.4\text{ días}$  
 C) $3\text{ días}$  
-D) $3.2\text{ días}$  
+D) $\frac{36}{11}\text{ días}$  
 E) $4\text{ días}$  
 
-45. **(Contexto de Rendimiento Financiero y Fracciones Continuas):** Se define la rentabilidad de un fondo mutuo mediante una fracción irreductible $\frac{P}{Q}$. Se sabe que al desarrollar dicha fracción por el algoritmo de divisiones sucesivas de Euclides para hallar el $\text{MCD}$, se obtuvieron como cocientes sucesivos los números $2$, $1$, $3$ y $4$. Si el $\text{MCD}(P, Q) = 5$, determine la suma de las cifras del numerador $P$.  
+45. **(Contexto de Rendimiento Financiero y Fracciones Continuas):** Se define la rentabilidad de un fondo mutuo mediante una fracción irreductible $\frac{P}{Q}$. Se sabe que al desarrollar dicha fracción por el algoritmo de divisiones sucesivas de Euclides para hallar el $\text{MCD}$, se obtuvieron como cocientes sucesivos los números $2$, $1$, $3$ y $4$. Si el $\text{MCD}(P, Q) = 1$, determine la suma de las cifras del numerador $P$.  
 A) $8$  
 B) $11$  
 C) $13$  
@@ -885,16 +885,16 @@ E) $16$
 | **02** | C | **17** | C | **32** | C |
 | **03** | C | **18** | C | **33** | C |
 | **04** | A | **19** | C | **34** | D |
-| **05** | B | **20** | A | **35** | E |
-| **06** | B | **21** | B | **36** | B |
+| **05** | B | **20** | A | **35** | B |
+| **06** | B | **21** | B | **36** | C |
 | **07** | A | **22** | B | **37** | A |
-| **08** | B | **23** | B | **38** | B |
+| **08** | B | **23** | B | **38** | D |
 | **09** | A | **24** | C | **39** | B |
 | **10** | B | **25** | B | **40** | D |
 | **11** | B | **26** | D | **41** | B |
 | **12** | C | **27** | A | **42** | C |
 | **13** | C | **28** | B | **43** | C |
-| **14** | A | **29** | C | **44** | C |
+| **14** | A | **29** | D | **44** | D |
 | **15** | B | **30** | B | **45** | B |
 
 ---
@@ -979,3 +979,24 @@ Si tras cada rebote la altura alcanzada es una fracción constante $f$ de la alt
 $$
 H_n = H_0 \cdot f^n \quad (n = \text{número de rebotes})
 $$
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 5 clave(s) corregida(s) y 10 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **18** | C | C | Corregida | Se ajustó el dato a «más 15 sacos»: con $T=80$ el primer día vende $35$, el segundo $20$ y quedan $25$. Clave C. |
+| **26** | D | D | Corregida | Se ajustó la diferencia a $\frac{1}{4}$: de $a+b=18$ y $\frac{a-b}{d}=\frac{1}{4}$ resulta $d=4(a-b)=16$ con $a=11$, $b=7$. Clave D. |
+| **29** | C | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **35** | E | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **36** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **37** | A | A | Corregida | Se ajustó la opción A: $h_4=6{,}25\left(\frac{4}{6{,}25}\right)^4=1{,}0486\text{ m}=104{,}9\text{ cm}$. Clave A. |
+| **38** | B | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **40** | D | D | Corregida | Se ajustó el primer aporte a S/ 60 000: el fondo resulta S/ 480 000 y la tercera universidad recibe S/ 160 000. Clave D. |
+| **44** | C | D | Corregida | Se ajustó la opción D: ritmo conjunto $\frac{1}{12}+\frac{1}{24}+\frac{1}{36}=\frac{11}{72}$; media parcela en $\frac{36}{11}$ días. Clave D. |
+| **45** | B | B | Corregida | Se corrigió el MCD a $1$, coherente con «fracción irreductible»: la fracción continua $[2;1,3,4]$ da $\frac{47}{17}$ y la suma de cifras de $47$ es $11$. Clave B. |
+
+**Claves sin cambios:** 40 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -751,7 +751,7 @@ C) $16$
 D) $12$  
 E) $18$  
 
-20. Si el conjunto solución de $(a - 2)x + 3 \le 2x + b$ es $[2, +\infty\rangle$, determine el valor de $b - 2a$.  
+20. Si el conjunto solución de $(a - 2)x + 7 \le 2x + b$ es $[2, +\infty\rangle$, determine el valor de $b - 2a$.  
 A) $-1$  
 B) $1$  
 C) $-2$  
@@ -835,7 +835,7 @@ E) $4$
 
 ### Bloque III: Nivel Avanzado y Retos Beca 18 (Problemas 31 al 45)
 
-31. Un ingeniero agrónomo en Tacna formula un abono líquido para olivos. Para no quemar las raíces, la concentración de sales $C$ (en gramos por litro) debe verificar: $1{,}8 \le \frac{3C + 2{,}4}{4} < 3{,}6$. Determine la suma de los valores enteros de $C$ que cumplen con el rango de seguridad agronómica.  
+31. Un ingeniero agrónomo en Tacna formula un abono líquido para olivos. Para no quemar las raíces, la concentración de sales $C$ (en gramos por litro) debe verificar: $1{,}8 \le \frac{3C + 2{,}4}{4} < 4{,}35$. Determine la suma de los valores enteros de $C$ que cumplen con el rango de seguridad agronómica.  
 A) $7$
 B) $9$
 C) $12$
@@ -877,7 +877,7 @@ C) $231$
 D) $235$  
 E) $240$  
 
-37. Halle el conjunto de valores de $k$ para los cuales el sistema de inecuaciones en $x$: $\begin{cases} 2x - 3 \le 5 \\ 3x + k > 4 \end{cases}$ admite exactamente $3$ soluciones enteras.  
+37. Halle el conjunto de valores de $k$ para los cuales el sistema de inecuaciones en $x$: $\begin{cases} 2x - 3 \le 7 \\ 3x + k > 4 \end{cases}$ admite exactamente $3$ soluciones enteras.  
 A) $\langle -5, -2]$
 B) $[-5, -2\rangle$
 C) $\langle -8, -5]$
@@ -952,15 +952,15 @@ E) $6$
 | **04** | A | **19** | B | **34** | A |
 | **05** | A | **20** | A | **35** | A |
 | **06** | A | **21** | A | **36** | A |
-| **07** | C | **22** | A | **37** | A |
+| **07** | B | **22** | C | **37** | A |
 | **08** | A | **23** | A | **38** | A |
 | **09** | B | **24** | B | **39** | B |
 | **10** | A | **25** | C | **40** | A |
-| **11** | A | **26** | A | **41** | A |
+| **11** | A | **26** | D | **41** | A |
 | **12** | B | **27** | B | **42** | B |
 | **13** | B | **28** | A | **43** | C |
 | **14** | A | **29** | B | **44** | B |
-| **15** | C | **30** | A | **45** | C |
+| **15** | B | **30** | B | **45** | C |
 
 ---
 
@@ -1042,3 +1042,23 @@ La igualdad se verifica cuando $a = b = \frac{1}{2}$. Por lo tanto, el menor val
 | **Ganancia Mínima** | $U(q) = (p_v - c_v)q - C_f \ge U_{\text{mín}}$ | $q \ge \frac{C_f + U_{\text{mín}}}{p_v - c_v}$ (entero superior) |
 | **Capacidad de Carga** | $P_{\text{fijo}} + \sum w_i n_i \le W_{\text{máx}}$ | $n_i \le \text{capacidad neta}$ (entero inferior) |
 | **Límite Presupuestario** | $C_{\text{fijo}} + c_{\text{unit}} \cdot x \le \text{Presupuesto}$ | $x \le \text{gasto admisible}$ (entero inferior) |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 5 clave(s) corregida(s) y 8 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **07** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **15** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **20** | A | A | Corregida | Se ajustó el término constante a $7$: $\frac{b-7}{a-4}=2 \Rightarrow b-2a=-1$. Clave A. |
+| **22** | A | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **26** | A | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **30** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **31** | B | B | Corregida | Se ajustó la cota superior: $1{,}6\le C<5$, luego $C\in\{2,3,4\}$ y la suma es $9$. Clave B. |
+| **37** | A | A | Corregida | Se ajustó la primera inecuación: $x\le 5$ y $x>\frac{4-k}{3}$ dan $\{3,4,5\}$ cuando $\frac{4-k}{3}\in[2,3)$, es decir $k\in\langle-5,-2]$. Clave A. |
+| **44** | B | B | Observación | Clave verificada, sin cambios. |
+
+**Claves sin cambios:** 40 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

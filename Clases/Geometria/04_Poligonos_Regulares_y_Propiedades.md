@@ -564,7 +564,7 @@ E) $72^\circ$
 22. En un octógono regular $ABCDEFGH$, calcule la medida del ángulo formado por las prolongaciones de los lados $AB$ y $ED$.  
 A) $60^\circ$  
 B) $75^\circ$  
-C) $90^\circ$  
+C) $45^\circ$  
 D) $105^\circ$  
 E) $120^\circ$  
 
@@ -642,7 +642,7 @@ C) $0.30\text{ m}^2$
 D) $0.35\text{ m}^2$  
 E) $0.50\text{ m}^2$  
 
-33. Una antena de radar meteorológico gira barriendo una región circular de radio $R = 10\text{ m}$. El sensor calibra un sistema de alerta temprana cuando detecta nubes convectivas en los vértices de un hexágono regular inscrito en dicha zona. Determine la distancia en línea recta entre dos vértices no consecutivos opuestos (diagonal intermedia) del hexágono.  
+33. Una antena de radar meteorológico gira barriendo una región circular de radio $R = 10\text{ m}$. El sensor calibra un sistema de alerta temprana cuando detecta nubes convectivas en los vértices de un hexágono regular inscrito en dicha zona. Determine la distancia en línea recta entre dos vértices no consecutivos separados por un vértice intermedio (diagonal intermedia) del hexágono.  
 A) $10\text{ m}$  
 B) $10\sqrt{2}\text{ m}$  
 C) $10\sqrt{3}\text{ m}$  
@@ -678,13 +678,13 @@ D) $110\text{ m}$
 E) $120\text{ m}$  
 
 38. Se diseña un espejo astronómico segmentado compuesto por $18$ espejos planos hexagonales regulares idénticos. Si el radio de la circunferencia circunscrita a cada espejo individual es de $0.5\text{ m}$, calcule el área colectora total de los $18$ segmentos del espejo.  
-A) $8.5\sqrt{3}\text{ m}^2$  
+A) $6.75\sqrt{3}\text{ m}^2$  
 B) $11.25\sqrt{3}\text{ m}^2$  
 C) $13.5\sqrt{3}\text{ m}^2$  
 D) $15\sqrt{3}\text{ m}^2$  
 E) $18\sqrt{3}\text{ m}^2$  
 
-39. En un polígono regular de $n$ lados, se observa que al trazar todas las diagonales desde $3$ vértices consecutivos se obtienen $24$ diagonales. Calcule el área de dicho polígono regular si su circunradio mide $10\text{ cm}$.  
+39. En un polígono regular de $n$ lados, se observa que al trazar todas las diagonales desde $3$ vértices consecutivos se obtienen $25$ diagonales. Calcule el área de dicho polígono regular si su circunradio mide $10\text{ cm}$.  
 A) $200\text{ cm}^2$  
 B) $240\text{ cm}^2$  
 C) $280\text{ cm}^2$  
@@ -746,10 +746,10 @@ E) $36$
 | **5** | B | **20** | B | **35** | C |
 | **6** | C | **21** | C | **36** | A |
 | **7** | B | **22** | C | **37** | C |
-| **8** | B | **23** | B | **38** | C |
+| **8** | B | **23** | B | **38** | A |
 | **9** | B | **24** | B | **39** | D |
 | **10** | B | **25** | B | **40** | A |
-| **11** | C | **26** | C | **41** | A |
+| **11** | C | **26** | B | **41** | A |
 | **12** | B | **27** | C | **42** | C |
 | **13** | B | **28** | B | **43** | A |
 | **14** | B | **29** | B | **44** | B |
@@ -792,3 +792,19 @@ E) $36$
 | **Lado Cuadrado Regular** | Circunradio $R$ | $L_4 = R\sqrt{2},\quad a_p = \frac{R\sqrt{2}}{2}$ |
 | **Lado Hexágono Regular** | Circunradio $R$ | $L_6 = R,\quad a_p = \frac{R\sqrt{3}}{2}$ |
 | **Área Hexágono Regular** | Lado $L$ o circunradio $R$ | $\text{Área} = \frac{3\sqrt{3}}{2}R^2$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 5 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **22** | C | C | Corregida | Se ajustó la opción C: las prolongaciones de $AB$ y $ED$ difieren en dos giros de $45^\circ$, por lo que forman $45^\circ$. |
+| **26** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **33** | C | C | Corregida | Se eliminó la contradicción «opuestos»: la diagonal intermedia de un hexágono de radio $10$ m mide $R\sqrt{3}=10\sqrt{3}$ m (C). |
+| **38** | C | A | Corregida | Se ajustó la opción A: cada hexágono mide $\frac{3\sqrt{3}}{2}(0.5)^2$ y los $18$ suman $6.75\sqrt{3}\text{ m}^2$. |
+| **39** | D | D | Corregida | Se corrigió el dato a $25$ diagonales: $3n-11=25 \Rightarrow n=12$ y el área es $\frac{12}{2}(10)^2\sin 30^\circ=300\text{ cm}^2$ (D). |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

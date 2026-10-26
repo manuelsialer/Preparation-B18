@@ -568,7 +568,7 @@ C) $3$
 D) $4$  
 E) $5$  
 
-17. Se reparte una herencia de $\text{S/ } 93\,000$ entre tres personas en forma D.P. a los números $2$, $3$ y $5$, e I.P. a los números $3$, $4$ y $6$ respectivamente. ¿Cuánto dinero recibe la persona más favorecida?  
+17. Se reparte una herencia de $\text{S/ } 97\,200$ entre tres personas en forma D.P. a los números $2$, $3$ y $5$, e I.P. a los números $3$, $4$ y $6$ respectivamente. ¿Cuánto dinero recibe la persona más favorecida?  
 A) $\text{S/ } 32\,000$  
 B) $\text{S/ } 35\,000$  
 C) $\text{S/ } 36\,000$  
@@ -617,7 +617,7 @@ C) $5\text{ h } 08\text{ min}$
 D) $5\text{ h } 15\text{ min}$  
 E) $5\text{ h } 24\text{ min}$  
 
-24. Quince obreros se comprometen a realizar una obra en $14\text{ días}$ trabajando $8\text{ horas diarias}$. Al cabo del noveno día han realizado solo los $\frac{3}{7}$ de la obra. ¿Cuántos obreros con el doble de eficiencia deben incorporarse para terminar la obra en el plazo fijado trabajando $9\text{ horas diarias}$?  
+24. Catorce obreros se comprometen a realizar una obra en $14\text{ días}$ trabajando $8\text{ horas diarias}$. Al cabo del noveno día han realizado solo los $\frac{4}{9}$ de la obra. ¿Cuántos obreros con el doble de eficiencia deben incorporarse para terminar la obra en el plazo fijado trabajando $9\text{ horas diarias}$?  
 A) $6$  
 B) $7$  
 C) $8$  
@@ -645,7 +645,7 @@ C) $26{,}\widehat{6}\text{ días}$
 D) $27\text{ días}$  
 E) $28\text{ días}$  
 
-28. Se reparte un bono de productividad de $\text{S/ } 4\,300$ entre tres ingenieros de forma I.P. a los días que faltaron a obra ($2$, $3$ y $5$) y D.P. a los proyectos concluidos ($4$, $6$ y $10$). ¿Cuánto recibe el ingeniero más eficiente?  
+28. Se reparte un bono de productividad de $\text{S/ } 5\,400$ entre tres ingenieros de forma I.P. a los días que faltaron a obra ($2$, $3$ y $5$) y D.P. a los proyectos concluidos ($4$, $6$ y $10$). ¿Cuánto recibe el ingeniero más eficiente?  
 A) $\text{S/ } 1\,800$  
 B) $\text{S/ } 1\,900$  
 C) $\text{S/ } 2\,000$  
@@ -712,14 +712,14 @@ C) $\text{S/ } 26\,400$
 D) $\text{S/ } 27\,000$  
 E) $\text{S/ } 28\,800$  
 
-37. Dos brigadas de brigadistas forestales combaten un incendio en el Cusco. La brigada $A$ tiene $15$ bomberos y puede controlar un frente de fuego de $600\text{ metros}$ en $4\text{ horas}$. La brigada $B$ tiene $20$ bomberos cuya eficiencia individual es un $25\%$ superior a los de la brigada $A$. ¿Cuánto tiempo tardarán ambas brigadas trabajando juntas en controlar un nuevo frente de fuego de $1\,500\text{ metros}$ en una ladera con el triple de viento (dificultad $1{,}5$)?  
+37. Dos brigadas de brigadistas forestales combaten un incendio en el Cusco. La brigada $A$ tiene $15$ bomberos y puede controlar un frente de fuego de $600\text{ metros}$ en $4\text{ horas}$. La brigada $B$ tiene $20$ bomberos cuya eficiencia individual es un $25\%$ superior a los de la brigada $A$. ¿Cuánto tiempo tardarán ambas brigadas trabajando juntas en controlar un nuevo frente de fuego de $1\,600\text{ metros}$ en una ladera con el triple de viento (dificultad $1{,}5$)?  
 A) $5\text{ horas}$  
 B) $5\text{ h } 30\text{ min}$  
 C) $6\text{ horas}$  
 D) $6\text{ h } 15\text{ min}$  
 E) $6\text{ h } 40\text{ min}$  
 
-38. Una empresa minera contrata a $36$ obreros para construir un campamento en $40\text{ días}$ laborando $8\text{ h/d}$. Al terminar el vigésimo día, han avanzado solo el $40\%$ de la obra. Si en ese momento la empresa despide a $6$ obreros por faltas disciplinarias y aumenta la jornada de los restantes a $10\text{ h/d}$, ¿cuál debe ser el porcentaje de incremento en la eficiencia de los obreros que quedan para terminar la obra exactamente en el plazo original de $40\text{ días}$?  
+38. Una empresa minera contrata a $36$ obreros para construir un campamento en $40\text{ días}$ laborando $8\text{ h/d}$. Al terminar el vigésimo día, han avanzado solo los $\frac{4}{9}$ de la obra. Si en ese momento la empresa despide a $6$ obreros por faltas disciplinarias y aumenta la jornada de los restantes a $10\text{ h/d}$, ¿cuál debe ser el porcentaje de incremento en la eficiencia de los obreros que quedan para terminar la obra exactamente en el plazo original de $40\text{ días}$?  
 A) $15\%$  
 B) $18\%$  
 C) $20\%$  
@@ -733,7 +733,7 @@ C) $12\text{ L/s}$
 D) $14\text{ L/s}$  
 E) $15\text{ L/s}$  
 
-40. Un contratista calcula que $25$ operarios pueden pavimentar una pista en $36\text{ días}$ trabajando $8\text{ h/d}$. Si tras $12\text{ días}$ de labor se produce un huaico que destruye la tercera parte de lo que ya habían avanzado y además paraliza la obra durante $4\text{ días}$, ¿cuántos operarios adicionales con un $50\%$ más de eficiencia deberán contratarse para terminar la pista en el plazo estipulado inicialmente si todos pasan a trabajar $9\text{ h/d}$?  
+40. Un contratista calcula que $25$ operarios pueden pavimentar una pista en $36\text{ días}$ trabajando $8\text{ h/d}$. Si tras $12\text{ días}$ de labor se produce un huaico que destruye todo lo que ya habían avanzado y además paraliza la obra durante $4\text{ días}$, ¿cuántos operarios adicionales con un $50\%$ más de eficiencia deberán contratarse para terminar la pista en el plazo estipulado inicialmente si todos pasan a trabajar $9\text{ h/d}$?  
 A) $10$  
 B) $12$  
 C) $14$  
@@ -754,14 +754,14 @@ C) Se cuadruplica ($4R$)
 D) Se octuplica ($8R$)  
 E) Se multiplica por $16$ ($16R$)  
 
-43. Una cuadrilla de $12$ obreros trabajando $7\text{ h/d}$ pueden cavar una zanja de $140\text{ m}$ de largo, $1\text{ m}$ de ancho y $1{,}2\text{ m}$ de profundidad en $16\text{ días}$. ¿Cuántos obreros con la mitad de rendimiento se necesitarán para cavar otra zanja de $210\text{ m}$ de largo, $1{,}5\text{ m}$ de ancho y $1\text{ m}$ de profundidad en un terreno que ofrece el triple de resistencia en $24\text{ días}$ laborando $8\text{ h/d}$?  
+43. Una cuadrilla de $12$ obreros trabajando $7\text{ h/d}$ pueden cavar una zanja de $140\text{ m}$ de largo, $1\text{ m}$ de ancho y $1{,}2\text{ m}$ de profundidad en $16\text{ días}$. ¿Cuántos obreros con la mitad de rendimiento se necesitarán para cavar otra zanja de $210\text{ m}$ de largo, $1{,}5\text{ m}$ de ancho y $1\text{ m}$ de profundidad en un terreno que ofrece el triple de resistencia en $42\text{ días}$ laborando $8\text{ h/d}$?  
 A) $36$  
 B) $40$  
 C) $42$  
 D) $45$  
 E) $48$  
 
-44. Se divide el número $1\,900$ en tres partes tales que la primera es a la segunda como $2$ es a $3$, y la segunda es a la tercera como $4$ es a $5$. Determine la mayor de las partes.  
+44. Se divide el número $2\,100$ en tres partes tales que la primera es a la segunda como $2$ es a $3$, y la segunda es a la tercera como $4$ es a $5$. Determine la mayor de las partes.  
 A) $\text{S/ } 750$  
 B) $\text{S/ } 800$  
 C) $\text{S/ } 850$  
@@ -781,21 +781,21 @@ E) $4\text{ mm}$
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | B | **16** | B | **31** | C |
+| **1** | B | **16** | B | **31** | A |
 | **2** | B | **17** | C | **32** | B |
 | **3** | B | **18** | C | **33** | D |
 | **4** | C | **19** | C | **34** | C |
 | **5** | C | **20** | C | **35** | C |
-| **6** | C | **21** | C | **36** | D |
+| **6** | C | **21** | C | **36** | A |
 | **7** | C | **22** | C | **37** | C |
-| **8** | C | **23** | C | **38** | D |
-| **9** | C | **24** | C | **39** | C |
-| **10** | C | **25** | B | **40** | B |
+| **8** | C | **23** | C | **38** | C |
+| **9** | C | **24** | B | **39** | C |
+| **10** | C | **25** | B | **40** | A |
 | **11** | C | **26** | C | **41** | C |
 | **12** | C | **27** | C | **42** | C |
-| **13** | B | **28** | C | **43** | D |
-| **14** | C | **29** | D | **44** | D |
-| **15** | B | **30** | A | **45** | B |
+| **13** | B | **28** | A | **43** | D |
+| **14** | C | **29** | E | **44** | D |
+| **15** | C | **30** | A | **45** | A |
 
 ---
 
@@ -870,3 +870,27 @@ Si la flexión original era $4\text{ mm}$, la nueva flexión es $\frac{4}{16} = 
 | **Reparto Simple Directo** | $c_i = a_i \cdot \frac{N}{\sum a_i}$ |
 | **Reparto Simple Inverso** | $c_i \text{ D.P. a } \frac{1}{a_i} \times \text{MCM}$ |
 | **Regla de Compañía** | $\frac{G_1}{C_1 \cdot t_1} = \frac{G_2}{C_2 \cdot t_2} = \dots = \frac{G_{\text{total}}}{\sum (C_i \cdot t_i)}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 9 clave(s) corregida(s) y 13 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **15** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **17** | C | C | Corregida | Se ajustó la herencia a S/ 97 200: los repartos son $\frac{2}{3}:\frac{3}{4}:\frac{5}{6}=8:9:10$; con $27$ partes de S/ 3 600 el mayor recibe S/ 36 000. Clave C. |
+| **24** | C | B | Corregida | Se ajustaron los datos: $14\cdot9\cdot8=1\,008$ equivale a $\frac{4}{9}$ de la obra, faltan $1\,260$ h-hombre en $5$ días de $9$ h; se requieren $28$ obreros equivalentes, es decir $14+2x=28 \Rightarrow x=7$. Clave B. |
+| **28** | C | A | Corregida | Se ajustó el bono a S/ 5 400: los méritos $\frac{4}{2}=\frac{6}{3}=\frac{10}{5}=2$ son iguales, por lo que cada ingeniero recibe S/ 1 800. Clave A. |
+| **29** | D | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **31** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **36** | D | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **37** | C | C | Corregida | Se ajustó el frente a $1\,600$ m: la brigada A rinde $150$ m/h y la B $250$ m/h; juntas $400$ m/h y con dificultad $1{,}5$ tardan $\frac{1\,600}{400/1{,}5}=6$ h. Clave C. |
+| **38** | D | C | Corregida | Se ajustó el avance a $\frac{4}{9}$: quedan $7\,200$ h-hombre para $30$ obreros en $20$ días de $10$ h ($6\,000$), luego la eficiencia debe subir $\frac{7\,200}{6\,000}-1=20\%$. Clave C. |
+| **40** | B | A | Corregida | Se ajustó el daño: se pierde todo el avance, quedan $7\,200$ h-hombre en $20$ días de $9$ h; se necesitan $40$ obreros equivalentes y $25+1{,}5x=40 \Rightarrow x=10$. Clave A. |
+| **43** | D | D | Corregida | Se ajustó el plazo a $42$ días: el volumen equivalente es $315\cdot3=945$ m$^3$ y $\frac{945}{0{,}5\cdot8\cdot42\cdot0{,}125}=45$ obreros. Clave D. |
+| **44** | D | D | Corregida | Se ajustó el total a $2\,100$: $a:b:c=8:12:15$, con $35$ partes de $60$ la mayor es $900$. Clave D. |
+| **45** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 36 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

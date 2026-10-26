@@ -749,7 +749,7 @@ E) $4\text{ m}$
 | **1** | C | **16** | D | **31** | B |
 | **2** | C | **17** | B | **32** | B |
 | **3** | C | **18** | D | **33** | B |
-| **4** | B | **19** | D | **34** | C |
+| **4** | B | **19** | B | **34** | C |
 | **5** | C | **20** | C | **35** | B |
 | **6** | B | **21** | C | **36** | B |
 | **7** | B | **22** | B | **37** | B |
@@ -795,3 +795,15 @@ E) $4\text{ m}$
 | **Diagonal del Rectángulo** | Lados $a$ y $b$ | $d = \sqrt{a^2 + b^2}$ |
 | **Diagonal del Cuadrado** | Lado $L$ | $d = L\sqrt{2}$ |
 | **Teorema de Varignon** | Puntos medios de lados de cualquier cuadrilátero | $\text{Perímetro} = d_1 + d_2,\quad \text{Área} = \frac{\text{Área total}}{2}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 1 clave(s) corregida(s) y 1 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **19** | D | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+
+**Claves sin cambios:** 44 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

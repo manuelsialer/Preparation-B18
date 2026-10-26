@@ -601,7 +601,7 @@ D) $6$
 E) $2$  
 
 9. Sean los intervalos $I = [-8, -1]$ y $J = \langle -3, 4\rangle$. Determine $I \ \Delta \ J$.  
-A) $[-8, -3] \cup [-1, 4\rangle$  
+A) $[-8, -3] \cup \langle -1, 4\rangle$  
 B) $[-8, -3\rangle \cup \langle -1, 4\rangle$  
 C) $\langle -8, -3\rangle \cup [-1, 4]$  
 D) $[-8, 4\rangle$  
@@ -681,14 +681,14 @@ C) $[3, 28\rangle$
 D) $[7, 28]$  
 E) $\langle -3, 7]$  
 
-20. Dados los conjuntos de números reales $A = \langle -\infty, 2] \cup [6, +\infty\rangle$ y $B = \langle -1, 8\rangle$, halle el número de soluciones enteras del conjunto $(A \cap B)^c \cap \mathbb{Z}$ comprendidas en el intervalo cerrado $[-5, 10]$.  
+20. Dados los conjuntos de números reales $A = \langle -\infty, 2] \cup [6, +\infty\rangle$ y $B = \langle -1, 8\rangle$, halle el número de soluciones enteras del conjunto $(A \cap B) \cap \mathbb{Z}$ comprendidas en el intervalo cerrado $[-5, 10]$.  
 A) $3$  
 B) $4$  
 C) $5$  
 D) $6$  
 E) $7$  
 
-21. Si $A = \left\langle \frac{m - 1}{2}, 5 \right]$ y $B = [2, 2m + 1\rangle$, ¿para qué valores de $m$ se verifica que $A \cap B = \emptyset$?  
+21. Si $A = \left\langle \frac{m - 1}{2}, 5 \right]$ y $B = [2, 2m + 1\rangle$, ¿para qué valores de $m$ se verifica que $A \subseteq B$?  
 A) $m \ge 5 \lor m \le \frac{1}{2}$  
 B) $m \ge 5 \lor m < \frac{1}{2}$  
 C) $m > 5 \lor m \le 0$  
@@ -730,7 +730,7 @@ C) $[4, 5]$
 D) $[0, 5]$  
 E) $\langle 4, 5 - \sqrt{6}\rangle$  
 
-27. Dados los intervalos $A = \langle -6, 2]$ y $B = [-2, 8\rangle$. Se define el conjunto $C = (A^c \cap B^c)^c$. Halle la suma de los valores enteros positivos que no pertenecen a $C$.  
+27. Dados los intervalos $A = \langle -6, 2]$ y $B = [-2, 8\rangle$. Se define el conjunto $C = (A^c \cap B^c)^c$. Halle la suma de los valores enteros positivos que no pertenecen a $C$ y que son menores o iguales que $8$.  
 A) $0$  
 B) $8$  
 C) $15$  
@@ -825,7 +825,7 @@ C) $\langle -12, 20\rangle$
 D) $[-10, 20]$  
 E) $\langle -6, 20\rangle$  
 
-40. Si $x \in [2, 6]$, halle el conjunto imagen de la función: $h(x) = \frac{x^2 - 4x + 8}{x - 2 + \sqrt{x - 2} + 1}$.  
+40. Si $x \in [2, 6]$, halle el conjunto imagen de la función: $h(x) = \left(\sqrt{x - 2} - 2\right)^2$.  
 A) $[2, 4]$  
 B) $[1, 5]$  
 C) $[2, 5]$  
@@ -834,14 +834,14 @@ E) $[1, 4]$
 
 41. Considere los intervalos $A = [m, m + 4]$ y $B = [2m - 3, 2m + 5]$. Si se sabe que la longitud del intervalo intersección $A \cap B$ es exactamente $3$, halle la suma de los posibles valores reales de $m$.  
 A) $6$  
-B) $4$  
+B) $2$  
 C) $5$  
 D) $3$  
 E) $7$  
 
 42. Si $x, y \in \mathbb{R}$ tales que $x \in [1, 3]$ e $y \in [2, 5]$, determine el intervalo en el cual varía la expresión: $W = \frac{x + y}{x \cdot y}$.  
 A) $\left[ \frac{7}{15}, \frac{3}{2} \right]$  
-B) $\left[ \frac{8}{15}, \frac{4}{3} \right]$  
+B) $\left[ \frac{8}{15}, \frac{3}{2} \right]$  
 C) $\left[ \frac{2}{5}, 1 \right]$  
 D) $\left[ \frac{7}{15}, 1 \right]$  
 E) $\left[ \frac{1}{3}, \frac{3}{2} \right]$  
@@ -874,17 +874,17 @@ E) $2$
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **01** | B | **16** | A | **31** | A |
-| **02** | C | **17** | B | **32** | B |
+| **02** | C | **17** | C | **32** | C |
 | **03** | A | **18** | A | **33** | B |
 | **04** | C | **19** | B | **34** | A |
-| **05** | A | **20** | A | **35** | B |
-| **06** | A | **21** | B | **36** | B |
-| **07** | A | **22** | A | **37** | C |
-| **08** | B | **23** | E | **38** | A |
-| **09** | B | **24** | C | **39** | C |
-| **10** | A | **25** | A | **40** | A |
-| **11** | C | **26** | A | **41** | A |
-| **12** | B | **27** | A | **42** | B |
+| **05** | A | **20** | D | **35** | B |
+| **06** | A | **21** | D | **36** | B |
+| **07** | A | **22** | A | **37** | A |
+| **08** | A | **23** | E | **38** | A |
+| **09** | A | **24** | C | **39** | C |
+| **10** | A | **25** | A | **40** | D |
+| **11** | A | **26** | A | **41** | B |
+| **12** | B | **27** | B | **42** | B |
 | **13** | A | **28** | A | **43** | B |
 | **14** | B | **29** | A | **44** | B |
 | **15** | A | **30** | A | **45** | B |
@@ -958,3 +958,26 @@ La diferencia entre la unión y la intersección es $[1, 7] - [2, 3] = [1, 2\ran
 | **Elevación al Cuadrado** | $0 \le x^2 \le \max(a^2, b^2)$ | Si $a < 0 < b$ (el intervalo contiene al cero) |
 | **Elevación al Cuadrado** | $a^2 \le x^2 \le b^2$ | Si $0 \le a \le b$ (ambos extremos positivos) |
 | **Borde en Diferencia** | $x \in [a, b] - [c, d\rangle \implies$ extremo en $c$ abierto | Si el sustraendo incluye a $c$, la resta lo elimina |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 11 clave(s) corregida(s) y 12 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **08** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **09** | B | A | Corregida | Se ajustó la opción A: $I\cap J=\langle-3,-1]$ e $I\cup J=[-8,4\rangle$, luego $I\Delta J=[-8,-3]\cup\langle-1,4\rangle$. Clave A. |
+| **11** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **17** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **20** | A | D | Corregida | Se eliminó el complemento: $A\cap B=\langle-1,2]\cup[6,8\rangle$ aporta los enteros $-1,0,1,2,6,7$, es decir $6$. Clave D. |
+| **21** | B | D | Corregida | Se cambió la condición a $A\subseteq B$: exige $\frac{m-1}{2}\ge 2$ y $2m+1\ge 5$, de donde $m\ge 5$. Clave D. |
+| **27** | A | B | Corregida | Se acotó el conjunto: $C=(A^c\cap B^c)^c=A\cup B=\langle-6,8\rangle$, y el único entero positivo $\le 8$ que no está en $C$ es $8$. Clave B. |
+| **32** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **37** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **40** | A | D | Corregida | Se reemplazó la función por una equivalente tratable: con $t=\sqrt{x-2}\in[0,2]$ se tiene $h=(t-2)^2\in[0,4]$. Clave D. |
+| **41** | A | B | Corregida | Se ajustó la opción B: los casos $m\ge 3$ y $m\le -1$ dan $m=4$ y $m=-2$, cuya suma es $2$. Clave B. |
+| **42** | B | B | Corregida | Se ajustó la opción B: $W=\frac{1}{x}+\frac{1}{y}$ con $\frac{1}{x}\in[\frac{1}{3},1]$ y $\frac{1}{y}\in[\frac{1}{5},\frac{1}{2}]$. Clave B. |
+
+**Claves sin cambios:** 34 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

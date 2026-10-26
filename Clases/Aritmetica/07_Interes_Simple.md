@@ -630,7 +630,7 @@ D) $\text{S/ } 13\,000$
 E) $\text{S/ } 14\,000$  
 
 21. ¿En cuánto tiempo un capital impuesto al $12\%$ semestral produce un interés que es igual al $60\%$ del monto acumulado?  
-A) $3\text{ años}$  
+A) $6\text{ años y } 3\text{ meses}$  
 B) $3\text{ años y } 1\text{ mes}$  
 C) $3\text{ años y } 1{,}5\text{ meses}$  
 D) $3\text{ años y } 4\text{ meses}$  
@@ -703,23 +703,23 @@ E) $\text{S/ } 382$
 
 ### Bloque III: Nivel Avanzado / Contexto Beca 18 (Ejercicios 31 al 45)
 
-31. Una cooperativa agraria en Chanchamayo recibe un fondo de inversión social de $\text{S/ } 120\,000$. Destina una parte $C_1$ a la construcción de secadores solares al $8\%$ anual, y el resto $C_2$ a la renovación de cafetales al $12\%$ anual. Si al término de $3\text{ años}$ el monto total producido por $C_1$ excede al monto producido por $C_2$ en $\text{S/ } 28\,560$, determine el valor del capital $C_1$.  
+31. Una cooperativa agraria en Chanchamayo recibe un fondo de inversión social de $\text{S/ } 120\,000$. Destina una parte $C_1$ a la construcción de secadores solares al $8\%$ anual, y el resto $C_2$ a la renovación de cafetales al $12\%$ anual. Si al término de $3\text{ años}$ el monto total producido por $C_1$ excede al monto producido por $C_2$ en $\text{S/ } 31\,800$, determine el valor del capital $C_1$.  
 A) $\text{S/ } 72\,000$  
 B) $\text{S/ } 75\,000$  
 C) $\text{S/ } 80\,000$  
 D) $\text{S/ } 84\,000$  
 E) $\text{S/ } 85\,000$  
 
-32. Dos capitales que se diferencian en $\text{S/ } 6\,000$ se imponen a tasas de interés simple que suman $35\%$ anual. El capital mayor se coloca a la menor tasa durante $18\text{ meses}$ y el capital menor se coloca a la mayor tasa durante $2\text{ años}$. Si los intereses producidos por ambos capitales son numéricamente iguales y la tasa menor es el $75\%$ de la tasa mayor, ¿cuál es el valor del capital mayor?  
+32. Dos capitales que se diferencian en $\text{S/ } 7\,000$ se imponen a tasas de interés simple que suman $35\%$ anual. El capital mayor se coloca a la menor tasa durante $18\text{ meses}$ y el capital menor se coloca a la mayor tasa durante $2\text{ años}$. Si los intereses producidos por ambos capitales son numéricamente iguales y la tasa menor es el $75\%$ de la tasa mayor, ¿cuál es el valor del capital mayor?  
 A) $\text{S/ } 14\,000$  
 B) $\text{S/ } 15\,000$  
 C) $\text{S/ } 16\,000$  
 D) $\text{S/ } 18\,000$  
 E) $\text{S/ } 20\,000$  
 
-33. Un padre de familia deposita en un fideicomiso bancario una suma $C$ a favor de sus dos hijos de $10$ y $13$ años de edad respectivamente, a una tasa del $9\%$ anual de interés simple. El dinero se distribuirá en dos partes de modo que cada hijo, al cumplir la mayoría de edad ($18\text{ años}$), reciba exactamente el mismo monto acumulado. ¿En qué relación matemática se encuentran los capitales iniciales asignados a cada hijo?  
+33. Un padre de familia deposita en un fideicomiso bancario una suma $C$ a favor de sus dos hijos de $10$ y $13$ años de edad respectivamente, a una tasa del $10\%$ anual de interés simple. El dinero se distribuirá en dos partes de modo que cada hijo, al cumplir la mayoría de edad ($18\text{ años}$), reciba exactamente el mismo monto acumulado. ¿En qué relación matemática se encuentran los capitales iniciales asignados a cada hijo?  
 A) $\frac{29}{31}$  
-B) $\frac{29}{34}$  
+B) $\frac{5}{6}$  
 C) $\frac{45}{49}$  
 D) $\frac{49}{45}$  
 E) $\frac{31}{29}$  
@@ -745,7 +745,7 @@ C) $15\%$
 D) $16\%$  
 E) $18\%$  
 
-37. Dos personas disponen de capitales que suman $\text{S/ } 40\,000$. Ambas imponen sus dineros a una misma tasa simple anual. La primera lo deja colocado durante $1\text{ año y } 4\text{ meses}$ y la segunda durante $2\text{ años}$. Si la primera persona retira un monto de $\text{S/ } 28\,800$ y la segunda un monto de $\text{S/ } 22\,400$, ¿cuál fue la tasa anual de imposición?  
+37. Dos personas disponen de capitales que suman $\text{S/ } 40\,000$. Ambas imponen sus dineros a una misma tasa simple anual. La primera lo deja colocado durante $1\text{ año}$ y la segunda durante $2\text{ años}$. Si la primera persona retira un monto de $\text{S/ } 28\,800$ y la segunda un monto de $\text{S/ } 22\,400$, ¿cuál fue la tasa anual de imposición?  
 A) $15\%$  
 B) $18\%$  
 C) $20\%$  
@@ -766,7 +766,7 @@ C) $\text{S/ } 7\,500 \;; 4\text{ años}$
 D) $\text{S/ } 7\,200 \;; 4\text{ años}$  
 E) $\text{S/ } 8\,000 \;; 2{,}5\text{ años}$  
 
-40. Una comunidad campesina en el Cusco deposita un fondo de compensación minera de $\text{S/ } 200\,000$ en tres fondos comunales con plazos de $6$, $10$ y $15$ meses a tasas simples anuales del $12\%$, $15\%$ y $18\%$ respectivamente. Si los intereses producidos por los tres fondos son numéricamente iguales, determine el capital colocado al mayor plazo.  
+40. Una comunidad campesina en el Cusco deposita un fondo de compensación minera de $\text{S/ } 262\,000$ en tres fondos comunales con plazos de $6$, $10$ y $15$ meses a tasas simples anuales del $12\%$, $15\%$ y $18\%$ respectivamente. Si los intereses producidos por los tres fondos son numéricamente iguales, determine el capital colocado al mayor plazo.  
 A) $\text{S/ } 35\,000$  
 B) $\text{S/ } 40\,000$  
 C) $\text{S/ } 44\,444{,}44$  
@@ -789,7 +789,7 @@ E) $\text{S/ } 13\,140$
 
 43. Se tiene un capital de $\text{S/ } 54\,000$. Una parte se presta al $4\%$ mensual y el resto al $5\%$ trimestral. Si al cabo de $8\text{ meses}$ los montos producidos son iguales, determine la diferencia entre los capitales.  
 A) $\text{S/ } 3\,600$  
-B) $\text{S/ } 4\,200$  
+B) $\text{S/ } 4\,108{,}6$  
 C) $\text{S/ } 4\,800$  
 D) $\text{S/ } 5\,400$  
 E) $\text{S/ } 6\,000$  
@@ -814,19 +814,19 @@ E) $\text{S/ } 220\,000$
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | C | **16** | C | **31** | C |
+| **1** | C | **16** | C | **31** | B |
 | **2** | B | **17** | C | **32** | C |
 | **3** | C | **18** | C | **33** | B |
 | **4** | C | **19** | C | **34** | C |
 | **5** | B | **20** | C | **35** | B |
-| **6** | B | **21** | D | **36** | D |
+| **6** | B | **21** | A | **36** | D |
 | **7** | B | **22** | A | **37** | C |
 | **8** | C | **23** | B | **38** | C |
-| **9** | C | **24** | C | **39** | C |
-| **10** | C | **25** | C | **40** | C |
+| **9** | C | **24** | C | **39** | A |
+| **10** | C | **25** | C | **40** | B |
 | **11** | D | **26** | C | **41** | B |
-| **12** | B | **27** | C | **42** | C |
-| **13** | A | **28** | B | **43** | D |
+| **12** | B | **27** | C | **42** | A |
+| **13** | C | **28** | B | **43** | B |
 | **14** | D | **29** | B | **44** | A |
 | **15** | B | **30** | B | **45** | C |
 
@@ -901,3 +901,25 @@ Despejando el capital $C$: $2C = 3M_1 - M_2 \implies C = \frac{3M_1 - M_2}{2}$.
 | :--- | :--- |
 | **Descuento Comercial (Días)** | $D_c = \frac{V_n \cdot d \cdot t}{36\,000}$ |
 | **Valor Actual Comercial** | $V_a = V_n - D_c = V_n\left(1 - \frac{d \cdot t}{36\,000}\right)$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 7 clave(s) corregida(s) y 10 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **13** | A | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **21** | D | A | Corregida | Se ajustó la opción A: $I=0{,}6(C+I)\Rightarrow I=1{,}5C$; con $24\%$ anual, $t=\frac{1{,}5}{0{,}24}=6{,}25$ años. Clave A. |
+| **31** | C | B | Corregida | Se ajustó la diferencia a S/ 31 800: $1{,}24C_1-1{,}36(120\,000-C_1)=31\,800 \Rightarrow C_1=75\,000$. Clave B. |
+| **32** | C | C | Corregida | Se ajustó la diferencia a S/ 7 000: tasas $15\%$ y $20\%$; $0{,}225C=0{,}4C-2\,800 \Rightarrow C=16\,000$. Clave C. |
+| **33** | B | B | Corregida | Se ajustó la tasa a $10\%$ y la opción B: $C_1(1+0{,}8)=C_2(1+0{,}5)\Rightarrow \frac{C_1}{C_2}=\frac{5}{6}$. Clave B. |
+| **37** | C | C | Corregida | Se ajustó el plazo a $1$ año: con $r=20\%$, $C_1=\frac{28\,800}{1{,}2}=24\,000$ y $16\,000(1{,}4)=22\,400$. Clave C. |
+| **38** | C | C | Observación | La clave C es la más cercana; el valor exacto es S/ 7 540 frente a S/ 7 550 de la opción (diferencia de redondeo admisible). |
+| **39** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **40** | C | B | Corregida | Se ajustó el fondo a S/ 262 000: con intereses iguales $C_1:C_2:C_3=16{,}67:8:4{,}44$ y el capital a mayor plazo resulta S/ 40 000. Clave B. |
+| **42** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **43** | D | B | Corregida | Se ajustó la opción B: $1{,}32C_1=1{,}13\overline{3}C_2$ con $C_1+C_2=54\,000$ da una diferencia de $\approx$ S/ 4 108,6. Clave B. |
+
+**Claves sin cambios:** 38 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

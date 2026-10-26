@@ -823,13 +823,13 @@ E) $\frac{2}{7}$
 | **4** | B | **19** | C | **34** | B |
 | **5** | B | **20** | B | **35** | A |
 | **6** | B | **21** | B | **36** | C |
-| **7** | C | **22** | C | **37** | B |
+| **7** | C | **22** | E | **37** | A |
 | **8** | C | **23** | C | **38** | C |
-| **9** | A | **24** | A | **39** | A |
+| **9** | C | **24** | A | **39** | A |
 | **10** | C | **25** | B | **40** | B |
-| **11** | D | **26** | B | **41** | B |
+| **11** | D | **26** | A | **41** | B |
 | **12** | C | **27** | A | **42** | C |
-| **13** | C | **28** | B | **43** | C |
+| **13** | C | **28** | A | **43** | C |
 | **14** | B | **29** | C | **44** | C |
 | **15** | B | **30** | C | **45** | A |
 
@@ -918,3 +918,19 @@ Como $k$ va desde $1$ hasta $14$, existen exactamente $14$ términos comunes.
 | :--- | :--- |
 | **Ley de Rebotes Sucesivos** | $D_{\text{total}} = H_0 \cdot \left(\frac{q + p}{q - p}\right) \quad \text{donde } h_{k+1} = \frac{p}{q} \cdot h_k$ |
 | **Serie Aritmético-Geométrica** | $S_\infty = \sum_{k=1}^\infty \frac{k}{q^k} = \frac{q}{(q - 1)^2} \quad (|q| > 1)$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 5 clave(s) corregida(s) y 5 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **09** | A | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **22** | C | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **26** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **28** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **37** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 40 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

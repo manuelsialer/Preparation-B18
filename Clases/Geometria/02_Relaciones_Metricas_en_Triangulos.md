@@ -691,9 +691,9 @@ A) $\frac{240}{17}\text{ m}$
 B) $\frac{220}{17}\text{ m}$  
 C) $14\text{ m}$  
 D) $15\text{ m}$  
-E) $\frac{255}{17}\text{ m}$  
+E) $\frac{225}{17}\text{ m}$  
 
-38. Una brigada de defensa civil evalúa una pared vertical de $12\text{ m}$ de altura que corre riesgo de colapso. Se coloca un puntal inclinado de acero desde el suelo hasta la parte superior de la pared. A una distancia vertical de $4.8\text{ m}$ del suelo, se coloca una riostra horizontal de apoyo de $3.6\text{ m}$ perpendicular a la pared que toca al puntal. Calcule la longitud total del puntal de acero inclinado.  
+38. Una brigada de defensa civil evalúa una pared vertical de $12\text{ m}$ de altura que corre riesgo de colapso. Se coloca un puntal inclinado de acero desde el suelo hasta la parte superior de la pared. A una distancia vertical de $4.8\text{ m}$ del suelo, se coloca una riostra horizontal de apoyo de $5.4\text{ m}$ perpendicular a la pared que toca al puntal. Calcule la longitud total del puntal de acero inclinado.  
 A) $13\text{ m}$  
 B) $15\text{ m}$  
 C) $18\text{ m}$  
@@ -758,18 +758,18 @@ E) $650\text{ m}^3$
 | **1** | B | **16** | B | **31** | C |
 | **2** | B | **17** | C | **32** | B |
 | **3** | B | **18** | B | **33** | C |
-| **4** | C | **19** | C | **34** | B |
+| **4** | C | **19** | A | **34** | B |
 | **5** | C | **20** | A | **35** | A |
 | **6** | A | **21** | C | **36** | C |
 | **7** | B | **22** | B | **37** | A |
 | **8** | A | **23** | C | **38** | B |
-| **9** | B | **24** | C | **39** | C |
+| **9** | B | **24** | C | **39** | D |
 | **10** | B | **25** | C | **40** | C |
 | **11** | A | **26** | C | **41** | A |
 | **12** | D | **27** | C | **42** | C |
 | **13** | B | **28** | C | **43** | B |
 | **14** | B | **29** | D | **44** | B |
-| **15** | B | **30** | A | **45** | B |
+| **15** | B | **30** | A | **45** | C |
 
 ---
 
@@ -804,3 +804,19 @@ E) $650\text{ m}^3$
 | **Teorema de Euclides (Obtuso)** | Lado opuesto al ángulo obtuso $A > 90^\circ$ | $a^2 = b^2 + c^2 + 2b \cdot m$ |
 | **Teorema de la Mediana (Apolonio)** | Lados $a, c$, lado base $b$ y mediana $m_b$ | $a^2 + c^2 = 2m_b^2 + \frac{b^2}{2}$ |
 | **Altura por Herón** | Lados $a, b, c$ y semiperímetro $p$ | $h_b = \frac{2}{b}\sqrt{p(p-a)(p-b)(p-c)}$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 3 clave(s) corregida(s) y 5 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **19** | C | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **37** | A | A | Corregida | La opción E era equivalente a D ($\frac{255}{17}=15$); se reemplazó por un distractor. El área es $\frac{16\cdot15}{2}=120$, luego el montante mide $\frac{2\cdot120}{17}=\frac{240}{17}$ m. Clave A. |
+| **38** | B | B | Corregida | Se corrigió la riostra a $5.4$ m: la base del puntal queda a $9$ m de la pared y $L=\sqrt{12^2+9^2}=15$ m (B). |
+| **39** | C | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **45** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+
+**Claves sin cambios:** 42 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

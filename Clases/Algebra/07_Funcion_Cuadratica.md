@@ -541,7 +541,7 @@ C) $4$
 D) $7$  
 E) $3$  
 
-23. Sea la función cuadrática $f(x) = x^2 - 2(k - 1)x + 2k + 1$. Hallar el menor valor entero de $k$ para que la parábola corte al eje $X$ en dos puntos distintos:  
+23. Sea la función cuadrática $f(x) = x^2 - 2(k - 1)x + 2k + 1$. Hallar el menor valor entero positivo de $k$ para que la parábola corte al eje $X$ en dos puntos distintos:  
 A) $4$  
 B) $5$  
 C) $0$  
@@ -625,7 +625,7 @@ C) $\frac{5}{\pi + 2}\text{ m}$
 D) $\frac{20}{\pi + 4}\text{ m}$  
 E) $\frac{10}{\pi + 2}\text{ m}$  
 
-35. Si la función $f(x) = mx^2 + (m - 3)x + m$ tiene como rango $\langle -\infty, 1]$, calcular el valor de la constante $m$:  
+35. Si la función $f(x) = mx^2 + (m - 3)x + m$ tiene como rango $\langle -\infty, 3]$, calcular el valor de la constante $m$:  
 A) $-1$  
 B) $-3$  
 C) $1$  
@@ -714,7 +714,7 @@ E) $4$
 
 | N° | Clave | N° | Clave | N° | Clave | N° | Clave | N° | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | A | **10** | B | **19** | B | **28** | B | **37** | C |
+| **1** | A | **10** | B | **19** | A | **28** | B | **37** | C |
 | **2** | B | **11** | B | **20** | C | **29** | A | **38** | A |
 | **3** | B | **12** | A | **21** | A | **30** | A | **39** | B |
 | **4** | B | **13** | C | **22** | A | **31** | A | **40** | B |
@@ -754,3 +754,17 @@ E) $4$
 | **Optimización de Área** | $A(x) = x(P/2 - x)$ | Rectángulo de área máxima es el cuadrado ($x = P/4$) |
 | **Ingreso Cuadrático** | $I(x) = p(x) \cdot q(x)$ | Relación lineal precio-demanda produce parábola cóncava |
 | **Utilidad Neta** | $U(x) = I(x) - C(x)$ | Vértice en $x = -\frac{b_U}{2a_U}$ maximiza ganancias |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 1 clave(s) corregida(s) y 3 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **19** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **23** | B | B | Corregida | Se precisó «entero positivo»: el discriminante $k^2-4k>0$ exige $k>4$, por lo que el menor entero positivo es $5$. Clave B. |
+| **35** | A | A | Corregida | Se ajustó el rango a $\langle-\infty,3]$: de $m-\frac{(m-3)^2}{4m}=3$ resulta $m^2-2m-3=0$, y con $m<0$ se obtiene $m=-1$. Clave A. |
+
+**Claves sin cambios:** 44 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

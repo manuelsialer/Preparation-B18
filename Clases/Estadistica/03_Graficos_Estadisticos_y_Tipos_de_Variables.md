@@ -619,3 +619,9 @@ Reflexiona sobre tu proceso de resolución respondiendo a los siguientes criteri
 | **Rango Intercuartílico ($RIC$)** | $RIC = Q_3 - Q_1$ |
 | **Condición de Partición Circular** | $\sum \theta_i = 360^\circ, \quad \sum h_i\% = 100\%$ |
 | **Posición de la Mediana en Ojiva** | Abscisa $x$ tal que $F(x) = \dfrac{n}{2}$ o $H(x) = 50\%$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. La tabla de claves es correcta en su totalidad: todos los ejercicios tienen solución y su respuesta figura entre las opciones A–E, por lo que no se modificó ninguna clave.

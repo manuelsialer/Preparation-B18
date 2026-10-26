@@ -660,7 +660,7 @@ C) $\csc\theta + \cot\theta$
 D) $\csc\theta - \cot\theta$  
 E) $\sin\theta + \cos\theta$  
 
-28. Si $\sec\theta = x + \frac{1}{4x}$, determine una expresión equivalente para $\sec\theta + \tan\theta$ para $x > 0$.  
+28. Si $\sec\theta = x + \frac{1}{4x}$, determine una expresión equivalente para $\sec\theta + \tan\theta$ para $x > 0$ con $\theta$ en el primer cuadrante.  
 A) $x$  
 B) $2x$  
 C) $4x$  
@@ -737,7 +737,7 @@ D) $0.85$
 E) $0.90$  
 
 36. Un motor eléctrico trifásico en una mina de Huancavelica experimenta una corriente de fuga dada por $I = I_0(\sec^4\theta - \tan^4\theta)$. Si el sensor marca $\tan\theta = \frac{3}{4}$, calcule el factor $(\sec^4\theta - \tan^4\theta)$.  
-A) $\frac{31}{16}$  
+A) $\frac{34}{16}$  
 B) $\frac{37}{16}$  
 C) $\frac{41}{16}$  
 D) $\frac{43}{16}$  
@@ -764,8 +764,8 @@ E) $16\sin\theta\cos\theta$
 39. Si $\sec\theta + \tan\theta = 5$, determine el valor exacto de $\sin\theta$.  
 A) $\frac{5}{13}$  
 B) $\frac{12}{13}$  
-C) $\frac{24}{26}$  
-D) $\frac{12}{13}$  
+C) $\frac{12}{5}$  
+D) $\frac{5}{12}$  
 E) $\frac{10}{13}$  
 
 40. En un dron de rescate, la señal de telemetría procesa el cociente:  
@@ -824,12 +824,12 @@ E) $1 - \sec\theta\csc\theta$
 
 | Pregunta | Clave | Pregunta | Clave | Pregunta | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | B | **16** | B | **31** | C |
+| **1** | B | **16** | B | **31** | B |
 | **2** | A | **17** | C | **32** | B |
 | **3** | C | **18** | B | **33** | B |
 | **4** | B | **19** | A | **34** | B |
 | **5** | B | **20** | B | **35** | C |
-| **6** | C | **21** | B | **36** | C |
+| **6** | C | **21** | B | **36** | A |
 | **7** | A | **22** | B | **37** | C |
 | **8** | C | **23** | C | **38** | B |
 | **9** | B | **24** | A | **39** | B |
@@ -876,3 +876,18 @@ E) $1 - \sec\theta\csc\theta$
 | **Cuartas Potencias** | Binomio al cuadrado derivado | $\sin^4\theta + \cos^4\theta = 1 - 2\sin^2\theta\cos^2\theta$ |
 | **Sextas Potencias** | Binomio al cubo derivado | $\sin^6\theta + \cos^6\theta = 1 - 3\sin^2\theta\cos^2\theta$ |
 | **Trinomio al Cuadrado** | Simplificación con signos | $(1 \pm \sin\theta \pm \cos\theta)^2 = 2(1 \pm \sin\theta)(1 \pm \cos\theta)$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **28** | B | B | Corregida | Se precisó que $\theta$ está en el primer cuadrante, lo que elimina la segunda solución $\frac{1}{2x}$ (D). Respuesta: $2x$ (B). |
+| **31** | C | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **36** | C | A | Corregida | Se ajustó la opción A: $\sec^4\theta-\tan^4\theta=1+2\tan^2\theta=1+\frac{18}{16}=\frac{34}{16}$. |
+| **39** | B | B | Corregida | Las opciones C ($\frac{24}{26}$) y D repetían el valor de B; se reemplazaron por distractores. De $\sec\theta+\tan\theta=5$ resulta $\cos\theta=\frac{5}{13}$ y $\sin\theta=\frac{12}{13}$. Clave B. |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

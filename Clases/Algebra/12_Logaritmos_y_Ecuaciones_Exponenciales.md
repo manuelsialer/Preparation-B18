@@ -772,7 +772,7 @@ C) $64$
 D) $8$  
 E) $128$  
 
-37. Si $x, y, z$ son términos consecutivos de una progresión geométrica, simplificar: $E = \frac{1}{\log_x(N) + 1} + \frac{1}{\log_z(N) + 1} - \frac{2}{\log_y(N) + 1}$.  
+37. Si $x, y, z$ son términos consecutivos de una progresión geométrica, simplificar: $E = \frac{1}{\log_x(N)} + \frac{1}{\log_z(N)} - \frac{2}{\log_y(N)}$.  
 A) $0$  
 B) $1$  
 C) $-1$  
@@ -845,9 +845,9 @@ E) $81$
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | B | **10** | B | **19** | A | **28** | A | **37** | A |
 | **2** | B | **11** | B | **20** | A | **29** | B | **38** | B |
-| **3** | B | **12** | A | **21** | B | **30** | B | **39** | A |
-| **4** | B | **13** | B | **22** | C | **31** | A | **40** | A |
-| **5** | A | **14** | B | **23** | B | **32** | B | **41** | A |
+| **3** | B | **12** | A | **21** | B | **30** | A | **39** | A |
+| **4** | B | **13** | B | **22** | C | **31** | A | **40** | B |
+| **5** | A | **14** | B | **23** | A | **32** | B | **41** | A |
 | **6** | B | **15** | B | **24** | B | **33** | B | **42** | B |
 | **7** | C | **16** | A | **25** | B | **34** | A | **43** | A |
 | **8** | B | **17** | B | **26** | B | **35** | A | **44** | A |
@@ -884,3 +884,18 @@ E) $81$
 | **Antilogaritmo** | $\text{antilog}_b(x) = b^x$ | Operación inversa exponencial |
 | **Bases Iguales Exponencial**| $a^{f(x)} = a^{g(x)} \iff f(x) = g(x)$ | Válido para $a > 0, a \neq 1$ |
 | **Inyectividad Logarítmica** | $\log_b(f(x)) = \log_b(g(x)) \iff f(x) = g(x)$ | Exige verificar contra el C.V.A. |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 3 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **23** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **30** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **37** | A | A | Corregida | Se ajustó la expresión: con $a=\log_N x$, $b=\log_N y$, $c=\log_N z$ y $2b=a+c$ (progresión geométrica), la suma es $a+c-2b=0$. Clave A. |
+| **40** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+
+**Claves sin cambios:** 42 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

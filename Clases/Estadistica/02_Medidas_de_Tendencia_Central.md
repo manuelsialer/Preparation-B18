@@ -529,7 +529,7 @@ E) 32
 A) 18.25  
 B) 17.50  
 C) 18.75  
-D) 16.00  
+D) $3.75$  
 E) 19.25
 
 34. En una tabla acumulada de 5 intervalos de amplitud 10, se conoce: $F_1 = 12, F_2 = 30, F_3 = 55, F_4 = 80, F_5 = 100$. Si $L_1 = 20$, calcule la mediana:  
@@ -626,12 +626,12 @@ E) Todas
 
 | Ejercicio | Clave | Ejercicio | Clave | Ejercicio | Clave |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | C | **16** | C | **31** | A |
+| **1** | C | **16** | C | **31** | B |
 | **2** | B | **17** | B | **32** | C |
-| **3** | B | **18** | B | **33** | C |
+| **3** | B | **18** | B | **33** | D |
 | **4** | C | **19** | C | **34** | C |
-| **5** | C | **20** | B | **35** | A |
-| **6** | C | **21** | B | **36** | B |
+| **5** | C | **20** | B | **35** | E |
+| **6** | C | **21** | B | **36** | A |
 | **7** | C | **22** | C | **37** | C |
 | **8** | B | **23** | D | **38** | C |
 | **9** | B | **24** | B | **39** | C |
@@ -675,3 +675,18 @@ Reflexiona sobre tu proceso de resolución respondiendo a los siguientes criteri
 | **Transformación Lineal ($y = ax + b$)** | $\bar{y} = a\bar{x} + b, \quad Me_y = a Me_x + b$ |
 | **Suma de Desviaciones a la Media** | $\sum_{i=1}^{n} (x_i - \bar{x}) = 0$ |
 | **Relación Empírica de Pearson** | $\bar{x} - Mo \approx 3(\bar{x} - Me)$ |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 4 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **31** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **33** | C | D | Corregida | Se ajustó la opción D: de $54a+b=70$ y $70a+b=90$ resulta $a=1.25$, $b=2.5$, luego $a+b=3.75$. Clave D. |
+| **35** | A | E | Corregida | El resultado no coincide con la clave anterior; la opción correcta es E. |
+| **36** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 41 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

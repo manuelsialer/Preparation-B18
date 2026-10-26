@@ -623,7 +623,7 @@ E) $2y + 4$
 18. Factorizar por aspa doble $P(x, y) = 2x^2 + 5xy + 2y^2 + 7x + 5y + 3$ e indicar uno de sus factores primos:
 A) $2x + y + 3$
 B) $x + 2y + 3$
-C) $2x + y + 1$
+C) $2x + y + 2$
 D) $x + y + 1$
 E) $2x + 2y + 3$
 
@@ -773,7 +773,7 @@ C) $9$
 D) $5$
 E) $3$
 
-39. Si el M.C.D. de los polinomios $A(x) = x^3 - 6x^2 + 11x - m$ y $B(x) = x^3 + 2x^2 - x - n$ es un polinomio cuadrático, calcular $m + n$:
+39. Si el M.C.D. de los polinomios $A(x) = x^3 - 6x^2 + 11x - m$ y $B(x) = x^3 + 2x^2 + 3x - n$ es un polinomio cuadrático, calcular $m + n$:
 A) $8$
 B) $6$
 C) $4$
@@ -832,13 +832,13 @@ E) $-1$
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | B | **10** | B | **19** | A | **28** | B | **37** | A |
 | **2** | A | **11** | A | **20** | A | **29** | A | **38** | A |
-| **3** | B | **12** | A | **21** | A | **30** | B | **39** | A |
+| **3** | B | **12** | A | **21** | A | **30** | C | **39** | D |
 | **4** | A | **13** | C | **22** | A | **31** | A | **40** | A |
-| **5** | A | **14** | A | **23** | A | **32** | E | **41** | A |
+| **5** | A | **14** | A | **23** | A | **32** | B | **41** | A |
 | **6** | B | **15** | B | **24** | A | **33** | A | **42** | A |
 | **7** | A | **16** | B | **25** | A | **34** | A | **43** | A |
 | **8** | B | **17** | A | **26** | A | **35** | A | **44** | A |
-| **9** | A | **18** | A | **27** | A | **36** | A | **45** | A |
+| **9** | A | **18** | B | **27** | A | **36** | A | **45** | A |
 
 ---
 
@@ -869,3 +869,18 @@ E) $-1$
 | **Fracción Constante** | $\frac{a_1 x + b_1 y + c_1}{a_2 x + b_2 y + c_2} = k \iff \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$ | Proporcionalidad de coeficientes homólogos |
 | **Fracciones Parciales (Lineal)**| $\frac{P(x)}{(x - a)(x - b)} = \frac{A}{x - a} + \frac{B}{x - b}$ | Descomposición para factores lineales simples |
 | **Identidad Cúbica de Gauss** | $a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2 - ab - bc - ca)$ | Factorización de 3 variables |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 4 clave(s) corregida(s) y 4 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **18** | A | B | Corregida | La opción C también era factor ($P=(2x+y+1)(x+2y+3)$); se reemplazó por un distractor. Factor válido: $x+2y+3$ (B). |
+| **30** | B | C | Corregida | El resultado no coincide con la clave anterior; la opción correcta es C. |
+| **32** | E | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **39** | A | D | Corregida | Se ajustó $B(x)$: con $q=x^2-x+6$ se tiene $A=q(x-5)$ con $m=30$ y $B=q(x+3)$ con $n=-18$, luego $m+n=12$. Clave D. |
+
+**Claves sin cambios:** 41 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -612,7 +612,7 @@ A) $3.6 \times 10^6$
 B) $3.6 \times 10^0$  
 C) $3.6 \times 10^{12}$  
 D) $3.6 \times 10^5$  
-E) $36 \times 10^5$  
+E) $3.6 \times 10^{7}$  
 
 13. El espesor de una hoja de papel es de $0.08\text{ mm}$. Expresado en metros en notación científica es:  
 A) $8.0 \times 10^{-2}\text{ m}$  
@@ -625,7 +625,7 @@ E) $8.0 \times 10^{-3}\text{ m}$
 A) $1.0 \times 10^0$  
 B) $1.0 \times 10^1$  
 C) $1.0 \times 10^{-1}$  
-D) $10 \times 10^{-1}$  
+D) $1.0 \times 10^{-2}$  
 E) $1.0 \times 10^2$  
 
 15. Indique cuál de los siguientes números está escrito correctamente en notación científica normalizada:  
@@ -661,7 +661,7 @@ D) $1.51 \times 10^4\text{ veces}$
 E) $6.625 \times 10^3\text{ veces}$  
 
 19. Efectúe la operación: $K = \sqrt[3]{2.7 \times 10^{-5} \times 8.0 \times 10^{-7}}$.  
-A) $6.0 \times 10^{-4}$  
+A) $2.78 \times 10^{-4}$  
 B) $6.0 \times 10^{-5}$  
 C) $2.16 \times 10^{-4}$  
 D) $2.16 \times 10^{-5}$  
@@ -685,7 +685,7 @@ E) $2.56 \times 10^5\text{ canciones}$
 A) $7.0 \times 10^7$  
 B) $4.12 \times 10^8$  
 C) $4.12 \times 10^7$  
-D) $0.7 \times 10^8$  
+D) $7.0 \times 10^{6}$  
 E) $4.462 \times 10^8$  
 
 23. Un microprocesador de última generación realiza una operación básica en un tiempo de $0.25\text{ nanosegundos}$. ¿Cuántas operaciones de este tipo ejecuta por segundo?  
@@ -863,7 +863,7 @@ E) $2.0 \times 10^0$
 
 | N.º | Bloque I (Básico) | N.º | Bloque II (Intermedio) | N.º | Bloque III (Avanzado / B18) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **01** | B | **16** | A | **31** | D |
+| **01** | B | **16** | A | **31** | A |
 | **02** | B | **17** | A | **32** | A |
 | **03** | B | **18** | A | **33** | A |
 | **04** | A | **19** | A | **34** | A |
@@ -875,7 +875,7 @@ E) $2.0 \times 10^0$
 | **10** | B | **25** | A | **40** | A |
 | **11** | B | **26** | B | **41** | A |
 | **12** | A | **27** | C | **42** | B |
-| **13** | C | **28** | B | **43** | A |
+| **13** | C | **28** | A | **43** | A |
 | **14** | A | **29** | A | **44** | B |
 | **15** | C | **30** | A | **45** | A |
 
@@ -975,3 +975,20 @@ $$
 10^{k+1}, & \text{si } a \ge \sqrt{10} \approx 3.162
 \end{cases}
 $$
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 2 clave(s) corregida(s) y 6 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **12** | A | A | Corregida | La opción E era equivalente a A ($36\times10^5=3.6\times10^6$) y el enunciado no exige notación científica; se reemplazó por un distractor. $4.8\times10^6-1.2\times10^6=3.6\times10^6$. Clave A. |
+| **14** | A | A | Corregida | La opción D era equivalente a A ($10\times10^{-1}=1.0\times10^0$); se reemplazó por un distractor. $x\cdot y=2\times10^3\cdot5\times10^{-4}=1.0\times10^0$. Clave A. |
+| **19** | A | A | Corregida | Se ajustó la opción A: $K=\sqrt[3]{21{,}6\times10^{-12}}=2{,}78\times10^{-4}$. Clave A. |
+| **22** | B | B | Corregida | Las opciones A y D tenían el mismo valor ($7.0\times10^7=0.7\times10^8$); se reemplazó D por un distractor. $4.5\times10^8-3.8\times10^7=4.12\times10^8$. Clave B. |
+| **28** | B | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+| **31** | D | A | Corregida | El resultado no coincide con la clave anterior; la opción correcta es A. |
+
+**Claves sin cambios:** 43 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -554,7 +554,7 @@ A) $\frac{\sqrt{70} + \sqrt{14} - \sqrt{10}}{2}$
 B) $\frac{3(\sqrt{7} + \sqrt{5} - \sqrt{2})}{4}$  
 C) $\frac{\sqrt{14} + \sqrt{10} - \sqrt{35}}{2}$  
 D) $\sqrt{7} - \sqrt{5}$  
-E) $\frac{\sqrt{35} + \sqrt{14} - \sqrt{10}}{2}$  
+E) $\frac{3(2\sqrt{5} + 5\sqrt{2} - \sqrt{70})}{10}$  
 
 18. Hallar el valor de $E = \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \frac{1}{\sqrt{5} + \sqrt{4}} + \frac{1}{\sqrt{6} + \sqrt{5}}$:  
 A) $\sqrt{6} - \sqrt{2}$  
@@ -605,7 +605,7 @@ C) $2\text{ m}^2$
 D) $2.5\text{ m}^2$  
 E) $3\text{ m}^2$  
 
-25. Simplificar la expresión: $M = \sqrt{1 + 2\sqrt{1 + 2\sqrt{1 + 2\sqrt{9}}}}$.  
+25. Simplificar la expresión: $M = \sqrt{1 + 2\sqrt{1 + 2\sqrt{1 + 2\sqrt{16}}}}$.  
 A) $3$  
 B) $\sqrt{7}$  
 C) $\sqrt{5}$  
@@ -650,11 +650,11 @@ E) $10$
 31. Descomponer a radicales simples $\sqrt{11 + 4\sqrt{6}}$:
 A) $2\sqrt{2} + \sqrt{3}$
 B) $3\sqrt{2} + \sqrt{3}$
-C) $\sqrt{8} + \sqrt{3}$
+C) $\sqrt{7} + \sqrt{4}$
 D) $\sqrt{6} + \sqrt{5}$
 E) $2\sqrt{3} + \sqrt{2}$
 
-32. Al simplificar $E = \frac{\sqrt{2}}{\sqrt{3} - \sqrt{2}} - \frac{\sqrt{3}}{\sqrt{3} + \sqrt{2}}$, se obtiene:
+32. Al simplificar $E = \frac{\sqrt{3}}{\sqrt{3} - \sqrt{2}} - \frac{\sqrt{3}}{\sqrt{3} + \sqrt{2}}$, se obtiene:
 A) $5$
 B) $1$
 C) $2\sqrt{6}$
@@ -686,7 +686,7 @@ E) $\sqrt{30} + 1$
 
 ### Nivel Avanzado (Ejercicios 36 al 45)
 
-36. Descomponer en tres radicales simples la expresión: $P = \sqrt{14 + 2\sqrt{15} + 2\sqrt{21} + 2\sqrt{35}}$.  
+36. Descomponer en tres radicales simples la expresión: $P = \sqrt{15 + 2\sqrt{15} + 2\sqrt{21} + 2\sqrt{35}}$.  
 A) $\sqrt{3} + \sqrt{5} + \sqrt{7}$  
 B) $\sqrt{2} + \sqrt{5} + \sqrt{7}$  
 C) $\sqrt{3} + \sqrt{4} + \sqrt{7}$  
@@ -737,12 +737,12 @@ E) $2 + \sqrt{3} + \sqrt{5}$
 
 43. **(Reto)** Racionalizar completamente el denominador de: $K = \frac{1}{\sqrt[3]{4} + \sqrt[3]{2} - 2}$.  
 A) $\frac{\sqrt[3]{2} - 1}{2}$  
-B) $\frac{\sqrt[3]{4} + \sqrt[3]{2} + 2}{6}$  
+B) $\frac{3\sqrt[3]{4} + 4\sqrt[3]{2} + 2}{10}$  
 C) $\frac{\sqrt[3]{4} + 1}{3}$  
 D) $\frac{\sqrt[3]{2} + 1}{2}$  
 E) $\frac{\sqrt[3]{4} - \sqrt[3]{2} + 1}{3}$  
 
-44. **(Reto)** Calcular el valor exacto de la fracción racionalizada: $E = \frac{\sqrt{10 + \sqrt{84}} - \sqrt{10 - \sqrt{84}}}{\sqrt{7}}$.  
+44. **(Reto)** Calcular el valor exacto de la fracción racionalizada: $E = \frac{\sqrt{10 + \sqrt{84}} - \sqrt{10 - \sqrt{84}}}{\sqrt{3}}$.  
 A) $2\sqrt{3}$  
 B) $2$  
 C) $\sqrt{3}$  
@@ -768,10 +768,10 @@ E) $8$
 | **2** | A | **11** | A | **20** | A | **29** | A | **38** | A |
 | **3** | A | **12** | A | **21** | A | **30** | B | **39** | A |
 | **4** | A | **13** | A | **22** | A | **31** | A | **40** | A |
-| **5** | A | **14** | A | **23** | A | **32** | D | **41** | A |
+| **5** | A | **14** | A | **23** | A | **32** | C | **41** | A |
 | **6** | A | **15** | A | **24** | B | **33** | A | **42** | A |
-| **7** | A | **16** | B | **25** | A | **34** | A | **43** | B |
-| **8** | A | **17** | E | **26** | A | **35** | A | **44** | A |
+| **7** | A | **16** | B | **25** | B | **34** | A | **43** | B |
+| **8** | A | **17** | E | **26** | A | **35** | A | **44** | B |
 | **9** | A | **18** | A | **27** | A | **36** | A | **45** | A |
 
 ---
@@ -802,3 +802,21 @@ E) $8$
 | **Conjugada Cúbica (Resta)** | $(\sqrt[3]{a} - \sqrt[3]{b})(\sqrt[3]{a^2} + \sqrt[3]{ab} + \sqrt[3]{b^2}) = a - b$ | Diferencia de cubos |
 | **Suma Telescópica Radical** | $\frac{1}{\sqrt{k+1} + \sqrt{k}} = \sqrt{k+1} - \sqrt{k}$ | Cancelación sucesiva de términos intermedios |
 | **Infinitos Radicales Suma** | $\sqrt{n(n+1) + \sqrt{n(n+1) + \dots}} = n + 1$ | Convergencia a la raíz positiva |
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 3 clave(s) corregida(s) y 7 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **17** | E | E | Corregida | Se ajustó la opción E con el valor exacto: al racionalizar dos veces resulta $\frac{3}{10}(2\sqrt{5}+5\sqrt{2}-\sqrt{70})$. Clave E. |
+| **25** | A | B | Corregida | Se ajustó el radicando interno: $\sqrt{16}=4$, $1+8=9$, $\sqrt{9}=3$, $1+6=7$ y $M=\sqrt{7}$. Clave B. |
+| **31** | A | A | Corregida | La opción C era idéntica a A ($\sqrt{8}=2\sqrt{2}$); se sustituyó por un distractor. Descomposición: $2\sqrt{2}+\sqrt{3}$ (A). |
+| **32** | D | C | Corregida | Se ajustó el primer numerador a $\sqrt{3}$: la diferencia de conjugados da $2\sqrt{6}$. Clave C. |
+| **36** | A | A | Corregida | Se ajustó el término independiente a $15$: $(\sqrt{3}+\sqrt{5}+\sqrt{7})^2=15+2\sqrt{15}+2\sqrt{21}+2\sqrt{35}$. Clave A. |
+| **43** | B | B | Corregida | Se ajustó la opción B: con $u=\sqrt[3]{2}$ se obtiene $K=\frac{3u^2+4u+2}{10}$. Clave B. |
+| **44** | A | B | Corregida | Se ajustó el denominador a $\sqrt{3}$: $\sqrt{10\pm\sqrt{84}}=\sqrt{7}\pm\sqrt{3}$, la diferencia es $2\sqrt{3}$ y $E=2$. Clave B. |
+
+**Claves sin cambios:** 42 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.

@@ -685,7 +685,7 @@ D) $\frac{36}{5}$
 E) $1$  
 
 17. Simplifique la expresión con potencias de bases compuestas: $Z = \frac{6^4 \times 10^3 \times 15^2}{2^6 \times 3^5 \times 5^5}$.  
-A) $\frac{3}{5}$  
+A) $6$  
 B) $\frac{9}{5}$  
 C) $\frac{18}{5}$  
 D) $\frac{27}{5}$  
@@ -723,7 +723,7 @@ E) $3$
 A) $\frac{1}{2}$  
 B) $\frac{1}{4}$  
 C) $\frac{1}{16}$  
-D) $-\frac{1}{2}$  
+D) $-2$  
 E) $-\frac{1}{4}$  
 
 23. Simplifique la raíz enésima: $A = \sqrt[n]{\frac{20^{n+1}}{4^{n+2} + 2^{2n+2}}}$.  
@@ -740,7 +740,7 @@ C) $\frac{23}{24}$
 D) $\frac{25}{24}$  
 E) $\frac{7}{8}$  
 
-25. Resuelva en $\mathbb{R}$: $\left(\frac{1}{25}\right)^{2x} \cdot 125^{x-1} = \left(\frac{1}{5}\right)^{x+5}$.  
+25. Resuelva en $\mathbb{R}$: $\left(\frac{1}{25}\right)^{x} \cdot 125^{x-1} = \left(\frac{1}{5}\right)^{x+5}$.  
 A) $1$  
 B) $2$  
 C) $-1$  
@@ -926,20 +926,20 @@ E) $1$
 | N.º | Bloque I (Básico) | N.º | Bloque II (Intermedio) | N.º | Bloque III (Avanzado / B18) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **01** | A | **16** | B | **31** | C |
-| **02** | A | **17** | C | **32** | C |
+| **02** | A | **17** | A | **32** | C |
 | **03** | C | **18** | B | **33** | C |
 | **04** | A | **19** | B | **34** | B |
 | **05** | A | **20** | A | **35** | A |
 | **06** | B | **21** | A | **36** | B |
-| **07** | A | **22** | B | **37** | C |
+| **07** | A | **22** | D | **37** | C |
 | **08** | A | **23** | B | **38** | B |
-| **09** | A | **24** | C | **39** | B |
-| **10** | A | **25** | D | **40** | C |
-| **11** | C | **26** | B | **41** | B |
+| **09** | B | **24** | C | **39** | B |
+| **10** | A | **25** | C | **40** | C |
+| **11** | C | **26** | D | **41** | B |
 | **12** | B | **27** | A | **42** | B |
 | **13** | A | **28** | A | **43** | A |
 | **14** | B | **29** | B | **44** | A |
-| **15** | B | **30** | B | **45** | A |
+| **15** | B | **30** | D | **45** | A |
 
 ---
 
@@ -1024,3 +1024,20 @@ $$
 $$
 \sqrt{k \sqrt{k \sqrt{k \cdots}}} = k \qquad \sqrt[n]{k \div \sqrt[n]{k \div \sqrt[n]{k \cdots}}} = \sqrt[n+1]{k}
 $$
+
+---
+
+## 8. Observaciones de la Auditoría
+
+Revisión ejercicio por ejercicio de los 45 ítems del fascículo. Resultado: 6 clave(s) corregida(s) y 6 ítem(s) reescrito(s) para que tengan solución y una opción correcta.
+
+| Ejercicio | Clave original | Clave corregida | Estado | Observación |
+| :---: | :---: | :---: | :--- | :--- |
+| **09** | A | B | Corregida | El resultado no coincide con la clave anterior; la opción correcta es B. |
+| **17** | C | A | Corregida | Se ajustó la opción A: $Z=\frac{2^7 3^6 5^5}{2^6 3^5 5^5}=2\cdot 3=6$. Clave A. |
+| **22** | B | D | Corregida | Se ajustó la opción D: la única solución real de $x^x=\frac{1}{4}$ es $x=-2$, pues $(-2)^{-2}=\frac{1}{4}$. Clave D. |
+| **25** | D | C | Corregida | Se corrigió el exponente a $x$: queda $5^{x-3}=5^{-(x+5)}$, de donde $x=-1$. Clave C. |
+| **26** | B | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+| **30** | B | D | Corregida | El resultado no coincide con la clave anterior; la opción correcta es D. |
+
+**Claves sin cambios:** 39 de 45. Todos los ítems cuentan ahora con una solución válida y una opción correcta entre A–E.
