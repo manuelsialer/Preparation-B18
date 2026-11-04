@@ -1,0 +1,32 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath, amssymb}
+
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1.0]
+
+  % Parábola cóncava hacia abajo (máximo)
+  \begin{scope}[shift={(-6,0)}]
+    \draw[->, thick] (-3,0) -- (3,0) node[right] {$x$};
+    \draw[->, thick] (0,-1) -- (0,5) node[above] {$y$};
+    \draw[red, thick, domain=-2:2, samples=100] plot (\x, {-1*\x*\x + 4});
+    \fill[red] (0,4) circle (2pt) node[above right] {\scriptsize $V(h,k) = \text{máximo}$};
+    \node[red, above] at (0,4.5) {$a < 0$: punto máximo};
+  \end{scope}
+
+  % Parábola cóncava hacia arriba (mínimo)
+  \begin{scope}[shift={(6,0)}]
+    \draw[->, thick] (-3,0) -- (3,0) node[right] {$x$};
+    \draw[->, thick] (0,-1) -- (0,5) node[above] {$y$};
+    \draw[blue, thick, domain=-2:2, samples=100] plot (\x, {\x*\x - 1});
+    \fill[blue] (0,-1) circle (2pt) node[below right] {\scriptsize $V(h,k) = \text{mínimo}$};
+    \node[blue, below] at (0,-1.5) {$a > 0$: punto mínimo};
+  \end{scope}
+
+\end{tikzpicture}
+
+\end{document}

@@ -12,6 +12,15 @@ donde $a_n, a_{n-1}, \dots, a_0 \in \mathbb{R}$, con $a_n \neq 0$ denominado **c
 
 En el marco del examen de preselección Beca 18 y de la formación en ciencias e ingeniería, los polinomios y los productos notables constituyen la base estructural del cálculo algebraico. Su dominio fluido permite factorizar expresiones complejas, simplificar fracciones algebraicas racionales, evaluar funciones en tiempo real y modelar leyes físicas y económicas fundamentales.
 
+```{figure} ../../assets/algebra/polinomios_grados_graficas.svg
+---
+width: 95%
+align: center
+alt: Polinomios por grado y productos notables
+---
+*Diagrama vectorial generado en TikZ que muestra polinomios de grado 1, 2 y 3 en el plano cartesiano, junto con el compendio de productos notables fundamentales.*
+```
+
 ---
 
 ## 1. Grados de un Polinomio

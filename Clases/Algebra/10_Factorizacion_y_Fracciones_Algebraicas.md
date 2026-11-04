@@ -6,6 +6,15 @@ Un polinomio $P(x)$ se denomina **primo o irreducible** sobre un campo numérico
 
 En el contexto del examen de preselección Beca 18 y en las matemáticas universitarias, la factorización y el tratamiento analítico de fracciones algebraicas racionales son competencias transversales determinantes. Permiten resolver ecuaciones e inecuaciones de grado superior por el método de puntos críticos, simplificar expresiones racionales en cálculo diferencial e integral, determinar asíntotas de funciones y calcular límites indeterminados de la forma $\left[\frac{0}{0}\right]$.
 
+```{figure} ../../assets/algebra/metodos_factorizacion.svg
+---
+width: 95%
+align: center
+alt: Métodos Sistemáticos de Factorización
+---
+*Diagrama vectorial generado en TikZ que muestra los métodos de factorización: diferencia de cuadrados, trinomio cuadrado perfecto, suma/diferencia de cubos, aspa simple, agrupación y divisores binómicos.*
+```
+
 ---
 
 ## 1. Conceptos Fundamentales y Conteo de Factores

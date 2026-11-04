@@ -12,6 +12,15 @@ Esta identidad es válida para cualquier valor numérico asignado a la variable 
 
 En el examen de preselección Beca 18 y en las carreras científicas y técnicas, la división de polinomios, el esquema de Horner, la regla de Ruffini y el Teorema del Resto son herramientas determinantes para la descomposición de funciones algebraicas complejas, cálculo de asíntotas racionales, integración analítica y reducción de grados polinomiales.
 
+```{figure} ../../assets/algebra/esquema_horner_ruffini.svg
+---
+width: 95%
+align: center
+alt: Esquema de Horner y Regla de Ruffini
+---
+*Diagrama vectorial generado en TikZ que ilustra el esquema de Horner/Ruffini: disposición de coeficientes, valor crítico c, operaciones de multiplicación y suma, y el residuo R.*
+```
+
 ---
 
 ## 1. Marco Teórico y Propiedades de los Grados

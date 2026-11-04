@@ -1,0 +1,101 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{amsmath, amssymb}
+
+\begin{document}
+
+\tdplotsetmaincoords{70}{110}
+
+\begin{tikzpicture}[tdplot_main_coords, scale=1.1]
+
+  % ================= CILINDRO (izquierda) =================
+  \begin{scope}[shift={(-5,0,0)}]
+    \coordinate (O1) at (0,0,0);
+    \def\r{1.2}
+    \def\h{3}
+
+    % Base inferior (elipse)
+    \draw[thick] (O1) circle [x radius=\r, y radius=0.4];
+    \draw[dashed] (\r,0,0) arc [start angle=0, end angle=180, x radius=\r, y radius=0.4];
+
+    % Base superior
+    \coordinate (O2) at (0,0,\h);
+    \draw[thick] (O2) circle [x radius=\r, y radius=0.4];
+    \draw[dashed] (-\r,0,\h) arc [start angle=180, end angle=360, x radius=\r, y radius=0.4];
+
+    % Generatrices
+    \draw[thick] (-\r,0,0) -- (-\r,0,\h);
+    \draw[thick] (\r,0,0) -- (\r,0,\h);
+
+    % Etiquetas
+    \node[below] at (0,-\r-0.3,0) {$r$};
+    \node[right] at (\r+0.2,0,\h/2) {$h$};
+    \node[above] at (0,0,\h+0.5) {\scriptsize Cilindro};
+  \end{scope}
+
+  % ================= CONO (centro) =================
+  \begin{scope}[shift={(0,0,0)}]
+    \coordinate (Oc) at (0,0,0);
+    \def\r{1.2}
+    \def\h{3}
+
+    % Base (elipse)
+    \draw[thick] (Oc) circle [x radius=\r, y radius=0.4];
+    \draw[dashed] (-\r,0,0) arc [start angle=180, end angle=360, x radius=\r, y radius=0.4];
+
+    % Vértice
+    \coordinate (V) at (0,0,\h);
+    \fill (V) circle (2pt) node[above] {$V$};
+
+    % Generatrices
+    \draw[thick] (-\r,0,0) -- (V);
+    \draw[thick] (\r,0,0) -- (V);
+
+    % Altura
+    \draw[red, thick, ->] (0,0,0) -- (0,0,\h);
+    \node[red, left] at (0,0,\h/2) {$h$};
+
+    % Radio
+    \draw[blue, thick] (0,0,0) -- (\r,0,0);
+    \node[blue, below] at (\r/2,0,0) {$r$};
+
+    % Generatriz g
+    \draw[green!60!black, thick] (\r,0,0) -- (V);
+    \node[green!60!black, right] at (\r/2,0,\h/2) {$g$};
+
+    \node[above] at (0,0,\h+0.5) {\scriptsize Cono};
+  \end{scope}
+
+  % ================= ESFERA (derecha) =================
+  \begin{scope}[shift={(5,0,0)}]
+    \def\r{1.3}
+    \coordinate (Os) at (0,0,0);
+
+    % Esfera (proyección 2D)
+    \draw[thick] (Os) circle (\r);
+    \draw[dashed] (-\r,0) arc [start angle=180, end angle=360, x radius=\r, y radius=0.3];
+
+    % Radio
+    \draw[blue, thick, ->] (Os) -- (\r*0.707,\r*0.707);
+    \node[blue, above right] at (\r*0.35,\r*0.35) {$r$};
+
+    % Diámetro
+    \draw[dashed] (-\r,0) -- (\r,0);
+
+    \node[above] at (0,\r+0.4) {\scriptsize Esfera};
+  \end{scope}
+
+  % ================= Fórmulas =================
+  \node[align=left, text width=5cm, font=\scriptsize] at (0,-4) {
+    \textbf{Fórmulas:}
+    \begin{align*}
+      \text{Cilindro: } & V = \pi r^2 h \\
+      \text{Cono: } & V = \frac{1}{3}\pi r^2 h \\
+      \text{Esfera: } & V = \frac{4}{3}\pi r^3
+    \end{align*}
+  };
+
+\end{tikzpicture}
+
+\end{document}

@@ -17,6 +17,15 @@ $$
 
 La transformación de radicales dobles a radicales simples y la racionalización de denominadores son herramientas determinantes en el examen de preselección Beca 18, permitiendo el cálculo exacto de límites trigonométricos, cálculo de hipotenusas en topografía e ingeniería, simplificación de impedancias eléctricas y resolución analítica de inecuaciones irracionales.
 
+```{figure} ../../assets/algebra/radicacion_racionalizacion.svg
+---
+width: 95%
+align: center
+alt: Radicación y Racionalización
+---
+*Diagrama vectorial generado en TikZ que muestra la transformación de radicales dobles, la racionalización por conjugada y la propiedad $\sqrt{x^2} = |x|$.*
+```
+
 ---
 
 ## 1. Fundamentos de la Radicación y Valor Absoluto

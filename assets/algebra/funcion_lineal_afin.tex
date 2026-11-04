@@ -1,0 +1,35 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{tikz}
+\usepackage{amsmath, amssymb}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1.0]
+
+  % Función lineal: f(x) = 1.5x (pasa por origen)
+  \draw[blue, thick, domain=-3:3] plot (\x, {1.5*\x});
+  \node[blue, right] at (3, 4.5) {$f(x) = 1.5x$};
+  \fill[blue] (0,0) circle (2pt) node[below left] {\scriptsize $(0,0)$};
+
+  % Función afín: g(x) = 1.5x + 2 (desplazada)
+  \draw[red, thick, domain=-3:3] plot (\x, {1.5*\x + 2});
+  \node[red, right] at (3, 6.5) {$g(x) = 1.5x + 2$};
+  \fill[red] (0,2) circle (2pt) node[above left] {\scriptsize $(0,b) = (0,2)$};
+
+  % Ejes
+  \draw[->, thick] (-3.5,0) -- (3.5,0) node[right] {$x$};
+  \draw[->, thick] (0,-1) -- (0,7) node[above] {$y$};
+
+  % Leyenda
+  \node[align=left, text width=4.5cm, font=\scriptsize] at (-3.2, 5) {
+    \textbf{Línea vs Afín:}\\
+    Línea: pasa por $(0,0)$\\
+    Afín: corta eje $Y$ en $(0,b)$\\
+    Pendiente $m$ = inclinación\\
+    $m > 0$: creciente\\
+    $m < 0$: decreciente
+  };
+
+\end{tikzpicture}
+
+\end{document}
