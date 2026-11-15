@@ -6,7 +6,7 @@ __pycache__/
 env/
 
 # Scratch & Logs
-scratch/
+scratch/*
 *.log
 
 # Jupyter Book Build
@@ -19,3 +19,10 @@ Thumbs.db
 .vscode/
 # Large Raw Books
 Libros/
+
+# Simulacro extractors (fuente reproducible de los bancos)
+!scratch/build_bank_2023.py
+!scratch/build_bank_2024.py
+!scratch/build_bank_2025.py
+!scratch/qa_bank.py
+!scratch/audit_katex_syntax_rigorous.py

@@ -434,3 +434,37 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   * Prohibido el uso de espacios en blanco, mayúsculas, tildes o caracteres no ASCII (`ñ`, `°`, acentos).
 
 
+
+---
+
+### Err-037 Simulacros: convencion del motor interactivo y despliegue de bancos
+* **Fecha:** 2026-11-14
+* **Problema:** El motor simulacro.js no encontraba el banco JSON al cargar la pagina (ruta data-bank mal resuelta segun la profundidad de la pagina) y el pasaje 3 del banco 2023 quedo vacio (solo \x03).
+* **Causas Raiz:**
+  1. Sphinx reescribe src/href de <script>/<link> en bloques raw html, pero **NO** los atributos data-*: la ruta literal de data-bank rompe si la pagina cambia de profundidad.
+  2. El builder de 2023 no ubico el bloque TEXTO 3 (p18 y403 a p19 y191) y ensamblo un pasaje de basura.
+* **Invariante / Regla Aprendida:**
+  * Paginas de simulacro: bloque raw html con <link> + <div class="simulacro" data-bank=... data-img=...> + <script>, rutas ../../_static/... desde Clases/Carpeta/.
+  * El motor resuelve data-bank/data-img contra el directorio de su **propio script** (document.currentScript.src): paginas independientes de la profundidad.
+  * Todo banco existe en DOS sitios: scratch/exams/banks/{year}.json (fuente) y _static/simulacros/banks/{year}.json (desplegado, fetch del navegador).
+  * QA de bancos: ademas de stems/claves, verificar que **ningun pasaje quede sin texto real** (minimo ~300 caracteres para pasajes de lectura).
+  * Build incremental de jupyter-book NO recopia _static si solo cambia un asset del motor: tras editar simulacro.js/css hay que copiar a mano a _build/html/_static/ (en CI el build limpio no tiene el problema) o reconstruir con --all.
+
+
+---
+
+### Err-038 Extractor 2024: decodificacion de fuentes con ToUnicode roto y geometria de formulas
+* **Fecha:** 2026-11-15
+* **Problema:** El PDF del ENP 2024 (examen-2) usa Calibri-Light con ToUnicode roto (basura tipo ^sGulOuyZs...) y CambriaMath cuyo rawdict emite \x03; ademas fracciones falsas (vinculos de raiz, barras huerfanas) cropeaban texto seleccionable.
+* **Causas Raiz / Soluciones (invariantes):**
+  1. Fuentes con ToUnicode roto: decodificar por GID contra el TTF del sistema (cambria.ttc fonts[1], calibril.ttf). El \x03 del ToUnicode = espacio.
+  2. Griegas theta/alpha legítimas: verificar por glyph name del GID; el regex GARB de QA NO debe incluir el rango griego (u0370-u03c3) pero sí cirilico (u0400-u052f) y Latin Ext-A/B (u0100-u024f).
+  3. Vinculos de raiz: barra cuyo x0 coincide (+/-2.5) con el x1 de un char decodificado '√' => NO es fraccion; excluir del dict bars.
+  4. Barra huerfana: bar_between_text exige chars arriba Y abajo de la barra (por encima de 12pt de distancia) => mata falsos constructos.
+  5. Cajas de cita con texto: rectangulos redondeados + texto = kind quote; el texto queda en body y NO se croppea.
+  6. Marcadores del margen vs linea: tolerancia de asignacion vertical +4.5 (el marcador puede estar 3pt mas abajo del inicio de la linea).
+  7. Render multi-base: bandas completas (>=8 solid chars) son bases; satelites van a la base mas cercana por oy. Cadena sin bandas completas: probar render_base(whole=True); si no mapea todo => crop de TODA la cadena (stacks de formula como 1/(pi-2)).
+  8. Ventana super/subscript: 3.5 < |dy| <= 5.2; fracciones/sistemas reales (dy >= 5.9) => crop por clusters (cada fraccion su crop, texto entre clusters seleccionable).
+  9. Opciones constructo: base+num+den van al crop; SOLO cont va a texto (evita duplicacion base en crop+texto).
+  10. Opciones se renderizan DESPUES del attach inline de figuras del stem (q.images pueden ir inline en opciones via tokens).
+* **Estado:** Banco 2024 con 60 preguntas, 0 flags QA, 48 imagenes sin huerfanos; desplegado y verificado por HTTP 200.

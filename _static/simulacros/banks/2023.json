@@ -1,0 +1,843 @@
+{
+ "year": 2023,
+ "title": "Simulacro Oficial ENP Beca 18 — Convocatoria 2023",
+ "duration_min": 120,
+ "sections": [
+  {
+   "id": "matematica",
+   "label": "Razonamiento Matemático",
+   "from": 1,
+   "to": 30
+  },
+  {
+   "id": "lectura",
+   "label": "Razonamiento Verbal",
+   "from": 31,
+   "to": 60
+  }
+ ],
+ "passages": [
+  {
+   "id": 1,
+   "title": null,
+   "html": "El último informe elaborado por Oceana Perú y ProDelphinus, organizaciones dedicadas al cuidado y protección de los océanos y de la vida marina, evidencia el fraude y la sustitución en la venta de pescados a los consumidores. En otras palabras, se identificaron que en 75 puntos de venta en Lima, Chiclayo y Piura, entre mercados distritales, supermercados e incluso restaurantes, se vendió, por ejemplo, perico como si fuera corvina o lisa en lugar de lenguado, y con el precio de venta de la corvina o del lenguado respectivamente. Este fraude de la venta de pescado por sustitución en la costa peruana alcanzó el 72 %. Esta realidad afecta la capacidad adquisitiva de los consumidores, ya que pagan un precio que no corresponde con el producto ofertado. Por ejemplo, el kilogramo de lenguado que puede costar hasta S/ 135.00 en un supermercado, en realidad es de lisa y cuesta S/ 5.00 el kg. ProDelphinus indica que este problema “impacta en la economía del consumidor. Pero también atenta contra la sostenibilidad de nuestro mar, ya que permitiría el lavado de la pesca ilegal”. El estudio concluyó que los mercados distritales y los restaurantes son los lugares donde se encuentra una mayor sustitución de este producto, especialmente cuando se compra filete, ya que resulta más complicado diferenciar las especies en ese estado, a excepción de algunas como el salmón y la trucha, que tienen un color particular. Por otro lado, se analizaron 159 muestras de platos en restaurantes que ofrecían pescado, de las que 118 mostraron que no era el que decía la carta. En este caso, fueron las cebicherías donde más se realizó la sustitución de pescado.\n\nLa República, 26 Dic 2019 pescado real\n\npescado real\n\npescado real 26%(19) 19%(13) 23%(32) Sustitución de pescado En cebicherías:\n\nCeviche Tiradito 77% (109) pescado sustituido\n\n81% (54) pescado sustituido\n\n74% (55) sustituido Cobro al cliente Precio real Diferencia de lo que pagamos vs. lo que realmente cuesta (precio por kilo)\n\nLA REPÚBLICA Mero Basa\n\nLenguado Lisa\n\nCorvina Perico\n\nCabrilla Falso volador\n\nAtún Bonito S/ 32\n\nS/ 49\n\nS/ 13\n\nS/ 12 S/ 6 S/ 3 S/ 12 S/ 5 S/ 14\n\nSustitución en tres ciudades en las que se realizó el estudio Piura 48 de 60 muestras\n\nChiclayo 32 de 45 muestras\n\nLima 81 de 120 muestras\n\n\u0003 \u0003 \u0003\n\n\u0003\n\n\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 \u0003"
+  },
+  {
+   "id": 2,
+   "title": null,
+   "html": "En el Perú, es recomendable incluir al quechua como parte de la enseñanza de los estudiantes de medicina. Además, la Organización Mundial de la Salud (OMS) propuso como sugerencia la revisión de los planes de estudio de las carreras sanitarias para integrar capacidades útiles a la práctica rural, considerando, incluso, la admisión selectiva de estudiantes con orígenes rurales, como factor fuertemente asociado a su permanencia en el sector rural. Asimismo, sugiere que el conocimiento de una lengua oriunda es un factor asociado a la decisión de trabajar en el interior del país.\n\n\u0003 \u0003 \u0003\n\n\u0003\n\n\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 \u0003 En un estudio boliviano, se encontró que el personal sanitario no conocía el idioma quechua, situación que creaba una comunicación ineficiente e, incluso, irrespetuosa con la población monolingüe quechua hablante; lo que conllevó a graves consecuencias en la atención de dicha población por las demoras y obstáculos implicados, lo que ocasionó desde la discriminación a las pacientes obstétricas hasta la muerte perinatal y materna. Más allá de la falta de equipo médico, de instalaciones u otras razones netamente hospitalarias, se señaló que era la brecha de la diferencia idiomática la que limitaba la atención de las pacientes. En efecto, en un estudio peruano realizado en profesionales de la salud que ejercían el Servicio Rural y Urbano Marginal de Salud (SERUMS), el 55 % señaló el desconocimiento del idioma quechua como una de las principales dificultades en el desarrollo de su trabajo. El poder adquirir las destrezas necesarias para una comunicación verdadera con los 4 102 405 habitantes que hablan las lenguas originarias en Perú, permitiría no solamente mejorar la relación médico-paciente, sino asegurarles el ejercicio pleno de sus derechos en salud. Más allá de poder entablar una conversación fructífera con los pacientes, hablar su idioma representa el respeto a sus diferencias y la aproximación humanizada a su salud y cultura. El estudio peruano resalta la urgencia de la implementación de, al menos, una lengua originaria en el currículo de los profesionales de la salud del Perú, especialmente, en las facultades de medicina, sobre todo en aquellas con ubicación en los departamentos de mayor densidad de lenguas originarias.\n\nAdaptado de Santos-Revilla, G. Enseñanza de lenguas originarias en las facultades de medicina peruanas. [carta]. Rev Peru Med Exp Salud Publica. 2016;33(1): 183-4. https://doi.org/10.17843/rpmesp.2016.331.2021"
+  },
+  {
+   "id": 3,
+   "title": null,
+   "html": "Ser sociable, extrovertido y capaz de trabajar en grupo se ha convertido en una fórmula\n\nperfecta, a la que educadores y empleadores apelan para producir la máxima productividad de las\n\npersonas. Por lo tanto, se ha convertido un requisito central para el quehacer del mundo laboral.\n\nSin embargo, se puede criticar que esta realidad favorece, especialmente, a los extrovertidos y\n\nperjudica a los introvertidos, que viven el difícil y doloroso trance de renunciar a su naturaleza. Se\n\npierde de vista que muchos introvertidos tienen cualidades y talentos extraordinarios y, entre ellos,\n\nse cuentan grandes innovadores y transformadores del mundo, debido precisamente a su\n\ntrabajo solitario e introvertido. Se puede citar a Albert Einstein, Sigmund Freud, Steve Jobs, Eleanor\n\nRoosevelt, Rosa Park, Darwin, Gandhi, grandes líderes transformadores de la historia que se\n\nautodescribían como introvertidos, tranquilos y tímidos. Así, cuando se trata de creatividad y\n\nliderazgo también se necesita de los introvertidos. No nos referimos a los tímidos que tienen miedo\n\nsocial, sino a quienes prefieren estar en ambientes tranquilos, con poca estimulación externa.\n\nAsimismo, pienso en la necesidad de buscar un mayor equilibrio entre los introvertidos y\n\nextrovertidos, lo que puede ser particularmente importante cuando se trata de creatividad y\n\nproductividad. Sobran los ejemplos de solitarios creativos. Darwin daba largas caminatas solitarias\n\npor el bosque y rechazaba las fiestas. Theodor Geisel Steve Wozniak, famoso por colaborar con\n\nSteve Jobs en montar Apple Computer, era solitario. En la mayoría de las religiones los líderes\n\n(Moisés, Jesús, Buda, Mahoma) son buscadores que fueron solos al desierto, donde tuvieron\n\nprofundas epifanías y revelaciones que luego brindaron al resto de la comunidad. La psicología\n\nmoderna explica cómo las personas, cuando están en grupo, modifican su pensamiento por quedar\n\nbien, por imitar, por seguir el hilo de otros, especialmente el de los más carismáticos y dominantes.\n\nPara los introvertidos, sería mejor que cada uno piense primero sus ideas y luego se reúnan en\n\ngrupo para intercambiarlas. En suma, no se trata de despreciar las habilidades sociales o el trabajo\n\nen equipo. Se trata de darle a los introvertidos la libertad de ser ellos mismos."
+  },
+  {
+   "id": 4,
+   "title": null,
+   "html": "El ritmo de desarrollo de los países industrializados requiere energía abundante y barata, una energía que el hombre siempre ha tenido a su alcance. En tal sentido, la crisis energética actual no se asocia al agotamiento de las fuentes, se trata más bien de cómo utilizar una fuente energética de manera limpia y sin riesgos para la humanidad.\n\n\u0003 \u0003 \u0003\n\n\u0003\n\n\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 \u0003 La situación de crisis se deriva de la incapacidad tecnológica y política para utilizar los recursos energéticos renovables y planificar su uso. La demanda creciente de energía (cada diez años se requiere el doble), el uso intensivo de los pozos petrolíferos, así como formas de obtención de energía con alto riesgo (centrales nucleares) dan cuenta de una situación que debe modificarse. Los países avanzados orientan sus políticas energéticas al ahorro de combustibles, optimización de procesos de conversión y búsqueda de otras fuentes energéticas que no atenten contra la ecología. Por consiguiente, el problema no es tanto la obtención de fuentes de energía como la de su transporte y procesamiento. De ahí el interés por las energías renovables, limpias y al alcance de todos, tales como la energía solar, marina, geotérmica, eólica y nuclear. En relación con esta última, y dado que produce energía limpia, se presenta como una alternativa a tomar en consideración; sin embargo existen riesgos en su utilización y problemas asociados con la eliminación de los residuos radiactivos que produce."
+  },
+  {
+   "id": 5,
+   "title": null,
+   "html": "En los últimos años, es posible observar que la administración de las cárceles por parte del Estado no resulta positiva. Prueba de ello es el hacinamiento del penal de Lurigancho, considerado como uno de los más peligrosos del mundo, y la fuga de diecisiete reos de alta peligrosidad del penal de Challapalca. Esta crisis en la administración estatal de los penales permite plantear la cuestión acerca de la posibilidad de privatizar las cárceles en nuestro país. Desde nuestra perspectiva, consideramos válida y necesaria la privatización de los centros penitenciarios. En primer lugar, el Estado ha mostrado una inadecuada gestión en la administración de los centros penitenciarios. Esta realidad se evidencia en la escasa inversión en infraestructura. Según informó la radioemisora RPP, el Perú tiene una población penitenciaria que bordea la cifra de las 40 000 personas, situación que ha originado el hacinamiento y la proliferación de diversas enfermedades. Este panorama puede revertirse si se desarrolla el proceso de privatización de los penales, ya que la empresa que asuma la administración de estos procederá a invertir en infraestructura, salubridad y, sobre todo, seguridad. En segundo lugar, la privatización haría posible la disminución de los actos delictivos que se producen actualmente en ellos. Entre los delitos más frecuentes destacan la corrupción entre los reos y oficiales, los motines y la planificación de actos criminales desde las propias cárceles. Dicha privatización posibilitaría un mayor control en la seguridad y disciplina de los reos con la implementación de regímenes especiales de monitoreo. Asimismo, se podría capacitar a los oficiales que laboran en los centros penitenciarios y retirar a aquellos que se encuentren involucrados en actos de corrupción."
+  },
+  {
+   "id": 6,
+   "title": null,
+   "html": "El ministro de Salud ha informado que alrededor de un tercio de los jóvenes y adolescentes de hasta 18 años sufre de tinnitus, aquel molesto zumbido que a menudo deriva en la pérdida de audición. Según sus palabras se “trata de un problema que crece por el uso cotidiano de audífonos o auriculares para escuchar música, así como por la exposición prolongada a lugares muy ruidosos, como bares, discotecas o recitales”. El tinnitus es causado por un daño temporal o permanente de las células de los vellos cocleares, que están ubicados en el oído interno y tienen la función de reaccionar a las vibraciones del sonido. “Si esta generación continúa exponiéndose a niveles muy altos de ruidos, probablemente tendrá pérdida de audición cuando tenga 30 o 40 años”, sentencia Tanit Ganz Sánchez, otorrinolaringóloga y académica de la Universidad de Sao Paulo. Ella es la autora principal de un estudio en el que examinaron los oídos de 170 estudiantes brasileños de 11 a 17 años, cuyo resultado fue que más de la mitad (54,7 %) dijo haber sufrido alguna vez tinnitus en los últimos 12 meses y el 28 % reconoció que esa molestia lo acompañaba constantemente. La Organización Mundial de la Salud (OMS) ya advirtió que 1100 millones de adolescentes están en riesgo de sufrir problemas de audición, sobre todo por el uso de dispositivos portátiles para escuchar música, los cuales alcanzan niveles muchos más altos que los discman o walkman del pasado. Para reducir el riesgo, el ministerio de Salud ha iniciado una campaña con el fin de que en las casas se adopten las siguientes medidas: a) comprar audífonos supraauriculares (que cubren la oreja y no van introducidos en ella), a pesar de que los jóvenes prefieren estar a la moda con auriculares distintos b) evitar escuchar música por encima del 60 % del volumen máximo, utilizar protectores auditivos (si se va a lugares muy ruidosos) y, por cada hora de exposición, descansar 10 minutos. “Al hacer un intervalo, es posible aumentar las posibilidades de que los oídos se recuperen y de no padecer lesiones definitivas”, dice Ganz Sánchez.\n\nAdaptado de González, C. (2016). Adolescentes están en riesgo de sufrir sordera precoz. (O\u00030HUFXULR de Chile."
+  },
+  {
+   "id": 7,
+   "title": null,
+   "html": "En contraste con la cultura de consumo, las comunidades étnicas de la Amazonía son frecuentemente percibidas como poco relevantes. Esto es así en gran parte del Perú, pero no necesariamente en el resto del mundo. La desinformación acerca de las culturas indígenas amazónicas es inmensa: se desconoce sus aportes históricos y los presentes; no se reconoce en ellos agentes sociales y económicos igualmente válidos que los occidentales, y no se les considera como agentes de cambio con una perspectiva a futuro, sino más bien como imagen viva del retraso. Y no nos imaginamos que, también, dependemos de ellos: nos es ajeno pensar que conceptos y recursos indígenas pueden ser claves para la supervivencia futura del país y de la humanidad. Contrario a la imagen de desvalidos y de incapacitados para afrontar la modernidad y la globalización los pueblos indígenas de la Amazonía han hecho esfuerzos enormes para organizarse, abrirse y mantener un largo y fructífero diálogo con la ciencia, y establecer importantes lazos y alianzas con las organizaciones internacionales y la cooperación técnica internacional. Adaptado de Helberg, H. (2001). Pedagogía de la Interculturalidad.\n\n\u0003 \u0003 \u0003\n\n\u0003\n\n\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 \u0003"
+  },
+  {
+   "id": 8,
+   "title": null,
+   "html": "Todavía hay muchas personas que creen que leer consiste en oralizar la grafía, es decir, en devolver la voz a la letra callada. Es una visión mecánica, que pone el acento en la capacidad de decodificar la prosa de modo literal. Pero esta concepción deja en un segundo plano lo más importante: la comprensión. Para comprender es necesario desarrollar varias destrezas mentales o procesos cognitivos: anticipar lo que dirá un escrito, aportar nuestros conocimientos previos, hacer hipótesis y verificarlas, elaborar inferencias para comprender lo que solo se sugiere, construir un significado, etc. Llamamos alfabetización funcional a este conjunto de destrezas, a la capacidad de comprender el significado de un texto. Y denominamos analfabeto funcional a quien no puede comprender un texto, aunque pueda leerlo en voz alta. Sin duda esta es una concepción muy bonita, porque destaca la universalidad y la igualdad de la lectura y muchos estarán de acuerdo conmigo. Al fin y al cabo, leer requiere desarrollar estos procesos cognitivos, y puesto que estos procesos son biológicos y lógicamente universales, todos podemos aprender a leer y, además, aprender a leer del mismo modo. Solo se requiere aprender a realizar estas destrezas cognitivas. Y así, la lectura nos igualaría a todos. ¡Qué bonita idea! Pero la realidad es más compleja. Adaptado de Cassany, D. (2006). Tras las líneas. Sobre la lectura contemporánea"
+  }
+ ],
+ "questions": [
+  {
+   "id": 1,
+   "stem": "Samuel un estudiante de la Facultad de Ciencias Matemáticas de la UNMSM, en uno de sus días de descanso se pone a contar las hojas de un libro de una manera bastante particular, él se da cuenta que, al agrupar de 12 en 12, de 18 en 18 y de 20 en 20, siempre le sobran 7 hojas. Si el libro tiene entre 500 y 1200 páginas, ¿cuántas hojas tiene como máximo dicho libro?",
+   "options": [
+    "277",
+    "367",
+    "547",
+    "727"
+   ],
+   "answer": "C",
+   "section": "matematica"
+  },
+  {
+   "id": 2,
+   "stem": "Dos señales luminosas se apagaron juntas en un determinado instante. Si se sabe que una de ellas permanece 10 segundos apagada y 34 segundos encendida, mientras que la otra permanece 10 segundos apagada y 45 segundos encendida, ¿después de cuántos segundos ambas señales se apagan juntas nuevamente por segunda vez?",
+   "options": [
+    "180",
+    "220",
+    "240",
+    "210"
+   ],
+   "answer": "B",
+   "section": "matematica"
+  },
+  {
+   "id": 3,
+   "stem": "Tres rollos de alambre de acero de igual grosor y cuyas longitudes en metros son 720, 280 y 216; se quieren dividir, sin desperdiciar material, en trozos todos de igual longitud. ¿Cuántos trozos de alambre se obtendrán como mínimo?",
+   "options": [
+    "304",
+    "142",
+    "152",
+    "167"
+   ],
+   "answer": "C",
+   "section": "matematica"
+  },
+  {
+   "id": 4,
+   "stem": "Un comerciante compra lapiceros y borradores, los cuales distribuye en 5 cajas. En unas cajas hay lapiceros y en otras, borradores. La cantidad de unidades contenidas en cada caja son respectivamente 9, 8, 12, 23 y 27. Si el comerciante solo vendió todo el contenido de una de las cajas y de lo que le quedó se sabe que, la cantidad de lapiceros es el cuádruple de la cantidad de borradores, ¿cuántos lapiceros le quedaron al comerciante?",
+   "options": [
+    "70",
+    "60",
+    "48",
+    "56"
+   ],
+   "answer": "D",
+   "section": "matematica"
+  },
+  {
+   "id": 5,
+   "stem": "Tenía S/ 3000 compré un monitor y me quedó S/ 1960. Entonces recibí S/ 840 y luego compré un regalo y me quedó S/ 2200, ¿cuánto suma lo gastado en el monitor y el regalo?",
+   "options": [
+    "S/ 1640",
+    "S/ 1540",
+    "S/ 1840",
+    "S/ 1340"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 6,
+   "stem": "El sueldo semanal de un médico es 25 % más que el sueldo semanal de una enfermera y 50 % más que el sueldo semanal de un técnico en enfermería. Si la suma de los sueldos semanales de los tres es S/ 3700, ¿cuánto gana un técnico en enfermería semanalmente?",
+   "options": [
+    "S/ 1000",
+    "S/ 1200",
+    "S/ 900",
+    "S/ 1500"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 7,
+   "stem": "Se desea diseñar una caja cúbica de volumen mínimo para almacenar cajitas, en donde cada cajita contiene 50 mascarillas descartables. Si las dimensiones de las cajitas son de 20 cm de largo, 10 cm de ancho y 8 cm de altura, ¿cuál es la cantidad de mascarillas que puede almacenar la caja cúbica, sin que sobre espacio?",
+   "options": [
+    "2000",
+    "250",
+    "1000",
+    "2500"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 8,
+   "stem": "Danny tiene en su granja una coneja que está preñada, el veterinario al revisarla, comprobó que hay tres conejitos en su vientre. Si todo ocurre con normalidad, ¿cuál es la probabilidad de que el día del alumbramiento de los conejitos, nazcan por lo menos dos conejitos machos?",
+   "options": [
+    "3/4",
+    "3/8",
+    "1/2",
+    "1/4"
+   ],
+   "answer": "C",
+   "section": "matematica"
+  },
+  {
+   "id": 9,
+   "stem": "En el curso de Cálculo I de la Escuela de Matemáticas de cierta universidad, se sabe que asisten a clases 30 de los 40 matriculados, además se sabe que de los alumnos que asisten a clases aprueban el 70% y de los que no asisten a clases el 20%. Si se elige un alumno al azar, ¿cuál es la probabilidad de que haya aprobado este curso?",
+   "options": [
+    "0,575",
+    "0,325",
+    "0,550",
+    "0,900"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 10,
+   "stem": "De un grupo de personas que se presentaron a un concurso, el 40 % no pasó el examen de aptitud. Las personas que sí aprobaron fueron divididas en dos grupos de igual cantidad para la entrevista personal. Del primer grupo aprobaron el 35 % y del segundo el 45 %. En relación con la cantidad de personas que se presentaron, ¿qué porcentaje aprobaron la entrevista?",
+   "options": [
+    "16%",
+    "23%",
+    "24%",
+    "26%"
+   ],
+   "answer": "C",
+   "section": "matematica"
+  },
+  {
+   "id": 11,
+   "stem": "Dados los polinomios p(x) = x⁶ + 2x⁴ + 2x² + 1 y q(x) = x⁴ + x³ + 2x² + x + 1, calcule el cociente al dividir p(x) entre q(x).",
+   "options": [
+    "x² + x + 1",
+    "x² – x – 1",
+    "x² + x – 1",
+    "x² – x + 1"
+   ],
+   "answer": "D",
+   "section": "matematica"
+  },
+  {
+   "id": 12,
+   "stem": "En un juego de ajedrez, se plantea la siguiente regla: cada vez que un jugador gane una partida recibe S/ 10 y cada vez que pierde paga S/ 4. En un total de 12 partidas, un jugador ha ganado S/ 64, ¿cuántas partidas ganó?",
+   "options": [
+    "6",
+    "8",
+    "4",
+    "2"
+   ],
+   "answer": "B",
+   "section": "matematica"
+  },
+  {
+   "id": 13,
+   "stem": "Oxana tiene un pendrive de 32Gb de capacidad, al parecer un virus lo ha contaminado y desea salvar su contenido cuanto antes. Los archivos guardados tienen un tamaño que varían de 50Mb a 70Mb(1Gb = 1024Mb). ¿Cuál es el número máximo de archivos que potencialmente puede salvar?",
+   "options": [
+    "655",
+    "468",
+    "474",
+    "642"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 14,
+   "stem": "Simplificar la expresión: [[img:q14_expr.png]]",
+   "options": [
+    "16/15",
+    "4/5",
+    "2/15",
+    "8/15"
+   ],
+   "answer": "D",
+   "section": "matematica"
+  },
+  {
+   "id": 15,
+   "stem": "El número de unidades de un artículo A, que los productores están dispuestos a proveer al mercado de abastos, cuando el precio de este artículo es x soles, está dada por la función [[img:q15_fx.png]] [[img:q15_dom.png]]. En la siguiente tabla se muestran algunos valores que toma la función [[img:q15_tbl.png]]. Si el precio del artículo A fuese 35 soles ¿con cuántas unidades del artículo A, los productores estarían dispuestos a proveer al mercado de abastos?",
+   "options": [
+    "631",
+    "847",
+    "1025",
+    "1015"
+   ],
+   "answer": "C",
+   "section": "matematica"
+  },
+  {
+   "id": 16,
+   "stem": "Una empresa distribuye semanalmente protectores faciales al sector salud, la cantidad total de protectores faciales que debe distribuir semanalmente debe ser menor que 427. Si en la semana ya se han distribuido 90 protectores faciales, y quedan por distribuir una cantidad mayor a los tres quintos del total, más 78 protectores faciales, ¿Cuál es la cantidad mínima de protectores faciales que se distribuyeron en la semana?",
+   "options": [
+    "421",
+    "426",
+    "424",
+    "420"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 17,
+   "stem": "Un comerciante tiene 3000 unidades de un producto cuyo precio unitario es de $ 5, y tiene proyectado que el próximo mes el precio del producto se incremente en $ 0,5. Si el comerciante quiere que el ingreso total por la venta de las 3000 unidades no sea menor que $ 15 900. ¿Cuál es el ingreso máximo que puede obtener por la venta de dicho producto durante estos dos meses?",
+   "options": [
+    "$ 5995",
+    "$ 6000",
+    "$ 6005",
+    "$ 4000"
+   ],
+   "answer": "B",
+   "section": "matematica"
+  },
+  {
+   "id": 18,
+   "stem": "Si x es solución de la ecuación [[img:q18_sys.png]], entonces el valor de [[img:q18_expr.png]]",
+   "options": [
+    "– 72",
+    "38",
+    "– 42",
+    "60"
+   ],
+   "answer": "B",
+   "section": "matematica"
+  },
+  {
+   "id": 19,
+   "stem": "Una fábrica de empaques desea confeccionar cajas con bases rectangulares de cartón sin tapa para frutas, cada una de ellas con capacidad de 26 250 cm³. Para cada caja se cuenta con una lámina rectangular de cartón cuyo largo es 45 cm más que su ancho. La caja se confecciona cortando en cada esquina cuadrados de 15 cm de lado y luego doblando los bordes. Calcule el área de la lámina rectangular de cartón.",
+   "options": [
+    "5500 cm²",
+    "3400 cm²",
+    "4050 cm²",
+    "6300 cm²"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 20,
+   "stem": "En el diagrama, los dos platos de cada balanza se encuentran en equilibrio. Si figuras iguales tienen el mismo peso y cada cilindro pesa 1 kg, ¿cuántos cubos juntos tienen el mismo el peso que una esfera?",
+   "options": [
+    "8",
+    "3",
+    "7",
+    "2"
+   ],
+   "answer": "A",
+   "section": "matematica",
+   "images": [
+    "q20_f1.png"
+   ]
+  },
+  {
+   "id": 21,
+   "stem": "Sofía preparó una torta con forma de cilindro circular recto de 30 cm de diámetro y 10 cm de altura para compartir con sus 15 invitados. Ella distribuyó 20 cerezas sobre la torta en forma de una circunferencia concéntrica a la torta. La torta se dividió en partes iguales y en cada porción había una cereza, como se muestra en la figura. Si Sofía y sus 15 invitados en la reunión comieron solo una porción, halle el volumen de la torta sobrante.",
+   "options": [
+    "600π cm³",
+    "562,5π cm³",
+    "500π cm³",
+    "450π cm³"
+   ],
+   "answer": "D",
+   "section": "matematica",
+   "images": [
+    "q21_f1.png"
+   ]
+  },
+  {
+   "id": 22,
+   "stem": "En la figura, ABC es un triángulo rectángulo de un cateto igual a 16 e hipotenusa 20. Si L es el lado del cuadrado inscrito, calcular la suma de las áreas de los triángulos interiores.",
+   "options": [
+    "2160/49",
+    "48",
+    "2400/49",
+    "2592/49"
+   ],
+   "answer": "C",
+   "section": "matematica",
+   "images": [
+    "q22_f1.png"
+   ]
+  },
+  {
+   "id": 23,
+   "stem": "En un triángulo rectángulo sus catetos miden 2x – 1, 2(x + 1) y la hipotenusa 3x. Halle el área del triángulo.",
+   "options": [
+    "54",
+    "35",
+    "77",
+    "43"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 24,
+   "stem": "En el triángulo ABC que se muestra en la figura, BD = 2 y DC = 6. Calcule el valor numérico de AC² – AB².",
+   "options": [
+    "32",
+    "16",
+    "40",
+    "18"
+   ],
+   "answer": "A",
+   "section": "matematica",
+   "images": [
+    "q24_f1.png"
+   ]
+  },
+  {
+   "id": 25,
+   "stem": "La gráfica representa una cochera rodeada de un jardín, donde ABCD es un cuadrado. Si la parte sombreada es el jardín de 2 m de ancho y 130 m² de área, halle el perímetro del jardín.",
+   "options": [
+    "122",
+    "134",
+    "92",
+    "115"
+   ],
+   "answer": "B",
+   "section": "matematica",
+   "images": [
+    "q25_f2.png"
+   ]
+  },
+  {
+   "id": 26,
+   "stem": "En la figura, se tiene dos círculos concéntricos de centro O y AB una cuerda tangente a uno de ellos. Si el área de la región sombreada es 64π m², halle AB.",
+   "options": [
+    "16 m",
+    "14 m",
+    "8 m",
+    "8√2 m"
+   ],
+   "answer": "A",
+   "section": "matematica",
+   "images": [
+    "q26_f1.png"
+   ]
+  },
+  {
+   "id": 27,
+   "stem": "El lado del cuadrado ABCD mide 4 cm. M es el punto medio de BC, N es el punto medio de AM y P es el punto medio de NC. Calcule el área del cuadrilátero ANPD.",
+   "options": [
+    "7 cm²",
+    "8 cm²",
+    "9 cm²",
+    "6 cm²"
+   ],
+   "answer": "A",
+   "section": "matematica",
+   "images": [
+    "q27_f2.png"
+   ]
+  },
+  {
+   "id": 28,
+   "stem": "En la figura, las rectas ℓ₁ y ℓ₂ son paralelas, BC y BA son bisectrices de NCQ y MAQ respectivamente. Si m∠NBC = 40°, halle m∠MBA.",
+   "options": [
+    "50º",
+    "40º",
+    "95º",
+    "100º"
+   ],
+   "answer": "C",
+   "section": "matematica",
+   "images": [
+    "q28_f1.png"
+   ]
+  },
+  {
+   "id": 29,
+   "stem": "En un triángulo rectángulo ABC (∠B = 90°), la suma relativa a la hipotenusa determina sobre ella dos segmentos de longitud 4 y 9 cm. Calcule el área de la región triangular ABC.",
+   "options": [
+    "39",
+    "52",
+    "42",
+    "45"
+   ],
+   "answer": "A",
+   "section": "matematica"
+  },
+  {
+   "id": 30,
+   "stem": "En el triángulo ABC, se traza la mediana BM. Halle x.",
+   "options": [
+    "25°",
+    "30°",
+    "15°",
+    "10°"
+   ],
+   "answer": "C",
+   "section": "matematica",
+   "images": [
+    "q30_f2.png"
+   ]
+  },
+  {
+   "id": 31,
+   "stem": "Según el texto, la diferencia entre el precio pagado por kilogramo entre el pescado real y el sustituido",
+   "options": [
+    "evidencia un aprovechamiento de los pescadores.",
+    "reditúa al Estado con mayores impuestos.",
+    "afecta negativamente la economía del consumidor.",
+    "genera la necesidad de un control de precios."
+   ],
+   "passage": 1,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 32,
+   "stem": "De acuerdo con la investigación presentada en el texto, si el salmón y la trucha no tuvieran un color particular,",
+   "options": [
+    "el precio de ambos, cortados y fileteados, se mantendría invariable.",
+    "se tendría que pagar, para ambos, el precio real que cuesta obtenerlos.",
+    "el informe de Oceana Perú y ProDelphinus debería variar totalmente.",
+    "probablemente podrían ser sustituidos por un pescado barato."
+   ],
+   "passage": 1,
+   "answer": "D",
+   "section": "lectura"
+  },
+  {
+   "id": 33,
+   "stem": "A partir de la gráfica titulada “Sustitución del pescado”, se identifica que",
+   "options": [
+    "el público consumidor es engañado en todas las cevicherías, porque paga por un producto que no es el que verdaderamente ha solicitado.",
+    "la preparación del tiradito y del ceviche con pescados reales no supera el 30 % de las muestras examinadas respectivamente.",
+    "el pescado sustituido adquiere importancia en la elaboración de los platos ofrecidos en las cevicherías por su bajo costo.",
+    "la crisis de las cevicherías está en relación con los insumos empleados en la preparación de los platos marinos más populares."
+   ],
+   "passage": 1,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 34,
+   "stem": "De la lectura se puede colegir que el estudio boliviano y el peruano sobre el personal sanitario",
+   "options": [
+    "muestran una problemática que solo se podrá resolver si los respectivos Estados promueven el quechua como lengua oficial.",
+    "evidencian la priorización de una atención en salud que potencie las habilidades blandas de los médicos.",
+    "coinciden tanto en el desconocimiento de una lengua originaria como en la necesidad de su aprendizaje.",
+    "establecen un programa orgánico de soluciones a mediano plazo para la mejora del sistema de salud."
+   ],
+   "passage": 2,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 35,
+   "stem": "De acuerdo con el texto, si en las facultades de medicina se enseñara la lengua aimara,",
+   "options": [
+    "las enfermeras podrían hablar fluidamente la lengua quechua en la capital.",
+    "se daría una atención humanizada a los hablantes monolingües aimaras.",
+    "los aimaras podrían ser profesores de Biología, Química o de ramas afines.",
+    "el personal sanitario dejaría de hablar castellano como lengua materna."
+   ],
+   "passage": 2,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 36,
+   "stem": "De acuerdo con el texto, se puede señalar que el autor",
+   "options": [
+    "considera importante que estudiantes de medicina en el Perú aprendan una lengua originaria.",
+    "fomenta la segregación lingüística en el país, pues impide que las lenguas indígenas se adquieran.",
+    "condena la discriminación racial que cometen las autoridades públicas peruanas en los colegios.",
+    "tiene un paciente que habla quechua de manera fluida y que explica su sintomatología."
+   ],
+   "passage": 2,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 37,
+   "stem": "En el texto se puede evidenciar que los pacientes que viven en zonas donde priman las lenguas originarias",
+   "options": [
+    "reciben una atención médica deficiente.",
+    "han realizado una serie de reclamos públicos.",
+    "nunca han podido comunicarse con los médicos.",
+    "requieren de una atención preferencial inmediata."
+   ],
+   "passage": 2,
+   "answer": "A",
+   "section": "lectura",
+   "images": [
+    "q37_f1.png"
+   ]
+  },
+  {
+   "id": 38,
+   "stem": "Se deduce del texto que, para incorporarse al mundo laboral, una persona introvertida",
+   "options": [
+    "tendrá que inscribirse a cursos para el desarrollo de habilidades extrovertidas.",
+    "buscará ofertas de empleo acordes con sus rasgos psicológicos y físicos.",
+    "deberá desarrollar características que no forman parte de su personalidad.",
+    "podrá solicitar al empleador la oportunidad de trabajar de manera solitaria."
+   ],
+   "passage": 3,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 39,
+   "stem": "Se infiere que al mencionar a Einstein, Freud, Jobs, Park, entre otros, el objetivo del autor consiste en",
+   "options": [
+    "subrayar la importancia de la timidez como un factor de progreso y avance científicos.",
+    "ejemplificar personalidades introvertidas que se adaptaron a culturas sociables.",
+    "presentar el difícil camino que tienen los introvertidos para sobresalir en la sociedad.",
+    "destacar que los introvertidos tienen cualidades y habilidades sobresalientes."
+   ],
+   "passage": 3,
+   "answer": "D",
+   "section": "lectura"
+  },
+  {
+   "id": 40,
+   "stem": "Según el texto leído, los líderes religiosos se caracterizan por",
+   "options": [
+    "buscar un tiempo para poder expresar libremente sus ideas.",
+    "explotar su potencial productivo en ambientes tranquilos.",
+    "interactuar con otros introvertidos en espacios laborales.",
+    "influir en las ideas de los demás para quedar bien con ellos."
+   ],
+   "passage": 3,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 41,
+   "stem": "La crisis energética mundial, que se acentúa en los países industrializados, es consecuencia",
+   "options": [
+    "del agotamiento de los pozos petrolíferos y la ausencia de políticas de prospección energética.",
+    "del exagerado consumo de combustibles fósiles por parte de las naciones industrializadas.",
+    "de la incapacidad tecnológica y política para aprovechar los recursos energéticos renovables.",
+    "de la retracción de la inversión de capitales para la exploración de yacimientos petrolíferos."
+   ],
+   "passage": 4,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 42,
+   "stem": "De la lectura del texto, se deduce que la energía nuclear",
+   "options": [
+    "es la fuente de energía óptima para la vida del ser humano.",
+    "entraña peligros que podrán ser superados en pocas décadas.",
+    "requiere de una supervisión adecuada con el fin de evitar riesgos.",
+    "constituye la única alternativa con la que contamos en la actualidad."
+   ],
+   "passage": 4,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 43,
+   "stem": "A partir del contenido desarrollado en el texto, es válido sostener que",
+   "options": [
+    "nuestro país contamina en escasa proporción frente a Bolivia.",
+    "la industrialización es una causa importante de la contaminación.",
+    "los países del sur deben modificar sus estilos de vida.",
+    "solo la tecnología podrá detener los problemas planetarios."
+   ],
+   "passage": 4,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 44,
+   "stem": "Según el autor, el problema energético mundial es fundamentalmente",
+   "options": [
+    "de manejo de fuentes energéticas.",
+    "geopolítico, entre el norte y el sur.",
+    "de escasez de recursos renovables.",
+    "de índole económica y financiera."
+   ],
+   "passage": 4,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 45,
+   "stem": "En el texto se sostiene que el Estado",
+   "options": [
+    "administra de forma deficiente los penales.",
+    "debe ceder la administración de los penales.",
+    "favorece un clima libre de corrupción en los penales.",
+    "brinda una nula capacitación a los oficiales."
+   ],
+   "passage": 5,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 46,
+   "stem": "Según la lógica del autor del texto, si las cárceles del Perú estuvieran privatizadas, entonces",
+   "options": [
+    "los ciudadanos no tendríamos miedo de salir a las calles.",
+    "existiría una disminución de motines.",
+    "la corrupción entre delincuentes dejaría de existir.",
+    "muchas personas podrían quedarse sin empleo."
+   ],
+   "passage": 5,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 47,
+   "stem": "A partir del dato sobre la fuga de diecisiete reos de alta peligrosidad del penal de Challapalca, se puede concluir que",
+   "options": [
+    "en dicho penal campea la corrupción entre reos y oficiales.",
+    "existen razones para señalar que el Estado gestiona de forma deficiente los penales.",
+    "un sistema privado de cárceles se convierte en la única solución más adecuada.",
+    "los penales no cumplen con su rol de reinsertar a los reos a la sociedad."
+   ],
+   "passage": 5,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 48,
+   "stem": "A partir de la lectura del texto, se puede deducir que los reos",
+   "options": [
+    "que se fugaron no han podido ser ubicados debido a la corrupción.",
+    "organizan, junto a oficiales corruptos, una serie de actos delictivos.",
+    "viven en condiciones que atentan contra su propia seguridad.",
+    "viven de forma hacinada en algunos penales del país."
+   ],
+   "passage": 5,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 49,
+   "stem": "De la lectura del texto, se puede deducir que el autor",
+   "options": [
+    "considera que los intereses de los privados pueden dar buenos resultados para el beneficio de la comunidad.",
+    "cree que solo los capitales privados pueden transformar el régimen carcelario de los países.",
+    "sostiene una posición avalada por las múltiples evidencias de pésima gestión que muestra el Estado.",
+    "está empeñado en transformar la situación de las cárceles peruanas para el bien de los privados."
+   ],
+   "passage": 5,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 50,
+   "stem": "Si el uso de audífonos supraauriculares respondiera más a una moda que a una prescripción médica, es posible inferir que",
+   "options": [
+    "los jóvenes preferirían seguir utilizando audífonos intraauriculares.",
+    "habría indicios para predecir una pérdida auditiva a temprana edad.",
+    "los jóvenes dejarían de asistir a discotecas y conciertos al aire libre.",
+    "el riesgo de sufrir pérdida auditiva precoz entre los jóvenes disminuiría."
+   ],
+   "passage": 6,
+   "answer": "D",
+   "section": "lectura"
+  },
+  {
+   "id": 51,
+   "stem": "Según el ministro de Salud, el problema del tinnitus está relacionado con",
+   "options": [
+    "una molestia que generalmente pasa desapercibida para los jóvenes.",
+    "los grandes peligros de la exposición prolongada a ruidos de alta intensidad.",
+    "la exposición a espacios ruidoso y usos de audífonos.",
+    "el uso indiscriminado de cualquier tipo de audífono entre los jóvenes."
+   ],
+   "passage": 6,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 52,
+   "stem": "Según el texto, se puede afirmar que el riesgo de sufrir pérdida de audición precoz entre los jóvenes de hoy se ha incrementado, principalmente, por",
+   "options": [
+    "usar constantemente audífonos.",
+    "asistir a discotecas, recitales y bares ruidosos.",
+    "acudir con frecuencia a conciertos de música rock.",
+    "escuchar música a más del 60 % del volumen máximo."
+   ],
+   "passage": 6,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 53,
+   "stem": "Un enunciado incompatible con lo expresado en el texto es afirmar que los jóvenes de hoy",
+   "options": [
+    "gustan de utilizar audífonos para escuchar música.",
+    "presentan en un alto porcentaje pérdida de audición.",
+    "tienden a experimentar un molesto zumbido en los oídos.",
+    "se exponen continuamente a niveles altos de ruidos."
+   ],
+   "passage": 6,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 54,
+   "stem": "Señale la idea principal del texto.",
+   "options": [
+    "A diferencia de las culturas de consumo, las culturas de la Amazonía son percibidas como insignificantes y retrasadas.",
+    "Debido a la desinformación, los indígenas amazónicos no son percibidos como agentes sociales, económicos y de cambio.",
+    "Los conceptos y recursos de los indígenas amazónicos pueden ser claves para la supervivencia futura.",
+    "Hay avances importantes ignorados por la propaganda política y los medios de comunicación."
+   ],
+   "passage": 7,
+   "answer": "B",
+   "section": "lectura"
+  },
+  {
+   "id": 55,
+   "stem": "Se puede inferir que el problema de la falta de reconocimiento de las culturas indígenas amazónicas impide",
+   "options": [
+    "replantear las relaciones existentes entre Occidente y Oriente.",
+    "pensar que sus avances son más importantes que los occidentales.",
+    "acatar las recomendaciones de los organismos internacionales.",
+    "aceptar como válidas sus formas de resolver determinados problemas."
+   ],
+   "passage": 7,
+   "answer": "D",
+   "section": "lectura"
+  },
+  {
+   "id": 56,
+   "stem": "Contra lo que se piensa, el autor sostiene que las culturas indígenas de la Amazonía",
+   "options": [
+    "son capaces de asumir la modernidad y la globalización.",
+    "se quedarán como insignificantes y ajenas al consumo.",
+    "permanecerán como imagen viva del pasado y el atraso.",
+    "se mantendrán recluidas y sin vínculos con otros países."
+   ],
+   "passage": 7,
+   "answer": "A",
+   "section": "lectura"
+  },
+  {
+   "id": 57,
+   "stem": "Según el texto, algunos conceptos y recursos de las culturas indígenas amazónicas pueden ser claves para",
+   "options": [
+    "ser una sociedad de consumo.",
+    "desarrollar la economía regional.",
+    "la supervivencia futura.",
+    "obtener reconocimiento social."
+   ],
+   "passage": 7,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 58,
+   "stem": "Decodificar la prosa de modo literal consiste en",
+   "options": [
+    "explicar resumidamente y en prosa el contenido de un texto.",
+    "enunciar bien los códigos de un texto con palabras diferentes.",
+    "diferenciar los distintos códigos empleados en un texto.",
+    "pronunciar correctamente las palabras escritas de un texto."
+   ],
+   "passage": 8,
+   "answer": "D",
+   "section": "lectura"
+  },
+  {
+   "id": 59,
+   "stem": "Una de las capacidades que desarrolla un lector considerado un alfabeto funcional es",
+   "options": [
+    "comprender la universalidad e igualdad de la lectura.",
+    "entonar con propiedad todos los signos de puntuación.",
+    "inferir el significado que está escondido en un texto.",
+    "hacer hipótesis sobre el origen de las palabras de un texto."
+   ],
+   "passage": 8,
+   "answer": "C",
+   "section": "lectura"
+  },
+  {
+   "id": 60,
+   "stem": "Señale cuál de las siguientes acciones de lectura muestra un proceso cognitivo.",
+   "options": [
+    "Una estudiante lee el título de un texto y así supone su contenido.",
+    "Un lector repite con propiedad algunas frases que acaba de leer.",
+    "Un estudiante evoca su infancia a partir del título de una obra.",
+    "Un lector decide leer un libro completo y no dejarlo por la mitad."
+   ],
+   "passage": 8,
+   "answer": "A",
+   "section": "lectura"
+  }
+ ]
+}
