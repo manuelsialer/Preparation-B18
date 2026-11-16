@@ -555,14 +555,28 @@
       }
     }
 
-    fetch(bankUrl)
-      .then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
+    /* Carga del banco con reintentos: el CDN de GitHub Pages puede devolver
+       transitoriamente un error de red/404 mientras propaga un archivo nuevo,
+       y algunos navegadores cachean esa respuesta fallida. */
+    function loadBank(attempt) {
+      return fetch(bankUrl, { cache: attempt ? 'reload' : 'default' })
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .catch(function (err) {
+          if (attempt >= 3) throw err;
+          return new Promise(function (resolve) {
+            setTimeout(resolve, 500 * (attempt + 1));
+          }).then(function () { return loadBank(attempt + 1); });
+        });
+    }
+
+    loadBank(0)
       .then(boot)
       .catch(function (err) {
-        viewIntroError('No se pudo cargar el banco del simulacro (' + err.message + ').');
+        viewIntroError('No se pudo cargar el banco del simulacro (' + err.message +
+          '). Revisa tu conexión y vuelve a cargar la página.');
       });
   }
 
