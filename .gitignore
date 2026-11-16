@@ -21,8 +21,22 @@ Thumbs.db
 Libros/
 
 # Simulacro extractors (fuente reproducible de los bancos)
+!scratch/build_bank_2018.py
 !scratch/build_bank_2023.py
 !scratch/build_bank_2024.py
 !scratch/build_bank_2025.py
 !scratch/qa_bank.py
 !scratch/audit_katex_syntax_rigorous.py
+# Herramientas de extraccion/verificacion 2018
+!scratch/crop_2018.py
+!scratch/ocr_region.py
+!scratch/verify_crops2018.py
+!scratch/diag_2018.py
+!scratch/ascii2.py
+!scratch/viewpng.py
+!scratch/ocr_full2018.py
+!scratch/ocr_batch2018.py
+!scratch/col_2018.py
+!scratch/blocks_2018.py
+!scratch/figdetect.py
+!scratch/ocr_2019.py

@@ -59,6 +59,7 @@ chapters:
       - file: Clases/Competencia_Lectora/10_Lectura_Critica_Falacias_Sesgos_y_Credibilidad_de_Fuentes
   - file: Clases/Simulacros/index
     sections:
+      - file: Clases/Simulacros/simulacro-2018
       - file: Clases/Simulacros/simulacro-2023
       - file: Clases/Simulacros/simulacro-2024
       - file: Clases/Simulacros/simulacro-2025

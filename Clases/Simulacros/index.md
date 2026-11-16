@@ -14,6 +14,7 @@ Practica con los **exámenes oficiales** del Examen Nacional de Preselección (E
 
 | Simulacro | Convocatoria | Preguntas | Duración |
 |---|---|---|---|
+| [Simulacro 2018](simulacro-2018.md) | ENP 2018 | 60 | 120 min |
 | [Simulacro 2023](simulacro-2023.md) | ENP 2023 | 60 | 120 min |
 | [Simulacro 2024](simulacro-2024.md) | ENP 2024 | 60 | 120 min |
 | [Simulacro 2025](simulacro-2025.md) | ENP 2025 | 60 | 120 min |
