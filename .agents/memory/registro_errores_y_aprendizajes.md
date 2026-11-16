@@ -468,3 +468,21 @@ Este registro acumula todas las fallas detectadas y las lecciones derivadas dura
   9. Opciones constructo: base+num+den van al crop; SOLO cont va a texto (evita duplicacion base en crop+texto).
   10. Opciones se renderizan DESPUES del attach inline de figuras del stem (q.images pueden ir inline en opciones via tokens).
 * **Estado:** Banco 2024 con 60 preguntas, 0 flags QA, 48 imagenes sin huerfanos; desplegado y verificado por HTTP 200.
+
+---
+
+### Err-039 Extractor 2025: capas de texto duplicadas sobre rasters y asignacion de pasajes
+* **Fecha:** 2026-11-15
+* **Problema:** El PDF del ENP 2025 (examen-3) inserta infografias/graficos como imagenes raster y ADEMAS como texto real superpuesto (etiquetas de ejes, rotulos de lobulos cerebrales); el stem de Q12 quedo con "9 8 7 6 5 4 3 2 1 012345667". El pasaje de Texto 1 (region 0) no se asignaba a Q31-35 y el resto quedaba desfasado (Q36 -> pasaje 1 en vez de 2).
+* **Causas Raiz / Soluciones (invariantes):**
+  1. Texto dentro de un raster: descartar bandas de pregunta y lineas de pasaje cuyo bbox cae **por completo** dentro de un rect raster (box_in_raster). No afecta al cuerpo de articulos (lineas de ancho completo x0~70.7 no estan contenidas).
+  2. Umbral de fondo de pagina: el check `area > 0.45*PAGE_AREA` descartaba la infografia del cerebro (p17, ratio 0.487). Usar BG_RATIO=0.85; en este PDF no hay fondos reales (max ratio legitimo 0.49).
+  3. Asignacion de pasajes: `passage_of` debe persistir la region activa a traves de TODAS las preguntas (no resetear a None en cada 'q') y almacenar `region_index + 1` (1-based), porque la region 0 es falsy y `if passage_of.get(n,0)` la omitia. Mapeo: Texto N -> Q(30+5(N-1)+1 .. 30+5N).
+  4. `clusters(gap)`: la condicion de disjuncion debe usar `- gap` (no `+ gap`), de lo contrario dos rects separados por menos de 2*gap no se fusionan.
+  5. Rects degenerados de fitz (altura/ancho 0, p.ej. '=' o barras de fraccion): `Rect.is_empty` es True e `include_rect` los ignora -> normalizar a grosor 1.0 antes de agrupar.
+  6. Nombres de figuras fusionadas del enunciado: usar `q%02d_g%d.png` (NO `_f%d`, que colisiona con las figuras inline y sobrescribia recortes).
+  7. `absorb_into` (formulas vectoriales): absorber el char si su x0 cae dentro del rect y su **baseline oy** (no bbox, que es el de la linea completa) cae dentro; expandir solo x. Ej: Q17 f(x)=, Q20 radical.
+  8. `can_cont` (continuaciones de opciones): usar la x del primer caracter **no-espacio** (sx0), no x0 (las continuaciones empiezan con espacios, x0~70.7).
+  9. Pasaje = infografia completa: si una region tiene un unico raster grande, sus rotulos de texto son duplicados -> se eliminan y el pasaje queda titulo + imagen (Texto 2).
+* **Estado:** Banco 2025 con 60 preguntas, 0 flags QA, 39 imagenes sin huerfanas; pasajes 1-6 correctos (Q31-60); pagina simulacro-2025.md desplegada y verificada por HTTP 200.
+

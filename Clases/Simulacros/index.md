@@ -16,7 +16,7 @@ Practica con los **exámenes oficiales** del Examen Nacional de Preselección (E
 |---|---|---|---|
 | [Simulacro 2023](simulacro-2023.md) | ENP 2023 | 60 | 120 min |
 | [Simulacro 2024](simulacro-2024.md) | ENP 2024 | 60 | 120 min |
-| Simulacro 2025 — *en construcción* | ENP 2025 | 60 | 120 min |
+| [Simulacro 2025](simulacro-2025.md) | ENP 2025 | 60 | 120 min |
 
 ```{tip}
 Recomendación: resuelve cada simulacro **sin material de apoyo y sin detener el cronómetro** la primera vez, para medir tu nivel real. En un segundo intento usa el análisis de fallas para estudiar los temas en los capítulos correspondientes del compendio.
