@@ -24,7 +24,8 @@ export function esc(s) {
 }
 
 /* Texto enriquecido: escapa HTML, convierte saltos en <br> y los tokens
-   [[img:archivo.png]] en <img>. El LaTeX ($...$) queda intacto para MathJax. */
+   [[img:archivo.png]] en <img>. El LaTeX (delimitadores \(...\) y \[...\])
+   queda intacto para que MathJax lo tipografíe. */
 export function rich(text, imgBase, imgClass) {
   var out = esc(text);
   out = out.replace(TOKEN_RE, function (_, file) {
@@ -41,7 +42,7 @@ export function passageBody(html, imgBase) {
   for (var i = 0; i < parts.length; i++) {
     var t = parts[i].replace(/\n+/g, ' ').trim();
     if (!t) continue;
-    out += '<p class="sim-passage-line">' + rich(t, imgBase, 'sim-inline-img') + '</p>';
+    out += '<p class="sim-passage-line">' + rich(t, imgBase, 'sim-passage-img') + '</p>';
   }
   return out;
 }

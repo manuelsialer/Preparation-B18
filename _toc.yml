@@ -60,6 +60,8 @@ chapters:
   - file: Clases/Simulacros/index
     sections:
       - file: Clases/Simulacros/simulacro-2018
+      - file: Clases/Simulacros/simulacro-2018-s1
+      - file: Clases/Simulacros/simulacro-2019
       - file: Clases/Simulacros/simulacro-2023
       - file: Clases/Simulacros/simulacro-2024
       - file: Clases/Simulacros/simulacro-2025

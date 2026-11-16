@@ -306,7 +306,7 @@ function init(root, resolveUrl) {
     var figs = h('div', 'sim-figures');
     q.images.forEach(function (f) {
       var wrap = h('div', 'sim-figure');
-      wrap.innerHTML = '<img src="' + imgBase + '/' + esc(f) +
+      wrap.innerHTML = '<img class="sim-fig-img" src="' + imgBase + '/' + esc(f) +
         '" alt="figura del examen" loading="lazy">';
       figs.appendChild(wrap);
     });

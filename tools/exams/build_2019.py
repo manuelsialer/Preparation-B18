@@ -1,0 +1,511 @@
+# -*- coding: utf-8 -*-
+"""Construye el banco del Examen Unico Nacional Beca 18 — 2019-2020 (Matematica).
+
+Fuente: temarios/2027/Examen_Beca_18_Pronabec_2019-2020_RESUELTO_COMPLETO.pdf
+(solucionario con enunciado, opciones, resolucion y clave de cada problema).
+Solo cubre la parte de Matematica (preguntas 1 a 30); el solucionario no trae
+las preguntas 31 a 60 de Comprension Lectora.
+
+Pipeline:
+  1. Recorta las figuras/tablas de cada pregunta a _static/simulacros/img/2019/.
+  2. Escribe el banco de 30 preguntas con LaTeX \\(...\\) y claves oficiales.
+  3. Copia el banco a _static/simulacros/banks/2019.json.
+"""
+import os
+import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from b18 import bank as b18bank, console, crop as b18crop, pdfio  # noqa: E402
+
+console.setup_console()
+
+PDF = r'temarios\2027\Examen_Beca_18_Pronabec_2019-2020_RESUELTO_COMPLETO.pdf'
+OUT_IMG = r'_static\simulacros\img\2019'
+OUT_JSON = r'scratch\exams\banks\2019.json'
+PUB_JSON = r'_static\simulacros\banks\2019.json'
+
+# --------------------------------------------------------------------------
+# 1) RECORTES  (nombre, pagina 1-based, x0,y0,x1,y1)  coords PDF (puntos)
+#    Se llenan a partir de la deteccion de tinta no cubierta por texto OCR.
+# --------------------------------------------------------------------------
+BOXES = [
+    # figuras / tablas de los enunciados
+    ('p06_tbl.png', 6, 172, 402, 424, 558),      # tabla bacterias por hora
+    ('p09_int.png', 8, 165, 436, 428, 488),      # intervalos A y B
+    ('p10_graf.png', 9, 205, 158, 410, 315),     # grafico de ventas
+    ('p12_fig.png', 11, 165, 203, 430, 316),     # hexagono + mantel
+    ('p14_graf.png', 13, 138, 48, 460, 244),     # consumo electrico
+    ('p15_fig.png', 14, 138, 38, 460, 226),      # pueblos A, B, C
+    ('p16_fig.png', 15, 183, 256, 415, 408),     # edificios + dron
+    ('p17_tbl.png', 16, 146, 430, 448, 580),     # orden de merito
+    ('p18_graf.png', 17, 143, 488, 450, 640),    # barras por mes
+    ('p20_a.png', 19, 165, 363, 300, 505),       # graficas de las opciones
+    ('p20_b.png', 19, 310, 363, 435, 505),
+    ('p20_c.png', 19, 165, 496, 300, 635),
+    ('p20_d.png', 19, 310, 496, 435, 635),
+    ('p22_tbl.png', 20, 150, 686, 445, 802),     # consumo por bacteria
+    ('p23_fig.png', 21, 253, 634, 385, 802),     # escalera tijera
+    ('p24_fig.png', 22, 233, 493, 362, 562),     # anteojos
+    ('p25_tbl.png', 23, 168, 526, 430, 662),     # ingresos por dia
+    ('p26_tbl.png', 24, 190, 374, 412, 494),     # censo viviendas
+    ('p28_fig.png', 26, 208, 136, 425, 322),     # maceta conica
+    ('p29_fig.png', 26, 176, 664, 425, 806),     # letrero luminoso
+]
+
+# --------------------------------------------------------------------------
+# 2) BANCO  (transcripcion del solucionario; LaTeX \\(...\\) inline)
+# --------------------------------------------------------------------------
+
+PASSAGES = []
+
+Q = []
+
+
+def q(qid, stem, opts, ans, imgs=None, explain=None):
+    Q.append({
+        'id': qid, 'stem': stem, 'options': opts, 'answer': ans,
+        'section': 'matematica', 'passage': None,
+        'images': imgs or [], 'explain': explain,
+    })
+
+
+q(1,
+  'Realiza la siguiente operación:\n'
+  '\\[\\varphi+\\sqrt{5}\\]\n'
+  'Recuerda que: \\(\\sqrt{5}=2{,}23607\\ldots\\) y \\(\\varphi=1{,}61803\\ldots\\)\n'
+  'Según el resultado de esta operación, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['El resultado es igual a 3,8540 cuando se aproxima a las diezmilésimas.',
+   'El resultado es igual a 3,855 cuando se aproxima a las milésimas.',
+   'El resultado es igual a 3,86 cuando se aproxima a las centésimas.',
+   'El resultado es igual a 3,9 cuando se aproxima a las décimas.'],
+  'D',
+  explain='\\(1{,}61803+2{,}23607=3{,}85410\\). Al aproximar a las décimas '
+          '(1 decimal) se mira la segunda cifra decimal (5), por lo que '
+          'redondea hacia arriba: \\(3{,}9\\).')
+
+q(2,
+  'La masa de un protón es de \\(1670\\times10^{-30}\\) kilogramos. '
+  '¿Cuál es la masa, en kilogramos, de 10 000 protones, expresada en notación científica?',
+  ['\\(1{,}67\\times10^{-24}\\) kilogramos',
+   '\\(1{,}67\\times10^{-23}\\) kilogramos',
+   '\\(0{,}167\\times10^{-22}\\) kilogramos',
+   '\\(167\\times10^{-25}\\) kilogramos'],
+  'B',
+  explain='\\(m=10^{4}\\times1670\\times10^{-30}=10^{4}\\times1{,}67\\times10^{3}'
+          '\\times10^{-30}=1{,}67\\times10^{-23}\\) kg.')
+
+q(3,
+  'Dada la siguiente ecuación:\n\\[(2x-3)(5x-2)=0\\]\n'
+  '¿Cuál de las siguientes afirmaciones es correcta?',
+  ['El producto de las soluciones de esta ecuación es 6.',
+   'Las dos soluciones de esta ecuación son negativas.',
+   'Las dos soluciones de esta ecuación son fracciones.',
+   'La suma de las soluciones de esta ecuación es un número entero.'],
+  'C',
+  explain='\\(2x-3=0\\Rightarrow x=\\frac{3}{2}\\) y \\(5x-2=0\\Rightarrow '
+          'x=\\frac{2}{5}\\). Ambas son fracciones.')
+
+q(4,
+  'Resuelve la siguiente inecuación:\n\\[-7<2x-3<7\\]\n'
+  '¿Cuántos valores enteros positivos satisfacen la inecuación?',
+  ['5', '4', '3', '2'],
+  'B',
+  explain='Sumando 3: \\(-4<2x<10\\); dividiendo entre 2: \\(-2<x<5\\). '
+          'Los enteros positivos son \\(1,2,3,4\\): cuatro valores.')
+
+q(5,
+  'Hace 20 años, Álvaro depositó S/ 100 000 en una entidad financiera. '
+  'Actualmente, dicha entidad le ofrece retirar el monto total, equivalente a '
+  'S/ 250 000. Usará este monto para comprarse un departamento. '
+  '¿Cuál fue la tasa de interés simple que le ofreció dicha entidad durante todo '
+  'este tiempo? Recuerda que: Interés \\(=\\) Capital \\(\\times\\) Tasa \\(\\times\\) Tiempo',
+  ['17,5 %', '12,5 %', '7,5 %', '0,075 %'],
+  'C',
+  explain='Interés \\(=250000-100000=150000\\). Luego \\(150000=100000\\times r'
+          '\\times20\\Rightarrow r=0{,}075=7{,}5\\,\\%\\) anual.')
+
+q(6,
+  'En un laboratorio de microbiología, un equipo de investigadores está estudiando '
+  'el comportamiento de una cepa de bacterias en condiciones óptimas de cultivo, '
+  'las cuales se cuadruplican cada hora. Al iniciar el experimento, se contaron '
+  'exactamente 9 bacterias en la muestra, registrándose los siguientes datos '
+  'durante las 3 primeras horas:\n[[img:p06_tbl.png]]\n'
+  'Según la información de esta tabla, ¿cuál es la diferencia entre la cantidad '
+  'de bacterias de la tercera y la segunda hora?',
+  ['\\(2^{2}\\times3^{3}\\)', '\\(2^{4}\\times3^{3}\\)',
+   '\\(2\\times3^{2}\\)', '\\(2^{3}\\times3^{4}\\)'],
+  'B',
+  imgs=['p06_tbl.png'],
+  explain='Hora 2: \\(144\\); hora 3: \\(576\\). Diferencia \\(=576-144=432'
+          '=2^{4}\\times3^{3}\\).')
+
+q(7,
+  'El ritmo de carrera indica cuántos minutos tarda un corredor en recorrer un '
+  'kilómetro. Por ejemplo, un ritmo de carrera de 5:15 minutos por kilómetro '
+  'significa que un corredor recorre 1 km en 5 minutos con 15 segundos. '
+  'Aunque el ritmo de carrera es útil, a veces es necesario relacionarlo con su '
+  'velocidad equivalente, expresada en metros por segundo. Según esta información, '
+  'si Juan corre a una velocidad de 5 metros por segundo, ¿a qué ritmo de carrera, '
+  'en minutos por kilómetro, está corriendo?',
+  ['3:33 minutos por kilómetro', '3:30 minutos por kilómetro',
+   '3:20 minutos por kilómetro', '3:18 minutos por kilómetro'],
+  'C',
+  explain='\\(t=\\frac{1000\\,\\text{m}}{5\\,\\text{m/s}}=200\\,\\text{s}'
+          '=3\\,\\text{min }20\\,\\text{s}\\).')
+
+q(8,
+  'María quiere preparar un queque de vainilla para su familia y necesita los '
+  'siguientes ingredientes:\n'
+  '• \\(1\\tfrac{1}{2}\\) tazas de harina preparada\n'
+  '• 1 taza de azúcar (200 gramos)\n'
+  '• 100 gramos de mantequilla\n'
+  '• 60 mililitros de leche\n'
+  'Para esta situación, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['La cantidad de harina preparada es \\(\\frac{1}{2}\\) de la cantidad de azúcar.',
+   'La cantidad de harina preparada es \\(\\frac{1}{2}\\) de la cantidad de mantequilla.',
+   'La cantidad de mantequilla es \\(\\frac{1}{2}\\) de la cantidad de azúcar.',
+   'La cantidad de mantequilla es \\(\\frac{2}{3}\\) de la cantidad de harina preparada.'],
+  'C',
+  explain='Azúcar \\(=200\\) g y mantequilla \\(=100\\) g, entonces la mantequilla '
+          'es \\(\\frac{1}{2}\\) del azúcar.')
+
+q(9,
+  'Dados los siguientes intervalos de números reales:\n'
+  '[[img:p09_int.png]]\n'
+  '¿Cuál de las siguientes alternativas representa \\(A-B\\)?',
+  ['\\(\\varnothing\\)', '\\([-\\frac{1}{2};-\\frac{1}{4}]\\)',
+   '\\((-\\frac{1}{2};-\\frac{1}{4})\\)', '\\(\\{0\\}\\)'],
+  'C',
+  imgs=['p09_int.png'],
+  explain='\\(-\\frac{1}{2}\\) y \\(-\\frac{1}{4}\\) pertenecen a \\(A\\) pero no a '
+          '\\(B\\), así que son los únicos valores de \\(A-B\\).')
+
+q(10,
+  'Un comerciante dedicado a la venta de sacos de arroz revisa el gráfico de '
+  'ventas preparado por su asistente y nota que faltan algunos registros.\n'
+  '[[img:p10_graf.png]]\n'
+  'Según el gráfico de ventas mostrado, ¿cuál es la expresión que le permite '
+  'calcular la cantidad de sacos vendidos a los 40 días?',
+  ['\\(\\dfrac{n_4-96}{40-30}=\\dfrac{96-32}{30-10}\\)',
+   '\\(\\dfrac{96}{40}=\\dfrac{96-32}{30}\\)',
+   '\\((96)(30)=(n_4)(40)\\)',
+   '\\(\\dfrac{n_4-n_2}{40-20}=\\dfrac{96-32}{30-10}\\)'],
+  'A',
+  imgs=['p10_graf.png'],
+  explain='Sacos vendidos y días son directamente proporcionales, entonces '
+          'los incrementos guardan la misma razón: '
+          '\\(\\frac{n_4-96}{40-30}=\\frac{96-32}{30-10}\\).')
+
+q(11,
+  'Tres amigas, Martha, Jimena y Rocío tienen S/ 3 500. Si Martha tiene S/ 150 '
+  'menos que Jimena y Rocío tiene S/ 170 más que Jimena, según esta situación, '
+  '¿cuánto dinero tiene Martha?',
+  ['S/ 2 225', 'S/ 1 210', 'S/ 1 125', 'S/ 1 010'],
+  'D',
+  explain='Si Jimena tiene \\(x\\): \\(x+(x-150)+(x+170)=3500\\Rightarrow '
+          '3x+20=3500\\Rightarrow x=1160\\). Martha \\(=1160-150=1010\\).')
+
+q(12,
+  'María quiere modernizar su comedor; por esta razón, compra una mesa cuyo '
+  'tablero tiene forma de hexágono regular y sus lados miden un metro de longitud. '
+  'Para cubrirla y evitar las puntas que se forman al usar un mantel cuadrado, '
+  'prefiere comprar un mantel circular. ¿Cuál de las siguientes afirmaciones es la '
+  'correcta respecto a la longitud que deberá tener el diámetro del mantel?',
+  ['Debe ser igual a la longitud de los lados del hexágono.',
+   'Debe ser igual a la longitud de cualquiera de las diagonales del hexágono.',
+   'Debe ser igual a la longitud de la diagonal del hexágono que pasa por el centro.',
+   'Debe ser igual al doble de la longitud de la apotema del hexágono.'],
+  'C',
+  imgs=['p12_fig.png'],
+  explain='El mantel debe circunscribir al hexágono, así que su diámetro coincide '
+          'con la diagonal mayor (la que pasa por el centro).')
+
+q(13,
+  'Una estrategia comercial común consiste en fijar un precio de lista superior al '
+  'precio de venta y luego ofrecer un descuento para que el precio final parezca '
+  'más atractivo al cliente.\n'
+  'En la Tienda A, se fija el precio de un celular aumentando el 5 % del precio de '
+  'venta, para luego ofrecer un descuento del 20 % sobre ese precio inflado.\n'
+  'En la Tienda B, se fija el precio del mismo celular aumentando el 12 % del '
+  'precio de venta, pero ofreciendo luego un descuento del 25 % sobre ese precio '
+  'inflado.\n'
+  'Si Carlos desea comprar un celular, cuyo precio de venta es el mismo en ambas '
+  'tiendas, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['A Carlos no le conviene comprar en la Tienda A porque el descuento del 20 % es '
+   'menor que el 25 % ofrecido en la Tienda B.',
+   'A Carlos le conviene comprar en la Tienda A porque la diferencia 20 % − 5 % = 15 % '
+   'le ofrecería un mayor descuento en comparación a la Tienda B cuya diferencia es '
+   'de 25 % − 12 % = 13 %.',
+   'A Carlos le conviene comprar en cualquiera de las dos tiendas porque el descuento '
+   'en cada una es el mismo.',
+   'A Carlos le conviene comprar en la Tienda A porque el aumento del 5 % es menor en '
+   'comparación al aumento del 12 % en la Tienda B.'],
+  'C',
+  explain='Tienda A: \\(1{,}05\\times0{,}80=0{,}84\\); Tienda B: '
+          '\\(1{,}12\\times0{,}75=0{,}84\\). En ambas se paga el 84 % del precio, '
+          'es decir, un descuento del 16 %.')
+
+q(14,
+  'Debido al aumento en las tarifas de electricidad, en un hogar peruano instalaron '
+  'un medidor digital que permite observar en tiempo real el consumo de electricidad '
+  'en vatios (W).\n[[img:p14_graf.png]]\n¿Cuál de las siguientes afirmaciones es correcta?',
+  ['El máximo consumo de electricidad es igual al doble del mínimo consumo.',
+   'El incremento del consumo de electricidad entre las 6 horas hasta las 20 horas '
+   'es de 1500 W.',
+   'El máximo consumo de electricidad se da a las 20 horas.',
+   'El consumo de electricidad a las 6 horas es menor que 800 W.'],
+  'C',
+  imgs=['p14_graf.png'],
+  explain='Del gráfico, el consumo mínimo se da a las 6 horas y el máximo a las '
+          '20 horas.')
+
+q(15,
+  'Se quiere hacer un túnel a través de un cerro, para construir una carretera que '
+  'una los pueblos A y B en línea recta. Actualmente, para ir del pueblo A al pueblo '
+  'B, es necesario pasar por la localidad C. Desde C, usando un instrumento de '
+  'medición, se observan los dos pueblos con un ángulo de abertura de \\(60^{\\circ}\\), '
+  'tal como se muestra en la figura.\n[[img:p15_fig.png]]\n'
+  'Además, se han medido las distancias desde la localidad C hacia cada uno de los '
+  'pueblos, siendo estas: CA \\(=\\) 500 metros y CB \\(=\\) 800 metros. '
+  'Según esta información, ¿cuál será la longitud de la carretera que unirá los '
+  'pueblos A y B (línea recta AB)?',
+  ['550 metros', '\\(100\\sqrt{39}\\) metros', '650 metros', '700 metros'],
+  'D',
+  imgs=['p15_fig.png'],
+  explain='Con la altura sobre AB se forman triángulos notables de \\(30^{\\circ}\\) '
+          'y \\(60^{\\circ}\\): se obtienen \\(250\\sqrt{3}\\), 250 y 550. Luego '
+          '\\(AB^{2}=550^{2}+(250\\sqrt{3})^{2}\\Rightarrow AB=700\\) m.')
+
+q(16,
+  'Pedro, a través de la Unidad de Medida Inercial de un dron, observa la azotea de '
+  'un edificio de 100 m de altura, con un ángulo de depresión de \\(37^{\\circ}\\) '
+  'respecto a la horizontal. En el mismo instante, observa la azotea de otro edificio '
+  'de 50 m de altura con un ángulo de depresión de \\(53^{\\circ}\\). '
+  'Los edificios están separados 500 m.\n[[img:p16_fig.png]]\n'
+  '¿Cuál es la altura con la que el dron vuela respecto a la base de los edificios?',
+  ['222 m', '272 m', '296 m', '322 m'],
+  'D',
+  imgs=['p16_fig.png'],
+  explain='Con los triángulos de \\(37^{\\circ}\\) y \\(53^{\\circ}\\): '
+          '\\(3d+4k=500\\Rightarrow d=68\\) y \\(4d-3k=50\\). Entonces '
+          '\\(h_{\\text{dron}}=4d+50=4(68)+50=322\\) m.')
+
+q(17,
+  'La tutora de quinto de secundaria quiere conocer en qué orden de mérito estarían '
+  'María, Luis, José y Eva, pero su registro cuenta con evaluaciones de 8 de las 10 '
+  'áreas que han cursado durante el año 2025. Los cuatro estudiantes se encuentran '
+  'en los niveles: L = Logrado y D = Destacado (L < D).\n[[img:p17_tbl.png]]\n'
+  'Según esta información, ¿cuál de las siguientes afirmaciones es falsa?',
+  ['Es posible que María alcance el primer puesto.',
+   'Es posible que Eva alcance el primer puesto.',
+   'Es imposible que José logre el primer puesto.',
+   'Es seguro que Luis logre el primer puesto.'],
+  'B',
+  imgs=['p17_tbl.png'],
+  explain='Completando el cuadro: M (5D y 3L), L (7D y 1L), J (3D y 5L), '
+          'E (4D y 4L). Aunque Eva logre dos destacados más, no supera a Luis.')
+
+q(18,
+  'Mario se prepara durante 5 meses para rendir el examen de PRONABEC. La gráfica '
+  'muestra las horas promedio que ha estudiado cada mes en Matemática y Comunicación.\n'
+  '[[img:p18_graf.png]]\nSegún esta gráfica, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['Entre los meses de junio y julio, Mario ha estudiado 20 horas más de Comunicación '
+   'que de Matemática.',
+   'El porcentaje de horas que Mario decidió estudiar Comunicación durante los cinco '
+   'meses fue del 45 %.',
+   'El porcentaje de horas que Mario dedicó a estudiar Matemática durante los cinco '
+   'meses fue aproximadamente del 53 %.',
+   'Entre los meses de junio y agosto, Mario ha estudiado 10 horas más de Matemática '
+   'que de Comunicación.'],
+  'C',
+  imgs=['p18_graf.png'],
+  explain='\\(t_{MAT}=90+80+90+70+90=420\\) h y \\(t_{COM}=70+100+50+90+70=380\\) h. '
+          'Total 800 h, entonces \\(\\frac{420}{800}\\times100\\%=52{,}5\\%\\approx53\\%\\).')
+
+q(19,
+  'El costo fijo de una llamada internacional es de S/ 0,50 por los primeros 3 '
+  'minutos y S/ 0,05 por cada minuto adicional o fracción. Si Diana realiza una '
+  'llamada que dura más de 3 minutos, ¿qué función representa el pago total "p" '
+  '(en soles) que Diana debe realizar por los "t" minutos de duración de la llamada?',
+  ['\\(p(t)=0{,}05t\\)',
+   '\\(p(t)=0{,}50+0{,}05t\\)',
+   '\\(p(t)=0{,}05+0{,}50(t-3)\\)',
+   '\\(p(t)=0{,}50+0{,}05(t-3)\\)'],
+  'D',
+  explain='Una parte fija (S/ 0,50) más una variable por cada minuto a partir del '
+          'cuarto: \\(p(t)=0{,}50+0{,}05(t-3)\\).')
+
+q(20,
+  'Carmen suelta una pelota de tenis desde una altura de 20 metros. La altura "h" '
+  '(en metros), en el instante "t" (en segundos), se representa por la siguiente '
+  'función:\n\\[h(t)=20-5t^{2}\\]\n'
+  '¿Cuál de las siguientes gráficas representa adecuadamente la función \\(h(t)\\)?',
+  ['[[img:p20_a.png]]', '[[img:p20_b.png]]', '[[img:p20_c.png]]', '[[img:p20_d.png]]'],
+  'A',
+  explain='Es una parábola que abre hacia abajo, con \\(h(0)=20\\) y corta al eje t '
+          'en \\(t=\\pm2\\).')
+
+q(21,
+  'Dada la siguiente progresión de infinitos términos:\n'
+  '\\[1+\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\frac{1}{81}+\\cdots\\]\n'
+  '¿Cuál es la suma de todos los términos de toda la progresión?',
+  ['\\(\\frac{40}{81}\\)', '\\(\\frac{1}{2}\\)', '\\(\\frac{121}{81}\\)', '\\(\\frac{3}{2}\\)'],
+  'D',
+  explain='Serie geométrica con \\(a_1=1\\) y \\(r=\\frac{1}{3}\\): '
+          '\\(S=\\frac{1}{1-\\frac{1}{3}}=\\frac{3}{2}\\).')
+
+q(22,
+  'Una bióloga colocó en un tubo de ensayo una cepa de bacterias alfa y una cepa de '
+  'bacterias beta. Ambas bacterias consumen dos tipos de alimentos: P y Q. Cada día '
+  'se colocan en el tubo 800 unidades de alimento P y 1150 unidades de alimento Q. '
+  'La siguiente tabla muestra el consumo diario por bacteria:\n[[img:p22_tbl.png]]\n'
+  'Para determinar cuántas bacterias de cada cepa se deben colocar en el tubo, se '
+  'plantea el siguiente sistema:\n'
+  '\\[\\begin{cases}x+2y=800\\\\x+3y=1150\\end{cases}\\]\n'
+  'Donde "x" es la cantidad de bacterias alfa y "y" la cantidad de bacterias beta. '
+  'Según esta información, ¿cuántas bacterias alfa deben colocarse en el tubo?',
+  ['100 bacterias', '250 bacterias', '390 bacterias', '450 bacterias'],
+  'A',
+  imgs=['p22_tbl.png'],
+  explain='Resolviendo el sistema: \\(x=100\\), \\(y=350\\). Deben colocarse 100 '
+          'bacterias de la cepa alfa.')
+
+q(23,
+  'Un electricista necesita una escalera para hacer instalaciones. La escalera tipo '
+  'tijera tiene largueros de 2,5 metros y distancia lateral entre las zapatas de '
+  '1,4 metros. Las especificaciones indican que la altura máxima segura es 1,2 '
+  'metros mayor que la altura de la escalera. Según toda esta información, ¿cuál es '
+  'la altura máxima que puede alcanzar el electricista con dicha escalera?\n'
+  '[[img:p23_fig.png]]',
+  ['3,8 metros', '3,7 metros', '3,6 metros', '2,4 metros'],
+  'C',
+  imgs=['p23_fig.png'],
+  explain='Por Pitágoras: \\(h^{2}=2{,}5^{2}-0{,}7^{2}\\Rightarrow h=2{,}4\\) m. '
+          'Entonces \\(h_{\\max}=2{,}4+1{,}2=3{,}6\\) m.')
+
+q(24,
+  'A Maritza le gusta usar anteojos con lunas de forma circular. Las especificaciones '
+  'de medidas para comprar anteojos son tres: ancho de los anteojos, ancho del puente '
+  'y longitud de la varilla.\n[[img:p24_fig.png]]\n'
+  'Según esta información, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['El ancho del puente es un segmento tangente a las dos lunas.',
+   'El ancho de su cara sería menor a la longitud del radio de cada luna más el ancho '
+   'del puente.',
+   'El ancho de los anteojos sería igual a la longitud de las dos lunas más el ancho '
+   'del puente.',
+   'El ancho de las lunas es mayor a la suma de los dos diámetros de las lunas.'],
+  'D',
+  imgs=['p24_fig.png'],
+  explain='Del gráfico: \\(\\frac{\\text{ancho anteojos}}{\\text{suma diámetros}}='
+          '\\frac{2D+L}{2D}>1\\), así que el ancho de las lunas es mayor que la suma '
+          'de los dos diámetros.')
+
+q(25,
+  'Un comerciante de zapatos ha identificado los ingresos de sus ventas durante los '
+  '30 días del mes de abril. La información presentada es:\n[[img:p25_tbl.png]]\n'
+  'Según esta información, ¿qué porcentaje de los días del mes tuvo ingresos '
+  'inferiores a S/ 2 200?',
+  ['10 %', '30 %', '40 %', '60 %'],
+  'D',
+  imgs=['p25_tbl.png'],
+  explain='La frecuencia relativa acumulada hasta los ingresos menores a S/ 2200 es '
+          '\\(0{,}20+0{,}10+0{,}30=0{,}60\\), es decir, 60 %.')
+
+q(26,
+  'La información del Censo 2017 muestra el número de viviendas según el número de '
+  'habitantes por vivienda en un pueblo rural.\n[[img:p26_tbl.png]]\n'
+  'Según esta información, ¿cuál es el promedio de habitantes por vivienda, si se '
+  'han encuestado 1 210 viviendas?',
+  ['3 520 habitantes', '880 habitantes', '2,93 habitantes', '2,91 habitantes'],
+  'D',
+  imgs=['p26_tbl.png'],
+  explain='Habitantes: \\(150+520+1050+1800=3520\\). Promedio \\(=\\frac{3520}{1210}'
+          '\\approx2{,}91\\) habitantes por vivienda.')
+
+q(27,
+  'Con el uso diario, es normal que la batería de un celular pierda capacidad '
+  'gradualmente. La capacidad de una batería es la cantidad de energía que puede '
+  'almacenar, y puede ser modelada mediante la siguiente función:\n'
+  '\\[C(t)=100(0{,}5)^{t}\\]\n'
+  'Donde:\n'
+  '• \\(C(t)\\) = capacidad de la batería, expresada en porcentaje.\n'
+  '• \\(t\\) = tiempo, expresado en años.\n'
+  'De acuerdo con este modelo, ¿cuál de las siguientes afirmaciones es correcta?',
+  ['La capacidad de la batería al final del primer año es del 100 %.',
+   'La capacidad de la batería se reduce al 25 % después de 4 años de uso.',
+   'A los dos años de uso, la capacidad de la batería se reduce en más del 50 %.',
+   'A los tres años de uso, la capacidad de la batería es 87,5 %.'],
+  'C',
+  explain='\\(C(1)=50\\%\\), \\(C(2)=25\\%\\), \\(C(3)=12{,}5\\%\\). A los dos años '
+          'se redujo en un 75 % de su capacidad (más del 50 %).')
+
+q(28,
+  'María compra una maceta en forma de cono invertido para sembrar una planta, tal '
+  'como se muestra en la figura. La maceta solo se llena con tierra hasta una altura '
+  'de 60 cm, cubriendo un diámetro de 30 cm.\n[[img:p28_fig.png]]\n'
+  'De acuerdo con la situación descrita, ¿cuál es el volumen que ocupa la tierra en '
+  'esta maceta?',
+  ['\\(4500\\pi\\) cm³', '\\(9000\\pi\\) cm³',
+   '\\(13500\\pi\\) cm³', '\\(18000\\pi\\) cm³'],
+  'A',
+  imgs=['p28_fig.png'],
+  explain='Radio \\(=15\\) cm, altura \\(=60\\) cm: '
+          '\\(V=\\frac{1}{3}\\pi(15)^{2}(60)=4500\\pi\\) cm³.')
+
+q(29,
+  '"Óptica Biónica" quiere hacer un cambio del letrero publicitario. El diseñador '
+  'le muestra a la propietaria la forma de un letrero luminoso (ver figura).\n'
+  '[[img:p29_fig.png]]\n'
+  'De acuerdo con la situación descrita, ¿cuál de las afirmaciones que realiza el '
+  'diseñador es correcta?',
+  ['La altura del letrero es 2 metros.',
+   'El perímetro del letrero es 7 metros.',
+   'La diagonal del letrero mide más de 1 m.',
+   'Los lados con medidas de 2 m y 3 m del letrero son perpendiculares.'],
+  'C',
+  imgs=['p29_fig.png'],
+  explain='La diagonal es la hipotenusa de un triángulo rectángulo, por lo que mide '
+          'más que sus catetos (2,5 m y 1 m).')
+
+q(30,
+  'El juego "Talento" consiste en el lanzamiento de dos dados no trucados. La '
+  'condición para ganar el juego es que los números obtenidos en los dos dados '
+  'lanzados sean pares y mayores a 2. '
+  '¿De cuántas formas se puede ganar el juego "Talento"?',
+  ['6', '4', '3', '2'],
+  'B',
+  explain='Números pares mayores que 2: \\(\\{4,6\\}\\) en cada dado. '
+          '\\(2\\times2=4\\) formas.')
+
+
+BANK = {
+    'year': 2019,
+    'title': 'Examen Único Nacional Beca 18 — 2019-2020 (Matemática)',
+    'duration_min': 60,
+    'sections': [{'id': 'matematica', 'label': 'Razonamiento Matemático', 'from': 1, 'to': 30}],
+    'passages': PASSAGES,
+    'questions': Q,
+}
+
+
+def crop():
+    if not BOXES:
+        print('sin recortes definidos')
+        return
+    b18crop.crop_boxes(pdfio.open_pdf(PDF), BOXES, OUT_IMG, zoom=4)
+
+
+def main():
+    crop()
+    b18bank.write_bank(BANK, OUT_JSON)
+    os.makedirs(os.path.dirname(PUB_JSON), exist_ok=True)
+    shutil.copyfile(OUT_JSON, PUB_JSON)
+    issues = b18bank.validate_bank(BANK, expected=30)
+    assert not issues, issues
+    print(b18bank.qa_report(BANK, expected=30))
+    print('OK  banco 2019 -> %s' % PUB_JSON)
+
+
+if __name__ == '__main__':
+    main()

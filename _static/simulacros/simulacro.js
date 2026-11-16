@@ -43,18 +43,77 @@
     return null;
   })();
 
+  /* Muestra un aviso accionable cuando el motor no puede cargarse. Es el caso
+     tipico de abrir el libro directamente desde el disco (file://): el
+     navegador bloquea por CORS tanto los módulos ES (.mjs) como fetch() del
+     banco JSON. Sin este aviso el <div class="simulacro"> quedaria vacío y
+     pareceria que el examen no existe. */
+  function showFallback() {
+    var root = document.querySelector('div.simulacro[data-bank]');
+    if (!root) return;
+
+    var rel = null;
+    var localUrl = null;
+    try {
+      if (location.protocol === 'file:') {
+        var m = location.pathname.split('/_build/html/');
+        if (m.length === 2) {
+          rel = m[1];
+          localUrl = 'http://localhost:8000/' + rel;
+        }
+      }
+    } catch (e) { /* noop */ }
+
+    var liveUrl = rel
+      ? 'https://manuelsialer.github.io/Preparation-B18/' + rel
+      : 'https://manuelsialer.github.io/Preparation-B18/Clases/Simulacros/';
+
+    var html =
+      '<div class="sim-card sim-card-center">' +
+      '<h3 class="sim-title">Abre este simulacro desde el servidor o en línea</h3>' +
+      '<p class="sim-muted">El examen interactivo carga sus módulos y su banco de preguntas desde el navegador. ' +
+      'Al abrir el archivo directamente desde el disco (<code>file://</code>) el navegador bloquea esa carga por seguridad, ' +
+      'por eso el simulacro no aparece.</p>' +
+      '<p class="sim-muted"><b>Opción 1 — versión publicada (funciona al instante):</b><br>' +
+      '<a href="' + liveUrl + '" target="_blank" rel="noopener">' + liveUrl + '</a></p>' +
+      (localUrl
+        ? '<p class="sim-muted"><b>Opción 2 — servidor local:</b> ejecuta ' +
+          '<code>python -m http.server 8000 --directory _build/html</code> en la raíz del proyecto ' +
+          'y abre <a href="' + localUrl + '">' + localUrl + '</a></p>'
+        : '') +
+      '<p class="sim-muted">Si ya estás en un servidor (http/https) y ves este mensaje, recarga la página; ' +
+      'si persiste, revisa la consola del navegador.</p>' +
+      '</div>';
+
+    root.innerHTML = html;
+  }
+
   /* Importa el motor solo si la pagina trae un simulacro (evita cargar los
      módulos y MathJax en el resto del libro, donde simulacro.js también se
      inyecta globalmente). */
   function boot() {
     if (!BASE) return;
     if (!document.querySelector('div.simulacro[data-bank]')) return;
-    import(new URL('src/engine.mjs', BASE).href)
+
+    var promise;
+    try {
+      promise = import(new URL('src/engine.mjs', BASE).href);
+    } catch (e) {
+      // Navegadores sin soporte de import() dinamico.
+      if (window.console && console.error) {
+        console.error('simulacro: import() no disponible', e);
+      }
+      showFallback();
+      return;
+    }
+
+    promise
       .then(function (engine) { engine.start(BASE); })
       .catch(function (e) {
         if (window.console && console.error) {
           console.error('simulacro: no se pudo cargar el motor', e);
         }
+        showFallback();
       });
   }
 

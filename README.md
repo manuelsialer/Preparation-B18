@@ -88,8 +88,18 @@ pip install -r requirements.txt
 jupyter-book build .
 
 # 5. Visualizar en tu navegador
-# Abre el archivo _build/html/index.html en cualquier navegador web.
+# Importante: sirve el libro por HTTP, no abras el HTML con file://.
+# Los simulacros interactivos usan módulos ES y fetch(), que el navegador
+# bloquea al abrir archivos locales directamente.
+python -m http.server 8000 --directory _build/html
+# Luego abre: http://localhost:8000/
+
+# En Windows también puedes usar el atajo incluido:
+# .\serve.ps1
 ```
+
+> **¿Por qué no abrir `_build/html/index.html` directamente?**
+> Al abrirlo con `file://` el navegador bloquea por CORS los módulos `.mjs` y la carga del banco JSON de los simulacros; la página se ve, pero el examen interactivo no aparece. Con el servidor local (o la versión publicada en GitHub Pages) todo funciona.
 
 ---
 

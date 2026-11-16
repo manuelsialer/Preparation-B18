@@ -1,18 +1,31 @@
 """Extrae el examen 2025 a scratch/exams/banks/2025.json (formato hibrido).
 
-Pipeline (adaptado del extractor 2024):
-  1. Todas las fuentes (ArialMT/Arial-Bold/Italic, Calibri-Bold) tienen
-     ToUnicode roto: se decodifican por GID contra los TTF del sistema.
-  2. Marcadores de pregunta = lineas "PREGUNTA N" (Arial-Bold, linea propia).
-  3. Pasajes = lineas "Texto N" (6 textos, 5 preguntas cada uno, Q31-60).
-  4. Opciones etiquetadas "a)".."d)" en columna unica; super/subindices como
-     bandas satelite (dy ~5.5 en Arial) -> Unicode si mapea, si no crop por
-     clusters.
-  5. Figuras: rasters + drawings. Figuras pequenas superpuestas a una banda
-     de texto -> token inline [[img:...]]. Opciones-imagen (Q7) se adjuntan
-     por fila; preguntas sin filas de opciones (Q20, Q26) tienen su imagen
-     de opciones partida en 4 recortes segun el perfil de tinta.
-  6. Claves de la pagina 28 (pares "1c 31d ...").
+Particularidades del ENP 2025 vs 2024:
+  - Fuentes Arial (decodificacion por GID contra los TTF del sistema; el
+    rawdict se usa como fallback). No hay CambriaMath: las expresiones
+    matematicas son rasters pequenos o trazos vectoriales incrustados.
+  - Marcadores "PREGUNTA N" (negrita) y pasajes "Texto N" (negrita, con
+    titulo centrado en negrita debajo).
+  - Etiquetas de opcion en minuscula: a) b) c) d).
+  - Super/subindices: chars posicionales (dy ~5.5-6) -> Unicode SUP/SUB;
+    ventana de satelite 3.0-6.9 (la linea vecina queda a 7.2+).
+  - Clusters pequenos (h <= 34) = formulas inline: los raster se recortan
+    tal cual; los vectoriales absorben los chars de formula (size < 10.6)
+    cercanos en la misma linea, iterativamente.
+  - P27: opciones 100% raster (4 tablas en una sola imagen) -> division
+    2x2 por el punto medio del rect.
+
+Pipeline:
+  1. Decodifica texto por GID (arial*.ttf).
+  2. Clusters de figuras por pagina (imagenes + drawings; excluye pie de
+     pagina y subrayados decorativos h=0).
+  3. Corte por marcadores PREGUNTA / Texto; asignacion de lineas por
+     posicion (pno, y).
+  4. Bandas de chars por pregunta: opciones (etiquetas a-d), satelites
+     super/sub -> Unicode; formulas inline -> crops [[img:...]].
+  5. Pasajes: lineas + figuras en orden y; titulo centrado.
+  6. Claves de la ultima pagina.
+  7. Recortes a _static/simulacros/img/2025/.
 """
 import fitz, re, json, os, io, sys, shutil, statistics
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -27,109 +40,97 @@ if os.path.isdir(IMG_DIR):
     shutil.rmtree(IMG_DIR)
 os.makedirs(IMG_DIR, exist_ok=True)
 
-# ==================================================== mapas GID por fuente
-FONTS = {}
+# ================================================== mapas GID de fuentes Arial
+maps = {}
 for path, names in ((r'C:\Windows\Fonts\arial.ttf', ['ArialMT', 'Arial']),
                     (r'C:\Windows\Fonts\arialbd.ttf', ['Arial-BoldMT']),
                     (r'C:\Windows\Fonts\ariali.ttf', ['Arial-ItalicMT']),
-                    (r'C:\Windows\Fonts\arialbi.ttf', ['Arial-BoldItalicMT']),
-                    (r'C:\Windows\Fonts\calibrib.ttf', ['Calibri-Bold'])):
+                    (r'C:\Windows\Fonts\arialbi.ttf',
+                     ['Arial-BoldItalicMT'])):
     f = TTFont(path)
     go = f.getGlyphOrder()
     rev = {}
     for u, g in f.getBestCmap().items():
         rev.setdefault(g, u)
     for n in names:
-        FONTS[n] = (go, rev)
-
-# MYingHei (vinetas de listas en Texto 6): gid 3 = vineta
-MANUAL_FONTS = {'MYingHeiPRCW48-W4': {3: '\u2022'}}
+        maps[n] = (go, rev)
 
 LIG = {'\ufb01': 'fi', '\ufb02': 'fl', '\ufb00': 'ff', '\ufb03': 'ffi',
        '\ufb04': 'ffl'}
 CTRL = re.compile(r'[\x00-\x08\x0b-\x1f\x7f]')
 
-HEADERS = {'COMPETENCIA LECTORA', 'COMPETENCIAS MATEMÁTICAS'}
-MARK_RE = re.compile(r'^\s*PREGUNTA\s+(\d{1,2})\s*$')
-TEXTO_RE = re.compile(r'^\s*Texto\s+(\d{1,2})\s*$')
 
-
-def gid_char(font, gid):
-    if font in MANUAL_FONTS:
-        return MANUAL_FONTS[font].get(gid)
-    fr = FONTS.get(font)
-    if fr is None or gid is None or not (0 <= gid < len(fr[0])):
+def gid2ch(font, gid):
+    mr = maps.get(font)
+    if mr is None or gid is None:
         return None
-    u = fr[1].get(fr[0][gid])
-    return chr(u) if u else None
+    go, rev = mr
+    if 0 <= gid < len(go):
+        u = rev.get(go[gid])
+        if u:
+            return chr(u)
+    return None
 
 
-# ============================================================ carga de paginas
 doc = fitz.open(PDF)
-pages = []          # pno -> [lineas {pno,y0,x0,x1,y1,text,chars}]
-fig_rects = {}      # pno -> [fitz.Rect] de figuras candidatas
+NP = doc.page_count
+FIRST_P = 2                 # 0-based: paginas 1-2 son portada
+KEYS_P = NP - 1             # ultima pagina: claves
+INLINE_H = 34               # altura maxima de formula inline
+INLINE_W = 430              # ancho maximo de formula inline
 
-for pno in range(doc.page_count):
-    page = doc[pno]
+
+def decode_page(pno):
+    """Lineas de la pagina con chars decodificados por GID."""
+    lines = []
+    raw = doc[pno].get_text('rawdict')
     gmap = {}
-    for sp in page.get_texttrace():
+    for sp in doc[pno].get_texttrace():
         base = sp['font'].split('+')[-1]
         for c in sp['chars']:
             ox, oy = c[2]
             gmap[(round(ox, 1), round(oy, 1))] = (base, c[1])
-    lines = []
-    for b in page.get_text('rawdict')['blocks']:
+    for b in raw['blocks']:
         if b.get('type') != 0:
             continue
         for ln in b['lines']:
             chars = []
             for s in ln['spans']:
+                base = s.get('font', '').split('+')[-1]
+                hei = 'MYingHei' in base
                 for ch in s.get('chars', []):
                     ox, oy = ch['origin']
                     font, gid = gmap.get((round(ox, 1), round(oy, 1)),
-                                         (s.get('font', '').split('+')[-1],
-                                          None))
-                    c = gid_char(font, gid)
+                                         (base, None))
+                    c = gid2ch(font, gid)
                     if c is None:
                         c = ch['c']
                     c = LIG.get(c, c)
+                    if hei:
+                        c = '•'          # vinetas de la Matriz de Eisenhower
                     if CTRL.match(c):
                         continue
                     chars.append({'c': c, 'bbox': ch['bbox'], 'oy': oy,
-                                  'ox': ox, 'font': font, 'rank': 0})
-            text = ''.join(c['c'] for c in chars)
-            if not text.strip():
-                continue
-            bb = ln['bbox']
-            lines.append({'pno': pno, 'y0': bb[1], 'y1': bb[3], 'x0': bb[0],
-                          'x1': bb[2], 'text': text, 'chars': chars})
+                                  'ox': ox, 'font': font,
+                                  'size': round(s.get('size', 0), 1)})
+            txt = ''.join(c['c'] for c in chars)
+            if txt.strip():
+                bb = ln['bbox']
+                lines.append({'pno': pno, 'y0': bb[1], 'y1': bb[3],
+                              'x0': bb[0], 'x1': bb[2], 'chars': chars,
+                              'text': txt})
     lines.sort(key=lambda l: (round(l['y0'], 1), l['x0']))
-    pages.append(lines)
-
-    # ---- figuras: rasters y drawings (sin pie de pagina ni subrayados)
-    rasters = [fitz.Rect(i['bbox']) for i in page.get_image_info()]
-    draws = []
-    for d in page.get_drawings():
-        r = d['rect']
-        if r.y0 > 780:                       # logo del pie
-            continue
-        if r.height < 2.5 and r.width > 40:  # subrayados/lineas
-            continue
-        if r.height < 0.5:                   # linea (p.ej. '=' o fraccion)
-            r = fitz.Rect(r.x0, r.y0, r.x1, r.y0 + 1.0)
-        if r.width < 0.5:
-            r = fitz.Rect(r.x0, r.y0, r.x0 + 1.0, r.y1)
-        draws.append(r)
-    fig_rects[pno] = {'rasters': rasters, 'draws': draws}
+    return lines
 
 
+# ======================================================== clusters de figuras
 def clusters(rects, gap=10):
     groups = []
     for r in sorted(rects, key=lambda r: (round(r.y0, 1), r.x0)):
         for g in groups:
             if not (r.x0 > g.x1 + gap or r.x1 < g.x0 - gap or
                     r.y0 > g.y1 + gap or r.y1 < g.y0 - gap):
-                g.include_rect(r)
+                g.include_rect(fitz.Rect(r))
                 break
         else:
             groups.append(fitz.Rect(r))
@@ -150,176 +151,207 @@ def clusters(rects, gap=10):
     return groups
 
 
-PAGE_AREA = doc[2].rect.get_area()
-BG_RATIO = 0.85          # por encima de esto se considera fondo de pagina
-all_figs = {}
-for pno in range(doc.page_count):
+pages = {}          # pno -> lineas
+page_figs = {}      # pno -> [{'rect','has_img','inline','chars'}]
+for pno in range(FIRST_P, KEYS_P):
+    lines = decode_page(pno)
+    pages[pno] = lines
+    rects = []
+    info = doc[pno].get_image_info()
+    for i in info:
+        rects.append(fitz.Rect(i['bbox']))
+    for d in doc[pno].get_drawings():
+        r = d['rect']
+        if r.y0 > 785:                    # icono del pie de pagina
+            continue
+        rects.append(r)
     figs = []
-    if pno < 2:                              # portada e instrucciones
-        all_figs[pno] = figs
-        continue
-    src = fig_rects[pno]
-    # cada raster es una figura independiente (no se fusionan entre si)
-    for rr in src['rasters']:
-        if rr.get_area() > BG_RATIO * PAGE_AREA:  # fondo de pagina
+    for g in clusters(rects):
+        if g.y0 > 780:
             continue
-        figs.append({'rect': fitz.Rect(rr), 'raster': True})
-    # los drawings se agrupan por proximidad y se fusionan con el raster
-    # que solapan (graficos con superposicion vectorial)
-    for g in clusters(src['draws']):
-        if g.y0 > 780 or g.get_area() < 60 or g.get_area() > BG_RATIO * PAGE_AREA:
+        hi = any(i['bbox'][0] >= g.x0 - 1 and i['bbox'][2] <= g.x1 + 1 and
+                 i['bbox'][1] >= g.y0 - 1 and i['bbox'][3] <= g.y1 + 1
+                 for i in info)
+        if g.height < 2 and not hi:       # subrayado decorativo
             continue
-        host = None
-        for f in figs:
-            inter = fitz.Rect(f['rect']) & g
-            if inter.get_area() > 0.25 * g.get_area():
-                host = f
-                break
-        if host is not None:
-            host['rect'].include_rect(g)
-        else:
-            figs.append({'rect': g, 'raster': False})
-    figs.sort(key=lambda f: (round(f['rect'].y0, 1), f['rect'].x0))
-    all_figs[pno] = figs
+        if g.get_area() < 150:
+            continue
+        figs.append({'rect': g, 'has_img': hi, 'chars': [],
+                     'inline': g.height <= INLINE_H and g.width <= INLINE_W})
+    page_figs[pno] = figs
 
-# ------------------------------------------------ marcadores y textos
-marks = []      # (pno, y, n)
-textos = []     # (pno, y, n)
-for pno, lines in enumerate(pages):
-    for ln in lines:
+# =============================== formulas inline: absorcion y consumo chars
+fig_of_char = {}
+excluded_lines = set()
+for pno, figs in page_figs.items():
+    chars = [c for ln in pages[pno] for c in ln['chars']]
+    for fg in figs:
+        r = fitz.Rect(fg['rect'])
+        if fg['inline']:
+            if not fg['has_img']:
+                # formula vectorial: absorbe chars de formula (size chico)
+                # cercanos en la misma linea, iterativamente
+                pending = [c for c in chars
+                           if c['c'].strip() and c['size'] < 10.6]
+                for _ in range(8):
+                    zone = fitz.Rect(r.x0 - 3, r.y0 - 2.5,
+                                     r.x1 + 10, r.y1 + 2.5)
+                    new = [c for c in pending
+                           if r.y0 - 2.5 <= (c['bbox'][1] + c['bbox'][3]) / 2
+                           <= r.y1 + 2.5 and
+                           zone.x0 <= (c['bbox'][0] + c['bbox'][2]) / 2
+                           <= zone.x1]
+                    if not new:
+                        break
+                    for c in new:
+                        pending.remove(c)
+                        fg['chars'].append(c)
+                        fig_of_char[id(c)] = fg
+                    for c in new:
+                        r.include_rect(fitz.Rect(c['bbox']))
+            # nucleo: cualquier char (incl. espacios) con centro dentro +2
+            core = fitz.Rect(fg['rect'].x0 - 2, fg['rect'].y0 - 2,
+                             fg['rect'].x1 + 2, fg['rect'].y1 + 2)
+            for c in chars:
+                if id(c) in fig_of_char:
+                    continue
+                cx = (c['bbox'][0] + c['bbox'][2]) / 2
+                cy = (c['bbox'][1] + c['bbox'][3]) / 2
+                if core.x0 <= cx <= core.x1 and core.y0 <= cy <= core.y1:
+                    fg['chars'].append(c)
+                    fig_of_char[id(c)] = fg
+            fg['rect'] = r
+        else:
+            for ln in pages[pno]:
+                cy = (ln['y0'] + ln['y1']) / 2
+                cx = (ln['x0'] + ln['x1']) / 2
+                t = ln['text'].strip()
+                if r.x0 - 2 <= cx <= r.x1 + 2 and r.y0 - 2 <= cy <= r.y1 + 2:
+                    if re.match(r'^[a-d]\)', t):
+                        continue        # etiquetas dentro de figuras: quedan
+                    excluded_lines.add(id(ln))
+            fg['rect'] = r
+
+# ============================================================== marcadores
+PRE_G_RE = re.compile(r'^\s*PREGUNTA\s+(\d{1,2})\s*$')
+TEXTO_RE = re.compile(r'^\s*Texto\s+(\d{1,2})\s*$')
+
+marks = []          # (pno, y, n)
+textos = []         # (pno, y, n)
+for pno in range(FIRST_P, KEYS_P):
+    for ln in pages[pno]:
         t = ln['text'].strip()
-        m = MARK_RE.match(t)
-        if m and ln['x0'] < 150:
+        m = PRE_G_RE.match(t)
+        if m:
             marks.append((pno, ln['y0'], int(m.group(1))))
             continue
         m = TEXTO_RE.match(t)
-        if m and ln['x0'] < 150:
+        if m:
             textos.append((pno, ln['y0'], int(m.group(1))))
+marks.sort(key=lambda t: (t[0], t[1]))
+textos.sort(key=lambda t: (t[0], t[1]))
+print('marcadores:', len(marks), [m[2] for m in marks])
+print('textos:', [(t[2], t[0] + 1, round(t[1], 1)) for t in textos])
 
-marks_s = sorted(marks, key=lambda t: (t[0], t[1]))
-textos_s = sorted(textos, key=lambda t: (t[0], t[1]))
-print('marcadores:', len(marks_s), [m[2] for m in marks_s])
-print('textos:', [(t[2], t[0] + 1, round(t[1], 1)) for t in textos_s])
+# region de pasaje: del marcador Texto N al primer PREGUNTA posterior
+passage_regions = []
+for (pno, y, n) in textos:
+    end = (KEYS_P, 1e9)
+    for (mp, my, mn) in marks:
+        if (mp, my) > (pno, y):
+            end = (mp, my)
+            break
+    passage_regions.append({'n': n, 'pno': pno, 'y': y, 'end': end})
 
-# lineas de cuerpo
+
+def region_at(pno, y):
+    for r in passage_regions:
+        if (pno, y) > (r['pno'], r['y']) and (pno, y) < r['end']:
+            return r['n']
+    return None
+
+
+# ------------------------------------------------------- titulos de pasajes
+passage_title = {}
+title_line_ids = set()
+for r in passage_regions:
+    pno, y0 = r['pno'], r['y']
+    prev = None
+    for ln in pages[pno]:
+        if ln['y0'] <= y0 + 2:
+            continue
+        if ln['y0'] > y0 + 48:
+            break
+        solid = [c for c in ln['chars'] if c['c'].strip()]
+        if not solid:
+            continue
+        bold = all(c['font'] == 'Arial-BoldMT' for c in solid)
+        centered = ln['x0'] > 100
+        if bold and centered:
+            passage_title[r['n']] = (passage_title.get(r['n'], '') + ' ' +
+                                     ln['text'].strip()).strip()
+            title_line_ids.add(id(ln))
+            prev = ln
+            continue
+        if prev is not None and ln['y0'] - prev['y0'] > 20:
+            break
+        prev = ln
+
+# ============================================ lineas de cuerpo y asignacion
+is_marker = set()
+for pno in range(FIRST_P, KEYS_P):
+    for ln in pages[pno]:
+        t = ln['text'].strip()
+        if PRE_G_RE.match(t) or TEXTO_RE.match(t):
+            is_marker.add(id(ln))
+
+
 def is_body(ln):
-    t = ln['text'].strip()
-    if ln['y0'] < 60 or ln['y0'] > 780:
+    if not (60 < ln['y0'] < 785):
         return False
-    if ln['pno'] == doc.page_count - 1:      # claves
-        return False
-    if t in HEADERS:
-        return False
-    if MARK_RE.match(t) or TEXTO_RE.match(t):
+    if id(ln) in is_marker or id(ln) in title_line_ids:
         return False
     return True
 
 
-body = [ln for pno, lines in enumerate(pages) for ln in lines
-        if is_body(ln)]
-body.sort(key=lambda ln: (ln['pno'], round(ln['y0'], 1), ln['x0']))
+body = []
+for pno in sorted(pages):
+    for ln in pages[pno]:
+        if is_body(ln):
+            body.append(ln)
 
-# asignacion por eventos (pregunta / inicio de texto)
-events = sorted([(pno, y, ('q', n)) for (pno, y, n) in marks_s] +
-                [(pno, y, ('texto', n)) for (pno, y, n) in textos_s],
+# eventos: marcadores de pregunta y de texto
+events = sorted([(pno, y, ('q', n)) for (pno, y, n) in marks] +
+                [(pno, y, ('texto', n)) for (pno, y, n) in textos],
                 key=lambda t: (t[0], t[1]))
-assign = {}       # id(linea) -> ('q', n) | ('lee', idx)
-passage_of = {}   # n pregunta -> idx pasaje (0 = sin pasaje)
+
+assign = {}           # id(line) -> ('q', n) | ('texto', n)
 ev_i = -1
-cur_q = None
-cur_region = None
-cur_region_q = None      # region de pasaje activa para las preguntas
-n_regions = len(textos_s)
-for ln in body:
+cur = None
+for ln in sorted(body, key=lambda l: (l['pno'], round(l['y0'], 1), l['x0'])):
+    if id(ln) in excluded_lines:
+        continue
     key = (ln['pno'], ln['y0'])
-    while ev_i + 1 < len(events) and (events[ev_i + 1][0],
-                                      events[ev_i + 1][1]) <= (key[0],
-                                                               key[1] + 4.5):
+    while ev_i + 1 < len(events) and \
+            (events[ev_i + 1][0], events[ev_i + 1][1]) <= (key[0], key[1] + 4.5):
         ev_i += 1
-        kind, val = events[ev_i][2]
-        if kind == 'q':
-            passage_of[val] = (cur_region_q + 1) \
-                if cur_region_q is not None else 0
-            cur_q, cur_region = val, None
-        else:
-            cur_q = None
-            cur_region = textos_s.index(
-                (events[ev_i][0], events[ev_i][1], val))
-            cur_region_q = cur_region
-    if cur_q is not None:
-        assign[id(ln)] = ('q', cur_q)
-    elif cur_region is not None:
-        assign[id(ln)] = ('lee', cur_region)
+        cur = events[ev_i][2]
+    if cur is not None:
+        assign[id(ln)] = cur
 
-n_q_lines = {n: 0 for n in range(1, 61)}
-n_lee_lines = {i: 0 for i in range(n_regions)}
-orphan = 0
-for ln in body:
-    a = assign.get(id(ln))
-    if a is None:
-        orphan += 1
-    elif a[0] == 'q':
-        n_q_lines[a[1]] += 1
-    else:
-        n_lee_lines[a[1]] += 1
-print('lineas sin asignar:', orphan)
-print('q con <2 lineas:', {n: c for n, c in n_q_lines.items() if c < 2})
-print('pasajes con lineas:', n_lee_lines)
-
-# ================================================================= n u c l e o
-bars = {}
-for pno in range(doc.page_count):
-    bs = []
-    sq_bx1 = [c['bbox'][2] for ln in pages[pno] for c in ln['chars']
-              if c['c'] == '\u221a']
-    for d in doc[pno].get_drawings():
-        r = d['rect']
-        if 4 <= r.width <= 60 and r.height <= 2 and 60 < r.y0 < 780:
-            if any(abs(x - r.x0) < 2.5 for x in sq_bx1):
-                continue
-            bs.append((r.x0, r.y0, r.x1, r.y1))
-    bars[pno] = bs
-
-SUP = {'0': '\u2070', '1': '\u00b9', '2': '\u00b2', '3': '\u00b3',
-       '4': '\u2074', '5': '\u2075', '6': '\u2076', '7': '\u2077',
-       '8': '\u2078', '9': '\u2079', '+': '\u207a', '\u2212': '\u207b',
-       '-': '\u207b', '=': '\u207c', '(': '\u207d', ')': '\u207e',
-       'x': '\u02e3', 'n': '\u207f', 'a': '\u1d43', 'b': '\u1d47',
-       'c': '\u1d9c', 'd': '\u1d48', 'e': '\u1d49', 'k': '\u1d4f',
-       'm': '\u1d50', 'o': '\u1d52', 'p': '\u1d56', 't': '\u1d57',
-       'u': '\u1d58', 'v': '\u1d5b'}
-SUB = {'0': '\u2080', '1': '\u2081', '2': '\u2082', '3': '\u2083',
-       '4': '\u2084', '5': '\u2085', '6': '\u2086', '7': '\u2087',
-       '8': '\u2088', '9': '\u2089', '+': '\u208a', '\u2212': '\u208b',
-       '-': '\u208b', '=': '\u208c', '(': '\u208d', ')': '\u208e',
-       'a': '\u2090', 'e': '\u2091', 'o': '\u2092', 'x': '\u2093',
-       'k': '\u2096', 'm': '\u2098', 'n': '\u2099', 'p': '\u209a',
-       't': '\u209c', 'v': '\u1d65'}
-
-# ventana de super/subindice para Arial 11pt (dy medido = 5.5)
-SUP_DY = (3.5, 6.4)
-
-
-def render_text(chars):
-    return ''.join(c['c'] for c in
-                   sorted(chars, key=lambda c: (c['ox'], c.get('rank', 0))))
-
-
-def clean(s):
-    s = re.sub(r'\s+', ' ', s)
-    s = re.sub(r' +([,.;:!?])', r'\1', s)
-    return s.strip()
-
-
-_SUPSUB = ''.join(sorted(set(SUP.values()) | set(SUB.values())))
-_SS_SPACE = re.compile(' ([%s]+)' % re.escape(_SUPSUB))
-
-
-def tidy(s):
-    """Reubica el espacio que precede a un super/subindice despues del mismo
-    (2 11x -> 2(11) x ; 10 -27 -> 10(-27))."""
-    s = _SS_SPACE.sub(lambda m: m.group(1) + ' ', s)
-    return re.sub(r'\s+', ' ', s).strip()
+# ================================================== bandas y render de texto
+SUP = {'0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶',
+       '7': '⁷', '8': '⁸', '9': '⁹', '+': '⁺', '−': '⁻', '-': '⁻', '=': '⁼',
+       '(': '⁽', ')': '⁾', 'x': 'ˣ', 'n': 'ⁿ', 'a': 'ᵃ', 'b': 'ᵇ', 'c': 'ᶜ',
+       'd': 'ᵈ', 'e': 'ᵉ', 'f': 'ᶠ', 'g': 'ᵍ', 'h': 'ʰ', 'i': 'ⁱ', 'j': 'ʲ',
+       'k': 'ᵏ', 'l': 'ˡ', 'm': 'ᵐ', 'o': 'ᵒ', 'p': 'ᵖ', 'r': 'ʳ', 's': 'ˢ',
+       't': 'ᵗ', 'u': 'ᵘ', 'v': 'ᵛ', 'w': 'ʷ', 'y': 'ʸ', 'z': 'ᶻ'}
+SUB = {'0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄', '5': '₅', '6': '₆',
+       '7': '₇', '8': '₈', '9': '₉', '+': '₊', '−': '₋', '-': '₋', '=': '₌',
+       '(': '₍', ')': '₎', 'a': 'ₐ', 'e': 'ₑ', 'h': 'ₕ', 'i': 'ᵢ', 'j': 'ⱼ',
+       'k': 'ₖ', 'l': 'ₗ', 'm': 'ₘ', 'n': 'ₙ', 'o': 'ₒ', 'p': 'ₚ', 'r': 'ᵣ',
+       's': 'ₛ', 't': 'ₜ', 'u': 'ᵤ', 'v': 'ᵥ', 'x': 'ₓ'}
+SAT_LO, SAT_HI = 3.0, 6.9      # ventana |dy| de super/subindices
 
 
 def make_bands(chars):
@@ -338,74 +370,118 @@ def make_bands(chars):
             else b['chars'][0]['oy']
         b['x0'] = min(c['bbox'][0] for c in b['chars'])
         b['x1'] = max(c['bbox'][2] for c in b['chars'])
-        solid = [c for c in b['chars'] if c['c'].strip()]
-        b['sx0'] = min((c['bbox'][0] for c in solid), default=b['x0'])
+        b['toks'] = []
+        b['sats'] = []
+        b['nsolid'] = len(solid)
+    # satelites: banda pequena cerca (|dy| <= 6.9) de una con mas chars
+    for s in bands:
+        if s['nsolid'] >= 8:
+            continue
+        best, bd = None, 1e9
+        for b in bands:
+            if b is s or b['nsolid'] <= s['nsolid']:
+                continue
+            d = abs(b['oy'] - s['oy'])
+            if SAT_LO < d <= SAT_HI and d < bd:
+                best, bd = b, d
+        if best is not None:
+            best['sats'].append(s)
+            s['is_sat'] = True
     return bands
 
 
 def find_labels(band):
-    """Etiquetas a) b) c) d): letra minuscula + ')' pegados, sin caracter
-    pegado antes de la letra (evita 'media)' etc.)."""
+    """Etiquetas a) b) c) d); x0 < 95 o grilla (2+ etiquetas consecutivas)."""
     chs = sorted(band['chars'], key=lambda c: c['ox'])
     out = []
-    for i, a in enumerate(chs[:-1]):
-        b2 = chs[i + 1]
-        if a['c'] in 'abcd' and b2['c'] == ')':
-            gap = b2['bbox'][0] - a['bbox'][2]
-            prev = chs[i - 1] if i else None
-            ok_prev = prev is None or prev['c'].strip() == '' or \
-                a['bbox'][0] - prev['bbox'][2] > 3.5
-            if gap < 2.5 and ok_prev:
-                out.append({'letter': a['c'].upper(), 'x0': a['bbox'][0],
-                            'x1': b2['bbox'][2]})
+    for a, b2 in zip(chs, chs[1:]):
+        if (a['c'] in 'abcd' and b2['c'] == ')'
+                and b2['bbox'][0] - a['bbox'][2] < 3):
+            out.append({'letter': a['c'].upper(), 'x0': a['bbox'][0],
+                        'x1': b2['bbox'][2]})
+    if len(out) == 1 and out[0]['x0'] >= 95:
+        return []
     return out
 
 
-def box_in_raster(pno, x0, x1, oy):
-    """True si una caja de texto cae por completo dentro de una imagen raster
-    (grafico/tabla); en ese caso es una capa de texto duplicada."""
-    for r in fig_rects[pno]['rasters']:
-        if r.get_area() > BG_RATIO * PAGE_AREA:
-            continue
-        if (r.x0 - 1 <= x0 and x1 <= r.x1 + 1 and
-                r.y0 - 2 <= oy <= r.y1 + 2):
-            return True
-    return False
+def clean(s):
+    s = re.sub(r'\s+', ' ', s)
+    s = re.sub(r' +([,.;:!?])', r'\1', s)
+    return s.strip()
 
 
-def in_raster(pno, b):
-    return box_in_raster(pno, b['x0'], b['x1'], b['oy'])
+mcount = {n: 0 for n in range(1, 61)}
+fcount = {n: 0 for n in range(1, 61)}
+pcount = {}
 
 
-def bar_between_text(pno, y0, y1, x0, x1, ctx):
-    for (bx0, by0, bx1, by1) in bars.get(pno, []):
-        if not (y0 <= by0 <= y1 and bx1 > x0 and bx0 < x1):
-            continue
-        above = any(c['bbox'][2] > bx0 - 2 and c['bbox'][0] < bx1 + 2 and
-                    by0 - 12 <= c['oy'] < by0 for c in ctx)
-        below = any(c['bbox'][2] > bx0 - 2 and c['bbox'][0] < bx1 + 2 and
-                    by0 < c['oy'] <= by0 + 12 for c in ctx)
-        if above and below:
-            return True
-    return False
+def crop_chars(pno, chars, name, extra_rect=None):
+    xs0 = [c['bbox'][0] for c in chars]
+    ys0 = [c['bbox'][1] for c in chars]
+    xs1 = [c['bbox'][2] for c in chars]
+    ys1 = [c['bbox'][3] for c in chars]
+    if extra_rect is not None:
+        xs0.append(extra_rect.x0); ys0.append(extra_rect.y0)
+        xs1.append(extra_rect.x1); ys1.append(extra_rect.y1)
+    clip = fitz.Rect(min(xs0) - 3, min(ys0) - 3, max(xs1) + 3, max(ys1) + 3) \
+        & doc[pno].rect
+    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
+    pix.save(os.path.join(IMG_DIR, name))
+    return name
 
 
-def xover(band, o):
-    return min(band['x1'], o['x1']) - max(band['x0'], o['x0'])
+def crop_zone(pno, rect, name):
+    clip = fitz.Rect(rect.x0 - 3, rect.y0 - 3, rect.x1 + 3, rect.y1 + 3) \
+        & doc[pno].rect
+    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
+    pix.save(os.path.join(IMG_DIR, name))
+    return name
 
 
-def pick_opt(row, band):
-    best, bo = None, -1e9
-    for o in row['opts']:
-        v = xover(band, o)
-        if v > bo:
-            bo, best = v, o
-    return best
+def render_chars(chars, toks):
+    parts = [(t['x'], 'tok', t) for t in toks]
+    parts += [(c['bbox'][0], 'c', c) for c in chars]
+    parts.sort(key=lambda t: t[0])
+    out = []
+    for _, kind, v in parts:
+        if kind == 'tok':
+            out.append('[[img:%s]]' % v['name'])
+        else:
+            out.append(v['c'])
+    return ''.join(out)
 
 
-qinfo = {n: {'stem': [], 'opts': {}, 'rows': [], 'mcount': 0, 'fimgs': []}
+def render_full(qid, pno, band):
+    """Banda + satelites (SUP/SUB unicode) + tokens inline por x."""
+    solid = [c for c in band['chars'] if c['c'].strip()]
+    base_med = statistics.median([c['oy'] for c in solid]) if solid \
+        else band['oy']
+    merged = list(band['chars'])
+    bad = []
+    for s in band['sats']:
+        for c in s['chars']:
+            if not c['c'].strip():
+                continue
+            dy = c['oy'] - base_med
+            mp = SUP if dy < 0 else SUB
+            if SAT_LO < abs(dy) <= SAT_HI and c['c'] in mp:
+                merged.append(dict(c, c=mp[c['c']]))
+            else:
+                bad.append(c)
+    toks = list(band['toks'])
+    if bad:
+        mcount[qid] += 1
+        name = 'q%02d_m%d.png' % (qid, mcount[qid])
+        crop_chars(pno, bad, name)
+        toks = toks + [{'x': 1e9, 'name': name}]
+    return clean(render_chars(merged, toks))
+
+
+# ============================ ensamblado por pregunta (bandas + figuras)
+qinfo = {n: {'stem': [], 'rows': [], 'opts': {}, 'fimgs': [],
+             'figs_pool': []}
          for n in range(1, 61)}
-owner_state = {n: None for n in range(1, 61)}
+owner_state = {n: None for n in range(1, 61)}    # None | ('opt', letra)
 
 q_lines = {}
 for ln in body:
@@ -413,16 +489,53 @@ for ln in body:
     if a is not None and a[0] == 'q':
         q_lines.setdefault((a[1], ln['pno']), []).append(ln)
 
+q_figs = {}
+for pno, figs in page_figs.items():
+    for fg in figs:
+        r = fg['rect']
+        cy = (r.y0 + r.y1) / 2
+        rn = region_at(pno, cy)
+        if rn is not None:
+            q_figs.setdefault('p%d' % rn, []).append(
+                {'pno': pno, 'rect': fitz.Rect(r), 'cy': cy, 'fig': fg})
+            continue
+        own = None
+        for (mp, my, mn) in marks:
+            if (mp, my) <= (pno, cy + 3):
+                own = mn
+            else:
+                break
+        if own is None:
+            print('[fig sin dueno] p%d [%6.1f %6.1f %6.1f %6.1f]'
+                  % (pno + 1, r.x0, r.y0, r.x1, r.y1))
+            continue
+        q_figs.setdefault(own, []).append(
+            {'pno': pno, 'rect': fitz.Rect(r), 'cy': cy, 'fig': fg})
+
+
+def xover(b, x0, x1):
+    return min(b['x1'], x1) - max(b['x0'], x0)
+
+
 for (n, pno) in sorted(q_lines):
+    if os.environ.get('DBG_STEMS') and n <= 4:
+        print('DBG q_lines Q%d p%d: %d lineas' % (n, pno,
+                                                  len(q_lines[(n, pno)])))
     info = qinfo[n]
-    chars = [c for ln in q_lines[(n, pno)] for c in ln['chars']]
+    chars = [c for ln in q_lines[(n, pno)] for c in ln['chars']
+             if id(c) not in fig_of_char]
+    figs = sorted([f for f in q_figs.get(n, []) if f['pno'] == pno],
+                  key=lambda f: f['cy'])
     bands = make_bands(chars)
     for b in bands:
-        b['pno'] = pno
         b['labels'] = find_labels(b)
-    bands = [b for b in bands if not in_raster(pno, b)]
+    if os.environ.get('DBG_STEMS') and n <= 4:
+        for b in bands:
+            print('   banda oy%6.1f nsolid%2d sat%s lab%s | %r' % (
+                b['oy'], b['nsolid'], b.get('is_sat', False),
+                [l['letter'] for l in b['labels']],
+                ''.join(c['c'] for c in b['chars'])[:45]))
     rows = []
-    page_events = []
     for b in bands:
         if not b['labels']:
             continue
@@ -430,614 +543,217 @@ for (n, pno) in sorted(q_lines):
         opts = []
         for k, lb in enumerate(lbs):
             ox0 = lb['x1'] - 0.5
-            ox1 = lbs[k + 1]['x0'] - 2 if k + 1 < len(lbs) else 540.0
-            o = {'letter': lb['letter'], 'x0': ox0, 'x1': ox1, 'pno': pno,
-                 'row_oy': b['oy'], 'grid': len(lbs) >= 2,
-                 'base': [c for c in b['chars']
-                          if ox0 <= c['bbox'][0] < ox1],
-                 'num': [], 'den': [], 'cont': [], 'imgs': [],
-                 'constructo': False}
-            if bar_between_text(pno, b['oy'] - 12, b['oy'] + 2, ox0, ox1,
-                                chars):
-                o['constructo'] = True
-            opts.append(o)
-        rows.append({'oy': b['oy'], 'pno': pno, 'opts': opts,
-                     'grid': len(lbs) >= 2})
+            ox1 = lbs[k + 1]['x0'] - 2 if k + 1 < len(lbs) else 545.0
+            opts.append({'letter': lb['letter'], 'x0': ox0, 'x1': ox1,
+                         'pno': pno, 'row_oy': b['oy'], 'band': b,
+                         'cont': [], 'cont_toks': [], 'quad': None})
+        rows.append({'oy': b['oy'], 'pno': pno, 'opts': opts})
     for row in rows:
         info['rows'].append(row)
         for o in row['opts']:
             info['opts'].setdefault(o['letter'], o)
-        page_events.append((b['oy'], ('opt', row['opts'][-1]['letter'])))
-    consumed = set()
-    for b in bands:                      # paso A: constructos con barra
-        if b['labels']:
+    # --- figuras inline: token en su banda (|dy| <= 15 y solape x)
+    toks_free = []
+    for f in figs:
+        if not f['fig']['inline']:
+            info['figs_pool'].append(f)
             continue
-        cands = []
-        for row in rows:
-            for o in row['opts']:
-                d = abs(b['oy'] - row['oy'])
-                if d > 12 or xover(b, o) <= 0:
-                    continue
-                if b['oy'] < row['oy']:
-                    if not o['num'] and bar_between_text(
-                            pno, b['oy'], row['oy'], o['x0'], o['x1'], chars):
-                        cands.append((d, 'num', o))
-                else:
-                    if o['constructo'] and not o['den']:
-                        cands.append((d, 'den', o))
-        if cands:
-            cands.sort(key=lambda t: (t[1], t[0]))
-            d, rol, o = cands[0]
-            o[rol].append(b)
-            consumed.add(id(b))
-            page_events.append((b['oy'], ('opt', o['letter'])))
-    owner = owner_state[n]               # paso B: posicionales
-    for b in bands:
-        if b['labels'] or id(b) in consumed:
+        best, bov = None, -1e9
+        for b in bands:
+            if abs(b['oy'] - f['cy']) <= 15:
+                ov = xover(b, f['rect'].x0 - 4, f['rect'].x1 + 4)
+                if ov > bov:
+                    bov, best = ov, b
+        if best is not None and bov > 0:
+            mcount[n] += 1
+            name = 'q%02d_m%d.png' % (n, mcount[n])
+            crop_chars(pno, f['fig']['chars'], name, extra_rect=f['rect'])
+            best['toks'].append({'x': f['rect'].x0, 'name': name})
+        else:
+            mcount[n] += 1
+            name = 'q%02d_m%d.png' % (n, mcount[n])
+            crop_chars(pno, f['fig']['chars'], name, extra_rect=f['rect'])
+            toks_free.append({'y': f['rect'].y0 - 0.5, 'name': name})
+    # --- bandas restantes: continuacion de opcion o stem
+    page_events = []
+    owner = owner_state[n]
+    for b in sorted(bands, key=lambda b: b['oy']):
+        if b['labels'] or b.get('is_sat'):
             continue
         target = None
-        can_cont = b['sx0'] >= 78        # continuaciones van identadas
         if rows:
             first, last = rows[0], rows[-1]
             if b['oy'] < first['oy'] - 1e-9:
-                if can_cont and first['oy'] - b['oy'] <= 12:
-                    target = pick_opt(first, b)
-                elif can_cont and owner is not None and owner[0] == 'opt':
+                if owner is not None and owner[0] == 'opt':
                     target = info['opts'][owner[1]]
-            elif b['oy'] > last['oy'] + 1e-9:
-                if can_cont:
-                    target = pick_opt(last, b)
             else:
-                nxt = next((r for r in rows if r['oy'] > b['oy'] + 1e-9),
-                           None)
-                if can_cont and nxt is not None and \
-                        nxt['oy'] - b['oy'] <= 12:
-                    target = pick_opt(nxt, b)
-                elif can_cont:
-                    prevr = [r for r in rows if r['oy'] < b['oy'] - 1e-9]
-                    target = pick_opt(prevr[-1], b) if prevr \
-                        else pick_opt(last, b)
-        elif can_cont and owner is not None and owner[0] == 'opt':
+                src = last
+                if b['oy'] < last['oy'] - 1e-9:
+                    nxt = next((r for r in rows
+                                if r['oy'] > b['oy'] + 1e-9), None)
+                    if nxt is not None and nxt['oy'] - b['oy'] <= 15:
+                        src = nxt
+                    else:
+                        prevr = [r for r in rows if r['oy'] < b['oy'] - 1e-9]
+                        src = prevr[-1] if prevr else last
+                dx, bo = -1e9, None
+                for o in src['opts']:
+                    v = xover(b, o['x0'], o['x1'])
+                    if v > dx:
+                        dx, bo = v, o
+                target = bo if dx > 0 else None
+        elif owner is not None and owner[0] == 'opt':
             target = info['opts'][owner[1]]
         if target is not None:
             target['cont'].append(b)
             owner = ('opt', target['letter'])
         else:
-            info['stem'].append((pno, b))
+            info['stem'].append((pno, 'band', b))
             owner = None
         page_events.append((b['oy'], owner))
+    for t in sorted(toks_free, key=lambda t: t['y']):
+        if owner is not None and owner[0] == 'opt':
+            o = info['opts'][owner[1]]
+            if t['y'] > o['row_oy'] - 1:
+                o['cont_toks'].append(t)
+                owner = ('opt', owner[1])
+                page_events.append((t['y'], owner))
+                continue
+        info['stem'].append((pno, 'tok', t))
+        owner = None
+        page_events.append((t['y'], owner))
     owner_state[n] = max(page_events, key=lambda t: t[0])[1] \
         if page_events else owner
 
-# ------------------------------------------------------------- recortes
-def crop_chars(pno, chars, name):
-    x0 = min(c['bbox'][0] for c in chars)
-    y0 = min(c['bbox'][1] for c in chars)
-    x1 = max(c['bbox'][2] for c in chars)
-    y1 = max(c['bbox'][3] for c in chars)
-    clip = fitz.Rect(x0 - 3, y0 - 3, x1 + 3, y1 + 3) & doc[pno].rect
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
-    pix.save(os.path.join(IMG_DIR, name))
-    return '[[img:%s]]' % name
-
-
-def crop_fig(pno, rect, name):
-    clip = fitz.Rect(rect.x0 - 4, rect.y0 - 4, rect.x1 + 4, rect.y1 + 4) & \
-        doc[pno].rect
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
-    pix.save(os.path.join(IMG_DIR, name))
-
-
-def ink_bands(pno, rect, min_gap=3.0):
-    """Franjas de contenido (y en coords PDF) de un zona raster."""
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(2, 2), clip=rect)
-    w, h, n, px = pix.width, pix.height, pix.n, pix.samples
-    rows = []
-    for y in range(h):
-        rows.append(any(px[(y * w + x) * n] < 128
-                        for x in range(0, w, 2)))
-    bands = []
-    cur = None
-    gap = 0
-    for y, v in enumerate(rows):
-        if v:
-            if cur is None:
-                cur = [y, y]
+# -------------------- post-pass: figuras grandes y opciones 100% raster
+if os.environ.get('DBG_STEMS'):
+    for n in range(1, 8):
+        print('DBG Q%d: stem=%d rows=%d opts=%s fpool=%d' % (
+            n, len(qinfo[n]['stem']), len(qinfo[n]['rows']),
+            sorted(qinfo[n]['opts']), len(qinfo[n]['figs_pool'])))
+        for (pno, kind, obj) in qinfo[n]['stem'][:6]:
+            if kind == 'band':
+                print('    band p%d oy%.1f x[%6.1f,%6.1f] %r' % (
+                    pno, obj['oy'], obj['x0'], obj['x1'],
+                    ''.join(c['c'] for c in obj['chars'])[:50]))
             else:
-                cur[1] = y
-            gap = 0
-        elif cur:
-            gap += 1
-            if gap * 0.5 >= min_gap:
-                bands.append(cur)
-                cur = None
-    if cur:
-        bands.append(cur)
-    return [(rect.y0 + b[0] / 2.0, rect.y0 + b[1] / 2.0) for b in bands]
-
-
-def ink_cols(pno, rect, min_gap=12.0):
-    """Franjas de contenido (x en coords PDF) de una zona raster."""
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(2, 2), clip=rect)
-    w, h, n, px = pix.width, pix.height, pix.n, pix.samples
-    cols = []
-    for x in range(w):
-        cols.append(any(px[(y * w + x) * n] < 128
-                        for y in range(0, h, 2)))
-    bands = []
-    cur = None
-    gap = 0
-    for x, v in enumerate(cols):
-        if v:
-            if cur is None:
-                cur = [x, x]
-            else:
-                cur[1] = x
-            gap = 0
-        elif cur:
-            gap += 1
-            if gap * 0.5 >= min_gap:
-                bands.append(cur)
-                cur = None
-    if cur:
-        bands.append(cur)
-    return [(rect.x0 + b[0] / 2.0, rect.x0 + b[1] / 2.0) for b in bands]
-
-
-def rects_close(a, b, tol=8.0):
-    gap = max(a.x0 - b.x1, b.x0 - a.x1, a.y0 - b.y1, b.y0 - a.y1)
-    return gap <= tol
-
-
-def chain_bands(band_list):
-    chains = []
-    for b in band_list:
-        if chains and b['oy'] - chains[-1][-1]['oy'] <= 12:
-            chains[-1].append(b)
-        else:
-            chains.append([b])
-    return chains
-
-
-INLINE_L, INLINE_R = '\ue000', '\ue001'
-
-
-def render_chain(pno, qid, chain):
-    def nsolid(b):
-        return len([c for c in b['chars'] if c['c'].strip()])
-
-    if len(chain) == 1:
-        return clean(render_text(chain[0]['chars']))
-    fulls = [b for b in chain if nsolid(b) >= 8]
-    if not fulls:
-        base = max(chain, key=nsolid)
-        t = render_base(pno, qid, base,
-                        [b for b in chain if b is not base], whole=True)
-        if t is not None:
-            return t
-        info = qinfo[qid]
-        info['mcount'] += 1
-        name = 'q%02d_m%d.png' % (qid, info['mcount'])
-        return crop_chars(pno, [c for b in chain for c in b['chars']], name)
-    if len(fulls) == 1:
-        base = fulls[0]
-        return render_base(pno, qid, base,
-                           [b for b in chain if b is not base])
-    sats = [b for b in chain if b not in fulls]
-    fulls.sort(key=lambda b: b['oy'])
-    parts = []
-    for base in fulls:
-        mine = [b for b in sats
-                if min(fulls, key=lambda f: abs(f['oy'] - b['oy'])) is base]
-        t = render_base(pno, qid, base, mine)
-        if t:
-            parts.append(t)
-    return ' '.join(parts)
-
-
-def render_base(pno, qid, base, sats, whole=False):
-    solid = [c for c in base['chars'] if c['c'].strip()]
-    base_med = statistics.median([c['oy'] for c in solid]) if solid \
-        else base['oy']
-    merged = list(base['chars'])
-    bad = []
-    for b in sats:
-        for c in b['chars']:
-            if not c['c'].strip():
-                continue
-            dy = c['oy'] - base_med
-            mp = SUP if dy < 0 else SUB
-            if SUP_DY[0] < abs(dy) <= SUP_DY[1] and c['c'] in mp:
-                merged.append(dict(c, c=mp[c['c']], rank=1))
-            else:
-                bad.append(c)
-    if not bad:
-        return clean(render_text(merged))
-    if whole:
-        return None
-    info = qinfo[qid]
-    bad_sorted = sorted(bad, key=lambda c: c['ox'])
-    clusters_c = []
-    for c in bad_sorted:
-        if clusters_c and c['ox'] - clusters_c[-1]['x1'] < 18:
-            clusters_c[-1]['chars'].append(c)
-            clusters_c[-1]['x1'] = max(clusters_c[-1]['x1'], c['bbox'][2])
-        else:
-            clusters_c.append({'chars': [c], 'x0': c['ox'],
-                               'x1': c['bbox'][2]})
-    keep = list(merged)
-    tokens = []
-    for cl in clusters_c:
-        cx0, cx1 = cl['x0'] - 2, cl['x1'] + 2
-        anch = [c for c in keep
-                if c['bbox'][2] > cx0 and c['bbox'][0] < cx1]
-        cropc = list(cl['chars']) + anch
-        cx0 = min([c['ox'] for c in cropc]) - 2
-        cx1 = max([c['bbox'][2] for c in cropc]) + 2
-        info['mcount'] += 1
-        name = 'q%02d_m%d.png' % (qid, info['mcount'])
-        tokens.append((cx0, cx1, crop_chars(pno, cropc, name)))
-        keep = [c for c in keep
-                if not (c['bbox'][2] > cx0 and c['bbox'][0] < cx1)]
-    parts_txt = []
-    for (tx0, tx1, tok) in sorted(tokens, key=lambda t: t[0]):
-        pre = [c for c in keep if c['bbox'][2] <= tx0 + 2]
-        keep = [c for c in keep if c['bbox'][2] > tx0 + 2]
-        t_pre = clean(render_text(pre))
-        if t_pre:
-            parts_txt.append(t_pre)
-        parts_txt.append(tok)
-    t_rest = clean(render_text(keep))
-    if t_rest:
-        parts_txt.append(t_rest)
-    return ' '.join(parts_txt)
-
-
-# ------------------------------------------- render de stems por pregunta
-def render_stem(n):
-    info = qinfo[n]
-    stems = {}
-    by_page = {}
-    for pno, b in info['stem']:
-        if b['x0'] > 512 and len([c for c in b['chars']
-                                  if c['c'].strip()]) <= 2:
-            continue                       # digitos sueltos del margen
-        by_page.setdefault(pno, []).append(b)
-    parts = []
-    for pno in sorted(by_page):
-        for chain in chain_bands(by_page[pno]):
-            t = render_chain(pno, n, chain)
-            if t:
-                parts.append(t)
-    return ' '.join(parts)
-
-
-stems = {n: render_stem(n) for n in range(1, 61)}
-
-# ------------------------------------------------------------------ figuras
-def region_at(pno, y):
-    """Indice del pasaje cuyo rango (Texto -> primera PREGUNTA) contiene y."""
-    for ri, (tp, ty, tn) in enumerate(textos_s):
-        nxt = next(((p2, y2) for (p2, y2, k) in events
-                    if k[0] == 'q' and (p2, y2) > (tp, ty)), None)
-        if nxt is None:
-            nxt = (doc.page_count, 1e9)
-        if (pno, y) >= (tp, ty - 1) and (pno, y) < nxt:
-            return ri
-    return None
-
-
-pfigs = {}
-qfigs = {n: [] for n in range(1, 61)}
-orphan_figs = 0
-for pno in sorted(all_figs):
-    if pno >= doc.page_count - 1:
-        continue
-    for fg in sorted(all_figs[pno], key=lambda f: f['rect'].y0):
-        r = fg['rect']
-        cx, cy = (r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2
-        ri = region_at(pno, cy)
-        if ri is not None:
-            k = len(pfigs.get(ri, [])) + 1
-            name = 'p%d_f%d.png' % (ri + 1, k)
-            crop_fig(pno, r, name)
-            pfigs.setdefault(ri, []).append({'pno': pno, 'cy': cy,
-                                             'name': name})
-            continue
-        own = None
-        for (mp, my, mn) in marks_s:
-            if (mp, my) <= (pno, cy + 3):
-                own = mn
-            else:
-                break
-        if own is None:
-            orphan_figs += 1
-            print('[fig sin dueno] p%d [%6.1f %6.1f %6.1f %6.1f]'
-                  % (pno + 1, r.x0, r.y0, r.x1, r.y1))
-            continue
-        qfigs[own].append({'pno': pno, 'cy': cy, 'cx': cx, 'rect': r,
-                           'raster': fg.get('raster', False),
-                           'name': 'q%02d_f%d.png' % (own,
-                                                      len(qfigs[own]) + 1)})
-        crop_fig(pno, r, qfigs[own][-1]['name'])
-print('figuras: pasaje', {k: len(v) for k, v in pfigs.items()},
-      '| huerfanas:', orphan_figs)
-
-# ---- adjuntar figuras de pregunta:
-#      1) inline si es pequena y solapa una banda de texto (stem/cont)
-#      2) por fila de opcion si hay filas (Q7)
-#      3) si la pregunta no tiene filas: perfil de tinta con 4 franjas ->
-#         4 recortes como opciones (Q20, Q26); si no -> q.images
-INLINE_MARK = re.compile(INLINE_L + r'([^' + re.escape(INLINE_R) +
-                         r']+)' + INLINE_R)
-img_names = {}
-
-
-def split_option_image(n, f):
-    """Parte una imagen de opciones en 4 recortes: 4 franjas verticales
-    (a,b,c,d) o una rejilla 2x2 (a b / c d). Devuelve True si lo logro."""
-    info = qinfo[n]
-    r = f['rect']
-    vb = ink_bands(f['pno'], r)
-    hb = ink_cols(f['pno'], r, min_gap=26.0)
-    crops = []
-    if len(vb) == 4:
-        crops = [(r.x0, vb[k][0], r.x1, vb[k][1]) for k in range(4)]
-    elif len(vb) == 2 and len(hb) == 2:
-        for (ry0, ry1) in vb:
-            for (cx0, cx1) in hb:
-                crops.append((cx0, ry0, cx1, ry1))
-    if not crops:
-        return False
-    for k, (cx0, cy0, cx1, cy1) in enumerate(crops):
-        nm = 'q%02d_o%d.png' % (n, k + 1)
-        clip = fitz.Rect(cx0 - 2, cy0 - 2, cx1 + 2, cy1 + 2) & \
-            doc[f['pno']].rect
-        pix = doc[f['pno']].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM),
-                                       clip=clip)
-        pix.save(os.path.join(IMG_DIR, nm))
-        info['opts'].setdefault(
-            'ABCD'[k], {'letter': 'ABCD'[k], 'imgs': [], 'cont': [],
-                        'num': [], 'den': [], 'base': [],
-                        'constructo': False, 'pno': f['pno'],
-                        'row_oy': cy0, 'x0': cx0, 'x1': cx1})
-        info['opts']['ABCD'[k]]['imgs'].append(nm)
-    return True
-
-
-def absorb_into(pno, rect, bands):
-    """Incorpora al recorte de una figura vectorial los caracteres que caen
-    dentro de su rect (p.ej. el radicando de una raiz o la 'x' de f(x)).
-    Devuelve True si absorbio algun caracter."""
-    got = False
-    for (bpno, b) in bands:
-        if bpno != pno:
-            continue
-        keep = []
-        for c in b['chars']:
-            if INLINE_L in c['c']:
-                keep.append(c)
-                continue
-            cb = c['bbox']
-            inside_x = cb[0] >= rect.x0 - 1 and cb[0] <= rect.x1 + 1
-            inside_y = rect.y0 - 1 <= c['oy'] <= rect.y1 + 2
-            if c['c'].strip() and inside_x and inside_y:
-                rect.x0 = min(rect.x0, cb[0])
-                rect.x1 = max(rect.x1, cb[2])
-                got = True
-            else:
-                keep.append(c)
-        b['chars'] = keep
-    return got
-
-
-def attach_figs():
-    for n in range(1, 61):
-        info = qinfo[n]
-        # bandas de texto disponibles (stem + conts de opciones)
-        bands_all = list(info['stem'])
-        for row in info['rows']:
-            for o in row['opts']:
-                bands_all += [(b['pno'], b) for b in o['cont']]
-        for f in qfigs[n]:
-            r = f['rect']
-            fh = r.y1 - r.y0
-            fw = r.x1 - r.x0
-            # 1) imagen alineada con una fila de opcion (Q7)
-            rows_pg = sorted([row for row in info['rows']
-                              if row['pno'] == f['pno']],
-                             key=lambda r2: r2['oy'])
-            aligned = [row for row in rows_pg
-                       if abs(row['oy'] - f['cy']) <= 16]
-            if aligned and fh <= 40:
-                row = min(aligned, key=lambda r2: abs(r2['oy'] - f['cy']))
-                best_o, bo = None, -1e9
-                for o in row['opts']:
-                    ov = min(f['cx'], o['x1']) - max(f['cx'], o['x0'])
-                    if ov > bo:
-                        bo, best_o = ov, o
-                if best_o is not None and bo > -20:
-                    best_o['imgs'].append(f['name'])
-                    f['used'] = 'opt:' + best_o['letter']
-                    continue
-            # 2) figura pequena pegada a una banda de texto -> token inline
-            best, bscore = None, 1e9
-            fcy = (r.y0 + r.y1) / 2
-            for (bpno, b) in bands_all:
-                if bpno != f['pno']:
-                    continue
-                dv = abs(fcy - b['oy'])
-                ox = min(b['x1'], r.x1) - max(b['x0'], r.x0)
-                gapx = max(0.0, max(b['x0'] - r.x1, r.x0 - b['x1']))
-                if ox > 0 or gapx <= 15:
-                    score = dv + gapx * 0.4
-                    if score < bscore:
-                        bscore, best = score, b
-            if best is not None and fh <= 26 and fw <= 130 and bscore <= 13:
-                if not f['raster'] and absorb_into(f['pno'], r, bands_all):
-                    crop_fig(f['pno'], r, f['name'])
-                if os.environ.get('DBG') and n in (17, 20):
-                    print('INLINE Q%d %s rect[%.1f %.1f %.1f %.1f] raster=%s'
-                          % (n, f['name'], r.x0, r.y0, r.x1, r.y1,
-                             f['raster']))
-                pseudo = {'c': INLINE_L + f['name'] + INLINE_R,
-                          'bbox': (r.x0, r.y0, r.x1, r.y1),
-                          'oy': fcy, 'ox': r.x0, 'rank': 1}
-                best['chars'].append(pseudo)
-                img_names[f['name']] = f['name']
-                f['used'] = 'inline'
-                continue
-            # 3) pregunta sin filas de opciones: partir la imagen de opciones
-            if not info['rows'] and split_option_image(n, f):
-                f['used'] = 'optsplit'
-                continue
-            # 4) figura del enunciado (se fusiona con otras cercanas luego)
-            if not f['raster']:
-                absorb_into(f['pno'], r, bands_all)
-            info['fimgs'].append({'name': f['name'], 'pno': f['pno'],
-                                  'rect': fitz.Rect(r)})
-            f['used'] = 'qimg'
-    # fusiona figuras del enunciado muy cercanas o solapadas en un recorte
-    for n in range(1, 61):
-        info = qinfo[n]
-        merged = []
-        for item in info['fimgs']:
-            for m in merged:
-                if m['pno'] == item['pno'] and \
-                        rects_close(m['rect'], item['rect'], tol=8.0):
-                    m['rect'].include_rect(item['rect'])
-                    break
-            else:
-                merged.append({'pno': item['pno'],
-                               'rect': fitz.Rect(item['rect'])})
-        names = []
-        for k, m in enumerate(merged):
-            nm = 'q%02d_g%d.png' % (n, k + 1)
-            crop_fig(m['pno'], m['rect'], nm)
-            names.append(nm)
-        info['fimgs'] = names
-
-
-attach_figs()
-
-if os.environ.get('DBG'):
-    for n in (7, 20, 27):
-        info = qinfo[n]
-        print('--- Q%d rows=%d opts=%s' % (n, len(info['rows']),
-                                           list(info['opts'].keys())))
-        for row in info['rows']:
-            print('   row p%d oy%.1f opts=%s' % (row['pno'], row['oy'],
-                                                 [o['letter'] for o in
-                                                  row['opts']]))
-        for f in qfigs[n]:
-            print('   fig %s p%d cy%.1f rect[%.1f %.1f %.1f %.1f] used=%s'
-                  % (f['name'], f['pno'], f['cy'], f['rect'].x0, f['rect'].y0,
-                     f['rect'].x1, f['rect'].y1, f.get('used')))
-        print('   fimgs=', info['fimgs'])
-    for pno in (3, 6, 8, 11, 12):
-        print('--- p%d figs:' % (pno + 1))
-        for f in all_figs[pno]:
-            r = f['rect']
-            print('   [%.1f %.1f %.1f %.1f] raster=%s' % (r.x0, r.y0, r.x1,
-                                                          r.y1, f['raster']))
-        print('   marks:', [(round(y, 1), m) for (p, y, m) in marks_s
-                            if p == pno])
-
-# re-render de stems (los tokens inline se insertaron en las bandas)
-stems = {n: render_stem(n) for n in range(1, 61)}
-
-
-def subst_inline(s):
-    return INLINE_MARK.sub(lambda m: '[[img:%s]]' % m.group(1), s)
-
-
-# ------------------------------------------- render de opciones por pregunta
-options = {}
+                print('    tok  p%d %r' % (pno, obj))
 for n in range(1, 61):
     info = qinfo[n]
+    pool = sorted(info['figs_pool'], key=lambda f: (f['pno'], f['cy']))
+    if not info['opts'] and len(pool) == 1:
+        r = pool[0]['rect']
+        if r.width > 120 and r.height > 80:
+            # opciones 100% raster (P27): division 2x2 por puntos medios
+            xm, ym = (r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2
+            quads = [('A', fitz.Rect(r.x0, r.y0, xm, ym)),
+                     ('B', fitz.Rect(xm, r.y0, r.x1, ym)),
+                     ('C', fitz.Rect(r.x0, ym, xm, r.y1)),
+                     ('D', fitz.Rect(xm, ym, r.x1, r.y1))]
+            for letter, q in quads:
+                mcount[n] += 1
+                name = 'q%02d_m%d.png' % (n, mcount[n])
+                crop_zone(pool[0]['pno'], q, name)
+                info['opts'][letter] = {
+                    'letter': letter, 'quad': name, 'cont': [],
+                    'cont_toks': [], 'band': None, 'x0': 0, 'x1': 0,
+                    'row_oy': 0, 'pno': pool[0]['pno']}
+            pool = []
+    for f in pool:
+        fcount[n] += 1
+        name = 'q%02d_f%d.png' % (n, fcount[n])
+        crop_zone(f['pno'], f['rect'], name)
+        info['fimgs'].append(name)
+
+# --------------------------------------------------------------- stems
+stems = {}
+for n in range(1, 61):
+    parts = []
+    for (pno, kind, obj) in sorted(qinfo[n]['stem'],
+                                   key=lambda t: (t[0], t[2].get(
+                                       'oy', t[2].get('y', 0)))):
+        if kind == 'band':
+            parts.append(render_full(n, pno, obj))
+        else:
+            parts.append('[[img:%s]]' % obj['name'])
+    stems[n] = ' '.join(p for p in parts if p)
+
+# -------------------------------------------------------------- opciones
+options = {}
+for n in range(1, 61):
     options[n] = {}
     for letter in 'ABCD':
-        o = info['opts'].get(letter)
+        o = qinfo[n]['opts'].get(letter)
         if o is None:
             options[n][letter] = ''
             continue
-        oparts = []
-        if o['constructo'] or o['num'] or o['den']:
-            allc = list(o['base'])
-            for b in o['num'] + o['den']:
-                allc += b['chars']
-            if allc:
-                info['mcount'] += 1
-                oparts.append(crop_chars(
-                    o['pno'], allc, 'q%02d_m%d.png' % (n, info['mcount'])))
-            rest = list(o['cont'])
-        else:
-            # la banda base se trata como una banda mas para poder fusionar
-            # con sus satelites (super/subindices) por posicion x
-            base_chars = list(o['base'])
-            base_band = {'chars': base_chars, 'oy': o['row_oy'],
-                         'pno': o['pno'], 'max': o['row_oy'],
-                         'x0': min((c['bbox'][0] for c in base_chars),
-                                   default=o['x0']),
-                         'x1': max((c['bbox'][2] for c in base_chars),
-                                   default=o['x1'])}
-            rest = [base_band] + list(o['cont'])
-        by_page = {}
-        for b in rest:
-            by_page.setdefault(b['pno'], []).append(b)
-        for pno2 in sorted(by_page):
-            bs = sorted(by_page[pno2], key=lambda b: b['oy'])
-            for chain in chain_bands(bs):
-                t = render_chain(pno2, n, chain)
-                if t:
-                    oparts.append(t)
-        txt = tidy(subst_inline(' '.join(p for p in oparts if p)))
-        if o['imgs']:
-            txt = (txt + ' ' + ' '.join('[[img:%s]]' % i
-                                        for i in o['imgs'])).strip()
-        options[n][letter] = txt
-
-stems = {n: tidy(subst_inline(s)) for n, s in stems.items()}
-
-# ------------------------------------------------------------------ pasajes
-passage_items = {ri: [] for ri in range(n_regions)}
-for ln in body:
-    a = assign.get(id(ln))
-    if a is not None and a[0] == 'lee':
-        if box_in_raster(ln['pno'], ln['x0'], ln['x1'], ln['y0']):
+        if o.get('quad'):
+            options[n][letter] = '[[img:%s]]' % o['quad']
             continue
-        passage_items[a[1]].append((ln['pno'], ln['y0'], 0, 'line', ln))
-for ri, fl in pfigs.items():
-    for f in fl:
-        passage_items[ri].append((f['pno'], f['cy'], 1, 'fig',
-                                  '[[img:%s]]' % f['name']))
-passage_html = {}
-for ri in range(n_regions):
-    items = sorted(passage_items[ri], key=lambda t: (t[0], t[1], t[2]))
-    parts = []
-    for it in items:
-        if it[3] == 'fig':
-            parts.append(it[4])
-        else:
-            t = tidy(clean(render_text(it[4]['chars'])))
-            if t:
-                parts.append(t)
-    passage_html[ri] = '\n\n'.join(parts)
+        items = []
+        b = o['band']
+        base_chars = [c for c in b['chars'] if c['bbox'][0] >= o['x0'] - 0.5]
+        base_toks = [t for t in b['toks'] if t['x'] >= o['x0'] - 4]
+        bb = {'chars': base_chars, 'oy': b['oy'], 'x0': b['x0'],
+              'x1': b['x1'], 'toks': base_toks, 'sats': b['sats']}
+        items.append((o['pno'], 'band', bb))
+        for cb in o['cont']:
+            ctoks = [t for t in cb['toks'] if t['x'] >= o['x0'] - 4]
+            items.append((cb.get('pno', o['pno']), 'band',
+                          {'chars': cb['chars'], 'oy': cb['oy'],
+                           'x0': cb['x0'], 'x1': cb['x1'], 'toks': ctoks,
+                           'sats': cb['sats']}))
+        for t in o['cont_toks']:
+            items.append((o['pno'], 'tok', t))
+        items.sort(key=lambda it: (it[0], it[2]['oy'] if it[1] == 'band'
+                                   else it[2].get('y', it[2]['oy'])))
+        parts = []
+        for (pno2, kind, obj) in items:
+            if kind == 'band':
+                parts.append(render_full(n, pno2, obj))
+            else:
+                parts.append('[[img:%s]]' % obj['name'])
+        options[n][letter] = ' '.join(p for p in parts if p)
 
-# ------------------------------------------------------------------- claves
-# la pagina de claves (tabla 1..30 | 31..60) tiene ToUnicode correcto:
-# se parsea con get_text y se emparejan numero+letra en orden de lectura
-ktxt = doc[doc.page_count - 1].get_text('text')
-answers = {}
-for num, le in re.findall(r'(\d{1,2})\s+([a-d])\b', ktxt):
-    if 1 <= int(num) <= 60 and int(num) not in answers:
-        answers[int(num)] = le.upper()
+# --------------------------------------------------------------- pasajes
+passage_html = {}
+for r in passage_regions:
+    n = r['n']
+    items = []
+    for ln in body:
+        a = assign.get(id(ln))
+        if a is not None and a[0] == 'texto' and a[1] == n:
+            items.append((ln['pno'], ln['y0'], 0,
+                          ' '.join(c['c'] for c in ln['chars'])))
+    for f in q_figs.get('p%d' % n, []):
+        pcount[n] = pcount.get(n, 0) + 1
+        name = 'p%d_f%d.png' % (n, pcount[n])
+        crop_zone(f['pno'], f['rect'], name)
+        items.append((f['pno'], f['cy'], 1, '[[img:%s]]' % name))
+    items.sort(key=lambda t: (t[0], t[1], t[2]))
+    parts = [clean(t[3]) if not t[3].startswith('[[img:') else t[3]
+             for t in items]
+    passage_html[n] = '\n\n'.join(p for p in parts if p)
+
+# ----------------------------------------------------------------- claves
+ktxt = doc[KEYS_P].get_text()
+pairs = re.findall(r'(?m)^\s*(\d{1,2})\s*\n\s*([a-dA-D])\s*$', ktxt)
+answers = {int(num): le.upper() for num, le in pairs}
 print('claves:', len(answers))
+
+# ------------------------------------------------- pasaje de cada pregunta
+passage_of = {}
+last_texto = None
+for (pno, y, tag) in events:
+    if tag[0] == 'texto':
+        last_texto = tag[1]
+    elif tag[0] == 'q':
+        passage_of[tag[1]] = last_texto
 
 # ------------------------------------------------------------- banco final
 GARB = re.compile(r'[\u0100-\u024f\u0400-\u052f\u0750-\u075f\u0d00-\u0d7f'
                   r'\u0d45]')
-LABEL_RE = re.compile(r'(?:^|\s)[A-D]\)')
+LABEL_RE = re.compile(r'(?:^|\s)[a-d]\)')
 bank = {'year': 2025,
         'title': 'Simulacro Oficial ENP Beca 18 — Convocatoria 2025',
         'duration_min': 120,
@@ -1046,9 +762,10 @@ bank = {'year': 2025,
              'from': 1, 'to': 30},
             {'id': 'lectura', 'label': 'Competencia Lectora', 'from': 31,
              'to': 60}],
-        'passages': [{'id': ri + 1, 'title': 'Texto %d' % (ri + 1),
-                      'html': passage_html[ri]}
-                     for ri in range(n_regions)],
+        'passages': [{'id': r['n'],
+                      'title': passage_title.get(r['n']),
+                      'html': passage_html[r['n']]}
+                     for r in passage_regions],
         'questions': []}
 flags = []
 for n in range(1, 61):
@@ -1056,15 +773,13 @@ for n in range(1, 61):
          'options': [options[n][L] for L in 'ABCD'],
          'answer': answers.get(n, ''),
          'section': 'matematica' if n <= 30 else 'lectura'}
-    if passage_of.get(n, 0):
+    if passage_of.get(n):
         q['passage'] = passage_of[n]
     if qinfo[n]['fimgs']:
         q['images'] = qinfo[n]['fimgs']
     bank['questions'].append(q)
     if not q['stem']:
         flags.append('Q%d stem vacio' % n)
-    if 'PREGUNTA' in q['stem']:
-        flags.append('Q%d stem con marcador' % n)
     for k, o in enumerate(q['options']):
         if not o:
             flags.append('Q%d opción %s vacía' % (n, 'ABCD'[k]))
@@ -1078,10 +793,11 @@ for n in range(1, 61):
     if GARB.search(q['stem']):
         flags.append('Q%d stem con chars basura' % n)
 
-for ri, p in enumerate(bank['passages']):
-    nch = len(p['html'])
-    print('pasaje %d: %d chars%s' % (ri + 1, nch,
-                                     '  [CORTO]' if nch < 300 else ''))
+for p in bank['passages']:
+    print('pasaje %d (%s): %d chars%s' % (
+        p['id'], (p['title'] or '')[:40], len(p['html']),
+        '  [CORTO]' if len(p['html']) < 300 else ''))
+
 print('flags QA (%d):' % len(flags))
 for f in flags:
     print('   -', f)
@@ -1089,36 +805,11 @@ for f in flags:
 with open(OUT_JSON, 'w', encoding='utf-8') as fh:
     json.dump(bank, fh, ensure_ascii=False, indent=1)
 print('banco escrito:', OUT_JSON)
-
-# ---- limpieza: borra recortes no referenciados por el banco
-used_imgs = set()
-
-
-def _scan(s):
-    used_imgs.update(m.group(1)
-                     for m in re.finditer(r'\[\[img:([^\]]+)\]\]', s))
-
-
-for p in bank['passages']:
-    _scan(p['html'])
-for q in bank['questions']:
-    _scan(q['stem'])
-    for o in q['options']:
-        _scan(o)
-    for im in q.get('images', []):
-        used_imgs.add(im)
-removed = 0
-for fn in os.listdir(IMG_DIR):
-    if fn not in used_imgs:
-        os.remove(os.path.join(IMG_DIR, fn))
-        removed += 1
-print('recortes usados:', len(used_imgs), '| eliminados (huerfanos):',
-      removed)
 print()
-print('--- muestra ---')
+print('--- muestra de stems/opciones ---')
 for n in range(1, 61):
     q = bank['questions'][n - 1]
     print('Q%-2d [%s] %s' % (n, q['answer'],
                              q['stem'][:66].replace('\n', ' ')))
     for k, o in enumerate(q['options']):
-        print('     %s) %s' % ('ABCD'[k], o[:64]))
+        print('     %s) %s' % ('abcd'[k], o[:64]))

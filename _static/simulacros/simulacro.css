@@ -178,6 +178,20 @@
 }
 .sim-passage-body { margin-top: 0.5rem; }
 .sim-passage-line { font-size: 0.93rem; margin: 0 0 0.15rem; }
+/* Imagenes dentro de un pasaje (p. ej. la infografia del Texto XI):
+   se muestran como bloque legible, no como formula en linea. */
+.sim-passage-img {
+  display: block;
+  margin: 0.5rem auto 0.8rem;
+  max-width: 100%;
+  max-height: 520px;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--sim-line);
+  border-radius: 8px;
+  padding: 6px;
+  background: #fff;
+}
 
 /* ---- opciones ---- */
 .sim-options { display: flex; flex-direction: column; gap: 0.45rem; }

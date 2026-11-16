@@ -1,0 +1,32 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gráfica de la función f">
+    <!-- Fondo blanco -->
+    <rect width="400" height="400" fill="white"/>
+
+    <!-- Ejes X e Y -->
+    <line x1="80" y1="20" x2="80" y2="360" stroke="black" stroke-width="2"/>
+    <polygon points="80,20 75,35 85,35" fill="black"/>
+
+    <line x1="20" y1="340" x2="380" y2="340" stroke="black" stroke-width="2"/>
+    <polygon points="380,340 365,335 365,345" fill="black"/>
+
+    <!-- Etiquetas de ejes -->
+    <text x="90" y="35" font-size="20" fill="black" font-weight="bold">Y</text>
+    <text x="368" y="332" font-size="20" fill="black" font-weight="bold">X</text>
+
+    <!-- Recta f: pasa por (0,2) y (3,0).
+         Escala: 1 unidad = 40 px. Origen en (80,340).
+         (0,2) -> (80,260) ; (3,0) -> (200,340)
+         En SVG la "y" crece hacia abajo: y = 260 + (2/3)(x - 80) -->
+    <line x1="40" y1="233" x2="270" y2="387" stroke="black" stroke-width="2"/>
+
+    <!-- Puntos en los cortes con los ejes -->
+    <circle cx="80" cy="260" r="4" fill="black"/>
+    <circle cx="200" cy="340" r="4" fill="black"/>
+
+    <!-- Etiqueta "2" en el eje Y y "3" en el eje X -->
+    <text x="62" y="266" font-size="18" fill="black" font-weight="bold">2</text>
+    <text x="194" y="362" font-size="18" fill="black" font-weight="bold">3</text>
+
+    <!-- Etiqueta "f" junto a la recta -->
+    <text x="128" y="272" font-size="20" fill="black" font-style="italic" font-weight="bold">f</text>
+</svg>
