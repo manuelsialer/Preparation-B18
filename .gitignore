@@ -17,29 +17,11 @@ _build/
 .DS_Store
 Thumbs.db
 .vscode/
+.playwright-mcp/
 # Large Raw Books
 Libros/
 
-# Simulacro extractors (fuente reproducible de los bancos)
-!scratch/build_bank_2018.py
-!scratch/build_bank_2023.py
-!scratch/build_bank_2024.py
+# Pipeline reproducible de bancos de simulacros -> tools/ (ver tools/README.md).
+# El resto de scratch/ es desechable (exploraciones de un solo uso).
+# Se mantiene versionado el trabajo de 2025:
 !scratch/build_bank_2025.py
-!scratch/qa_bank.py
-!scratch/audit_katex_syntax_rigorous.py
-# Herramientas de extraccion/verificacion 2018
-!scratch/crop_2018.py
-!scratch/ocr_region.py
-!scratch/verify_crops2018.py
-!scratch/diag_2018.py
-!scratch/ascii2.py
-!scratch/viewpng.py
-!scratch/ocr_full2018.py
-!scratch/ocr_batch2018.py
-!scratch/col_2018.py
-!scratch/blocks_2018.py
-!scratch/figdetect.py
-!scratch/ocr_2019.py
-!scratch/keys_2018.py
-!scratch/map_2018.py
-!scratch/struct_2018.py

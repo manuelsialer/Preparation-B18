@@ -6,8 +6,17 @@ Mejoras frente a build_exam1.py:
   * Recorta las figuras de cada pregunta a _static/simulacros/img/2023/.
   * Extrae las 60 claves oficiales de la ultima pagina.
 """
-import fitz, re, json, os, io, sys, shutil
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+import os
+import re
+import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import fitz  # noqa: E402
+from b18 import bank as b18bank, console, crop as b18crop  # noqa: E402
+from b18 import keys as b18keys, pdfio, textutil  # noqa: E402
+
+console.setup_console()
 
 PDF = r'temarios\2027\examen-1-beca-18-convocatoria-2023.pdf'
 OUT_JSON = r'scratch\exams\banks\2023.json'
@@ -17,132 +26,24 @@ if os.path.isdir(IMG_DIR):
     shutil.rmtree(IMG_DIR)
 os.makedirs(IMG_DIR, exist_ok=True)
 
-doc = fitz.open(PDF)
+doc = pdfio.open_pdf(PDF)
 
-
-def clusters(rects, gap=10):
-    rects = [r for r in rects if 400 < r.get_area() < 45000 and r.width < 520 and r.height < 520]
-    groups = []
-    for r in sorted(rects, key=lambda r: (r.y0, r.x0)):
-        for g in groups:
-            if not (r.x0 > g.x1 + gap or r.x1 < g.x0 - gap or r.y0 > g.y1 + gap or r.y1 < g.y0 - gap):
-                g.include_rect(r)
-                break
-        else:
-            groups.append(fitz.Rect(r))
-    changed = True
-    while changed:
-        changed = False
-        for a in range(len(groups)):
-            for b in range(a + 1, len(groups)):
-                r1, r2 = groups[a], groups[b]
-                if not (r2.x0 > r1.x1 + gap or r2.x1 < r1.x0 - gap or r2.y0 > r1.y1 + gap or r2.y1 < r1.y0 - gap):
-                    r1.include_rect(r2)
-                    groups.pop(b)
-                    changed = True
-                    break
-            if changed:
-                break
-    return groups
-
-
-def fig_rects(page):
-    rects = []
-    for info in page.get_image_info(xrefs=True):
-        rects.append(fitz.Rect(info['bbox']))
-    for d in page.get_drawings():
-        rects.append(d['rect'])
-    return clusters(rects)
-
-
-def inside_fig(bb, figs, frac=0.75):
-    """True si la linea cae mayoritariamente dentro de una figura (texto de diagrama)."""
-    for f in figs:
-        inter = (bb & f).get_area()
-        if inter > 0 and inter / max(bb.get_area(), 1) > frac:
-            return True
-    return False
-
-
-def page_lines(page, figs):
-    out = []
-    for b in page.get_text('dict')['blocks']:
-        if b.get('type') != 0:
-            continue
-        for line in b['lines']:
-            txt = ''.join(s['text'] for s in line['spans']).replace('\u00a0', ' ').strip()
-            if not txt:
-                continue
-            bb = fitz.Rect(line['bbox'])
-            if bb.y1 < 55 or bb.y0 > 800:          # encabezado / pie
-                continue
-            if re.fullmatch(r'\d{1,3}', txt) and bb.y0 > 780:
-                continue
-            if re.search(r'Examen Nacional de Preselecci|BECA 18 . Convocatoria|3iJLQD|PAGE', txt):
-                continue
-            if inside_fig(bb, figs):
-                continue
-            out.append((bb, txt))
-    return out
-
-
-def render_page(lines):
-    parts, prev = [], None
-    for bb, txt in lines:
-        if prev is not None:
-            parts.append('\n\n' if bb.y0 - prev > 8 else '\n')
-        parts.append(txt)
-        prev = bb.y1
-    return ''.join(parts)
+# Encabezado/pie del examen a descartar en la extracción de líneas.
+SKIP = [r'Examen Nacional de Preselecci', r'BECA 18 . Convocatoria', r'3iJLQD', r'PAGE']
 
 
 pages, figs_by_page = [], {}
 for pno in range(1, doc.page_count - 1):          # sin portada ni clave
-    figs = fig_rects(doc[pno])
+    figs = pdfio.fig_rects(doc[pno])
     figs_by_page[pno + 1] = figs
-    pages.append(render_page(page_lines(doc[pno], figs)))
+    pages.append(pdfio.render_page(pdfio.page_lines(doc[pno], figs, skip=SKIP)))
 
 T = '\n\n'.join(pages)
 
 
-def unwrap(s):
-    s = re.sub(r'[ \t]+\n', '\n', s)
-    s = re.sub(r'\n{3,}', '\n\n', s)
-    s = re.sub(r'(?<!\n)\n(?!\n)', ' ', s)
-    return s
-
-
-OPT_RE = re.compile(r'^\s*([A-E])\)\s*(.*)$')
-
-
-def clean(s):
-    s = re.sub(r'\s+', ' ', s)
-    s = re.sub(r'\s+([,.;:])', r'\1', s)
-    return s.strip()
-
-
-def parse_question(num, block):
-    lines = [l.strip() for l in block.splitlines() if l.strip()]
-    stem, opts, cur = [], [], None
-    for ln in lines:
-        m = OPT_RE.match(ln)
-        if m:
-            cur = [m.group(2)]
-            opts.append(cur)
-        elif cur is not None:
-            if len(opts) <= 4:
-                cur.append(ln)
-        else:
-            stem.append(ln)
-    options = [clean(' '.join(o)) for o in opts][:4]
-    while len(options) < 4:
-        options.append('')
-    return {'id': num, 'stem': clean(' '.join(stem)), 'options': options}
-
-
-def split_questions(text):
-    parts = re.split(r'(?m)^\s*(\d{1,2})\.\s*$', text)
-    return [parse_question(int(parts[i]), parts[i + 1]) for i in range(1, len(parts) - 1, 2)]
+unwrap = textutil.unwrap
+clean = textutil.clean
+split_questions = textutil.split_questions
 
 
 i_rm = T.find('RAZONAMIENTO MATEMÁTICO')
@@ -164,9 +65,7 @@ for k in range(1, len(chunks) - 1, 2):
         verb_qs.append(q)
 
 # ---- claves oficiales (60) ----
-key_txt = doc[-1].get_text()
-pairs = re.findall(r'(?m)^\s*(\d{1,2})\s*$\s*^([A-Da-d])\s*$', key_txt, re.M)
-answers = {int(n): a.upper() for n, a in pairs}
+answers = b18keys.key_pairs_from_page(doc[-1], max_q=60)
 
 # ---- deduplicar y, solo si falta, reinsertar la 38 ----
 RAW = open('scratch/exams/examen1.txt', encoding='utf-8').read()
@@ -221,10 +120,9 @@ for i, q in enumerate(allq):
     imgs = []
     for k, f in enumerate(figs):
         if y0 - 5 <= f.y0 and f.y1 <= y1 + 5:
-            out = os.path.join(IMG_DIR, f"q{q['id']:02d}_f{k + 1}.png")
-            clip = fitz.Rect(f.x0 - 4, f.y0 - 4, f.x1 + 4, f.y1 + 4)
-            pix = doc[pno].get_pixmap(matrix=fitz.Matrix(3, 3), clip=clip)
-            pix.save(out)
+            out = os.path.join(IMG_DIR, "q%02d_f%d.png" % (q['id'], k + 1))
+            clip = (f.x0 - 4, f.y0 - 4, f.x1 + 4, f.y1 + 4)
+            b18crop.crop_box(doc, pno + 1, clip, out, zoom=3)
             imgs.append(os.path.basename(out))
             n_img += 1
     if imgs:
@@ -248,5 +146,6 @@ print('stem vacio u opciones vacias:', bad)
 print('sin clave:', [q['id'] for q in allq if not q['answer']])
 print('ids:', sorted(q['id'] for q in allq))
 
-json.dump(bank, open(OUT_JSON, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+b18bank.write_bank(bank, OUT_JSON)
+print(b18bank.qa_report(bank))
 print('-> ', OUT_JSON)

@@ -13,9 +13,19 @@ Pipeline:
   5. Claves oficiales de la ultima pagina.
   6. Recorta figuras y recortes de formula a _static/simulacros/img/2024/.
 """
-import fitz, re, json, os, io, sys, shutil, statistics
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-from fontTools.ttLib import TTCollection
+import os
+import re
+import shutil
+import statistics
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import fitz  # noqa: E402
+from fontTools.ttLib import TTCollection  # noqa: E402
+from b18 import bank as b18bank, console, crop as b18crop  # noqa: E402
+from b18 import keys as b18keys, pdfio, textutil  # noqa: E402
+
+console.setup_console()
 
 PDF = r'temarios\2027\examen-2-beca-18-convocatoria-2024.pdf'
 OUT_JSON = r'scratch\exams\banks\2024.json'
@@ -133,30 +143,10 @@ NUM_RE = re.compile(r'^\d{1,2}$')
 
 
 def clusters(rects, gap=10):
-    groups = []
-    for r in sorted(rects, key=lambda r: (round(r.y0, 1), r.x0)):
-        for g in groups:
-            if not (r.x0 > g.x1 + gap or r.x1 < g.x0 + gap or
-                    r.y0 > g.y1 + gap or r.y1 < g.y0 + gap):
-                g.include_rect(r)
-                break
-        else:
-            groups.append(fitz.Rect(r))
-    changed = True
-    while changed:
-        changed = False
-        for a in range(len(groups)):
-            for b in range(a + 1, len(groups)):
-                r1, r2 = groups[a], groups[b]
-                if not (r2.x0 > r1.x1 + gap or r2.x1 < r1.x0 + gap or
-                        r2.y0 > r1.y1 + gap or r2.y1 < r1.y0 + gap):
-                    r1.include_rect(r2)
-                    groups.pop(b)
-                    changed = True
-                    break
-            if changed:
-                break
-    return groups
+    # Sin filtro de área (los rects ya vienen filtrados por el llamador);
+    # delega en la primitiva compartida con el filtro desactivado.
+    return pdfio.clusters(rects, gap=gap, min_area=0, max_area=1e18,
+                          max_side=1e18)
 
 
 def extend_table(fig, page, lines):
@@ -487,10 +477,7 @@ def render_text(chars):
     return ''.join(c['c'] for c in sorted(chars, key=lambda c: c['ox']))
 
 
-def clean(s):
-    s = re.sub(r'\s+', ' ', s)
-    s = re.sub(r' +([,.;:!?])', r'\1', s)
-    return s.strip()
+clean = textutil.clean
 
 
 def make_bands(chars):
@@ -674,15 +661,13 @@ def crop_chars(pno, chars, name):
     x1 = max(c['bbox'][2] for c in chars)
     y1 = max(c['bbox'][3] for c in chars)
     clip = fitz.Rect(x0 - 3, y0 - 3, x1 + 3, y1 + 3) & doc[pno].rect
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
-    pix.save(os.path.join(IMG_DIR, name))
+    b18crop.render_clip(doc[pno], clip, zoom=ZOOM).save(os.path.join(IMG_DIR, name))
     return '[[img:%s]]' % name
 
 
 def crop_fig(pno, rect, name):
     clip = fitz.Rect(rect.x0 - 4, rect.y0 - 4, rect.x1 + 4, rect.y1 + 4) & doc[pno].rect
-    pix = doc[pno].get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip)
-    pix.save(os.path.join(IMG_DIR, name))
+    b18crop.render_clip(doc[pno], clip, zoom=ZOOM).save(os.path.join(IMG_DIR, name))
 
 
 def chain_bands(band_list):
@@ -959,11 +944,7 @@ for ri in range(len(passage_regions)):
 
 
 # ------------------------------------------------------------------- claves
-ktxt = doc[doc.page_count - 1].get_text()
-pairs = re.findall(r'(?m)^\s*(\d{1,2})\s*\n\s*([A-Da-d])\s*$', ktxt)
-answers = {}
-for num, le in pairs:
-    answers[int(num)] = le.upper()
+answers = b18keys.key_pairs_from_page(doc[doc.page_count - 1])
 print('claves:', len(answers))
 
 
@@ -1026,8 +1007,7 @@ print('flags QA (%d):' % len(flags))
 for f in flags:
     print('   -', f)
 
-with open(OUT_JSON, 'w', encoding='utf-8') as fh:
-    json.dump(bank, fh, ensure_ascii=False, indent=1)
+b18bank.write_bank(bank, OUT_JSON)
 print('banco escrito:', OUT_JSON)
 print()
 print('--- muestra de stems/opciones ---')

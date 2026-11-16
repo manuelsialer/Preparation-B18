@@ -11,9 +11,14 @@ Pipeline:
      oficiales confirmadas (RM 1-30, CL 31-60).
   3. Copia el banco a _static/simulacros/banks/2018.json.
 """
-import io, sys, os, json, shutil
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-import fitz
+import os
+import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from b18 import bank as b18bank, console, crop as b18crop, pdfio  # noqa: E402
+
+console.setup_console()
 
 PDF = r'temarios\2027\2018+ simulacros.pdf'
 OUT_IMG = r'_static\simulacros\img\2018'
@@ -46,14 +51,7 @@ BOXES = [
 ]
 
 def crop():
-    os.makedirs(OUT_IMG, exist_ok=True)
-    d = fitz.open(PDF)
-    for name, pg, x0, y0, x1, y1 in BOXES:
-        p = d[pg - 1]
-        pm = p.get_pixmap(matrix=fitz.Matrix(5, 5), clip=fitz.Rect(x0, y0, x1, y1))
-        path = os.path.join(OUT_IMG, name)
-        pm.save(path)
-        print('crop %-11s %4dx%-4d %6d bytes' % (name, pm.width, pm.height, os.path.getsize(path)))
+    b18crop.crop_boxes(pdfio.open_pdf(PDF), BOXES, OUT_IMG, zoom=5)
 
 # --------------------------------------------------------------------------
 # 2) PASAJES
@@ -482,17 +480,13 @@ BANK = {
 
 def main():
     crop()
-    os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
-    with open(OUT_JSON, 'w', encoding='utf-8') as f:
-        json.dump(BANK, f, ensure_ascii=False, indent=1)
+    b18bank.write_bank(BANK, OUT_JSON)
     os.makedirs(os.path.dirname(PUB_JSON), exist_ok=True)
     shutil.copyfile(OUT_JSON, PUB_JSON)
-    # QA basico
-    ids = [x['id'] for x in QUESTIONS]
-    assert ids == list(range(1, 61)), 'ids incorrectos'
-    assert all(x['answer'] in 'ABCD' for x in QUESTIONS), 'clave invalida'
-    assert all(len(x['options']) == 4 for x in QUESTIONS), 'n.o de opciones != 4'
-    print('OK  banco 2018: %d preguntas, %d pasajes -> %s' % (len(QUESTIONS), len(PASSAGES), PUB_JSON))
+    issues = b18bank.validate_bank(BANK, expected=60)
+    assert not issues, issues
+    print(b18bank.qa_report(BANK))
+    print('OK  banco 2018 -> %s' % PUB_JSON)
 
 if __name__ == '__main__':
     main()
